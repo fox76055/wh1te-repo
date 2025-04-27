@@ -1,6 +1,6 @@
 - type: reaction
   id: Fentanyl
-  impact: Medium
+  impact: Low
   minTemp: 475
   reactants:
     SpaceDrugs:
@@ -16,12 +16,11 @@
     Kelotane:
       amount: 0.5
   products:
-    Fentanyl: 7.5
+    Fentanyl: 5.5
 
 - type: reaction
   id: FentanylVestine
-  impact: Medium
-  minTemp: 435
+  impact: Low
   reactants:
     SpaceDrugs:
       amount: 2
@@ -34,7 +33,7 @@
     Vestine:
       amount: 1
   products:
-    Fentanyl: 10
+    Fentanyl: 10 # vestine is annoying..
 
 - type: reaction
   id: FentanylExplosion
@@ -45,24 +44,40 @@
       amount: 2
   effects:
     - !type:ExplosionReactionEffect
-      explosionType: Default # 15 damage per intensity.
-      maxIntensity: 50
+      explosionType: Default
+      maxIntensity: 75
       intensityPerUnit: 0.25
       intensitySlope: 5
-      maxTotalIntensity: 50
+      maxTotalIntensity: 75
+
+- type: reaction # this reaction is to prevent people from mixing fent and dylo for combat meds, and to serve as something to prevent mass crystallization
+  id: FentanylIncompatibility
+  impact: High
+  reactants:
+    Fentanyl:
+      amount: 1
+    Dylovene:
+      amount: 1
+  effects:
+  - !type:ExplosionReactionEffect
+    explosionType: Default
+    maxIntensity: 100
+    intensityPerUnit: 0.65
+    intensitySlope: 5
+    maxTotalIntensity: 100
 
 - type: reaction
   id: FentanylSolidification
   impact: Low
-  quantized: true
-  minTemp: 375
+  minTemp: 310
   reactants:
     Fentanyl:
-      amount: 5
+      amount: 7
     Tricordrazine:
-      amount: 2
+      amount: 1
   products:
-    Tricordrazine: 2
+    Tricordrazine: 1
+    Dylovene: 7
   effects:
-  - !type:CreateEntityReactionEffect
-    entity: FentanylSolidified
+    - !type:CreateEntityReactionEffect
+      entity: FentanylSolidified
