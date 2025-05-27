@@ -1,14 +1,21 @@
-- type: Tag
-  id: Magazine7.62x39mmSubsonic
 
 - type: Tag
-  id: Magazine12.7x99mm
+  id: MagazineHighCaliber
 
 - type: Tag
-  id: Cartridge7.62x39mmSubsonic
+  id: CartridgeLightRifleSubsonic
 
 - type: Tag
-  id: Cartridge12.7x99mm
+  id: CartridgeHighCaliber
+
+- type: Tag
+  id: MagazineLightRifleSubsonic
+
+- type: Tag
+  id: MagazineHighCaliberExplosive
+
+- type: Tag
+  id: CartridgeHighCaliberExplosive
 
 # Mechs
 

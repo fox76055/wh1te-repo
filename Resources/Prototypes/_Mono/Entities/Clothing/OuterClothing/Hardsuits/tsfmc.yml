@@ -85,8 +85,8 @@
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
-  id: ClothingOuterHardsuiTSFMCM73-C
-  name: TSFMC M73-C tacsuit
+  id: ClothingOuterHardsuiTSFMCM73-M
+  name: TSFMC M73-M tacsuit
   description: A variant of the M73 tacsuit for combat medical and NBC use. Provides greater caustic and radiation protection.
   components:
   - type: Sprite
