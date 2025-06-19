@@ -228,44 +228,6 @@
   categories: [ HideSpawnMenu ]
 
 - type: entity
-  id: tennisball
-  name: pingpong ball
-  components:
-  - type: PointLight
-    enabled: true
-    color: "#c2385d"
-    radius: 2.0
-    energy: 7.0
-  - type: AnomalousParticle
-    particleType: Delta
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
-    layers:
-      - state: magicm_red
-        shader: unshaded
-  - type: Ammo
-    muzzleFlash: null
-  - type: Physics
-  - type: Fixtures
-    fixtures:
-      projectile:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.2,-0.2,0.2,0.2"
-        hard: false
-        mask:
-        - Opaque
-      fly-by: *flybyfixture
-  - type: Projectile
-    damage:
-      types:
-        Brute: 5
-  - type: Reflective
-    reflective:
-    - Energy
-
-
-- type: entity
   parent: AnomalousParticleEpsilonStrong
   id: NFAnomalousParticleEpsilonStrong
   categories: [ HideSpawnMenu ]
