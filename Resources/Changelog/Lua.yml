@@ -161,3 +161,16 @@ Entries:
   id: 14
   time: '2025-06-21T18:53:15.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/39
+- author: k1bitka
+  changes:
+    - type: Add
+      message: Добавлены рецепты патронов для оружия морпехов и пустоши
+    - type: Remove
+      message: Убраны датчики со всех комбинезонов тайпана
+    - type: Tweak
+      message: Размер обреза снижен до маленького(теперь его можно класть в карман)
+    - type: Fix
+      message: Исправлены магазины для дигла и сам дигл можно зарядить
+  id: 15
+  time: '2025-06-21T19:40:37.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/40
