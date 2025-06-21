@@ -21,6 +21,6 @@ namespace Content.Shared.Construction.Components
         ///     principle there is nothing wrong with using higher quality parts, but you have to be careful to not
         ///     allow them to be put into a lathe or something like that.
         /// </summary>
-        public const int MaxRating = 4;
+        public const int MaxRating = 5;
     }
 }

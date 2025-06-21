@@ -21,3 +21,20 @@
           defaultPrototype: Beaker
     - type: StealTarget
       stealGroup: MedipenTechFabCircuitboard
+
+- type: entity
+  id: ThrusterLuaMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: thruster luatech machine board
+  components:
+  - type: Sprite
+    sprite: _Lua/Objects/Misc/module.rsi
+    state: ltthruster
+  - type: MachineBoard
+    prototype: ThrusterLua
+    componentRequirements:
+      MachinePart:
+        amount: 4
+        defaultPrototype: PurCapacitorStockPart
+    stackRequirements:
+      Plasteel: 5

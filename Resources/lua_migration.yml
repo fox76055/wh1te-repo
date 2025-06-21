@@ -41,3 +41,8 @@ Cartridge120mmPF: null
 Weapon120mmUnanchor: Weapon120mm
 CrateArmoryWeapon120mmAP: null
 CrateArmoryWeapon20mmAP: null
+
+# 2025-06-21 Lua fix thrusters
+ThrusterLuaUnanchored: ThrusterLua
+ThrusterPiratesUnanchored: ThrusterPirates
+ThrusterSyndieUnanchored: ThrusterSyndie
