@@ -60,7 +60,6 @@ entities:
     - type: Transform
     - type: Map
       mapPaused: True
-    - type: GridGodMode
     - type: PhysicsMap
     - type: GridTree
     - type: MovedGrids
@@ -4280,6 +4279,7 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Frontier
+    - type: GridGodMode
     - type: StationTransit
       routes: {}
     - type: ProtectedGrid
