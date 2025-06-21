@@ -43,7 +43,7 @@
     - Toggle
   - type: SpaceArtillery
     powerChargeRate: 100
-    powerUsePassive: 20000
+    powerUsePassive: 2000
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 100
