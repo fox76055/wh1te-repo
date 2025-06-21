@@ -174,3 +174,10 @@ Entries:
   id: 15
   time: '2025-06-21T19:40:37.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/40
+- author: PyotrIgn
+  changes:
+    - type: Add
+      message: Добавлены темно-зеленые костюм, пальто и плащ.
+  id: 16
+  time: '2025-06-21T19:52:46.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/43
