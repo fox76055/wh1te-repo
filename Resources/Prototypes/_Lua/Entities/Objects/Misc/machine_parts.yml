@@ -15,6 +15,10 @@
       rating: 5
     - type: Stack
       stackType: PurCapacitor
+    - type: Tag
+      tags:
+      - PurspaceCapacitor
+      - CapacitorStockPart
 
 - type: entity
   id: PurManipulatorStockPart
@@ -31,6 +35,9 @@
       rating: 5
     - type: Stack
       stackType: PurManipulator
+    - type: Tag
+      tags:
+      - PurspaceManupulator
 
 - type: entity
   id: PurMatterBinStockPart
@@ -47,6 +54,9 @@
       rating: 5
     - type: Stack
       stackType: PurMatterBin
+    - type: Tag
+      tags:
+      - PurspaceMatterbin
 
 - type: stack
   id: PurCapacitor

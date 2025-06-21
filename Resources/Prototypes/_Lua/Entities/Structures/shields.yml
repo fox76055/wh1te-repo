@@ -4,6 +4,8 @@
   parent: [BaseStructureDisableToolUse, CircularShieldBase, BaseStructure]
   suffix: Lua, Theta, CircularShield
   components:
+    - type: Machine
+      board: MachineShieldPLTCircuitboard
     - type: CircularShield
       consumptionPerM2: 0.05
       maxWidth: 360

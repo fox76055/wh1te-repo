@@ -7,7 +7,7 @@
   id: Hevish
   name: Хевиш
   description: Линкор Lua Technologies, имеет на борту щиты, ИИ, турели и большое количество артиллерийских установок, рекомендуемый экипаж 10 человек, требует сопровождения Эсминцем Хаяр.
-  price: 930000
+  price: 1283092
   category: Medium
   group: Security
   shuttlePath: /Maps/_Lua/Shuttles/SD/hevish.yml
