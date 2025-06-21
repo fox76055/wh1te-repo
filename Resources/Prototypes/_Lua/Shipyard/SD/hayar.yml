@@ -7,7 +7,7 @@
   id: Hayar
   name: Хаяр
   description: Эсминец Lua Technologies, имеет на борту щиты, большое количество турелей, рекомендуемый экипаж 4 человека, служит для сопровожения Линкора Хевишь.
-  price: 154901
+  price: 194901
   category: Medium
   group: Security
   shuttlePath: /Maps/_Lua/Shuttles/SD/hayar.yml
