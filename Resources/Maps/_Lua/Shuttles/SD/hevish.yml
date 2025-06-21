@@ -4,8 +4,8 @@ meta:
   engineVersion: 255.1.0
   forkId: ""
   forkVersion: ""
-  time: 06/21/2025 06:22:19
-  entityCount: 4881
+  time: 06/21/2025 15:44:58
+  entityCount: 4867
 maps: []
 grids:
 - 1
@@ -1638,6 +1638,19 @@ entities:
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
+    - type: CircularShieldRadar
+  - uid: 4847
+    components:
+    - type: MetaData
+    - type: Transform
+      pos: 0.49748507,16.73651
+      parent: 1
+    - type: RadarBlip
+      enabled: False
+      visibleFromOtherGrids: True
+      shape: Ring
+      scale: 0
+      radarColor: '#A200FFFF'
     - type: CircularShieldRadar
 - proto: AirAlarm
   entities:
@@ -3434,88 +3447,6 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-44.5
-      parent: 1
-- proto: AtmosFixAirMarker
-  entities:
-  - uid: 4847
-    components:
-    - type: Transform
-      pos: 7.5,-30.5
-      parent: 1
-  - uid: 4863
-    components:
-    - type: Transform
-      pos: -6.5,21.5
-      parent: 1
-  - uid: 4864
-    components:
-    - type: Transform
-      pos: 7.5,21.5
-      parent: 1
-  - uid: 4865
-    components:
-    - type: Transform
-      pos: -7.5,16.5
-      parent: 1
-  - uid: 4866
-    components:
-    - type: Transform
-      pos: 8.5,16.5
-      parent: 1
-  - uid: 4867
-    components:
-    - type: Transform
-      pos: 4.5,-27.5
-      parent: 1
-  - uid: 4868
-    components:
-    - type: Transform
-      pos: 5.5,-28.5
-      parent: 1
-  - uid: 4869
-    components:
-    - type: Transform
-      pos: 6.5,-29.5
-      parent: 1
-  - uid: 4870
-    components:
-    - type: Transform
-      pos: 8.5,-31.5
-      parent: 1
-  - uid: 4871
-    components:
-    - type: Transform
-      pos: 9.5,-32.5
-      parent: 1
-  - uid: 4872
-    components:
-    - type: Transform
-      pos: -3.5,-27.5
-      parent: 1
-  - uid: 4873
-    components:
-    - type: Transform
-      pos: -4.5,-28.5
-      parent: 1
-  - uid: 4874
-    components:
-    - type: Transform
-      pos: -5.5,-29.5
-      parent: 1
-  - uid: 4875
-    components:
-    - type: Transform
-      pos: -6.5,-30.5
-      parent: 1
-  - uid: 4876
-    components:
-    - type: Transform
-      pos: -7.5,-31.5
-      parent: 1
-  - uid: 4877
-    components:
-    - type: Transform
-      pos: -8.5,-32.5
       parent: 1
 - proto: AtmosFixBlockerMarker
   entities:
@@ -14726,6 +14657,40 @@ entities:
     - type: Transform
       pos: 0.5,16.5
       parent: 1
+    - type: CircularShield
+      width: 6.283185307179586 rad
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.45,-0.45
+            - 0.45,-0.45
+            - 0.45,0.45
+            - -0.45,0.45
+          mask:
+          - Impassable
+          - TableLayer
+          - LowImpassable
+          layer:
+          - TableLayer
+          - LowImpassable
+          density: 60
+          hard: True
+          restitution: 0
+          friction: 0.4
+        ShieldFixture:
+          shape: !type:PhysShapeCircle
+            radius: 0
+            position: 0,0
+          mask: []
+          layer:
+          - BulletImpassable
+          density: 1
+          hard: False
+          restitution: 0
+          friction: 0.4
 - proto: ClosetEmergencyFilledRandom
   entities:
   - uid: 3620
@@ -14873,7 +14838,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 4.5,2.5
       parent: 1
-- proto: ComputerIFFPOI
+- proto: ComputerIFF
   entities:
   - uid: 3380
     components:
@@ -28766,6 +28731,13 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 2.5,-37.5
+      parent: 1
+- proto: WarpPoint
+  entities:
+  - uid: 4863
+    components:
+    - type: Transform
+      pos: 0.5,2.5
       parent: 1
 - proto: WaterCooler
   entities:
