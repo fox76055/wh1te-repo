@@ -181,3 +181,28 @@ Entries:
   id: 16
   time: '2025-06-21T19:52:46.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/43
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Добавлен новый корабль Hevish
+    - type: Add
+      message: Добавлен новый корабль Hayar
+    - type: Add
+      message: Добавлен генератор имен LuaTech
+    - type: Add
+      message: Добавлен генератор щита LuaTech
+    - type: Add
+      message: Добавлены компоненты Purspace 5го тира
+    - type: Add
+      message: Добавлены платы щита и двигателя LuaTech
+    - type: Add
+      message: Добавлен плазменный резак в утильмаг
+    - type: Tweak
+      message: Полный рефактор турелей прошлого поколения
+    - type: Fix
+      message: Исправлена локализация смэсов
+    - type: Fix
+      message: Исправлены растения которые появлялись в количестве 30шт при выращивании
+  id: 17
+  time: '2025-06-21T20:04:31.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/44
