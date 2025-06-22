@@ -15,8 +15,6 @@
   guidebookPage: Null
   class:
   - Fighter
-  engine:
-  - RITEG
   addComponents:
     - type: IFF
       color: "#009954"
