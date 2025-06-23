@@ -206,3 +206,12 @@ Entries:
   id: 17
   time: '2025-06-21T20:04:31.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/44
+- author: rcabrero112
+  changes:
+    - type: Fix
+      message: >-
+        Актуализация правил сервера в соответствии с обновленными правилами в
+        Discord
+  id: 18
+  time: '2025-06-23T16:17:05.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/45
