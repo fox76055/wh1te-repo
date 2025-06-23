@@ -6,7 +6,7 @@
   id: ThrusterPirates
   name: ракетный двигатель
   suffix: Пираты
-  parent: BaseThruster
+  parent: [BaseThruster, ConstructibleMachine]
   components:
   - type: Machine
     board: ThrusterMachineCircuitboard
@@ -60,7 +60,7 @@
   id: ThrusterLua
   parent: ThrusterPirates
   name: ракетный двигатель
-  suffix: LuaTech, Луа
+  suffix: LuaTech, Луа, Тир 5
   components:
   - type: Machine
     board: ThrusterLuaMachineCircuitboard
@@ -70,6 +70,31 @@
     damage:
       types:
         Heat: 40
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+
+- type: entity
+  id: ThrusterLuaBuild
+  parent: [ThrusterLua, ThrusterPirates]
+  suffix: LuaTech, Луа, Тир 1
+  components:
+  - type: Machine
+    board: ThrusterLuaBuildMachineCircuitboard
 
 - type: entity
   id: ThrusterSyndie

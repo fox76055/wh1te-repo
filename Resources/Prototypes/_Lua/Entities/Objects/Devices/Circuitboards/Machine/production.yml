@@ -26,6 +26,8 @@
   id: ThrusterLuaMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: thruster luatech machine board
+  categories: [HideSpawnMenu]
+  suffix: Lua
   components:
   - type: Sprite
     sprite: _Lua/Objects/Misc/module.rsi
@@ -37,10 +39,25 @@
       PurCapacitor: 4
 
 - type: entity
+  id: ThrusterLuaBuildMachineCircuitboard
+  parent: [ThrusterLuaMachineCircuitboard, BaseMachineCircuitboard]
+  name: thruster luatech machine board
+  suffix: Lua
+  components:
+  - type: MachineBoard
+    prototype: ThrusterLuaBuild
+    requirements:
+      Capacitor: 4
+    stackRequirements:
+      Plasteel: 5
+
+- type: entity
   id: MachineShieldPLTCircuitboard
   parent: BaseMachineCircuitboard
   name: PLT shield generator board
   description: A machine board for a shield generator.
+  categories: [HideSpawnMenu]
+  suffix: Lua
   components:
   - type: Sprite
     sprite: _Lua/Objects/Misc/module.rsi
@@ -58,3 +75,23 @@
       Plasteel: 10
       PurCapacitor: 4
       PurMatterBin: 2
+
+- type: entity
+  id: MachineShieldPLTCircuitboardBuild
+  parent: [MachineShieldPLTCircuitboard, BaseMachineCircuitboard]
+  suffix: Lua
+  components:
+  - type: MachineBoard
+    prototype: CircularShieldLuaBuild
+    componentRequirements:
+      AmeFuelContainer:
+        amount: 2
+        defaultPrototype: AmeJar
+    requirements:
+      Capacitor: 4
+      MatterBin: 2
+    stackRequirements:
+      Glass: 10
+      Uranium: 10
+      Plasma: 30
+      Plasteel: 10
