@@ -95,6 +95,12 @@ public sealed class VesselPrototype : IPrototype, IInheritingPrototype
     [DataField]
     [AlwaysPushInheritance]
     public ComponentRegistry AddComponents { get; set; } = new();
+
+    /// <summary>
+    /// Запретить покупку корабля с использованием ваучера.
+    /// </summary>
+    [DataField]
+    public bool NoVoucher { get; private set; } = false;
 }
 
 public enum VesselSize : byte

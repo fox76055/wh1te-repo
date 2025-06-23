@@ -48,3 +48,5 @@ shuttle-console-dock-fail = Не удалось пристыковаться
 shuttle-console-ftl-lock = БСС Блокировка
 shuttle-console-ftl-lock-enabled = Включено
 shuttle-console-ftl-lock-disabled = Выключено
+
+shipyard-console-no-voucher-allowed = Этот корабль нельзя приобрести по ваучеру

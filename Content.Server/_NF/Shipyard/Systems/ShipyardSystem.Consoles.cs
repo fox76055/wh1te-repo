@@ -149,6 +149,12 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         // Keep track of whether or not a voucher was used.
         // TODO: voucher purchase should be done in a separate function.
         bool voucherUsed = false;
+        if (voucher is not null && vessel.NoVoucher)
+        {
+            ConsolePopup(player, Loc.GetString("shipyard-console-no-voucher-allowed"));
+            PlayDenySound(player, shipyardConsoleUid, component);
+            return;
+        }
         if (voucher is not null)
         {
             if (voucher!.RedemptionsLeft <= 0)
@@ -813,6 +819,10 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         foreach (var vessel in _prototypeManager.EnumeratePrototypes<VesselPrototype>())
         {
             bool hasAccess = initialHasAccess;
+
+            if (voucher is not null && vessel.NoVoucher)
+                continue;
+
             // If the vessel needs access to be bought, check the user's access.
             if (!string.IsNullOrEmpty(vessel.Access))
             {
