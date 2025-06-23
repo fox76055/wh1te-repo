@@ -1,6 +1,6 @@
 - type: entity
   id: FTLDriveBase
-  parent: BaseMachinePowered
+  parent: [BaseStructureDisableToolUse, BaseMachinePowered]
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -34,7 +34,7 @@
 
 - type: entity
   id: MachineFTLDrive
-  parent: [FTLDriveBase, BaseMachinePowered]
+  parent: [BaseStructureDisableToolUse, FTLDriveBase, BaseMachinePowered]
   name: CTLA-25 блюспейс двигатель
   description: FTL-двигатель, который увеличивает дальность сверхсветового перемещения корабля до ~2,5 километров.
   suffix: FTL, Ивент или спец шаттлы
@@ -53,7 +53,7 @@
 
 - type: entity
   id: MachineFTLDrive600
-  parent: [FTLDriveBase, BaseMachinePowered]
+  parent: [BaseStructureDisableToolUse, FTLDriveBase, BaseMachinePowered]
   name: FSS-600 блюспейс двигатель
   description: FTL-двигатель, который увеличивает дальность сверхсветового перемещения корабля до 600 метров, популярный FTL двигатель среди авантюристов.
   suffix: FTL
