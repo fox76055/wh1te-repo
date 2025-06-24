@@ -263,7 +263,7 @@
   id: UplinkVipAmmoMagnum
   name:  uplink-vip-Magnum-name
   description: uplink-vip-Magnum-desc
-  productEntity: MagazineMagnumSubMachineGun
+  productEntity: NFMagazineSubMachineGun45
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Magnum/magnum_smg_mag.rsi, state: red }
   cost:
     Speso: 1200

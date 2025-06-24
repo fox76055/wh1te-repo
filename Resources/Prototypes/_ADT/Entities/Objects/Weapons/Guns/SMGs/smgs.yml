@@ -30,7 +30,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineMagnumSubMachineGun
+            - NFMagazineSubMachineGunPistol45
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgePistol45
@@ -81,7 +81,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineMagnumSubMachineGun
+            - NFMagazineSubMachineGun45
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgePistol45
