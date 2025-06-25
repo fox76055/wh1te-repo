@@ -7,7 +7,9 @@
   recipes:
   - PowerCageRechargerCircuitboard
   - GunneryControlComputerCircuitboard
-  - MachineGCSCircuitboard
+  - MachineGCSLowCircuitboard
+  - MachineGCSMediumCircuitboard
+  - MachineGCSHighCircuitboard
   - MachineShieldMS225Circuitboard
   - ShieldControlComputerCircuitboard
   - NFGrenadeBlast

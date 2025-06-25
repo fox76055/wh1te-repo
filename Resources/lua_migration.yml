@@ -41,8 +41,40 @@ Cartridge120mmPF: null
 Weapon120mmUnanchor: Weapon120mm
 CrateArmoryWeapon120mmAP: null
 CrateArmoryWeapon20mmAP: null
+WeaponMissileLauncherCerberEmpty: WeaponMissileLauncherCerber
 
 # 2025-06-21 Lua fix thrusters
 ThrusterLuaUnanchored: ThrusterLua
 ThrusterPiratesUnanchored: ThrusterPirates
 ThrusterSyndieUnanchored: ThrusterSyndie
+
+# 2025-06-24 Lua port gunnery server
+GunneryServer: GunneryServerLow
+
+# 2025-06-24 Lua port shuttle Monolith
+WallReinforcedDiagonalOutpost: WallReinforcedDiagonal
+MedicalBiofabricator: BiomassReclaimer
+AirlockHatchRogueLocked: AirlockHatchPirateLocked
+AirlockShuttleSyndicateRogueLocked: AirlockExternalGlassShuttleSyndicateLocked
+Magazine7.62x39mmFMJ: null
+AirlockExternalGlassRogueLocked: AirlockExternalGlassPirateLocked
+AirlockExternalGlassUSSPLocked: AirlockExternalGlass
+AirlockExternalShuttleUSSPLocked: AirlockExternalShuttleLocked
+AirlockUSSP: Airlock
+AirlockUSSPGlass: AirlockGlass
+SpawnPointUSSPCommissar: null
+SpawnPointUSSPCorporal: null
+SpawnPointUSSPMedic: null
+SpawnPointUSSPRifleman: null
+SpawnPointUSSPSergeant: null
+SuitStorageUssp: SuitStorageEVA
+MachineFTLDrive25S: MachineFTLDrive
+AirlockExternalUSSPLocked: AirlockExternal
+AirlockHatchUSSP: AirlockHatch
+HiveCarrierComputer: null
+AmmoBox12_gaugeBeanbag: null
+Magazine7.62x51mmLowCapacityFMJ: null
+PosterLegit12_gauge: RandomPosterLegit
+BoxMagazine7.62x39mmFMJ: null
+BoxMagazine5.56x45mmFMJ: null
+SpawnMobWeaponTurretTFSMC: WeaponTurretNanoTrasen

@@ -7,7 +7,7 @@
 - type: vessel
   id: MClass
   parent: BaseVessel
-  name: M-Class Salvage Carrier
+  name: TSF-SKR M-Class Salvage Carrier
   description: A large salvage carrier with space for 2 salvage microshuttles to dock.
   price: 155000
   category: Large
@@ -19,14 +19,13 @@
   engine:
   - AME
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl
 
 - type: gameMap
   id: MClass
-  mapName: 'NT-SFS M-Class Salvage Carrier'
+  mapName: 'TSF-SKR M-Class Salvage Carrier'
   mapPath: /Maps/_Mono/Shuttles/mclass.yml
   minPlayers: 0
   stations:
@@ -34,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'M-Class {1}'
+          mapNameTemplate: 'M-Class CIV{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

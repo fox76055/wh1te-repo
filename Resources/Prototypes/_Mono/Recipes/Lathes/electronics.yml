@@ -15,5 +15,15 @@
 
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
-  id: MachineGCSCircuitboard
-  result: MachineGCSCircuitboard
+  id: MachineGCSLowCircuitboard
+  result: MachineGCSLowCircuitboard
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: MachineGCSMediumCircuitboard
+  result: MachineGCSMediumCircuitboard
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: MachineGCSHighCircuitboard
+  result: MachineGCSHighCircuitboard

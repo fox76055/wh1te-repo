@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: SKR Duran
   description: A general-purpose expeditionary vessel with a complementary kitchen.
-  price: 35005
+  price: 36005
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_Mono/Shuttles/Expedition/duran.yml
@@ -19,7 +19,6 @@
   engine:
   - Uranium
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl

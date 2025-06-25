@@ -25843,7 +25843,7 @@ entities:
           showEnts: False
           occludes: True
           ents: []
-- proto: WeaponMissileLauncherCerberEmpty
+- proto: WeaponMissileLauncherCerber
   entities:
   - uid: 1407
     components:

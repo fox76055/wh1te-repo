@@ -1,9 +1,9 @@
 - type: vessel
   id: Ample
   parent: BaseVessel
-  name: Ample
+  name: SKR Ample
   description: A very light mining shuttle equipped with a PTK-1500e
-  price: 7750
+  price: 8750
   category: Micro
   group: Custom
   mapchecker_group_override: Shipyard  # Treat this as a Shipyard vessel for mapchecker purposes
@@ -13,11 +13,6 @@
   - Salvage
   engine:
   - APU
-  addComponents:
-
-    - type: IFF
-      color: "#ffffff"
-    - type: NanotrasenFtl
 
 - type: gameMap
   id: Ample
@@ -29,7 +24,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Ample {1}'
+        mapNameTemplate: 'Ample SNB{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
