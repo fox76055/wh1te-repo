@@ -14,9 +14,9 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanAtmosTech
-      time: 20600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanAtmosTech
+    #   time: 20600
     - !type:DepartmentTimeRequirement
       department: Antag
       time: 26000

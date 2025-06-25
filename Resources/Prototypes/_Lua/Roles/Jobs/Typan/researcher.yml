@@ -14,18 +14,18 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanAtmosTech
-      time: 29600
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanMedic
-      time: 25600
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanScience
-      time: 32500
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanBotanist
-      time: 33600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanAtmosTech
+    #   time: 29600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanMedic
+    #   time: 25600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanScience
+    #   time: 32500
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanBotanist
+    #   time: 33600
     - !type:DepartmentTimeRequirement
       department: Security
       time: 39000

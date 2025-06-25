@@ -14,12 +14,12 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanMedic
-      time: 20600
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanScience
-      time: 12600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanMedic
+    #   time: 20600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanScience
+    #   time: 12600
     - !type:DepartmentTimeRequirement
       department: Antag
       time: 36000

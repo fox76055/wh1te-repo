@@ -14,9 +14,9 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanBotanist
-      time: 20600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanBotanist
+    #   time: 20600
     - !type:DepartmentTimeRequirement
       department: Security
       time: 12000
