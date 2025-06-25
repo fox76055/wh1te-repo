@@ -252,3 +252,10 @@ Entries:
   id: 19
   time: '2025-06-25T15:43:25.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/48
+- author: salo2016
+  changes:
+    - type: Fix
+      message: Раундстартовая одежда Тайпан сотрудников 100% не имеет теперь датчиков.
+  id: 20
+  time: '2025-06-25T15:47:05.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/46
