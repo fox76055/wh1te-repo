@@ -215,3 +215,40 @@ Entries:
   id: 18
   time: '2025-06-23T16:17:05.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/45
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Добавлены последние шаттлы Monolith
+    - type: Remove
+      message: Удалены все шаттлы New Frontier
+    - type: Tweak
+      message: Обновлены корабельные вооружения, добавлено новое вооружение
+    - type: Tweak
+      message: Изменены сервера вооружения, добавлена градация мощности серверов
+    - type: Add
+      message: Вооружению Monolith добавлено требование подключения к НВ проводам
+    - type: Tweak
+      message: Обновлёны шаттлы Хевиш и Хаяр
+    - type: Add
+      message: Добавлена логика игнорирования ваучера
+    - type: Remove
+      message: Удален Тайпан
+    - type: Add
+      message: Добавлен Нордфолл(теперь это фракция Синдиката)
+    - type: Tweak
+      message: Требование наиграть время на смежных ролях синдиката убрано
+    - type: Tweak
+      message: БСС движки теперь не откручиваемые
+    - type: Tweak
+      message: Время откручивания турелей 8 минут
+    - type: Fix
+      message: Исправлен шаттл Тиния
+    - type: Tweak
+      message: Актуализация шаттла Тинии под новую версию
+    - type: Tweak
+      message: Снижение стоимость шаттла Тиния и перенос на корабля на фронтир
+    - type: Remove
+      message: Удалена Верфь А
+  id: 19
+  time: '2025-06-25T15:43:25.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/48
