@@ -52,10 +52,11 @@
   id: McCargoMothershipComputer
   parent: BaseMothershipComputer
   name: mccargo shipyard console
-  # components:
-  # - type: ShipyardListing
-  #   shuttles:
-  #   - McDelivery
+  components:
+  - type: ShipyardListing
+    shuttles:
+    # - McDelivery
+    - Rhea
 
 # The caladrius console
 - type: entity
