@@ -1030,7 +1030,7 @@ entities:
     - type: Transform
       pos: 10.5,3.5
       parent: 1
-- proto: ComputerIFFSyndicateTypan
+- proto: ComputerIFF
   entities:
   - uid: 223
     components:

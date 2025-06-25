@@ -52,7 +52,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Тайпан
+      name: Нордфолл
     - type: Transform
       parent: invalid
     - type: BecomesStation
@@ -24102,7 +24102,7 @@ entities:
     - type: Transform
       pos: 15.48231,-18.303585
       parent: 1
-- proto: ClothingBeltAssaultOutpostTypan
+- proto: ClothingBeltAssaultOutpostSyndicate
   entities:
   - uid: 3678
     components:
@@ -24120,7 +24120,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingBeltPlantOutpostTypan
+- proto: ClothingBeltPlantOutpostSyndicate
   entities:
   - uid: 3693
     components:
@@ -24198,7 +24198,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingEyesHudOutpostTypan
+- proto: ClothingEyesHudOutpostSyndicate
   entities:
   - uid: 3679
     components:
@@ -24207,7 +24207,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingEyesHudSyndicateAgentOutpostTypan
+- proto: ClothingEyesHudSyndicateAgentOutpostSyndicate
   entities:
   - uid: 48
     components:
@@ -24300,7 +24300,7 @@ entities:
     - type: Transform
       pos: 12.555608,-31.294321
       parent: 1
-- proto: ClothingHandsRDOutpostTypan
+- proto: ClothingHandsRDOutpostSyndicate
   entities:
   - uid: 3731
     components:
@@ -24309,7 +24309,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingHandsScienceOutpostTypan
+- proto: ClothingHandsScienceOutpostSyndicate
   entities:
   - uid: 3732
     components:
@@ -24401,7 +24401,7 @@ entities:
     - type: Transform
       pos: 42.41444,4.704531
       parent: 1
-- proto: ClothingHeadOutpostTypan
+- proto: ClothingHeadOutpostSyndicate
   entities:
   - uid: 3681
     components:
@@ -24433,7 +24433,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingMaskGasOutpostTypanCargo
+- proto: ClothingMaskGasOutpostSyndicateCargo
   entities:
   - uid: 3721
     components:
@@ -24493,7 +24493,7 @@ entities:
     - type: Transform
       pos: -18.718084,-17.250126
       parent: 1
-- proto: ClothingOuterApronOutpostTypanBotanist
+- proto: ClothingOuterApronOutpostSyndicateBotanist
   entities:
   - uid: 3694
     components:
@@ -24502,7 +24502,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterApronOutpostTypanChef
+- proto: ClothingOuterApronOutpostSyndicateChef
   entities:
   - uid: 3688
     components:
@@ -24534,7 +24534,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterCoatRDOutpostTypan
+- proto: ClothingOuterCoatRDOutpostSyndicate
   entities:
   - uid: 3734
     components:
@@ -24566,7 +24566,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterMedOutpostTypan
+- proto: ClothingOuterMedOutpostSyndicate
   entities:
   - uid: 51
     components:
@@ -24614,7 +24614,7 @@ entities:
     - type: Transform
       pos: -14.734799,-1.756568
       parent: 1
-- proto: ClothingOuterWinterOutpostTypanChef
+- proto: ClothingOuterWinterOutpostSyndicateChef
   entities:
   - uid: 3689
     components:
@@ -24662,7 +24662,7 @@ entities:
     - type: Transform
       pos: -7.261324,3.3668845
       parent: 1
-- proto: ClothingUniformJumpskirtOutpostTypanBotanist
+- proto: ClothingUniformJumpskirtOutpostSyndicateBotanist
   entities:
   - uid: 3695
     components:
@@ -24678,7 +24678,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtOutpostTypanCargotech
+- proto: ClothingUniformJumpskirtOutpostSyndicateCargotech
   entities:
   - uid: 3722
     components:
@@ -24694,7 +24694,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtOutpostTypanChef
+- proto: ClothingUniformJumpskirtOutpostSyndicateChef
   entities:
   - uid: 3690
     components:
@@ -24703,7 +24703,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtOutpostTypanMedic
+- proto: ClothingUniformJumpskirtOutpostSyndicateMedic
   entities:
   - uid: 52
     components:
@@ -24744,7 +24744,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitOutpostTypanCargotech
+- proto: ClothingUniformJumpsuitOutpostSyndicateCargotech
   entities:
   - uid: 3723
     components:
@@ -24760,7 +24760,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitOutpostTypanChef
+- proto: ClothingUniformJumpsuitOutpostSyndicateChef
   entities:
   - uid: 3691
     components:
@@ -24769,7 +24769,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitOutpostTypanDirectory
+- proto: ClothingUniformJumpsuitOutpostSyndicateDirectory
   entities:
   - uid: 3735
     components:
@@ -24778,7 +24778,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitOutpostTypanMedic
+- proto: ClothingUniformJumpsuitOutpostSyndicateMedic
   entities:
   - uid: 55
     components:
@@ -24842,7 +24842,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformScienceOutpostTypan
+- proto: ClothingUniformScienceOutpostSyndicate
   entities:
   - uid: 3741
     components:
@@ -24865,7 +24865,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformScienceRDOutpostTypan
+- proto: ClothingUniformScienceRDOutpostSyndicate
   entities:
   - uid: 3736
     components:
@@ -28255,7 +28255,7 @@ entities:
     - type: Transform
       pos: 58.526966,10.654201
       parent: 1
-- proto: EncryptionKeyOutpostTypan
+- proto: EncryptionKeyOutpostSyndicate
   entities:
   - uid: 4335
     components:
@@ -51821,63 +51821,63 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -8.5,17.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanAtmos
+- proto: SpawnPointLatejoinOutpostSyndicateAtmos
   entities:
   - uid: 7485
     components:
     - type: Transform
       pos: 17.5,2.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanBotanist
+- proto: SpawnPointLatejoinOutpostSyndicateBotanist
   entities:
   - uid: 7486
     components:
     - type: Transform
       pos: 13.5,4.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanCargotech
+- proto: SpawnPointLatejoinOutpostSyndicateCargotech
   entities:
   - uid: 7487
     components:
     - type: Transform
       pos: 13.5,3.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanChef
+- proto: SpawnPointLatejoinOutpostSyndicateChef
   entities:
   - uid: 7488
     components:
     - type: Transform
       pos: 17.5,1.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanMedic
+- proto: SpawnPointLatejoinOutpostSyndicateMedic
   entities:
   - uid: 7489
     components:
     - type: Transform
       pos: 13.5,1.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanOfficer
+- proto: SpawnPointLatejoinOutpostSyndicateOfficer
   entities:
   - uid: 7490
     components:
     - type: Transform
       pos: 13.5,0.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanRD
+- proto: SpawnPointLatejoinOutpostSyndicateRD
   entities:
   - uid: 7491
     components:
     - type: Transform
       pos: 13.5,2.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanResearcher
+- proto: SpawnPointLatejoinOutpostSyndicateResearcher
   entities:
   - uid: 7492
     components:
     - type: Transform
       pos: 17.5,0.5
       parent: 1
-- proto: SpawnPointLatejoinOutpostTypanScience
+- proto: SpawnPointLatejoinOutpostSyndicateScience
   entities:
   - uid: 7493
     components:
@@ -62580,7 +62580,7 @@ entities:
   - uid: 9347
     components:
     - type: MetaData
-      name: Тайпан
+      name: Нордфолл
     - type: Transform
       pos: 6.5,2.5
       parent: 1

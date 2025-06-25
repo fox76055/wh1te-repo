@@ -4,99 +4,99 @@
 
 - type: entity
   name: атмосферный инженер Синдиката
-  id: SpawnPointLatejoinOutpostTypanAtmos
+  id: SpawnPointLatejoinOutpostSyndicateAtmos
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanAtmosTech
+    job_id: OutpostSyndicateAtmosTech
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: ботаник Синдиката
-  id: SpawnPointLatejoinOutpostTypanBotanist
+  id: SpawnPointLatejoinOutpostSyndicateBotanist
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanBotanist
+    job_id: OutpostSyndicateBotanist
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: грузчик Синдиката
-  id: SpawnPointLatejoinOutpostTypanCargotech
+  id: SpawnPointLatejoinOutpostSyndicateCargotech
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanCargotech
+    job_id: OutpostSyndicateCargotech
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: повар Синдиката
-  id: SpawnPointLatejoinOutpostTypanChef
+  id: SpawnPointLatejoinOutpostSyndicateChef
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanChef
+    job_id: OutpostSyndicateChef
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: медик Синдиката
-  id: SpawnPointLatejoinOutpostTypanMedic
+  id: SpawnPointLatejoinOutpostSyndicateMedic
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanMedic
+    job_id: OutpostSyndicateMedic
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: директор исследований Синдиката
-  id: SpawnPointLatejoinOutpostTypanRD
+  id: SpawnPointLatejoinOutpostSyndicateRD
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanRD
+    job_id: OutpostSyndicateRD
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: учёный Синдиката
-  id: SpawnPointLatejoinOutpostTypanScience
+  id: SpawnPointLatejoinOutpostSyndicateScience
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanScience
+    job_id: OutpostSyndicateScience
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: офицер телекомуникаций Синдиката
-  id: SpawnPointLatejoinOutpostTypanOfficer
+  id: SpawnPointLatejoinOutpostSyndicateOfficer
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanTelecommunicationsOfficer
+    job_id: OutpostSyndicateTelecommunicationsOfficer
     spawn_type: LateJoin
   - type: Sprite
     state: green
 
 - type: entity
   name: исследователь Синдиката
-  id: SpawnPointLatejoinOutpostTypanResearcher
+  id: SpawnPointLatejoinOutpostSyndicateResearcher
   parent: SpawnPointJobBase
   components:
   - type: SpawnPoint
-    job_id: OutpostTypanResearcher
+    job_id: OutpostSyndicateResearcher
     spawn_type: LateJoin
   - type: Sprite
     state: green

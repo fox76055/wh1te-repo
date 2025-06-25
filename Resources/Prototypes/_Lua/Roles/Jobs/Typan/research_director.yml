@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanRD
+  id: OutpostSyndicateRD
   name: job-name-typan-rd
   playTimeTracker: JobOutpostTypanRD
   salary: 45000
@@ -35,8 +35,6 @@
   accessGroups:
   - AllAccess
   special:
-  - !type:AddImplantSpecial
-    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -49,11 +47,11 @@
   id: SyndicateRD
   equipment:
     eyes: ClothingEyesGlassesHiddenSecurity
-    ears: ClothingHeadsetAltOutpostTypan
+    ears: ClothingHeadsetAltOutpostSyndicate
     shoes: ClothingShoesBootsCombat
-    outerClothing: ClothingOuterCoatRDOutpostTypan
-    gloves: ClothingHandsRDOutpostTypan
+    outerClothing: ClothingOuterCoatRDOutpostSyndicate
+    gloves: ClothingHandsRDOutpostSyndicate
     id: SyndiPDARD
     back: ClothingBackpackSyndicateFilled
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
-    belt: ClothingBeltAssaultOutpostTypan
+    belt: ClothingBeltAssaultOutpostSyndicate

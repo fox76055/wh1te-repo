@@ -91,7 +91,7 @@
     - SecurityUplink
 
 - type: entity
-  name: стационарный аплинк тайпана
+  name: стационарный аплинк Нордфолла
   parent: [BaseStructureDisableToolUse, ComputerUplinkBase, StorePresetUplink, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerUplinkTypan
   description: Покупайте снаряжение за телекристалы.

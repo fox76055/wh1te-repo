@@ -4,7 +4,7 @@
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
-  id: ClothingEyesHudSyndicateAgentOutpostTypan
+  id: ClothingEyesHudSyndicateAgentOutpostSyndicate
   name: визор медика синдиката
   description: Визор, используемый медиками на защищенных станциях синдиката.
   components:
@@ -19,7 +19,7 @@
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
-  id: ClothingEyesHudOutpostTypan
+  id: ClothingEyesHudOutpostSyndicate
   name: визор офицера телекоммуникаций
   description: Удобный визор со встроенной системой разпознавания.
   components:

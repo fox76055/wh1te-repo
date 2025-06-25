@@ -4,7 +4,7 @@
 
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
-  id: ClothingHandsRDOutpostTypan
+  id: ClothingHandsRDOutpostSyndicate
   name: перчатки директора исследований
   description: Тактические перчатки, защищающие его обладателя от нежелательных соприкосновений.
   components:
@@ -18,7 +18,7 @@
 
 - type: entity
   parent: ClothingHandsButcherable
-  id: ClothingHandsScienceOutpostTypan
+  id: ClothingHandsScienceOutpostSyndicate
   name: перчатки ученого синдиката
   description: Удобные перчатки для проведения различных экспериментов.
   components:

@@ -68,7 +68,7 @@ public sealed class PirateSectorSystem : EntitySystem
         var whitelist = new EntityWhitelist
         {
             RequireAll = false,
-            Components = new[] { "PirateFtl", "TypanFtl" }
+            Components = new[] { "PirateFtl" }
             //Components = new[] { "PirateFtl", "MercenaryFtl", "TypanFtl" }
         };
         _shuttle.SetFTLWhitelist(ent, whitelist);

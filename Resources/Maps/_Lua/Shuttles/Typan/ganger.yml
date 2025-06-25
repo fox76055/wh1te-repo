@@ -498,7 +498,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 1.5,3.5
       parent: 21857
-- proto: ComputerIFFSyndicateTypan
+- proto: ComputerIFF
   entities:
   - uid: 21915
     components:

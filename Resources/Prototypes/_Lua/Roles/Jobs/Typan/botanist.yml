@@ -3,13 +3,13 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanBotanist
+  id: OutpostSyndicateBotanist
   name: job-name-typan-botanist
   playTimeTracker: JobOutpostTypanBotanist
   salary: 25000
   description: Ботаник из далёкого космоса.
   startingGear: SyndicateBotanist
-  icon: "JobIconOutpostTypanBotanist"
+  icon: "JobIconOutpostSyndicateBotanist"
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   hideConsoleVisibility: true
@@ -34,8 +34,6 @@
   accessGroups:
   - AllAccess
   special:
-  - !type:AddImplantSpecial
-    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -47,8 +45,8 @@
 - type: startingGear
   id: SyndicateBotanist
   equipment:
-    ears: ClothingHeadsetAltOutpostTypan
-    jumpsuit: ClothingUniformJumpsuitOutpostTypanBotanist
+    ears: ClothingHeadsetAltOutpostSyndicate
+    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateBotanist
     back: ClothingBackpackSyndicateFilled
     shoes: ClothingShoesColorBlack
     id: SyndiPDABotan

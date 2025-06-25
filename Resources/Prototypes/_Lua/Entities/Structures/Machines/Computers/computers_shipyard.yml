@@ -108,7 +108,7 @@
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyard]
   name: консоль кораблей синдиката
   description: Консоль покупки кораблей синдиката
-  suffix: Тайпан
+  suffix: Нордфолл
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.Typan
