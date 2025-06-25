@@ -259,3 +259,10 @@ Entries:
   id: 20
   time: '2025-06-25T15:47:05.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/46
+- author: salo2016
+  changes:
+    - type: Tweak
+      message: UMP+PPCh-45s вновь принимают обоймы .45
+  id: 21
+  time: '2025-06-25T15:59:18.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/47
