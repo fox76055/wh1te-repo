@@ -5,29 +5,28 @@
 - type: vessel
   parent: BaseVessel
   id: ShuttleTinia
-  name: LT Тиния
+  name: Тиния
   description: Корабль-станция Тиния, предпочтителен для большой команды, в наличии Бар, Кухня, Ботаника.
-  price: 980000
+  price: 134500
   category: Large
-  group: ShipyardLarge
+  group: Shipyard # Lua ShipyardLarge<Shipyard
   shuttlePath: /Maps/_Lua/Shuttles/Civilian/shuttletinia.yml
-  addComponents:
-
+  addComponents: &cargoComponents
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl
 
 - type: gameMap
   id: ShuttleTinia
-  mapName: 'LT Тиния'
+  mapName: 'Тиния'
   mapPath: /Maps/_Lua/Shuttles/Civilian/shuttletinia.yml
   minPlayers: 0
   stations:
     ShuttleTinia:
       stationProto: StandardFrontierVesselCargo
-      components:
+      components: &cargoStationComponents
         - type: StationNameSetup
-          mapNameTemplate: 'LT Тиния {1}'
+          mapNameTemplate: 'Тиния {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

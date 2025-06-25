@@ -1,7 +1,7 @@
 - type: vessel
   id: Veska
   parent: BaseVesselAntag
-  name: Veska
+  name: RG Veska
   description: A modified Ample that tears out the mining equipment and installs a light autocannon.
   price: 6500
   category: Micro
@@ -13,11 +13,6 @@
   - Pirate
   engine:
   - APU
-  addComponents:
-
-    - type: IFF
-      color: "#ffffff"
-    - type: NanotrasenFtl
 
 - type: gameMap
   id: Veska
@@ -29,7 +24,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Veska {1}'
+        mapNameTemplate: 'Veska MIL{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'

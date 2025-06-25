@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanTelecommunicationsOfficer
+  id: OutpostSyndicateTelecommunicationsOfficer
   name: job-name-typan-telecommunications-officer
   playTimeTracker: JobOutpostTypanTelecommunicationsOfficer
   salary: 65000
@@ -35,8 +35,6 @@
   accessGroups:
   - AllAccess
   special:
-  - !type:AddImplantSpecial
-    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -48,13 +46,13 @@
 - type: startingGear
   id: SyndicateFormal
   equipment:
-    eyes: ClothingEyesHudOutpostTypan
-    ears: ClothingHeadsetAltOutpostTypan
+    eyes: ClothingEyesHudOutpostSyndicate
+    ears: ClothingHeadsetAltOutpostSyndicate
     shoes: ClothingShoesBootsCombat
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     gloves: ClothingHandsGlovesCombat
     id: SyndiPDACom
     back: ClothingBackpackSyndicateFilled
-    belt: ClothingBeltAssaultOutpostTypan
+    belt: ClothingBeltAssaultOutpostSyndicate
     pocket1: SyndicateWhistle
     pocket2: ClothingMaskGasSyndicate

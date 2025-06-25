@@ -72,10 +72,10 @@
 
 - type: entity
   parent: EncryptionKey
-  id: EncryptionKeyOutpostTypan
+  id: EncryptionKeyOutpostSyndicate
   name: красный ключ шифрования
   description: Ключ шифрования, используемый... хм... кем же?
-  suffix: Тайпан
+  suffix: Нордфолл
   components:
   - type: EncryptionKey
     channels:

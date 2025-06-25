@@ -3,18 +3,18 @@
 # See AGPLv3.txt for details.
 
 - type: department
-  id: OutpostTypan
-  name: department-Outpost-Typan
-  description: department-Outpost-Typan-description
+  id: OutpostSyndicate
+  name: department-Outpost-Syndicate
+  description: department-Outpost-Syndicate-description
   color: "#D381C9"
   weight: -9
   roles:
-  - OutpostTypanAtmosTech
-  - OutpostTypanBotanist
-  - OutpostTypanCargotech
-  - OutpostTypanChef
-  - OutpostTypanMedic
-  - OutpostTypanRD
-  - OutpostTypanScience
-  - OutpostTypanTelecommunicationsOfficer
-  - OutpostTypanResearcher
+  - OutpostSyndicateAtmosTech
+  - OutpostSyndicateBotanist
+  - OutpostSyndicateCargotech
+  - OutpostSyndicateChef
+  - OutpostSyndicateMedic
+  - OutpostSyndicateRD
+  - OutpostSyndicateScience
+  - OutpostSyndicateTelecommunicationsOfficer
+  - OutpostSyndicateResearcher

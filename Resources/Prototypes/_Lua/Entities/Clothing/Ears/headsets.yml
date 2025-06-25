@@ -23,7 +23,7 @@
 
 - type: entity
   parent: ClothingHeadsetAlt
-  id: ClothingHeadsetAltOutpostTypan
+  id: ClothingHeadsetAltOutpostSyndicate
   name: полноразмерная кроваво - красная гарнитура
   description: Модифицированный модульный интерком синдиката.
   components:
@@ -38,4 +38,4 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyOutpostTypan
+      - EncryptionKeyOutpostSyndicate

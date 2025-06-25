@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanMedic
+  id: OutpostSyndicateMedic
   name: job-name-typan-medic
   playTimeTracker: JobOutpostTypanMedic
   salary: 35000
@@ -14,9 +14,9 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanBotanist
-      time: 20600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanBotanist
+    #   time: 20600
     - !type:DepartmentTimeRequirement
       department: Antag
       time: 31000
@@ -34,8 +34,6 @@
   accessGroups:
   - AllAccess
   special:
-  - !type:AddImplantSpecial
-    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -47,10 +45,10 @@
 - type: startingGear
   id: SyndicateParamedic
   equipment:
-    eyes: ClothingEyesHudSyndicateAgentOutpostTypan
-    ears: ClothingHeadsetAltOutpostTypan
+    eyes: ClothingEyesHudSyndicateAgentOutpostSyndicate
+    ears: ClothingHeadsetAltOutpostSyndicate
     jumpsuit: ClothingUniformJumpsuitParamedicSyndie
-    outerClothing: ClothingOuterMedOutpostTypan
+    outerClothing: ClothingOuterMedOutpostSyndicate
     shoes: ClothingShoesBootsCombat
     id: MedicalPDASyndi
     back: ClothingBackpackSyndicateFilled

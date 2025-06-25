@@ -7,9 +7,9 @@
 - type: vessel
   id: Sabine
   parent: BaseVessel
-  name: NT Sabine
-  description: Light salvage and mining shuttle. Requires 2 crewmen to utilize gunnery and pilot console at the same time effectively.
-  price: 28500
+  name: SKR Sabine
+  description: An entry level salvage and mining shuttle. Requires 2 crewmen to utilize gunnery and pilot console at the same time effectively.
+  price: 29500
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/sabine.yml
@@ -19,14 +19,13 @@
   engine:
   - Uranium
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl
 
 - type: gameMap
   id: Sabine
-  mapName: 'NT Sabine'
+  mapName: 'SKR Sabine'
   mapPath: /Maps/_Mono/Shuttles/sabine.yml
   minPlayers: 0
   stations:
@@ -34,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Sabine {1}'
+          mapNameTemplate: 'Sabine CIV{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

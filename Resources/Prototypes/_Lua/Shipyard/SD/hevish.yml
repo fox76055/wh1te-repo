@@ -7,7 +7,7 @@
   id: Hevish
   name: Хевиш
   description: Линкор Lua Technologies, упрощенная версия корабля LuaTech, оснащенная только самым необходимым, рекомендуемый экипаж 10 человек, требует сопровождения Эсминцем Хаяр.
-  price: 583092
+  price: 640092
   category: Medium
   group: Security
   access: Sergeant

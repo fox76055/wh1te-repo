@@ -315,7 +315,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardCargo
+  id: OutpostSyndicateIDCardCargo
   name: ID карта
   description: Карта, необходимая для доступа в различные отделы станции
   components:
@@ -324,7 +324,7 @@
     layers:
     - state: typancardcargo
   - type: PresetIdCard
-    job: OutpostTypanCargotech
+    job: OutpostSyndicateCargotech
   - type: Access
     tags:
     - SyndicateAgent
@@ -333,7 +333,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardCom
+  id: OutpostSyndicateIDCardCom
   name: ID карта
   description: Карта, необходимая для доступа в различные отделы станции
   components:
@@ -342,7 +342,7 @@
     layers:
     - state: typancardcom
   - type: PresetIdCard
-    job: OutpostTypanTelecommunicationsOfficer
+    job: OutpostSyndicateTelecommunicationsOfficer
   - type: Access
     tags:
     - Armory
@@ -358,7 +358,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardEng
+  id: OutpostSyndicateIDCardEng
   name: ID карта
   description: Карта, необходимая для доступа в различные отделы станции
   components:
@@ -367,7 +367,7 @@
     layers:
     - state: typancardeng
   - type: PresetIdCard
-    job: OutpostTypanAtmosTech
+    job: OutpostSyndicateAtmosTech
   - type: Access
     tags:
     - Engineering
@@ -378,7 +378,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardMed
+  id: OutpostSyndicateIDCardMed
   name: ID карта
   description: Карта, необходимая для доступа в различные отделы станции
   components:
@@ -387,7 +387,7 @@
     layers:
     - state: typancardmed
   - type: PresetIdCard
-    job: OutpostTypanMedic
+    job: OutpostSyndicateMedic
   - type: Access
     tags:
     - SyndicateAgent
@@ -397,7 +397,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardRd
+  id: OutpostSyndicateIDCardRd
   name: ID карта
   description: Карта, необходимая для доступа в различные отделы станции
   components:
@@ -406,7 +406,7 @@
     layers:
     - state: typancardrd
   - type: PresetIdCard
-    job: OutpostTypanRD
+    job: OutpostSyndicateRD
   - type: Access
     tags:
     - SyndicateAgent
@@ -416,7 +416,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardScience
+  id: OutpostSyndicateIDCardScience
   name: ID карта
   description: Карта, необходимая для доступа в различные отделы станции
   components:
@@ -425,7 +425,7 @@
     layers:
     - state: typancardscience
   - type: PresetIdCard
-    job: OutpostTypanScience
+    job: OutpostSyndicateScience
   - type: Access
     tags:
     - SyndicateAgent
@@ -435,7 +435,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardBotanist
+  id: OutpostSyndicateIDCardBotanist
   name: ID карта
   components:
   - type: Sprite
@@ -443,7 +443,7 @@
     layers:
     - state: typancardbotanist
   - type: PresetIdCard
-    job: OutpostTypanBotanist
+    job: OutpostSyndicateBotanist
   - type: Access
     tags:
     - SyndicateAgent
@@ -453,7 +453,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDCardChef
+  id: OutpostSyndicateIDCardChef
   name: ID карта
   components:
   - type: Sprite
@@ -461,7 +461,7 @@
     layers:
     - state: typancardchef
   - type: PresetIdCard
-    job: OutpostTypanChef
+    job: OutpostSyndicateChef
   - type: Access
     tags:
     - SyndicateAgent
@@ -471,7 +471,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: OutpostTypanIDResearcher
+  id: OutpostSyndicateIDResearcher
   name: ID карта
   components:
   - type: Sprite
@@ -479,7 +479,7 @@
     layers:
     - state: typancardresearcher
   - type: PresetIdCard
-    job: OutpostTypanResearcher
+    job: OutpostSyndicateResearcher
   - type: Access
     tags:
     - SyndicateAgent

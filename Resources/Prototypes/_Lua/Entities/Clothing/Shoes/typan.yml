@@ -4,7 +4,7 @@
 
 - type: entity
   parent: ClothingShoesBaseButcherable
-  id: ClothingShoesBootsOutpostTypan
+  id: ClothingShoesBootsOutpostSyndicate
   name: ботинки атмосферного инженера
   description: Кожаные ботинки, предпочитаемые инженерными работниками на станциях синдиката.
   components:
@@ -16,7 +16,7 @@
 
 - type: entity
   parent: ClothingShoesMilitaryBase
-  id: ClothingShoesBootsCombatOutpostTypan
+  id: ClothingShoesBootsCombatOutpostSyndicate
   name: ботинки синдиката 
   description: Ботинки для боевых операций или боевых действий.
   components:

@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanResearcher
+  id: OutpostSyndicateResearcher
   name: job-name-typan-researcher
   playTimeTracker: JobOutpostTypanResearcher
   salary: 25000
@@ -14,18 +14,18 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanAtmosTech
-      time: 29600
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanMedic
-      time: 25600
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanScience
-      time: 32500
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanBotanist
-      time: 33600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanAtmosTech
+    #   time: 29600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanMedic
+    #   time: 25600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanScience
+    #   time: 32500
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanBotanist
+    #   time: 33600
     - !type:DepartmentTimeRequirement
       department: Security
       time: 39000
@@ -43,8 +43,6 @@
   accessGroups:
   - AllAccess
   special:
-  - !type:AddImplantSpecial
-    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -56,10 +54,10 @@
 - type: startingGear
   id: SyndicateResearcher
   equipment:
-    ears: ClothingHeadsetAltOutpostTypan
+    ears: ClothingHeadsetAltOutpostSyndicate
     jumpsuit: ClothingUniformJumpsuitRecruitSyndie
-    shoes: ClothingShoesBootsOutpostTypan
+    shoes: ClothingShoesBootsOutpostSyndicate
     back: ClothingBackpackSyndicateFilled
-    belt: ClothingBeltAssaultOutpostTypan
+    belt: ClothingBeltAssaultOutpostSyndicate
 
     id: SyndiPDAResearcher

@@ -3,23 +3,23 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanCargotech
+  id: OutpostSyndicateCargotech
   name: job-name-typan-cargotech
   playTimeTracker: JobOutpostTypanCargotech
   salary: 35000
   description: Карготехник из далёкого космоса.
   startingGear: SyndicateCargotech
-  icon: "JobIconOutpostTypanCargotech"
+  icon: "JobIconOutpostSyndicateCargotech"
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanMedic
-      time: 20600
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanScience
-      time: 12600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanMedic
+    #   time: 20600
+    # - !type:RoleTimeRequirement
+    #   role: JobOutpostTypanScience
+    #   time: 12600
     - !type:DepartmentTimeRequirement
       department: Antag
       time: 36000
@@ -37,8 +37,6 @@
   accessGroups:
   - AllAccess
   special:
-  - !type:AddImplantSpecial
-    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -50,8 +48,8 @@
 - type: startingGear
   id: SyndicateCargotech
   equipment:
-    ears: ClothingHeadsetAltOutpostTypan
-    jumpsuit: ClothingUniformJumpsuitOutpostTypanCargotech
+    ears: ClothingHeadsetAltOutpostSyndicate
+    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateCargotech
     back: ClothingBackpackSyndicateFilled
-    shoes: ClothingShoesBootsCombatOutpostTypan
+    shoes: ClothingShoesBootsCombatOutpostSyndicate
     id: SyndiPDACargo

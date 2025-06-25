@@ -7,9 +7,9 @@
 - type: vessel
   id: Iapetus
   parent: BaseVessel
-  name: NT-SFS Iapetus
+  name: TSF-SKR Iapetus
   description: A basic artifact research ship, with minimal armament.
-  price: 39200
+  price: 41200
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/iapetus.yml
@@ -19,14 +19,13 @@
   engine:
   - Uranium
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl
 
 - type: gameMap
   id: Iapetus
-  mapName: 'NT-SFS Iapetus'
+  mapName: 'TSF-SKR Iapetus'
   mapPath: /Maps/_Mono/Shuttles/iapetus.yml
   minPlayers: 0
   stations:
@@ -34,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Iapetus {1}'
+          mapNameTemplate: 'Iapetus CIV{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

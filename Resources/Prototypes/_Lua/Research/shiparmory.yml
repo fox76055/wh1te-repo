@@ -13,7 +13,9 @@
   cost: 10500
   recipeUnlocks:
   - GunneryControlComputerCircuitboard
-  - MachineGCSCircuitboard
+  - MachineGCSLowCircuitboard
+  - MachineGCSMediumCircuitboard
+  - MachineGCSHighCircuitboard
 
 - type: technology
   id: BasicShuttleWeapon

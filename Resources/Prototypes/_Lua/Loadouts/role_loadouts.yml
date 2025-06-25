@@ -134,7 +134,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanResearcher
+  id: JobOutpostSyndicateResearcher
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -143,7 +143,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanAtmosTech
+  id: JobOutpostSyndicateAtmosTech
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -152,7 +152,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanBotanist
+  id: JobOutpostSyndicateBotanist
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -161,7 +161,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanCargotech
+  id: JobOutpostSyndicateCargotech
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -170,7 +170,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanChef
+  id: JobOutpostSyndicateChef
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -179,7 +179,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanMedic
+  id: JobOutpostSyndicateMedic
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -188,7 +188,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanRD
+  id: JobOutpostSyndicateRD
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -197,7 +197,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanScience
+  id: JobOutpostSyndicateScience
   groups:
   - NFSpeciesSpecific
   - ContractorWallet
@@ -206,7 +206,7 @@
   - SocksUnderwear
 
 - type: roleLoadout
-  id: JobOutpostTypanTelecommunicationsOfficer
+  id: JobOutpostSyndicateTelecommunicationsOfficer
   groups:
   - NFSpeciesSpecific
   - ContractorWallet

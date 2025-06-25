@@ -1022,7 +1022,7 @@
   id: CourierBlue
   parent: BaseVessel
   name: Blue Courier
-  price: 14465
+  price: 999999999
   category: Small
   group: ShipVsShip
   shuttlePath: /Maps/_Lua/ShuttleEvent/CourierBlue.yml
@@ -1049,7 +1049,7 @@
   id: CourierRed
   parent: BaseVessel
   name: Red Courier
-  price: 14465
+  price: 999999999
   category: Small
   group: ShipVsShip
   shuttlePath: /Maps/_Lua/ShuttleEvent/CourierRed.yml

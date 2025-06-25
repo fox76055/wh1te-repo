@@ -155,7 +155,7 @@ public sealed class TypanSectorSystem : EntitySystem
             return;
         }
 
-        Log.Info("Запуск сектора Тайпан");
+        Log.Info("Запуск сектора Нордфолл");
         if (_mapId == MapId.Nullspace)
         {
             _mapUid = _map.CreateMap(out _mapId, false);
@@ -163,7 +163,7 @@ public sealed class TypanSectorSystem : EntitySystem
 
         var opts = DeserializationOptions.Default with { InitializeMaps = true };
         _stationGrid = _gameTicker.MergeGameMap(_prototypeManager.Index(source.Comp.Station), _mapId, opts).FirstOrNull(HasComp<BecomesStationComponent>)!.Value;
-        _metaDataSystem.SetEntityName(_mapUid, "Сектор Тайпан");
+        _metaDataSystem.SetEntityName(_mapUid, "Сектор Нордфолл");
         EnsureComp<SectorAtmosSupportComponent>(_mapUid);
 
         var parallaxes = new[]

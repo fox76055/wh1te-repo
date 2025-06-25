@@ -5,7 +5,7 @@
 #Recruit
 - type: entity
   parent: [ Clothing, BaseC3SyndicateContrabandNoValue ] 
-  id: ClothingSyndieBaseOutpostTypan
+  id: ClothingSyndieBaseOutpostSyndicate
   name: syndicate base
   description: A dubious,, dark-grey jumpsuit. As if passengers weren't dubious enough already.
   abstract: true
@@ -47,7 +47,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/recruit_nt.rsi
 
 - type: entity
-  parent: [ ClothingSyndieBaseOutpostTypan, BaseC3SyndicateContrabandNoValue ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContrabandNoValue
+  parent: [ ClothingSyndieBaseOutpostSyndicate, BaseC3SyndicateContrabandNoValue ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContrabandNoValue
   id: ClothingUniformJumpsuitRecruitSyndie
   name: syndicate recruit jumpsuit
   description: A dubious, dark-grey jumpsuit. As if passengers weren't dubious enough already.

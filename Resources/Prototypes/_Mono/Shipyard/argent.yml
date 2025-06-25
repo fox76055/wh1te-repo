@@ -7,9 +7,9 @@
 - type: vessel
   id: Argent
   parent: BaseVessel
-  name: NT-SFS Argent
+  name: TSF-SKR Argent
   description: A retired frigate gutted out and refurbished for cargo transport.
-  price: 126000
+  price: 59500
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/argent.yml
@@ -19,14 +19,13 @@
   engine:
   - Uranium
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl
 
 - type: gameMap
   id: Argent
-  mapName: 'NT-SFS Argent'
+  mapName: 'TSF-SKR Argent'
   mapPath: /Maps/_Mono/Shuttles/argent.yml
   minPlayers: 0
   stations:
@@ -34,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Argent {1}'
+          mapNameTemplate: 'Argent CIV{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

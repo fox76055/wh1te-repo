@@ -18,7 +18,7 @@
   name: "Лаборатория Край"
   minimumDistance: 2150
   maximumDistance: 4850
-  spawnGroup: AsteroidRequired
+  spawnGroup: Christmas
   spawnChance: 0
   gridPath: /Maps/_NF/POI/northpole.yml
   hideWarp: true

@@ -4,7 +4,7 @@
 
 - type: entity
   parent: ClothingBackpack
-  id: ClothingBackpackSatchelOutpostTypan
+  id: ClothingBackpackSatchelOutpostSyndicate
   name: сумка синдиката
   description: Модная сумка в красно-чёрных тонах.
   components:
@@ -18,7 +18,7 @@
 
 - type: entity
   name: сумка для растений синдиката
-  id: OutpostTypanPlantBag
+  id: OutpostSyndicatePlantBag
   parent: BaseStorageItem
   description: Сумка для ботаников, чтобы легко переносить свои огромные урожаи.
   components:
@@ -45,7 +45,7 @@
   
 - type: entity
   parent: ClothingOuterStorageBase
-  id: ClothingOuterApronOutpostTypanBotanist
+  id: ClothingOuterApronOutpostSyndicateBotanist
   name: фартук ботаника синдиката
   suffix: Botanical
   description: Толстый фартук, идеально подходящий для защиты вашей нежной плоти от пятен, грязи и крови.

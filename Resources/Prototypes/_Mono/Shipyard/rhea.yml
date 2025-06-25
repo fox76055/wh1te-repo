@@ -7,9 +7,9 @@
 - type: vessel
   id: Rhea
   parent: BaseVessel
-  name: NT Rhea
+  name: SKR Rhea
   description: A very small food ship.
-  price: 27250
+  price: 29250
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/rhea.yml
@@ -20,14 +20,13 @@
   engine:
   - Plasma
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl
 
 - type: gameMap
   id: Rhea
-  mapName: 'NT Rhea'
+  mapName: 'SKR Rhea'
   mapPath: /Maps/_Mono/Shuttles/rhea.yml
   minPlayers: 0
   stations:
@@ -35,7 +34,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Rhea {1}'
+          mapNameTemplate: 'Rhea CIV{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
