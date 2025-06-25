@@ -37,7 +37,6 @@ entities:
     - type: MetaData
       name: ShuttleTinia
     - type: Transform
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -13477,8 +13476,6 @@ entities:
       pos: 0.5,-5.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
   - uid: 2383
     components:
     - type: Transform
@@ -13504,8 +13501,6 @@ entities:
       pos: 3.5,-0.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
 - proto: SynthesizerInstrument
   entities:
   - uid: 2165

@@ -7,7 +7,7 @@
   id: ShuttleTinia
   name: Тиния
   description: Корабль-станция Тиния, предпочтителен для большой команды, в наличии Бар, Кухня, Ботаника.
-  price: 112500
+  price: 134500
   category: Large
   group: Shipyard # Lua ShipyardLarge<Shipyard
   shuttlePath: /Maps/_Lua/Shuttles/Civilian/shuttletinia.yml
