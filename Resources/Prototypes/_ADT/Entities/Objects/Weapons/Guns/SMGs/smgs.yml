@@ -30,7 +30,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineMagnumSubMachineGun
+            - NFMagazineSubMachineGunPistol45
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgePistol45
@@ -38,6 +38,7 @@
         whitelist:
           tags:
             - CartridgeMagnum
+            - NFCartridgePistol45
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -81,7 +82,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineMagnumSubMachineGun
+            - NFMagazineSubMachineGunPistol45
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgePistol45
