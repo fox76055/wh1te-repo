@@ -1,4 +1,4 @@
-# Author Info
+﻿# Author Info
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
@@ -21,9 +21,8 @@
   class:
   - Civilian
   engine:
-  - Plasma
+  - Uranium
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl

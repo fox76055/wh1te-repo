@@ -1,34 +1,38 @@
+# Author Info
+# Discord: LoakaOfTheWind
+#
 - type: vessel
-  id: Beaker
+  id: Geode
   parent: BaseVessel
-  name: SBI Beaker
-  description: "A fully functional Chemistry Lab. Perfect for the prospecting chemist or high school chemistry teachers. Yeah, Science!"
-  price: 65000
-  category: Small
-  group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/beaker.yml
-  guidebookPage: Null
+  name: CLU Geode
+  description: Built into a rock by the finest goblin engineers, this vessel has all the discrete trader needs to conduct business.
+  price: 52000 
+  category: Medium
+  group: Scrap
+  shuttlePath: /Maps/_NF/Shuttles/Scrap/geode.yml
+  guidebookPage: ShipyardGeode
   class:
-  - Chemistry
+  - Scrapyard
+  - Civilian
+  - Salvage
   engine:
   - Uranium
   addComponents:
-
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl
 
 - type: gameMap
-  id: Beaker
-  mapName: 'SBI Beaker'
-  mapPath: /Maps/_NF/Shuttles/beaker.yml
+  id: Geode
+  mapName: 'CLU Geode'
+  mapPath: /Maps/_NF/Shuttles/Scrap/geode.yml
   minPlayers: 0
   stations:
-    Beaker:
+    Geode:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Beaker {1}'
+          mapNameTemplate: 'Geode {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
