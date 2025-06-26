@@ -266,3 +266,10 @@ Entries:
   id: 21
   time: '2025-06-25T15:59:18.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/47
+- author: HacksLua
+  changes:
+    - type: Tweak
+      message: Обновление сборки до состояния версии New Frontier 26.06.2025
+  id: 22
+  time: '2025-06-26T05:28:02.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/52
