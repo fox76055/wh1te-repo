@@ -54,6 +54,7 @@
     materialComposition:
       Glass: 60
   - type: SpaceGarbage
+    cleanupExempt: true # Mono
   - type: StaticPrice # Frontier
     price: 4.5 # Frontier
   - type: NFCookware # Frontier
@@ -195,6 +196,7 @@
     materialComposition:
       Steel: 15 # Frontier 60<15
   - type: SpaceGarbage
+    cleanupExempt: true # Mono
   - type: StaticPrice # Frontier
     price: 4 # Frontier
   - type: NFCookware # Frontier
@@ -222,4 +224,5 @@
     materialComposition:
       Steel: 30
   - type: SpaceGarbage
+    cleanupExempt: true # Mono
   - type: NFCookware # Frontier

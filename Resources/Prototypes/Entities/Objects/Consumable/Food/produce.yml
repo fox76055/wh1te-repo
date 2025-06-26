@@ -493,6 +493,7 @@
   - type: Extractable
     grindableSolutionName: food
   - type: SpaceGarbage
+    cleanupExempt: true # Mono
   - type: Food
     requiresSpecialDigestion: true
 
@@ -2629,6 +2630,7 @@
   - type: Seed
     seedId: bungo
   - type: SpaceGarbage
+    cleanupExempt: true # Mono
   - type: BadFood
 
 - type: entity

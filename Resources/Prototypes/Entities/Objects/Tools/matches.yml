@@ -22,6 +22,7 @@
     - Matchstick
     - Trash
   - type: SpaceGarbage
+    cleanupExempt: true # Mono
   - type: Sprite
     sprite: Objects/Tools/matches.rsi
     layers:
@@ -114,3 +115,4 @@
     tags:
     - Trash
   - type: SpaceGarbage
+    cleanupExempt: false # Mono

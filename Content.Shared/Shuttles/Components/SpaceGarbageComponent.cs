@@ -7,4 +7,12 @@ namespace Content.Shared.Shuttles.Components;
 ///     Useful for small, unimportant items like bullets to avoid generating many contacts.
 /// </summary>
 [RegisterComponent, NetworkedComponent]
-public sealed partial class SpaceGarbageComponent : Component;
+public sealed partial class SpaceGarbageComponent : Component
+{
+    /// <summary>
+    /// Signifies an entity to be ignored by SpaceGarbageCleanupSystem. - Mono
+    /// </summary>
+    [DataField("cleanupExempt")]
+    public bool CleanupExempt = false;
+
+};
