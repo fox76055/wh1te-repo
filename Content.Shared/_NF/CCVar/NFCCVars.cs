@@ -54,7 +54,7 @@ public sealed class NFCCVars
     /// Whether public transit is enabled.
     /// </summary>
     public static readonly CVarDef<bool> PublicTransit =
-        CVarDef.Create("nf14.publictransit.enabled", true, CVar.SERVERONLY);
+        CVarDef.Create("nf14.publictransit.enabled", false, CVar.SERVERONLY);
 
     /*
      *  World Gen
