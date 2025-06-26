@@ -1,4 +1,4 @@
-- type: species
+﻿- type: species
   id: Sheleg
   name: species-name-sheleg
   roundStart: true
@@ -13,6 +13,9 @@
   femaleFirstNames: NamesShelegFirstFemale
   maleLastNames: NamesShelegLast # Corvax-LastnameGender
   femaleLastNames: NamesShelegLast # Corvax-LastnameGender
+  youngAge: 80
+  oldAge: 400
+  maxAge: 800
 
 - type: speciesBaseSprites
   id: MobShelegSprites

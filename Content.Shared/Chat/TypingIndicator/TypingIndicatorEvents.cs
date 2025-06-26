@@ -14,10 +14,12 @@ public sealed class TypingChangedEvent : EntityEventArgs
 {
     // Corvax-TypingIndicator-Start
     public readonly TypingIndicatorState State;
+    public readonly ProtoId<TypingIndicatorPrototype>? OverrideIndicator; // DeltaV
 
-    public TypingChangedEvent(TypingIndicatorState state)
+    public TypingChangedEvent(TypingIndicatorState state, ProtoId<TypingIndicatorPrototype>? proto = null) // DeltaV: added proto
     {
         State = state;
+        OverrideIndicator = proto; // DeltaV
     }
     // Corvax-TypingIndicator-End
 }
