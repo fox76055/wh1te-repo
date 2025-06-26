@@ -25204,7 +25204,7 @@ entities:
     - type: Transform
       pos: 8.5,-18.5
       parent: 1
-- proto: ComputerIFFSyndicateTypan
+- proto: ComputerIFF
   entities:
   - uid: 3833
     components:
