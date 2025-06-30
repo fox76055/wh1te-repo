@@ -1,0 +1,385 @@
+# SPDX-FileCopyrightText: 2025 EctoplasmIsGood
+# SPDX-FileCopyrightText: 2025 HungryCuban
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 ScyronX
+# SPDX-FileCopyrightText: 2025 Your Name
+# SPDX-FileCopyrightText: 2025 core-mene
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: listing
+  id: UplinkSecurityAnnie
+  name:  uplink-security-annie-name
+  description: uplink-security-annie-desc
+  productEntity: WeaponRifleAnnie
+  cost:
+    FederationMilitaryCredit: 15
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityEg4
+  name:  uplink-security-eg4-name
+  description: uplink-security-eg4-desc
+  productEntity: WeaponEnergyRevolver
+  cost:
+    FederationMilitaryCredit: 7
+  categories:
+  - UplinkSecurityWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityMR8C
+  name:  uplink-security-mr8c-name
+  description: uplink-security-mr8c-desc
+  productEntity: WeaponRifleMR8C
+  cost:
+    FederationMilitaryCredit: 15
+  categories:
+  - UplinkSecurityWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityMR8B
+  name:  uplink-security-mr8b-name
+  description: uplink-security-mr8b-desc
+  productEntity: WeaponLMGMR8B
+  cost:
+    FederationMilitaryCredit: 25
+  categories:
+  - UplinkSecurityWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityAshstorm
+  name:  uplink-security-ashstorm-name
+  description: uplink-security-ashstorm-desc
+  productEntity: ClothingBackpackDuffelAshstormBundle
+  cost:
+    FederationMilitaryCredit: 25
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecuritySurgeryDuffel
+  name:  uplink-security-surgery-duffel-name
+  description: uplink-security-surgery-duffel-desc
+  productEntity: ClothingBackpackDuffelSurgeryAdvancedFilled
+  icon: { sprite: Objects/Specific/Medical/Surgery/scalpel.rsi, state: laser }
+  cost:
+    FederationMilitaryCredit: 4
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Brigmedic
+        - Bailiff
+        - Sheriff
+
+
+- type: listing
+  id: UplinkSecurityPortableRecharger
+  name:  uplink-security-portable-recharger-name
+  description: uplink-security-portable-recharger-desc
+  productEntity: PortableRecharger
+  cost:
+    FederationMilitaryCredit: 7
+  categories:
+  - UplinkSecurityUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityCash75000
+  name: uplink-security-cash75000-name
+  description: uplink-security-cash75000-desc
+  productEntity: SpaceCash75000
+  icon: { sprite: _NF/Objects/Economy/cash.rsi, state: cash_100000 }
+  cost:
+    FederationMilitaryCredit: 10
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityMagazineSubsonic
+  name:  uplink-subsonic-mag-name
+  description: uplink-subsonic-mag-desc
+  productEntity: MagazineLightRifleSubsonic
+  cost:
+    FederationMilitaryCredit: 1
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxSubsonic
+  name:  uplink-subsonic-box-name
+  description: uplink-subsonic-box-desc
+  productEntity: MagazineBoxLightRifleSubsonic
+  cost:
+    FederationMilitaryCredit: 3
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityMagazine8x65mm
+  name:  uplink-security-8x65mm-magazine-name
+  description: uplink-security-8x65mm-magazine-desc
+  productEntity: Magazine8x65mmSKR
+  cost:
+    FederationMilitaryCredit: 1
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityMagazineBox8x65mm
+  name: uplink-security-8x65mm-boxmag-name
+  description: uplink-security-8x65mm-boxmag-desc
+  productEntity: Magazine8x65mmSKRBox
+  cost:
+    FederationMilitaryCredit: 2
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxSKR
+  name:  uplink-security-8x65mm-box-name
+  description: uplink-security-8x65mm-box-desc
+  productEntity: AmmoBox8x65mmSKR
+  cost:
+    FederationMilitaryCredit: 5
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityNavyOfficerSword
+  name:  uplink-security-navyofficersword-name
+  description: uplink-security-navyofficersword-desc
+  productEntity: ClothingBeltSheathFilledNavyOfficer
+  icon: { sprite: _Goobstation/Objects/Weapons/Melee/ccsabre.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 2 #From 10 to 2
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+# - type: listing
+#   id: UplinkSecurityAuroraExosuit
+#   name:  uplink-exosuit-aurora-name
+#   description: uplink-exosuit-aurora-desc
+#   productEntity: ClothingOuterExosuitAurora
+#   cost:
+#     FederationMilitaryCredit: 25
+#   categories:
+#   - UplinkSecurityHardsuits
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     whitelist:
+#       tags:
+#       - SecurityUplink
+
+#Lua edit start: Transfered sec hardsuits with the new id's here
+- type: listing
+  id: UplinkSecurityHardsuit
+  name:  uplink-security-hardsuit-name
+  description: uplink-security-hardsuit-desc
+  productEntity: ClothingOuterHardsuiTSFMCM73
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 2
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityHardsuitPatrol
+  name:  uplink-security-hardsuit-patrol-name
+  description: uplink-security-hardsuit-patrol-desc
+  productEntity: ClothingOuterHardsuiTSFMCM74
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 2
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityHardsuitBrigmedic
+  name:  uplink-security-hardsuit-brigmedic-name
+  description: uplink-security-hardsuit-brigmedic-desc
+  productEntity: ClothingOuterHardsuiTSFMCM73-M
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 2
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityHardsuitWarden
+  name:  uplink-security-hardsuit-warden-name
+  description: uplink-security-hardsuit-warden-desc
+  productEntity: ClothingOuterHardsuiTSFMCM75
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 3
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: UplinkSecurityCombatHardsuit
+  name:  uplink-security-hardsuit-combat-name
+  description: uplink-security-hardsuit-combat-desc
+  productEntity: ClothingOuterHardsuiTSFMCM93
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 10
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityCommandHardsuit
+  name:  uplink-security-hardsuit-command-name
+  description: uplink-security-hardsuit-command-desc
+  productEntity: ClothingOuterHardsuiTSFMCM93-C
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 10
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - Sheriff
+
+- type: listing
+  id: UplinkSecurityHardsuitSyndieReverseEngineered
+  name:  uplink-security-hardsuit-experimental-name
+  description: uplink-security-hardsuit-experimental-desc
+  productEntity: ClothingOuterHardsuiTSFMCM92-X
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 25
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityHardsuitSheriff
+  name:  uplink-security-hardsuit-sheriff-name
+  description: uplink-security-hardsuit-sheriff-desc
+  productEntity: ClothingOuterHardsuiTSFMCM92
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi, state: icon }
+  cost:
+    FederationMilitaryCredit: 3
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Sheriff
+#Lua edit end
