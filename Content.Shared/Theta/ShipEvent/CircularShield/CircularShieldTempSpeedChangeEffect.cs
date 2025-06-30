@@ -1,28 +1,18 @@
-// SPDX-FileCopyrightText: 2025 Ark
-// SPDX-FileCopyrightText: 2025 Solstice
-// SPDX-FileCopyrightText: 2025 sleepyyapril
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
 using Content.Shared.Projectiles;
 using Content.Shared.Theta.ShipEvent.Components;
 using Robust.Shared.Physics.Systems;
 using System.Collections.Concurrent;
 using System.Linq;
 using Content.Shared._Mono.SpaceArtillery;
-using Serilog;
 
 namespace Content.Shared.Theta.ShipEvent.CircularShield;
 
 public sealed partial class CircularShieldTempSpeedChangeEffect : CircularShieldEffect
 {
     private IEntityManager _entMan = default!;
-    private ILogManager _logManager = default!;
     private SharedTransformSystem _formSys = default!;
     private SharedPhysicsSystem _physSys = default!;
     private SharedCircularShieldSystem _shieldSys = default!;
-
-    private ISawmill _sawmill = default!;
 
     [DataField(required: true)]
     public float SpeedModifier;
@@ -49,13 +39,9 @@ public sealed partial class CircularShieldTempSpeedChangeEffect : CircularShield
     public override void OnShieldInit(Entity<CircularShieldComponent> shield)
     {
         _entMan = IoCManager.Resolve<IEntityManager>();
-        _logManager = IoCManager.Resolve<ILogManager>();
-
         _formSys = _entMan.System<SharedTransformSystem>();
         _physSys = _entMan.System<SharedPhysicsSystem>();
         _shieldSys = _entMan.System<SharedCircularShieldSystem>();
-
-        _sawmill = _logManager.GetSawmill("circularshield");
 
         ShieldEntity = shield.Owner;
         ShieldComponent = shield.Comp;
@@ -64,9 +50,7 @@ public sealed partial class CircularShieldTempSpeedChangeEffect : CircularShield
     public override void OnShieldShutdown(Entity<CircularShieldComponent> shield)
     {
         foreach (var id in _trackedUids.Keys)
-        {
             RestoreVelocity(id);
-        }
 
         _trackedUids.Clear();
         ShieldComponent = null;
@@ -99,6 +83,12 @@ public sealed partial class CircularShieldTempSpeedChangeEffect : CircularShield
 
     public override void OnShieldEnter(EntityUid uid, Entity<CircularShieldComponent> shield)
     {
+        // Initialize entity manager if it hasn't been initialized yet
+        _entMan = IoCManager.Resolve<IEntityManager>();
+        _formSys = _entMan.System<SharedTransformSystem>();
+        _physSys = _entMan.System<SharedPhysicsSystem>();
+        _shieldSys = _entMan.System<SharedCircularShieldSystem>();
+
         // If the entity doesn't exist, don't process it
         if (!_entMan.EntityExists(uid))
             return;
@@ -122,29 +112,20 @@ public sealed partial class CircularShieldTempSpeedChangeEffect : CircularShield
 
             // If still invalid, skip grid checking but allow effects by default
             if (ShieldEntity == default || !_entMan.EntityExists(ShieldEntity))
-            {
-                ApplyEffects(uid, shouldAffectProjectile);
-                return;
-            }
+                goto ApplyEffects;
         }
 
         try
         {
             // Get the shield's grid
             if (!_entMan.TryGetComponent(ShieldEntity, out TransformComponent? shieldTransform))
-            {
-                ApplyEffects(uid, shouldAffectProjectile);
-                return;
-            }
+                goto ApplyEffects;
 
             var shieldGridUid = shieldTransform.GridUid;
 
             // Get the projectile's grid
             if (!_entMan.TryGetComponent(uid, out TransformComponent? projectileTransform))
-            {
-                ApplyEffects(uid, shouldAffectProjectile);
-                return;
-            }
+                goto ApplyEffects;
 
             var projectileGridUid = projectileTransform.GridUid;
 
@@ -166,18 +147,13 @@ public sealed partial class CircularShieldTempSpeedChangeEffect : CircularShield
             // If projectile is from the same grid, don't affect it
             if (isSameGrid)
                 shouldAffectProjectile = false;
-
-            ApplyEffects(uid, shouldAffectProjectile);
         }
-        catch (Exception e)
+        catch (Exception)
         {
-            // If any error occurs during grid checking, we want it to log for later.
-            _sawmill.Warning(e.ToString());
+            // If any error occurs during grid checking, we'll continue with default behavior
         }
-    }
 
-    private void ApplyEffects(EntityUid uid, bool shouldAffectProjectile)
-    {
+        ApplyEffects:
         // If we should destroy projectiles and this projectile should be affected
         if (DestroyProjectiles && shouldAffectProjectile)
         {
@@ -186,7 +162,7 @@ public sealed partial class CircularShieldTempSpeedChangeEffect : CircularShield
         }
         else if (shouldAffectProjectile)
         {
-            // Only track projectiles for phasing if they should be affected, and we're not destroying them
+            // Only track projectiles for phasing if they should be affected and we're not destroying them
             if (ProjectilePhasing)
                 _trackedUids.TryAdd(uid, 0); // Value is not used, just a placeholder for the concurrent dictionary
 
