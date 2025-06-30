@@ -273,3 +273,10 @@ Entries:
   id: 22
   time: '2025-06-26T05:28:02.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/52
+- author: salo2016
+  changes:
+    - type: Tweak
+      message: Через генераторы можно перелазить к шкафчикам с топливом!
+  id: 23
+  time: '2025-06-30T10:05:46.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/54
