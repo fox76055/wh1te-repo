@@ -14,7 +14,7 @@
   description: uplink-security-annie-desc
   productEntity: WeaponRifleAnnie
   cost:
-    FederationMilitaryCredit: 15
+    FrontierUplinkCoin: 15
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -29,7 +29,7 @@
   description: uplink-security-eg4-desc
   productEntity: WeaponEnergyRevolver
   cost:
-    FederationMilitaryCredit: 7
+    FrontierUplinkCoin: 7
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -44,7 +44,7 @@
   description: uplink-security-mr8c-desc
   productEntity: WeaponRifleMR8C
   cost:
-    FederationMilitaryCredit: 15
+    FrontierUplinkCoin: 15
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -59,7 +59,7 @@
   description: uplink-security-mr8b-desc
   productEntity: WeaponLMGMR8B
   cost:
-    FederationMilitaryCredit: 25
+    FrontierUplinkCoin: 25
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -74,7 +74,7 @@
   description: uplink-security-ashstorm-desc
   productEntity: ClothingBackpackDuffelAshstormBundle
   cost:
-    FederationMilitaryCredit: 25
+    FrontierUplinkCoin: 25
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -90,7 +90,7 @@
   productEntity: ClothingBackpackDuffelSurgeryAdvancedFilled
   icon: { sprite: Objects/Specific/Medical/Surgery/scalpel.rsi, state: laser }
   cost:
-    FederationMilitaryCredit: 4
+    FrontierUplinkCoin: 4
   categories:
     - UplinkSecurityUtility
   conditions:
@@ -111,7 +111,7 @@
   description: uplink-security-portable-recharger-desc
   productEntity: PortableRecharger
   cost:
-    FederationMilitaryCredit: 7
+    FrontierUplinkCoin: 7
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -127,7 +127,7 @@
   productEntity: SpaceCash75000
   icon: { sprite: _NF/Objects/Economy/cash.rsi, state: cash_100000 }
   cost:
-    FederationMilitaryCredit: 10
+    FrontierUplinkCoin: 10
   categories:
     - UplinkSecurityUtility
   conditions:
@@ -142,7 +142,7 @@
   description: uplink-subsonic-mag-desc
   productEntity: MagazineLightRifleSubsonic
   cost:
-    FederationMilitaryCredit: 1
+    FrontierUplinkCoin: 1
   categories:
   - UplinkSecurityAmmo
   conditions:
@@ -157,7 +157,7 @@
   description: uplink-subsonic-box-desc
   productEntity: MagazineBoxLightRifleSubsonic
   cost:
-    FederationMilitaryCredit: 3
+    FrontierUplinkCoin: 3
   categories:
   - UplinkSecurityAmmo
   conditions:
@@ -170,9 +170,9 @@
   id: UplinkSecurityMagazine8x65mm
   name:  uplink-security-8x65mm-magazine-name
   description: uplink-security-8x65mm-magazine-desc
-  productEntity: Magazine8x65mmSKR
+  productEntity: MagazineDMR
   cost:
-    FederationMilitaryCredit: 1
+    FrontierUplinkCoin: 1
   categories:
   - UplinkSecurityAmmo
   conditions:
@@ -185,24 +185,9 @@
   id: UplinkSecurityMagazineBox8x65mm
   name: uplink-security-8x65mm-boxmag-name
   description: uplink-security-8x65mm-boxmag-desc
-  productEntity: Magazine8x65mmSKRBox
+  productEntity: MagazineBoxDMR
   cost:
-    FederationMilitaryCredit: 2
-  categories:
-  - UplinkSecurityAmmo
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityBoxSKR
-  name:  uplink-security-8x65mm-box-name
-  description: uplink-security-8x65mm-box-desc
-  productEntity: AmmoBox8x65mmSKR
-  cost:
-    FederationMilitaryCredit: 5
+    FrontierUplinkCoin: 2
   categories:
   - UplinkSecurityAmmo
   conditions:
@@ -218,7 +203,7 @@
   productEntity: ClothingBeltSheathFilledNavyOfficer
   icon: { sprite: _Goobstation/Objects/Weapons/Melee/ccsabre.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 2 #From 10 to 2
+    FrontierUplinkCoin: 2 #From 10 to 2
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -233,7 +218,7 @@
 #   description: uplink-exosuit-aurora-desc
 #   productEntity: ClothingOuterExosuitAurora
 #   cost:
-#     FederationMilitaryCredit: 25
+#     FrontierUplinkCoin: 25
 #   categories:
 #   - UplinkSecurityHardsuits
 #   conditions:
@@ -244,13 +229,13 @@
 
 #Lua edit start: Transfered sec hardsuits with the new id's here
 - type: listing
-  id: UplinkSecurityHardsuit
+  id: UplinkSecurityHardsuitM73
   name:  uplink-security-hardsuit-name
   description: uplink-security-hardsuit-desc
   productEntity: ClothingOuterHardsuiTSFMCM73
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 2
+    FrontierUplinkCoin: 2
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -260,13 +245,13 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitPatrol
+  id: UplinkSecurityHardsuitM74
   name:  uplink-security-hardsuit-patrol-name
   description: uplink-security-hardsuit-patrol-desc
   productEntity: ClothingOuterHardsuiTSFMCM74
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 2
+    FrontierUplinkCoin: 2
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -276,13 +261,13 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitBrigmedic
+  id: UplinkSecurityHardsuitM73-M
   name:  uplink-security-hardsuit-brigmedic-name
   description: uplink-security-hardsuit-brigmedic-desc
   productEntity: ClothingOuterHardsuiTSFMCM73-M
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 2
+    FrontierUplinkCoin: 2
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -292,13 +277,13 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitWarden
+  id: UplinkSecurityHardsuitM75
   name:  uplink-security-hardsuit-warden-name
   description: uplink-security-hardsuit-warden-desc
   productEntity: ClothingOuterHardsuiTSFMCM75
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 3
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -313,13 +298,13 @@
         - Sheriff
 
 - type: listing
-  id: UplinkSecurityCombatHardsuit
+  id: UplinkSecurityHardsuitM93
   name:  uplink-security-hardsuit-combat-name
   description: uplink-security-hardsuit-combat-desc
   productEntity: ClothingOuterHardsuiTSFMCM93
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 10
+    FrontierUplinkCoin: 10
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -329,13 +314,13 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityCommandHardsuit
+  id: UplinkSecurityCommandM93-C
   name:  uplink-security-hardsuit-command-name
   description: uplink-security-hardsuit-command-desc
   productEntity: ClothingOuterHardsuiTSFMCM93-C
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 10
+    FrontierUplinkCoin: 10
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -349,13 +334,13 @@
         - Sheriff
 
 - type: listing
-  id: UplinkSecurityHardsuitSyndieReverseEngineered
+  id: UplinkSecurityHardsuitJuggernaut
   name:  uplink-security-hardsuit-experimental-name
   description: uplink-security-hardsuit-experimental-desc
   productEntity: ClothingOuterHardsuiTSFMCM92-X
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 25
+    FrontierUplinkCoin: 25
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -365,13 +350,13 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitSheriff
+  id: UplinkSecurityHardsuitM92
   name:  uplink-security-hardsuit-sheriff-name
   description: uplink-security-hardsuit-sheriff-desc
   productEntity: ClothingOuterHardsuiTSFMCM92
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi, state: icon }
   cost:
-    FederationMilitaryCredit: 3
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityHardsuits
   conditions:

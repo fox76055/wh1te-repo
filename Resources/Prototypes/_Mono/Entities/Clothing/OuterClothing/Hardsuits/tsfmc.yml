@@ -10,8 +10,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m73.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM73
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM73
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: Armor
@@ -40,8 +39,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m74.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM74
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM74
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
@@ -54,8 +52,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m75.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM75
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM75
 
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
@@ -68,8 +65,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m92.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM92
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM92
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: Armor
@@ -98,8 +94,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m73-m.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM73-C
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM73-C
   - type: Armor
     modifiers:
       coefficients:
@@ -121,8 +116,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m92-x.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM92-X
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM92-X
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
@@ -157,8 +151,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m93.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM93
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM93
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: Armor
@@ -188,8 +181,7 @@
   - type: Clothing
     sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m93-c.rsi
   - type: ToggleableClothing
-    clothingPrototypes:
-      head:  ClothingHeadHelmetHardsuitTSFMCM93-C
+    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM93-C
   - type: ExplosionResistance
     damageCoefficient: 0.35
   - type: Armor

@@ -5,7 +5,7 @@
   description: Used primarily in ceremonies by naval officers, it remains a proven weapon.
   components:
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Melee/ccsabre.rsi
+    sprite: _Goobstation/Objects/Weapons/Melee/ccsabre.rsi
   - type: MeleeWeapon
     heavyStaminaCost: 2.5
     attackRate: 1.6
@@ -18,7 +18,7 @@
     reflectProb: .2
     spread: 90
   - type: Item
-    sprite: _Mono/Objects/Weapons/Melee/ccsabre.rsi
+    sprite: _Goobstation/Objects/Weapons/Melee/ccsabre.rsi
   - type: Tag
     tags:
     - CaptainSabre

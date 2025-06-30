@@ -708,22 +708,6 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateAtreides
-  name: uplink-pirate-atreides-name
-  description: uplink-pirate-atreides-desc
-  productEntity: ClothingBackpackDuffelSyndicateFilledAtreides
-  icon: { sprite: Objects/Weapons/Guns/SMGs/atreides.rsi, state: icon }
-  cost:
-    Doubloon: 20
-  categories:
-  - UplinkPirateWeapons
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
-
-- type: listing
   id: UplinkPirateBulldog
   name: uplink-pirate-bulldog-name
   description: uplink-pirate-bulldog-desc
@@ -880,22 +864,6 @@
 #     whitelist:
 #       tags:
 #       - PirateUplink
-
-- type: listing
-  id: UplinkPirateL6SawBundle
-  name: uplink-l6-saw-bundle-name
-  description: uplink-l6-saw-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/LMGs/l6.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateFilledLMG
-  cost:
-    Doubloon: 20
-  categories:
-  - UplinkPirateWeapons
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
 
 - type: listing
   id: UplinkPirateL6SawBundle

@@ -36,21 +36,21 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine8x65mmSKR
+        startingItem: MagazineDMR
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - Magazine8x65mmSKR
+            - MagazineDMR
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge8x65mmSKR
+        startingItem: CartridgeDMR
         priority: 1
         whitelist:
           tags:
-            - Cartridge8x65mmSKR
+            - CartridgeDMR
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -76,7 +76,7 @@
   #  pvsIncrease: 0.5
 
 - type: entity
-  name: AK-502 (7.62x39mm)
+  name: AK-502 (.30 rifle)
   parent: [BaseWeaponRifle, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponRifleAK502
   description: A standard-issue USSP combat rifle. Uses 7.62x39mm ammo.
@@ -105,21 +105,21 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine7.62x39mmFMJ
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
         priority: 2
         whitelist:
           tags:
-          - Magazine7.62x39mmFMJ
+          - NFMagazineRifle30
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge7.62x39mmFMJ
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-          - Cartridge7.62x39mmFMJ
+          - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

@@ -40,11 +40,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge7.62x39mmFMJ
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - Cartridge7.62x39mmFMJ
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
