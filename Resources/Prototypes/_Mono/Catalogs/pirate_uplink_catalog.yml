@@ -249,7 +249,7 @@
   icon: { sprite: Objects/Storage/boxes.rsi, state: box}
   productEntity: BoxT3SuperCapacitor
   cost:
-    Doubloon: 3
+    Doubloon: 4
   categories:
   - UplinkPirateUtility
   conditions:
