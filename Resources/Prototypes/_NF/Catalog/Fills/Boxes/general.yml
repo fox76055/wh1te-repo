@@ -98,7 +98,7 @@
   - type: StorageFill
     contents:
       - id: SuperCapacitorStockPart
-        amount: 32
+        amount: 12
   - type: Storage
     maxItemSize: Normal
     grid:
