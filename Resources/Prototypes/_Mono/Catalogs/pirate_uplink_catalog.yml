@@ -214,7 +214,7 @@
   id: UplinkPirateHoverbikeFlatpack
   name: uplink-pirate-hoverbike-name
   description: uplink-pirate-hoverbike-desc
-  productEntity: HoverbikePirateFlatpack
+  productEntity: CrateFunHoverbikeNFPirate
   icon: { sprite: _NF/Objects/Vehicles/hoverbike.rsi, state: vehicle }
   cost:
     Doubloon: 5

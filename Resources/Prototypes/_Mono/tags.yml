@@ -36,6 +36,11 @@
 - type: Tag
   id: MilitaryPowerCellMG
 
+# DP-29 tags
+
+- type: Tag
+  id: MagazineDP29
+
   #Misc emote tags
 
 - type: Tag
