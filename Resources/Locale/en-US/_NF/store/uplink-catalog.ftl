@@ -3,14 +3,6 @@ uplink-emp-grenade-launcher-bundle-desc = An old China-Lake grenade launcher bun
 uplink-spaceblade-syndicate-name = Contra SpaceBlade
 uplink-spaceblade-syndicate-desc = Made from real metal!
 
-store-category-sechardsuits = EVA Suits
-store-category-secweapons = Weapons
-store-category-secutility = Utility
-store-category-secammo = Ammunition
-store-category-secexplosives = Explosives
-store-category-secbundles = Bundles
-
-
 uplink-security-hardsuit-name = Bronze Patrol Suit
 uplink-security-hardsuit-desc = The standard-issue TSFMC space proof suit for patrol duty. This bronze variant has cadet rank markings.
 uplink-security-hardsuit-patrol-name = Silver Patrol Suit
@@ -25,8 +17,8 @@ uplink-security-hardsuit-sheriff-name = Colonel's Patrol Suit
 uplink-security-hardsuit-sheriff-desc = The standard-issue TSFMC space proof suit for patrol duty. This gold variant has colonel rank markings.
 uplink-security-hardsuit-combat-name = Combat Suit
 uplink-security-hardsuit-combat-desc = A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility.
-uplink-security-hardsuit-commmand-name = Command Combat Suit
-uplink-security-hardsuit-commmand-desc = A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility. This variant has supervisor rank markings.
+uplink-security-hardsuit-command-name = Command Combat Suit
+uplink-security-hardsuit-command-desc = A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility. This variant has supervisor rank markings.
 uplink-security-lethalarmory-name = Lethal Armory Stock Crate
 uplink-security-lethalarmory-desc = A crate containing weapons necessary to fill an armory.
 uplink-security-nonlethalarmory-name = Non-lethal Armory Stock Crate
@@ -157,16 +149,6 @@ uplink-security-spaceblade-sec-name = Security SpaceBlade
 uplink-security-spaceblade-sec-desc = The latest in stun tech.
 uplink-security-contraband-forensics-module-name = Contraband Forenics Module
 uplink-security-contraband-forensics-module-desc = A program for scanning and reporting contraband dead drops and pods for bounties. Slots into a forensic scanner.
-
-# Mono edit
-store-category-pirateequipment = Equipment
-store-category-pirateweapons = Weapons
-store-category-piratemedical = Medical
-store-category-pirateutility = Utility
-store-category-pirateammo = Ammunition
-store-category-pirateexplosives = Explosives
-store-category-pirategambling = Gambling
-# Mono edit end
 
 uplink-pirate-hardsuit-name = Rogue Hardsuit
 uplink-pirate-hardsuit-desc = A heavy space suit that provides some basic protection from the cold harsh realities of deep space.

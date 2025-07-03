@@ -8,13 +8,15 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# Weapons
+
 - type: listing
   id: UplinkSecurityAnnie
   name:  uplink-security-annie-name
   description: uplink-security-annie-desc
   productEntity: WeaponRifleAnnie
   cost:
-    FrontierUplinkCoin: 15
+    FrontierUplinkCoin: 20
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -22,6 +24,31 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+          - Bailiff
+          - SeniorOfficer
+          - Sheriff
+
+- type: listing
+  id: UplinkSecurityNavyOfficerSword
+  name:  uplink-security-navyofficersword-name
+  description: uplink-security-navyofficersword-desc
+  productEntity: ClothingBeltSheathFilledNavyOfficer
+  icon: { sprite: _Goobstation/Objects/Weapons/Melee/ccsabre.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 8 #From 10 to 8
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+          - Bailiff
+          - Sheriff
 
 - type: listing
   id: UplinkSecurityEg4
@@ -44,7 +71,7 @@
   description: uplink-security-mr8c-desc
   productEntity: WeaponRifleMR8C
   cost:
-    FrontierUplinkCoin: 15
+    FrontierUplinkCoin: 25
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -52,6 +79,11 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+      - Bailiff
+      - SeniorOfficer
+      - Sheriff
 
 - type: listing
   id: UplinkSecurityMR8B
@@ -59,7 +91,7 @@
   description: uplink-security-mr8b-desc
   productEntity: WeaponLMGMR8B
   cost:
-    FrontierUplinkCoin: 25
+    FrontierUplinkCoin: 35
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -67,6 +99,9 @@
     whitelist:
       tags:
       - SecurityUplink
+  - !type:BuyerJobCondition
+    whitelist:
+      - Sheriff
 
 - type: listing
   id: UplinkSecurityAshstorm
@@ -74,7 +109,7 @@
   description: uplink-security-ashstorm-desc
   productEntity: ClothingBackpackDuffelAshstormBundle
   cost:
-    FrontierUplinkCoin: 25
+    FrontierUplinkCoin: 40
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -82,59 +117,11 @@
       whitelist:
         tags:
           - SecurityUplink
-
-- type: listing
-  id: UplinkSecuritySurgeryDuffel
-  name:  uplink-security-surgery-duffel-name
-  description: uplink-security-surgery-duffel-desc
-  productEntity: ClothingBackpackDuffelSurgeryAdvancedFilled
-  icon: { sprite: Objects/Specific/Medical/Surgery/scalpel.rsi, state: laser }
-  cost:
-    FrontierUplinkCoin: 4
-  categories:
-    - UplinkSecurityUtility
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
     - !type:BuyerJobCondition
       whitelist:
-        - Brigmedic
-        - Bailiff
         - Sheriff
 
-
-- type: listing
-  id: UplinkSecurityPortableRecharger
-  name:  uplink-security-portable-recharger-name
-  description: uplink-security-portable-recharger-desc
-  productEntity: PortableRecharger
-  cost:
-    FrontierUplinkCoin: 7
-  categories:
-  - UplinkSecurityUtility
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityCash75000
-  name: uplink-security-cash75000-name
-  description: uplink-security-cash75000-desc
-  productEntity: SpaceCash75000
-  icon: { sprite: _NF/Objects/Economy/counterfeit_cash.rsi, state: cash_100000 }
-  cost:
-    FrontierUplinkCoin: 10
-  categories:
-    - UplinkSecurityUtility
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
+# Ammo
 
 - type: listing
   id: UplinkSecurityMagazineSubsonic
@@ -182,12 +169,27 @@
       - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityMagazineBox8x65mm
-  name: uplink-security-8x65mm-boxmag-name
-  description: uplink-security-8x65mm-boxmag-desc
-  productEntity: Magazine8x65mmSKRBox
+  id: UplinkSecurityMagazineBox8x55mm
+  name: uplink-security-8x55mm-boxmag-name
+  description: uplink-security-8x55mm-boxmag-desc
+  productEntity: Magazine8x55mmSKRBox
   cost:
-    FrontierUplinkCoin: 2
+    FrontierUplinkCoin: 5
+  categories:
+  - UplinkSecurityAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityAmmoBox8x55mm
+  name: uplink-security-8x55mm-box-name
+  description: uplink-security-8x55mm-box-desc
+  productEntity: AmmoBox8x55mmSKR
+  cost:
+    FrontierUplinkCoin: 3
   categories:
   - UplinkSecurityAmmo
   conditions:
@@ -198,8 +200,8 @@
 
 - type: listing
   id: UplinkSecurityMagazineMG8x65mm
-  name: uplink-security-8x65mm-boxmag-name
-  description: uplink-security-8x65mm-boxmag-desc
+  name: uplink-security-8x65mm-box-name
+  description: uplink-security-8x65mm-box-desc
   productEntity: AmmoBox8x65mmSKR
   cost:
     FrontierUplinkCoin: 2
@@ -210,22 +212,6 @@
     whitelist:
       tags:
       - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityNavyOfficerSword
-  name:  uplink-security-navyofficersword-name
-  description: uplink-security-navyofficersword-desc
-  productEntity: ClothingBeltSheathFilledNavyOfficer
-  icon: { sprite: _Goobstation/Objects/Weapons/Melee/ccsabre.rsi, state: icon }
-  cost:
-    FrontierUplinkCoin: 2 #From 10 to 2
-  categories:
-    - UplinkSecurityWeapons
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
 
 # - type: listing
 #   id: UplinkSecurityAuroraExosuit
@@ -243,6 +229,7 @@
 #       - SecurityUplink
 
 #Lua edit start: Transfered sec hardsuits with the new id's here
+# Equipment
 - type: listing
   id: UplinkSecurityHardsuitM73
   name:  uplink-security-hardsuit-name
@@ -250,7 +237,7 @@
   productEntity: ClothingOuterHardsuiTSFMCM73
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m73.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 2
+    FrontierUplinkCoin: 6
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -266,7 +253,7 @@
   productEntity: ClothingOuterHardsuiTSFMCM74
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m74.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 2
+    FrontierUplinkCoin: 6
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -276,13 +263,13 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitM73-M
+  id: UplinkSecurityHardsuitM73-C
   name:  uplink-security-hardsuit-brigmedic-name
   description: uplink-security-hardsuit-brigmedic-desc
-  productEntity: ClothingOuterHardsuiTSFMCM73-M
-  icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m73-m.rsi, state: icon }
+  productEntity: ClothingOuterHardsuiTSFMCM73-C
+  icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m73-c.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 2
+    FrontierUplinkCoin: 6
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -290,6 +277,11 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - Sheriff
+        - Brigmedic
 
 - type: listing
   id: UplinkSecurityHardsuitM75
@@ -298,7 +290,7 @@
   productEntity: ClothingOuterHardsuiTSFMCM75
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m75.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 6
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -319,7 +311,7 @@
   productEntity: ClothingOuterHardsuiTSFMCM93
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m93.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 10
+    FrontierUplinkCoin: 15
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -330,12 +322,12 @@
 
 - type: listing
   id: UplinkSecurityCommandM93-C
-  name:  uplink-security-hardsuit-command-name
+  name: uplink-security-hardsuit-command-name
   description: uplink-security-hardsuit-command-desc
   productEntity: ClothingOuterHardsuiTSFMCM93-C
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m93-c.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 10
+    FrontierUplinkCoin: 15
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -355,7 +347,7 @@
   productEntity: ClothingOuterHardsuiTSFMCM92-X
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m92-x.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 25
+    FrontierUplinkCoin: 40
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -363,6 +355,9 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Sheriff
 
 - type: listing
   id: UplinkSecurityHardsuitM92
@@ -371,7 +366,7 @@
   productEntity: ClothingOuterHardsuiTSFMCM92
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m92.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 8
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -383,3 +378,51 @@
       whitelist:
         - Sheriff
 #Lua edit end
+
+# Utility
+
+- type: listing
+  id: UplinkSecurityPortableRecharger
+  name:  uplink-security-portable-recharger-name
+  description: uplink-security-portable-recharger-desc
+  productEntity: PortableRecharger
+  cost:
+    FrontierUplinkCoin: 7
+  categories:
+  - UplinkSecurityUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityCash50000
+  name: uplink-security-cash50000-name
+  description: uplink-security-cash50000-desc
+  productEntity: SpaceCash50000
+  icon: { sprite: _NF/Objects/Economy/counterfeit_cash.rsi, state: cash_50000 }
+  cost:
+    FrontierUplinkCoin: 10
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityMedipenCase
+  name: uplink-pirate-syringe-case-name
+  description: uplink-pirate-syringe-case-desc
+  productEntity: SyringeCaseAltFilled
+  cost:
+    FrontierUplinkCoin: 6
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink

@@ -27,3 +27,11 @@
   components:
   - type: CartridgeAmmo
     proto: Bullet8x65mmSKR
+
+- type: entity
+  id: Cartridge8x55mmSKR
+  name: cartridge (8x55mm SKR)
+  parent: BaseCartridge8x65mmSKR
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet8x55mmSKR

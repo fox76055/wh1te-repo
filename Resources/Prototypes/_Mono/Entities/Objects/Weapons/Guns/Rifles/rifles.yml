@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: MR-8C BR (8x65mm SKR)
+  name: MR-8C BR
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleMR8C
   description: The BR variant of the MR-8 series, firing with incredible accuracy. Chambered in 8x65mm SKR. A label on the side reads "FOR MILITARY USE ONLY".
@@ -76,7 +76,7 @@
   #  pvsIncrease: 0.5
 
 - type: entity
-  name: AK-502 (.30 rifle)
+  name: AK-502
   parent: [BaseWeaponRifle, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponRifleAK502
   description: A standard-issue USSP combat rifle. Uses 7.62x39mm ammo.

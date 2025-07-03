@@ -15,21 +15,6 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateInterdyneDefibrillator
-  name: uplink-pirate-interdyne-defibrillator-name
-  description: uplink-pirate-interdyne-defibrillator-desc
-  productEntity: DefibrillatorSyndicate
-  cost:
-    Doubloon: 12
-  categories:
-  - UplinkPirateMedical
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
-
-- type: listing
   id: UplinkPirateChemicalSynthesisKit
   name: uplink-pirate-chemical-synthesis-kit-name
   description: uplink-pirate-chemical-synthesis-kit-desc
@@ -172,42 +157,28 @@
       tags:
       - PirateUplink
 
-- type: listing
-  id: UplinkPirateSurgery
-  name: uplink-pirate-surgery-name
-  description: uplink-pirate-surgery-desc
-  productEntity: ClothingBackpackDuffelSyndicateFilledMedical
-  icon: { sprite: Objects/Specific/Medical/Surgery/saw.rsi, state: advanced }
-  cost:
-    Doubloon: 4
-  categories:
-  - UplinkPirateMedical
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
-
 #MARK: Utility
 
-- type: listing
-  id: UplinkPirateRogueCommsComputerCircuitboard
-  name: uplink-pirate-comms-computer-circuitboard-name
-  description: uplink-pirate-comms-computer-circuitboard-desc
-  icon: { sprite: _Mono/Objects/Misc/module.rsi, state: cpu_rogue }
-  productEntity: RogueCommsComputerCircuitboard
-  cost:
-    Doubloon: 4
-  categories:
-  - UplinkPirateUtility
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
-  - !type:BuyerJobCondition
-    whitelist:
-      - PirateCaptain
+#Lua edit start
+# - type: listing
+#   id: UplinkPirateRogueCommsComputerCircuitboard
+#   name: uplink-pirate-comms-computer-circuitboard-name
+#   description: uplink-pirate-comms-computer-circuitboard-desc
+#   icon: { sprite: _Mono/Objects/Misc/module.rsi, state: cpu_rogue }
+#   productEntity: RogueCommsComputerCircuitboard
+#   cost:
+#     Doubloon: 4
+#   categories:
+#   - UplinkPirateUtility
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     whitelist:
+#       tags:
+#       - PirateUplink
+#   - !type:BuyerJobCondition
+#     whitelist:
+#       - PirateCaptain
+#Lua edit end
 
 - type: listing
   id: UplinkPirateSyndicateMagboots
@@ -429,11 +400,11 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateCash10000
-  name: uplink-pirate-cash10000-name
-  description: uplink-pirate-cash10000-desc
-  productEntity: SpaceCash10000
-  icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000000 }
+  id: UplinkPirateCash7500
+  name: uplink-pirate-cash7500-name
+  description: uplink-pirate-cash7500-desc
+  productEntity: SpaceCash7500
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_5000 }
   cost:
     Doubloon: 1
   categories:
@@ -445,10 +416,10 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateCash100000
-  name: uplink-pirate-cash100000-name
-  description: uplink-pirate-cash100000-desc
-  productEntity: SpaceCash100000
+  id: UplinkPirateCash75000
+  name: uplink-pirate-cash75000-name
+  description: uplink-pirate-cash75000-desc
+  productEntity: SpaceCash75000
   icon: { sprite: _NF/Objects/Economy/counterfeit_cash.rsi, state: cash_100000 }
   cost:
     Doubloon: 10
@@ -464,8 +435,8 @@
 #TODO: Make boxes of ammo similar to TSFMC
 - type: listing
   id: UplinkPirateShotgunDrum
-  name: uplink-pirate-box-bulldog-ammo-name
-  description: uplink-pirate-box-bulldog-ammo-desc
+  name: uplink-pirate-bulldog-ammo-name
+  description: uplink-pirate-bulldog-ammo-desc
   productEntity: NFMagazineShotgunDrum
   cost:
     Doubloon: 1
@@ -479,8 +450,8 @@
 
 - type: listing
   id: UplinkPirateShotgunDrumSlug
-  name: uplink-pirate-box-bulldog-slug-ammo-name
-  description: uplink-pirate-box-bulldog-slug-ammo-desc
+  name: uplink-pirate-bulldog-slug-ammo-name
+  description: uplink-pirate-bulldog-slug-ammo-desc
   productEntity: NFMagazineShotgunDrumSlug
   cost:
     Doubloon: 1
@@ -494,9 +465,10 @@
 
 - type: listing
   id: UplinkPirateSMGMag
-  name: uplink-pirate-box-smg-magazine-name
-  description: uplink-pirate-box-smg-magazine-desc
+  name: uplink-pirate-smg-magazine-name
+  description: uplink-pirate-smg-magazine-desc
   productEntity: NFAmmunitionBoxPistol35
+  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi, state: icon-35 }
   cost:
     Doubloon: 1
   categories:
@@ -511,8 +483,8 @@
   id: UplinkPirateShellBoxLethal
   name: uplink-pirate-shell-box-lethal-name
   description: uplink-pirate-shell-box-lethal-desc
-  productEntity: NFBaseAmmunitionBoxShellShotgun
-  icon: { sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/12_gauge.rsi, state: lethal }
+  productEntity: NFAmmunitionBoxShellShotgunBuckshot
+  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-buckshot }
   cost:
     Doubloon: 1
   categories:
@@ -524,10 +496,11 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirate7.62x39mmAmmoBoxBig
+  id: UplinkPirateRifleAmmoBoxBig
   name: uplink-pirate-light-rifle-magazine-box-big-name
   description: uplink-pirate-light-rifle-magazine-box-big-desc
-  productEntity: NFBaseAmmunitionBoxBigRifle20
+  productEntity: NFAmmunitionBoxBigRifle20
+  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle_big.rsi, state: icon-20 }
   cost:
     Doubloon: 2
   categories:
@@ -539,10 +512,11 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateAmmoBox45_magnum
-  name: uplink-pirate-magazine-box-45_magnum-name
-  description: uplink-pirate-magazine-box-45_magnum-desc
-  productEntity: NFBaseAmmunitionBoxPistol45
+  id: UplinkPirateAmmoBoxMagnum
+  name: uplink-pirate-magazine-box-magnum-name
+  description: uplink-pirate-magazine-box-magnum-desc
+  productEntity: NFAmmunitionBoxPistol45
+  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi, state: icon-45 }
   cost:
     Doubloon: 1
   categories:
@@ -554,10 +528,11 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateBoxMagazine7.62x39mmFMJ
+  id: UplinkPirateBoxMagazineRifle
   name: uplink-pirate-box-magazine-light-rifle-name
   description: uplink-pirate-box-magazine-light-rifle-desc
-  productEntity: NFBaseAmmunitionBoxRifle20
+  productEntity: NFBoxMagazineRifle30
+  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi, state: icon-30 }
   cost:
     Doubloon: 1
   categories:
@@ -602,7 +577,7 @@
   id: UplinkPirateBurnerBox
   name: uplink-pirate-box-highcal-name
   description: uplink-pirate-box-highcal-desc
-  productEntity: BaseMagazineBoxHighCaliber
+  productEntity: MagazineBoxHighCaliber
   cost:
     Doubloon: 3
   categories:
@@ -628,20 +603,20 @@
       tags:
       - PirateUplink
 
-- type: listing
-  id: UplinkPirateEmpRocket
-  name: uplink-pirate-emp-rocket-name
-  description: uplink-pirate-emp-rocket-desc
-  productEntity: CartridgeRocketEmp
-  cost:
-    Doubloon: 2
-  categories:
-  - UplinkPirateAmmo
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
+# - type: listing
+#   id: UplinkPirateEmpRocket
+#   name: uplink-pirate-emp-rocket-name
+#   description: uplink-pirate-emp-rocket-desc
+#   productEntity: CartridgeRocketEmp
+#   cost:
+#     Doubloon: 2
+#   categories:
+#   - UplinkPirateAmmo
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     whitelist:
+#       tags:
+#       - PirateUplink
 
 #MARK: Weapons
 
@@ -675,21 +650,21 @@
       tags:
       - PirateUplink
 
-# - type: listing
-#   id: UplinkPirateVT7
-#   name: uplink-pirate-vt7-name
-#   description: uplink-pirate-vt7-desc
-#   productEntity: WeaponVT7
-#   icon: { sprite: _Mono/Objects/Weapons/Melee/murasama.rsi, state: icon }
-#   cost:
-#     Doubloon: 12
-#   categories:
-#   - UplinkPirateWeapons
-#   conditions:
-#   - !type:StoreWhitelistCondition
-#     whitelist:
-#       tags:
-#       - PirateUplink
+- type: listing
+  id: UplinkPirateVT7
+  name: uplink-pirate-vt7-name
+  description: uplink-pirate-vt7-desc
+  productEntity: WeaponVT7
+  icon: { sprite: _Mono/Objects/Weapons/Melee/murasama.rsi, state: icon }
+  cost:
+    Doubloon: 12
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
 - type: listing
   id: UplinkPirateC20
