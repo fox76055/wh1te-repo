@@ -47,21 +47,8 @@ public sealed class CircularShieldOverlay : Overlay
             if (!shield.CanWork || form.MapID != args.MapId)
                 continue;
 
-            // Get the shield's parent entity (grid)
-            var gridUid = form.ParentUid;
-            if (!_entMan.EntityExists(gridUid))
-                continue;
-
-            // Make sure the grid has a transform component
-            if (!_entMan.TryGetComponent(gridUid, out TransformComponent? gridTransform))
-                continue;
-
-            // Get the center of mass if the grid has physics
-            Vector2 centerOffset = Vector2.Zero;
-            if (_entMan.TryGetComponent(gridUid, out PhysicsComponent? physics))
-            {
-                centerOffset = physics.LocalCenter;
-            }
+            var shieldWorldPos = _formSys.GetWorldPosition(form);
+            var shieldWorldMatrix = _formSys.GetWorldMatrix(form);
 
             // Generate cone vertices based on the shield's parameters
             Vector2[] verts = _shieldSys.GenerateConeVertices(
@@ -70,30 +57,19 @@ public sealed class CircularShieldOverlay : Overlay
                 shield.Width,
                 (int) (shield.Width / Math.Tau * 20));
 
-            // Get grid position and transform
-            var gridWorldPos = _formSys.GetWorldPosition(gridTransform);
-            var gridMatrix = _formSys.GetWorldMatrix(gridTransform);
-
-            // Apply center of mass offset to the world position
-            if (centerOffset != Vector2.Zero)
-            {
-                var worldOffset = gridTransform.WorldRotation.RotateVec(centerOffset);
-                gridWorldPos += worldOffset;
-            }
-
             // Transform vertices to world space using grid's matrix, centering them at the center of mass
             for (int i = 0; i < verts.Length; i++)
             {
                 // Add center of mass offset to each vertex before transformation
-                verts[i] = Vector2.Transform(verts[i] + centerOffset, gridMatrix);
+                verts[i] = Vector2.Transform(verts[i], shieldWorldMatrix);
             }
 
             // Convert grid position to screen space
-            Vector2 shieldPos = args.Viewport.WorldToLocal(gridWorldPos);
+            Vector2 shieldPos = args.Viewport.WorldToLocal(shieldWorldPos);
             shieldPos.Y = args.ViewportBounds.Size.Y - shieldPos.Y;
 
             // Calculate screen radius based on world radius
-            var worldPoint = gridWorldPos;
+            var worldPoint = shieldWorldPos;
             var worldPointPlusRadius = worldPoint + new Vector2(shield.Radius, 0);
             var screenPoint = args.Viewport.WorldToLocal(worldPoint);
             var screenPointPlusRadius = args.Viewport.WorldToLocal(worldPointPlusRadius);

@@ -143,8 +143,10 @@ public sealed class CircularShieldRadarSystem : EntitySystem
         if (TryComp<PhysicsComponent>(gridUid, out var physics))
             centerOfMass = physics.LocalCenter;
 
-        // Spawn a new entity for the radar blip at the grid's center of mass
-        var blipEntity = _entityManager.SpawnEntity(null, new EntityCoordinates(gridUid, centerOfMass));
+        //Работа щита по месту его обитания
+        var shieldXform = Transform(shieldUid);
+        var blipEntity = _entityManager.SpawnEntity(null, _transform.GetMoverCoordinates(shieldUid, shieldXform));
+
 
         // Add the radar blip component
         var radarComp = EnsureComp<RadarBlipComponent>(blipEntity);
@@ -204,9 +206,9 @@ public sealed class CircularShieldRadarSystem : EntitySystem
                 var centerOfMass = physics.LocalCenter;
                 var blipXform = Transform(blipUid);
 
-                // Only update if position has changed significantly
-                if ((blipXform.LocalPosition - centerOfMass).LengthSquared() > 0.01f)
-                    _transform.SetLocalPosition(blipUid, centerOfMass);
+                // меняем позицию и тут
+                var shieldXform = Transform(shieldUid);
+                _transform.SetWorldPosition(blipUid, _transform.GetWorldPosition(shieldXform));
             }
 
             // Make sure the blip still has the radar component
