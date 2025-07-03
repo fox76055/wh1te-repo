@@ -496,8 +496,8 @@
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
     - type: Construction # Frontier - Harder to break into
-      graph: Plastitanium # Frontier - Harder to break into
-      node: WallPlastitanium # Lua - Harder to break into
+      graph: Girder # Frontier - Harder to break into
+      node: plastitaniumwall # Lua - Harder to break into
 
 - type: entity
   parent: WallShuttleDiagonal
@@ -519,7 +519,7 @@
     base: state
   - type: Icon
     sprite: Structures/Walls/plastitanium_diagonal.rsi
-    state: state0
+    state: state
   - type: Destructible
     thresholds:
     - trigger:
@@ -545,8 +545,8 @@
   - type: RCDDeconstructable # Frontier
     deconstructable: false # Frontier
   - type: Construction # Frontier - Harder to break into
-    graph: Plastitanium # Frontier - Harder to break into
-    node: WallPlastitanium # Lua - Harder to break into
+    graph: Girder # Frontier - Harder to break into
+    node: diagonalwallplastitanium # Lua - Harder to break into
 
 - type: entity
   id: WallPlastitaniumDiagonalIndestructible
