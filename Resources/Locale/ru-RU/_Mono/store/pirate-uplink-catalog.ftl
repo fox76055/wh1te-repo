@@ -81,7 +81,7 @@ uplink-pirate-jaws-name = Челюсти жизни синдиката
 uplink-pirate-jaws-desc = Обычные челюсти жизни, незаконно модифицированные, способные открывать двери в 2 раза быстрее обычных челюстей жизни.
 
 uplink-pirate-thruster-kit-name = Набор для улучшения двигателей
-uplink-pirate-thruster-kit-desc = Содержит 30 суперконденсатора. Идеально подходит для улучшения восьми двигателей.
+uplink-pirate-thruster-kit-desc = Содержит 30 суперконденсатора. Идеально подходит для улучшения десяти двигателей.
 
 uplink-pirate-comms-computer-circuitboard-name = Плата повстанческой консоли связи
 uplink-pirate-comms-computer-circuitboard-desc = Плата компьютера для повстанческой консоли связи.
