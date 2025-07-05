@@ -234,7 +234,7 @@
   id: UplinkSecurityHardsuitM73
   name:  uplink-security-hardsuit-name
   description: uplink-security-hardsuit-desc
-  productEntity: ClothingOuterHardsuiTSFMCM73
+  productEntity: ClothingOuterHardsuitTSFMCM73
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m73.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 6
@@ -250,7 +250,7 @@
   id: UplinkSecurityHardsuitM74
   name:  uplink-security-hardsuit-patrol-name
   description: uplink-security-hardsuit-patrol-desc
-  productEntity: ClothingOuterHardsuiTSFMCM74
+  productEntity: ClothingOuterHardsuitTSFMCM74
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m74.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 6
@@ -266,7 +266,7 @@
   id: UplinkSecurityHardsuitM73-C
   name:  uplink-security-hardsuit-brigmedic-name
   description: uplink-security-hardsuit-brigmedic-desc
-  productEntity: ClothingOuterHardsuiTSFMCM73-C
+  productEntity: ClothingOuterHardsuitTSFMCM73-C
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m73-c.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 6
@@ -287,7 +287,7 @@
   id: UplinkSecurityHardsuitM75
   name:  uplink-security-hardsuit-warden-name
   description: uplink-security-hardsuit-warden-desc
-  productEntity: ClothingOuterHardsuiTSFMCM75
+  productEntity: ClothingOuterHardsuitTSFMCM75
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m75.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 6
@@ -308,7 +308,7 @@
   id: UplinkSecurityHardsuitM93
   name:  uplink-security-hardsuit-combat-name
   description: uplink-security-hardsuit-combat-desc
-  productEntity: ClothingOuterHardsuiTSFMCM93
+  productEntity: ClothingOuterHardsuitTSFMCM93
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m93.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 15
@@ -324,7 +324,7 @@
   id: UplinkSecurityCommandM93-C
   name: uplink-security-hardsuit-command-name
   description: uplink-security-hardsuit-command-desc
-  productEntity: ClothingOuterHardsuiTSFMCM93-C
+  productEntity: ClothingOuterHardsuitTSFMCM93-C
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m93-c.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 15
@@ -344,7 +344,7 @@
   id: UplinkSecurityHardsuitJuggernaut
   name:  uplink-security-hardsuit-experimental-name
   description: uplink-security-hardsuit-experimental-desc
-  productEntity: ClothingOuterHardsuiTSFMCM92-X
+  productEntity: ClothingOuterHardsuitTSFMCM92-X
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m92-x.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 40
@@ -363,7 +363,7 @@
   id: UplinkSecurityHardsuitM92
   name:  uplink-security-hardsuit-sheriff-name
   description: uplink-security-hardsuit-sheriff-desc
-  productEntity: ClothingOuterHardsuiTSFMCM92
+  productEntity: ClothingOuterHardsuitTSFMCM92
   icon: { sprite: _EE/Clothing/OuterClothing/Hardsuits/tsfmc_m92.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 8
