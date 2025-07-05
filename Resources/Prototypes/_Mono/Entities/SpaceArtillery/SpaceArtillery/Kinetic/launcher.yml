@@ -43,7 +43,7 @@
   - type: Airtight
   - type: ProjectileBatteryAmmoProvider
     proto: 20mmBulletArmorPiercing
-    fireCost: 550
+    fireCost: 10
   - type: RadiationBlocker
     resistance: 8
   - type: RadarBlip
