@@ -131,4 +131,4 @@
     activatedDamage:
       types:
         Blunt: 8
-        Shock: 16
+        Shock: 6 #12 - Lua

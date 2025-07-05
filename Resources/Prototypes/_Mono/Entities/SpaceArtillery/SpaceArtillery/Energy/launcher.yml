@@ -63,6 +63,21 @@
   - type: ShipGunClass
     shipClass: Medium
 
+#FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretType35FlatPack
+  name: MARAUDER-type plasma weapon
+  description: Launches magnetically contained balls of plasma at targets. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretType35
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon
 # RUBICON
 
 - type: entity
@@ -128,6 +143,21 @@
   - type: ShipGunClass
     shipClass: Medium
 
+#FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretM220FlatPack
+  name: M220 RUBICON EMP launcher
+  description: Launches EMP projectiles at ships. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretM220
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon
 # DYMERE
 
 - type: entity
@@ -185,3 +215,19 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Medium
+
+#FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretDymereFlatPack
+  name: ADEX-9 DYMERE Turbolaser
+  description: Aetherion Dynamics Weapons Development Branch's most iconic product. Ionized gas projectiles will melt through anything you put in front of them. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretDymere
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon

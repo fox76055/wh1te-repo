@@ -155,3 +155,192 @@
     contents:
       - id: PlayerStationAiVesselFlatpack
         amount: 1
+
+# Monolith - Kinetic
+
+- type: entity
+  id: CrateWeaponTurretL85AutocannonFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным L85 20mm autocannon
+  description: содержит 1 упакованный L85 20mm autocannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretL85AutocannonFlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretDravonFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным ADBP-7 DRAVON 57mm Autocannon
+  description: содержит 1 упакованный ADBP-7 DRAVON 57mm Autocannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretDravonFlatPack
+        amount: 1
+
+#added to cargo
+- type: entity
+  id: CrateWeaponTurretAK570FlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным AK570 90mm heavy autocannon
+  description: содержит 1 упакованный AK570 90mm heavy autocannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretAK570FlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretTarnyxFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным ADBX-31 TARNYX 150mm EMP Cannon
+  description: содержит 1 упакованный ADBX-31 TARNYX 150mm EMP Cannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretTarnyxFlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretCyrexaFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным CYREXA 220mm cannon
+  description: содержит 1 упакованный CYREXA 220mm cannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretCyrexaFlatPack
+        amount: 1
+
+#added to cargo
+- type: entity
+  id: CrateWeaponTurretCharonFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным M381 CHARON mass driver
+  description: содержит 1 упакованный M381 CHARON mass driver
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretCharonFlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretBoforsFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным Bofors 255mm cannon
+  description: содержит 1 упакованный Bofors 255mm cannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretBoforsFlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretKargilFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным Kargil 203mm cannon
+  description: содержит 1 упакованный Kargil 203mm cannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretKargilFlatPack
+        amount: 1
+
+# Monolith - Energy
+#added to cargo
+- type: entity
+  id: CrateWeaponTurretType35FlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным MARAUDER-type plasma weapon
+  description: содержит 1 упакованный MARAUDER-type plasma weapon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretType35FlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretM220FlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным M220 RUBICON EMP launcher
+  description: содержит 1 упакованный M220 RUBICON EMP launcher
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretM220FlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretDymereFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным ADEX-9 DYMERE Turbolaser
+  description: содержит 1 упакованный ADEX-9 DYMERE Turbolaser
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretDymereFlatPack
+        amount: 1
+
+# Monolith - Missles
+#added to cargo
+- type: entity
+  id: CrateWeaponTurretVesperaFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным ADMP-27 VESPERA Rapid-Fire Pod
+  description: содержит 1 упакованный ADMP-27 VESPERA Rapid-Fire Pod
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretVesperaFlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretASM501FlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным ASM-501 pod
+  description: содержит 1 упакованный ASM-501 pod
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretASM501FlatPack
+        amount: 1
+
+#added to cargo
+- type: entity
+  id: CrateWeaponTurretVanykFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным ASM-302 pod
+  description: содержит 1 упакованный ASM-302 pod
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretVanykFlatPack
+        amount: 1
+
+- type: entity
+  id: CrateWeaponTurretTovekFlatPack
+  parent: CrateShipWeaponBase
+  name: ящик с упакованным ADMX-23 TOVEK Hybrid EMP Pod
+  description: содержит 1 упакованный ADMX-23 TOVEK Hybrid EMP Pod
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponTurretTovekFlatPack
+        amount: 1
