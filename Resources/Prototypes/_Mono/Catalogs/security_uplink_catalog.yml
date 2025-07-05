@@ -397,11 +397,11 @@
       - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityCash50000
-  name: uplink-security-cash50000-name
-  description: uplink-security-cash50000-desc
-  productEntity: SpaceCash50000
-  icon: { sprite: _NF/Objects/Economy/counterfeit_cash.rsi, state: cash_50000 }
+  id: UplinkSecurityCash25000
+  name: uplink-security-cash25000-name
+  description: uplink-security-cash25000-desc
+  productEntity: SpaceCash25000
+  icon: { sprite: /Objects/Economy/cash.rsi, state: cash_25000 }
   cost:
     FrontierUplinkCoin: 10
   categories:

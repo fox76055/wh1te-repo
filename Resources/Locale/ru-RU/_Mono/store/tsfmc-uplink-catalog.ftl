@@ -7,8 +7,8 @@ uplink-security-annie-desc = Дозвуковое оружие калибра .3
 uplink-security-portable-recharger-name = Переносной зарядник
 uplink-security-portable-recharger-desc = Экспериментальное портативное зарядное устройство, оснащенное встроенным микрореактором.
 
-uplink-security-cash50000-name = 50,000 кредитов
-uplink-security-cash50000-desc = Хорошая работа, сотрудник.
+uplink-security-cash25000-name = 25,000 кредитов
+uplink-security-cash25000-desc = Хорошая работа, сотрудник.
 
 uplink-security-hfblade-name = HF-Катана
 uplink-security-hfblade-desc = Предмет справедливости.
@@ -22,8 +22,8 @@ uplink-exosuit-aurora-desc = A prototype exosuit for the future of warfare. Util
 uplink-security-ashstorm-name = EM72 Ashstorm
 uplink-security-ashstorm-desc = TSF-EM72 Ashstorm — это ручной пулемет направленной энергии, разработанный компанией Aetherion Dynamics в рамках оружейного контракта TSF 934A.
 
-uplink-security-cash5000-name = 5,000 Кредитов
-uplink-security-cash5000-desc = Наличные деньги в твердой валюте.
+uplink-security-cash2500-name = 2,500 Кредитов
+uplink-security-cash2500-desc = Наличные деньги в твердой валюте.
 
 uplink-security-8x65mm-magazine-name = STANAG магазин (8x65мм SKR)
 uplink-security-8x65mm-magazine-desc = Магазин для винтовки MR-8C BR. Используются патроны 8x65мм SKR.

@@ -400,10 +400,10 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateCash7500
-  name: uplink-pirate-cash7500-name
-  description: uplink-pirate-cash7500-desc
-  productEntity: SpaceCash7500
+  id: UplinkPirateCash2500
+  name: uplink-pirate-cash2500-name
+  description: uplink-pirate-cash2500-desc
+  productEntity: SpaceCash2500
   icon: { sprite: Objects/Economy/cash.rsi, state: cash_5000 }
   cost:
     Doubloon: 1
@@ -416,11 +416,11 @@
       - PirateUplink
 
 - type: listing
-  id: UplinkPirateCash75000
-  name: uplink-pirate-cash75000-name
-  description: uplink-pirate-cash75000-desc
-  productEntity: SpaceCash75000
-  icon: { sprite: _NF/Objects/Economy/counterfeit_cash.rsi, state: cash_100000 }
+  id: UplinkPirateCash25000
+  name: uplink-pirate-cash25000-name
+  description: uplink-pirate-cash25000-desc
+  productEntity: SpaceCash25000
+  icon: { sprite: /Objects/Economy/cash.rsi, state: cash_25000 }
   cost:
     Doubloon: 10
   categories:

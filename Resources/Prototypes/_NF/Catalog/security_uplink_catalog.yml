@@ -1038,11 +1038,11 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityCash5000
-  name:  uplink-security-cash5000-name
-  description: uplink-security-cash5000-desc
-  productEntity: SpaceCash5000
-  icon: { sprite: Objects/Economy/cash.rsi, state: cash_5000 }
+  id: UplinkSecurityCash2500
+  name:  uplink-security-cas2500-name
+  description: uplink-security-cash2500-desc
+  productEntity: SpaceCash2500
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_2500 }
   cost:
     FrontierUplinkCoin: 1
   categories:
