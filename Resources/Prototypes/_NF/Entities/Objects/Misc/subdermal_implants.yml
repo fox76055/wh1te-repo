@@ -86,6 +86,8 @@
   - type: SubdermalImplant
     permanent: true
   - type: TriggerOnBeingGibbed
+    mobState:
+    - Dead
   - type: GibOnTrigger
     deleteItems: true
     deleteOrgans: true
