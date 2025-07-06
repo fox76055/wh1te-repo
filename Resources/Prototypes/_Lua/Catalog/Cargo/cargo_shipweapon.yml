@@ -132,16 +132,6 @@
   category: Корабельное вооружение
   group: market
 
-- type: cargoProduct
-  id: CargoCrateArmoryWeapon20mmBase
-  icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
-    state: icon
-  product: CrateArmoryWeapon20mmBase
-  cost: 35000
-  category: Корабельное вооружение
-  group: market
-
 # Monolith - SpaceArtillery - ShuttleWeapons
 
 - type: cargoProduct

@@ -19,6 +19,15 @@
   - DurandLLeg
   - DurandRLeg
   - DurandRArm
+  - DurandCentralElectronics
+  - DurandPeripheralsElectronics
+  - DurandTargetingElectronics
+
+- type: latheRecipePack
+  id: MechUpgrades
+  recipes:
+  - RipleyMKIIHarness
+  - RipleyUpgradeKit
 
 - type: latheRecipePack
   id: GygaxMechParts
@@ -30,6 +39,9 @@
   - GygaxLLeg
   - GygaxRLeg
   - GygaxRArm
+  - GygaxCentralElectronics
+  - GygaxPeripheralsElectronics
+  - GygaxTargetingElectronics
 
 - type: latheRecipePack
   id: MechWeapons
@@ -38,4 +50,10 @@
   - MechEquipmentDrillDiamond
   - MechEquipmentKineticAccelerator
   - MechEquipmentHonkerBananaMortar
-  - MechEquipmentHonkerMousetrapMortar 
+  - MechEquipmentHonkerMousetrapMortar
+
+- type: latheRecipePack
+  id: MechMiscStatic
+  recipes:
+  - MechAirTank
+  - MechThruster
