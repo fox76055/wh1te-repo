@@ -93,7 +93,7 @@
     range: 500
   - type: Gun
     fireRate: 1.5
-    projectileSpeed: 322
+    projectileSpeed: 250 #322
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/mortar.ogg
     soundEmpty:
@@ -123,7 +123,7 @@
   id: WeaponTurretDravonFlatPack
   name: ADBP-7 DRAVON 57mm Autocannon
   description: A single-barrel autocannon made by Aetherion Dynamics. High fire rate, but relatively low impact. Can be remotely activated, or linked up to a GCS.
-  components: 
+  components:
   - type: Flatpack
     entity: WeaponTurretDravon
   - type: StaticPrice
@@ -156,7 +156,7 @@
     range: 500
   - type: Gun
     fireRate: 2.5
-    projectileSpeed: 240
+    projectileSpeed: 160 #240
     burstCooldown: 0.5
     burstFireRate: 10
     shotsPerBurst: 2
@@ -298,8 +298,8 @@
         layer:
         - MachineLayer
   - type: Gun
-    projectileSpeed: 315
-    fireRate: 0.2
+    projectileSpeed: 260 #315
+    fireRate: 0.1 #0.2
     burstCooldown: 10
     burstFireRate: 2
     shotsPerBurst: 2
@@ -366,8 +366,8 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 0.05
-    projectileSpeed: 900
+    fireRate: 0.02
+    projectileSpeed: 300 #900
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
     soundEmpty:
@@ -404,7 +404,7 @@
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 1500
+        damage: 2500 #1500
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -469,7 +469,7 @@
         layer:
         - MachineLayer
   - type: Gun
-    projectileSpeed: 315
+    projectileSpeed: 270 #315
     fireRate: 0.075
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/cannon.ogg
@@ -545,8 +545,8 @@
         layer:
         - MachineLayer
   - type: Gun
-    projectileSpeed: 315
-    fireRate: 0.2
+    projectileSpeed: 270 #315
+    fireRate: 0.15 #2
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/cannon.ogg
     soundEmpty:
