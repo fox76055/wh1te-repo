@@ -223,11 +223,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityLecter
@@ -324,10 +319,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityEnergyGun
@@ -344,10 +335,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - Sheriff
 
 # - type: listing
 #   id: UplinkSecurityEmpRpg
@@ -643,11 +630,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityMagazineRifle30Overpressure
@@ -664,11 +646,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityMagazineSubMachineGunTopMounted35Overpressure
@@ -685,10 +662,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityPistolMagazineRubber
@@ -721,11 +694,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
 
 - type: listing
   id: UplinkSecurity30RifleMagazineRubber
@@ -742,11 +710,6 @@
       whitelist:
         tags:
         - SecurityUplink
-    - !type:BuyerJobCondition
-        whitelist:
-          - Bailiff
-          - SeniorOfficer
-          - Sheriff
 
 - type: listing
   id: UplinkSecurityHypo
@@ -806,6 +769,8 @@
     - !type:BuyerJobCondition
       whitelist:
         - Brigmedic
+        - Bailiff
+        - SeniorOfficer
         - Sheriff
 
 - type: listing
@@ -893,11 +858,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityTeleShield
@@ -1039,10 +999,10 @@
 
 - type: listing
   id: UplinkSecurityCash2500
-  name:  uplink-security-cas2500-name
+  name:  uplink-security-cash2500-name
   description: uplink-security-cash2500-desc
   productEntity: SpaceCash2500
-  icon: { sprite: Objects/Economy/cash.rsi, state: cash_2500 }
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000 }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1304,3 +1264,6 @@
     - !type:BuyerJobCondition
       whitelist:
         - Sheriff
+        - Bailiff
+        - SeniorOfficer
+        - NFDetective

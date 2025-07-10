@@ -404,7 +404,7 @@
   name: uplink-pirate-cash2500-name
   description: uplink-pirate-cash2500-desc
   productEntity: SpaceCash2500
-  icon: { sprite: Objects/Economy/cash.rsi, state: cash_5000 }
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000 }
   cost:
     Doubloon: 1
   categories:
@@ -420,7 +420,7 @@
   name: uplink-pirate-cash25000-name
   description: uplink-pirate-cash25000-desc
   productEntity: SpaceCash25000
-  icon: { sprite: /Objects/Economy/cash.rsi, state: cash_25000 }
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_25000 }
   cost:
     Doubloon: 10
   categories:
@@ -432,7 +432,6 @@
       - PirateUplink
 
 #MARK: Ammunition
-#TODO: Make boxes of ammo similar to TSFMC
 - type: listing
   id: UplinkPirateShotgunDrum
   name: uplink-pirate-bulldog-ammo-name

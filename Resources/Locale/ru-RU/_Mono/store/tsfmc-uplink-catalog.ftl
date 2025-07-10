@@ -29,7 +29,7 @@ uplink-security-8x65mm-magazine-name = STANAG магазин (8x65мм SKR)
 uplink-security-8x65mm-magazine-desc = Магазин для винтовки MR-8C BR. Используются патроны 8x65мм SKR.
 
 uplink-security-8x55mm-boxmag-name = Магазин "SAW" (8x55мм SKR)
-uplink-security-8x55mm-boxmag-desc = Магазин для пулемёта MR-8B LWMMG. Используются патроны 8x65мм SKR.
+uplink-security-8x55mm-boxmag-desc = Магазин для пулемёта MR-8B LWMMG. Используются патроны 8x55мм SKR.
 
 uplink-security-8x55mm-box-name = Коробка патрон (8x55мм SKR)
 uplink-security-8x55mm-box-desc = Коробка патрон для пулемёта MR-8B LWMMG. Содержит 300 патрон.
@@ -41,4 +41,4 @@ uplink-security-mr8c-name = MR-8C BR
 uplink-security-mr8c-desc = Полуавтоматическая винтовка, стреляющая патронами 8x65 мм, специально созданная для использования MARSOC. Ты счастливчик, сотрудник.
 
 uplink-security-mr8b-name = MR-8B LWMMG
-uplink-security-mr8b-desc = Дорогой (относительно) легкий пулемёт, ответвление МР-8С. Совместим с магазинами и коробками 8x65 мм.
+uplink-security-mr8b-desc = Дорогой (относительно) легкий пулемёт, ответвление МР-8С. Совместим с магазинами и коробками 8x55 мм.

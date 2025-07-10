@@ -401,7 +401,7 @@
   name: uplink-security-cash25000-name
   description: uplink-security-cash25000-desc
   productEntity: SpaceCash25000
-  icon: { sprite: /Objects/Economy/cash.rsi, state: cash_25000 }
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_25000 }
   cost:
     FrontierUplinkCoin: 10
   categories:
