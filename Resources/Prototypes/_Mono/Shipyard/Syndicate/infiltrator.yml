@@ -18,8 +18,6 @@
       color: "#d93204"
     - type: NanotrasenFtl
     - type: TypanFtl
-    - type: Company
-      companyName: Синдикат
 
 - type: gameMap
   id: MonoInfiltrator

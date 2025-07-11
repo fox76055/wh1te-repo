@@ -284,14 +284,14 @@
             - tool: Screwing
               doAfter: 2
             - tool: Welding
-              doAfter: 5
+              doAfter: 29
             - material: Plasteel
               amount: 10
               doAfter: 1
             - tool: Screwing
               doAfter: 2
             - tool: Welding
-              doAfter: 10
+              doAfter: 15
             - material: Plasteel
               amount: 10
               doAfter: 1
@@ -304,18 +304,18 @@
           conditions:
             - !type:EntityAnchored { }
           steps:
-            - material: MetalRod
+            - material: Silver
               amount: 15
               doAfter: 1
             - tool: Welding
-              doAfter: 10
+              doAfter: 35
             - material: Plasteel
               amount: 15
               doAfter: 1
             - tool: Screwing
               doAfter: 2
             - tool: Welding
-              doAfter: 10
+              doAfter: 15
 
         - to: shuttleWall
           completed:
