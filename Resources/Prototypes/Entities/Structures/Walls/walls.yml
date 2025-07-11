@@ -546,7 +546,7 @@
     deconstructable: false # Frontier
   - type: Construction # Frontier - Harder to break into
     graph: Girder # Frontier - Harder to break into
-    node: diagonalwallplastitanium # Lua - Harder to break into
+    node: diagonalplastitaniumwall # Lua - Harder to break into
 
 - type: entity
   id: WallPlastitaniumDiagonalIndestructible
