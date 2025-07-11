@@ -222,8 +222,8 @@
       path: "/Audio/Weapons/Guns/Hits/taser_hit.ogg"
     forceSound: true
   - type: StunOnCollide
-    stunAmount: 2.5 #5 - Lua
-    knockdownAmount: 2.5 #5 - Lua
+    stunAmount: 2 #5 - Lua
+    knockdownAmount: 2 #5 - Lua
 
 - type: entity
   name: disabler bolt
