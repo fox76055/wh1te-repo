@@ -180,6 +180,7 @@
   conditions:
     - !type:TileNotBlocked
 
+#Lua
 - type: construction
   id: WallPlastitanium
   graph: Girder
@@ -206,6 +207,7 @@
   conditions:
     - !type:TileNotBlocked
 
+# End
 - type: construction
   id: ClownWall
   graph: Girder

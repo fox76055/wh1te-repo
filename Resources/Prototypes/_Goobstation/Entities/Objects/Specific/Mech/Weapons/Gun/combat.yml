@@ -273,7 +273,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: NFGrenadeBlast
+    proto: NFBulletRocketMini #NFGrenadeBlast - Lua
     fireCost: 100
   - type: Appearance
   - type: AmmoCounter
