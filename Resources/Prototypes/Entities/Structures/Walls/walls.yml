@@ -519,7 +519,7 @@
     base: state
   - type: Icon
     sprite: Structures/Walls/plastitanium_diagonal.rsi
-    state: state
+    state: state0
   - type: Destructible
     thresholds:
     - trigger:

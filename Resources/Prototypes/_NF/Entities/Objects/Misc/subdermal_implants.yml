@@ -85,7 +85,7 @@
   components:
   - type: SubdermalImplant
     permanent: true
-  - type: TriggerOnBeingGibbed
+  - type: TriggerOnMobstateChange
     mobState:
     - Dead
   - type: GibOnTrigger

@@ -11,7 +11,7 @@
   - type: Gun
     fireRate: 1.2
     selectedMode: Burst
-    BurstCount: 2
+    ShotsPerBurst: 2
     availableModes:
       - Burst
     soundGunshot:
