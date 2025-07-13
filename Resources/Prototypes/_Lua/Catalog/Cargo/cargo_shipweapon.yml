@@ -131,3 +131,75 @@
   cost: 35000
   category: Корабельное вооружение
   group: market
+
+# Monolith - SpaceArtillery - ShuttleWeapons
+
+- type: cargoProduct
+  id: CargoCrateWeaponTurretVanykFlatPack
+  icon:
+    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    state: icon
+  product: CrateWeaponTurretVanykFlatPack
+  cost: 125000
+  category: Корабельное вооружение
+  group: market
+
+- type: cargoProduct
+  id: CargoCrateWeaponTurretVesperaFlatPack
+  icon:
+    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    state: icon
+  product: CrateWeaponTurretVesperaFlatPack
+  cost: 160000
+  category: Корабельное вооружение
+  group: market
+
+- type: cargoProduct
+  id: CargoCrateWeaponTurretType35FlatPack
+  icon:
+    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    state: icon
+  product: CrateWeaponTurretType35FlatPack
+  cost: 75000
+  category: Корабельное вооружение
+  group: market
+
+- type: cargoProduct
+  id: CargoCrateWeaponTurretAK570FlatPack
+  icon:
+    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    state: icon
+  product: CrateWeaponTurretAK570FlatPack
+  cost: 75000
+  category: Корабельное вооружение
+  group: market
+
+- type: cargoProduct
+  id: CargoCrateWeaponTurretDravonFlatPack
+  icon:
+    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    state: icon
+  product: CrateWeaponTurretDravonFlatPack
+  cost: 75000
+  category: Корабельное вооружение
+  group: market
+
+- type: cargoProduct
+  id: CargoCrateWeaponTurretL85AutocannonFlatPack
+  icon:
+    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    state: icon
+  product: CrateWeaponTurretL85AutocannonFlatPack
+  cost: 45000
+  category: Корабельное вооружение
+  group: market
+
+- type: cargoProduct
+  id: CargoCrateWeaponTurretCharonFlatPack
+  icon:
+    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    state: icon
+  product: CrateWeaponTurretCharonFlatPack
+  cost: 750000
+  category: Корабельное вооружение
+  group: market

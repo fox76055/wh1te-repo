@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: TSF-SKR Serpent
   description: A experimental heavy frigate, with heavy spinal and broadside firepower.
-  price: 272250
+  price: 360200 #272250
   category: Large
   group: Security
   access: Armory

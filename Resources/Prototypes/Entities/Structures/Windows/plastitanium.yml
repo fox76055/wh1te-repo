@@ -82,13 +82,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1000
+        damage: 9000 #1000 - Lua
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 500
+        damage: 6000 #500 - Lua
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -183,13 +183,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1000
+        damage: 9000 #1000 - Lua
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 500
+        damage: 6000 #500 - Lua
       behaviors:
       - !type:PlaySoundBehavior
         sound:

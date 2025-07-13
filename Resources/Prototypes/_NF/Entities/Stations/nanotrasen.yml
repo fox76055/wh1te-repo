@@ -32,10 +32,12 @@
   id: StandardTypanVessel
   parent:
     - BaseStation
-    - BaseStationCargo
+    - BaseStationCargoMarket
+    - NFBaseStationCargo
+    - MarketFrontierOutpost
     - BaseStationJobsSpawning
     - BaseStationRecords
-    - BaseStationSectorServices 
+    - BaseStationSectorServices
     - BaseStationAlertLevels
   categories: [ HideSpawnMenu ]
   components:

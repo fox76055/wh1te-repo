@@ -144,7 +144,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 500
+        damage: 1000 #500 - Lua
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]

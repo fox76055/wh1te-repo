@@ -9,10 +9,11 @@
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_pulse
   - type: Gun
-    fireRate: 1.5
-    selectedMode: SemiAuto
+    fireRate: 1.2
+    selectedMode: Burst
+    shotsPerBurst: 2
     availableModes:
-      - SemiAuto
+      - Burst
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
@@ -272,7 +273,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: NFGrenadeBlast
+    proto: NFBulletRocketMini #NFGrenadeBlast - Lua
     fireCost: 100
   - type: Appearance
   - type: AmmoCounter

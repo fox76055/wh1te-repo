@@ -180,6 +180,34 @@
   conditions:
     - !type:TileNotBlocked
 
+#Lua
+- type: construction
+  id: WallPlastitanium
+  graph: Girder
+  startNode: start
+  targetNode: plastitaniumwall
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallPlastitaniumDiagonal
+  graph: Girder
+  startNode: start
+  targetNode: diagonalplastitaniumwall
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+# End
 - type: construction
   id: ClownWall
   graph: Girder

@@ -45,7 +45,21 @@
   - type: ShipGunClass
     shipClass: Medium
 
-
+#FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretVesperaFlatPack
+  name: ADMP-27 VESPERA Rapid-Fire Pod
+  description: A rapid-fire swarm missile pod manufactured by Aetherion Dynamics. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretVespera
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon
 # ASM-501 Smerchs
 
 - type: entity
@@ -92,6 +106,21 @@
   - type: ShipGunClass
     shipClass: Medium
 
+#FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretASM501FlatPack
+  name: ASM-501 pod
+  description: ASM-501 Smerchs heavy torpedo launcher. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: Flatpack
+    entity: 
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon
 # ASM-302 Vanyk
 
 - type: entity
@@ -156,6 +185,22 @@
   - type: ShipGunClass
     shipClass: Medium
 
+# FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretVanykFlatPack
+  name: ASM-302 pod
+  description:  ASM-302 Vanyk basic guided missile pod. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretVanyk
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon
+
 # ADMX-23 TOVEK
 
 - type: entity
@@ -202,3 +247,19 @@
     shipType: Missile
   - type: ShipGunClass
     shipClass: Medium
+
+# FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretTovekFlatPack
+  name: ADMX-23 TOVEK Hybrid EMP Pod
+  description: A hybrid EMP missile pod manufactured by Aetherion Dynamics. Deals both physical and EMP damage. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretTovek
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon

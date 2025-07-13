@@ -29,7 +29,7 @@
   recipeUnlocks:
   - RadarConsoleCircuitboard
   - HandHeldMassScanner
-  
+
 - type: technology
   id: AdvancedPowercells
   name: research-technology-advanced-powercells

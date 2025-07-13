@@ -1,34 +1,35 @@
 - type: vessel
-  id: Hydra
+  id: MonoInfiltrator
   parent: BaseVesselAntag
-  name: Hydra
-  description: A syndicate missile corvette meant for stealthy hit and runs and harassment.
-  price: 185000
-  category: Medium
+  name: MONO Infiltrator
+  description: A light syndicate frigate meant for raiding enemy stations. Armed to the teeth in missiles and CYREXAs.
+  price: 375000
+  category: Large
   group: Typan
-  shuttlePath: /Maps/_Mono/Shuttles/Syndicate/hydra.yml
+  shuttlePath: /Maps/_Mono/Shuttles/Syndicate/infiltrator.yml
   guidebookPage: Null
   class:
   - Syndicate
   engine:
-  - Uranium
+  - AME
   addComponents:
+
     - type: IFF
-      color: "#990816"
+      color: "#d93204"
     - type: NanotrasenFtl
     - type: TypanFtl
 
 - type: gameMap
-  id: Hydra
-  mapName: 'Hydra'
-  mapPath: /Maps/_Mono/Shuttles/Syndicate/hydra.yml
+  id: MonoInfiltrator
+  mapName: 'Infiltrator'
+  mapPath: /Maps/_Mono/Shuttles/Syndicate/infiltrator.yml
   minPlayers: 0
   stations:
-    Hydra:
+    MonoInfiltrator:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'NRD Hydra {1}'
+          mapNameTemplate: 'NRD Infiltrator {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
