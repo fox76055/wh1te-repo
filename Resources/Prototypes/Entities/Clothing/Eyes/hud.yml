@@ -305,6 +305,16 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+  - type: ThermalVision
+    flashDurationMultiplier: 2
+    pulseTime: 1
+    isEquipment: true
+    color: "#DC143C"
+    toggleAction: ToggleThermalVision
+  - type: NightVision
+    isEquipment: true
+    color: "#00BFFF"
+    toggleAction: ToggleNightVision
 
 - type: entity
   parent: [ClothingEyesEyepatchHudDiag, ClothingHeadEyeBaseFlipped]

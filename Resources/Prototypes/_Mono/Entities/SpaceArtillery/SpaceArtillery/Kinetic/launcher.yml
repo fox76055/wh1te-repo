@@ -1,10 +1,22 @@
+# SPDX-FileCopyrightText: 2025 Ark
+# SPDX-FileCopyrightText: 2025 Blu
+# SPDX-FileCopyrightText: 2025 BlueHNT
+# SPDX-FileCopyrightText: 2025 Disguised Bear
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 RikuTheKiller
+# SPDX-FileCopyrightText: 2025 core-mene
+# SPDX-FileCopyrightText: 2025 kyres1
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # L85 20mm
 
 - type: entity
   id: WeaponTurretL85Autocannon
   name: L85 20mm autocannon
   parent: BallisticArtillery
-  description: A cheap and light 20mm autocannon. Can be remotely activated, or linked up to a GCS.
+  description: A light 20mm ballistic autocannon designed for rapid fire and suppressing smaller targets at close range. Cheap, light, and can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 250
@@ -75,7 +87,7 @@
   id: WeaponTurretDravon
   name: ADBP-7 DRAVON 57mm Autocannon
   parent: BallisticArtillery
-  description: A single-barrel autocannon made by Aetherion Dynamics. High fire rate, but relatively low impact. Can be remotely activated, or linked up to a GCS.
+  description: A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high fire rate but relatively low impact, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 650
@@ -138,7 +150,7 @@
   id: WeaponTurretAK570
   name: AK570 90mm heavy autocannon
   parent: BallisticArtillery
-  description: A dual barrel, heavy autocannon. Can be remotely activated, or linked up to a GCS.
+  description: A dual-barrel, heavy 90mm autocannon firing general-purpose APHE rounds, effective for sustained fire against medium targets. Can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 1250
@@ -206,7 +218,7 @@
   id: WeaponTurretTarnyx
   name: ADBX-31 TARNYX 150mm EMP Cannon
   parent: BallisticArtilleryUnanchorable
-  description: A heavy EMP Cannon made by Aetherion Dynamics. It can disable massive parts of an enemy ship, making it effective in asymmetric combat. Can be remotely activated, or linked up to a GCS.
+  description: A heavy EMP cannon made by Aetherion Dynamics, designed to disable large sections of enemy ships with a single, powerful shot. Effective in asymmetric combat. Can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 10000
@@ -269,7 +281,7 @@
   id: WeaponTurretCyrexa
   name: CYREXA 220mm cannon
   parent: BallisticArtilleryUnanchorable
-  description: A dual barrel, main-battery cannon firing 220mm auto shells with slight reduction in brute strength. Can be remotely activated, or linked up to a GCS.
+  description: A main battery with dual barrels, delivering rapid, punishing salvos at extreme range. Fires 220mm auto shells with slightly reduced brute strength. Can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 20000
@@ -327,7 +339,7 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Medium
-
+    
 #FLATPACK
 - type: entity
   parent: BaseNFFlatpack
@@ -343,13 +355,95 @@
     sprite: _Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon
+    
+# HADES 305mm
+
+- type: entity
+  id: WeaponTurretHades
+  name: HADES 305mm cannon
+  parent: BallisticArtilleryUnanchorable
+  description: One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381.
+  components:
+  - type: StaticPrice
+    price: 40000
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/hades.rsi
+    layers:
+    - state: space_artillery
+    scale: 1.15, 1.15
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 12000
+    startingCharge: 12000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.6,-0.6,0.6,0.6"
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Gun
+    projectileSpeed: 450
+    fireRate: 0.2
+    burstCooldown: 10
+    burstFireRate: 2
+    shotsPerBurst: 2
+    selectedMode: Burst
+    availableModes: Burst
+    soundGunshot:
+      path: /Audio/_Mono/Weapons/Guns/Gunshots/cannon.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 12000
+  - type: SpaceArtillery
+    powerChargeRate: 12000
+    powerUsePassive: 1500
+    powerUseActive: 0
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipHadesProjectile
+    fireCost: 6000
+  - type: RadarBlip
+    radarColor: "#FF0000"
+    scale: 2.5
+  - type: ShipGunType
+    shipType: Ballistic
+  - type: ShipGunClass
+    shipClass: Heavy
+
+#FLATPACK
+- type: entity
+  parent: BaseNFFlatpack
+  id: WeaponTurretHadesFlatPack
+  name: HADES 305mm cannon
+  description: One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretHades
+  - type: StaticPrice
+    price: 250
+  - type: Sprite
+    sprite: _Lua/Flatpack/flatpack.rsi
+    layers:
+    - state: ship_weapon
+    
 # CHARON
 
 - type: entity
   id: WeaponTurretCharon
   name: M381 CHARON mass driver
   parent: BallisticArtilleryUnanchorable
-  description: A heavy linear accelerator, capable of devastating targets with kinetic energy. Can be remotely activated, or linked up to a GCS.
+  description: A capital-class railgun that fires a massive slug at extreme velocity, capable of catastrophic damage to enemy ships. Heavy linear accelerator, can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 40000
@@ -440,7 +534,7 @@
   id: WeaponTurretBofors
   name: Bofors 255mm cannon
   parent: BallisticArtilleryUnanchorable
-  description: A single barrelled, heavy artillery cannon. Can be remotely activated, or linked up to a GCS.
+  description: A single-barrel, heavy artillery cannon designed for cruisers, delivering massive impact with each long-range shot. Can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 20000
@@ -516,7 +610,7 @@
   id: WeaponTurretKargil
   name: Kargil 203mm cannon
   parent: BallisticArtilleryUnanchorable
-  description: A single barrelled, medium-heavy artillery cannon. Can be remotely activated, or linked up to a GCS.
+  description: A cruiser artillery cannon that launches devastating 203mm shells for long-range ship-to-ship combat. Can be remotely activated or linked up to a GCS.
   components:
   - type: StaticPrice
     price: 20000

@@ -335,3 +335,64 @@ Entries:
   id: 25
   time: '2025-06-30T14:56:17.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/58
+- author: PyotrIgn
+  changes:
+    - type: Tweak
+      message: >-
+        Изменен граф крафта направленного вентилятора таким образом, чтобы его
+        можно было разобрать
+    - type: Add
+      message: Добавлен крафт и разборка обычного маленького вентилятора
+  id: 26
+  time: '2025-07-13T17:25:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/61
+- author: SupernoobTheN1
+  changes:
+    - type: Fix
+      message: Отражение больше не стакается.
+    - type: Fix
+      message: Теперь предметы не отражают, если вы не держите их в руке.
+    - type: Tweak
+      message: Урон и заряд импульсного оружия вернулся к прежним цифрам.
+    - type: Tweak
+      message: Аплинк СБ был обновлён.
+    - type: Tweak
+      message: Аплинк пиратов был обновлён.
+    - type: Tweak
+      message: Были переведены некоторые предметы в аплинках СБ и пиратов.
+    - type: Add
+      message: Был добавлен фентанил. Джесси, нам нужно варить, Джесси.
+    - type: Add
+      message: 'Было добавлено новое оружие - Ashstorm, DP-29, MR-8B LWMMG и AK-502. '
+  id: 27
+  time: '2025-07-13T17:36:35.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/62
+- author: Raldjatech
+  changes:
+    - type: Add
+      message: >-
+        Добавил в универсальный визор используемый рейнджерами ПНВ и Термальный
+        Визор
+  id: 28
+  time: '2025-07-13T17:46:12.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/66
+- author: Raldjatech
+  changes:
+    - type: Add
+      message: >-
+        Добавлен рецепт на крафт боеприпасов .357 magnum которые использует
+        револьвер Уника 6
+  id: 29
+  time: '2025-07-13T17:48:53.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/67
+- author: SupernoobTheN1
+  changes:
+    - type: Add
+      message: Был добавлен новый шаттл для КСО - Flyssa.
+    - type: Add
+      message: Было добавлено новое корабельное оружие - 305mm HADES.
+    - type: Tweak
+      message: Респрайт корабельного оружия CHARON.
+  id: 30
+  time: '2025-07-13T17:50:49.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/69
