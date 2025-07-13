@@ -376,3 +376,12 @@ Entries:
   id: 28
   time: '2025-07-13T17:46:12.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/66
+- author: Raldjatech
+  changes:
+    - type: Add
+      message: >-
+        Добавлен рецепт на крафт боеприпасов .357 magnum которые использует
+        револьвер Уника 6
+  id: 29
+  time: '2025-07-13T17:48:53.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/67
