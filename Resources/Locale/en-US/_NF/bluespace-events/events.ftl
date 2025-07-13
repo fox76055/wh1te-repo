@@ -44,6 +44,4 @@ station-event-bluespace-name-Cave = Cave
 station-event-bluespace-name-UnidentifiedVessel = Unidentified Vessel
 station-event-bluespace-name-SecureNTVault = Secure NT Vault
 station-event-bluespace-name-SyndicateWeaponsCache = Syndicate Weapons Cache
-
-station-event-bluespace-asteroid-start-announcement = We have detected an unusual FTL signature, which long range scans have detected as an unusually large asteroid. Nanotrasen requests prospectors and other individuals to seek out the asteroid.
-station-event-bluespace-asteroid-end-announcement = We've detected an unexpected FTL jump in your sector, as the asteroid appears to be gone for good.
+station-event-bluespace-name-UnusualAsteroid = Unusual Asteroid

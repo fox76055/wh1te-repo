@@ -11423,7 +11423,7 @@ entities:
     - pos: 3.5,-15.5
       parent: 1
       type: Transform
-- proto: RandomRockSpawner
+- proto: NFRockMineralSoft
   entities:
   - uid: 625
     components:
@@ -18987,7 +18987,7 @@ entities:
     - pos: 20.5,22.5
       parent: 1
       type: Transform
-- proto: SalvagePartsSpawnerLow
+- proto: SalvagePartsT3Spawner
   entities:
   - uid: 2126
     components:
@@ -19475,7 +19475,7 @@ entities:
     - pos: 10.5,-7.5
       parent: 1
       type: Transform
-- proto: XenoAISpawner
+- proto: NFSpawnMobXenoT2
   entities:
   - uid: 2208
     components:

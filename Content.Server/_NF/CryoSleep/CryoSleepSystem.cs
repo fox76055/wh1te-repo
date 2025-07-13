@@ -347,7 +347,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
                 //Lua start
                 if (!_cryoTimers.ContainsKey(id.Value))
                 {
-                    SetCryoReturnTimer(id.Value, _timing.CurTime + TimeSpan.FromMinutes(30));
+                    SetCryoReturnTimer(id.Value, _timing.CurTime + TimeSpan.FromMinutes(1));
                 }
                 else
                 {
@@ -383,7 +383,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
 
         #region DeadCode
         //Lua no-no-no, no delete!
-        //if (deleteEntity) 
+        //if (deleteEntity)
         //{
         //    QueueDel(bodyId);
         //}
