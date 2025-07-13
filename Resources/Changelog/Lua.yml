@@ -335,3 +335,14 @@ Entries:
   id: 25
   time: '2025-06-30T14:56:17.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/58
+- author: PyotrIgn
+  changes:
+    - type: Tweak
+      message: >-
+        Изменен граф крафта направленного вентилятора таким образом, чтобы его
+        можно было разобрать
+    - type: Add
+      message: Добавлен крафт и разборка обычного маленького вентилятора
+  id: 26
+  time: '2025-07-13T17:25:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/61
