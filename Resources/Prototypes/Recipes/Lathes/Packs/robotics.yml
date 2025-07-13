@@ -60,6 +60,10 @@
   - HamtrLLeg
   - HamtrRLeg
   - VimHarness
+  - RipleyCentralElectronics
+  - RipleyPeripheralsElectronics
+
+
 
 - type: latheRecipePack
   id: MechEquipment

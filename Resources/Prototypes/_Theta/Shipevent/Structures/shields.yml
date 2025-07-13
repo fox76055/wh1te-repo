@@ -35,6 +35,7 @@
     - type: DeviceLinkSource
       ports:
         - CircularShieldConsoleSender
+      range: 90
     - type: Computer # Mono
       board: ShieldControlComputerCircuitboard
 

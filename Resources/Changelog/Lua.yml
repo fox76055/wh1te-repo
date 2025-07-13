@@ -335,3 +335,115 @@ Entries:
   id: 25
   time: '2025-06-30T14:56:17.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/58
+- author: PyotrIgn
+  changes:
+    - type: Tweak
+      message: >-
+        Изменен граф крафта направленного вентилятора таким образом, чтобы его
+        можно было разобрать
+    - type: Add
+      message: Добавлен крафт и разборка обычного маленького вентилятора
+  id: 26
+  time: '2025-07-13T17:25:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/61
+- author: SupernoobTheN1
+  changes:
+    - type: Fix
+      message: Отражение больше не стакается.
+    - type: Fix
+      message: Теперь предметы не отражают, если вы не держите их в руке.
+    - type: Tweak
+      message: Урон и заряд импульсного оружия вернулся к прежним цифрам.
+    - type: Tweak
+      message: Аплинк СБ был обновлён.
+    - type: Tweak
+      message: Аплинк пиратов был обновлён.
+    - type: Tweak
+      message: Были переведены некоторые предметы в аплинках СБ и пиратов.
+    - type: Add
+      message: Был добавлен фентанил. Джесси, нам нужно варить, Джесси.
+    - type: Add
+      message: 'Было добавлено новое оружие - Ashstorm, DP-29, MR-8B LWMMG и AK-502. '
+  id: 27
+  time: '2025-07-13T17:36:35.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/62
+- author: Raldjatech
+  changes:
+    - type: Add
+      message: >-
+        Добавил в универсальный визор используемый рейнджерами ПНВ и Термальный
+        Визор
+  id: 28
+  time: '2025-07-13T17:46:12.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/66
+- author: Raldjatech
+  changes:
+    - type: Add
+      message: >-
+        Добавлен рецепт на крафт боеприпасов .357 magnum которые использует
+        револьвер Уника 6
+  id: 29
+  time: '2025-07-13T17:48:53.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/67
+- author: SupernoobTheN1
+  changes:
+    - type: Add
+      message: Был добавлен новый шаттл для КСО - Flyssa.
+    - type: Add
+      message: Было добавлено новое корабельное оружие - 305mm HADES.
+    - type: Tweak
+      message: Респрайт корабельного оружия CHARON.
+  id: 30
+  time: '2025-07-13T17:50:49.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/69
+- author: salo2016
+  changes:
+    - type: Add
+      message: Разбор/крафт пластитановых стен/углов
+    - type: Fix
+      message: Окна так-же получили баланс ХП в сравнении стен
+    - type: Tweak
+      message: Удвоены ХП стык/просто шлюзам
+    - type: Remove
+      message: Спавн посоха исцеления
+    - type: Tweak
+      message: Interdyne дефибриллятор - нёрф, ты не убьёш ЭС в 5с.
+    - type: Tweak
+      message: >-
+        Крупный ребаланс корабельных орудий - более длительные баталии. Mass
+        Driver (Рельса) теперь стреляет в разы быстрее как и L85 20mm
+    - type: Tweak
+      message: ОД ноктюрина 30 юнитов
+    - type: Fix
+      message: Починены все растворители
+    - type: Fix
+      message: Вектор вновь принимает обоймы
+    - type: Add
+      message: Добавлены отсутствующие рецепты на мех-части
+    - type: Tweak
+      message: Тайзер шерифа шокирует в двое меньше длительностью
+    - type: Fix
+      message: Дрель меха теперь добывает предоставляя руду
+    - type: Tweak
+      message: >-
+        Повышение цен на "капитальные" шаттлы подобию Europa/наличие
+        артиллерийских корабельных.
+    - type: Add
+      message: Добавлен шаттл наёмников "MC Xeno"
+    - type: Fix
+      message: Призыванный слуга с Амулета культистов существует 10 минут, а не 30
+    - type: Tweak
+      message: Саурон стал дешевее и менее бронированным
+    - type: Fix
+      message: Карго Нордфолла теперь работает
+    - type: Add
+      message: Добавлены 2 боевых шаттла Нордфоллу
+    - type: Tweak
+      message: Некоторое вооружение меха заребаланшено
+    - type: Add
+      message: На карго добавлена возможность покупки новых корабельных орудий
+    - type: Fix
+      message: Медицинский трекер теперь можно деимплантировать.
+  id: 31
+  time: '2025-07-13T18:24:51.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/73

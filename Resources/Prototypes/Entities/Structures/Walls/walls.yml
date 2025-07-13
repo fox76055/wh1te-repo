@@ -495,6 +495,11 @@
                   max: 1
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
+    - type: Construction # Frontier - Harder to break into
+      graph: Girder # Frontier - Harder to break into
+      node: plastitaniumwall # Lua - Harder to break into
+    - type: StaticPrice
+      price: 350
 
 - type: entity
   parent: WallShuttleDiagonal
@@ -541,6 +546,11 @@
         acts: ["Destruction"]
   - type: RCDDeconstructable # Frontier
     deconstructable: false # Frontier
+  - type: Construction # Frontier - Harder to break into
+    graph: Girder # Frontier - Harder to break into
+    node: diagonalplastitaniumwall # Lua - Harder to break into
+  - type: StaticPrice
+    price: 250
 
 - type: entity
   id: WallPlastitaniumDiagonalIndestructible

@@ -134,6 +134,7 @@
     - device-button-6
     - device-button-7
     - device-button-8
+    range: 90
   - type: ActivatableUI
     key: enum.ShuttleConsoleUiKey.Key
   - type: UserInterface

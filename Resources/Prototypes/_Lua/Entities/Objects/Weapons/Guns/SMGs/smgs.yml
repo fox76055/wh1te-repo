@@ -34,14 +34,14 @@
         priority: 2
         whitelist:
           tags:
-            - MagazinePistolSubMachineGun
+            - NFMagazineSubMachineGunPistol35
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgePistol35
         priority: 1
         whitelist:
           tags:
-            - CartridgePistol
+            - NFCartridgePistol35
         whitelistFailPopup: gun-magazine-whitelist-fail
   - type: MagazineVisuals
     magState: mag

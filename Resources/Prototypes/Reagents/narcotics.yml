@@ -308,7 +308,7 @@
         conditions:
         - !type:ReagentThreshold
           reagent: Nocturine
-          min: 8
+          min: 30 #7 - Lua
         key: ForcedSleep
         component: ForcedSleeping
         refresh: false

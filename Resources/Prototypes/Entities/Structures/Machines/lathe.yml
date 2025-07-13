@@ -357,16 +357,17 @@
     - RoboticsStatic
     - BorgModulesStatic
     - BorgLimbsStatic
+    - MechMiscStatic # Mono
     dynamicPacks:
     - Robotics
     - BorgModules
     - MechParts
-    - MechEquipment
-    # Mono - Mech parts
+    - MechEquipment # Mono - Mech parts
     - ClarkeMechParts
     - DurandMechParts
     - GygaxMechParts
     - MechWeapons
+    - MechUpgrades
   - type: EmagLatheRecipes
     emagStaticPacks:
     - WeaponMechCombatImmolationGun
