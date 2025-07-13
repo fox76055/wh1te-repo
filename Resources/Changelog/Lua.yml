@@ -385,3 +385,14 @@ Entries:
   id: 29
   time: '2025-07-13T17:48:53.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/67
+- author: SupernoobTheN1
+  changes:
+    - type: Add
+      message: Был добавлен новый шаттл для КСО - Flyssa.
+    - type: Add
+      message: Было добавлено новое корабельное оружие - 305mm HADES.
+    - type: Tweak
+      message: Респрайт корабельного оружия CHARON.
+  id: 30
+  time: '2025-07-13T17:50:49.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/69
