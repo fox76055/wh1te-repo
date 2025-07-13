@@ -367,3 +367,12 @@ Entries:
   id: 27
   time: '2025-07-13T17:36:35.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/62
+- author: Raldjatech
+  changes:
+    - type: Add
+      message: >-
+        Добавил в универсальный визор используемый рейнджерами ПНВ и Термальный
+        Визор
+  id: 28
+  time: '2025-07-13T17:46:12.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/66
