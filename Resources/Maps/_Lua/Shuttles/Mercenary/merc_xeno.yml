@@ -1054,8 +1054,6 @@ entities:
       pos: 1.5,14.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 20
 - proto: AmeController
@@ -4408,8 +4406,6 @@ entities:
       pos: 1.5,13.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 20
   - uid: 650
@@ -4419,8 +4415,6 @@ entities:
       pos: -1.5,10.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
   - uid: 651
     components:
     - type: Transform
