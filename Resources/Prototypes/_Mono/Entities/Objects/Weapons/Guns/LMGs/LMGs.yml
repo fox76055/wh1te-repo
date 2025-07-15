@@ -99,8 +99,7 @@
         priority: 2
         whitelist:
           tags:
-          - Magazine8x55mmSKR
-          - MagazineBox8x55mmSKR
+          - Magazine8x55mmSKRBox
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber

@@ -9,7 +9,7 @@
     sprite: _Mono/Clothing/OuterClothing/Armor/aurora.rsi
   - type: Clothing
     sprite: _Mono/Clothing/OuterClothing/Armor/aurora.rsi
-    stripDelay: 60
+    stripDelay: 100
     equipDelay: 10 # to avoid accidentally falling into the trap associated with SelfUnremovableClothing
   - type: SelfUnremovableClothing
   - type: Armor
@@ -24,12 +24,12 @@
         Caustic: 0.5
         Radiation: 0.5
   - type: ExplosionResistance
-    damageCoefficient: 0.35
+    damageCoefficient: 0.25
   - type: ClothingSpeedModifier
     walkModifier: 1.15
     sprintModifier: 1.15
-  # - type: StaminaDamageResistance
-  #   coefficient: 0.1 # high shock resist, why shouldnt it block a batong?
+  - type: StaminaDamageResistance
+    coefficient: 0.2 # high shock resist, why shouldnt it block a batong?
   - type: TemperatureProtection
     heatingCoefficient: 0.01
     coolingCoefficient: 0.01
