@@ -24,8 +24,8 @@
         machine_board: !type:Container
         machine_parts: !type:Container
     - type: Gun
-      fireRate: 1
-      projectileSpeed: 60
+      fireRate: 2
+      projectileSpeed: 80
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -42,12 +42,12 @@
       ports:
       - Toggle
     - type: SpaceArtillery
-      powerChargeRate: 50
-      powerUseActive: 1
-      powerUsePassive: 1100
+      powerChargeRate: 150
+      powerUseActive: 1200
+      powerUsePassive: 2000
     - type: BatterySelfRecharger
       autoRecharge: true
-      autoRechargeRate: 50
+      autoRechargeRate: 75
     - type: ProjectileBatteryAmmoProvider
       proto: Bullet105mm
       fireCost: 150

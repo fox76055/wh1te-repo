@@ -24,7 +24,7 @@
         machine_board: !type:Container
         machine_parts: !type:Container
     - type: Gun
-      fireRate: 1
+      fireRate: 0.15 # Adjusted fire rate as battery capacity recharge
       projectileSpeed: 80
       selectedMode: FullAuto
       availableModes:
@@ -42,9 +42,9 @@
       ports:
       - Toggle
     - type: SpaceArtillery
-      powerChargeRate: 20
-      powerUseActive: 1
-      powerUsePassive: 1100
+      powerChargeRate: 30
+      powerUseActive: 1200
+      powerUsePassive: 2500
     - type: BatterySelfRecharger
       autoRecharge: true
       autoRechargeRate: 20

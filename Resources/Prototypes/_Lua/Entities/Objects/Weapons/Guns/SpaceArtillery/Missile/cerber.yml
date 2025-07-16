@@ -24,7 +24,7 @@
       machine_board: !type:Container
       machine_parts: !type:Container
   - type: Gun
-    projectileSpeed: 40
+    projectileSpeed: 70 #40
     selectedMode: FullAuto
     availableModes:
       - FullAuto

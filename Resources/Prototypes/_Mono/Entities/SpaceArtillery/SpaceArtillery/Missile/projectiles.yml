@@ -9,7 +9,7 @@
   - type: Projectile
     damage:
       types:
-        Structural: 450
+        Structural: 550 #450
         Blunt: 65
         Heat: 10
   - type: Sprite
@@ -33,7 +33,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 75
+    totalIntensity: 125 #75
     intensitySlope: 8
     maxIntensity: 25
   - type: GatheringProjectile
@@ -57,9 +57,9 @@
   - type: Projectile
     damage:
       types:
-        Structural: 500 #1000
-        Blunt: 85 #175
-        Heat: 25 #50
+        Structural: 1000
+        Blunt: 450
+        Heat: 50
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
@@ -81,7 +81,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 100 #150
+    totalIntensity: 150
     intensitySlope: 10
     maxIntensity: 55
   - type: GatheringProjectile
@@ -91,8 +91,8 @@
     acceleration: 200
     detectionRange: 300
     scanArc: 40
-    launchSpeed: 100
-    maxSpeed: 220
+    launchSpeed: 180
+    maxSpeed: 420
 
 # ASM-501
 
@@ -105,9 +105,9 @@
   - type: Projectile
     damage:
       types:
-        Structural: 7500 #15000
-        Blunt: 1000 #2000
-        Heat: 250 #500
+        Structural: 15000
+        Blunt: 2000
+        Heat: 500
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
@@ -129,9 +129,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 4000 #6000
-    intensitySlope: 30
-    totalIntensity: 4000 #6000
+    maxIntensity: 6000
+    intensitySlope: 15
+    totalIntensity: 1500
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -155,7 +155,7 @@
       types:
         Structural: 500 #7500
         Heat: 30
-        Ion: 6500
+        Ion: 5000 #2500
   - type: Sprite
     sprite: _Mono/Objects/SpaceArtillery/hybrid_missile.rsi
     layers:

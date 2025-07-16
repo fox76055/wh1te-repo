@@ -326,8 +326,8 @@
       effects:
       - !type:HealthChange
         damage:
-          groups:
-            Airloss: 10
+          types:
+            Bloodloss: 3 #10
 
 - type: reagent
   id: MindbreakerToxin
