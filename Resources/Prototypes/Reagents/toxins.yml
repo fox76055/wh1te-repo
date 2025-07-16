@@ -327,7 +327,7 @@
       - !type:HealthChange
         damage:
           types:
-            Bloodloss: 3 #10
+            Bloodloss: 5 #10
 
 - type: reagent
   id: MindbreakerToxin
