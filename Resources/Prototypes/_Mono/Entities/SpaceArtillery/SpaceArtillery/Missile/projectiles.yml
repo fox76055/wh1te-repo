@@ -25,7 +25,7 @@
     requireNoGrid: true
     shape: triangle
   - type: TimedDespawn
-    lifetime: 3.5
+    lifetime: 6
   - type: PointLight
     radius: 3.5
     color: orange
@@ -43,8 +43,18 @@
     acceleration: 150
     detectionRange: 200
     scanArc: 40
-    launchSpeed: 300
-    maxSpeed: 360
+    launchSpeed: 60
+    maxSpeed: 150
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 100 # Lua
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
 
 # ASM-302
 
@@ -73,7 +83,7 @@
     requireNoGrid: true
     shape: triangle
   - type: TimedDespawn
-    lifetime: 3
+    lifetime: 6
   - type: PointLight
     radius: 3.5
     color: orange
@@ -91,8 +101,18 @@
     acceleration: 200
     detectionRange: 300
     scanArc: 40
-    launchSpeed: 180
-    maxSpeed: 420
+    launchSpeed: 100
+    maxSpeed: 180
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 100 # Lua
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
 
 # ASM-501
 
@@ -128,7 +148,7 @@
     energy: 2
   - type: ExplodeOnTrigger
   - type: Explosive
-    explosionType: Default
+    explosionType: DemolitionCharge
     maxIntensity: 6000
     intensitySlope: 15
     totalIntensity: 1500
@@ -140,7 +160,17 @@
     detectionRange: 500
     scanArc: 50
     launchSpeed: 50
-    maxSpeed: 60
+    maxSpeed: 110
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 1000 # Lua
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
 
 # TOVEK
 
@@ -194,3 +224,13 @@
     scanArc: 50
     launchSpeed: 100
     maxSpeed: 300
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 150 # Lua
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
