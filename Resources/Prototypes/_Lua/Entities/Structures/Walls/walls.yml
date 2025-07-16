@@ -289,7 +289,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 50000 # Lua
+            damage: 30000 # Lua
           behaviors:
             - !type:SpawnEntitiesBehavior
               spawn:
@@ -330,7 +330,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 50000 # Lua
+        damage: 30000 # Lua
       behaviors:
       - !type:ChangeConstructionNodeBehavior
         node: girder
