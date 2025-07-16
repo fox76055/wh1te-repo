@@ -34,16 +34,21 @@
     - type: DeviceLinkSink
       ports:
       - Toggle
-    - type: SpaceArtillery
-      powerChargeRate: 100
-      powerUseActive: 20
-      powerUsePassive: 1100
-    - type: BatterySelfRecharger
-      autoRecharge: true
-      autoRechargeRate: 100
-    - type: ProjectileBatteryAmmoProvider
-      proto: Bullet20mm
-      fireCost: 50
+    - type: ExplosionResistance
+      damageCoefficient: 0.5 # Lua
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 1250
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
     - type: Gun
       fireRate: 12
       projectileSpeed: 90
@@ -51,6 +56,16 @@
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
+    - type: ProjectileBatteryAmmoProvider
+      proto: Bullet20mm
+      fireCost: 50
+    - type: SpaceArtillery
+      powerChargeRate: 100
+      powerUseActive: 20
+      powerUsePassive: 1100
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 100
 
 - type: entity
   parent: [BaseWeaponNavalBallisctic, Weapon20mm]
