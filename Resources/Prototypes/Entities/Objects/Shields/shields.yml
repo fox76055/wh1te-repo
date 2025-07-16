@@ -484,6 +484,7 @@
 #Lua edit start: Add a self-recharging shield
 - type: entity
   name: energy shield
+  suffix: SelfRecharging
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: EnergyShieldSelfRecharging
   description: Exotic energy shield, when folded, can even fit in your pocket. This version has been made self-recharging.
@@ -542,7 +543,7 @@
     - type: ItemTogglePointLight
     - type: Reflect
       reflectProb: 1 # WD EDIT
-      damageOnReflectModifier: 1 # Goob edit
+      damageOnReflectModifier: 0.3 # Goob edit
       reflects:
         - Energy
     - type: Blocking
