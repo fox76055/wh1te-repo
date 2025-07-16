@@ -6,7 +6,7 @@
   id: Salomnizine
   name: Саломнизин
   desc: Лучшее средство от всего! Не возможно найти.
-  physicalDesc: reagent-physical-desc-soothing
+  physicalDesc: Не доступно
   flavor: medicine
   color: "#fcf7f9"
   metabolisms:
