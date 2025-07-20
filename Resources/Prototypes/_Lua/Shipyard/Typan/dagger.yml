@@ -8,12 +8,11 @@
   name: TY Dagger
   description: Старый боевой корабль, найденный в ангарах Синдиката. Имеет три стороны
     стрельбы.
-  price: 105000
+  price: 123525 #105000
   category: Large
   group: Typan
   shuttlePath: /Maps/_Lua/Shuttles/Typan/dagger.yml
   addComponents:
-
     - type: IFF
       color: "#990816"
     - type: NanotrasenFtl

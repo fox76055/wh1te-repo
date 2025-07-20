@@ -6,12 +6,11 @@
   parent: BaseVessel
   id: Expedition
   name: TY Expedition
-  price: 28100
+  price: 52556 #28100
   category: Large
   group: Typan
   shuttlePath: /Maps/_Lua/Shuttles/Typan/expedition.yml
   addComponents:
-
     - type: IFF
       color: "#990816"
     - type: NanotrasenFtl

@@ -447,3 +447,10 @@ Entries:
   id: 31
   time: '2025-07-13T18:24:51.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/73
+- author: salo2016
+  changes:
+    - type: Fix
+      message: Хаяшь, Хевишь - работает БСС в километры и Рабочий сервер вооружения.
+  id: 32
+  time: '2025-07-14T20:09:31.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/76
