@@ -3,7 +3,7 @@
   id: ClothingOuterExosuitAurora
   name: M-320X AURORA exosuit
   suffix: SelfUnremovable
-  description: An experimental exosuit designed for the future of warfare. Despite not having any head covering, the utilization of new nanomachine technology allows it to protect the wearer from the pressure and cold of space.
+  description:  
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Armor/aurora.rsi
@@ -21,8 +21,8 @@
         Heat: 0.35
         Cold: 0.35
         Shock: 0.15
-        Caustic: 0.5
-        Radiation: 0.5
+        Caustic: 0.7
+        Radiation: 0.7
   - type: ExplosionResistance
     damageCoefficient: 0.25
   - type: ClothingSpeedModifier
