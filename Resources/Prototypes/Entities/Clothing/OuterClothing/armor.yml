@@ -84,7 +84,6 @@
     reflectProb: 0.7 # Frontier: 1<0.7
     reflects:
       - Energy
-    reflectingInHands: false
 
 #Detective's vest
 - type: entity

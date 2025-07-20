@@ -313,7 +313,6 @@
     earliestStart: 100
     minimumPlayers: 15
     weight: 5
-    startDelay: 10
     duration: 1500
     maxDuration: 1800
   - type: BluespaceErrorRule
@@ -350,7 +349,6 @@
     earliestStart: 100
     minimumPlayers: 15
     weight: 3
-    startDelay: 10
     duration: 2100
     maxDuration: 2400
   - type: BluespaceErrorRule
