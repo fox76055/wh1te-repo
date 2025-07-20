@@ -347,7 +347,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
                 //Lua start
                 if (!_cryoTimers.ContainsKey(id.Value))
                 {
-                    SetCryoReturnTimer(id.Value, _timing.CurTime + TimeSpan.FromMinutes(1));
+                    SetCryoReturnTimer(id.Value, _timing.CurTime + TimeSpan.FromMinutes(30));
                 }
                 else
                 {
