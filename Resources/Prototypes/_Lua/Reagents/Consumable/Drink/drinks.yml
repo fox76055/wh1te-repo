@@ -1,0 +1,159 @@
+- type: reagent
+  id: Salo-2016
+  name: Salo2016
+  group: Drinks
+  desc: Нет, в нём нет Сала. Но есть Сало.
+  physicalDesc: reagent-physical-desc-sweet
+  flavor: tea
+  color: "#7a29a3"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+  pricePerUnit: 8
+
+- type: reagent
+  id: NetscapeDrink
+  name: Netscape
+  group: Drinks
+  desc: Вкус тяжёлых цитат
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: tea
+  color: "#bde0ff"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+  pricePerUnit: 8
+
+- type: reagent
+  id: VeergilDrink
+  name: Veergil
+  group: Drinks
+  parent: BaseAlcohol
+  desc: Вкус винограда, риса, алкоголя и кубика д20...
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: sake
+  color: "#7200a3"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 6
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.3
+  pricePerUnit: 6
+
+- type: reagent
+  id: MayskiDrink
+  name: Mayski
+  group: Drinks
+  desc: Вкус сладкого винограда... и недосыпа.
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: grapesoda
+  color: "#ba66ff"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+  pricePerUnit: 6
+
+- type: reagent
+  id: klifowoDrink
+  name: KlifandMond
+  group: Drinks
+  desc: Ужс! Да это же! -W-
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: tea
+  color: "#02f2d6"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+  pricePerUnit: 6
+
+- type: reagent
+  id: ArkanyaDrink
+  name: ArkanyaDeLove
+  group: Drinks
+  desc: Говорят что напиток создан в честь любви!
+  physicalDesc: reagent-physical-desc-opaque
+  flavor: milk
+  color: "#fffafa"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 9
+  pricePerUnit: 6
+
+- type: reagent
+  id: NickTeslDrink
+  name: NickTesl
+  group: Drinks
+  desc: Ужс! Да это же! -W-
+  physicalDesc: Электричества тут нету, только
+  flavor: tea
+  color: "#02f2d6"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+  pricePerUnit: 6
+
+- type: reagent
+  id: GixDrink
+  name: Gix
+  group: Drinks
+  desc: Цель в голове, сигарету в зубы, ночь пролетит, ивент готов...
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: soda
+  color: "#02f2d6"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+  pricePerUnit: 6
+
+- type: reagent
+  id: BrennNightDrink
+  name: BrennNight
+  group: Drinks
+  desc: Выглядит немного демонически, немного магически. Очень алкогольный напиток с ярким привкусом перца. Имеет три предупреждения о возможных летальных исходах."Пить не больше одного глотка в две минуты."
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: peppery
+  color: "#591d1f"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 7
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.8
+  pricePerUnit: 10
+
+- type: reagent
+  id: MaxwellDrink
+  name: Напиток "Анна'Наваар"
+  group: Drinks
+  desc: По вкусу больше похож на водку чем сама водка.
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: vodka
+  color: "#fc6a03"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.2
+  pricePerUnit: 6
