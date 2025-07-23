@@ -486,3 +486,20 @@ Entries:
   id: 34
   time: '2025-07-23T16:39:26.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/79
+- author: SupernoobTheN1
+  changes:
+    - type: Add
+      message: Были возвращены необычные астероиды, а также были немного изменены.
+    - type: Fix
+      message: Просмотр защиты от стамина урона был починен.
+    - type: Tweak
+      message: >-
+        Зелёное крио больше не удаляет тебя, если ты не играешь за
+        авантюриста/пилота.
+    - type: Tweak
+      message: Был немного усилен MR-8B.
+    - type: Tweak
+      message: Был увеличен запас топлива в канистрах для ДАМа.
+  id: 35
+  time: '2025-07-23T16:51:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/82
