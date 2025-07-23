@@ -510,3 +510,14 @@ Entries:
   id: 36
   time: '2025-07-23T16:41:27.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/80
+- author: salo2016
+  changes:
+    - type: Tweak
+      message: >-
+        Нордфолл получил фракцию синдиката. Турели НТ ведут по ним стрельбу как
+        и пиратам.
+    - type: Fix
+      message: Исправленна невидимая иконка профессии пирата+вип
+  id: 37
+  time: '2025-07-23T16:52:41.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/83
