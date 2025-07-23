@@ -19,8 +19,21 @@
     drawdepth: Mobs
     layers:
       - state: space_artillery
+  - type: Destructible
+    thresholds:
+    - trigger:
+         !type:DamageTrigger
+         damage: 3000 #Nuke inside, what you have thought?
+      behaviors:
+       - !type:PlaySoundBehavior
+         sound:
+           collection: MetalBreak
+       - !type:ChangeConstructionNodeBehavior
+         node: machineFrame
+       - !type:DoActsBehavior
+         acts: ["Destruction"]
   - type: Gun
-    projectileSpeed: 40
+    projectileSpeed: 100 #40
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -91,10 +104,10 @@
       - state: sam
   - type: ExplodeOnTrigger
   - type: Explosive
-    explosionType: Default
-    totalIntensity: 200000.0
-    intensitySlope: 5
-    maxIntensity: 100
+    explosionType: PowerSink
+    totalIntensity: 300000.0
+    intensitySlope: 10
+    maxIntensity: 5000
   - type: PointLight
     radius: 3.5
     color: orange

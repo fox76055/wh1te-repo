@@ -482,11 +482,13 @@
     - type: Tag
       tags:
         - Wall
+    - type: ExplosionResistance
+      damageCoefficient: 0.8 # Lua
     - type: Destructible
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 7500 # Lua 1200<7500
+            damage: 6000 # Lua 1200<7500<6000
           behaviors:
             - !type:SpawnEntitiesBehavior
               spawn:
@@ -498,6 +500,9 @@
     - type: Construction # Frontier - Harder to break into
       graph: Girder # Frontier - Harder to break into
       node: plastitaniumwall # Lua - Harder to break into
+    - type: Damageable
+      damageContainer: StructuralInorganicUltraHeavy
+      damageModifierSet: StructuralMetallicStrongUltra
     - type: StaticPrice
       price: 350
 
@@ -522,20 +527,13 @@
   - type: Icon
     sprite: Structures/Walls/plastitanium_diagonal.rsi
     state: state0
+  - type: ExplosionResistance
+    damageCoefficient: 0.8 # Lua
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 3500 # Lua 2000<3500
-      behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
-        - !type:PlaySoundBehavior
-          sound:
-            collection: MetalSlam
-    - trigger:
-        !type:DamageTrigger
-        damage: 2000 # Lua 1200<2000
+        damage: 2500 # Lua 1200<2000<2500
       behaviors:
       - !type:ChangeConstructionNodeBehavior
         node: girder
@@ -549,6 +547,9 @@
   - type: Construction # Frontier - Harder to break into
     graph: Girder # Frontier - Harder to break into
     node: diagonalplastitaniumwall # Lua - Harder to break into
+  - type: Damageable
+    damageContainer: StructuralInorganicUltraHeavy
+    damageModifierSet: StructuralMetallicStrongUltra
   - type: StaticPrice
     price: 250
 
@@ -618,11 +619,13 @@
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: ExplosionResistance
+    damageCoefficient: 0.8 # lua
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 3000 # Lua 600<3000
+        damage: 3500 # Lua 600<3500
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -631,7 +634,7 @@
           collection: MetalSlam
     - trigger:
         !type:DamageTrigger
-        damage: 2000 # Lua 400<2000
+        damage: 2500 # Lua 400<2500
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -719,6 +722,8 @@
     snap:
     - Wall
   components:
+  - type: ExplosionResistance
+    damageCoefficient: 0.8 # lua
   - type: Tag
     tags:
     - Diagonal
@@ -1287,7 +1292,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1750 # Lua 700<1750
+        damage: 2250 # Lua 700<1750<2250
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
