@@ -11,7 +11,7 @@
   startingGear: SyndicateFormal
   icon: "JobIconSyndicateFormal"
   supervisors: job-supervisors-typan-syndicate
-  canBeAntag: false
+  canBeAntag: true
   hideConsoleVisibility: true
   requirements:
     - !type:DepartmentTimeRequirement
@@ -42,6 +42,9 @@
       - type: SpecialSectorStationRecord
         recordGeneration: FalseRecord
       - type: MailDisabled
+      - type: NpcFactionMember
+        factions:
+        - Syndicate
 
 - type: startingGear
   id: SyndicateFormal

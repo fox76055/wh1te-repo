@@ -44,6 +44,9 @@
       - type: SpecialSectorStationRecord
         recordGeneration: FalseRecord
       - type: MailDisabled
+      - type: NpcFactionMember
+        factions:
+        - Syndicate
 
 - type: startingGear
   id: SyndicateCargotech
