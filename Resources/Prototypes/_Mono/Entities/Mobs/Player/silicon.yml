@@ -137,6 +137,12 @@
     name: ghost-role-information-redacted-borg
     description: ghost-role-information-redacted-borg-description
     rules: ghost-role-information-silicon-rules
+    requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 90000 # 25 hours
+    - !type:DepartmentTimeRequirement
+      department: Antag
+      time: 36000 # 10 hours
     raffle:
       settings: default
     prototype: RedactedBorg
@@ -177,6 +183,12 @@
     name: ghost-role-information-redacted-core
     description: ghost-role-information-redacted-core-description
     rules: ghost-role-information-silicon-rules
+    requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 90000 # 25 hours
+    - !type:DepartmentTimeRequirement
+      department: Antag
+      time: 36000 # 10 hours
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -265,6 +277,10 @@
     name: ghost-role-information-vessel-core
     description: ghost-role-information-vessel-core-description
     rules: ghost-role-information-silicon-rules
+    requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 72000 # 20 hours
     raffle:
       settings: default
     prototype: VesselAICore
@@ -364,6 +380,15 @@
     name: ghost-role-information-NFSD-core
     description: ghost-role-information-NFSD-core-description
     rules: ghost-role-information-silicon-rules
+    requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 90000 # 25 hours
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 # 10 hours
+    - !type:RoleTimeRequirement
+      role: JobSeniorOfficer
+      time: 36000 # 10 hours
     raffle:
       settings: default
     prototype: NFSDAICore
@@ -465,6 +490,12 @@
     name: ghost-role-information-rogue-core
     description: ghost-role-information-rogue-core-description
     rules: ghost-role-information-silicon-rules
+    requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 90000 # 25 hours
+    - !type:DepartmentTimeRequirement
+      department: Antag
+      time: 18000 # 5 hours
     raffle:
       settings: default
     prototype: RogueAICore

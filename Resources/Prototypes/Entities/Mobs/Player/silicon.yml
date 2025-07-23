@@ -272,6 +272,7 @@
       map: ["unshaded"]
       shader: unshaded
   - type: Appearance
+  - type: ExtensionCableReceiver
   - type: InteractionPopup
     interactSuccessString: petting-success-station-ai
     interactFailureString: petting-failure-station-ai
@@ -459,6 +460,12 @@
       name: ghost-role-information-syndicate-cyborg-assault-name
       description: ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
+      requirements:
+      - !type:OverallPlaytimeRequirement
+        time: 90000 # 25 hours
+      - !type:DepartmentTimeRequirement
+        department: Antag
+        time: 72000 # 20 hours
       raffle:
         settings: default
     - type: GhostTakeoverAvailable
@@ -492,6 +499,12 @@
       name: ghost-role-information-syndicate-cyborg-saboteur-name
       description: ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
+      requirements:
+      - !type:OverallPlaytimeRequirement
+        time: 90000 # 25 hours
+      - !type:DepartmentTimeRequirement
+        department: Antag
+        time: 72000 # 20 hours
       raffle:
         settings: default
     - type: GhostTakeoverAvailable
@@ -542,6 +555,12 @@
       name: ghost-role-information-derelict-cyborg-name
       description: nf-ghost-role-information-derelict-cyborg-description # Frontier
       rules: ghost-role-information-silicon-rules
+      requirements:
+      - !type:OverallPlaytimeRequirement
+        time: 90000 # 25 hours
+      - !type:DepartmentTimeRequirement
+        department: Antag
+        time: 72000 # 20 hours
       raffle:
         settings: default
     - type: GhostTakeoverAvailable
