@@ -36,7 +36,7 @@
   parent: SolarPanelDiamond
   name: бриллиантовая солнечная панель
   description: Сломанная дорогостоющая солнечная панель с остатками брилиантового покрытия.
-  suffix: Broken
+  suffix: Сломанная
   components:
   - type: Sprite
     state: solar_panel_diamond_broken
