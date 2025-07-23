@@ -454,3 +454,26 @@ Entries:
   id: 32
   time: '2025-07-14T20:09:31.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/76
+- author: salo2016
+  changes:
+    - type: Add
+      message: Пластитановые стены для Станций.
+    - type: Tweak
+      message: >-
+        Крупный ребаланс: 20mm-140mm турелей, Impulse turret/Tesla
+        turret/Cerber/Nighthawk!
+    - type: Tweak
+      message: >-
+        Ребаланс стен. Артиллерийским только более свойственно шить пластитан.
+        Эксперементально.
+    - type: Fix
+      message: Сквозь перила и каркас пролетают снаряды!
+    - type: Tweak
+      message: Лексорин наносит 5 урона кровопотери, а не 5+5 удушья/кровопотери.
+    - type: Add
+      message: Админский Омнизин.
+    - type: Tweak
+      message: Ракеты можно сбить в подлёте к шаттлу.
+  id: 33
+  time: '2025-07-23T16:38:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/78
