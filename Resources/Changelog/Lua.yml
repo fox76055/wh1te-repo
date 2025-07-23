@@ -521,3 +521,26 @@ Entries:
   id: 37
   time: '2025-07-23T16:52:41.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/83
+- author: salo2016
+  changes:
+    - type: Add
+      message: Бриллиантовое покрытие солнечной панели, хрупкое!
+    - type: Remove
+      message: Рецепт Фентанила с Вестином
+    - type: Tweak
+      message: Гермозатвор крепкий почти как стена.
+    - type: Tweak
+      message: На ИИ теперь требуется наигранное время.
+    - type: Fix
+      message: ИИ теперь может быть запитан НВ кабелем.
+    - type: Tweak
+      message: >-
+        На пиратов не требуется наигранное время на роли "кадет", а было
+        увеличено требование на "Рейнджер"
+    - type: Add
+      message: Новый шаттл Nebula реликтовых ИИ.
+    - type: Tweak
+      message: Время пробуждения можно редактировать через Cvar
+  id: 38
+  time: '2025-07-23T16:55:00.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/84
