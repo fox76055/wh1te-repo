@@ -28,6 +28,8 @@
     - id: BluespaceSyndicateFTLInterception
     - id: BluespaceWizardFederationScout
     - id: BluespaceBloodMoon
+    - id: BluespaceAsteroid
+    - id: BluespaceAsteroidBunker
 
 - type: entity
   id: BluespaceDungeonEventScheduler

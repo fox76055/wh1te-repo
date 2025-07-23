@@ -383,7 +383,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
 
         #region DeadCode
         //Lua no-no-no, no delete!
-        //if (deleteEntity) 
+        //if (deleteEntity)
         //{
         //    QueueDel(bodyId);
         //}
