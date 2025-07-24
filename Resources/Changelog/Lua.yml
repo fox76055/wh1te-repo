@@ -454,3 +454,93 @@ Entries:
   id: 32
   time: '2025-07-14T20:09:31.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/76
+- author: salo2016
+  changes:
+    - type: Add
+      message: Пластитановые стены для Станций.
+    - type: Tweak
+      message: >-
+        Крупный ребаланс: 20mm-140mm турелей, Impulse turret/Tesla
+        turret/Cerber/Nighthawk!
+    - type: Tweak
+      message: >-
+        Ребаланс стен. Артиллерийским только более свойственно шить пластитан.
+        Эксперементально.
+    - type: Fix
+      message: Сквозь перила и каркас пролетают снаряды!
+    - type: Tweak
+      message: Лексорин наносит 5 урона кровопотери, а не 5+5 удушья/кровопотери.
+    - type: Add
+      message: Админский Омнизин.
+    - type: Tweak
+      message: Ракеты можно сбить в подлёте к шаттлу.
+  id: 33
+  time: '2025-07-23T16:38:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/78
+- author: UnilTan
+  changes:
+    - type: Fix
+      message: >-
+        добавлена русификация каналов связи. Изменены только те ключи которые
+        нужны игрокам(голосование проводилось на МК
+  id: 34
+  time: '2025-07-23T16:39:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/79
+- author: SupernoobTheN1
+  changes:
+    - type: Add
+      message: Были возвращены необычные астероиды, а также были немного изменены.
+    - type: Fix
+      message: Просмотр защиты от стамина урона был починен.
+    - type: Tweak
+      message: >-
+        Зелёное крио больше не удаляет тебя, если ты не играешь за
+        авантюриста/пилота.
+    - type: Tweak
+      message: Был немного усилен MR-8B.
+    - type: Tweak
+      message: Был увеличен запас топлива в канистрах для ДАМа.
+  id: 35
+  time: '2025-07-23T16:51:26.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/82
+- author: Donevinoll
+  changes:
+    - type: Add
+      message: Добавлен новый шаттл синдиката - SYN Kinetic Lancer
+  id: 36
+  time: '2025-07-23T16:41:27.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/80
+- author: salo2016
+  changes:
+    - type: Tweak
+      message: >-
+        Нордфолл получил фракцию синдиката. Турели НТ ведут по ним стрельбу как
+        и пиратам.
+    - type: Fix
+      message: Исправленна невидимая иконка профессии пирата+вип
+  id: 37
+  time: '2025-07-23T16:52:41.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/83
+- author: salo2016
+  changes:
+    - type: Add
+      message: Бриллиантовое покрытие солнечной панели, хрупкое!
+    - type: Remove
+      message: Рецепт Фентанила с Вестином
+    - type: Tweak
+      message: Гермозатвор крепкий почти как стена.
+    - type: Tweak
+      message: На ИИ теперь требуется наигранное время.
+    - type: Fix
+      message: ИИ теперь может быть запитан НВ кабелем.
+    - type: Tweak
+      message: >-
+        На пиратов не требуется наигранное время на роли "кадет", а было
+        увеличено требование на "Рейнджер"
+    - type: Add
+      message: Новый шаттл Nebula реликтовых ИИ.
+    - type: Tweak
+      message: Время пробуждения можно редактировать через Cvar
+  id: 38
+  time: '2025-07-23T16:55:00.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/84
