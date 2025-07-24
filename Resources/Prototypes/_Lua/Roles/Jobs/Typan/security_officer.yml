@@ -59,32 +59,3 @@
     belt: ClothingBeltAssaultOutpostSyndicate
     pocket1: SyndicateWhistle
     pocket2: ClothingMaskGasSyndicate
-
-# LuaWorld - This file is licensed under AGPLv3
-# Copyright (c) 2025 LuaWorld Contributors
-# See AGPLv3.txt for details.
-
-- type: npcFaction
-  id: Missile
-  hostile:
-  - PointDefenseGun # this will never be used but why not ykwim
-
-- type: npcFaction
-  id: PointDefenseGun
-  hostile:
-  - Missile
-
-# !!!!!!HEY HEY READ THIS HEY HEY!!!!!!
-# USE THE FOLLOWING FOR SHIPS ONLY I BEG
-# THANK YOU!!!!!!!!!!
-
-- type: npcFaction
-  id: IndependentShip
-  hostile:
-    - HostileIndependentShip
-
-- type: npcFaction
-  id: HostileIndependentShip
-  hostile:
-    - IndependentShip
-
