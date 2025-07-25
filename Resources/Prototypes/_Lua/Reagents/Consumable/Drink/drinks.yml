@@ -1,8 +1,8 @@
 - type: reagent
   id: Salo-2016
-  name: Salo2016
+  name: reagent-name-salo2016
   group: Drinks
-  desc: Нет, в нём нет Сала. Но есть Сало.
+  desc: reagent-desc-salo2016
   physicalDesc: reagent-physical-desc-sweet
   flavor: tea
   color: "#7a29a3"
@@ -15,9 +15,9 @@
 
 - type: reagent
   id: NetscapeDrink
-  name: Netscape
+  name: reagent-name-netscape
   group: Drinks
-  desc: Вкус тяжёлых цитат
+  desc: reagent-desc-netscape
   physicalDesc: reagent-physical-desc-frosty
   flavor: tea
   color: "#bde0ff"
@@ -30,10 +30,10 @@
 
 - type: reagent
   id: VeergilDrink
-  name: Veergil
+  name: reagent-name-veergil
   group: Drinks
   parent: BaseAlcohol
-  desc: Вкус винограда, риса, алкоголя и кубика д20...
+  desc: reagent-desc-veergil
   physicalDesc: reagent-physical-desc-aromatic
   flavor: sake
   color: "#7200a3"
@@ -49,9 +49,9 @@
 
 - type: reagent
   id: MayskiDrink
-  name: Mayski
+  name: reagent-name-mayski
   group: Drinks
-  desc: Вкус сладкого винограда... и недосыпа.
+  desc: reagent-desc-mayski
   physicalDesc: reagent-physical-desc-frosty
   flavor: grapesoda
   color: "#ba66ff"
@@ -64,9 +64,9 @@
 
 - type: reagent
   id: klifowoDrink
-  name: KlifandMond
+  name: reagent-name-klifandMond
   group: Drinks
-  desc: Ужс! Да это же! -W-
+  desc: reagent-desc-klifandMond
   physicalDesc: reagent-physical-desc-aromatic
   flavor: tea
   color: "#02f2d6"
@@ -79,9 +79,9 @@
 
 - type: reagent
   id: ArkanyaDrink
-  name: ArkanyaDeLove
+  name: reagent-name-arkanyadelove
   group: Drinks
-  desc: Говорят что напиток создан в честь любви!
+  desc: reagent-desc-arkanyadelove
   physicalDesc: reagent-physical-desc-opaque
   flavor: milk
   color: "#fffafa"
@@ -94,10 +94,10 @@
 
 - type: reagent
   id: NickTeslDrink
-  name: NickTesl
+  name: reagent-name-nickTesl
   group: Drinks
-  desc: Ужс! Да это же! -W-
-  physicalDesc: Электричества тут нету, только
+  desc: reagent-desc-nickTesl
+  physicalDesc: reagent-physical-desc-frosty
   flavor: tea
   color: "#02f2d6"
   metabolisms:
@@ -109,9 +109,9 @@
 
 - type: reagent
   id: GixDrink
-  name: Gix
+  name: reagent-name-gix
   group: Drinks
-  desc: Цель в голове, сигарету в зубы, ночь пролетит, ивент готов...
+  desc: reagent-desc-gix
   physicalDesc: reagent-physical-desc-aromatic
   flavor: soda
   color: "#02f2d6"
@@ -124,9 +124,9 @@
 
 - type: reagent
   id: BrennNightDrink
-  name: BrennNight
+  name: reagent-name-brennnight
   group: Drinks
-  desc: Выглядит немного демонически, немного магически. Очень алкогольный напиток с ярким привкусом перца. Имеет три предупреждения о возможных летальных исходах."Пить не больше одного глотка в две минуты."
+  desc: reagent-desc-brennnight
   physicalDesc: reagent-physical-desc-aromatic
   flavor: peppery
   color: "#591d1f"
@@ -142,9 +142,9 @@
 
 - type: reagent
   id: MaxwellDrink
-  name: Напиток "Анна'Наваар"
+  name: reagent-name-maxwell
   group: Drinks
-  desc: По вкусу больше похож на водку чем сама водка.
+  desc: reagent-desc-maxwell
   physicalDesc: reagent-physical-desc-aromatic
   flavor: vodka
   color: "#fc6a03"
