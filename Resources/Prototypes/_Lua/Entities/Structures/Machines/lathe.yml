@@ -85,3 +85,74 @@
   - type: StealTarget
     stealGroup: MedipenTechFabCircuitboard
 
+- type: entity
+  id: RMCAmmoTechFab
+  parent: BaseLatheLube # Frontier: added NFBlueprintReceiverBase
+  name: ent-RMCAmmoTechFab
+  description: ent-RMCAmmoTechFab.desc
+  suffix: ent-RMCAmmoTechFab.suffix
+  components:
+    - type: Sprite
+      sprite: /Textures/_Lua/Structures/Machines/ammolathe.rsi
+      snapCardinals: true # Frontier
+      layers:
+        - state: icon
+          map: ["enum.LatheVisualLayers.IsRunning"]
+        - state: nf14
+        - state: unlit
+          shader: unshaded
+          map: ["enum.PowerDeviceVisualLayers.Powered"]
+        - state: inserting
+          map: ["enum.MaterialStorageVisualLayers.Inserting"]
+        - state: panel
+          map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: Machine
+      board: AmmoTechFabCircuitboard
+    - type: Lathe
+      idleState: icon
+      runningState: icon
+      staticPacks:
+      - RMCAmmoPack
+    - type: MaterialStorage
+      whitelist:
+        tags:
+          - Sheet
+          - RawMaterial
+          - Ingot
+    - type: OreSiloClient
+
+- type: entity
+  id: NF14AmmoTechFab
+  parent: BaseLatheLube # Frontier: added NFBlueprintReceiverBase
+  name: ent-NF14AmmoTechFab
+  description: ent-NF14AmmoTechFab.desc
+  suffix: ent-NF14AmmoTechFab.suffix
+  components:
+    - type: Sprite
+      sprite: /Textures/_Lua/Structures/Machines/ammolathe.rsi
+      snapCardinals: true # Frontier
+      layers:
+        - state: icon
+          map: ["enum.LatheVisualLayers.IsRunning"]
+        - state: nf14
+        - state: unlit
+          shader: unshaded
+          map: ["enum.PowerDeviceVisualLayers.Powered"]
+        - state: inserting
+          map: ["enum.MaterialStorageVisualLayers.Inserting"]
+        - state: panel
+          map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: Machine
+      board: AmmoTechFabCircuitboard
+    - type: Lathe
+      idleState: icon
+      runningState: icon
+      staticPacks:
+      - N14AmmoPack
+    - type: MaterialStorage
+      whitelist:
+        tags:
+          - Sheet
+          - RawMaterial
+          - Ingot
+    - type: OreSiloClient
