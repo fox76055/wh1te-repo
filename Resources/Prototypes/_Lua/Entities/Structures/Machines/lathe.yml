@@ -98,7 +98,7 @@
       layers:
         - state: icon
           map: ["enum.LatheVisualLayers.IsRunning"]
-        - state: nf14
+        - state: rmc
         - state: unlit
           shader: unshaded
           map: ["enum.PowerDeviceVisualLayers.Powered"]
