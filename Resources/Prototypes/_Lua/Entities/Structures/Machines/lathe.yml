@@ -107,8 +107,10 @@
         - state: panel
           map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - type: Machine
-      board: AmmoTechFabCircuitboard
+      board: RMCAmmoTechFabCircuitboard
     - type: Lathe
+      partRatingMaterialUseMultiplier: 0.9
+      partRatingPrintTimeMultiplier: 0.6
       idleState: icon
       runningState: icon
       staticPacks:
@@ -143,8 +145,10 @@
         - state: panel
           map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - type: Machine
-      board: AmmoTechFabCircuitboard
+      board: NF14AmmoTechFabCircuitboard
     - type: Lathe
+      partRatingMaterialUseMultiplier: 0.9
+      partRatingPrintTimeMultiplier: 0.6
       idleState: icon
       runningState: icon
       staticPacks:
@@ -156,3 +160,33 @@
           - RawMaterial
           - Ingot
     - type: OreSiloClient
+
+- type: entity
+  id: RMCAmmoTechFabCircuitboard
+  parent: BaseMachineCircuitboard
+  name: ent-RMCAmmoTechFabCircuitboard
+  description: ent-RMCAmmoTechFabCircuitboard.desc
+  suffix: ent-RMCAmmoTechFabCircuitboard.suffix
+  components:
+    - type: Sprite
+      state: security
+    - type: MachineBoard
+      prototype: RMCAmmoTechFab
+      requirements: # Frontier
+        MatterBin: 1 # Frontier stackRequirements<requirements
+        Manipulator: 1 # Frontier stackRequirements<requirements
+
+- type: entity
+  id: NF14AmmoTechFabCircuitboard
+  parent: BaseMachineCircuitboard
+  name: ent-NF14AmmoTechFabCircuitboard
+  description: ent-NF14AmmoTechFabCircuitboard.desc
+  suffix: ent-NF14AmmoTechFabCircuitboard.suffix
+  components:
+    - type: Sprite
+      state: security
+    - type: MachineBoard
+      prototype: NF14AmmoTechFab
+      requirements: # Frontier
+        MatterBin: 1 # Frontier stackRequirements<requirements
+        Manipulator: 1 # Frontier stackRequirements<requirements
