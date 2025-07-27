@@ -557,3 +557,12 @@ Entries:
   id: 39
   time: '2025-07-27T18:57:56.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/85
+- author: salo2016
+  changes:
+    - type: Fix
+      message: Нордфолл теперь враждебен синдикату на экспедиции.
+    - type: Add
+      message: Не враждебная Баллистическая турель Нордфоллу.
+  id: 40
+  time: '2025-07-27T19:00:33.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/88
