@@ -566,3 +566,10 @@ Entries:
   id: 40
   time: '2025-07-27T19:00:33.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/88
+- author: salo2016
+  changes:
+    - type: Add
+      message: WY (Морпеховское) + NF14 (Фоллаут + .357 рецепт) - Патронфабы
+  id: 41
+  time: '2025-07-27T19:04:07.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/91
