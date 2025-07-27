@@ -573,3 +573,16 @@ Entries:
   id: 41
   time: '2025-07-27T19:04:07.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/91
+- author: SupernoobTheN1
+  changes:
+    - type: Tweak
+      message: Рецепт фентанила теперь требует свинец, а не карпотоксин.
+    - type: Tweak
+      message: Свинец теперь можно найти на обломках. +-1% шанс на выпадение.
+    - type: Tweak
+      message: >-
+        Свинец теперь не наносит 0,6 ядов за 0,03 юнита. Теперь он наносит 0,6
+        ядов за 0,1 юнит.
+  id: 42
+  time: '2025-07-27T19:04:20.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/90
