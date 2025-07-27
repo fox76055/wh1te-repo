@@ -544,3 +544,16 @@ Entries:
   id: 38
   time: '2025-07-23T16:55:00.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/84
+- author: AlaiceAM
+  changes:
+    - type: Add
+      message: >-
+        Добавлен новый автомат -  Фронтир-комрад венд. И к нему 10 новых
+        напитков.
+    - type: Add
+      message: >-
+        Добавлены текстуры шлемов Вульпканинов и Унатхов для модсьютов
+        синдиката.
+  id: 39
+  time: '2025-07-27T18:57:56.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/85
