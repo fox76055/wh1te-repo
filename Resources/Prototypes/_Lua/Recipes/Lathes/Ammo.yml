@@ -1,3 +1,16 @@
+# LuaWorld - This file is licensed under AGPLv3
+# Copyright (c) 2025 LuaWorld Contributors
+# See AGPLv3.txt for details.
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: Magnum357recipe
+  result: MagazineBox357
+  materials:
+    Steel: 2000
+    Silver: 500
+    Glass: 1000
+
 - type: latheRecipePack
   id: GoobWeaponAmmo
   recipes:
@@ -8,6 +21,7 @@
 - type: latheRecipePack
   id: RMCAmmoPack
   recipes:
+  - Magnum357recipe
   - MagazineBoxRMCCartridgeLMGM60
   - MagazineBoxCMCartridgePistol9mm
   - MagazineBoxRMCCartridgePistol9mmSquashHead
@@ -75,6 +89,7 @@
 - type: latheRecipePack
   id: N14AmmoPack
   recipes:
+  - Magnum357recipe
   - MagazineBoxN14CartridgePistol5
   - MagazineBox556
   - MagazineBox9mm
