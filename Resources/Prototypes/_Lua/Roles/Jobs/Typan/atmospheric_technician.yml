@@ -40,7 +40,7 @@
       - type: MailDisabled
       - type: NpcFactionMember
         factions:
-        - Syndicate
+        - LuaNordFoll
 
 - type: startingGear
   id: SyndicateAtmos
