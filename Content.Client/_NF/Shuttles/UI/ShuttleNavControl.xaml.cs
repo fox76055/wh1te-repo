@@ -16,21 +16,49 @@ namespace Content.Client.Shuttles.UI;
 
 public sealed partial class ShuttleNavControl
 {
+    // Dependency
+    private readonly StationSystem _station;
+    private readonly RadarBlipSystem _blips;
+
+    // Constants for gunnery system
+    // These 2 handle timing updates
+    private const float RadarUpdateInterval = 0f;
+    private const float FireRateLimit = 0.1f; // 100ms between shots
+    private static readonly Color TargetColor = Color.FromHex("#99ff66");
+    private float _updateAccumulator = 0f;
+
+    private bool _isMouseDown;
+    private bool _isMouseInside;
+    private Vector2 _lastMousePos;
+    private float _lastFireTime;
+
+    // Constants for IFF system
+    public float MaximumIFFDistance { get; set; } = -1f;
+    public bool HideCoords { get; set; } = false;
+    private static Color _dockLabelColor = Color.White;
+    public bool HideTarget { get; set; } = false;
+    public Vector2? Target { get; set; } = null;
+    public NetEntity? TargetEntity { get; set; } = null;
+
     public InertiaDampeningMode DampeningMode { get; set; }
     public ServiceFlags ServiceFlags { get; set; } = ServiceFlags.None;
 
-        /// <summary>
-        /// Whether the shuttle is currently in FTL. This is used to disable the Park button
-        /// while in FTL to prevent parking while traveling.
-        /// </summary>
-        public bool InFtl { get; set; }
-
-        private void NfUpdateState(NavInterfaceState state)
-        {
+    /// <summary>
+    /// Updates the radar UI with the latest navigation state and sets additional NF-specific state.
+    /// </summary>
+    /// <param name="state">The navigation interface state.</param>
+    private void NFUpdateState(NavInterfaceState state)
+    {
+        if (state.MaxIffRange != null)
+            MaximumIFFDistance = state.MaxIffRange.Value;
+        HideCoords = state.HideCoords;
+        Target = state.Target;
+        TargetEntity = state.TargetEntity;
+        HideTarget = state.HideTarget;
 
         if (!EntManager.GetCoordinates(state.Coordinates).HasValue ||
-            !EntManager.TryGetComponent(EntManager.GetCoordinates(state.Coordinates).GetValueOrDefault().EntityId,out TransformComponent? transform) ||
-            !EntManager.TryGetComponent(transform.GridUid, out PhysicsComponent? physicsComponent))
+            !EntManager.TryGetComponent(EntManager.GetCoordinates(state.Coordinates).GetValueOrDefault().EntityId, out TransformComponent? transform) ||
+            !EntManager.HasComponent<PhysicsComponent>(transform.GridUid))
         {
             return;
         }
@@ -170,5 +198,165 @@ public sealed partial class ShuttleNavControl
         {
             handle.DrawPrimitives(DrawPrimitiveTopology.TriangleList, color.Value.Span, color.Key);
         }
+    }
+
+    private void HandleMouseEntered(GUIMouseHoverEventArgs args)
+    {
+        _isMouseInside = true;
+    }
+
+    private void HandleMouseExited(GUIMouseHoverEventArgs args)
+    {
+        _isMouseInside = false;
+    }
+
+    protected override void KeyBindDown(GUIBoundKeyEventArgs args)
+    {
+        base.KeyBindDown(args);
+
+        if (args.Function != EngineKeyFunctions.UIClick)
+            return;
+
+        _isMouseDown = true;
+        _lastMousePos = args.RelativePosition;
+        TryFireAtPosition(args.RelativePosition);
+    }
+
+    protected override void FrameUpdate(FrameEventArgs args)
+    {
+        base.FrameUpdate(args);
+
+        _updateAccumulator += args.DeltaSeconds;
+
+        if (_updateAccumulator >= RadarUpdateInterval)
+        {
+            _updateAccumulator = 0; // I'm not subtracting because frame updates can majorly lag in a way normal ones cannot.
+
+            if (_consoleEntity != null)
+                _blips.RequestBlips((EntityUid)_consoleEntity);
+        }
+
+        if (_isMouseDown && _isMouseInside)
+        {
+            var currentTime = IoCManager.Resolve<IGameTiming>().CurTime.TotalSeconds;
+            if (currentTime - _lastFireTime >= FireRateLimit)
+            {
+                var mousePos = UserInterfaceManager.MousePositionScaled;
+                var relativePos = mousePos.Position - GlobalPosition;
+                if (relativePos != _lastMousePos)
+                {
+                    _lastMousePos = relativePos;
+                }
+                TryFireAtPosition(relativePos);
+                _lastFireTime = (float)currentTime;
+            }
+        }
+    }
+    private void TryFireAtPosition(Vector2 relativePosition)
+    {
+        if (_coordinates == null || _rotation == null || OnRadarClick == null)
+            return;
+
+        var a = InverseScalePosition(relativePosition);
+        var relativeWorldPos = new Vector2(a.X, -a.Y);
+        relativeWorldPos = _rotation.Value.RotateVec(relativeWorldPos);
+        var coords = _coordinates.Value.Offset(relativeWorldPos);
+        OnRadarClick?.Invoke(coords);
+    }
+
+    private void DrawBlipShape(DrawingHandleScreen handle, Vector2 position, float size, Color color, RadarBlipShape shape)
+    {
+        switch (shape)
+        {
+            case RadarBlipShape.Circle:
+                handle.DrawCircle(position, size, color);
+                break;
+            case RadarBlipShape.Square:
+                var halfSize = size / 2;
+                var rect = new UIBox2(
+                    position.X - halfSize,
+                    position.Y - halfSize,
+                    position.X + halfSize,
+                    position.Y + halfSize
+                );
+                handle.DrawRect(rect, color);
+                break;
+            case RadarBlipShape.Triangle:
+                var points = new Vector2[]
+                {
+                position + new Vector2(0, -size),
+                position + new Vector2(-size * 0.866f, size * 0.5f),
+                position + new Vector2(size * 0.866f, size * 0.5f)
+                };
+                handle.DrawPrimitives(DrawPrimitiveTopology.TriangleList, points, color);
+                break;
+            case RadarBlipShape.Star:
+                DrawStar(handle, position, size, color);
+                break;
+            case RadarBlipShape.Diamond:
+                var diamondPoints = new Vector2[]
+                {
+                position + new Vector2(0, -size),
+                position + new Vector2(size, 0),
+                position + new Vector2(0, size),
+                position + new Vector2(-size, 0)
+                };
+                handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, diamondPoints, color);
+                break;
+            case RadarBlipShape.Hexagon:
+                DrawHexagon(handle, position, size, color);
+                break;
+            case RadarBlipShape.Arrow:
+                DrawArrow(handle, position, size, color);
+                break;
+        }
+    }
+
+    private void DrawStar(DrawingHandleScreen handle, Vector2 position, float size, Color color)
+    {
+        const int points = 5;
+        const float innerRatio = 0.4f;
+        var vertices = new Vector2[points * 2 + 2]; // outer and inner point, five times, plus a center point and the original drawn point
+
+        vertices[0] = position;
+        for (var i = 0; i <= points * 2; i++)
+        {
+            var angle = i * Math.PI / points;
+            var radius = i % 2 == 0 ? size : size * innerRatio;
+            vertices[i + 1] = position + new Vector2(
+                (float)Math.Sin(angle) * radius,
+                -(float)Math.Cos(angle) * radius
+            );
+        }
+
+        handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, vertices, color);
+    }
+
+    private void DrawHexagon(DrawingHandleScreen handle, Vector2 position, float size, Color color)
+    {
+        var vertices = new Vector2[6];
+        for (var i = 0; i < 6; i++)
+        {
+            var angle = i * Math.PI / 3;
+            vertices[i] = position + new Vector2(
+                (float)Math.Sin(angle) * size,
+                -(float)Math.Cos(angle) * size
+            );
+        }
+
+        handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, vertices, color);
+    }
+
+    private void DrawArrow(DrawingHandleScreen handle, Vector2 position, float size, Color color)
+    {
+        var vertices = new Vector2[]
+        {
+        position + new Vector2(0, -size),           // Tip
+        position + new Vector2(-size * 0.5f, 0),    // Left wing
+        position + new Vector2(0, size * 0.5f),     // Bottom
+        position + new Vector2(size * 0.5f, 0)      // Right wing
+        };
+
+        handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, vertices, color);
     }
 }

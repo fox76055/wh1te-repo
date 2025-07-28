@@ -6,6 +6,7 @@
 #
 # - /Prototypes/Guidebook
 # - /Prototypes/Catalog/uplink_catalog.yml
+# Frontier: ignored files
 - /Prototypes/Catalog/Fills/Boxes/ammunition.yml # Frontier
 - /Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Boxes # Frontier
 - /Prototypes/Entities/Objects/Weapons/Guns/Ammunition/Cartridges # Frontier
@@ -34,5 +35,7 @@
 - /Prototypes/Research/arsenal.yml # Frontier
 - /Prototypes/game_presets.yml # Frontier
 - /Prototypes/Shuttles/shuttle_incoming_event.yml # Frontier
-
+# End Frontier: ignored files
+# Lua: ignored files
 - /Prototypes/_NF/Shipyard
+# End Lua: ignored files
