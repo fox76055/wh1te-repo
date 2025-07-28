@@ -4,7 +4,7 @@
   parent: BaseVessel
   name: GF Riman
   description: Старинный шаттл некогда крупной судоверфи Гефест. Обладает всем необходимым для научных исследований и утилизации обломков.
-  price: 72000
+  price: 128000
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Lua/Gefest-shipyard/Shuttles/Civilian/riman2.yml
