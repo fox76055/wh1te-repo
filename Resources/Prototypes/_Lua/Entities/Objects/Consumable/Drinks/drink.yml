@@ -269,7 +269,7 @@
       drink:
         maxVol: 40
         reagents:
-        - ReagentId: BrennNightDrink
+        - ReagentId: MaxwellDrink
           Quantity: 40
       grindable:
         reagents:
