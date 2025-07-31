@@ -285,31 +285,6 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: GixCan
-  name: банка Gix
-  description: Цель в голове, сигарету в зубы, ночь пролетит, ивент готов... . Сигарета реально горит?
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 40
-        reagents:
-        - ReagentId: GixDrink
-          Quantity: 40
-      grindable:
-        reagents:
-        - ReagentId: Aluminium
-          Quantity: 4
-        - ReagentId: Iron
-          Quantity: 1
-  - type: Drink
-  - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Gix.rsi
-  - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Gix.rsi
-
-- type: entity
-  parent: DrinkCanBaseFull
   id: FaustNetzachCan
   name: банка FaustNetzach
   description: Сначала ощущается лёгкая неопределённость вкуса с морозной ноткой, а затем раскрывается тонкий аромат фиалок.
