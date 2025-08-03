@@ -603,12 +603,12 @@
   color: "#5C6274"
   metabolisms:
     Poison:
-      metabolismRate: 0.03 # Effectively once every 30 seconds.
+      metabolismRate: 0.1 # Lua: Changed from 0.03 to 0.1. I have no idea how much now. I think 10 seconds?
       effects:
       - !type:HealthChange
         damage:
           types:
-            Poison: 0.6 # Makes it 20 damage per unit.
+            Poison: 0.6 # Makes it 6 damage per unit.
 
 - type: reagent
   id: Bungotoxin
