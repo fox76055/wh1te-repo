@@ -15,6 +15,6 @@
 - type: radioChannel
   id: Greeting
   name: chat-radio-greeting
-  keycode: 'r'
+  keycode: 'l'
   frequency: 1024
   color: "#ff4fdf"
