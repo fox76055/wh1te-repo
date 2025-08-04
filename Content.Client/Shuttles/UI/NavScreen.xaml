@@ -188,12 +188,6 @@
                         </controls:BoxContainer>
                     </controls:BoxContainer>
                     <!-- End Frontier - Service Flags -->
-                    <!-- Frontier - IFF search -->
-                    <controls:BoxContainer Orientation="Vertical" HorizontalExpand="True" Name="IffSearchBox">
-                        <controls:Label Text="{controls:Loc 'shuttle-console-iff-search'}"/>
-                        <controls:LineEdit Name="IffSearchCriteria" Access="Public" HorizontalExpand="True"/>
-                    </controls:BoxContainer>
-                    <!-- End Frontier - IFF search -->
                     <!-- Network Port Buttons -->
                     <controls:BoxContainer Orientation="Vertical" HorizontalExpand="True">
                         <controls1:StripeBack
