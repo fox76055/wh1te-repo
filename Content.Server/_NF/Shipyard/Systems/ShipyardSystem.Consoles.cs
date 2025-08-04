@@ -255,7 +255,9 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         var deedShuttle = EnsureComp<ShuttleDeedComponent>(shuttleUid);
         AssignShuttleDeedProperties((shuttleUid, deedShuttle), shuttleUid, name, shuttleOwner, voucherUsed, voucherUsed ? targetId.ToString() : null);
 
-        if (!voucherUsed && component.NewJobTitle != null && !HasComp<PreventShipyardTitleOverwriteComponent>(args.Actor))
+        // Lock all shuttle consoles on the ship to this deed
+        var shuttleConsoleQuery = EntityQueryEnumerator<ShuttleConsoleComponent, TransformComponent>();
+        while (shuttleConsoleQuery.MoveNext(out var consoleUid, out _, out var transform))
         {
             // Only process consoles on the purchased ship
             if (transform.GridUid != shuttleUid)

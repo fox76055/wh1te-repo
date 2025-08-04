@@ -10,6 +10,12 @@ using Content.Shared.Shuttles.Components;
 using Robust.Client.Graphics;
 using Robust.Shared.Collections;
 using Robust.Shared.Prototypes;
+using Robust.Client.UserInterface;
+using Robust.Shared.Input;
+using Robust.Shared.Timing;
+using Content.Shared._Mono.Radar;
+using Content.Client._Mono.Radar;
+using Content.Client.Station;
 
 // Purposefully colliding with base namespace.
 namespace Content.Client.Shuttles.UI;
@@ -18,14 +24,24 @@ public sealed partial class ShuttleNavControl
 {
     // Dependency
     private readonly StationSystem _station;
-    private readonly RadarBlipSystem _blips;
+    private readonly RadarBlipsSystem _blips;
 
     // Constants for gunnery system
     // These 2 handle timing updates
-    private const float RadarUpdateInterval = 0f;
     private const float FireRateLimit = 0.1f; // 100ms between shots
     private static readonly Color TargetColor = Color.FromHex("#99ff66");
+
+    #region Mono
+    // These 2 handle timing updates
+    private const float RadarUpdateInterval = 0f;
     private float _updateAccumulator = 0f;
+
+    /// <summary>
+    /// Whether the shuttle is currently in FTL. This is used to disable the Park button
+    /// while in FTL to prevent parking while traveling.
+    /// </summary>
+    public bool InFtl { get; set; }
+    #endregion
 
     private bool _isMouseDown;
     private bool _isMouseInside;
@@ -63,23 +79,27 @@ public sealed partial class ShuttleNavControl
             return;
         }
 
-            DampeningMode = state.DampeningMode;
-            ServiceFlags = state.ServiceFlags;
+        DampeningMode = state.DampeningMode;
+        ServiceFlags = state.ServiceFlags;
 
-            // Check if the entity has an FTLComponent which indicates it's in FTL
-            if (transform.GridUid != null)
-            {
-                InFtl = EntManager.HasComponent<FTLComponent>(transform.GridUid);
-            }
-            else
-            {
-                InFtl = false;
-            }
+        // Check if the entity has an FTLComponent which indicates it's in FTL
+        if (transform.GridUid != null)
+        {
+            InFtl = EntManager.HasComponent<FTLComponent>(transform.GridUid);
         }
+        else
+        {
+            InFtl = false;
+        }
+    }
 
-    // New Frontiers - Maximum IFF Distance - checks distance to object, draws if closer than max range
-    // This code is licensed under AGPLv3. See AGPLv3.txt
-    private bool NfCheckShouldDrawIffRangeCondition(bool shouldDrawIff, Vector2 distance)
+    /// <summary>
+    /// Checks if an IFF marker should be drawn based on distance and maximum IFF range.
+    /// </summary>
+    /// <param name="shouldDrawIff">Whether the IFF marker would otherwise be drawn.</param>
+    /// <param name="distance">The distance vector to the object.</param>
+    /// <returns>True if the IFF marker should be drawn, false otherwise.</returns>
+    private bool NFCheckShouldDrawIffRangeCondition(bool shouldDrawIff, Vector2 distance)
     {
         if (shouldDrawIff && MaximumIFFDistance >= 0.0f)
         {
@@ -92,7 +112,10 @@ public sealed partial class ShuttleNavControl
         return shouldDrawIff;
     }
 
-    private static void NfAddBlipToList(List<BlipData> blipDataList, bool isOutsideRadarCircle, Vector2 uiPosition, int uiXCentre, int uiYCentre, Color color)
+    /// <summary>
+    /// Adds a blip to the blip data list for later drawing.
+    /// </summary>
+    private static void NFAddBlipToList(List<BlipData> blipDataList, bool isOutsideRadarCircle, Vector2 uiPosition, int uiXCentre, int uiYCentre, Color color)
     {
         blipDataList.Add(new BlipData
         {
@@ -103,38 +126,13 @@ public sealed partial class ShuttleNavControl
         });
     }
 
-        private static void NfAddBlipToList(List<BlipData> blipDataList, bool isOutsideRadarCircle, Vector2 uiPosition, int uiXCentre, int uiYCentre, Color color, EntityUid gridUid = default)
-        {
-            // Check if the entity has a company component and use that color if available
-            Color blipColor = color;
-
-            if (gridUid != default &&
-                IoCManager.Resolve<IEntityManager>().TryGetComponent(gridUid, out Shared._Mono.Company.CompanyComponent? companyComp) &&
-                !string.IsNullOrEmpty(companyComp.CompanyName))
-            {
-                var prototypeManager = IoCManager.Resolve<IPrototypeManager>();
-                if (prototypeManager.TryIndex<CompanyPrototype>(companyComp.CompanyName, out var prototype) && prototype != null)
-                {
-                    blipColor = prototype.Color;
-                }
-            }
-
-            blipDataList.Add(new BlipData
-            {
-                IsOutsideRadarCircle = isOutsideRadarCircle,
-                UiPosition = uiPosition,
-                VectorToPosition = uiPosition - new Vector2(uiXCentre, uiYCentre),
-                Color = blipColor
-            });
-        }
-
-        /**
-         * Frontier - Adds blip style triangles that are on ships or pointing towards ships on the edges of the radar.
-         * Draws blips at the BlipData's uiPosition and uses VectorToPosition to rotate to point towards ships.
-         */
-        private void NfDrawBlips(DrawingHandleBase handle, List<BlipData> blipDataList)
-        {
-            var blipValueList = new Dictionary<Color, ValueList<Vector2>>();
+    /// <summary>
+    /// Adds blip style triangles that are on ships or pointing towards ships on the edges of the radar.
+    /// Draws blips at the BlipData's uiPosition and uses VectorToPosition to rotate to point towards ships.
+    /// </summary>
+    private void NFDrawBlips(DrawingHandleBase handle, List<BlipData> blipDataList)
+    {
+        var blipValueList = new Dictionary<Color, ValueList<Vector2>>();
 
         foreach (var blipData in blipDataList)
         {
@@ -252,6 +250,7 @@ public sealed partial class ShuttleNavControl
             }
         }
     }
+
     private void TryFireAtPosition(Vector2 relativePosition)
     {
         if (_coordinates == null || _rotation == null || OnRadarClick == null)
@@ -284,9 +283,9 @@ public sealed partial class ShuttleNavControl
             case RadarBlipShape.Triangle:
                 var points = new Vector2[]
                 {
-                position + new Vector2(0, -size),
-                position + new Vector2(-size * 0.866f, size * 0.5f),
-                position + new Vector2(size * 0.866f, size * 0.5f)
+                    position + new Vector2(0, -size),
+                    position + new Vector2(-size * 0.866f, size * 0.5f),
+                    position + new Vector2(size * 0.866f, size * 0.5f)
                 };
                 handle.DrawPrimitives(DrawPrimitiveTopology.TriangleList, points, color);
                 break;
@@ -296,10 +295,10 @@ public sealed partial class ShuttleNavControl
             case RadarBlipShape.Diamond:
                 var diamondPoints = new Vector2[]
                 {
-                position + new Vector2(0, -size),
-                position + new Vector2(size, 0),
-                position + new Vector2(0, size),
-                position + new Vector2(-size, 0)
+                    position + new Vector2(0, -size),
+                    position + new Vector2(size, 0),
+                    position + new Vector2(0, size),
+                    position + new Vector2(-size, 0)
                 };
                 handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, diamondPoints, color);
                 break;
@@ -309,6 +308,7 @@ public sealed partial class ShuttleNavControl
             case RadarBlipShape.Arrow:
                 DrawArrow(handle, position, size, color);
                 break;
+                // Ring shapes are handled by DrawShieldRing for constant thickness
         }
     }
 
@@ -316,14 +316,13 @@ public sealed partial class ShuttleNavControl
     {
         const int points = 5;
         const float innerRatio = 0.4f;
-        var vertices = new Vector2[points * 2 + 2]; // outer and inner point, five times, plus a center point and the original drawn point
+        var vertices = new Vector2[points * 2];
 
-        vertices[0] = position;
-        for (var i = 0; i <= points * 2; i++)
+        for (var i = 0; i < points * 2; i++)
         {
             var angle = i * Math.PI / points;
             var radius = i % 2 == 0 ? size : size * innerRatio;
-            vertices[i + 1] = position + new Vector2(
+            vertices[i] = position + new Vector2(
                 (float)Math.Sin(angle) * radius,
                 -(float)Math.Cos(angle) * radius
             );
@@ -351,10 +350,10 @@ public sealed partial class ShuttleNavControl
     {
         var vertices = new Vector2[]
         {
-        position + new Vector2(0, -size),           // Tip
-        position + new Vector2(-size * 0.5f, 0),    // Left wing
-        position + new Vector2(0, size * 0.5f),     // Bottom
-        position + new Vector2(size * 0.5f, 0)      // Right wing
+            position + new Vector2(0, -size),           // Tip
+            position + new Vector2(-size * 0.5f, 0),    // Left wing
+            position + new Vector2(0, size * 0.5f),     // Bottom
+            position + new Vector2(size * 0.5f, 0)      // Right wing
         };
 
         handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, vertices, color);

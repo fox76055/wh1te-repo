@@ -22,6 +22,7 @@
   - Medical
   engine:
   - Bananium
+  addComponents:
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl

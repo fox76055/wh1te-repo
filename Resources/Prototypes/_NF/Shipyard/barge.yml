@@ -24,6 +24,7 @@
   engine:
   - Solar
   - Uranium
+  addComponents:
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl

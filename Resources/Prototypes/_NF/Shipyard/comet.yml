@@ -23,6 +23,7 @@
   - Engineering
   engine:
   - Uranium
+  addComponents:
     - type: IFF
       color: "#ffffff"
     - type: NanotrasenFtl

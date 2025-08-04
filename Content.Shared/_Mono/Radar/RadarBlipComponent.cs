@@ -1,10 +1,6 @@
 using Content.Shared._Mono.Radar;
 
-<<<<<<<< HEAD:Content.Server/_Mono/Radar/RadarBlipComponent.cs
-namespace Content.Server._Mono.Radar;
-========
-namespace Content.Shared._NF.Radar;
->>>>>>>> 8f8ebf87b0a9b30f81512734e0a26be2623530cc:Content.Shared/_NF/Radar/RadarBlipComponent.cs
+namespace Content.Shared._Mono.Radar;
 
 /// <summary>
 /// These handle objects which should be represented by radar blips.
