@@ -23,5 +23,5 @@
   recipeUnlocks:
   - ClothingEyesThermalVisionGoggles
   technologyPrerequisites:
-  - ClothingEyesNightVisionGoggles
+  - NightVisionTech
   position: 6, 10

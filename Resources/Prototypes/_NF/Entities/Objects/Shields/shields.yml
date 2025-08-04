@@ -47,7 +47,7 @@
     reflectProb: 0.1
     reflects:
       - Energy
-    reflectingInHands: true
+    # reflectingInHands: true
 
 - type: entity
   id: NFShieldBallistic

@@ -106,4 +106,4 @@
     reflectProb: 0.05 # Normal reflective vest has 0.7
     reflects:
       - Energy
-    reflectingInHands: false
+    # reflectingInHands: false
