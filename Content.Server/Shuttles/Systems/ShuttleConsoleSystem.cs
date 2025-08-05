@@ -513,8 +513,8 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
     /// </summary>
     public NavInterfaceState GetNavState(Entity<RadarConsoleComponent?, TransformComponent?> entity, Dictionary<NetEntity, List<DockingPortState>> docks)
     {
-        if (!Resolve(entity, ref entity.Comp1, ref entity.Comp2))
-            return new NavInterfaceState(SharedRadarConsoleSystem.DefaultMaxRange, null, null, docks, InertiaDampeningMode.Dampen, ServiceFlags.None, null, NetEntity.Invalid, true); // Frontier: add inertia dampening, target
+        if (!Resolve(entity, ref entity.Comp1, ref entity.Comp2, false))
+            return new NavInterfaceState(SharedRadarConsoleSystem.DefaultMaxRange, null, null, docks, Shared._NF.Shuttles.Events.InertiaDampeningMode.Dampen, ServiceFlags.None, null, NetEntity.Invalid, true); // Frontier: add inertia dampening, target
 
         // Get port names from the console component if available
         var portNames = new Dictionary<string, string>();
