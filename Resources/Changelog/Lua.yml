@@ -586,3 +586,10 @@ Entries:
   id: 42
   time: '2025-07-27T19:04:20.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/90
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Апстрим 28.07.25
+  id: 43
+  time: '2025-08-05T03:39:06.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/103
