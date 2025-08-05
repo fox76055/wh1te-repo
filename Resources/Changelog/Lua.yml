@@ -602,3 +602,14 @@ Entries:
   id: 44
   time: '2025-08-05T03:40:57.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/95
+- author: LeptonComm
+  changes:
+    - type: Add
+      message: Добавлен шаттл-ресторан Fisherman
+    - type: Add
+      message: Добавлен научный шаттл Riman
+    - type: Add
+      message: Добавлен медицинский шаттл Seagull
+  id: 45
+  time: '2025-08-05T05:59:19.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/87
