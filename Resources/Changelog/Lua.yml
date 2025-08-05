@@ -613,3 +613,22 @@ Entries:
   id: 45
   time: '2025-08-05T05:59:19.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/87
+- author: salo2016
+  changes:
+    - type: Add
+      message: Добавлены новые корабельные орудия.
+    - type: Add
+      message: >-
+        Добавлен новый крафт боезапаса на корабельки. (Новые, не замена
+        существующих)
+    - type: Remove
+      message: Патронфаб более не может создавать патроны RMC/WY!
+    - type: Tweak
+      message: Стены станции теперь не коричневые.
+    - type: Fix
+      message: Фракция Нордфолл точно теперь враждует со всеми.
+    - type: Tweak
+      message: Скорость корабельных снарядов понижена.
+  id: 46
+  time: '2025-08-05T06:00:54.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/97
