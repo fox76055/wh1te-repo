@@ -593,3 +593,12 @@ Entries:
   id: 43
   time: '2025-08-05T03:39:06.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/103
+- author: BrennNight
+  changes:
+    - type: Add
+      message: Добавлена банка "FaustNetzach"
+    - type: Fix
+      message: Исправлено описание банки "BrennNight"
+  id: 44
+  time: '2025-08-05T03:40:57.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/95
