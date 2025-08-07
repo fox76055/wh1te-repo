@@ -1,17 +1,16 @@
+using Content.Server._NF.Shuttles.Components; // Frontier
 using Content.Server.Administration.Logs;
 using Content.Server.Body.Systems;
 using Content.Server.Buckle.Systems;
-using Content.Server.Doors.Systems;
-using Content.Server.GameTicking;
+using Content.Server.GameTicking; // Frontier
 using Content.Server.Parallax;
 using Content.Server.Procedural;
 using Content.Server.Shuttles.Components;
 using Content.Server.Shuttles.Events;
 using Content.Server.Station.Systems;
 using Content.Server.Stunnable;
+using Content.Shared.Buckle.Components;
 using Content.Shared.Damage;
-using Content.Shared.GameTicking;
-using Content.Shared.Mobs.Systems;
 using Content.Shared.Light.Components;
 using Content.Shared.Movement.Events;
 using Content.Shared.Salvage;
@@ -31,8 +30,6 @@ using Robust.Shared.Physics.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
-using Content.Server._NF.Shuttles.Components; // Frontier
-using Content.Server.GameTicking; // Frontier
 
 namespace Content.Server.Shuttles.Systems;
 

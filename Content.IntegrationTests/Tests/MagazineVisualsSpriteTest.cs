@@ -32,8 +32,8 @@ public sealed class MagazineVisualsSpriteTest
             {
                 foreach (var (proto, _) in protos)
                 {
-                    if (proto.Abstract || pair.IsTestPrototype(proto) || _ignoredPrototypes.Contains(proto.ID))
-                        continue;
+                    var uid = client.EntMan.Spawn(proto.ID);
+                    var visuals = client.EntMan.GetComponent<MagazineVisualsComponent>(uid);
 
                     Assert.That(client.EntMan.TryGetComponent(uid, out SpriteComponent sprite),
                         @$"{proto.ID} has MagazineVisualsComponent but no SpriteComponent.");

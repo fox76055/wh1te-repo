@@ -163,7 +163,7 @@ namespace Content.Client.Lobby
 
                 if (needsUpdate)
                 {
-                    Preferences = new PlayerPreferences(characters, Preferences.SelectedCharacterIndex, Preferences.AdminOOCColor);
+                    Preferences = new PlayerPreferences(characters, Preferences.SelectedCharacterIndex, Preferences.AdminOOCColor, Preferences.ConstructionFavorites);
 
                     // Update the selected character on the server if needed
                     var selectedIndex = Preferences.SelectedCharacterIndex;

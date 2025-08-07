@@ -28,31 +28,31 @@ public sealed partial class GunSystem
         {
             if (TryComp<BatteryWeaponFireModesComponent>(uid, out var batteryFireModes))
             {
-                if (_sprite.LayerMapTryGet(GunVisualLayers.Mag, out _))
+                if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.Mag, out _, false))
                 {
-                    _sprite.LayerSetState(GunVisualLayers.Mag, $"{component.MagState}-{component.MagSteps - 1}-{batteryFireModes.CurrentFireMode}");
-                    _sprite.LayerSetVisible(GunVisualLayers.Mag, false);
+                    _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.Mag, $"{component.MagState}-{component.MagSteps - 1}-{batteryFireModes.CurrentFireMode}");
+                    _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.Mag, false);
                 }
 
-                if (_sprite.LayerMapTryGet(GunVisualLayers.MagUnshaded, out _))
+                if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.MagUnshaded, out _, false))
                 {
-                    _sprite.LayerSetState(GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{component.MagSteps - 1}-{batteryFireModes.CurrentFireMode}");
-                    _sprite.LayerSetVisible(GunVisualLayers.MagUnshaded, false);
+                    _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{component.MagSteps - 1}-{batteryFireModes.CurrentFireMode}");
+                    _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.MagUnshaded, false);
                 }
             }
         }
         else
         {
-            if (_sprite.LayerMapTryGet(GunVisualLayers.Mag, out _))
+            if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.Mag, out _, false))
             {
-                _sprite.LayerSetState(GunVisualLayers.Mag, $"{component.MagState}-{component.MagSteps - 1}");
-                _sprite.LayerSetVisible(GunVisualLayers.Mag, false);
+                _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.Mag, $"{component.MagState}-{component.MagSteps - 1}");
+                _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.Mag, false);
             }
 
-            if (_sprite.LayerMapTryGet(GunVisualLayers.MagUnshaded, out _))
+            if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.MagUnshaded, out _, false))
             {
-                _sprite.LayerSetState(GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{component.MagSteps - 1}");
-                _sprite.LayerSetVisible(GunVisualLayers.MagUnshaded, false);
+                _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{component.MagSteps - 1}");
+                _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.MagUnshaded, false);
             }
         }
     }
@@ -100,22 +100,22 @@ public sealed partial class GunSystem
             {
                 if (TryComp<BatteryWeaponFireModesComponent>(uid, out var batteryFireModes))
                 {
-                    if (sprite.LayerMapTryGet(GunVisualLayers.Mag, out _))
+                    if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.Mag, out _, false))
                     {
-                        sprite.LayerSetVisible(GunVisualLayers.Mag, true);
-                        sprite.LayerSetState(GunVisualLayers.Mag, $"{component.MagState}-{step}-{batteryFireModes.CurrentFireMode}");
+                        _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.Mag, true);
+                        _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.Mag, $"{component.MagState}-{step}-{batteryFireModes.CurrentFireMode}");
                     }
 
-                    if (_sprite.LayerMapTryGet(GunVisualLayers.MagUnshaded, out _))
+                    if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.MagUnshaded, out _, false))
                     {
-                        _sprite.LayerSetVisible(GunVisualLayers.MagUnshaded, true);
-                        _sprite.LayerSetState(GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{step}-{batteryFireModes.CurrentFireMode}");
+                        _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.MagUnshaded, true);
+                        _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{step}-{batteryFireModes.CurrentFireMode}");
                     }
                 }
             }
             else
             {
-            if (_sprite.LayerMapTryGet(GunVisualLayers.Mag, out _))
+            if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.Mag, out _, false))
             {
                 _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.Mag, true);
                 _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.Mag, $"{component.MagState}-{step}");
@@ -123,8 +123,8 @@ public sealed partial class GunSystem
 
             if (_sprite.LayerMapTryGet((uid, sprite), GunVisualLayers.MagUnshaded, out _, false))
             {
-                _sprite.LayerSetVisible(GunVisualLayers.MagUnshaded, true);
-                _sprite.LayerSetState(GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{step}");
+                _sprite.LayerSetVisible((uid, sprite), GunVisualLayers.MagUnshaded, true);
+                _sprite.LayerSetRsiState((uid, sprite), GunVisualLayers.MagUnshaded, $"{component.MagState}-unshaded-{step}");
                 }
             }
         }
