@@ -138,18 +138,27 @@
     interactSuccessSound: /Audio/Effects/thudswoosh.ogg
 
 - type: entity
-  id: ActionAGhostShowSolar
-  name: Solar Control Interface
-  description: View a Solar Control Interface.
+  abstract: true
+  parent: BaseAction
+  id: BaseAGhostAction
   components:
   - type: InstantAction
     icon: _Corvax/Interface/AdminActions/solar.png # Corvax-Resprite
     iconOn: _Corvax/Interface/AdminActions/solar.png # Corvax-Resprite
     keywords: [ "AI", "console", "interface" ]
     priority: 20
+
+- type: entity
+  parent: BaseAGhostAction
+  id: ActionAGhostShowSolar
+  name: Solar Control Interface
+  description: View a Solar Control Interface.
+  components:
+  - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
 
 - type: entity
+  parent: BaseAGhostAction
   id: ActionAGhostShowCommunications
   name: Communications Interface
   description: View a Communications Interface.
@@ -162,6 +171,7 @@
     event: !type:ToggleIntrinsicUIEvent { key: enum.CommunicationsConsoleUiKey.Key }
 
 - type: entity
+  parent: BaseAGhostAction
   id: ActionAGhostShowRadar
   name: Mass Scanner Interface
   description: View a Mass Scanner Interface.
@@ -174,6 +184,7 @@
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
 
 - type: entity
+  parent: BaseAGhostAction
   id: ActionAGhostShowCargo
   name: Cargo Ordering Interface
   description: View a Cargo Ordering Interface.
@@ -186,6 +197,7 @@
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
 
 - type: entity
+  parent: BaseAGhostAction
   id: ActionAGhostShowCrewMonitoring
   name: Crew Monitoring Interface
   description: View a Crew Monitoring Interface.
@@ -198,6 +210,7 @@
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
 
 - type: entity
+  parent: BaseAGhostAction
   id: ActionAGhostShowStationRecords
   name: Station Records Interface
   description: View a Station Records Interface.
