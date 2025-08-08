@@ -1,4 +1,3 @@
-# Setups
 - type: dungeonConfig
   id: Experiment
   layers:
@@ -58,22 +57,22 @@
   - !type:CornerClutterDunGen
     contents: BaseClutter
 
-  - !type:CorridorDecalSkirtingDunGen
-    cardinalDecals:
-      South: BrickTileWhiteLineS
-      East: BrickTileWhiteLineE
-      North: BrickTileWhiteLineN
-      West: BrickTileWhiteLineW
-    cornerDecals:
-      SouthEast: BrickTileWhiteCornerSe
-      SouthWest: BrickTileWhiteCornerSw
-      NorthEast: BrickTileWhiteCornerNe
-      NorthWest: BrickTileWhiteCornerNw
-    pocketDecals:
-      SouthWest: BrickTileWhiteInnerSw
-      SouthEast: BrickTileWhiteInnerSe
-      NorthWest: BrickTileWhiteInnerNw
-      NorthEast: BrickTileWhiteInnerNe
+  # - !type:CorridorDecalSkirtingDunGen
+  #   cardinalDecals:
+  #     South: BrickTileWhiteLineS
+  #     East: BrickTileWhiteLineE
+  #     North: BrickTileWhiteLineN
+  #     West: BrickTileWhiteLineW
+  #   cornerDecals:
+  #     SouthEast: BrickTileWhiteCornerSe
+  #     SouthWest: BrickTileWhiteCornerSw
+  #     NorthEast: BrickTileWhiteCornerNe
+  #     NorthWest: BrickTileWhiteCornerNw
+  #   pocketDecals:
+  #     SouthWest: BrickTileWhiteInnerSw
+  #     SouthEast: BrickTileWhiteInnerSe
+  #     NorthWest: BrickTileWhiteInnerNw
+  #     NorthEast: BrickTileWhiteInnerNe
 
 - type: dungeonConfig
   id: Haunted
@@ -231,8 +230,6 @@
 
   - !type:CornerClutterDunGen
     contents: MineshaftClutter
-
-# TODO: Check decal skirting fix contents in code.
 
 - type: dungeonConfig
   id: SnowyLabs

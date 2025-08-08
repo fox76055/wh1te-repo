@@ -107,14 +107,6 @@
   - type: ToggleableVisuals
     clothingVisuals:
       head:
-      - state: equipped-head-light
-        shader: unshaded
-      head-vox:
-      - state: equipped-head-light-vox
-        shader: unshaded
-  - type: Clothing
-    clothingVisuals:
-      head:
       - state: equipped-head
       - state: equipped-head-unshaded
         shader: unshaded

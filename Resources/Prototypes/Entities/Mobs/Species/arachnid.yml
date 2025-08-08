@@ -93,11 +93,9 @@
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "gloves" ]
       - map: [ "shoes" ]
-      - map: [ "ears" ]
+      - map: [ "belt" ]
       - map: [ "id" ]
       - map: [ "outerClothing" ]
-      - map: [ "eyes" ]
-      - map: [ "belt" ]
       - map: [ "enum.HumanoidVisualLayers.Tail" ] # Mentioned in moth code: This needs renaming lol.
       - map: [ "back" ]
       - map: [ "neck" ]

@@ -1768,9 +1768,6 @@
   - type: Stack
     stackType: FoodLingzhi
     count: 1
-  - type: Tag
-    tags:
-    - MedipenLathe
   - type: FlavorProfile
     flavors:
       - mushroom
@@ -1799,6 +1796,7 @@
   - type: Tag
     tags:
     - Mushroom
+    - MedipenLathe
   - type: StaticPrice
     price: 27 #50
 
@@ -2034,9 +2032,6 @@
   - type: Stack
     stackType: FoodFlyAmanita
     count: 1
-  - type: Tag
-    tags:
-    - MedipenLathe
   - type: FlavorProfile
     flavors:
       - mushroom
@@ -2065,6 +2060,7 @@
   - type: Tag
     tags:
     - Mushroom
+    - MedipenLathe
   - type: StaticPrice
     price: 34 #45
 
