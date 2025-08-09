@@ -665,21 +665,21 @@
 #       tags:
 #       - PirateUplink
 
-#MARK: Weapons
-- type: listing
-  id: UplinkPiratePirateCannon #_Lua
-  name: uplink-pirate-pirate-cannon-name
-  description: uplink-pirate-pirate-cannon-desc
-  productEntity: NFWeaponLauncherPirateCannon
-  cost:
-   Doubloon: 15
-  categories:
-  - UplinkPirateWeapons
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - PirateUplink
+# #MARK: Weapons
+# - type: listing
+#   id: UplinkPiratePirateCannon #_Lua Запрещены лаунчеры
+#   name: uplink-pirate-pirate-cannon-name
+#   description: uplink-pirate-pirate-cannon-desc
+#   productEntity: NFWeaponLauncherPirateCannon
+#   cost:
+#    Doubloon: 15
+#   categories:
+#   - UplinkPirateWeapons
+#   conditions:
+#   - !type:StoreWhitelistCondition
+#     whitelist:
+#       tags:
+#       - PirateUplink
 
 - type: listing
   id: UplinkPirateEnergyCutlass
