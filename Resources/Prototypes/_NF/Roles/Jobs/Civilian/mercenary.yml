@@ -28,6 +28,12 @@
   equipment:
     pocket1: BaseMercenaryUplinkRadioMercenary
 
+- type: chameleonOutfit
+  id: MercenaryBaseChameleonOutfit
+  job: MercenaryBase
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary
+
 # Interview variant
 - type: job
   id: MercenaryInterview
