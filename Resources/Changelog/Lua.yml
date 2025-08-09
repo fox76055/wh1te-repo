@@ -761,3 +761,16 @@ Entries:
   id: 55
   time: '2025-08-09T18:46:36.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/114
+- author: k1bitka
+  changes:
+    - type: Add
+      message: Пиратская пушка в аплинк, ядра к ней
+    - type: Remove
+      message: Замедление при взятие в руки гранатамётов, пушки, РПГ
+    - type: Fix
+      message: Название позиций в аплинках, их покупки
+    - type: Fix
+      message: Аргенти теперь не выпускает проджектайлы при разрядке
+  id: 56
+  time: '2025-08-09T19:01:32.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/113
