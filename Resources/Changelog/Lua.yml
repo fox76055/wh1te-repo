@@ -747,3 +747,10 @@ Entries:
   id: 53
   time: '2025-08-09T18:07:23.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/118
+- author: salo2016
+  changes:
+    - type: Add
+      message: Большой двигатель для маперов!
+  id: 54
+  time: '2025-08-09T18:08:43.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/119
