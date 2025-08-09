@@ -716,3 +716,34 @@ Entries:
   id: 52
   time: '2025-08-09T15:37:03.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/110
+- author: salo2016
+  changes:
+    - type: Add
+      message: Трекер Нордфолла (Вживлён раундстартом)
+    - type: Tweak
+      message: >-
+        Edison Power Plant --> Электростанция, вайтлист убран, фикс локализаций,
+        авто-зарплата.
+    - type: Fix
+      message: Сервера вооружений на шаттлах теперь подходящие.
+    - type: Tweak
+      message: Спавн больших астероидов более вероятен.
+    - type: Tweak
+      message: >-
+        Ребалансы турелей/хп окнам; Шахтёрские стенки крепче укреплённых;
+        Шахтёрское стекло - близко к пластитановому.
+    - type: Add
+      message: Новая станция ДСБФ!
+    - type: Fix
+      message: >-
+        Верфь пиратов вновь берёт налоги; Шаттлы не окупаются при покупке; 30%
+        налог за продажу вернулся.
+    - type: Fix
+      message: При вашем любом /ghost случае роль освобождается включая синее крио.
+    - type: Tweak
+      message: Syn-Lancer не имеет более стартового снаряжения с огнестрела.
+    - type: Tweak
+      message: Бафф хп боргам; Доступен канал диспетчерский;
+  id: 53
+  time: '2025-08-09T18:07:23.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/118
