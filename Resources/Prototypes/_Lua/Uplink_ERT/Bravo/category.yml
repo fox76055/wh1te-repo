@@ -1,0 +1,20 @@
+# Charlie
+- type: storeCategory
+  id: BravoUplinkWeapon
+  name: Вооружение
+
+- type: storeCategory
+  id: BravoUplinkMedical
+  name: Медицина
+
+- type: storeCategory
+  id: BravoUplinkAmmo
+  name: Боеприпасы
+
+- type: storeCategory
+  id: BravoUplinkMisc
+  name: Прочее
+
+- type: storeCategory
+  id: BravoUplinkExplosions
+  name: взрывчатка

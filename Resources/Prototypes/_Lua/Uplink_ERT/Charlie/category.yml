@@ -1,0 +1,20 @@
+# Charlie
+- type: storeCategory
+  id: CharlieUplinkWeapon
+  name: Вооружение
+
+- type: storeCategory
+  id: CharlieUplinkMedical
+  name: Медицина
+
+- type: storeCategory
+  id: CharlieUplinkAmmo
+  name: Боеприпасы
+
+- type: storeCategory
+  id: CharlieUplinkMisc
+  name: Прочее
+
+- type: storeCategory
+  id: CharlieUplinkExplosions
+  name: взрывчатка

@@ -11,9 +11,7 @@
      wideAnimationRotation: -60
      damage:
        types: # It's still incredibly strong, but -reasonable-
-         Slash: 20
-         Shock: 5
-         Structural: 45 # Ion doesn't exist, according to Proto manager.
+         Slash: 20 # Lua:  Slash: 20, Shock: 5, Structural: 45 < Slash: 20
    - type: Item
      sprite: _Mono/Objects/Weapons/Melee/hfblade.rsi
    - type: Clothing
@@ -42,9 +40,7 @@
     wideAnimationRotation: -60
     damage:
       types:
-        Slash: 19.5
-        Shock: 6.5
-        Structural: 55
+        Slash: 20 # Lua:  Slash: 19.5, Shock: 6.5, Structural: 55 < Slash: 20
   - type: Item
     sprite: _Mono/Objects/Weapons/Melee/murasama.rsi
   - type: Clothing

@@ -1,0 +1,17 @@
+- type: entity
+  id: StorePresetBravoUplink
+  abstract: true
+  components:
+  - type: Store
+    name: Аплинк рейнджеров "Браво"
+    categories:
+    - BravoUplink
+    - BravoUplinkWeapon
+    - BravoUplinkMedical
+    - BravoUplinkAmmo
+    - BravoUplinkMisc
+    - BravoUplinkExplosions
+    currencyWhitelist:
+    - FrontierUplinkCoin
+    balance:
+      FrontierUplinkCoin: 0
