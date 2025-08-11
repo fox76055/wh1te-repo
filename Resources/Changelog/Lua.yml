@@ -789,3 +789,24 @@ Entries:
   id: 57
   time: '2025-08-11T14:51:34.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/116
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Добавлены скрытые клинки богомола в аплинк синдиката
+    - type: Add
+      message: Добавлены скрытые клинки в аплинк синдиката
+    - type: Add
+      message: >-
+        Телепорт призрака возвращен на МК, телепорт призрака будет выключен на
+        Луа по прежнему
+    - type: Add
+      message: Призраки теперь не слышат весь мир и радио
+    - type: Remove
+      message: Убран звук надоедающей работы энергомечей
+    - type: Tweak
+      message: Снижены все рефлекты на мечах
+    - type: Fix
+      message: Исправлен ДСФБ
+  id: 58
+  time: '2025-08-11T16:28:20.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/126
