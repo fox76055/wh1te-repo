@@ -1,0 +1,20 @@
+# Wearables
+- type: listing
+  id: UplinkMantisGloves
+  name: hidden-blades-gloves-uplink-name
+  description: hidden-blades-gloves-uplink-desc
+  icon: { sprite: /Textures/_Lua/Clothing/Hands/Gloves/mantis_activated.rsi, state: icon }
+  productEntity: ClothingHandsGlovesMantis
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 12
+  cost:
+    Telecrystal: 14
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+      - TypanUplink
