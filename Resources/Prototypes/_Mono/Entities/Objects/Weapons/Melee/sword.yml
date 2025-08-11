@@ -23,7 +23,7 @@
      - Belt
      - suitStorage
    - type: Reflect
-     reflectProb: 0.35
+     reflectProb: 0.06
    - type: DisarmMalus
      malus: 0.9
    - type: StaticPrice
@@ -54,7 +54,7 @@
     - Belt
     - suitStorage
   - type: Reflect
-    reflectProb: 0.40
+    reflectProb: 0.06
   - type: DisarmMalus
     malus: 0.9
   - type: StaticPrice
