@@ -125,7 +125,7 @@
       energy: 1.5
     - type: Sharp
     - type: Reflect
-      reflectProb: .02
+      reflectProb: .09
       spread: 90
     - type: Contraband
       severity: Syndicate
