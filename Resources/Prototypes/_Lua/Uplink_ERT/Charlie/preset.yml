@@ -5,7 +5,6 @@
   - type: Store
     name: uplink-charlie-fsf
     categories:
-    - CharlieUplink
     - CharlieUplinkWeapon
     - CharlieUplinkMedical
     - CharlieUplinkAmmo
