@@ -11,8 +11,7 @@
     soundDeactivate:
       path: /Audio/Weapons/ebladeoff.ogg
   - type: ItemToggleActiveSound
-    activeSound:
-      path: /Audio/Weapons/ebladehum.ogg
+    activeSound: null
   - type: ComponentToggler
     components:
     - type: Sharp
@@ -121,10 +120,7 @@
             Heat: 10
     deactivatedSecret: true
   - type: ItemToggleActiveSound
-    activeSound:
-      path: /Audio/Weapons/ebladehum.ogg
-      params:
-        volume: -3
+    activeSound: null
   - type: ComponentToggler
     components:
     - type: Sharp
@@ -175,10 +171,7 @@
       params:
         volume: -6
   - type: ItemToggleActiveSound
-    activeSound:
-      path: /Audio/Weapons/ebladehum.ogg
-      params:
-        volume: -6
+    activeSound: null
   - type: ItemToggleMeleeWeapon
     activatedSoundOnSwing:
       path: /Audio/Weapons/eblademiss.ogg
@@ -300,10 +293,7 @@
             Heat: 12
             Structural: 15
   - type: ItemToggleActiveSound
-    activeSound:
-      path: /Audio/Weapons/ebladehum.ogg
-      params:
-        volume: 3
+    activeSound: null
   - type: ComponentToggler
     components:
     - type: Sharp
