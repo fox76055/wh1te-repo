@@ -34,3 +34,11 @@ uplink-XC67-name = XC-67
 uplink-XC67-desc = Старая винтовка синдиката, специально для вашей самозащиты и нападения, она зарекомендовла себя временем!
 uplink-rifle-magazine-XC67-name = Магазин для винтовки XC-67
 uplink-rifle-magazine-XC67-desc = Расширенный магазин для винтовки XC-67 под винтовочные патроны .20 калибра
+
+uplink-bravo-fsf = Аплинк рейнджеров "Браво"
+uplink-charlie-fsf = Аплинк рейнджеров "Чарли"
+uplink-fsf-weapons = Вооружение
+uplink-fsf-medical = Медицина
+uplink-fsf-ammo = Боеприпасы
+uplink-fsf-other = Прочее
+uplink-fsf-explosions = Взрывчатка
