@@ -3,7 +3,7 @@
   abstract: true
   components:
   - type: Store
-    name: Аплинк рейнджеров "Браво"
+    name: uplink-bravo-fsf
     categories:
     - BravoUplink
     - BravoUplinkWeapon

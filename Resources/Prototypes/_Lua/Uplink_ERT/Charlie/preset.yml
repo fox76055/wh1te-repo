@@ -3,7 +3,7 @@
   abstract: true
   components:
   - type: Store
-    name: Аплинк рейнджеров "Чарли"
+    name: uplink-charlie-fsf
     categories:
     - CharlieUplink
     - CharlieUplinkWeapon
