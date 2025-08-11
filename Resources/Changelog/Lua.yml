@@ -774,3 +774,18 @@ Entries:
   id: 56
   time: '2025-08-09T19:01:32.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/113
+- author: BrennNight
+  changes:
+    - type: Add
+      message: Добавлены мягкие стены и полы
+    - type: Add
+      message: Добавлены 2 новые банки в фронтир-комрад венд
+    - type: Add
+      message: 'Добавлены 2 новых вида деревянного пола. '
+    - type: Add
+      message: Добавлены новые чулки в лодаут!
+    - type: Tweak
+      message: Респрайт нижнего белья представителя фронтира.
+  id: 57
+  time: '2025-08-11T14:51:34.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/116
