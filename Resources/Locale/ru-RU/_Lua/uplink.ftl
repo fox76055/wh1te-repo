@@ -37,3 +37,8 @@ uplink-rifle-magazine-XC67-desc = Расширенный магазин для �
 
 uplink-bravo-fsf = Аплинк рейнджеров "Браво"
 uplink-charlie-fsf = Аплинк рейнджеров "Чарли"
+uplink-fsf-weapons = Вооружение
+uplink-fsf-medical = Медицина
+uplink-fsf-ammo = Боеприпасы
+uplink-fsf-other = Прочее
+uplink-fsf-explosions = Взрывчатка

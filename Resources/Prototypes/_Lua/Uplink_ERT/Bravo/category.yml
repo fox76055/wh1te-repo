@@ -1,20 +1,20 @@
 # Charlie
 - type: storeCategory
   id: BravoUplinkWeapon
-  name: Вооружение
+  name: uplink-fsf-weapons
 
 - type: storeCategory
   id: BravoUplinkMedical
-  name: Медицина
+  name: uplink-fsf-medical
 
 - type: storeCategory
   id: BravoUplinkAmmo
-  name: Боеприпасы
+  name: uplink-fsf-ammo
 
 - type: storeCategory
   id: BravoUplinkMisc
-  name: Прочее
+  name: uplink-fsf-other
 
 - type: storeCategory
   id: BravoUplinkExplosions
-  name: взрывчатка
+  name: uplink-fsf-explosions
