@@ -30,19 +30,9 @@ public sealed partial class StoryGeneratorSystem : EntitySystem
             return false;
         }
 
-        IRobustRandom randomToUse;
+        // If given a seed, use it
         if (seed != null)
-        {
-            var localRandom = new RobustRandom();
-            localRandom.SetSeed(seed.Value);
-            randomToUse = localRandom;
-            Log.Debug($"StoryGeneratorSystem: Created local Random with seed {seed.Value}");
-        }
-        else
-        {
-            randomToUse = _random;
-            Log.Debug("StoryGeneratorSystem: Using global Random without modification");
-        }
+            _random.SetSeed(seed.Value);
 
         // Pick values for all of the variables in the template
         var variables = new ValueList<(string, object)>(templateProto.Variables.Count);
@@ -53,14 +43,12 @@ public sealed partial class StoryGeneratorSystem : EntitySystem
                 continue; // Missed one, but keep going with the rest of the story
 
             // Pick a random word from the dataset and localize it
-            var chosenWord = Loc.GetString(randomToUse.Pick(listProto.Values));
+            var chosenWord = Loc.GetString(_random.Pick(listProto.Values));
             variables.Add((name, chosenWord));
         }
 
         // Pass the variables to the localization system and build the story
         story = Loc.GetString(templateProto.LocId, variables.ToArray());
-        Log.Debug($"StoryGeneratorSystem: Generated story with {variables.Count} variables, seed: {seed}");
-
         return true;
     }
 }
