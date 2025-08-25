@@ -823,3 +823,22 @@ Entries:
   id: 59
   time: '2025-08-15T14:44:25.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/139
+- author: UnilTan
+  changes:
+    - type: Add
+      message: >-
+        Динамическое ценообразование для продаж через консоли паллет с
+        изолированными доменами(категориями рынка).
+    - type: Add
+      message: Консоли и экраны для Syndicate и BlackMarket и консоль тортуги.
+    - type: Tweak
+      message: >-
+        Интерфейс консоли паллет показывает реальную стоимость после налогов и
+        динамики и итоговое снижение.
+    - type: Add
+      message: >-
+        Настроены категории динамики с разными параметрами снижения,
+        восстановления и минимальной планкой цены.
+  id: 60
+  time: '2025-08-25T11:28:42.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/129
