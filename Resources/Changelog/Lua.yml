@@ -894,3 +894,14 @@ Entries:
   id: 66
   time: '2025-08-25T15:00:19.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/142
+- author: UnilTan
+  changes:
+    - type: Fix
+      message: >-
+        Исправлено отображение и работу фонарика у максимального скафандра
+        утилизаторов.
+    - type: Tweak
+      message: Добавлена новая дальность фонарикам
+  id: 67
+  time: '2025-08-25T15:28:49.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/141
