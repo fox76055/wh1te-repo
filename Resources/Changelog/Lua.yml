@@ -887,3 +887,10 @@ Entries:
   id: 65
   time: '2025-08-25T14:57:21.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/137
+- author: UnilTan
+  changes:
+    - type: Tweak
+      message: Изменен цвет и прозрачность ПНВ от НИО
+  id: 66
+  time: '2025-08-25T15:00:19.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/142
