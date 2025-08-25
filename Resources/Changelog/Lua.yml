@@ -865,3 +865,13 @@ Entries:
   id: 63
   time: '2025-08-25T14:26:05.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/134
+- author: UnilTan
+  changes:
+    - type: Add
+      message: >-
+        Датчики на одежде теперь включены по умолчанию для всех, кроме пиратов,
+        синдикатов и мерков. Одежда, появившаяся в раунде, всегда с датчиками в
+        режиме "Координаты".
+  id: 64
+  time: '2025-08-25T14:32:31.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/140
