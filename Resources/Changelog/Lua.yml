@@ -875,3 +875,15 @@ Entries:
   id: 64
   time: '2025-08-25T14:32:31.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/140
+- author: UnilTan
+  changes:
+    - type: Tweak
+      message: >-
+        Гипоспрей больше не может вводить реагенты цели, если на ней
+        одновременно надеты скафандр и шлем. Снятие шлема снова позволяет
+        инъекцию даже в скафандре.
+    - type: Tweak
+      message: Самовкол блокируется при надетых скафандре и шлеме.
+  id: 65
+  time: '2025-08-25T14:57:21.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/137
