@@ -858,3 +858,10 @@ Entries:
   id: 62
   time: '2025-08-25T12:25:30.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/133
+- author: UnilTan
+  changes:
+    - type: Tweak
+      message: изменена текстура упаковщика
+  id: 63
+  time: '2025-08-25T14:26:05.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/134
