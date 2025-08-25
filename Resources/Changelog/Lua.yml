@@ -842,3 +842,12 @@ Entries:
   id: 60
   time: '2025-08-25T11:28:42.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/129
+- author: PyotrIgn
+  changes:
+    - type: Add
+      message: Возвращены старые рецепты шашлыков.
+    - type: Fix
+      message: Исправлена отсутствующая локализация для шаурмы.
+  id: 61
+  time: '2025-08-25T12:20:56.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/132
