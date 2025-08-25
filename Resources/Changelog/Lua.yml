@@ -851,3 +851,10 @@ Entries:
   id: 61
   time: '2025-08-25T12:20:56.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/132
+- author: salo2016
+  changes:
+    - type: Tweak
+      message: Финальный нёрф ботаники; Нёрф lingzhi гриба.
+  id: 62
+  time: '2025-08-25T12:25:30.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/133
