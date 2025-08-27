@@ -952,3 +952,10 @@ Entries:
   id: 70
   time: '2025-08-27T08:44:53.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/151
+- author: fox76055
+  changes:
+    - type: Add
+      message: 'Новые корабли для Нордфолла: ML-Lamaniel, ML-LaserBeam, ML-Laqeramaline'
+  id: 71
+  time: '2025-08-27T09:09:54.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/153
