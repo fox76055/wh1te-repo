@@ -905,3 +905,20 @@ Entries:
   id: 67
   time: '2025-08-25T15:28:49.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/141
+- author: salo2016
+  changes:
+    - type: Add
+      message: >-
+        Добавлен шаттл Gixon с новыми лазерными турелями для добычи
+        экспедиционного аванпоста.
+    - type: Tweak
+      message: >-
+        Нёрф дальности стрельбы дробовиков; Нельзя продать хим-мастер; Бафф
+        гейзеров на астероидах.
+    - type: Add
+      message: Крафт металической бочки.
+    - type: Fix
+      message: ИИ шаттлы для спавна не требуют активного Шерифа.
+  id: 68
+  time: '2025-08-27T02:57:58.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/143
