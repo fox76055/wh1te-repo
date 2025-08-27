@@ -959,3 +959,10 @@ Entries:
   id: 71
   time: '2025-08-27T09:09:54.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/153
+- author: fox76055
+  changes:
+    - type: Tweak
+      message: Изменено расположение двигателей на кораблях серий ML
+  id: 72
+  time: '2025-08-27T17:28:15.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/157
