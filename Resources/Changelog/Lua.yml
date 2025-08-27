@@ -937,3 +937,18 @@ Entries:
   id: 69
   time: '2025-08-27T03:21:01.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/147
+- author: LeptonComm
+  changes:
+    - type: Add
+      message: 'Новые боевые шаттлы Нордфолла: Shukra, Shukra-2, Skif, Strizh'
+    - type: Tweak
+      message: >-
+        Изменены цены на шаттлы Фрактур, Серпент и Тарантул у СБ; на шаттлы
+        Лансер, Инфильтратор, Гидра у Норда
+    - type: Tweak
+      message: >-
+        На шаттле Фрактур изменена проводка, теперь шаттл не мигает при
+        выстреле; ЭМИ пушки с ручной перезарядкой заменены на станционные
+  id: 70
+  time: '2025-08-27T08:44:53.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/151
