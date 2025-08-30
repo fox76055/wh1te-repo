@@ -1001,3 +1001,14 @@ Entries:
   id: 74
   time: '2025-08-30T13:14:09.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/144
+- author: UnilTan
+  changes:
+    - type: Fix
+      message: Исправлена система рыбалки - добавлен шанс поимки рыбы
+    - type: Add
+      message: Создана универсальная система рыбного филе
+    - type: Add
+      message: Полная русская локализация для рыбалки и кулинарии
+  id: 75
+  time: '2025-08-30T16:27:43.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/136
