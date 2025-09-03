@@ -1049,3 +1049,10 @@ Entries:
   id: 78
   time: '2025-09-03T16:35:37.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/171
+- author: BrennNight
+  changes:
+    - type: Add
+      message: Добавлены новые параллаксы!
+  id: 79
+  time: '2025-09-03T16:48:56.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/166
