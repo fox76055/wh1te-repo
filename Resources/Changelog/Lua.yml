@@ -1023,3 +1023,18 @@ Entries:
   id: 76
   time: '2025-09-03T14:34:36.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/174
+- author: HacksLua
+  changes:
+    - type: Add
+      message: >-
+        Добавлена регистрация ДНК скафандра, поддержка мультирегистрации ДНК, а
+        так же удаление ДНК из памяти скафандра.
+    - type: Add
+      message: Добавлен форсаж (ускорение) в скафандры доминаторов
+    - type: Add
+      message: Добавлена регистрация ДНК в скафандры доминаторов
+    - type: Add
+      message: Добавлена автовыдача предметов доминаторов в руки доминаторам
+  id: 77
+  time: '2025-09-03T14:47:06.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/172
