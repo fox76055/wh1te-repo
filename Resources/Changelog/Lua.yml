@@ -1092,3 +1092,18 @@ Entries:
   id: 81
   time: '2025-09-04T14:42:32.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/177
+- author: UnilTan
+  changes:
+    - type: Add
+      message: Система питья крови для Аркан
+    - type: Add
+      message: Добавлена система зрения в темноте для феллинида
+    - type: Add
+      message: >-
+        Обновления видов (феллинид, вульпа, моль, рептилия, арахнид, акулоок):
+        новые особенности пищеварения, зрения и движения.
+    - type: Fix
+      message: Небольшие правки
+  id: 82
+  time: '2025-09-04T14:45:50.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/179
