@@ -1135,3 +1135,22 @@ Entries:
   id: 84
   time: '2025-09-04T15:05:38.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/175
+- author: HacksLua
+  changes:
+    - type: Add
+      message: >-
+        Корабль Spear теперь является Stealth Killer и подходит для
+        сопровождения крупных судов.
+    - type: Add
+      message: >-
+        Добавлено подавление IFF в радиусе 256 м для кораблей с флагом
+        CloakHunter.
+    - type: Add
+      message: Добавлены лимиты на крупные шаттлы делая их уникальными.
+    - type: Remove
+      message: 'Удалены шаттлы: Айхива, Хаяр, Хевишь на длительное время для ремапа'
+    - type: Tweak
+      message: Теперь невозможно одновременно стрелять и управлять шаттлом
+  id: 85
+  time: '2025-09-04T15:23:34.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/181
