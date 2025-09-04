@@ -1126,3 +1126,12 @@ Entries:
   id: 83
   time: '2025-09-04T14:54:16.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/180
+- author: fox76055
+  changes:
+    - type: Tweak
+      message: Ремап и баланс шаттлов ML.
+    - type: Fix
+      message: питание кораблей ML.
+  id: 84
+  time: '2025-09-04T15:05:38.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/175
