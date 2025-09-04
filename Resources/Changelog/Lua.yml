@@ -1081,3 +1081,14 @@ Entries:
   id: 80
   time: '2025-09-03T17:07:33.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/160
+- author: UnilTan
+  changes:
+    - type: Add
+      message: 'Добавлен градиент для волос '
+    - type: Add
+      message: Добавлен градиент для аксессуаров (хвосты крылья носы рога)
+    - type: Add
+      message: Добавлен градиент бороды(эпичные ROCK AND STONE)
+  id: 81
+  time: '2025-09-04T14:42:32.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/177
