@@ -1107,3 +1107,22 @@ Entries:
   id: 82
   time: '2025-09-04T14:45:50.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/179
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: >-
+        Ремап пиратских шаттлов (Baron, Mjolnir, Anaconda, Tethys, Spyglass,
+        Vulture) от Covral
+    - type: Fix
+      message: >-
+        На шаттле Fracture ручные ЭМИ были заменены на станционные (теперь
+        точно)
+    - type: Tweak
+      message: Цены большинства пиратских шаттлов были пересмотрены
+    - type: Tweak
+      message: >-
+        Исправление багов и недоработок на шаттлах Strizh, Purga, Voshod; шаттл
+        Туман был удален
+  id: 83
+  time: '2025-09-04T14:54:16.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/180
