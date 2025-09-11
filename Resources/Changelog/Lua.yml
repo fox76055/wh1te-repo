@@ -1196,3 +1196,22 @@ Entries:
   id: 87
   time: '2025-09-11T07:16:01.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/159
+- author: HacksLua
+  changes:
+    - type: Tweak
+      message: Переработаны старые шаттлы ИИ управляемые человеком на полное ИИ
+    - type: Tweak
+      message: Переработана логика ИИ
+    - type: Add
+      message: Добавлены новые правила для ИИ
+    - type: Add
+      message: Добавлено самоуничтожение ИИ
+    - type: Add
+      message: ИИ теперь патрулируют сектор
+    - type: Add
+      message: Если ИИ более 2х ИИ выстраиваются в крыло
+    - type: Tweak
+      message: Переработаны геймрулы вызова ИИ
+  id: 88
+  time: '2025-09-11T08:17:46.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/197
