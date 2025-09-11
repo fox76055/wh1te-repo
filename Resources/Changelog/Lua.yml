@@ -1179,3 +1179,20 @@ Entries:
   id: 86
   time: '2025-09-11T07:06:12.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/148
+- author: UnilTan
+  changes:
+    - type: Add
+      message: >-
+        Добавлена система Aishuttlebrain для автономного управления шаттлами и
+        ведения боя.
+    - type: Add
+      message: Новые YAML-прототипы и карты шаттлов с ИИ.
+    - type: Add
+      message: Документация по использованию и настройке Aishuttlebrain.
+    - type: Tweak
+      message: Компоненты FireControl обновлены для интеграции с ИИ.
+    - type: Tweak
+      message: Неиспользуемые ресурсоёмкие системы закомментированы для оптимизации.
+  id: 87
+  time: '2025-09-11T07:16:01.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/159
