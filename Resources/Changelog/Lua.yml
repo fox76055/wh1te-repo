@@ -1240,3 +1240,10 @@ Entries:
   id: 89
   time: '2025-09-12T12:35:27.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/199
+- author: HacksLua
+  changes:
+    - type: Tweak
+      message: Теперь бункер будет активироваться при АФК админах
+  id: 90
+  time: '2025-09-12T12:37:23.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/202
