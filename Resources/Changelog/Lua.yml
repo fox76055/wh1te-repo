@@ -1247,3 +1247,10 @@ Entries:
   id: 90
   time: '2025-09-12T12:37:23.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/202
+- author: UnilTan
+  changes:
+    - type: Fix
+      message: Исправлен баг Yupi кода из-за которого банк баланс становился нулевым
+  id: 91
+  time: '2025-09-12T12:50:00.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/201
