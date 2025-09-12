@@ -1215,3 +1215,28 @@ Entries:
   id: 88
   time: '2025-09-11T08:17:46.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/197
+- author: HacksLua
+  changes:
+    - type: Fix
+      message: ИИ теперь будет избегать Зеленых Зон
+    - type: Fix
+      message: ИИ не атакует игрока если тот находится в Зеленой Зоне
+    - type: Tweak
+      message: >-
+        ИИ теперь атакует любой шаттл имеющий на борту сервер управления
+        вооружением
+    - type: Add
+      message: Зеленые зоны теперь видны на радаре
+    - type: Tweak
+      message: Вооружение теперь не работает в зеленых зонах
+    - type: Add
+      message: >-
+        Добавлен новый инструмент для мапперов drawline линейка с категориями
+        кораблей
+    - type: Tweak
+      message: >-
+        Шаттлы с категорией Small теперь могут использовать одновременно и
+        консоль шаттла и консоль вооружения
+  id: 89
+  time: '2025-09-12T12:35:27.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/199
