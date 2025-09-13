@@ -1254,3 +1254,12 @@ Entries:
   id: 91
   time: '2025-09-12T12:50:00.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/201
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Добавлен список продаваемых предметов при продаже
+    - type: Fix
+      message: Возвращение динамической экономики
+  id: 92
+  time: '2025-09-13T18:10:06.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/176
