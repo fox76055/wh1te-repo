@@ -4,6 +4,8 @@ using System.Text;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
 using Content.Server.Chat.Managers;
+using Content.Server._Lua.Language; // Lua
+using Content.Shared._Lua.Language; // Lua
 using Content.Server.GameTicking;
 using Content.Server.Players.RateLimiting;
 using Content.Server.Speech.Prototypes;
@@ -63,13 +65,14 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private readonly ReplacementAccentSystem _wordreplacement = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
     [Dependency] private readonly ExamineSystemShared _examineSystem = default!;
+    [Dependency] private readonly LanguageSystem _language = default!; // Lua
 
     public const int VoiceRange = 10; // how far voice goes in world units
     public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
     public const int WhisperMuffledRange = 8; // how far whisper goes at all, in world units
     public const string DefaultAnnouncementSound = "/Audio/_Lua/Announcements/announce.ogg"; // Lua
     public const string CentComAnnouncementSound = "/Audio/_Lua/Announcements/centcomm.ogg"; // Lua
-
+    private readonly Color DefaultSpeakColor = Color.White; // Lua
     private bool _loocEnabled = true;
     private bool _deadLoocEnabled;
     private bool _critLoocEnabled;
@@ -222,11 +225,12 @@ public sealed partial class ChatSystem : SharedChatSystem
             message = message[1..];
         }
 
-        bool shouldCapitalize = (desiredType != InGameICChatType.Emote);
-        bool shouldPunctuate = _configurationManager.GetCVar(CCVars.ChatPunctuation);
-        // Capitalizing the word I only happens in English, so we check language here
-        bool shouldCapitalizeTheWordI = (!CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Parent.Name == "en")
-            || (CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Name == "en");
+        var language = _language.GetLanguage(source);// Lua start
+
+        var shouldCapitalize = (desiredType != InGameICChatType.Emote);
+        var shouldPunctuate = _configurationManager.GetCVar(CCVars.ChatPunctuation);
+        var shouldCapitalizeTheWordI = (!CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Parent.Name == "en")
+            || (CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Name == "en"); // Lua end
 
         message = SanitizeInGameICMessage(source, message, out var emoteStr, shouldCapitalize, shouldPunctuate, shouldCapitalizeTheWordI);
 
@@ -250,7 +254,6 @@ public sealed partial class ChatSystem : SharedChatSystem
             }
         }
 
-        // Otherwise, send whatever type.
         switch (desiredType)
         {
             case InGameICChatType.Speak:
@@ -481,17 +484,13 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         name = FormattedMessage.EscapeText(name);
 
-        var wrappedMessage = Loc.GetString(speech.Bold ? "chat-manager-entity-say-bold-wrap-message" : "chat-manager-entity-say-wrap-message",
-            ("entityName", name),
-            ("verb", Loc.GetString(_random.Pick(speech.SpeechVerbStrings))),
-            ("fontType", speech.FontId),
-            ("fontSize", speech.FontSize),
-            ("message", FormattedMessage.EscapeText(message)));
-
-        SendInVoiceRange(ChatChannel.Local, message, wrappedMessage, source, range);
+        var wrappedMessage = WrapPublicMessage(source, name, message);  // Lua start
+        var obfuscated = SanitizeInGameICMessage(source, _language.ObfuscateSpeech(message, _language.GetLanguage(source)), out var emoteStr2, true, _configurationManager.GetCVar(CCVars.ChatPunctuation), (!CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Parent.Name == "en") || (CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Name == "en"));
+        var wrappedObfuscated = WrapPublicMessage(source, name, obfuscated, _language.GetLanguage(source));
+        SendInVoiceRange(ChatChannel.Local, name, message, wrappedMessage, obfuscated, wrappedObfuscated, source, range);
 
         var ev = new EntitySpokeEvent(source, message, originalMessage, null, null);
-        RaiseLocalEvent(source, ev, true);
+        RaiseLocalEvent(source, ev, true);  // Lua end
 
         // To avoid logging any messages sent by entities that are not players, like vendors, cloning, etc.
         // Also doesn't log if hideLog is true.
@@ -551,14 +550,11 @@ public sealed partial class ChatSystem : SharedChatSystem
         }
         name = FormattedMessage.EscapeText(name);
 
-        var wrappedMessage = Loc.GetString("chat-manager-entity-whisper-wrap-message",
-            ("entityName", name), ("message", FormattedMessage.EscapeText(message)));
+        var languageObfuscatedMessage = SanitizeInGameICMessage(source, _language.ObfuscateSpeech(message, _language.GetLanguage(source)), out var emoteStr, true, _configurationManager.GetCVar(CCVars.ChatPunctuation), (!CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Parent.Name == "en") || (CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Name == "en")); // Lua start
+        var languageObfuscatedMessageLongRange = ObfuscateMessageReadability(languageObfuscatedMessage, 0.2f);
 
-        var wrappedobfuscatedMessage = Loc.GetString("chat-manager-entity-whisper-wrap-message",
-            ("entityName", nameIdentity), ("message", FormattedMessage.EscapeText(obfuscatedMessage)));
-
-        var wrappedUnknownMessage = Loc.GetString("chat-manager-entity-whisper-unknown-wrap-message",
-            ("message", FormattedMessage.EscapeText(obfuscatedMessage)));
+        var wrappedMessage = WrapWhisperMessage(source, "chat-manager-entity-whisper-wrap-message", nameIdentity, message, _language.GetLanguage(source));
+        var wrappedUnknownMessage = WrapWhisperMessage(source, "chat-manager-entity-whisper-unknown-wrap-message", nameIdentity, message, _language.GetLanguage(source)); // Lua end
 
 
         foreach (var (session, data) in GetRecipients(source, WhisperMuffledRange))
@@ -572,14 +568,24 @@ public sealed partial class ChatSystem : SharedChatSystem
             if (MessageRangeCheck(session, data, range) != MessageRangeCheckResult.Full)
                 continue; // Won't get logged to chat, and ghosts are too far away to see the pop-up, so we just won't send it to them.
 
+            var canUnderstandLanguage = _language.CanUnderstand(listener, _language.GetLanguage(source).ID); // Lua start
             if (data.Range <= WhisperClearRange)
-                _chatManager.ChatMessageToOne(ChatChannel.Whisper, message, wrappedMessage, source, false, session.Channel);
-            //If listener is too far, they only hear fragments of the message
+            {
+                var perceivedMessage = FormattedMessage.EscapeText(canUnderstandLanguage ? message : languageObfuscatedMessage);
+                var wrappedPerceivedMessage = WrapWhisperMessage(source, "chat-manager-entity-whisper-wrap-message", nameIdentity, perceivedMessage, _language.GetLanguage(source));
+                _chatManager.ChatMessageToOne(ChatChannel.Whisper, message, wrappedPerceivedMessage, source, false, session.Channel);
+            }
             else if (_examineSystem.InRangeUnOccluded(source, listener, WhisperMuffledRange))
-                _chatManager.ChatMessageToOne(ChatChannel.Whisper, obfuscatedMessage, wrappedobfuscatedMessage, source, false, session.Channel);
-            //If listener is too far and has no line of sight, they can't identify the whisperer's identity
+            {
+                var perceivedMessage = FormattedMessage.EscapeText(canUnderstandLanguage ? obfuscatedMessage : languageObfuscatedMessageLongRange);
+                var wrappedPerceivedMessage = WrapWhisperMessage(source, "chat-manager-entity-whisper-wrap-message", nameIdentity, perceivedMessage, _language.GetLanguage(source));
+                _chatManager.ChatMessageToOne(ChatChannel.Whisper, obfuscatedMessage, wrappedPerceivedMessage, source, false, session.Channel);
+            }
             else
+            {
                 _chatManager.ChatMessageToOne(ChatChannel.Whisper, obfuscatedMessage, wrappedUnknownMessage, source, false, session.Channel);
+                continue;
+            } // Lua end
         }
 
         _replay.RecordServerMessage(new ChatMessage(ChatChannel.Whisper, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));
@@ -951,7 +957,95 @@ public sealed partial class ChatSystem : SharedChatSystem
     }
 
     #endregion
-}
+
+    // Lua start
+    #region Lua-languages helpers
+
+    public string WrapPublicMessage(EntityUid source, string name, string message, LanguagePrototype? language = null)
+    {
+        var wrapId = GetSpeechVerb(source, message).Bold ? "chat-manager-entity-say-bold-wrap-message" : "chat-manager-entity-say-wrap-message";
+        return WrapMessage(wrapId, Content.Shared._Lua.InGameICChatType.Speak, source, name, message, language); // Lua
+    }
+
+    public string WrapWhisperMessage(EntityUid source, LocId defaultWrap, string entityName, string message, LanguagePrototype? language = null)
+    {
+        return WrapMessage(defaultWrap, Content.Shared._Lua.InGameICChatType.Whisper, source, entityName, message, language); // Lua
+    }
+
+    public string WrapMessage(LocId wrapId, Content.Shared._Lua.InGameICChatType chatType, EntityUid source, string entityName, string message, LanguagePrototype? language) // Lua
+    {
+        language ??= _language.GetLanguage(source);
+
+        if (language.SpeechOverride.MessageWrapOverrides.TryGetValue(chatType, out var wrapOverride))
+            wrapId = wrapOverride;
+
+        var speech = GetSpeechVerb(source, message);
+        var verbId = language.SpeechOverride.SpeechVerbOverrides is { } verbsOverride
+            ? _random.Pick(verbsOverride).ToString()
+            : _random.Pick(speech.SpeechVerbStrings);
+
+        message = FormattedMessage.EscapeText(message);
+
+        if (language.SpeechOverride.Color is { } colorOverride)
+        {
+            var color = Color.InterpolateBetween(DefaultSpeakColor, colorOverride, colorOverride.A);
+            var colorHex = color.ToHex();
+            message = Loc.GetString("chat-manager-wrap-language-color", ("message", message), ("color", colorHex));
+        }
+
+        if (language.SpeechOverride?.FontId != null || language.SpeechOverride?.FontSize != null)
+        {
+            message = Loc.GetString(chatType == Content.Shared._Lua.InGameICChatType.Whisper ? "chat-manager-wrap-language-font" : "chat-manager-wrap-language-font-whisper",
+                ("message", message),
+                ("fontType", language.SpeechOverride.FontId ?? speech.FontId),
+                ("fontSize", language.SpeechOverride.FontSize ?? speech.FontSize));
+        }
+
+        return Loc.GetString(wrapId,
+            ("entityName", entityName),
+            ("verb", Loc.GetString(verbId)),
+            ("message", message),
+            ("fontType", speech.FontId),
+            ("fontSize", speech.FontSize));
+    }
+
+    private void SendInVoiceRange(
+        ChatChannel channel,
+        string name,
+        string message,
+        string wrappedMessage,
+        string obfuscated,
+        string obfuscatedWrappedMessage,
+        EntityUid source,
+        ChatTransmitRange range,
+        NetUserId? author = null,
+        LanguagePrototype? languageOverride = null)
+    {
+        var language = languageOverride ?? _language.GetLanguage(source);
+        foreach (var (session, data) in GetRecipients(source, VoiceRange))
+        {
+            var entRange = MessageRangeCheck(session, data, range);
+            if (entRange == MessageRangeCheckResult.Disallowed)
+                continue;
+            var entHideChat = entRange == MessageRangeCheckResult.HideChat;
+
+            if (session.AttachedEntity is not { Valid: true } playerEntity)
+                continue;
+
+            var listener = session.AttachedEntity.Value;
+            var canUnderstand = _language.CanUnderstand(listener, language.ID);
+
+            if (channel == ChatChannel.LOOC || channel == ChatChannel.Emotes || canUnderstand)
+                _chatManager.ChatMessageToOne(channel, message, wrappedMessage, source, entHideChat, session.Channel, author: author);
+            else
+                _chatManager.ChatMessageToOne(channel, obfuscated, obfuscatedWrappedMessage, source, entHideChat, session.Channel, author: author);
+        }
+
+        _replay.RecordServerMessage(new ChatMessage(channel, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));
+    }
+
+    #endregion
+} // Lua end
 
 /// <summary>
 ///     This event is raised before chat messages are sent out to clients. This enables some systems to send the chat
