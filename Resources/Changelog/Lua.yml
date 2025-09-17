@@ -1307,3 +1307,16 @@ Entries:
   id: 96
   time: '2025-09-16T14:32:35.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/187
+- author: salo2016
+  changes:
+    - type: Add
+      message: >-
+        Отсек ЭП во всех скафандрах разрешающий/запрещающий колоться
+        открыв/закрыв.
+    - type: Add
+      message: Добавлен крафт ампул в Медипен Техфаб
+    - type: Add
+      message: Добавлен крафт в Мед-О-Мат и крафт ампулы
+  id: 97
+  time: '2025-09-17T08:08:13.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/188
