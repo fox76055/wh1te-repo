@@ -1390,3 +1390,22 @@ Entries:
   id: 101
   time: '2025-09-22T15:47:02.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/192
+- author: HacksLua
+  changes:
+    - type: Tweak
+      message: Конвейеры теперь отключаются спустя 15 секунд сами
+    - type: Tweak
+      message: Застрявшие предметы выталкиваются из стены спустя 15 секунд
+    - type: Tweak
+      message: Обломки больше не появляются дальше 30000 тайлов в космосе
+    - type: Tweak
+      message: БСС на 30000 перестает работать
+    - type: Tweak
+      message: >-
+        Шаттл попавший на 30000 замедляется до 1м/с, если шаттл продолжит
+        движение до 30100 его заморозит
+    - type: Tweak
+      message: Добавлен портал на barrier gate
+  id: 102
+  time: '2025-09-22T15:53:15.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/234
