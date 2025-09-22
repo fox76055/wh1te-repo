@@ -1416,3 +1416,10 @@ Entries:
   id: 103
   time: '2025-09-22T15:55:21.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/226
+- author: fox76055
+  changes:
+    - type: Tweak
+      message: fracture потерпел небольшие изменения
+  id: 104
+  time: '2025-09-22T15:56:09.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/227
