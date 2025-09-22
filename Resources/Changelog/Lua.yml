@@ -1430,3 +1430,10 @@ Entries:
   id: 105
   time: '2025-09-22T15:58:14.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/230
+- author: fox76055
+  changes:
+    - type: Tweak
+      message: LaserBeam теперь в новом облике.
+  id: 106
+  time: '2025-09-22T16:03:20.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/232
