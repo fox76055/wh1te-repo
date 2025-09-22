@@ -1423,3 +1423,10 @@ Entries:
   id: 104
   time: '2025-09-22T15:56:09.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/227
+- author: fox76055
+  changes:
+    - type: Tweak
+      message: ML-Laqeramaline потерпела небольшие изменения
+  id: 105
+  time: '2025-09-22T15:58:14.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/230
