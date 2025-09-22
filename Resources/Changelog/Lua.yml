@@ -1409,3 +1409,10 @@ Entries:
   id: 102
   time: '2025-09-22T15:53:15.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/234
+- author: fox76055
+  changes:
+    - type: Tweak
+      message: Serpent потерпел небольшой ремап
+  id: 103
+  time: '2025-09-22T15:55:21.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/226
