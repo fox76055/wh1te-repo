@@ -1484,3 +1484,10 @@ Entries:
   id: 111
   time: '2025-09-23T16:52:25.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/238
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: Курсовое вооружение на Стриже изменено под новый стандарт
+  id: 112
+  time: '2025-09-23T16:52:50.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/239
