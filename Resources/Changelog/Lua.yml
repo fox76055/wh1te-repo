@@ -1457,3 +1457,14 @@ Entries:
   id: 108
   time: '2025-09-23T14:51:32.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/235
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: >-
+        Ремап Мельнира: категория изменена на медиум, возвращена старая
+        комбинация пушек (6 АК570, 4 Тесла-турели)
+    - type: Add
+      message: Добавлен Orion и Yunk
+  id: 109
+  time: '2025-09-23T15:16:20.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/236
