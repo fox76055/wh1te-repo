@@ -1448,3 +1448,12 @@ Entries:
   id: 107
   time: '2025-09-23T14:21:36.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/207
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: >-
+        Локализованы существующие и добавлены новые описания для шаттлов СБ и
+        пиратов
+  id: 108
+  time: '2025-09-23T14:51:32.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/235
