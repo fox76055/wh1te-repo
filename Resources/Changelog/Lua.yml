@@ -1477,3 +1477,10 @@ Entries:
   id: 110
   time: '2025-09-23T15:18:59.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/237
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: Курсовое вооружение на Восходе изменено под новый стандарт
+  id: 111
+  time: '2025-09-23T16:52:25.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/238
