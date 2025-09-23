@@ -1468,3 +1468,12 @@ Entries:
   id: 109
   time: '2025-09-23T15:16:20.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/236
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: >-
+        На Бароне 203мм пушки были заменены на 220мм в соответствии с новыми
+        нормами курсового вооружения
+  id: 110
+  time: '2025-09-23T15:18:59.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/237
