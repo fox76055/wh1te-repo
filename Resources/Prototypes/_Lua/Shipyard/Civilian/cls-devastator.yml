@@ -15,6 +15,12 @@
   engine:
   - Singularity
   shuttlePath: /Maps/_Lua/Shuttles/Civilian/cls-devastator.yml
+  guidebookPage: Null
+  class:
+  - Civilian
+  - Atmospherics
+  engine:
+  - Bananium
   addComponents:
     - type: IFF
       color: "#ffffff"
