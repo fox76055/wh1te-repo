@@ -10,12 +10,13 @@
   price: 48000 #41580 x 1.15
   category: Small
   group: Expedition
+  shuttlePath: /Maps/_Lua/Shuttles/Expedition/Concord-Venture.yml
+  guidebookPage: Null
   class:
   - Civilian
   - Expedition
   engine:
-  - Singularity
-  shuttlePath: /Maps/_Lua/Shuttles/Expedition/Concord-Venture.yml
+  - Bananium
   addComponents:
     - type: IFF
       color: "#ffffff"

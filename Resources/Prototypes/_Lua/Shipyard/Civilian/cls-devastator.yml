@@ -10,11 +10,13 @@
   price: 96000 #83600 x 1.15
   category: medium
   group: Shipyard
+  shuttlePath: /Maps/_Lua/Shuttles/Civilian/cls-devastator.yml
+  guidebookPage: Null
   class:
   - Civilian
+  - Atmospherics
   engine:
-  - Singularity
-  shuttlePath: /Maps/_Lua/Shuttles/Civilian/cls-devastator.yml
+  - Bananium
   addComponents:
     - type: IFF
       color: "#ffffff"
