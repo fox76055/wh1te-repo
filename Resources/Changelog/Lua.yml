@@ -1546,3 +1546,10 @@ Entries:
   id: 115
   time: '2025-09-25T04:15:20.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/242
+- author: LeptonComm
+  changes:
+    - type: Add
+      message: Новый пиратский шаттл класса Large - Mercury (от Covral)
+  id: 116
+  time: '2025-09-25T05:01:56.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/241
