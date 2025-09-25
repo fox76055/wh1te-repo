@@ -3,13 +3,15 @@
   parent: BaseVesselAntag
   name: ML-Laqeramaline
   description: Линейный крейсер и замыкающая цепь кораблей Mordus Legion. Создана для затяжного боя и поддержки огнём тяжелой артиллерией и рельсотронами с заднего фланга.
-  price: 661840
+  price: 490200
   category: Large
   group: Typan
   shuttlePath: /Maps/_Lua/Shuttles/Typan/Laqeramaline.yml
   class:
   - Capital
   - Syndicate
+  engine:
+  - Singularity
   addComponents:
     - type: IFF
       color: "#d93204"
