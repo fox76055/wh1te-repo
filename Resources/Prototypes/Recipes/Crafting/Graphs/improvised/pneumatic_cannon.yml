@@ -8,12 +8,12 @@
       steps:
       - tag: Pipe
         icon:
-          sprite: Structures/Piping/Atmospherics/pipe.rsi
+          sprite: /Structures/Piping/Atmospherics/pipe.rsi
           state: pipeStraight
         name: construction-graph-tag-pipe
       - tag: Handcuffs
         icon:
-          sprite: Objects/Misc/cablecuffs.rsi
+          sprite: /Objects/Misc/cablecuffs.rsi
           state: cuff
           color: red
         name: construction-graph-tag-cuffs

@@ -7,7 +7,7 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: _NF/Objects/Specific/Mech/mecha.rsi
+    sprite: /_NF/Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: emu-empty

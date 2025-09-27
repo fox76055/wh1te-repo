@@ -54,9 +54,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/plastitanium_window.rsi # Frontier
+    sprite: /_NF/Structures/Windows/plastitanium_window.rsi # Frontier
   - type: Icon
-    sprite: _NF/Structures/Windows/plastitanium_window.rsi # Frontier
+    sprite: /_NF/Structures/Windows/plastitanium_window.rsi # Frontier
     state: full
   - type: IconSmooth
     key: walls # Frontier: windows<walls
@@ -119,7 +119,7 @@
     damageDivisor: 200
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: /Structures/Windows/cracks.rsi
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -141,13 +141,13 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/plastitanium_window_diagonal.rsi # Frontier
+    sprite: /_NF/Structures/Windows/plastitanium_window_diagonal.rsi # Frontier
     state: state0
   - type: Tag
     tags:
     - Diagonal
   - type: Icon
-    sprite: _NF/Structures/Windows/plastitanium_window_diagonal.rsi # Frontier
+    sprite: /_NF/Structures/Windows/plastitanium_window_diagonal.rsi # Frontier
     state: state0
   - type: IconSmooth
     mode: Diagonal
@@ -221,7 +221,7 @@
     damageDivisor: 200 #Lua
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_diagonal.rsi
+      sprite: /Structures/Windows/cracks_diagonal.rsi
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3

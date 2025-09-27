@@ -5,7 +5,7 @@
   description: croissant-cream-desc
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: /ADT/Objects/Consumable/Food/croissant.rsi
     state: cream
   - type: FlavorProfile
     flavors:
@@ -28,7 +28,7 @@
   description: croissant-choco-desc
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: /ADT/Objects/Consumable/Food/croissant.rsi
     state: chocolate
   - type: FlavorProfile
     flavors:
@@ -51,7 +51,7 @@
   description: croissant-cheese-desc
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: /ADT/Objects/Consumable/Food/croissant.rsi
     state: cheese
   - type: FlavorProfile
     flavors:
@@ -81,7 +81,7 @@
   - type: Food
     transferAmount: 3
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: /ADT/Objects/Consumable/Food/croissant.rsi
     state: hotdog
   - type: SolutionContainerManager
     solutions:

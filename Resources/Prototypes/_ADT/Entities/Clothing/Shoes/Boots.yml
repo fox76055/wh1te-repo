@@ -5,9 +5,9 @@
   description: i'm are the Speed! CHiao :)
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/supreme-commander-boots.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/supreme-commander-boots.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/supreme-commander-boots.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/supreme-commander-boots.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -20,9 +20,9 @@
   description: pair of stylish shoes
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/redji_shoes.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/redji_shoes.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/redji_shoes.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/redji_shoes.rsi
 
 - type: entity
   id: ActionToggleADTMagboots
@@ -30,8 +30,8 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Action
-      icon: { sprite: ADT/Clothing/Shoes/Boots/advanced.rsi, state: icon }
-      iconOn: ADT/Clothing/Shoes/Boots/advanced.rsi/icon-on.png
+      icon: { sprite: /ADT/Clothing/Shoes/Boots/advanced.rsi, state: icon }
+      iconOn: /ADT/Clothing/Shoes/Boots/advanced.rsi/icon-on.png
 
 - type: entity
   id: ActionToggleADTGasTank
@@ -41,10 +41,10 @@
   components:
     - type: Action
       icon:
-        sprite: Interface/Alerts/internals.rsi
+        sprite: /Interface/Alerts/internals.rsi
         state: internal2
       iconOn:
-        sprite: Interface/Alerts/internals.rsi
+        sprite: /Interface/Alerts/internals.rsi
         state: internal1
       useDelay: 1
     - type: InstantAction
@@ -58,10 +58,10 @@
   components:
     - type: Action
       icon:
-        sprite: Objects/Tanks/Jetpacks/blue.rsi
+        sprite: /Objects/Tanks/Jetpacks/blue.rsi
         state: icon
       iconOn:
-        sprite: Objects/Tanks/Jetpacks/blue.rsi
+        sprite: /Objects/Tanks/Jetpacks/blue.rsi
         state: icon-on
       useDelay: 1.0
     - type: InstantAction
@@ -74,10 +74,10 @@
   description: State-of-the-art magnetic boots that do not slow down their wearer. Made by gorlax for gorlax
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/advanced.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/advanced.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/advanced.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/advanced.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -118,9 +118,9 @@
   description: pair of sandals
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/sandals.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/sandals.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/sandals.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/sandals.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -129,10 +129,10 @@
   description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/white_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/white_footwraps.rsi # спрайты от floppo4ka
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/white_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/white_footwraps.rsi # спрайты от floppo4ka
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -141,10 +141,10 @@
   description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/black_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/black_footwraps.rsi # спрайты от floppo4ka
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/black_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/black_footwraps.rsi # спрайты от floppo4ka
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -153,10 +153,10 @@
   description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi # спрайты от floppo4ka
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/blackhigh_footwraps.rsi # спрайты от floppo4ka
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -165,7 +165,7 @@
   description: Pair of pieces of clothing for those who are uncomfortable with ordinary shoes.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi # спрайты от floppo4ka
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi # спрайты от floppo4ka
+    sprite: /ADT/Clothing/Shoes/Boots/whitehigh_footwraps.rsi # спрайты от floppo4ka

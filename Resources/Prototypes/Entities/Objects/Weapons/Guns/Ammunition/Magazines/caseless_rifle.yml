@@ -20,7 +20,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -45,7 +45,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag_short.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag_short.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -71,7 +71,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -93,7 +93,7 @@
     # proto: CartridgeCaselessRifle # Frontier
     capacity: 99
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/10x24.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/10x24.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 8

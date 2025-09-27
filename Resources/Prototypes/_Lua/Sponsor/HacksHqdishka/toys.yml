@@ -9,7 +9,7 @@
   description: Большая и надёжная, чтобы всегда быть рядом с вами, если вы захотите исследовать подводный мир.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Fun/shark.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Fun/shark.rsi
     state: black
   - type: EmitSoundOnUse
     sound:
@@ -29,7 +29,7 @@
   description: Это привлекательная игрушка, несмотря на то что она выглядит мило, когда вы её видите вы ощущаете удар палкой. "Осторожно, оно дерется и любит".
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Fun/shark.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Fun/shark.rsi
     state: plushie_iris
   - type: EmitSoundOnUse
     sound:

@@ -3,7 +3,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/sushi.rsi
+    sprite: /_NF/Objects/Consumable/Food/sushi.rsi
   - type: Tag
     tags:
       - Sushi

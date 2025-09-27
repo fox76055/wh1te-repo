@@ -16,7 +16,7 @@
       - N14PowerCellHigh
       - N14AmmoCell
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/microfusion.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/microfusion.rsi
   - type: SolutionContainerManager
     solutions:
       battery:
@@ -47,7 +47,7 @@
   parent: N14BasePowerCell
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/microfusion.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/microfusion.rsi
     layers:
       - map: [ "enum.PowerCellVisualLayers.Base" ] #TODO: Fix C# script to work with microfusion and lasercell
         state: empty
@@ -68,7 +68,7 @@
   parent: N14BasePowerCell
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/microfusionfocused.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/microfusionfocused.rsi
     layers:
       - map: [ "enum.PowerCellVisualLayers.Base" ]
         state: empty
@@ -96,7 +96,7 @@
   parent: N14BasePowerCell
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/EC.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/EC.rsi
     layers:
       - map: [ "enum.PowerCellVisualLayers.Base" ]
         state: empty
@@ -126,7 +126,7 @@
   parent: N14BasePowerCell
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/ECP.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/ECP.rsi
     layers:
       - map: [ "enum.PowerCellVisualLayers.Base" ]
         state: empty
@@ -154,7 +154,7 @@
   parent: N14BasePowerCell
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/fusion.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/fusion.rsi
     layers:
       - map: [ "enum.PowerCellVisualLayers.Base" ]
         state: empty
@@ -190,7 +190,7 @@
     maxIntensity: 200
     intensitySlope: 1.5
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/plasma.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/plasma.rsi
   - type: Tag
     tags:
       - N14PlasmaCartridge
@@ -223,7 +223,7 @@
   parent: N14BasePlasmaCell
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/plasma.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/plasma.rsi
     layers:
       - map: [ "enum.PowerCellVisualLayers.Base" ]
         state: empty
@@ -244,7 +244,7 @@
   parent: N14BasePlasmaCell
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/plasma.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Battery/plasma.rsi
     layers:
       - map: [ "enum.PowerCellVisualLayers.Base" ]
         state: empty

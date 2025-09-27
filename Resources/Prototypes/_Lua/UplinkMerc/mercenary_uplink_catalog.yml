@@ -7,7 +7,7 @@
   name:  uplink-mercenary-hardsuit-name
   description: uplink-mercenary-hardsuit-desc
   productEntity: ClothingOuterHardsuitMercenary
-  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi, state: icon }
+  icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi, state: icon }
   cost:
     Speso: 6000
   categories:
@@ -26,7 +26,7 @@
   name:  uplink-merc-band-name
   description: uplink-merc-band-desc
   productEntity: ClothingHeadBandMercenary
-  icon: { sprite: Clothing/Head/Bandanas/merc.rsi, state: icon }
+  icon: { sprite: /Clothing/Head/Bandanas/merc.rsi, state: icon }
   cost:
     Speso: 300
   categories:
@@ -45,7 +45,7 @@
   name:  uplink-merc-beret-name
   description: uplink-merc-beret-desc
   productEntity: ClothingHeadHatBeretMercenary
-  icon: { sprite: Clothing/Head/Hats/beret_merc.rsi, state: icon }
+  icon: { sprite: /Clothing/Head/Hats/beret_merc.rsi, state: icon }
   cost:
     Speso: 300
   categories:
@@ -64,7 +64,7 @@
   name:  uplink-merc-webbing-name
   description: uplink-merc-webbing-desc
   productEntity: ClothingBeltMercenaryWebbing
-  icon: { sprite: Clothing/Belt/mercwebbing.rsi, state: icon }
+  icon: { sprite: /Clothing/Belt/mercwebbing.rsi, state: icon }
   cost:
     Speso: 800
   categories:
@@ -83,7 +83,7 @@
   name:  uplink-merc-glovesc-name
   description: uplink-merc-glovesc-desc
   productEntity: ClothingHandsMercenaryGlovesCombat
-  icon: { sprite: Clothing/Hands/Gloves/mercbattle.rsi, state: icon }
+  icon: { sprite: /Clothing/Hands/Gloves/mercbattle.rsi, state: icon }
   cost:
     Speso: 2300
   categories:
@@ -102,7 +102,7 @@
   name:  uplink-merc-bootsm-name
   description: uplink-merc-bootsm-desc
   productEntity: ClothingShoesBootsMercenary
-  icon: { sprite: Clothing/Shoes/Boots/mercboots.rsi, state: icon }
+  icon: { sprite: /Clothing/Shoes/Boots/mercboots.rsi, state: icon }
   cost:
     Speso: 400
   categories:
@@ -121,7 +121,7 @@
   name:  uplink-merc-web-name
   description: uplink-merc-web-desc
   productEntity: ClothingOuterVestWebMercenary
-  icon: { sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi, state: icon }
+  icon: { sprite: /Clothing/OuterClothing/Vests/mercwebvest.rsi, state: icon }
   cost:
     Speso: 1900
   categories:
@@ -140,7 +140,7 @@
   name:  uplink-merc-helmet-name
   description: uplink-merc-helmet-desc
   productEntity: ClothingHeadHelmetMercenary
-  icon: { sprite: Clothing/Head/Helmets/merc_helmet.rsi, state: icon }
+  icon: { sprite: /Clothing/Head/Helmets/merc_helmet.rsi, state: icon }
   cost:
     Speso: 600
   categories:
@@ -159,7 +159,7 @@
   name:  uplink-merc-jumpskirt-name
   description: uplink-merc-jumpskirt-desc
   productEntity: ClothingUniformJumpskirtMercenary
-  icon: { sprite: _NF/Clothing/Uniforms/Jumpskirt/mercenary.rsi, state: icon }
+  icon: { sprite: /_NF/Clothing/Uniforms/Jumpskirt/mercenary.rsi, state: icon }
   cost:
     Speso: 120
   categories:
@@ -178,7 +178,7 @@
   name:  uplink-merc-jumpskirt-name
   description: uplink-merc-jumpskirt-desc
   productEntity: ClothingUniformJumpsuitMercenary
-  icon: { sprite: Clothing/Uniforms/Jumpsuit/mercenary.rsi, state: icon }
+  icon: { sprite: /Clothing/Uniforms/Jumpsuit/mercenary.rsi, state: icon }
   cost:
     Speso: 120
   categories:
@@ -197,7 +197,7 @@
   name:  uplink-merc-gas-name
   description: uplink-merc-gas-desc
   productEntity: ClothingMaskGasMercenary
-  icon: { sprite: Clothing/Mask/merc.rsi, state: icon }
+  icon: { sprite: /Clothing/Mask/merc.rsi, state: icon }
   cost:
     Speso: 600
   categories:
@@ -216,7 +216,7 @@
   name:  uplink-merc-magboots-name
   description: uplink-merc-magboots-desc
   productEntity: ClothingShoesBootsMagMercenary
-  icon: { sprite: _NF/Clothing/Shoes/Boots/magboots-mercenary.rsi, state: icon }
+  icon: { sprite: /_NF/Clothing/Shoes/Boots/magboots-mercenary.rsi, state: icon }
   cost:
     Speso: 600
   categories:
@@ -235,7 +235,7 @@
   name:  uplink-merc-glasses-name
   description: uplink-merc-glasses-desc
   productEntity: ClothingEyesGlassesMercenary
-  icon: { sprite: Clothing/Eyes/Glasses/mercglasses.rsi, state: icon }
+  icon: { sprite: /Clothing/Eyes/Glasses/mercglasses.rsi, state: icon }
   cost:
     Speso: 670
   categories:
@@ -254,7 +254,7 @@
   name:  uplink-merc-mk58-name
   description: uplink-merc-mk58-desc
   productEntity: NFWeaponPistolMk58
-  icon: { sprite: Objects/Weapons/Guns/Pistols/mk58.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi, state: icon }
   cost:
     Speso: 1900
   categories:
@@ -273,7 +273,7 @@
   name:  uplink-merc-energygun-name
   description: uplink-merc-energygun-desc
   productEntity: NFWeaponEnergySubMachineGunDeltaV
-  icon: { sprite: _DV/Objects/Weapons/Guns/Battery/energygun.rsi, state: icon }
+  icon: { sprite: /_DV/Objects/Weapons/Guns/Battery/energygun.rsi, state: icon }
   cost:
     Speso: 2300
   categories:
@@ -292,7 +292,7 @@
   name:  uplink-merc-rifleak-name
   description: uplink-merc-rifleak-desc
   productEntity: NFWeaponRifleAssaultSm
-  icon: { sprite: Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
   cost:
     Speso: 16800
   categories:
@@ -311,7 +311,7 @@
   name:  uplink-merc-lightrifle-name
   description: uplink-merc-lightrifle-desc
   productEntity: NFMagazineRifle30
-  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: red }
+  icon: { sprite: /Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: red }
   cost:
     Speso: 1000
   categories:
@@ -330,7 +330,7 @@
   name:  uplink-merc-magazineoistol-name
   description: uplink-merc-magazineoistol-desc
   productEntity: NFMagazinePistol35
-  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
+  icon: { sprite: /Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
   cost:
     Speso: 150
   categories:
@@ -349,7 +349,7 @@
   name:  uplink-merc-medkit-name
   description: uplink-merc-medkit-desc
   productEntity: MedkitCombatFilled
-  icon: { sprite: Objects/Specific/Medical/firstaidkits.rsi, state: blackkit }
+  icon: { sprite: /Objects/Specific/Medical/firstaidkits.rsi, state: blackkit }
   cost:
     Speso: 3000
   categories:
@@ -368,7 +368,7 @@
   name:  uplink-merc-mercpda-name
   description: uplink-merc-mercpda-desc
   productEntity: MercenaryPDA
-  icon: { sprite: _NF/Objects/Devices/pda.rsi, state: pda-mercenary }
+  icon: { sprite: /_NF/Objects/Devices/pda.rsi, state: pda-mercenary }
   cost:
     Speso: 150
   categories:
@@ -387,7 +387,7 @@
   name:  uplink-merc-jawsoflife-name
   description: uplink-merc-jawsoflife-desc
   productEntity: JawsOfLife
-  icon: { sprite: Objects/Tools/jaws_of_life.rsi, state: jaws_pry }
+  icon: { sprite: /Objects/Tools/jaws_of_life.rsi, state: jaws_pry }
   cost:
     Speso: 2600
   categories:
@@ -406,7 +406,7 @@
   name:  uplink-merc-grappling-name
   description: uplink-merc-grappling-desc
   productEntity: WeaponGrapplingGun
-  icon: { sprite: Objects/Weapons/Guns/Launchers/grappling_gun.rsi, state: base }
+  icon: { sprite: /Objects/Weapons/Guns/Launchers/grappling_gun.rsi, state: base }
   cost:
     Speso: 800
   categories:
@@ -425,7 +425,7 @@
   name:  uplink-merc-jetpack-name
   description: uplink-merc-jetpack-desc
   productEntity: JetpackMiniFilled
-  icon: { sprite: Objects/Tanks/Jetpacks/mini.rsi, state: icon }
+  icon: { sprite: /Objects/Tanks/Jetpacks/mini.rsi, state: icon }
   cost:
     Speso: 1300
   categories:
@@ -444,7 +444,7 @@
   name:  uplink-merc-headset-name
   description: uplink-merc-headset-desc
   productEntity: ClothingHeadsetAltMercenary
-  icon: { sprite: _NF/Clothing/Ears/Headsets/mercenary.rsi, state: icon_alt }
+  icon: { sprite: /_NF/Clothing/Ears/Headsets/mercenary.rsi, state: icon_alt }
   cost:
     Speso: 300
   categories:
@@ -463,7 +463,7 @@
   name:  uplink-merc-key-name
   description: uplink-merc-key-desc
   productEntity: EncryptionKeyMercenary
-  icon: { sprite: _Lua/encryption_keys.rsi, state: crypt_gray_uplink }
+  icon: { sprite: /_Lua/encryption_keys.rsi, state: crypt_gray_uplink }
   cost:
     Speso: 300
   categories:

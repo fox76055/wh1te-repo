@@ -8,15 +8,15 @@
     layers:
       - state: red
       - state: ai
-      - sprite: Mobs/Species/Human/parts.rsi
+      - sprite: /Mobs/Species/Human/parts.rsi
         state: full
-      - sprite: Clothing/Head/Helmets/cult.rsi
+      - sprite: /Clothing/Head/Helmets/cult.rsi
         state: equipped-HELMET
-      - sprite: Clothing/Shoes/Specific/cult.rsi
+      - sprite: /Clothing/Shoes/Specific/cult.rsi
         state: equipped-FEET
-      - sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
+      - sprite: /Clothing/OuterClothing/Armor/cult_armour.rsi
         state: equipped-OUTERCLOTHING
-      - sprite: Objects/Weapons/Guns/Basic/staves.rsi
+      - sprite: /Objects/Weapons/Guns/Basic/staves.rsi
         state: animation-inhand-right
   - type: ConditionalSpawner
     prototypes:
@@ -32,15 +32,15 @@
     layers:
       - state: red
       - state: ai
-      - sprite: Mobs/Species/Human/parts.rsi
+      - sprite: /Mobs/Species/Human/parts.rsi
         state: full
-      - sprite: Clothing/Head/Helmets/cult.rsi
+      - sprite: /Clothing/Head/Helmets/cult.rsi
         state: equipped-HELMET
-      - sprite: Clothing/Shoes/Specific/cult.rsi
+      - sprite: /Clothing/Shoes/Specific/cult.rsi
         state: equipped-FEET
-      - sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
+      - sprite: /Clothing/OuterClothing/Armor/cult_armour.rsi
         state: equipped-OUTERCLOTHING
-      - sprite: Objects/Weapons/Melee/cult_blade.rsi
+      - sprite: /Objects/Weapons/Melee/cult_blade.rsi
         state: inhand-right
   - type: ConditionalSpawner
     prototypes:
@@ -56,15 +56,15 @@
     layers:
       - state: red
       - state: ai
-      - sprite: Mobs/Species/Human/parts.rsi
+      - sprite: /Mobs/Species/Human/parts.rsi
         state: full
-      - sprite: Clothing/Head/Hoods/cult.rsi
+      - sprite: /Clothing/Head/Hoods/cult.rsi
         state: equipped-HELMET
-      - sprite: Clothing/Shoes/Specific/cult.rsi
+      - sprite: /Clothing/Shoes/Specific/cult.rsi
         state: equipped-FEET
-      - sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
+      - sprite: /Clothing/OuterClothing/Misc/cultrobes.rsi
         state: equipped-OUTERCLOTHING
-      - sprite: Objects/Weapons/Melee/cult_dagger.rsi
+      - sprite: /Objects/Weapons/Melee/cult_dagger.rsi
         state: inhand-right
   - type: ConditionalSpawner
     prototypes:
@@ -80,15 +80,15 @@
     layers:
       - state: red
       - state: ai
-      - sprite: Mobs/Species/Human/parts.rsi
+      - sprite: /Mobs/Species/Human/parts.rsi
         state: full
-      - sprite: Clothing/Head/Hoods/cult.rsi
+      - sprite: /Clothing/Head/Hoods/cult.rsi
         state: equipped-HELMET
-      - sprite: Clothing/Shoes/Specific/cult.rsi
+      - sprite: /Clothing/Shoes/Specific/cult.rsi
         state: equipped-FEET
-      - sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
+      - sprite: /Clothing/OuterClothing/Misc/cultrobes.rsi
         state: equipped-OUTERCLOTHING
-      - sprite: _NF/Objects/Weapons/Guns/Crossbow/cult.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Crossbow/cult.rsi
         state: inhand-left
   - type: ConditionalSpawner
     prototypes:
@@ -104,15 +104,15 @@
     layers:
       - state: red
       - state: ai
-      - sprite: Mobs/Species/Human/parts.rsi
+      - sprite: /Mobs/Species/Human/parts.rsi
         state: full
-      - sprite: Clothing/Head/Hoods/cult.rsi
+      - sprite: /Clothing/Head/Hoods/cult.rsi
         state: equipped-HELMET
-      - sprite: Clothing/Shoes/Specific/cult.rsi
+      - sprite: /Clothing/Shoes/Specific/cult.rsi
         state: equipped-FEET
-      - sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
+      - sprite: /Clothing/OuterClothing/Misc/cultrobes.rsi
         state: equipped-OUTERCLOTHING
-      - sprite: Objects/Weapons/Guns/Basic/staves.rsi
+      - sprite: /Objects/Weapons/Guns/Basic/staves.rsi
         state: animation-inhand-right
   - type: ConditionalSpawner
     prototypes:
@@ -128,7 +128,7 @@
     layers:
       - state: red
       - state: ai
-      - sprite: _NF/Mobs/BloodCult/bloodcultleech.rsi
+      - sprite: /_NF/Mobs/BloodCult/bloodcultleech.rsi
         state: leech
   - type: ConditionalSpawner
     prototypes:
@@ -144,7 +144,7 @@
     layers:
       - state: red
       - state: ai
-      - sprite: _NF/Mobs/BloodCult/ascended_cultist.rsi
+      - sprite: /_NF/Mobs/BloodCult/ascended_cultist.rsi
         state: ascended_cultist
   - type: ConditionalSpawner
     prototypes:
@@ -160,17 +160,17 @@
     layers:
       - state: red
       - state: ai
-      - sprite: Mobs/Species/Human/parts.rsi
+      - sprite: /Mobs/Species/Human/parts.rsi
         state: full
-      - sprite: _NF/Clothing/Mask/cult_janitor_mask.rsi
+      - sprite: /_NF/Clothing/Mask/cult_janitor_mask.rsi
         state: equipped-MASK
-      - sprite: _NF/Clothing/Head/Helmets/cult_janitor.rsi
+      - sprite: /_NF/Clothing/Head/Helmets/cult_janitor.rsi
         state: equipped-HELMET
-      - sprite: Clothing/Shoes/Specific/cult.rsi
+      - sprite: /Clothing/Shoes/Specific/cult.rsi
         state: equipped-FEET
-      - sprite: _NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
+      - sprite: /_NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
         state: equipped-OUTERCLOTHING
-      - sprite: Objects/Weapons/Melee/cult_blade.rsi
+      - sprite: /Objects/Weapons/Melee/cult_blade.rsi
         state: inhand-right
   - type: ConditionalSpawner
     prototypes:
@@ -185,7 +185,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: _NF/Mobs/Pets/cat.rsi
+      - sprite: /_NF/Mobs/Pets/cat.rsi
         state: cultcat
   - type: ConditionalSpawner
     prototypes:

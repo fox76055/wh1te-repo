@@ -9,7 +9,7 @@
           negative: true
   speciesBlacklist: [Avali]
   sprites:
-  - sprite: ADT/Mobs/Customization/augments/headaugs.rsi
+  - sprite: /ADT/Mobs/Customization/augments/headaugs.rsi
     state: malstrem
 
 - type: marking
@@ -23,7 +23,7 @@
           negative: true
   speciesBlacklist: [Avali]
   sprites:
-  - sprite: ADT/Mobs/Customization/augments/headaugs.rsi
+  - sprite: /ADT/Mobs/Customization/augments/headaugs.rsi
     state: beholder
 
 - type: marking
@@ -37,7 +37,7 @@
           negative: true
   speciesBlacklist: [Avali]
   sprites:
-  - sprite: ADT/Mobs/Customization/augments/headaugs.rsi
+  - sprite: /ADT/Mobs/Customization/augments/headaugs.rsi
     state: terminator
 
 - type: marking
@@ -51,5 +51,5 @@
           negative: true
   speciesBlacklist: [Avali]
   sprites:
-  - sprite: ADT/Mobs/Customization/augments/headaugs.rsi
+  - sprite: /ADT/Mobs/Customization/augments/headaugs.rsi
     state: iron_jaw

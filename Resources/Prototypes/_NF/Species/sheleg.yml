@@ -79,7 +79,7 @@
 # - type: humanoidBaseSprite
   # id: MobShelegEyes
   # baseSprite:
-    # sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    # sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     # state: eyes
 
 #- type: humanoidBaseSprite
@@ -96,83 +96,83 @@
 - type: humanoidBaseSprite
   id: MobShelegHead
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobShelegHeadMale
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobShelegHeadFemale
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobShelegTorso
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobShelegTorsoMale
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobShelegTorsoFemale
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobShelegLLeg
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobShelegLArm
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobShelegLHand
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobShelegLFoot
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobShelegRLeg
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobShelegRArm
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobShelegRHand
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobShelegRFoot
   baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: r_foot

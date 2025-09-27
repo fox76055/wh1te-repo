@@ -15,7 +15,7 @@
   - type: Instrument
     program: 9
   - type: Sprite
-    sprite: Objects/Fun/Instruments/glockenspiel.rsi
+    sprite: /Objects/Fun/Instruments/glockenspiel.rsi
 
 - type: entity
   parent: BasePercussionInstrument
@@ -26,7 +26,7 @@
   - type: Instrument
     program: 10
   - type: Sprite
-    sprite: Objects/Fun/Instruments/musicbox.rsi
+    sprite: /Objects/Fun/Instruments/musicbox.rsi
   - type: Item
     size: Small
 
@@ -39,7 +39,7 @@
   - type: Instrument
     program: 13
   - type: Sprite
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: xylophone
 
 - type: entity
@@ -56,7 +56,7 @@
       "Ooh": {53: 0}
       "Kweh": {4: 1}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/microphone.rsi
+    sprite: /Objects/Fun/Instruments/microphone.rsi
   - type: Item
     size: Small
 
@@ -69,7 +69,7 @@
   - type: Instrument
     program: 115
   - type: Sprite
-    sprite: Objects/Fun/Instruments/woodblock.rsi
+    sprite: /Objects/Fun/Instruments/woodblock.rsi
 
 - type: entity
   parent: BasePercussionInstrument
@@ -80,4 +80,4 @@
   - type: Instrument
     program: 119
   - type: Sprite
-    sprite: Objects/Fun/Instruments/reversecymbal.rsi
+    sprite: /Objects/Fun/Instruments/reversecymbal.rsi

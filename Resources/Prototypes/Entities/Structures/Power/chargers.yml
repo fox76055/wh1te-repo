@@ -75,7 +75,7 @@
   categories: [HideSpawnMenu] # Frontier: use the weapon recharger
   components:
   - type: Sprite
-    sprite: Structures/Power/cell_recharger.rsi
+    sprite: /Structures/Power/cell_recharger.rsi
     layers:
     - map: ["enum.PowerChargerVisualLayers.Base"]
       state: "empty"
@@ -132,7 +132,7 @@
   - type: Charger
     chargeRate: 50
   - type: Sprite
-    sprite: Structures/Power/cage_recharger.rsi
+    sprite: /Structures/Power/cage_recharger.rsi
   - type: PowerCellSlot
     cellSlotId: charger_slot
   - type: ItemSlots
@@ -157,7 +157,7 @@
   description: A modern recharging station that can fit both power cells and small electronic devices. # Wizden#38138
   components:
   - type: Sprite
-    sprite: Structures/Power/recharger.rsi
+    sprite: /Structures/Power/recharger.rsi
   - type: Machine
     board: WeaponCapacitorRechargerCircuitboard
   - type: ItemSlots
@@ -182,7 +182,7 @@
   description: An overclocked recharger, fits both power cells and small electronic devices. Not recommended for use around asthmatics. # Frontier: based on Wizden#38138, extra restate that it works on cells/guns.
   components:
   - type: Sprite
-    sprite: Structures/Power/turbo_recharger.rsi
+    sprite: /Structures/Power/turbo_recharger.rsi
   - type: Machine
     board: TurboItemRechargerCircuitboard
   - type: Charger
@@ -210,7 +210,7 @@
   components:
   - type: Sprite
     snapCardinals: false # imp
-    sprite: _NF/Structures/Power/wall_recharger.rsi # Frontier: use _NF variant
+    sprite: /_NF/Structures/Power/wall_recharger.rsi # Frontier: use _NF variant
     layers:
     - map: ["enum.PowerChargerVisualLayers.Base"]
       state: "empty"
@@ -247,7 +247,7 @@
   description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
   components:
   - type: Sprite
-    sprite: Structures/Power/borg_charger.rsi
+    sprite: /Structures/Power/borg_charger.rsi
     layers:
       - state: borgcharger-u1
         map: ["base"]

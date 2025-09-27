@@ -11,7 +11,7 @@
     - type: Transform
       anchored: true
     - type: Sprite
-      sprite: Structures/Machines/station_map.rsi
+      sprite: /Structures/Machines/station_map.rsi
       drawdepth: WallMountedItems
       layers:
         - state: station_map_broken
@@ -42,14 +42,14 @@
     - type: Transform
       anchored: true
     - type: Sprite
-      sprite: Structures/Machines/station_map.rsi
+      sprite: /Structures/Machines/station_map.rsi
       layers:
       - map: ["computerLayerBody"]
         state: station_map0
       - map: ["computerLayerScreen"]
         state: unshaded
     - type: Icon
-      sprite: Structures/Machines/station_map.rsi
+      sprite: /Structures/Machines/station_map.rsi
       state: station_map0
     - type: ContainerFill
       containers:
@@ -107,7 +107,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Machines/station_map.rsi
+    sprite: /Structures/Machines/station_map.rsi
     layers:
     - state: station_map_frame1
       map: [ "enum.ConstructionVisuals.Layer" ]

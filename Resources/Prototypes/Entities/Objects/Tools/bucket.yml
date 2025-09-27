@@ -9,7 +9,7 @@
     ignoreEmpty: true
   - type: Clickable
   - type: Sprite
-    sprite: Objects/Tools/bucket.rsi
+    sprite: /Objects/Tools/bucket.rsi
     layers:
     - state: icon
     - map: ["enum.SolutionContainerLayers.Fill"]
@@ -18,7 +18,7 @@
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Tools/bucket.rsi
+    sprite: /Objects/Tools/bucket.rsi
     slots:
     - HEAD
     quickEquip: false

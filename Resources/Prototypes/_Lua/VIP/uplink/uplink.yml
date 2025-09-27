@@ -12,11 +12,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Devices/communication.rsi
+    sprite: /_Lua/Objects/Devices/communication.rsi
     layers:
     - state: old-radio-vip
   - type: Item
-    sprite: _Lua/Objects/Devices/communication.rsi
+    sprite: /_Lua/Objects/Devices/communication.rsi
     heldPrefix: old-radio-vip
   - type: UserInterface
     interfaces:

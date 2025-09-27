@@ -18,7 +18,7 @@
         - ReagentId: FineRockDust
           Quantity: 15
   - type: Sprite
-    sprite: Objects/Misc/reagent_fillings.rsi
+    sprite: /Objects/Misc/reagent_fillings.rsi
     state: powderpile
     color: "#5f4d2e"
 
@@ -49,13 +49,13 @@
           Quantity: 12
   - type: Sprite
     layers:
-    - sprite: Objects/Specific/Hydroponics/fly_amanita.rsi
+    - sprite: /Objects/Specific/Hydroponics/fly_amanita.rsi
       state: produce
       offset: -0.2,0.1
       color: "#cb7b18"
-    - sprite: Objects/Misc/spaceshroom.rsi
+    - sprite: /Objects/Misc/spaceshroom.rsi
       state: spaceshroom_cooked
-    - sprite: Objects/Specific/Hydroponics/chanterelle.rsi
+    - sprite: /Objects/Specific/Hydroponics/chanterelle.rsi
       state: produce
       offset: 0.15,-0.1
       color: "#cb7b18"
@@ -92,10 +92,10 @@
   - type: Sprite
     color: "#ffffff" # reverting the brown from the parent
     layers:
-    - sprite: Objects/Misc/reagent_fillings.rsi
+    - sprite: /Objects/Misc/reagent_fillings.rsi
       state: powderpile
       color: "#b07265"
-    - sprite: Fluids/wet_floor_sparkles.rsi
+    - sprite: /Fluids/wet_floor_sparkles.rsi
       state: sparkles
       scale: 0.5,0.5
       offset: 0.0,-0.1
@@ -131,7 +131,7 @@
         - ReagentId: Haloperidol
           Quantity: 7.5
   - type: Sprite
-    sprite: Objects/Misc/reagent_fillings.rsi
+    sprite: /Objects/Misc/reagent_fillings.rsi
     state: powderpile
     color: "#a865a0"
 

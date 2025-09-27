@@ -8,7 +8,7 @@
     sound:
       collection: packetOpenSounds
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/glue-tube.rsi
+    sprite: /Objects/Consumable/Drinks/glue-tube.rsi
     layers:
       - state: icon
         map: ["enum.OpenableVisuals.Layer"]
@@ -51,7 +51,7 @@
     sound:
       collection: packetOpenSounds
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lube-tube.rsi
+    sprite: /Objects/Consumable/Drinks/lube-tube.rsi
     layers:
       - state: icon
         map: ["enum.OpenableVisuals.Layer"]
@@ -158,7 +158,7 @@
           True: {state: "icon_open"}
           False: {state: "icon_empty"}
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mopwata.rsi
+    sprite: /Objects/Consumable/Drinks/mopwata.rsi
     layers:
       - state: icon
         map: ["enum.OpenableVisuals.Layer"]

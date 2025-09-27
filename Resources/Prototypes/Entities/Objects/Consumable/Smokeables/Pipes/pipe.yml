@@ -5,15 +5,15 @@
   description: Just like grandpappy used to smoke.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Pipes/pipe.rsi
+    sprite: /Objects/Consumable/Smokeables/Pipes/pipe.rsi
     state: unlit-icon
   - type: Clothing
-    sprite: Objects/Consumable/Smokeables/Pipes/pipe.rsi
+    sprite: /Objects/Consumable/Smokeables/Pipes/pipe.rsi
     slots: [ mask ]
     equippedPrefix: unlit
   - type: Item
     size: Tiny
-    sprite: Objects/Consumable/Smokeables/Pipes/pipe.rsi
+    sprite: /Objects/Consumable/Smokeables/Pipes/pipe.rsi
   - type: Appearance
   - type: BurnStateVisuals
     unlitIcon: unlit-icon

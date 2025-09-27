@@ -9,9 +9,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Clothing/Belt/iris_belt.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Clothing/Belt/iris_belt.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Clothing/Belt/iris_belt.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Clothing/Belt/iris_belt.rsi
   - type: Storage
     grid:
       - 0,0,9,1
@@ -36,13 +36,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_multitool.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_multitool.rsi
     layers:
     - state: icon
     - state: green-unlit
       shader: unshaded
   - type: Clothing
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_multitool.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_multitool.rsi
     quickEquip: false
     slots:
     - Belt
@@ -55,12 +55,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_trayscanner.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_trayscanner.rsi
     layers:
     - state: tray-off
       map: ["base"]
   - type: Item
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_trayscanner.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_trayscanner.rsi
 
 - type: entity
   parent: JawsOfLife
@@ -70,7 +70,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
     state: syn_jaws_pry
   - type: Item
     inhandVisuals:
@@ -82,7 +82,7 @@
   - type: Prying
     speedModifier: 3.0
   - type: Clothing
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
     quickEquip: false
     slots:
       - Belt
@@ -90,13 +90,13 @@
     entries:
       - behavior: Prying
         sprite:
-          sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
+          sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
           state: syn_jaws_pry
         useSound: /Audio/Items/jaws_pry.ogg
         changeSound: /Audio/Items/change_jaws.ogg
       - behavior: Cutting
         sprite:
-          sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
+          sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_jawsoflife.rsi
           state: syn_jaws_cutter
         useSound: /Audio/Items/jaws_cut.ogg
         changeSound: /Audio/Items/change_jaws.ogg
@@ -113,7 +113,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_welder.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_welder.rsi
     layers:
     - state: icon
     - state: welder_flame
@@ -122,7 +122,7 @@
       map: ["enum.ToggleableVisuals.Layer"]
   - type: Item
     size: Small
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_welder.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_welder.rsi
 
 - type: entity
   parent: PowerDrill
@@ -132,13 +132,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
     state: drill_screw
   - type: Item
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
     size: Small
   - type: Clothing
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
     quickEquip: false
     slots:
       - Belt
@@ -147,7 +147,7 @@
     entries:
       - behavior: Screwing
         sprite:
-          sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
+          sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
           state: drill_screw
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -155,7 +155,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
+          sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_powerdrill.rsi
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -171,7 +171,7 @@
   components:
   - type: Item
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_massscanner.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_massscanner.rsi
     state: icon
     layers:
       - state: icon
@@ -188,7 +188,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_holofanprojector.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_holofanprojector.rsi
     state: icon
 
 - type: entity
@@ -199,7 +199,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_gasanalyzer.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Red/Tools/iris_tools_gasanalyzer.rsi
     layers:
       - state: icon
         map: ["analyzer"]

@@ -5,7 +5,7 @@
   description: The spiritual and magical lung of a former opera singer. Though, to be honest, the vocal chords make the performance.
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/organs.rsi
+    sprite: /Mobs/Species/Human/organs.rsi
     state: lung-l
   - type: Instrument
     program: 121
@@ -19,7 +19,7 @@
   description: For laying down the shoreline beat.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    sprite: /Objects/Fun/Instruments/otherinstruments.rsi
     state: seashell
   - type: Instrument
     program: 122
@@ -33,7 +33,7 @@
   description: A delightful little whistle in the shape of a bird. It sings beautifully.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    sprite: /Objects/Fun/Instruments/otherinstruments.rsi
     state: birdtoy
   - type: Instrument
     program: 123
@@ -48,7 +48,7 @@
   description: Should anything ever go wrong...
   components:
   - type: Sprite
-    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    sprite: /Objects/Fun/Instruments/otherinstruments.rsi
     state: red_phone
   - type: EmitSoundOnLand
     sound:
@@ -70,7 +70,7 @@
   description: For evil people to call their friends.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Instruments/blood_red_phone.rsi
+    sprite: /Objects/Fun/Instruments/blood_red_phone.rsi
     state: icon
   - type: Prayable
     sentMessage: prayer-popup-notify-syndicate-sent
@@ -83,7 +83,7 @@
   description: Ch-ka-ch-ka-ch-ka-ch-ka-ch-ka-ch-ka...
   components:
   - type: Sprite
-    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    sprite: /Objects/Fun/Instruments/otherinstruments.rsi
     state: helicopter
   - type: Instrument
     program: 125
@@ -98,7 +98,7 @@
   description: Seems like someone already used it all up...
   components:
   - type: Sprite
-    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    sprite: /Objects/Fun/Instruments/otherinstruments.rsi
     state: cannedapplause
   - type: Instrument
     program: 126
@@ -114,7 +114,7 @@
   - type: Instrument
     program: 127
   - type: Sprite
-    sprite: Objects/Fun/Instruments/gunpet.rsi
+    sprite: /Objects/Fun/Instruments/gunpet.rsi
   - type: Item
     size: Small
     storedRotation: -90
@@ -133,7 +133,7 @@
     program: 1
     bank: 1
   - type: Sprite
-    sprite: Objects/Fun/Instruments/bike_horn.rsi
+    sprite: /Objects/Fun/Instruments/bike_horn.rsi
   - type: Tag
     tags:
     - BrassInstrument #Go figure.

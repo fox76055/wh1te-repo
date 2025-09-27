@@ -17,7 +17,7 @@
   description: The keys to the future.
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/secway.rsi
+    sprite: /Objects/Vehicles/secway.rsi
     state: keys
   - type: Tag
     tags:
@@ -31,7 +31,7 @@
   description: Patterned after the iconic EMAG design.
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/syndicatesegway.rsi
+    sprite: /Objects/Vehicles/syndicatesegway.rsi
     state: keys
   - type: Tag
     tags:
@@ -45,7 +45,7 @@
   description: Think this looks like just one key? ATV keys means "actually two vehicle keys."
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/atv.rsi
+    sprite: /Objects/Vehicles/atv.rsi
     state: keys
   - type: Tag
     tags:
@@ -59,7 +59,7 @@
   description: Interesting design.
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/janicart.rsi
+    sprite: /Objects/Vehicles/janicart.rsi
     state: keys
   - type: Tag
     tags:

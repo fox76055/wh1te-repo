@@ -10,7 +10,7 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: diagnoser
 

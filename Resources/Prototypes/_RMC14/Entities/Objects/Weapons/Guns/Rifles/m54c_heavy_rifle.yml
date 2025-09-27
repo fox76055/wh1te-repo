@@ -5,7 +5,7 @@
   description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
@@ -15,7 +15,7 @@
     walkModifier: 0.75
     sprintModifier: 0.75
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi
   - type: Tag
     tags:
     - WeaponRifleM54CE2
@@ -89,7 +89,7 @@
     proto: CMCartridgeRifle10x24mm
     capacity: 200
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54ce2.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54ce2.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

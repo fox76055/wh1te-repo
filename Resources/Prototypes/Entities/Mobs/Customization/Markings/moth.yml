@@ -5,7 +5,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: default
 
 - type: marking
@@ -14,7 +14,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: charred
 
 - type: marking
@@ -23,7 +23,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: dbushy
 
 - type: marking
@@ -32,7 +32,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: dcurvy
 
 - type: marking
@@ -41,7 +41,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: dfan
 
 - type: marking
@@ -50,7 +50,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: dpointy
 
 - type: marking
@@ -59,7 +59,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: feathery
 
 - type: marking
@@ -68,7 +68,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: firewatch
 
 - type: marking
@@ -77,7 +77,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: gray
 
 - type: marking
@@ -86,7 +86,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: jungle
 
 - type: marking
@@ -95,7 +95,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: moffra
 
 - type: marking
@@ -104,7 +104,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: oakworm
 
 - type: marking
@@ -113,7 +113,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: plasmafire
 
 - type: marking
@@ -122,7 +122,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: maple
 
 - type: marking
@@ -131,7 +131,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: royal
 
 - type: marking
@@ -140,7 +140,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: striped
 
 - type: marking
@@ -149,7 +149,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: whitefly
 
 - type: marking
@@ -158,7 +158,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: witchwing
 
 - type: marking
@@ -167,9 +167,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: underwing_primary
-  - sprite: Mobs/Customization/Moth/moth_antennas.rsi
+  - sprite: /Mobs/Customization/Moth/moth_antennas.rsi
     state: underwing_secondary
 
 # Wings
@@ -179,7 +179,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: default
 
 - type: marking
@@ -188,7 +188,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: charred
 
 - type: marking
@@ -197,9 +197,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: dbushy_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: dbushy_secondary
 
 - type: marking
@@ -208,9 +208,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: deathhead_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: deathhead_secondary
 
 - type: marking
@@ -219,7 +219,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: fan
 
 - type: marking
@@ -228,7 +228,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: dfan
 
 - type: marking
@@ -237,7 +237,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: feathery
 
 - type: marking
@@ -246,9 +246,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: firewatch_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: firewatch_secondary
 
 - type: marking
@@ -257,7 +257,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: gothic
 
 - type: marking
@@ -266,7 +266,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: jungle
 
 - type: marking
@@ -275,7 +275,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: ladybug
 
 - type: marking
@@ -284,9 +284,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: maple_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: maple_secondary
 
 - type: marking
@@ -295,9 +295,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: moffra_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: moffra_secondary
 
 - type: marking
@@ -306,7 +306,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: oakworm
 
 - type: marking
@@ -315,9 +315,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: plasmafire_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: plasmafire_secondary
 
 - type: marking
@@ -326,7 +326,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: pointy
 
 - type: marking
@@ -335,9 +335,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: royal_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: royal_secondary
 
 - type: marking
@@ -346,7 +346,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: stellar
 
 - type: marking
@@ -355,7 +355,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: striped
 
 - type: marking
@@ -364,7 +364,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: swirly
 
 - type: marking
@@ -373,7 +373,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: whitefly
 
 - type: marking
@@ -382,7 +382,7 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: witchwing
 
 - type: marking
@@ -391,9 +391,9 @@
   markingCategory: Tail
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: underwing_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
+  - sprite: /Mobs/Customization/Moth/moth_wings.rsi
     state: underwing_secondary
 
 # Body markings:
@@ -404,7 +404,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: charred_chest
 
 - type: marking
@@ -413,7 +413,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: charred_head
 
 - type: marking
@@ -422,7 +422,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: charred_l_leg
 
 - type: marking
@@ -431,7 +431,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: charred_r_leg
 
 - type: marking
@@ -440,7 +440,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: charred_l_arm
 
 - type: marking
@@ -449,7 +449,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: charred_r_arm
 
 # Death's-Head
@@ -459,7 +459,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: deathhead_chest
 
 - type: marking
@@ -468,7 +468,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: deathhead_head
 
 - type: marking
@@ -477,7 +477,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: deathhead_l_leg
 
 - type: marking
@@ -486,7 +486,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: deathhead_r_leg
 
 - type: marking
@@ -495,7 +495,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: deathhead_l_arm
 
 - type: marking
@@ -504,7 +504,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: deathhead_r_arm
 
 # Fan
@@ -514,7 +514,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: fan_chest
 
 - type: marking
@@ -523,7 +523,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: fan_head
 
 - type: marking
@@ -532,7 +532,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: fan_l_leg
 
 - type: marking
@@ -541,7 +541,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: fan_r_leg
 
 - type: marking
@@ -550,7 +550,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: fan_l_arm
 
 - type: marking
@@ -559,7 +559,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: fan_r_arm
 
 # Firewatch
@@ -569,7 +569,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: firewatch_chest
 
 - type: marking
@@ -578,7 +578,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: firewatch_head
 
 - type: marking
@@ -587,7 +587,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: firewatch_l_leg
 
 - type: marking
@@ -596,7 +596,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: firewatch_r_leg
 
 - type: marking
@@ -605,7 +605,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: firewatch_l_arm
 
 - type: marking
@@ -614,7 +614,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: firewatch_r_arm
 
 # Gothic
@@ -624,7 +624,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: gothic_chest
 
 - type: marking
@@ -633,7 +633,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: gothic_head
 
 - type: marking
@@ -642,7 +642,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: gothic_l_leg
 
 - type: marking
@@ -651,7 +651,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: gothic_r_leg
 
 - type: marking
@@ -660,7 +660,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: gothic_l_arm
 
 - type: marking
@@ -669,7 +669,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: gothic_r_arm
 
 # Jungle
@@ -679,7 +679,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: jungle_chest
 
 - type: marking
@@ -688,7 +688,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: jungle_head
 
 - type: marking
@@ -697,7 +697,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: jungle_l_leg
 
 - type: marking
@@ -706,7 +706,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: jungle_r_leg
 
 - type: marking
@@ -715,7 +715,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: jungle_l_arm
 
 - type: marking
@@ -724,7 +724,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: jungle_r_arm
 
 # Moonfly
@@ -734,7 +734,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: moonfly_chest
 
 - type: marking
@@ -743,7 +743,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: moonfly_head
 
 - type: marking
@@ -752,7 +752,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: moonfly_l_leg
 
 - type: marking
@@ -761,7 +761,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: moonfly_r_leg
 
 - type: marking
@@ -770,7 +770,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: moonfly_l_arm
 
 - type: marking
@@ -779,7 +779,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: moonfly_r_arm
 
 # Oak Worm
@@ -789,7 +789,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: oakworm_chest
 
 - type: marking
@@ -798,7 +798,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: oakworm_head
 
 - type: marking
@@ -807,7 +807,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: oakworm_l_leg
 
 - type: marking
@@ -816,7 +816,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: oakworm_r_leg
 
 - type: marking
@@ -825,7 +825,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: oakworm_l_arm
 
 - type: marking
@@ -834,7 +834,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: oakworm_r_arm
 
 # Pointy
@@ -844,7 +844,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: pointy_chest
 
 - type: marking
@@ -853,7 +853,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: pointy_head
 
 - type: marking
@@ -862,7 +862,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: pointy_l_leg
 
 - type: marking
@@ -871,7 +871,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: pointy_r_leg
 
 - type: marking
@@ -880,7 +880,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: pointy_l_arm
 
 - type: marking
@@ -889,7 +889,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: pointy_r_arm
 
 # Ragged
@@ -899,7 +899,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: ragged_chest
 
 - type: marking
@@ -908,7 +908,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: ragged_head
 
 - type: marking
@@ -917,7 +917,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: ragged_l_leg
 
 - type: marking
@@ -926,7 +926,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: ragged_r_leg
 
 - type: marking
@@ -935,7 +935,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: ragged_l_arm
 
 - type: marking
@@ -944,7 +944,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: ragged_r_arm
 
 # Royal
@@ -954,7 +954,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: royal_chest
 
 - type: marking
@@ -963,7 +963,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: royal_head
 
 - type: marking
@@ -972,7 +972,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: royal_l_leg
 
 - type: marking
@@ -981,7 +981,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: royal_r_leg
 
 - type: marking
@@ -990,7 +990,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: royal_l_arm
 
 - type: marking
@@ -999,7 +999,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: royal_r_arm
 
 # White Fly
@@ -1009,7 +1009,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: whitefly_chest
 
 - type: marking
@@ -1018,7 +1018,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: whitefly_head
 
 - type: marking
@@ -1027,7 +1027,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: whitefly_l_leg
 
 - type: marking
@@ -1036,7 +1036,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: whitefly_r_leg
 
 - type: marking
@@ -1045,7 +1045,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: whitefly_l_arm
 
 - type: marking
@@ -1054,7 +1054,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: whitefly_r_arm
 
 # Witch Wing
@@ -1064,7 +1064,7 @@
   markingCategory: Chest
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: witchwing_chest
 
 - type: marking
@@ -1073,7 +1073,7 @@
   markingCategory: Head
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: witchwing_head
 
 - type: marking
@@ -1082,7 +1082,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: witchwing_l_leg
 
 - type: marking
@@ -1091,7 +1091,7 @@
   markingCategory: Legs
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: witchwing_r_leg
 
 - type: marking
@@ -1100,7 +1100,7 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: witchwing_l_arm
 
 - type: marking
@@ -1109,5 +1109,5 @@
   markingCategory: Arms
   speciesRestriction: [Moth]
   sprites:
-  - sprite: Mobs/Customization/Moth/moth_parts.rsi
+  - sprite: /Mobs/Customization/Moth/moth_parts.rsi
     state: witchwing_r_arm

@@ -51,7 +51,7 @@
       baseSprintSpeed: 5
       baseWeightlessModifier: 1.5
     - type: Sprite
-      sprite: Mobs/Demons/behonker.rsi
+      sprite: /Mobs/Demons/behonker.rsi
       layers:
         - map: [ "enum.DamageStateVisualLayers.Base" ]
           state: alive

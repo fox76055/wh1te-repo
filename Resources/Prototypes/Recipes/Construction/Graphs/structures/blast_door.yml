@@ -49,7 +49,7 @@
               store: board
               name: construction-graph-tag-door-electronics-circuit-board
               icon:
-                sprite: "Objects/Misc/module.rsi"
+                sprite: "/Objects/Misc/module.rsi"
                 state: "door_electronics"
               doAfter: 2
         - to: frame1

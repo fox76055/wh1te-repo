@@ -68,7 +68,7 @@
   - type: Sprite
     netsync: false
     noRot: true
-    sprite: _Lua/Structures/Machines/computers.rsi
+    sprite: /_Lua/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -101,13 +101,13 @@
   - type: Sprite
     netsync: false
     noRot: true
-    sprite: _Lua/Structures/Machines/computers.rsi
+    sprite: /_Lua/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: computer_blackmarket
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: generic_keyboard
     - map: ["computerLayerScreen"]
       state: suplinktypan

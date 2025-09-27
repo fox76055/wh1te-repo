@@ -8,7 +8,7 @@
   - type: HumanoidAppearance
     species: Gingerbread
   - type: Icon
-    sprite: Mobs/Species/Gingerbread/parts.rsi
+    sprite: /Mobs/Species/Gingerbread/parts.rsi
     state: full
   - type: Body
     prototype: Gingerbread
@@ -19,10 +19,10 @@
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
-        sprite: Mobs/Effects/brute_damage.rsi
+        sprite: /Mobs/Effects/brute_damage.rsi
         color: "#896e55"
       Burn:
-        sprite: Mobs/Effects/burn_damage.rsi
+        sprite: /Mobs/Effects/burn_damage.rsi
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -56,7 +56,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: /Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
 
 
@@ -72,5 +72,5 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: /Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female

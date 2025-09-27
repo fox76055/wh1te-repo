@@ -19,12 +19,12 @@
         machine_board: !type:Container
         machine_parts: !type:Container
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Turrets/teslaturret.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Turrets/teslaturret.rsi
       drawdepth: Mobs
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
         - state: teslaturret
-          sprite: _Lua/Objects/Weapons/Guns/Turrets/teslaturret.rsi
+          sprite: /_Lua/Objects/Weapons/Guns/Turrets/teslaturret.rsi
     - type: ExplosionResistance
       damageCoefficient: 0.5 # Lua
     - type: Destructible
@@ -92,6 +92,6 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon

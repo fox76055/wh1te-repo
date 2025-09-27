@@ -6,9 +6,9 @@
   description: So heavy, but it's worth it to proudly wear it.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/great_druid_wreath.rsi
+    sprite: /ADT/Clothing/Head/Hats/great_druid_wreath.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/great_druid_wreath.rsi
+    sprite: /ADT/Clothing/Head/Hats/great_druid_wreath.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -17,9 +17,9 @@
   description: Dungeon Master Hat.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/dungeon_master.rsi
+    sprite: /ADT/Clothing/Head/Hats/dungeon_master.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/dungeon_master.rsi
+    sprite: /ADT/Clothing/Head/Hats/dungeon_master.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -28,9 +28,9 @@
   description: Marine beret
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/marineberet.rsi
+    sprite: /ADT/Clothing/Head/Hats/marineberet.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/marineberet.rsi
+    sprite: /ADT/Clothing/Head/Hats/marineberet.rsi
 
 #Conjurer
 - type: entity
@@ -40,9 +40,9 @@
   description: Looks strange but cool
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/johan_cap.rsi
+    sprite: /ADT/Clothing/Head/Hats/johan_cap.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/johan_cap.rsi
+    sprite: /ADT/Clothing/Head/Hats/johan_cap.rsi
 
 #Фуражка следователя
 - type: entity
@@ -52,6 +52,6 @@
   description: Glory to NanoTrasen!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/investigator_cap.rsi
+    sprite: /ADT/Clothing/Head/Hats/investigator_cap.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/investigator_cap.rsi
+    sprite: /ADT/Clothing/Head/Hats/investigator_cap.rsi

@@ -18,7 +18,7 @@
         steps:
         - tag: WhoopieCushion
           icon:
-            sprite: Objects/Fun/whoopie.rsi
+            sprite: /Objects/Fun/whoopie.rsi
             state: icon
           name: construction-graph-tag-whoopie-cushion
           doAfter: 2

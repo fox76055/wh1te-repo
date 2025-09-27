@@ -61,7 +61,7 @@
         layer:
         - TabletopMachineLayer
   - type: Sprite
-    sprite: Structures/Machines/microwave.rsi
+    sprite: /Structures/Machines/microwave.rsi
     drawdepth: SmallObjects
     snapCardinals: true
     layers:
@@ -128,7 +128,7 @@
     canMicrowaveIdsSafely: false
     explosionChance: 1 # Frontier 0.3<1
   - type: Sprite
-    sprite: Structures/Machines/microwave_syndie.rsi
+    sprite: /Structures/Machines/microwave_syndie.rsi
     drawdepth: SmallObjects
     snapCardinals: true
   - type: Machine

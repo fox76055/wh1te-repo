@@ -5,12 +5,12 @@
   description: Special anti-gravity boots developed with a speciality blend of lunar rock gel. Shipped from the Netherlands. By clicking your heels you can turn them off!
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/moonboots.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/moonboots.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ] # Frontier: Enum changes from Wizden#35341
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/moonboots.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/moonboots.rsi
   - type: NFMoonBoots
   - type: StaticPrice
     price: 75
@@ -44,9 +44,9 @@
   description: A roll of treated canvas used for wrapping feet or paws.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Misc/clothwrap.rsi
+    sprite: /_NF/Clothing/Shoes/Misc/clothwrap.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Misc/clothwrap.rsi
+    sprite: /_NF/Clothing/Shoes/Misc/clothwrap.rsi
   - type: Construction
     graph: CraftShoesClothwrap
     node: CraftShoesClothwrap

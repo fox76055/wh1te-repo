@@ -13,7 +13,7 @@
   - type: StaticPrice
     price: 10000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/lightmunitionsbay.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/lightmunitionsbay.rsi
     layers:
     - state: space_artillery
   - type: Appearance

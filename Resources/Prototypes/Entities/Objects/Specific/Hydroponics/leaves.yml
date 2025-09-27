@@ -7,7 +7,7 @@
   description: "Recently legalized in most galaxies."
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/cannabis.rsi
+    sprite: /Objects/Specific/Hydroponics/cannabis.rsi
   - type: Produce
     seedId: cannabis
   - type: Food
@@ -37,7 +37,7 @@
         - ReagentId: THC
           Quantity: 12
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/tobacco.rsi
+    sprite: /Objects/Specific/Hydroponics/tobacco.rsi
     state: dried
 
 - type: entity
@@ -56,7 +56,7 @@
         - ReagentId: THC
           Quantity: 20
   - type: Sprite
-    sprite: Objects/Misc/reagent_fillings.rsi
+    sprite: /Objects/Misc/reagent_fillings.rsi
     state: powderpile
     color: darkgreen
   - type: Construction
@@ -76,7 +76,7 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Specific/Hydroponics/rainbow_cannabis.rsi
+    - sprite: /Objects/Specific/Hydroponics/rainbow_cannabis.rsi
       state: produce
       shader: unshaded
   - type: Produce
@@ -133,7 +133,7 @@
         - ReagentId: Psicodine
           Quantity: 0.48
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/rainbow_cannabis.rsi
+    sprite: /Objects/Specific/Hydroponics/rainbow_cannabis.rsi
     state: dried
 
 - type: entity
@@ -162,7 +162,7 @@
         - ReagentId: Psicodine
           Quantity: 0.8
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/rainbow_cannabis.rsi
+    sprite: /Objects/Specific/Hydroponics/rainbow_cannabis.rsi
     state: powderpile_rainbow
     color: white
   - type: Construction
@@ -176,7 +176,7 @@
   description: "Can be dried out to make tea."
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/tea_plant.rsi
+    sprite: /Objects/Specific/Hydroponics/tea_plant.rsi
   - type: Produce
     seedId: teaPlant
   - type: SolutionContainerManager
@@ -199,7 +199,7 @@
         - ReagentId: TeaPowder
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/tea_plant.rsi
+    sprite: /Objects/Specific/Hydroponics/tea_plant.rsi
     state: dried
 
 - type: entity
@@ -209,7 +209,7 @@
   description: "Dry them out to make some smokes."
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/tobacco.rsi
+    sprite: /Objects/Specific/Hydroponics/tobacco.rsi
   - type: Produce
     seedId: tobacco
   - type: StaticPrice
@@ -231,7 +231,7 @@
         - ReagentId: Nicotine
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/tobacco.rsi
+    sprite: /Objects/Specific/Hydroponics/tobacco.rsi
     state: dried
 
 - type: entity
@@ -250,7 +250,7 @@
         - ReagentId: Nicotine
           Quantity: 10
   - type: Sprite
-    sprite: Objects/Misc/reagent_fillings.rsi
+    sprite: /Objects/Misc/reagent_fillings.rsi
     state: powderpile
     color: brown
   - type: Construction

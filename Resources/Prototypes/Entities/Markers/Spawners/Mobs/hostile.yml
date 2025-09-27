@@ -7,7 +7,7 @@
     layers:
     - state: green
     - state: clown
-      sprite: Mobs/Animals/clownspider.rsi
+      sprite: /Mobs/Animals/clownspider.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobClownSpider
@@ -21,7 +21,7 @@
     layers:
     - state: green
     - state: bear
-      sprite: Mobs/Animals/bear.rsi
+      sprite: /Mobs/Animals/bear.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobBearSpace
@@ -35,7 +35,7 @@
     layers:
     - state: green
     - state: base
-      sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi
+      sprite: /Objects/Weapons/Guns/Battery/behonker_eye.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobBehonkerIce
@@ -53,7 +53,7 @@
     layers:
     - state: green
     - state: kangaroo
-      sprite: Mobs/Animals/kangaroo.rsi
+      sprite: /Mobs/Animals/kangaroo.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobBoxingKangaroo
@@ -67,7 +67,7 @@
     layers:
     - state: green
     - state: hellspawn
-      sprite: Markers/mobs.rsi
+      sprite: /Markers/mobs.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobHellspawn
@@ -82,7 +82,7 @@
     layers:
     - state: green
     - state: kangaroo-space
-      sprite: Mobs/Animals/kangaroo.rsi
+      sprite: /Mobs/Animals/kangaroo.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobKangarooSpace
@@ -96,7 +96,7 @@
     layers:
     - state: green
     - state: luminous_entity
-      sprite: Mobs/Elemental/living_light/luminous_entity.rsi
+      sprite: /Mobs/Elemental/living_light/luminous_entity.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobLuminousEntity
@@ -110,7 +110,7 @@
     layers:
     - state: green
     - state: luminous_object
-      sprite: Mobs/Elemental/living_light/luminous_object.rsi
+      sprite: /Mobs/Elemental/living_light/luminous_object.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobLuminousObject
@@ -124,7 +124,7 @@
     layers:
     - state: green
     - state: luminous_person
-      sprite: Mobs/Elemental/living_light/luminous_person.rsi
+      sprite: /Mobs/Elemental/living_light/luminous_person.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobLuminousPerson
@@ -138,7 +138,7 @@
     layers:
     - state: green
     - state: quartz_crab
-      sprite: Mobs/Elemental/orecrab.rsi
+      sprite: /Mobs/Elemental/orecrab.rsi
   - type: RandomSpawner
     prototypes:
     # Frontier: use NF variants
@@ -162,7 +162,7 @@
     layers:
     - state: green
     - state: purple_snake
-      sprite: Mobs/Aliens/Xenos/purple_snake.rsi
+      sprite: /Mobs/Aliens/Xenos/purple_snake.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobPurpleSnake # Frontier MobPurpleSnake<NFMobPurpleSnake
@@ -176,7 +176,7 @@
     layers:
     - state: green
     - state: small_purple_snake
-      sprite: Mobs/Aliens/Xenos/purple_snake.rsi
+      sprite: /Mobs/Aliens/Xenos/purple_snake.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobSmallPurpleSnake # Frontier MobSmallPurpleSnake<NFMobSmallPurpleSnake
@@ -191,7 +191,7 @@
     layers:
     - state: green
     - state: spacecobra
-      sprite: Mobs/Animals/spacecobra.rsi
+      sprite: /Mobs/Animals/spacecobra.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobCobraSpace
@@ -206,7 +206,7 @@
     layers:
     - state: green
     - state: spacespider
-      sprite: Mobs/Animals/spacespider.rsi
+      sprite: /Mobs/Animals/spacespider.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobSpiderSpace
@@ -220,7 +220,7 @@
     layers:
     - state: green
     - state: unshaded
-      sprite: Mobs/Aliens/Lavaland/watcher.rsi
+      sprite: /Mobs/Aliens/Lavaland/watcher.rsi
       color: deepskyblue
     - state: ai
   - type: ConditionalSpawner
@@ -236,7 +236,7 @@
     layers:
     - state: green
     - state: unshaded
-      sprite: Mobs/Aliens/Lavaland/watcher.rsi
+      sprite: /Mobs/Aliens/Lavaland/watcher.rsi
       color: red
     - state: ai
   - type: ConditionalSpawner
@@ -252,7 +252,7 @@
     layers:
     - state: green
     - state: unshaded
-      sprite: Mobs/Aliens/Lavaland/watcher.rsi
+      sprite: /Mobs/Aliens/Lavaland/watcher.rsi
       color: orangered
     - state: ai
   - type: ConditionalSpawner
@@ -268,7 +268,7 @@
     layers:
     - state: green
     - state: unshaded
-      sprite: Mobs/Aliens/Lavaland/watcher.rsi
+      sprite: /Mobs/Aliens/Lavaland/watcher.rsi
     - state: ai
   - type: ConditionalSpawner
     prototypes:

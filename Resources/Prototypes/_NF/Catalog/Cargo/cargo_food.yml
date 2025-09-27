@@ -2,7 +2,7 @@
   abstract: true
   id: FoodCrateFreezer
   icon:
-    sprite: Structures/Storage/Crates/freezer.rsi
+    sprite: /Structures/Storage/Crates/freezer.rsi
     state: icon
   product: CrateFreezer
   cost: 500

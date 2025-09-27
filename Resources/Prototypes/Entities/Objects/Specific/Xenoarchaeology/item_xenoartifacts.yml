@@ -9,7 +9,7 @@
   components:
   # Visual
   - type: Sprite
-    sprite: Objects/Specific/Xenoarchaeology/item_artifacts.rsi
+    sprite: /Objects/Specific/Xenoarchaeology/item_artifacts.rsi
     layers:
     - state: ano01
       map: [ "enum.ArtifactsVisualLayers.Base" ]
@@ -17,7 +17,7 @@
       map: [ "enum.ArtifactsVisualLayers.UnlockingEffect" ]
       visible: false
     - state: artifact-activation
-      sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
+      sprite: /Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
       map: [ "enum.ArtifactsVisualLayers.ActivationEffect" ]
       visible: false
   - type: Physics
@@ -48,7 +48,7 @@
   # gameplay interactions
   - type: Item
     size: Normal
-    sprite: Objects/Specific/Xenoarchaeology/item_artifacts.rsi
+    sprite: /Objects/Specific/Xenoarchaeology/item_artifacts.rsi
     heldPrefix: ano01
   - type: Construction
     graph: Artifact
@@ -80,7 +80,7 @@
   description: A broken piece of an artifact. You could probably repair it if you had more.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Xenoarchaeology/artifact_fragments.rsi
+    sprite: /Objects/Specific/Xenoarchaeology/artifact_fragments.rsi
     layers:
     - state: ancientball1
       map: [ "enum.ArtifactsVisualLayers.Base" ]

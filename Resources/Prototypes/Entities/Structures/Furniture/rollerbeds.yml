@@ -10,7 +10,7 @@
       size: Normal
       heldPrefix: rollerbed
     - type: Sprite
-      sprite: Structures/Furniture/rollerbeds.rsi
+      sprite: /Structures/Furniture/rollerbeds.rsi
       noRot: true
       layers:
       - state: rollerbed

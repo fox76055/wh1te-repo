@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/grey.rsi
+    sprite: /_NF/Objects/Storage/Barrels/grey.rsi
     layers:
     - state: icon
     - state: icon_open
@@ -93,49 +93,49 @@
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/grey.rsi
+    sprite: /_NF/Objects/Storage/Barrels/grey.rsi
 
 - type: entity
   id: MetalBarrelBlue
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/blue.rsi
+    sprite: /_NF/Objects/Storage/Barrels/blue.rsi
 
 - type: entity
   id: MetalBarrelRed
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/red.rsi
+    sprite: /_NF/Objects/Storage/Barrels/red.rsi
 
 - type: entity
   id: MetalBarrelYellow
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/yellow.rsi
+    sprite: /_NF/Objects/Storage/Barrels/yellow.rsi
 
 - type: entity
   id: MetalBarrelGreen
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/green.rsi
+    sprite: /_NF/Objects/Storage/Barrels/green.rsi
 
 - type: entity
   id: MetalBarrelWhite
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/white.rsi
+    sprite: /_NF/Objects/Storage/Barrels/white.rsi
 
 - type: entity
   id: MetalBarrelBlack
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/black.rsi
+    sprite: /_NF/Objects/Storage/Barrels/black.rsi
 
 - type: entity
   id: ChemicalBarrelExplosiveEmpty
@@ -145,7 +145,7 @@
   description: The ancient and mysterious symbol on the front is believed to have once meant 'Use me as cover!' in days of yore.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/red.rsi
+    sprite: /_NF/Objects/Storage/Barrels/red.rsi
     layers:
     - state: icon
     - state: icon_open

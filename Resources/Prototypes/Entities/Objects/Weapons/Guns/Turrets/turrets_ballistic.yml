@@ -94,7 +94,7 @@
     factions:
     - Xeno
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Turrets/xenoturret.rsi
+    sprite: /Objects/Weapons/Guns/Turrets/xenoturret.rsi
     noRot: true
     layers:
     - state: acid_turret

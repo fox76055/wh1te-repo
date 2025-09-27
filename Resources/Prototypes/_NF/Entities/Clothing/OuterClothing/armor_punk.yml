@@ -5,9 +5,9 @@
   name: punk armor
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_green.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_green.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_green.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_green.rsi
 
 - type: entity
   parent: ClothingOuterArmorPunkGreen
@@ -15,9 +15,9 @@
   name: punk armor
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_orange.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_orange.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_orange.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_orange.rsi
 
 - type: entity
   parent: ClothingOuterArmorPunkGreen
@@ -25,9 +25,9 @@
   name: punk armor
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_red.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_red.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_red.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_red.rsi
 
 - type: entity
   parent: ClothingOuterArmorPunkGreen
@@ -36,7 +36,7 @@
   suffix: Random visuals
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
     layers:
     - state: base_OuterClothing_armor_01
       map: [ "armor_main" ]
@@ -46,7 +46,7 @@
       #map: [ "armor_overlay" ]
       #shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
     clothingVisuals:
       outerClothing:
       - state: base_OuterClothing_armor_01
@@ -86,7 +86,7 @@
   suffix: Random visuals
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural_elite.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural_elite.rsi
     layers:
     - state: base_OuterClothing_armor_01
       map: [ "armor_elite_main" ]
@@ -96,7 +96,7 @@
       map: [ "armor_elite_overlay" ]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural_elite.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural_elite.rsi
     clothingVisuals:
       outerClothing:
       - state: base_OuterClothing_armor_01

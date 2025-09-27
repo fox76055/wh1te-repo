@@ -13,12 +13,12 @@
     tags:
     - Sidearm
   - type: Sprite
-    sprite: _Goobstation/Objects/Weapons/Guns/Pistols/anaconda.rsi
+    sprite: /_Goobstation/Objects/Weapons/Guns/Pistols/anaconda.rsi
     layers:
     - state: icon
       map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: _Goobstation/Objects/Weapons/Guns/Pistols/anaconda.rsi
+    sprite: /_Goobstation/Objects/Weapons/Guns/Pistols/anaconda.rsi
     quickEquip: false
     slots:
     - suitStorage

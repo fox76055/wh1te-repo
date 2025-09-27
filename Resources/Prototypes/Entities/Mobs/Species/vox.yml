@@ -6,7 +6,7 @@
   - type: Hunger
   - type: Thirst
   - type: Icon
-    sprite: Mobs/Species/Vox/parts.rsi
+    sprite: /Mobs/Species/Vox/parts.rsi
     state: vox_m
   - type: Body
     prototype: Vox
@@ -52,10 +52,10 @@
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
-        sprite: Mobs/Effects/brute_damage.rsi
+        sprite: /Mobs/Effects/brute_damage.rsi
         color: "#7a8bf2"
       Burn:
-        sprite: Mobs/Effects/burn_damage.rsi
+        sprite: /Mobs/Effects/burn_damage.rsi
   - type: Bloodstream
     bloodReagent: AmmoniaBlood
   - type: MeleeWeapon
@@ -107,11 +107,11 @@
     - map: [ "pocket2" ]
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
+      sprite: /Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false
     - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
+      sprite: "/Effects/creampie.rsi"
       state: "creampie_vox" # Not default
       visible: false
   - type: HumanoidAppearance
@@ -122,7 +122,7 @@
       Hair:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: hair
   - type: Inventory
     speciesId: vox
@@ -130,58 +130,58 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: jumpsuit
       underwearb:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: jumpsuit
       eyes:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: eyes
       gloves:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: hand
       head:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: head
       back:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: back
       ears:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: ears
       shoes:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: shoes
   - type: Hands
     leftHandDisplacement:
       sizeMaps:
         32:
-          sprite: Mobs/Species/Vox/displacement.rsi
+          sprite: /Mobs/Species/Vox/displacement.rsi
           state: hand_l
     rightHandDisplacement:
       sizeMaps:
         32:
-          sprite: Mobs/Species/Vox/displacement.rsi
+          sprite: /Mobs/Species/Vox/displacement.rsi
           state: hand_r
 
 - type: entity
@@ -197,7 +197,7 @@
       Hair:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: hair
   - type: Body
     prototype: Vox
@@ -207,56 +207,56 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: jumpsuit
       underwearb:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: jumpsuit
       eyes:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: eyes
       gloves:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: hand
       head:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: head
       back:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: back
       ears:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: ears
       shoes:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Vox/displacement.rsi
+            sprite: /Mobs/Species/Vox/displacement.rsi
             state: shoes
   - type: Hands
     leftHandDisplacement:
       sizeMaps:
         32:
-          sprite: Mobs/Species/Vox/displacement.rsi
+          sprite: /Mobs/Species/Vox/displacement.rsi
           state: hand_l
     rightHandDisplacement:
       sizeMaps:
         32:
-          sprite: Mobs/Species/Vox/displacement.rsi
+          sprite: /Mobs/Species/Vox/displacement.rsi
           state: hand_r

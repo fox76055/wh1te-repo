@@ -7,7 +7,7 @@
     arc: 360
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/paintings.rsi
+    sprite: /Structures/Wallmounts/paintings.rsi
 
 - type: entity
   parent: PaintingBase

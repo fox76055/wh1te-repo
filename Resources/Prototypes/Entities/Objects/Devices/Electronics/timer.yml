@@ -5,7 +5,7 @@
   description: An electronics board used in timer circuitry. Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: charger_APC
   - type: Construction
     deconstructionTarget: null

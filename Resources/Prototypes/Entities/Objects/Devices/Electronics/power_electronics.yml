@@ -7,7 +7,7 @@
   components:
     - type: ApcElectronics
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: charger_APC
     - type: PhysicalComposition
       materialComposition:
@@ -25,7 +25,7 @@
   description: Circuit used to construct a wallmount substation.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: charger_APC
     - type: StaticPrice
       price: 40
@@ -41,7 +41,7 @@
   description: Circuit used to construct a wallmount generator.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: charger_APC
   - type: StaticPrice
     price: 20
@@ -60,7 +60,7 @@
   description: Circuit used to construct a wallmount APU.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: charger_APC
     - type: StaticPrice
       price: 40
@@ -76,7 +76,7 @@
   description: Advanced circuit board used to track the nearest star.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: engineering
     - type: StaticPrice
       price: 85

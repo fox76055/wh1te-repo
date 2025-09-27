@@ -5,14 +5,14 @@
   description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo. # TODO: Need to create projectiles, magazines and boxes for 5.56.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
     size: Ginormous
   - type: Gun
     minAngle: 4
@@ -69,7 +69,7 @@
   description: A extremely heavy advance minigun with multiple barrels, it uses 5mm ammo. # TODO: Need to create projectiles, magazines and boxes for 5.56.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/avengerminigun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/avengerminigun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -77,7 +77,7 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     size: Huge
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/avengerminigun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/avengerminigun.rsi
   - type: Gun
     minAngle: 3
     maxAngle: 6

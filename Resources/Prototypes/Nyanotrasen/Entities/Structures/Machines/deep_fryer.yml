@@ -8,7 +8,7 @@
     noRot: false
   - type: Sprite
     netsync: false
-    sprite: Nyanotrasen/Structures/Machines/deep_fryer.rsi
+    sprite: /Nyanotrasen/Structures/Machines/deep_fryer.rsi
     layers:
       - state: off-0
       - map: ["enum.SolutionContainerLayers.Fill"]
@@ -181,7 +181,7 @@
   suffix: Holiday Special
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/cauldron.rsi
+    sprite: /_NF/Structures/Machines/cauldron.rsi
     snapCardinals: true
   - type: SolutionContainerVisuals
     maxFillLevels: 8

@@ -14,7 +14,7 @@
       food:
         maxVol: 50 # enough to make cheese in.
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: /Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - map: ["enum.SolutionContainerLayers.Fill"]
@@ -75,7 +75,7 @@
   description: A simple bowl, broken and useless.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: /Objects/Consumable/Food/bowl.rsi
     state: bowl-trash
   - type: Tag
     tags:
@@ -97,7 +97,7 @@
   description: A fancy bowl, used for SPECIAL soups and salads.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: /Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl2
     - map: ["enum.SolutionContainerLayers.Fill"]

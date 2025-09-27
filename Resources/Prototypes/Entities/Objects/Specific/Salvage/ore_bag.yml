@@ -9,7 +9,7 @@
     magnetCanBeEnabled: false # Frontier
     range: 1.5
   - type: Sprite
-    sprite: Objects/Specific/Mining/ore_bag.rsi
+    sprite: /Objects/Specific/Mining/ore_bag.rsi
     # Frontier: layered sprite
     layers:
     - state: icon
@@ -18,7 +18,7 @@
       map: [ "enum.ToggleableVisuals.Layer" ]
     # End Frontier
   - type: Clothing
-    sprite: Objects/Specific/Mining/ore_bag.rsi
+    sprite: /Objects/Specific/Mining/ore_bag.rsi
     quickEquip: false
     slots:
     - belt

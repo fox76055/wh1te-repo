@@ -39,7 +39,7 @@
         store: board
         name: construction-graph-tag-air-alarm-electronics
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "/Objects/Misc/module.rsi"
           state: "door_electronics" # /tg/ uses the same sprite, right?
         doAfter: 1
     - to: assembly
@@ -118,7 +118,7 @@
         store: board
         name: construction-graph-tag-fire-alarm-electronics
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "/Objects/Misc/module.rsi"
           state: "door_electronics" # /tg/ uses the same sprite, right?
         doAfter: 1
     - to: assembly

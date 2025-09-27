@@ -18,7 +18,7 @@
   parent: [PartSheleg, BaseTorso]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "torso_m"
   - type: Extractable
     juiceSolution:
@@ -34,7 +34,7 @@
   parent: [PartSheleg, BaseHead]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "head_m"
   - type: Extractable
     juiceSolution:
@@ -50,7 +50,7 @@
   parent: [PartSheleg, BaseLeftArm]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "l_arm"
 
 - type: entity
@@ -59,7 +59,7 @@
   parent: [PartSheleg, BaseRightArm]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "r_arm"
 
 - type: entity
@@ -68,7 +68,7 @@
   parent: [PartSheleg, BaseLeftHand]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "l_hand"
 
 - type: entity
@@ -77,7 +77,7 @@
   parent: [PartSheleg, BaseRightHand]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "r_hand"
 
 - type: entity
@@ -86,7 +86,7 @@
   parent: [PartSheleg, BaseLeftLeg]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "l_leg"
 
 - type: entity
@@ -95,7 +95,7 @@
   parent: [PartSheleg, BaseRightLeg]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "r_leg"
 
 - type: entity
@@ -104,7 +104,7 @@
   parent: [PartSheleg, BaseLeftFoot]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "l_foot"
 
 - type: entity
@@ -113,5 +113,5 @@
   parent: [PartSheleg, BaseRightFoot]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: "r_foot"

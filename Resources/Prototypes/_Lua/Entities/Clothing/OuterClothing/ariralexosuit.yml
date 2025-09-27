@@ -5,11 +5,11 @@
   description: Легкий экзоскафандр для подлглядывания за новыми видами.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/ariral.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/ariral.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/ariral.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/ariral.rsi
   - type: ToggleClothing
     action: ActionTogglePhaseCloak
     disableOnUnequip: true
@@ -62,9 +62,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hardsuits/ariral.rsi
+    sprite: /_Lua/Clothing/Head/Hardsuits/ariral.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hardsuits/ariral.rsi
+    sprite: /_Lua/Clothing/Head/Hardsuits/ariral.rsi
   - type: RaceRequirement
     allowedRaces:
       - Ariral

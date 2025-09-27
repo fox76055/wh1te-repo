@@ -5,9 +5,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/reinforced_plasma_window.rsi # Frontier
+    sprite: /_NF/Structures/Windows/reinforced_plasma_window.rsi # Frontier
   - type: Icon
-    sprite: _NF/Structures/Windows/reinforced_plasma_window.rsi # Frontier
+    sprite: /_NF/Structures/Windows/reinforced_plasma_window.rsi # Frontier
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
@@ -52,7 +52,7 @@
     damageDivisor: 6
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: /Structures/Windows/cracks.rsi
   - type: StaticPrice
     price: 65 # Frontier: 132<65
   - type: Fixtures
@@ -78,10 +78,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: plasma_reinforced_window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: plasma_reinforced_window
   - type: Construction
     graph: WindowDirectional
@@ -92,7 +92,7 @@
     damageDivisor: 3
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_directional.rsi
+      sprite: /Structures/Windows/cracks_directional.rsi
   - type: Damageable
     damageModifierSet: RGlass
   - type: RadiationBlocker
@@ -136,7 +136,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/reinforced_plasma_diagonal.rsi # Frontier
+    sprite: /_NF/Structures/Windows/reinforced_plasma_diagonal.rsi # Frontier
     state: state0
   - type: Tag
     tags:
@@ -146,7 +146,7 @@
     key: walls # Frontier: windows<walls
     base: state
   - type: Icon
-    sprite: _NF/Structures/Windows/reinforced_plasma_diagonal.rsi # Frontier
+    sprite: /_NF/Structures/Windows/reinforced_plasma_diagonal.rsi # Frontier
     state: state0
   - type: Fixtures
     fixtures:
@@ -169,7 +169,7 @@
     - East
   - type: DamageVisuals
     damageOverlay:
-      sprite: Structures/Windows/cracks_diagonal.rsi
+      sprite: /Structures/Windows/cracks_diagonal.rsi
   - type: Construction
     graph: WindowDiagonal
     node: reinforcedPlasmaWindowDiagonal

@@ -7,7 +7,7 @@
   components:
   - type: Rotatable
   - type: Sprite
-    sprite: _NF/Structures/coffeemachine.rsi
+    sprite: /_NF/Structures/coffeemachine.rsi
     drawdepth: SmallObjects
     layers:
       - state: coffeemachine

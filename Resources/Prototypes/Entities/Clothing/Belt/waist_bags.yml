@@ -5,9 +5,9 @@
   description: A leather waist bag meant for carrying small items.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/waistbag_leather.rsi
+    sprite: /Clothing/Belt/waistbag_leather.rsi
   - type: Clothing
-    sprite: Clothing/Belt/waistbag_leather.rsi
+    sprite: /Clothing/Belt/waistbag_leather.rsi
   - type: Storage
     grid:
     - 0,0,3,1
@@ -20,13 +20,13 @@
 #  description: A waist bag meant for carrying small items.
 #  components:
 #  - type: Sprite
-#    sprite: Clothing/Belt/waistbag.rsi
+#    sprite: /Clothing/Belt/waistbag.rsi
 #    layers:
 #    - state: "waistbag"
 #      color: "#bf1313"
 #    - state: "waistbag-trinkets"
 #  - type: Clothing
-#    sprite: Clothing/Belt/waistbag.rsi
+#    sprite: /Clothing/Belt/waistbag.rsi
 #    layers:
 #    - state: "equipped-BELT"
 #      color: "#bf1313"

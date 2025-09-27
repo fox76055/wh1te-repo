@@ -28,7 +28,7 @@
           Structural: 40 # +10 damage compared to crusher glaive
     deactivatedSecret: true
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Melee/energy_pickaxe.rsi
+    sprite: /_NF/Objects/Weapons/Melee/energy_pickaxe.rsi
     layers:
       - state: e-pickaxe
       - state: e-pickaxe-blade
@@ -37,10 +37,10 @@
         shader: unshaded
         map: [ "blade" ]
   - type: Item
-    sprite: _NF/Objects/Weapons/Melee/energy_pickaxe.rsi
+    sprite: /_NF/Objects/Weapons/Melee/energy_pickaxe.rsi
     storedRotation: -45
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Melee/energy_pickaxe.rsi
+    sprite: /_NF/Objects/Weapons/Melee/energy_pickaxe.rsi
     quickEquip: false
     slots:
     - Belt

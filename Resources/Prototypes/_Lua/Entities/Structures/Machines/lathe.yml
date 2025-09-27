@@ -33,7 +33,7 @@
   description: Автолат для создания корабельного вооружения и аммуниции.
   components:
   - type: Sprite
-    sprite: _Lua/Structures/Machines/armorylathe.rsi
+    sprite: /_Lua/Structures/Machines/armorylathe.rsi
     snapCardinals: true
     layers:
     - state: base_machine
@@ -62,7 +62,7 @@
   description: Техфаб для производства медипенов
   components:
   - type: Sprite
-    sprite: _Lua/Structures/Machines/medipentechfab.rsi
+    sprite: /_Lua/Structures/Machines/medipentechfab.rsi
     layers:
     - state: icon
       map: ["enum.LatheVisualLayers.IsRunning"]

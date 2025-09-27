@@ -6,7 +6,7 @@
   components:
   # Frontier: layered sprite
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Belt/mailbag.rsi
+    sprite: /Nyanotrasen/Clothing/Belt/mailbag.rsi
     layers:
     - state: icon
     - state: icon-on
@@ -20,7 +20,7 @@
           False: { visible: false }
   # End Frontier: layered sprite
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Belt/mailbag.rsi
+    sprite: /Nyanotrasen/Clothing/Belt/mailbag.rsi
     quickEquip: false
     slots:
         - belt

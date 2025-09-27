@@ -16,9 +16,9 @@
       - EncryptionKeyTraffic
       - EncryptionKeyVip
   - type: Sprite
-    sprite: _Lua/Ears/vipalt.rsi
+    sprite: /_Lua/Ears/vipalt.rsi
   - type: Clothing
-    sprite: _Lua/Ears/vipalt.rsi
+    sprite: /_Lua/Ears/vipalt.rsi
 
 - type: entity
   parent: EncryptionKey
@@ -31,10 +31,10 @@
     - Vip
     defaultChannel: Vip
   - type: Item
-    sprite: _Lua/encryption_keys.rsi
+    sprite: /_Lua/encryption_keys.rsi
     size: Tiny
   - type: Sprite
-    sprite: _Lua/encryption_keys.rsi
+    sprite: /_Lua/encryption_keys.rsi
     layers:
     - state: crypt_black
     - state: vip_label

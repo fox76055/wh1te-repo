@@ -8,9 +8,9 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/meat.rsi
+    - sprite: /Objects/Consumable/Food/meat.rsi
       state: plain
-    - sprite: _NF/Objects/Misc/mold.rsi
+    - sprite: /_NF/Objects/Misc/mold.rsi
       state: mold
   - type: FlavorProfile
     flavors:
@@ -38,9 +38,9 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/meat.rsi
+    - sprite: /Objects/Consumable/Food/meat.rsi
       state: plain
-    - sprite: Objects/Misc/flies.rsi
+    - sprite: /Objects/Misc/flies.rsi
       state: flies
   - type: FlavorProfile
     flavors:
@@ -68,9 +68,9 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/burger.rsi
+    - sprite: /Objects/Consumable/Food/burger.rsi
       state: bacon
-    - sprite: Objects/Misc/flies.rsi
+    - sprite: /Objects/Misc/flies.rsi
       state: flies
       scale: 1.2, 1.2
   - type: SolutionContainerManager
@@ -94,9 +94,9 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/burger.rsi
+    - sprite: /Objects/Consumable/Food/burger.rsi
       state: bigbite
-    - sprite: Objects/Misc/flies.rsi
+    - sprite: /Objects/Misc/flies.rsi
       state: flies
       scale: 1.2, 1.2
   - type: SolutionContainerManager
@@ -120,9 +120,9 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/burger.rsi
+    - sprite: /Objects/Consumable/Food/burger.rsi
       state: cheese
-    - sprite: Objects/Misc/flies.rsi
+    - sprite: /Objects/Misc/flies.rsi
       state: flies
       scale: 1.2, 1.2
   - type: SolutionContainerManager
@@ -146,9 +146,9 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/burger.rsi
+    - sprite: /Objects/Consumable/Food/burger.rsi
       state: empowered
-    - sprite: Objects/Misc/flies.rsi
+    - sprite: /Objects/Misc/flies.rsi
       state: flies
       scale: 1.2, 1.2
   - type: SolutionContainerManager
@@ -172,9 +172,9 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/burger.rsi
+    - sprite: /Objects/Consumable/Food/burger.rsi
       state: plain
-    - sprite: Objects/Misc/flies.rsi
+    - sprite: /Objects/Misc/flies.rsi
       state: flies
       scale: 1.2, 1.2
   - type: SolutionContainerManager
@@ -199,11 +199,11 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/bowl.rsi
+    - sprite: /Objects/Consumable/Food/bowl.rsi
       state: bowl
-    - sprite: Objects/Consumable/Food/bowl.rsi
+    - sprite: /Objects/Consumable/Food/bowl.rsi
       state: rice-egg
-    - sprite: _NF/Objects/Misc/mold.rsi
+    - sprite: /_NF/Objects/Misc/mold.rsi
       state: mold
   - type: FlavorProfile
     flavors:
@@ -231,11 +231,11 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/bowl.rsi
+    - sprite: /Objects/Consumable/Food/bowl.rsi
       state: bowl
-    - sprite: Objects/Consumable/Food/bowl.rsi
+    - sprite: /Objects/Consumable/Food/bowl.rsi
       state: meatball
-    - sprite: _NF/Objects/Misc/mold.rsi
+    - sprite: /_NF/Objects/Misc/mold.rsi
       state: mold
   - type: FlavorProfile
     flavors:
@@ -263,11 +263,11 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/plates.rsi
+    - sprite: /Objects/Consumable/Food/plates.rsi
       state: plate
-    - sprite: Objects/Consumable/Food/noodles.rsi
+    - sprite: /Objects/Consumable/Food/noodles.rsi
       state: tomato
-    - sprite: _NF/Objects/Misc/mold.rsi
+    - sprite: /_NF/Objects/Misc/mold.rsi
       state: mold
   - type: FlavorProfile
     flavors:
@@ -295,11 +295,11 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/plates.rsi
+    - sprite: /Objects/Consumable/Food/plates.rsi
       state: plate
-    - sprite: Objects/Consumable/Food/noodles.rsi
+    - sprite: /Objects/Consumable/Food/noodles.rsi
       state: meatball
-    - sprite: _NF/Objects/Misc/mold.rsi
+    - sprite: /_NF/Objects/Misc/mold.rsi
       state: mold
   - type: FlavorProfile
     flavors:
@@ -327,11 +327,11 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Objects/Consumable/Food/bowl.rsi
+    - sprite: /Objects/Consumable/Food/bowl.rsi
       state: bowl
-    - sprite: Objects/Consumable/Food/bowl.rsi
+    - sprite: /Objects/Consumable/Food/bowl.rsi
       state: caesar
-    - sprite: _NF/Objects/Misc/mold.rsi
+    - sprite: /_NF/Objects/Misc/mold.rsi
       state: mold
   - type: FlavorProfile
     flavors:

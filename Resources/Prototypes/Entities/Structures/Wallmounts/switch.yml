@@ -16,7 +16,7 @@
     canCollide: false
   - type: Sprite
     drawdepth: WallMountedItems # Frontier: SmallObjects<WallMountedItems
-    sprite: Structures/Wallmounts/switch.rsi
+    sprite: /Structures/Wallmounts/switch.rsi
     state: on
   - type: SignalSwitch
   - type: UseDelay
@@ -59,7 +59,7 @@
     canCollide: false
   - type: Sprite
     drawdepth: WallMountedItems # Frontier: SmallObjects<WallMountedItems
-    sprite: Structures/Wallmounts/switch.rsi
+    sprite: /Structures/Wallmounts/switch.rsi
     state: dead
   - type: UseDelay
     delay: 0.5 # prevent light-toggling auto-clickers.
@@ -124,7 +124,7 @@
       anchored: true
     - type: Sprite
       drawdepth: WallMountedItems # Frontier: SmallObjects<WallMountedItems
-      sprite: Structures/Wallmounts/switch.rsi
+      sprite: /Structures/Wallmounts/switch.rsi
       state: on
     - type: Rotatable
     - type: ExtensionCableReceiver
@@ -153,7 +153,7 @@
     - type: InteractionOutline
     - type: Sprite
       drawdepth: HighFloorObjects
-      sprite: Structures/conveyor.rsi
+      sprite: /Structures/conveyor.rsi
       noRot: true
       layers:
         - state: switch-off
@@ -248,7 +248,7 @@
   - type: AccessReader
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/locked_switch.rsi
+    sprite: /Structures/Wallmounts/locked_switch.rsi
     layers:
     - state: base
     - state: locked
@@ -522,7 +522,7 @@
     canCollide: false
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: /Structures/Wallmounts/switch_frame.rsi
     state: grey
   - type: Rotatable
   - type: Fixtures
@@ -534,7 +534,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: /Structures/Wallmounts/switch_frame.rsi
     state: grey
   # Frontier: constructible button frames
   - type: Construction
@@ -549,7 +549,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: /Structures/Wallmounts/switch_frame.rsi
     state: caution
   # Frontier: constructible button frames
   - type: Construction
@@ -564,7 +564,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: /Structures/Wallmounts/switch_frame.rsi
     state: caution_security
   # Frontier: constructible button frames
   - type: Construction
@@ -579,7 +579,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: /Structures/Wallmounts/switch_frame.rsi
     state: exit
   # Frontier: constructible button frames
   - type: Construction
@@ -594,7 +594,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: /Structures/Wallmounts/switch_frame.rsi
     state: janitor
   # Frontier: constructible button frames
   - type: Construction

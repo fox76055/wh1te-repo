@@ -6,7 +6,7 @@
   components:
   - type: Action # Frontier, Wizden#27422 compliance, InstantAction<Action
     useDelay: 3.4 # Frontier: keep the old value
-    icon: { sprite: Objects/Fun/bikehorn.rsi, state: icon }
+    icon: { sprite: /Objects/Fun/bikehorn.rsi, state: icon }
   - type: InstantAction # Frontier, Wizden#27422 compliance
     event: !type:HornActionEvent
 
@@ -18,6 +18,6 @@
   components:
   - type: Action # Frontier, Wizden#27422 compliance, InstantAction<Action
     useDelay: 3.4 # Frontier: keep the old value
-    icon: { sprite: Objects/Fun/bikehorn.rsi, state: icon }
+    icon: { sprite: /Objects/Fun/bikehorn.rsi, state: icon }
   - type: InstantAction # Frontier, Wizden#27422 compliance
     event: !type:SirenActionEvent

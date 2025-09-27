@@ -17,7 +17,7 @@
           path:
             "/Audio/Weapons/slash.ogg"
     - type: Sprite
-      sprite: _Lua/fire.rsi
+      sprite: /_Lua/fire.rsi
       state: heat
       drawdepth: Overdoors
       netsync: false

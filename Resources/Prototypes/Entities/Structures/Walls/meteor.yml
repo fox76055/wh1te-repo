@@ -151,7 +151,7 @@
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_asteroid_west
         - state: rock_silver
-# Tin name is a holdover from the asteroid.yml prototype.
+# Tin name is a holdover from the /asteroid.yml prototype.
 - type: entity
   id: MeteorRockTin
   parent: MeteorRock

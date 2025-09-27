@@ -41,7 +41,7 @@
   - type: WiredNetworkConnection
   - type: PowerSwitch
   - type: Sprite
-    sprite: _NF/Objects/Specific/Atmospherics/extractor.rsi
+    sprite: /_NF/Objects/Specific/Atmospherics/extractor.rsi
     snapCardinals: true
     granularLayersRendering: true
     layers:
@@ -123,7 +123,7 @@
     prefix: device-address-prefix-sale-point
   - type: WiredNetworkConnection # still needed?
   - type: Sprite
-    sprite: _NF/Structures/Piping/Atmospherics/salepoint.rsi
+    sprite: /_NF/Structures/Piping/Atmospherics/salepoint.rsi
     layers:
       - state: base
       - state: base-unlit
@@ -169,7 +169,7 @@
         nodeGroupID: Pipe
         pipeDirection: South
   - type: Sprite
-    sprite: _NF/Structures/Piping/Atmospherics/salepoint.rsi
+    sprite: /_NF/Structures/Piping/Atmospherics/salepoint.rsi
     layers:
       - state: base
       - state: base-unlit
@@ -232,9 +232,9 @@
   - type: Sprite
     noRot: true
     drawdepth: Mobs
-    sprite: _NF/Structures/Machines/GasConverter/32x32.rsi
+    sprite: /_NF/Structures/Machines/GasConverter/32x32.rsi
     layers:
-    - sprite: _NF/Structures/Machines/GasConverter/base.rsi
+    - sprite: /_NF/Structures/Machines/GasConverter/base.rsi
       state: base
     - state: fan
       map: [fan]
@@ -282,7 +282,7 @@
     group: Consumer
     loadNode: input
     collectionName: transmissionpoint
-    sprite: _NF/Structures/Power/transmission_point_icon.rsi
+    sprite: /_NF/Structures/Power/transmission_point_icon.rsi
     state: icon # FIXME: no icon, machine doesn't appear on the power monitor
   - type: WiredNetworkConnection
   - type: UserInterface

@@ -5,6 +5,6 @@
   description: A suit that protects against minor chemical spills. Has an red stripe on the shoulder.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi

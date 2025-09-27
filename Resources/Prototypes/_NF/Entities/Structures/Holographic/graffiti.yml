@@ -39,9 +39,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: _NF/Structures/Holo/graffiti/simple.rsi
+      - sprite: /_NF/Structures/Holo/graffiti/simple.rsi
         state: holograffiti17
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -144,7 +144,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti01
       map: [ "graffiti" ]
@@ -163,7 +163,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti02
       map: [ "graffiti" ]
@@ -182,7 +182,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti03
       map: [ "graffiti" ]
@@ -201,7 +201,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti04
       map: [ "graffiti" ]
@@ -220,7 +220,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti05
       map: [ "graffiti" ]
@@ -239,7 +239,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti06
       map: [ "graffiti" ]
@@ -258,7 +258,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti07
       map: [ "graffiti" ]
@@ -277,7 +277,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti08
       map: [ "graffiti" ]
@@ -296,7 +296,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti09
       map: [ "graffiti" ]
@@ -315,7 +315,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti10
       map: [ "graffiti" ]
@@ -334,7 +334,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti11
       map: [ "graffiti" ]
@@ -353,7 +353,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti12
       map: [ "graffiti" ]
@@ -372,7 +372,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti13
       map: [ "graffiti" ]
@@ -391,7 +391,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti14
       map: [ "graffiti" ]
@@ -410,7 +410,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti15
       map: [ "graffiti" ]
@@ -429,7 +429,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti16
       map: [ "graffiti" ]
@@ -448,7 +448,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti17
       map: [ "graffiti" ]
@@ -467,7 +467,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti18
       map: [ "graffiti" ]
@@ -486,7 +486,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti19
       map: [ "graffiti" ]
@@ -505,7 +505,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti20
       map: [ "graffiti" ]
@@ -524,7 +524,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti21
       map: [ "graffiti" ]
@@ -543,7 +543,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    sprite: /_NF/Structures/Holo/graffiti/simple.rsi
     layers:
     - state: holograffiti22
       map: [ "graffiti" ]
@@ -563,7 +563,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti01
       map: [ "graffiti" ]
@@ -587,7 +587,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti02
       map: [ "graffiti" ]
@@ -611,7 +611,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti03
       map: [ "graffiti" ]
@@ -635,7 +635,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti04
       map: [ "graffiti" ]
@@ -659,7 +659,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti05
       map: [ "graffiti" ]
@@ -683,7 +683,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti06
       map: [ "graffiti" ]
@@ -707,7 +707,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti07
       map: [ "graffiti" ]
@@ -731,7 +731,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti08
       map: [ "graffiti" ]
@@ -755,7 +755,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti09
       map: [ "graffiti" ]
@@ -779,7 +779,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti10
       map: [ "graffiti" ]
@@ -803,7 +803,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti11
       map: [ "graffiti" ]
@@ -827,7 +827,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti12
       map: [ "graffiti" ]
@@ -851,7 +851,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti13
       map: [ "graffiti" ]
@@ -875,7 +875,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti14
       map: [ "graffiti" ]
@@ -905,7 +905,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti15
       map: [ "graffiti" ]
@@ -936,7 +936,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti16
       map: [ "graffiti" ]
@@ -961,7 +961,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti17
       map: [ "graffiti" ]
@@ -986,7 +986,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti18
       map: [ "graffiti" ]
@@ -1010,7 +1010,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti19
       map: [ "graffiti" ]
@@ -1034,7 +1034,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti20
       map: [ "graffiti" ]
@@ -1058,7 +1058,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti21
       map: [ "graffiti" ]
@@ -1082,7 +1082,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti22
       map: [ "graffiti" ]
@@ -1106,7 +1106,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti23
       map: [ "graffiti" ]
@@ -1130,7 +1130,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti24
       map: [ "graffiti" ]
@@ -1154,7 +1154,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti25
       map: [ "graffiti" ]
@@ -1178,7 +1178,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti26
       map: [ "graffiti" ]
@@ -1202,7 +1202,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     snapCardinals: true
-    sprite: _NF/Structures/Holo/graffiti/highlighted.rsi
+    sprite: /_NF/Structures/Holo/graffiti/highlighted.rsi
     layers:
     - state: holograffiti27
       map: [ "graffiti" ]

@@ -6,7 +6,7 @@
   description: I don't have a drinking problem, the cask solved it.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/keg_steel.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_steel.rsi
     state: icon
     scale: 0.8, 0.8
     layers:
@@ -21,7 +21,7 @@
     shape:
     - 0,0,2,2
   - type: Clothing
-    sprite: _NF/Objects/Consumable/Drinks/keg_steel.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_steel.rsi
     quickEquip: false
     slots:
     - Back
@@ -92,9 +92,9 @@
   name: steel cask
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/keg_steel.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_steel.rsi
   - type: Clothing
-    sprite: _NF/Objects/Consumable/Drinks/keg_steel.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_steel.rsi
   - type: PhysicalComposition
     materialComposition:
       Steel: 150
@@ -105,9 +105,9 @@
   name: wood cask
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/keg_wood.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_wood.rsi
   - type: Clothing
-    sprite: _NF/Objects/Consumable/Drinks/keg_wood.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_wood.rsi
   - type: PhysicalComposition
     materialComposition:
       Wood: 150
@@ -118,7 +118,7 @@
   name: plastic cask
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/keg_plastic.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_plastic.rsi
     layers:
     - state: icon
     - state: keg-alpha-6
@@ -130,7 +130,7 @@
       map: ["enum.PaperLabelVisuals.Layer"]
       visible: true
   - type: Clothing
-    sprite: _NF/Objects/Consumable/Drinks/keg_plastic.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/keg_plastic.rsi
   - type: PhysicalComposition
     materialComposition:
       Plastic: 150

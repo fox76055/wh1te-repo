@@ -98,7 +98,7 @@
   name: ID карта охраны ЦК
   components:
     - type: Sprite
-      sprite: Backmen/Objects/Misc/id_cards.rsi
+      sprite: /Backmen/Objects/Misc/id_cards.rsi
       layers:
       - state: card_centcom # Backmen
       - state: sub_department # Backmen

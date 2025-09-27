@@ -8,7 +8,7 @@
     tags:
     - Soap
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/soap.rsi
+    sprite: /Objects/Specific/Janitorial/soap.rsi
     layers:
     - state: soap-4
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -18,7 +18,7 @@
     changeColor: false
   - type: Appearance
   - type: Item
-    sprite: Objects/Specific/Janitorial/soap.rsi
+    sprite: /Objects/Specific/Janitorial/soap.rsi
     storedRotation: -90
   - type: Slippery
   - type: StepTrigger
@@ -243,12 +243,12 @@
   description: A Nanotrasen brand bar of soap. Smells of plasma and machines.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/soap.rsi
+    sprite: /Objects/Specific/Janitorial/soap.rsi
     layers:
     - state: nt-4
   - type: Appearance
   - type: Item
-    sprite: Objects/Specific/Janitorial/soap.rsi
+    sprite: /Objects/Specific/Janitorial/soap.rsi
     storedRotation: -90
   - type: CleansForensics
   - type: Residue

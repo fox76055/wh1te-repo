@@ -45,7 +45,7 @@
           store: board
           name: construction-graph-tag-wallmount-substation-circuit-board
           icon:
-            sprite: "Objects/Misc/module.rsi"
+            sprite: "/Objects/Misc/module.rsi"
             state: "charger_APC"
           doAfter: 0.5
         - anyTags:
@@ -54,7 +54,7 @@
           store: powercell
           name: construction-graph-tag-power-cell
           icon:
-            sprite: "Objects/Power/power_cells.rsi"
+            sprite: "/Objects/Power/power_cells.rsi"
             state: "medium"
           doAfter: 0.5
         - material: Manipulator

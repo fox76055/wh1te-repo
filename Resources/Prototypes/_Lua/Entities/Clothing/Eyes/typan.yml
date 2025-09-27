@@ -10,12 +10,12 @@
   components:
   - type: ShowSyndicateIcons
   - type: Sprite
-    sprite: Clothing/Eyes/Hud/syndagent.rsi
+    sprite: /Clothing/Eyes/Hud/syndagent.rsi
   - type: ShowHealthBars
     damageContainers:
     - Biological
   - type: Clothing
-    sprite: Clothing/Eyes/Hud/syndagent.rsi
+    sprite: /Clothing/Eyes/Hud/syndagent.rsi
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
@@ -24,7 +24,7 @@
   description: Удобный визор со встроенной системой разпознавания.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Hud/synd.rsi
+    sprite: /Clothing/Eyes/Hud/synd.rsi
   - type: ShowSyndicateIcons
   - type: Clothing
-    sprite: Clothing/Eyes/Hud/synd.rsi
+    sprite: /Clothing/Eyes/Hud/synd.rsi

@@ -5,9 +5,9 @@
   description: A carapace worn by Naval Command members.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/OuterClothing/Armor/centcom_naval_carapace.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Armor/centcom_naval_carapace.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/OuterClothing/Armor/centcom_naval_carapace.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Armor/centcom_naval_carapace.rsi
     - type: Armor
       modifiers:
         coefficients:

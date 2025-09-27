@@ -26,7 +26,7 @@
     capacity: 40
     # proto: BulletFoam # Frontier
   - type: Sprite
-    sprite: Objects/Storage/boxes.rsi
+    sprite: /Objects/Storage/boxes.rsi
     layers:
       - state: boxwidetoy
       - state: shelltoy
@@ -44,7 +44,7 @@
     steps: 4
     zeroVisible: false
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Boxes/magnum.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Boxes/magnum.rsi
     layers:
       - state: capbase # Frontier: base<capbase
         map: ["enum.GunVisualLayers.Base"]

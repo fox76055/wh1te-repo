@@ -9,9 +9,9 @@
   description: Черный берет с позолоченной вышивкой, предпочитаемый офицерами телекоммуникаций.
   components:
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_hos.rsi
+    sprite: /Clothing/Head/Hats/beret_hos.rsi
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_hos.rsi
+    sprite: /Clothing/Head/Hats/beret_hos.rsi
   - type: Tag
     tags:
     - ClothMade

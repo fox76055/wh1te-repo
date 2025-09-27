@@ -7,7 +7,7 @@
     proto: NFCartridgeRifle25Rubber
     capacity: 10
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
     layers:
     - state: rubber
       map: ["enum.GunVisualLayers.Base"]
@@ -19,7 +19,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Item
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -38,7 +38,7 @@
   - type: BallisticAmmoProvider
     proto: NFCartridgeRifle25Rubber
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi
     layers:
     - state: rubber
       map: ["enum.GunVisualLayers.Base"]
@@ -54,7 +54,7 @@
     proto: NFCartridgeRifle25Rubber
     capacity: 20
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag_short.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag_short.rsi
     layers:
     - state: rubber
       map: ["enum.GunVisualLayers.Base"]

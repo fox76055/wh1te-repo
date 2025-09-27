@@ -15,7 +15,7 @@
     - Structure
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Storage/Shelfs/wood.rsi
+    sprite: /Structures/Storage/Shelfs/wood.rsi
     state: base
   - type: Transform
   - type: Damageable
@@ -57,7 +57,7 @@
   - type: Lock
   - type: LockVisuals
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/wood.rsi
+    sprite: /Structures/Storage/Shelfs/wood.rsi
     state: base
     layers:
     - state: rbase
@@ -123,7 +123,7 @@
   description: A sturdy place to place, well, anything really.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/metal.rsi
+    sprite: /Structures/Storage/Shelfs/metal.rsi
     state: base
   - type: Damageable
     damageModifierSet: Metallic
@@ -164,7 +164,7 @@
   description: A fragile place to place, well, anything really.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/glass.rsi
+    sprite: /Structures/Storage/Shelfs/glass.rsi
     state: base
   - type: Damageable
     damageModifierSet: Glass
@@ -206,7 +206,7 @@
   description: A safe place to put your favorite bottle of whiskey.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/wood.rsi
+    sprite: /Structures/Storage/Shelfs/wood.rsi
     state: base
     layers:
     - state: rbase
@@ -252,7 +252,7 @@
   description: A strong & shiny place to keep all your vials safe.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/metal.rsi
+    sprite: /Structures/Storage/Shelfs/metal.rsi
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -295,7 +295,7 @@
   description: Crystal clear reinforced glass doors to show off all your fancy bottles you definitely didn't sell a co-worker's favorite mothroach for.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/glass.rsi
+    sprite: /Structures/Storage/Shelfs/glass.rsi
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -339,7 +339,7 @@
   description: Made out of the finest synthetic wood for all alcohol holding needs.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/Departments/Service/bar.rsi
+    sprite: /Structures/Storage/Shelfs/Departments/Service/bar.rsi
     state: base
     layers:
       - state: base
@@ -389,7 +389,7 @@
   description: Holds knifes, spice, and everything nice!
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/Departments/Service/kitchen.rsi
+    sprite: /Structures/Storage/Shelfs/Departments/Service/kitchen.rsi
     state: base
     layers:
       - state: base
@@ -445,7 +445,7 @@
   description: Keeps all your chemicals safe and out of the clow- er, public hands!
   components:
   - type: Sprite
-    sprite: Structures/Storage/Shelfs/Departments/Medical/chemistry.rsi
+    sprite: /Structures/Storage/Shelfs/Departments/Medical/chemistry.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]

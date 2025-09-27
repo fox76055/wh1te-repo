@@ -10,7 +10,7 @@
       drink:
         maxVol: 200
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/icebucket.rsi
+    sprite: /Objects/Consumable/Drinks/icebucket.rsi
     state: icon
   - type: PhysicalComposition
     materialComposition:

@@ -441,7 +441,7 @@
 - type: alert
   id: Adrenaline
   icons:
-  - sprite: Mobs/Species/Human/organs.rsi
+  - sprite: /Mobs/Species/Human/organs.rsi
     state: heart-on
   name: alerts-adrenaline-name
   description: alerts-adrenaline-desc

@@ -9,12 +9,12 @@
   description: Эти тактические перчатки огнеупорны и ударопрочны.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
@@ -26,10 +26,10 @@
       enum.ToggleableVisuals.Enabled:
         enum.ToggleableVisuals.Layer:
           True:
-            sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade_activated.rsi
+            sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade_activated.rsi
             state: icon
           False:
-            sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade.rsi
+            sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade.rsi
             state: icon
   - type: ItemToggle
     onUse: false
@@ -94,7 +94,7 @@
   - type: Action
     useDelay: 1.0
     icon:
-      sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade_activated.rsi
+      sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Weapons/lua_blade_activated.rsi
       state: icon
     itemIconStyle: NoItem
   - type: InstantAction

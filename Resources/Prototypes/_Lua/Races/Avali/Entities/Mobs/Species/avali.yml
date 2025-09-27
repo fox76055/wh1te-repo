@@ -44,7 +44,7 @@
   - type: HarpyVisuals
   - type: CantCarryOthers
   - type: Icon
-    sprite: _Lua/Races/Avali/parts.rsi
+    sprite: /_Lua/Races/Avali/parts.rsi
     state: full
   - type: Body
     prototype: Avali
@@ -77,7 +77,7 @@
       # Ensure local stencil buffer is cleared before any clothing with displacement/shader writes.
       # This prevents clothes from disappearing in UI previews and with vision overlays.
       - shader: StencilClear
-        sprite: Mobs/Species/Human/parts.rsi
+        sprite: /Mobs/Species/Human/parts.rsi
         # Using a full-size human limb as a harmless quad to clear the stencil in the entity's draw region.
         # See similar usage in vulpkanin species prototype.
         state: l_leg
@@ -90,7 +90,7 @@
       - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
-        sprite: Objects/Misc/handcuffs.rsi
+        sprite: /Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
       - map: [ "id" ]
@@ -132,149 +132,149 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: jumpsuit
       underwearb:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: jumpsuit
       outerClothing:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: outerClothing
       eyes:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: eyes
       gloves:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: hands
       head:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: head
       back:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: back
       ears:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: ears
       shoes:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: feet
       socks:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: feet
       neck:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: neck
       mask:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: mask
       suitstorage:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: suitStorage
       belt:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: belt
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: jumpsuit
       underwearb:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: jumpsuit
       outerClothing:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: outerClothing
       eyes:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: eyes
       gloves:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: hands
       head:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: head
       back:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: back
       ears:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: ears
       shoes:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: feet
       socks:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: feet
       neck:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: neck
       mask:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: mask
       suitstorage:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: suitStorage
       belt:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: belt
   - type: Hands
     handDisplacement:
       sizeMaps:
         32:
-          sprite: _Lua/Races/Avali/displacement.rsi
+          sprite: /_Lua/Races/Avali/displacement.rsi
           state: inHand
 
 - type: entity
@@ -348,147 +348,147 @@
         jumpsuit:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: jumpsuit
         underwearb:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: jumpsuit
         outerClothing:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: outerClothing
         eyes:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: eyes
         gloves:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: hands
         head:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: head
         back:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: back
         ears:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: ears
         shoes:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: feet
         socks:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: feet
         neck:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: neck
         mask:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: mask
         suitstorage:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: suitStorage
         belt:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: belt
       femaleDisplacements:
         jumpsuit:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: jumpsuit
         underwearb:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: jumpsuit
         outerClothing:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: outerClothing
         eyes:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: eyes
         gloves:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: hands
         head:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: head
         back:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: back
         ears:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: ears
         shoes:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: feet
         socks:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: feet
         neck:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: neck
         mask:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: mask
         suitstorage:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: suitStorage
         belt:
           sizeMaps:
             32:
-              sprite: _Lua/Races/Avali/displacement.rsi
+              sprite: /_Lua/Races/Avali/displacement.rsi
               state: belt
     - type: Hands
       handDisplacement:
         sizeMaps:
           32:
-            sprite: _Lua/Races/Avali/displacement.rsi
+            sprite: /_Lua/Races/Avali/displacement.rsi
             state: inHand

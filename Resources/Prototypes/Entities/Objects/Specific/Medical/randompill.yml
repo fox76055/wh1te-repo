@@ -108,7 +108,7 @@
     random: true # Frontier
 # RandomSprite does not work with pill component
   # - type: Sprite
-  #   sprite: Objects/Specific/Chemistry/pills.rsi
+  #   sprite: /Objects/Specific/Chemistry/pills.rsi
   #   layers:
   #   - state: pill1
   #     map: [ "enum.DamageStateVisualLayers.Base" ]

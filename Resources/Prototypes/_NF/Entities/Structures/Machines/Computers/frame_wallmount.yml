@@ -10,7 +10,7 @@
       graph: ComputerWallmount
       node: wallmount computer
     - type: Sprite
-      sprite: _NF/Structures/Machines/computer_wallmount.rsi
+      sprite: /_NF/Structures/Machines/computer_wallmount.rsi
       drawdepth: WallMountedItems
       layers:
         - map: [ "computerLayerBody" ]
@@ -51,7 +51,7 @@
       - board
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _NF/Structures/Machines/computer_wallmount.rsi
+    sprite: /_NF/Structures/Machines/computer_wallmount.rsi
     layers:
     - state: computer_wallmount_frame
       map: [ "enum.ConstructionVisuals.Layer" ]
@@ -73,5 +73,5 @@
   components:
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _NF/Structures/Machines/computer_wallmount.rsi
+    sprite: /_NF/Structures/Machines/computer_wallmount.rsi
     state: broken_wallmount

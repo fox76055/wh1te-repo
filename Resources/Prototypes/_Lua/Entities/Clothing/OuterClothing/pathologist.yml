@@ -9,9 +9,9 @@
   description: Идеальное сочетание тепла и стиля для тех, кто любит замораживать не только своих пациентов, но и окружающих своим холодом.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/WinterCoats/pathologist.rsi
+    sprite: /_Lua/Clothing/OuterClothing/WinterCoats/pathologist.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/WinterCoats/pathologist.rsi
+    sprite: /_Lua/Clothing/OuterClothing/WinterCoats/pathologist.rsi
 
 - type: entity
   parent: ClothingOuterBase
@@ -20,6 +20,6 @@
   description: Роба которая помогает не испачкаться для тех, кто считает, что черный – единственный цвет радуги, который они видят каждый день.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Coats/pathologist.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Coats/pathologist.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Coats/pathologist.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Coats/pathologist.rsi

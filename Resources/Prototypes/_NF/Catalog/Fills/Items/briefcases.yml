@@ -8,11 +8,11 @@
   suffix: Money
   components:
   - type: Sprite
-    sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+    sprite: /Objects/Storage/Briefcases/briefcase_brown.rsi
     state: icon
   - type: Item
     size: Ginormous
-    sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+    sprite: /Objects/Storage/Briefcases/briefcase_brown.rsi
   - type: IgnoreMarketModifier # Worth exactly what it says.
 
 - type: entity

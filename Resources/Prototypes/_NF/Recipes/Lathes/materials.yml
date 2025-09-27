@@ -1,4 +1,4 @@
-# Base prototype is in Resources\Prototypes\_NF\Recipes\Lathes\sheet.yml
+# Base prototype is in /Resources/Prototypes/_NF/Recipes/Lathes/sheet.yml
 
 #region Raw mats
 - type: latheRecipe
@@ -24,7 +24,7 @@
   categories:
   - Materials
   icon:
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: /Objects/Materials/Sheets/other.rsi
     state: generic_materials
   materials:
     RawScrap: 3000
@@ -36,7 +36,7 @@
   categories:
   - Materials
   icon:
-    sprite: _NF/Structures/Machines/scrap_processor.rsi
+    sprite: /_NF/Structures/Machines/scrap_processor.rsi
     state: boards_blueprints
   materials:
     RawScrapTech: 3000
@@ -44,7 +44,7 @@
 - type: latheRecipe
   id: BluespaceCrystal
   icon:
-    sprite: Nyanotrasen/Objects/Materials/materials.rsi
+    sprite: /Nyanotrasen/Objects/Materials/materials.rsi
     state: bluespace
   result: MaterialBluespace1
   completetime: 0.06

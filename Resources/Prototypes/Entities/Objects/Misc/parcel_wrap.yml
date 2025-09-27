@@ -5,7 +5,7 @@
   description: Paper used contain items for transport.
   components:
   - type: Sprite
-    sprite: Objects/Misc/ParcelWrap/parcel_wrap.rsi
+    sprite: /Objects/Misc/ParcelWrap/parcel_wrap.rsi
     state: brown
   - type: ParcelWrap
     parcelPrototype: WrappedParcel
@@ -63,12 +63,12 @@
           Invoice: { state: invoice }
       # End Frontier: labelable parcels
   - type: Sprite
-    sprite: Objects/Misc/ParcelWrap/wrapped_parcel.rsi
+    sprite: /Objects/Misc/ParcelWrap/wrapped_parcel.rsi
     layers:
     - state: parcel-medium
       map: [ "enum.WrappedParcelVisuals.Layer" ]
     - state: paper # Frontier: labelable parcels
-      sprite: _NF/Objects/Misc/parcel_labels.rsi # Frontier
+      sprite: /_NF/Objects/Misc/parcel_labels.rsi # Frontier
       map: ["enum.PaperLabelVisuals.Layer"] # Frontier
       visible: false # Frontier
   - type: WrappedParcel
@@ -121,7 +121,7 @@
   description: The disappointing remnants of an unwrapped parcel.
   components:
   - type: Sprite
-    sprite: Objects/Misc/ParcelWrap/parcel_wrap_trash.rsi
+    sprite: /Objects/Misc/ParcelWrap/parcel_wrap_trash.rsi
     layers:
     - state: brown
   - type: Tag

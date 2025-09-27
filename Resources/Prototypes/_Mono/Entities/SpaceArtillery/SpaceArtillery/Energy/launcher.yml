@@ -20,7 +20,7 @@
   - type: StaticPrice
     price: 2500
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/t35.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/t35.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -85,7 +85,7 @@
   - type: StaticPrice
     price: 1500
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/m25.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/m25.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -151,7 +151,7 @@
   - type: StaticPrice
     price: 5000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/rubicon.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/rubicon.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -210,7 +210,7 @@
   - type: StaticPrice
     price: 60000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/dymere.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/dymere.rsi
     layers:
     - state: space_artillery
     scale: 1, 1

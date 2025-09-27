@@ -5,9 +5,9 @@
   description: These are shorts, not boxers.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Shorts/Color/red.rsi
+    sprite: /Clothing/Uniforms/Shorts/Color/red.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Shorts/Color/red.rsi
+    sprite: /Clothing/Uniforms/Shorts/Color/red.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,6 +16,6 @@
   description: These are shorts, not boxers.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi
+    sprite: /Clothing/Uniforms/Shorts/Color/red_female.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi
+    sprite: /Clothing/Uniforms/Shorts/Color/red_female.rsi

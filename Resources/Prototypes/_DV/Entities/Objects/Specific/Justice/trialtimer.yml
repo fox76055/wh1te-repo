@@ -13,7 +13,7 @@
     rows: 1
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: _DV/Objects/Specific/Justice/trialtimer.rsi
+    sprite: /_DV/Objects/Specific/Justice/trialtimer.rsi
     state: trialtimer
     noRot: true
   - type: Construction

@@ -9,7 +9,7 @@
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
           state: crawling
-          sprite: Corvax/Mobs/Pets/largo.rsi
+          sprite: /Corvax/Mobs/Pets/largo.rsi
     - type: Physics
     - type: Fixtures
       fixtures:

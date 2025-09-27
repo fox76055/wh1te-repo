@@ -8,9 +8,9 @@
   name: reinforced wall
   components:
   - type: Sprite
-    sprite: _Lua/Structures/Walls/Krisswall.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall.rsi
   - type: Icon
-    sprite: _Lua/Structures/Walls/Krisswall.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall.rsi
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -70,13 +70,13 @@
     tags:
       - Wall
   - type: Sprite
-    sprite: _Lua/Structures/Walls/Krisswall.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall.rsi
   - type: WallReplacementMarker
   - type: Construction
     graph: Girder
     node: WallKrissSolid
   - type: Icon
-    sprite: _Lua/Structures/Walls/Krisswall.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -119,14 +119,14 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: _Lua/Structures/Walls/Krisswall_diagonal.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall_diagonal.rsi
     state: state0
   - type: IconSmooth
     mode: Diagonal
     key: walls
     base: state
   - type: Icon
-    sprite: _Lua/Structures/Walls/Krisswall_diagonal.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall_diagonal.rsi
     state: state0
   - type: Construction
     graph: Girder
@@ -144,14 +144,14 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: _Lua/Structures/Walls/Krisswall_armored_diagonal.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall_armored_diagonal.rsi
     state: state0
   - type: IconSmooth
     mode: Diagonal
     key: walls
     base: state
   - type: Icon
-    sprite: _Lua/Structures/Walls/Krisswall_armored_diagonal.rsi
+    sprite: /_Lua/Structures/Walls/Krisswall_armored_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:
@@ -179,9 +179,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _Lua/Structures/Walls/Krissglass.rsi
+    sprite: /_Lua/Structures/Walls/Krissglass.rsi
   - type: Icon
-    sprite: _Lua/Structures/Walls/Krissglass.rsi
+    sprite: /_Lua/Structures/Walls/Krissglass.rsi
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 2
@@ -228,7 +228,7 @@
     damageDivisor: 4
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: /Structures/Windows/cracks.rsi
 
 - type: entity
   parent: ReinforcedWindowKriss
@@ -241,7 +241,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _Lua/Structures/Walls/Krissglass_diagonal.rsi
+    sprite: /_Lua/Structures/Walls/Krissglass_diagonal.rsi
     state: state0
   - type: Tag
     tags:
@@ -251,7 +251,7 @@
     key: walls
     base: state
   - type: Icon
-    sprite: _Lua/Structures/Walls/Krissglass_diagonal.rsi
+    sprite: /_Lua/Structures/Walls/Krissglass_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:
@@ -273,7 +273,7 @@
     - East
   - type: DamageVisuals
     damageOverlay:
-      sprite: Structures/Windows/cracks_diagonal.rsi
+      sprite: /Structures/Windows/cracks_diagonal.rsi
   - type: Construction
     graph: WindowDiagonal
     node: reinforcedWindowDiagonal
@@ -322,7 +322,7 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
+    sprite: /Structures/Walls/plastitanium_diagonal.rsi
     state: state0
     color: "#a6a6a6" # Lua
   - type: IconSmooth
@@ -330,7 +330,7 @@
     key: walls
     base: state
   - type: Icon
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
+    sprite: /Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: Destructible
     thresholds:
@@ -382,7 +382,7 @@
     damageDivisor: 20
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: /Structures/Windows/cracks.rsi
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -421,7 +421,7 @@
     damageDivisor: 20
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_diagonal.rsi
+      sprite: /Structures/Windows/cracks_diagonal.rsi
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -440,9 +440,9 @@
     tags:
       - Wall
   - type: Sprite
-    sprite: _Lua/Structures/Walls/Softwall.rsi
+    sprite: /_Lua/Structures/Walls/Softwall.rsi
   - type: Icon
-    sprite: _Lua/Structures/Walls/Softwall.rsi
+    sprite: /_Lua/Structures/Walls/Softwall.rsi
   - type: Construction
     graph: Girder
     node: reinforcedWall

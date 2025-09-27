@@ -9,7 +9,7 @@
   description: Unnown
   components:
   - type: Sprite
-    sprite: _Lua/Cloack/unnown.rsi
+    sprite: /_Lua/Cloack/unnown.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -18,7 +18,7 @@
   description: Unnown
   components:
   - type: Sprite
-    sprite: _Lua/Cloack/nanotrasenvip.rsi
+    sprite: /_Lua/Cloack/nanotrasenvip.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -27,7 +27,7 @@
   description: What is it?
   components:
   - type: Sprite
-    sprite: _Lua/Cloack/foxorg.rsi
+    sprite: /_Lua/Cloack/foxorg.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -36,4 +36,4 @@
   description: Purple cloack
   components:
   - type: Sprite
-    sprite: _Lua/Cloack/sunsetcloack.rsi
+    sprite: /_Lua/Cloack/sunsetcloack.rsi

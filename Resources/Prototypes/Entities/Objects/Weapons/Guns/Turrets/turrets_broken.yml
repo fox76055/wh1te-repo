@@ -7,7 +7,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Turrets/turrets.rsi
+    sprite: /Objects/Weapons/Guns/Turrets/turrets.rsi
     drawdepth: Mobs
     layers:
     - state: syndie_broken

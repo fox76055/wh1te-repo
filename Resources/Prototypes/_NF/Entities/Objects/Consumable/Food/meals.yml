@@ -24,7 +24,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Mobs
-    sprite: Mobs/Pets/cat.rsi
+    sprite: /Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cat
@@ -47,7 +47,7 @@
     heldPrefix: cat
   # - type: Clothing
     # quickEquip: false
-    # sprite: Mobs/Pets/cat.rsi
+    # sprite: /Mobs/Pets/cat.rsi
     # equippedPrefix: cat
     # slots:
     # - HEAD
@@ -119,7 +119,7 @@
       - salty
       - peppery
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/dragonomelette.rsi
+    sprite: /_NF/Objects/Consumable/Food/dragonomelette.rsi
     state: icon
   - type: SolutionContainerManager
     solutions:
@@ -147,7 +147,7 @@
       - avocado
       - bread
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/bread.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/bread.rsi
     state: avocadotoast
   - type: SolutionContainerManager
     solutions:
@@ -174,7 +174,7 @@
       - egg
       - cheese
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/bread.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/bread.rsi
     state: breakfastbagel
   - type: SolutionContainerManager
     solutions:
@@ -201,7 +201,7 @@
       - egg
       - cheese
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/bread.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/bread.rsi
     state: breakfastbagelpoppy
   - type: SolutionContainerManager
     solutions:
@@ -232,7 +232,7 @@
       - bread
       - mayonnaise
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/bread.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/bread.rsi
     state: cucumbersandwich
   - type: SolutionContainerManager
     solutions:
@@ -260,7 +260,7 @@
       - cheesy
       - cucumber
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: greek
@@ -293,7 +293,7 @@
       - avocado
       - cucumber
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: avocado
@@ -327,7 +327,7 @@
       - alcohol
       - pear
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: poachedpear
@@ -358,7 +358,7 @@
       - pear
       - creamy
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: bellepear
@@ -390,7 +390,7 @@
       - finenoodles
       - richbroth
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: basic-noodles
@@ -416,7 +416,7 @@
       - richbroth
       - tangy
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: miso-noodles
@@ -448,7 +448,7 @@
       - finenoodles
       - richbroth
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: shio-noodles
@@ -481,7 +481,7 @@
       - richbroth
       - savory
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: shoyu-noodles
@@ -515,7 +515,7 @@
       - tofu
       - spicy
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: spicy-noodles
@@ -548,7 +548,7 @@
       - savory
       - garlic
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/bowl.rsi
+    sprite: /_NF/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: tonkotsu-noodles
@@ -576,7 +576,7 @@
   description: A slice of tofu, dredged in a gloopy flour and egg mixture. Arguably better in this form.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: tofu-slice-battered
   - type: FlavorProfile
     flavors:
@@ -601,7 +601,7 @@
       - oily
       - tofu
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: tofu-slice-fried
   - type: SolutionContainerManager
     solutions:
@@ -626,7 +626,7 @@
       - chicken
       - pasta
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/meals.rsi
+    sprite: /_NF/Objects/Consumable/Food/meals.rsi
     state: chickenparm
   - type: SolutionContainerManager
     solutions:

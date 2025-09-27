@@ -4,7 +4,7 @@
   name: ID карта RO
   components:
   - type: Sprite
-    sprite: Backmen/Objects/Misc/id_cards.rsi
+    sprite: /Backmen/Objects/Misc/id_cards.rsi
     layers:
     - state: card_black
     - state: sub_department

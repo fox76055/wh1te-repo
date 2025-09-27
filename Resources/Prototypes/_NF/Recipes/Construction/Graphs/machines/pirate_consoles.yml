@@ -10,7 +10,7 @@
       - component: NFPirateToolbox
         name: construction-graph-component-nf-pirate-toolbox
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "/Objects/Misc/module.rsi"
           state: "id_mod"
         doAfter: 10.0
 

@@ -7,7 +7,7 @@
     layers:
     - state: green
     - state: icon
-      sprite: Mobs/Aliens/Carps/space.rsi
+      sprite: /Mobs/Aliens/Carps/space.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobCarp # Frontier MobCarp<NFMobCarp
@@ -21,7 +21,7 @@
     layers:
     - state: green
     - state: icon
-      sprite: Mobs/Aliens/Carps/holo.rsi
+      sprite: /Mobs/Aliens/Carps/holo.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobCarpHolo # Frontier MobCarpHolo<NFMobCarpHolo
@@ -35,7 +35,7 @@
     layers:
     - state: green
     - state: icon
-      sprite: Mobs/Aliens/Carps/magic.rsi
+      sprite: /Mobs/Aliens/Carps/magic.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobCarpMagic # Frontier MobCarpMagic<NFMobCarpMagic
@@ -50,7 +50,7 @@
     layers:
     - state: green
     - state: icon
-      sprite: Mobs/Aliens/Carps/sharkminnow.rsi
+      sprite: /Mobs/Aliens/Carps/sharkminnow.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobShark

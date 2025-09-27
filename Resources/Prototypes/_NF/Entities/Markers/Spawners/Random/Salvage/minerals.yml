@@ -41,10 +41,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0
@@ -89,10 +89,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick.rsi
+    - sprite: /Structures/Walls/cobblebrick.rsi
       state: full
     - state: green
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -119,12 +119,12 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick.rsi
+    - sprite: /Structures/Walls/cobblebrick.rsi
       state: full
     - state: green
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: /Objects/Materials/materials.rsi
       state: diamond
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -174,10 +174,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_snow
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0
@@ -224,10 +224,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/ice.rsi
+    - sprite: /Structures/Walls/ice.rsi
       state: full
     - state: green
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -254,12 +254,12 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/ice.rsi
+    - sprite: /Structures/Walls/ice.rsi
       state: full
     - state: green
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: /Objects/Materials/materials.rsi
       state: diamond
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -309,10 +309,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_andesite
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0
@@ -359,10 +359,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick_andesite.rsi
+    - sprite: /Structures/Walls/cobblebrick_andesite.rsi
       state: full
     - state: green
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -389,12 +389,12 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick_andesite.rsi
+    - sprite: /Structures/Walls/cobblebrick_andesite.rsi
       state: full
     - state: green
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: /Objects/Materials/materials.rsi
       state: diamond
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -444,10 +444,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_wall
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0
@@ -494,10 +494,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick_basalt.rsi
+    - sprite: /Structures/Walls/cobblebrick_basalt.rsi
       state: full
     - state: green
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -524,12 +524,12 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick_basalt.rsi
+    - sprite: /Structures/Walls/cobblebrick_basalt.rsi
       state: full
     - state: green
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: /Objects/Materials/materials.rsi
       state: diamond
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -579,10 +579,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_sand
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0
@@ -629,10 +629,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/sandstone.rsi
+    - sprite: /Structures/Walls/sandstone.rsi
       state: full
     - state: green
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -659,12 +659,12 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/sandstone.rsi
+    - sprite: /Structures/Walls/sandstone.rsi
       state: full
     - state: green
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: /Objects/Materials/materials.rsi
       state: diamond
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -714,10 +714,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_chromite
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0
@@ -764,10 +764,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick_chromite.rsi
+    - sprite: /Structures/Walls/cobblebrick_chromite.rsi
       state: full
     - state: green
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -794,12 +794,12 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/cobblebrick_chromite.rsi
+    - sprite: /Structures/Walls/cobblebrick_chromite.rsi
       state: full
     - state: green
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: /Objects/Materials/materials.rsi
       state: diamond
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -849,10 +849,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_asteroid
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0
@@ -899,10 +899,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/necropolis.rsi
+    - sprite: /Structures/Walls/necropolis.rsi
       state: full
     - state: green
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -929,12 +929,12 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Walls/necropolis.rsi
+    - sprite: /Structures/Walls/necropolis.rsi
       state: full
     - state: green
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: /Objects/Materials/materials.rsi
       state: diamond
-    - sprite: Objects/Tools/handdrilldiamond.rsi
+    - sprite: /Objects/Tools/handdrilldiamond.rsi
       state: handdrill
   - type: EntityTableSpawner
     offset: 0
@@ -984,10 +984,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: _NF/Structures/Walls/rock.rsi
+    - sprite: /_NF/Structures/Walls/rock.rsi
       state: scraprock01
     - state: green
-    - sprite: Objects/Weapons/Melee/pickaxe.rsi
+    - sprite: /Objects/Weapons/Melee/pickaxe.rsi
       state: pickaxe
   - type: EntityTableSpawner
     offset: 0

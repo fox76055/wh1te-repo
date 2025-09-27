@@ -11,9 +11,9 @@
   description: Строгий зелёный костюм в стиле "карандаш" придает образу строгость. Облегающий пиджак и прямые брюки создают изысканный силуэт, подходящий для различных событий, от деловых встреч до увольнения капитана.
   components:
   - type: Clothing
-    sprite: _Lua/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
+    sprite: /_Lua/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
   - type: Sprite
-    sprite: _Lua/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
+    sprite: /_Lua/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -22,6 +22,6 @@
   description: Строгий чёрный костюм офицера корпуса специальный операций в стиле "карандаш" придает образу строгость. Облегающий пиджак и прямые брюки создают изысканный силуэт, подходящий для различных событий, от деловых встреч до геноцида членов экипажа ненавистной станции номер 14.
   components:
   - type: Clothing
-    sprite: _Lua/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi
+    sprite: /_Lua/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi
   - type: Sprite
-    sprite: _Lua/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi
+    sprite: /_Lua/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi

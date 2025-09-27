@@ -6,9 +6,9 @@
   description: An armored hard hat. Provides the best of both worlds in both protection & utility - perfect for the engineer on the frontlines.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/ussphelmet.rsi
+    sprite: /ADT/Clothing/Head/Hats/ussphelmet.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/ussphelmet.rsi
+    sprite: /ADT/Clothing/Head/Hats/ussphelmet.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -31,9 +31,9 @@
   description: Inflates the changeling's body into an all-consuming chitinous mass of armor.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Armor/usspjuggernaut.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/usspjuggernaut.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Armor/usspjuggernaut.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/usspjuggernaut.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.3
   - type: Armor

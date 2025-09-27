@@ -26,9 +26,9 @@
         - Smokable
         - HandLabeler
   - type: Sprite
-    sprite: _Lua/Clothing/Belt/plantbelt.rsi
+    sprite: /_Lua/Clothing/Belt/plantbelt.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Belt/plantbelt.rsi
+    sprite: /_Lua/Clothing/Belt/plantbelt.rsi
 
 - type: entity
   parent: ClothingBeltStorageBase
@@ -37,9 +37,9 @@
   description: Удобный пояс, часто используемый синдикатом на засекреченных территориях.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/assault.rsi
+    sprite: /Clothing/Belt/assault.rsi
   - type: Clothing
-    sprite: Clothing/Belt/assault.rsi
+    sprite: /Clothing/Belt/assault.rsi
   - type: ItemMapper
     mapLayers:
       flashbang:
@@ -54,7 +54,7 @@
         whitelist:
           components:
           - SmokeOnTrigger
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Storage
     whitelist:
       tags:
@@ -77,6 +77,6 @@
   description: Ременно-плечевая система тактических ремней, которую носят представители военных структур синдиката.
   components:
   - type: Clothing
-    sprite: _Lua/Clothing/Belt/wwebbing.rsi
+    sprite: /_Lua/Clothing/Belt/wwebbing.rsi
   - type: Sprite
-    sprite: _Lua/Clothing/Belt/webbing.rsi
+    sprite: /_Lua/Clothing/Belt/webbing.rsi

@@ -13,7 +13,7 @@
     rootTask:
       task: SimpleHostileCompound #todo custom argocyte AI
   - type: Sprite
-    sprite: Mobs/Aliens/Argocyte/argocyte_common.rsi
+    sprite: /Mobs/Aliens/Argocyte/argocyte_common.rsi
   - type: SolutionContainerManager
   - type: ReplacementAccent
     accent: xeno
@@ -45,7 +45,7 @@
       types:
         Heat: 9
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Generic_mob_burning
   - type: Climbing
   - type: NameIdentifier
@@ -386,7 +386,7 @@
   name: founder
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
+    sprite: /Mobs/Aliens/Argocyte/argocyte_large.rsi
     layers:
       - state: founder
         map: ["enum.DamageStateVisualLayers.Base"]
@@ -432,7 +432,7 @@
   name: leviathing
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
+    sprite: /Mobs/Aliens/Argocyte/argocyte_large.rsi
     layers:
       - state: leviathing
         map: ["enum.DamageStateVisualLayers.Base"]

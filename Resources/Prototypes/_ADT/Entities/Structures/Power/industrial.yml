@@ -14,7 +14,7 @@
       sound:
         path: /Audio/Ambience/Objects/periodic_beep.ogg
     - type: Sprite
-      sprite: ADT/Structures/Power/smes.rsi
+      sprite: /ADT/Structures/Power/smes.rsi
       snapCardinals: true
       layers:
         - state: smes

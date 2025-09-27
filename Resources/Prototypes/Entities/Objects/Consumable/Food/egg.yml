@@ -14,9 +14,9 @@
     trash:
     - Eggshells
   - type: Sprite
-    sprite: Objects/Consumable/Food/egg.rsi
+    sprite: /Objects/Consumable/Food/egg.rsi
   - type: Item
-    sprite: Objects/Consumable/Food/egg.rsi
+    sprite: /Objects/Consumable/Food/egg.rsi
     size: Tiny
   - type: SolutionContainerManager
     solutions:
@@ -71,7 +71,7 @@
   components:
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/egg.rsi
+    sprite: /Objects/Consumable/Food/egg.rsi
     state: eggshells
   - type: Item
     size: Tiny

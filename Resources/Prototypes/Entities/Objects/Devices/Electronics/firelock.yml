@@ -7,7 +7,7 @@
     - type: Item
       storedRotation: 0
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: mainboard
     - type: Tag
       tags:

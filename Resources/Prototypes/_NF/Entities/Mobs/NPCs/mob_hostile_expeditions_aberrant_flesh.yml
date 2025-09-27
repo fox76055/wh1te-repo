@@ -15,7 +15,7 @@
     - AberrantFleshExpeditionNF
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Aliens/flesh.rsi
+    sprite: /_NF/Mobs/Aliens/flesh.rsi
   - type: MobState
     allowedStates:
     - Alive
@@ -82,7 +82,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: jared
@@ -131,7 +131,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: golem
@@ -154,7 +154,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Aliens/flesh_assimilated_miner.rsi
+    sprite: /_NF/Mobs/Aliens/flesh_assimilated_miner.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: base
@@ -259,7 +259,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: clamp
@@ -429,7 +429,7 @@
   description: "Shoot a short salvo of bone spikes laced with toxins. [color=yellow]5 second cooldown.[/color]"
   components:
   - type: Action
-    icon: { sprite : _NF/Mobs/Aliens/flesh.rsi, state: spike }
+    icon: { sprite : /_NF/Mobs/Aliens/flesh.rsi, state: spike }
     priority: 2
     itemIconStyle: BigAction
   - type: TargetAction
@@ -521,7 +521,7 @@
       state: jared
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"
 
@@ -532,13 +532,13 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: jared
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"
 
@@ -553,7 +553,7 @@
       state: golem
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"
 
@@ -568,7 +568,7 @@
       state: golem2
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"
 
@@ -579,13 +579,13 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: golem
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"
 
@@ -600,7 +600,7 @@
       state: clamp
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"
 
@@ -610,13 +610,13 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: clamp
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"
 
@@ -631,6 +631,6 @@
       state: lover
       scale: 0.8,0.8
       color: "maroon"
-    - sprite: _NF/Effects/wet.rsi
+    - sprite: /_NF/Effects/wet.rsi
       state: wet
       color: "pink"

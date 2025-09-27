@@ -2,7 +2,7 @@
 - type: entity # 'Gun', 'AmmoProvider' and 'ContainerContainer' components are not defined in this one
   parent:
   - BaseStructure
-  - MobLaserReflect # Preventing laser abuse from players, prototype is in \Resources\Prototypes\_NF\Entities\Mobs\NPCs\mob_hostile_base.yml
+  - MobLaserReflect # Preventing laser abuse from players, prototype is in /Resources/Prototypes/_NF/Entities/Mobs/NPCs/mob_hostile_base.yml
   id: BaseWeaponTurretNF
   name: turret
   suffix: Frontier
@@ -23,7 +23,7 @@
         layer:
           - MachineLayer
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Turrets/turrets.rsi
+    sprite: /Objects/Weapons/Guns/Turrets/turrets.rsi
     drawdepth: Mobs
     layers:
       - state: syndie_lethal
@@ -155,7 +155,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Turrets/disabler.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/disabler.rsi
     drawdepth: Mobs
     layers:
     - state: base

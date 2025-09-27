@@ -9,7 +9,7 @@
       - id: MonkeyCubeWrapped
         amount: 8
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: /Objects/Misc/monkeycube.rsi
     state: box
   - type: StaticPrice
     price: 20
@@ -27,7 +27,7 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: /Objects/Misc/monkeycube.rsi
 
 - type: entity
   parent: BaseWrappedCube
@@ -57,7 +57,7 @@
       - id: KoboldCubeWrapped
         amount: 8
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: /Objects/Misc/monkeycube.rsi
     state: box_kobold
   - type: StaticPrice # Frontier
     vendPrice: 640 # Frontier - 80 per kobold (meat worth 360 at a depot)
@@ -75,7 +75,7 @@
       - id: MonkeyCubeWrapped
         amount: 4
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: /Objects/Misc/monkeycube.rsi
     state: box_variant
   - type: StaticPrice
     price: 20
@@ -105,7 +105,7 @@
       - id: SyndicateSpongeWrapped
         amount: 6
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: /Objects/Misc/monkeycube.rsi
     state: box
 
 - type: entity

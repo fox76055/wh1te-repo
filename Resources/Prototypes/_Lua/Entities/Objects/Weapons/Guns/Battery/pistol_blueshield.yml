@@ -9,7 +9,7 @@
   description: A pistol designed specifically for officers whose tasks include protecting members of the command stuff.
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Guns/Battery/blue_shield_gun.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Battery/blue_shield_gun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -20,7 +20,7 @@
     proto: VioletLaser
     fireCost: 50
   - type: Clothing
-    sprite: _Lua/Objects/Weapons/Guns/Battery/blue_shield_gun.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Battery/blue_shield_gun.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -47,13 +47,13 @@
     types:
       Heat: 25
   muzzleFlash:
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: muzzle_beam_violet
   travelFlash:
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: beam_violet
   impactFlash:
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: impact_beam_violet
 
 - type: hitscan
@@ -63,11 +63,11 @@
       Structural: 65
       Heat: 75
   muzzleFlash:
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: muzzle_beam_violet
   travelFlash:
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: beam_violet
   impactFlash:
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/violethit.rsi
     state: impact_beam_violet

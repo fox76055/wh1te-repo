@@ -7,7 +7,7 @@
   flavor: atomicpunch
   color: "#d04949"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/atomicpunch.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/atomicpunch.rsi
     state: icon
   metabolisms:
     Drink:
@@ -27,7 +27,7 @@
   flavor: pinkdrink
   color: "#d04949"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/pinkdrink.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/pinkdrink.rsi
     state: icon
   metabolisms:
     Drink:
@@ -44,7 +44,7 @@
   flavor: bubbletea
   color: "#d2b18c"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/bubbletea.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/bubbletea.rsi
     state: icon
   metabolisms:
     Drink:

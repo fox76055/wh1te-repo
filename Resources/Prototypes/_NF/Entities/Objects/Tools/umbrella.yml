@@ -47,7 +47,7 @@
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Sprite
-    sprite: _NF/Objects/Tools/umbrella.rsi
+    sprite: /_NF/Objects/Tools/umbrella.rsi
     layers:
     - state: flashlight
     - state: flashlight-overlay
@@ -55,7 +55,7 @@
       visible: false
       map: [ "light" ]
   - type: Item
-    sprite: _NF/Objects/Tools/umbrella.rsi
+    sprite: /_NF/Objects/Tools/umbrella.rsi
     storedRotation: -45
     size: Huge
   - type: ItemTogglePointLight

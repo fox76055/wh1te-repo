@@ -9,6 +9,6 @@
   description: Текстилевый комбинезон, обшитый в некоторых местах толстой кожей.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: /_Lua/Clothing/Uniforms/Jumpsuit/blueshield.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+    sprite: /_Lua/Clothing/Uniforms/Jumpsuit/blueshield.rsi

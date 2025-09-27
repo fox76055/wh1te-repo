@@ -10,7 +10,7 @@
     materialComposition:
       FuelGradeBluespace: 100
   - type: Sprite
-    sprite: _Lua/Objects/Specific/Fuel/fuelgrade_material.rsi
+    sprite: /_Lua/Objects/Specific/Fuel/fuelgrade_material.rsi
     layers:
     - state: bluespace
       map: ["base"]

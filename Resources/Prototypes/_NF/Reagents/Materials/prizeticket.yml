@@ -2,6 +2,6 @@
   id: PrizeTicket
   stackEntity: PrizeTicket1
   name: prize ticket
-  icon: { sprite: _NF/Objects/Fun/prizeticket.rsi, state: ticket }
+  icon: { sprite: /_NF/Objects/Fun/prizeticket.rsi, state: ticket }
   color: "#DD3333"
   price: 0

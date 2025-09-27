@@ -8,7 +8,7 @@
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_retro.rsi
     quickEquip: false
     slots:
     - Back
@@ -80,7 +80,7 @@
     tags:
     - Sidearm
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: /Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt
@@ -97,7 +97,7 @@
     tags:
     - Sidearm
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: /Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt
@@ -109,7 +109,7 @@
   description: A cheap and widely used laser pistol.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+    sprite: /Objects/Weapons/Guns/Battery/svalinn.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -117,7 +117,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Item
-    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+    sprite: /Objects/Weapons/Guns/Battery/svalinn.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -130,7 +130,7 @@
   description: A civilian grade weapon using light amplified by the stimulated emission of radiation.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_retro.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -157,7 +157,7 @@
   description: Better pray it won't burn your hands off. At least it's legal.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
+    sprite: /Objects/Weapons/Guns/Battery/makeshift.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -170,7 +170,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
+    sprite: /Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: HitscanBatteryAmmoProvider
     proto: NFRedLightLaser # Frontier: use NF variant
     fireCost: 62.5
@@ -185,7 +185,7 @@
   description: The power of the primordial element of lightning in your hands. An experimental and illegal weapon.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/tesla_gun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -214,7 +214,7 @@
   description: This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -227,7 +227,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -258,7 +258,7 @@
   description: A state of the art energy pistol favoured as a sidearm by the NT operatives. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -271,7 +271,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_pistol.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -293,7 +293,7 @@
   description: A high tech energy carbine favoured by the NT-ERT operatives. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -306,7 +306,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_carbine.rsi
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 3
@@ -330,7 +330,7 @@
   description: A weapon that is almost as infamous as its users. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -343,7 +343,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Gun
     fireRate: 1.5
     soundGunshot:
@@ -363,7 +363,7 @@
   description: A heavy duty, high powered laser weapon. On the handle is a label that says 'for authorized use only.' # Frontier: added label sentence
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_cannon.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -376,7 +376,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_cannon.rsi
   - type: Gun
     fireRate: 1.5
     soundGunshot:
@@ -402,7 +402,7 @@
       sprintModifier: 0.6
     - type: HeldSpeedModifier
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
+      sprite: /Objects/Weapons/Guns/Battery/particle_decelerator.rsi
       layers:
         - state: base
           map: ["enum.GunVisualLayers.Base"]
@@ -427,7 +427,7 @@
   description: An illegal and experimental weapon that uses concentrated x-ray energy against its target.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: /Objects/Weapons/Guns/Battery/xray.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -435,7 +435,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: /Objects/Weapons/Guns/Battery/xray.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
@@ -458,7 +458,7 @@
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one has been undertuned for cadets making it mostly harmless.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
+    sprite: /Objects/Weapons/Guns/Battery/practice_disabler.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -466,7 +466,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
+    sprite: /Objects/Weapons/Guns/Battery/practice_disabler.rsi
     quickEquip: false
     slots:
     - Belt
@@ -497,7 +497,7 @@
   description: A civilian grade self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    sprite: /Objects/Weapons/Guns/Battery/disabler.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -505,7 +505,7 @@
         map: ["enum.GunVisualLayers.MagUnshaded"]
         shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    sprite: /Objects/Weapons/Guns/Battery/disabler.rsi
     quickEquip: false
     slots:
       - suitStorage
@@ -530,7 +530,7 @@
     tags:
       - Taser
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi
+    sprite: /Objects/Weapons/Guns/Battery/disabler_smg.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -567,7 +567,7 @@
     - Taser
     - Sidearm
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: /Objects/Weapons/Guns/Battery/taser.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -600,7 +600,7 @@
   description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with a mahogany grip and chrome filigree. The object menaces with spikes of energy. On the item is an image of a captain and a clown. The clown is dead. The captain is striking a heroic pose.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/antiquelasergun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -608,7 +608,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/antiquelasergun.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
@@ -647,7 +647,7 @@
   - type: Item
     size: Normal  # Intentionally larger than other pistols
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/advancedlasergun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -655,7 +655,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/advancedlasergun.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
@@ -680,7 +680,7 @@
   description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/chimp.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -694,7 +694,7 @@
     steps: 3
     zeroVisible: false
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/chimp.rsi
   - type: Gun
     projectileSpeed: 10
     fireRate: 1.5
@@ -749,7 +749,7 @@
   description: The eye of a behonker, it fires a laser when squeezed. An illegal weapon often used by the cult of the Honkmother.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi
+    sprite: /Objects/Weapons/Guns/Battery/behonker_eye.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -773,7 +773,7 @@
   description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/energy_shotgun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -786,7 +786,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/energy_shotgun.rsi
   - type: Gun
     fireRate: 2
     soundGunshot:
@@ -808,7 +808,7 @@
     size: Large
     shape:
     - 0,0,3,1
-    sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Battery/inhands_64x.rsi
     heldPrefix: energy
   - type: Tag
     tags:
@@ -832,7 +832,7 @@
   description: An advanced gun that shoots body-temperature-changing beams. This probably constitutes as some kind of war crime.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/temp_gun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -849,7 +849,7 @@
     steps: 5
     zeroVisible: false
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/temp_gun.rsi
   - type: Gun
     fireRate: 1
     soundGunshot:

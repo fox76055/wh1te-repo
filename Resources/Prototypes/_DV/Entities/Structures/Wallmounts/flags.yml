@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _DV/Structures/Wallmounts/flags.rsi
+    sprite: /_DV/Structures/Wallmounts/flags.rsi
   - type: Construction
     graph: Flags
 

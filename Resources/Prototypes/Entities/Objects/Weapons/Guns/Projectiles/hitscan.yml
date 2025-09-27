@@ -23,13 +23,13 @@
     types:
       Heat: 14
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: beam
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_laser
 
 - type: hitscan
@@ -39,13 +39,13 @@
     types:
       Heat: 1
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: beam
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_laser
 
 - type: hitscan
@@ -55,13 +55,13 @@
     types:
       Heat: 17
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: beam
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_laser
 
 - type: hitscan
@@ -71,13 +71,13 @@
     types:
       Heat: 7
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: beam
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_laser
 
 - type: hitscan
@@ -88,13 +88,13 @@
       Heat: 10
       Radiation: 10
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_xray
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: xray
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_xray
 
 - type: hitscan
@@ -104,13 +104,13 @@
     types:
       Heat: 28
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_heavy
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: beam_heavy
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_beam_heavy
 
 - type: hitscan
@@ -120,13 +120,13 @@
     types:
       Heat: 35
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: beam_blue
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_blue
 
 - type: hitscan
@@ -137,11 +137,11 @@
       Heat: 45
       Structural: 10
   muzzleFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_heavy2
   travelFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: beam_heavy2
   impactFlash:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_beam_heavy2

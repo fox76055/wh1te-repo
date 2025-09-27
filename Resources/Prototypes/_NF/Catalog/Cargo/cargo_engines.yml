@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: EnginePortableGeneratorJrPacman
   icon:
-    sprite: Structures/Power/Generation/portable_generator.rsi
+    sprite: /Structures/Power/Generation/portable_generator.rsi
     state: portgen3
   product: PortableGeneratorJrPacmanFlatpack
   cost: 2000
@@ -11,7 +11,7 @@
 - type: cargoProduct
   id: EnginePortableGeneratorPacman
   icon:
-    sprite: Structures/Power/Generation/portable_generator.rsi
+    sprite: /Structures/Power/Generation/portable_generator.rsi
     state: portgen2
   product: PortableGeneratorPacmanFlatpack
   cost: 3000
@@ -21,7 +21,7 @@
 - type: cargoProduct
   id: EnginePortableGeneratorSuperPacman
   icon:
-    sprite: Structures/Power/Generation/portable_generator.rsi
+    sprite: /Structures/Power/Generation/portable_generator.rsi
     state: portgen1
   product: PortableGeneratorSuperPacmanFlatpack
   cost: 4000

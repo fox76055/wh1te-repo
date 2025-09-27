@@ -5,10 +5,10 @@
   parent: [BaseItem, PaperBin]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Service/condiment_cup_dispenser.rsi
+    sprite: /_NF/Objects/Specific/Service/condiment_cup_dispenser.rsi
     state: dispenser0
   - type: ItemMapper
-    sprite: _NF/Objects/Specific/Service/condiment_cup_dispenser.rsi
+    sprite: /_NF/Objects/Specific/Service/condiment_cup_dispenser.rsi
     mapLayers:
       dispenser1:
         whitelist:

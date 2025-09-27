@@ -6,7 +6,7 @@
   components:
   - type: Action # Frontier, Wizden#27422 compliance, InstantAction<Action
     icon:
-      sprite: Nyanotrasen/Objects/Specific/Species/felinid.rsi
+      sprite: /Nyanotrasen/Objects/Specific/Species/felinid.rsi
       state: icon
     useDelay: 30
   - type: InstantAction # Frontier, Wizden#27422 compliance

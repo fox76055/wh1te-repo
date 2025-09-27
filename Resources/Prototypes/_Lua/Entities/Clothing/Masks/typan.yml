@@ -9,14 +9,14 @@
   description: Противогаз часто используемый синдикатом, его дизайн был явно у кого-то украден.
   components:
   - type: Clothing
-    sprite: Clothing/Mask/gassecurity.rsi
+    sprite: /Clothing/Mask/gassecurity.rsi
   - type: Item
     size: Tiny
   - type: Tag
     tags:
     - HamsterWearable
   - type: Sprite
-    sprite: Clothing/Mask/gassecurity.rsi
+    sprite: /Clothing/Mask/gassecurity.rsi
   - type: Armor
     modifiers:
       coefficients:

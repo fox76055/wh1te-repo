@@ -6,7 +6,7 @@
   description: It's a dummy, dummy!
   components:
   - type: Sprite
-    sprite: Objects/Fun/mrchips.rsi
+    sprite: /Objects/Fun/mrchips.rsi
     layers:
     - state: icon
   - type: Input
@@ -46,6 +46,6 @@
   name: mr dips
   components:
   - type: Sprite
-    sprite: Objects/Fun/mrdips.rsi
+    sprite: /Objects/Fun/mrdips.rsi
     layers:
     - state: icon

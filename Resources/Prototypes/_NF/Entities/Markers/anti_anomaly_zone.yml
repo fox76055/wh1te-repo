@@ -6,10 +6,10 @@
   parent: MarkerBase
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/ice_anom.rsi
+    sprite: /Structures/Specific/Anomalies/ice_anom.rsi
     layers:
       - state: anom
-      - sprite: Markers/cross.rsi
+      - sprite: /Markers/cross.rsi
         state: pink
   - type: AntiAnomalyZone
     zoneRadius: 10

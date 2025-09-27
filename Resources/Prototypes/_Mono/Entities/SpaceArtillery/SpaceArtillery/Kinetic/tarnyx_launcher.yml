@@ -15,7 +15,7 @@
   - type: StaticPrice
     price: 10000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/tarnyx.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/tarnyx.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -64,7 +64,7 @@
   - type: StaticPrice
     price: 10000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/tarnyx.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/tarnyx.rsi
     layers:
     - state: space_artillery
   - type: Appearance

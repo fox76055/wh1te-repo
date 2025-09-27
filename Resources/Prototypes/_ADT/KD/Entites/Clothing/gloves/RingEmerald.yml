@@ -5,9 +5,9 @@
   description: Good ring.
   components:
   - type: Sprite
-    sprite: ADT/KD/RingEmerald.rsi
+    sprite: /ADT/KD/RingEmerald.rsi
   - type: Clothing
-    sprite: ADT/KD/RingEmerald.rsi
+    sprite: /ADT/KD/RingEmerald.rsi
   - type: Item
     size: Tiny
   - type: StaticPrice

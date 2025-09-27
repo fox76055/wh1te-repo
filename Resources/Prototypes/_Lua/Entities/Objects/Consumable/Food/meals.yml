@@ -5,7 +5,7 @@
   description: "Healthy. Allegedly. Fish definitely involved."
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/fish_dishes.rsi
+    sprite: /_Lua/Objects/Consumable/Food/fish_dishes.rsi
     state: fish_salad
     scale: 0.9, 0.6
   - type: FlavorProfile
@@ -29,7 +29,7 @@
   description: "Thick enough to stand your spoon. Don't test that."
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/fish_dishes.rsi
+    sprite: /_Lua/Objects/Consumable/Food/fish_dishes.rsi
     state: fish_chowder
     scale: 0.9, 0.6
   - type: FlavorProfile
@@ -53,7 +53,7 @@
   description: "When life gives you lemons, add fish and carbs."
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/fish_dishes.rsi
+    sprite: /_Lua/Objects/Consumable/Food/fish_dishes.rsi
     state: fish_lemon_pasta
   - type: FlavorProfile
     flavors:
@@ -77,7 +77,7 @@
   description: "Crispy outside, space-fishy inside. Chef's secret: heat."
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/fish_dishes.rsi
+    sprite: /_Lua/Objects/Consumable/Food/fish_dishes.rsi
     state: baked_fish_fillet
   - type: FlavorProfile
     flavors:

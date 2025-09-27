@@ -14,7 +14,7 @@
     lifetime: 3600
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/slimes.rsi
+    sprite: /Mobs/Aliens/slimes.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: blue_adult_slime
@@ -301,7 +301,7 @@
     - SimpleHostile
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -368,7 +368,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Mobs/Aliens/elemental.rsi
+        - sprite: /Mobs/Aliens/elemental.rsi
           state: alive
     - type: RandomSpawner
       prototypes:
@@ -395,7 +395,7 @@
     color: "#cfa85f"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -413,7 +413,7 @@
     color: "#AAAAAA"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -434,7 +434,7 @@
     color: "#808080"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -452,7 +452,7 @@
     color: "#ffaa00"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -470,7 +470,7 @@
     color: "#fcf7f9"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -488,7 +488,7 @@
     color: "#0f0f0f"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -506,7 +506,7 @@
     color: "#D2FFFA"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -524,7 +524,7 @@
     color: "#3e901c"
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive

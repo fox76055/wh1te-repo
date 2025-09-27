@@ -18,7 +18,7 @@
       ballistic-ammo: !type:Container
   - type: Sprite
     netsync: false
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/45/pistolmag.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/45/pistolmag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -58,7 +58,7 @@
       ballistic-ammo: !type:Container
   - type: Sprite
     netsync: false
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/45/smgmag.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/45/smgmag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

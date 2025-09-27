@@ -10,9 +10,9 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/viper.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/viper.rsi
   - type: ProjectileBatteryAmmoProvider
     proto: NFBulletPistol35
     fireCost: 100
@@ -31,9 +31,9 @@
     A small, easily concealable machine pistol. An illegal firearm often used by Syndicate agents.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/viper.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/viper.rsi
 
 #region DeltaV
 - type: entity
@@ -43,9 +43,9 @@
   description: A compact and mass-produced combat pistol.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Pistols/pollock.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Pistols/pollock.rsi
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Pistols/pollock.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Pistols/pollock.rsi
 
 - type: entity
   id: NFWeaponPistolPollockHighCapacityMag

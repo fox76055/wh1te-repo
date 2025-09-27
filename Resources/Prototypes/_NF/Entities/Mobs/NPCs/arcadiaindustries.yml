@@ -23,7 +23,7 @@
         - SimpleHostile
     - type: Sprite
       drawdepth: Mobs
-      sprite: _NF/Mobs/ArcadiaIndustries/arcind_shredder.rsi
+      sprite: /_NF/Mobs/ArcadiaIndustries/arcind_shredder.rsi
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
           state: alive
@@ -90,7 +90,7 @@
   components:
     - type: Sprite
       drawdepth: Mobs
-      sprite: _NF/Mobs/ArcadiaIndustries/arcind_guardians.rsi
+      sprite: /_NF/Mobs/ArcadiaIndustries/arcind_guardians.rsi
       layers:
         - map: [ "enum.DamageStateVisualLayers.Base" ]
           state: alive
@@ -155,7 +155,7 @@
         task: SimpleRangedHostileCompound
     - type: Sprite
       drawdepth: Mobs
-      sprite: _NF/Mobs/ArcadiaIndustries/arcind_blasters.rsi
+      sprite: /_NF/Mobs/ArcadiaIndustries/arcind_blasters.rsi
       layers:
         - map: [ "enum.DamageStateVisualLayers.Base" ]
           state: alive

@@ -8,7 +8,7 @@
     tags:
     - Pickaxe
   - type: Sprite
-    sprite: Objects/Weapons/Melee/pickaxe.rsi
+    sprite: /Objects/Weapons/Melee/pickaxe.rsi
     state: pickaxe
   - type: MeleeWeapon
     attackRate: 0.7
@@ -32,7 +32,7 @@
     shape:
     - 0,0,2,0
     - 1,1,1,2
-    sprite: Objects/Weapons/Melee/pickaxe.rsi
+    sprite: /Objects/Weapons/Melee/pickaxe.rsi
     storedRotation: -45
   - type: UseDelay
   - type: PhysicalComposition
@@ -52,7 +52,7 @@
     tags:
     - Pickaxe
   - type: Sprite
-    sprite: Objects/Tools/handdrill.rsi
+    sprite: /Objects/Tools/handdrill.rsi
     state: handdrill
   - type: MeleeWeapon
     autoAttack: true
@@ -74,7 +74,7 @@
   description: A significantly more efficient mining drill tipped with diamond.
   components:
   - type: Sprite
-    sprite: Objects/Tools/handdrilldiamond.rsi
+    sprite: /Objects/Tools/handdrilldiamond.rsi
     state: handdrill
   - type: MeleeWeapon
     autoAttack: true
@@ -115,13 +115,13 @@
     tags:
       - Pickaxe
   - type: Sprite
-    sprite: Objects/Weapons/Melee/crusher.rsi
+    sprite: /Objects/Weapons/Melee/crusher.rsi
     state: icon
   - type: Item
     size: Ginormous
-    sprite: Objects/Weapons/Melee/crusher-inhands.rsi
+    sprite: /Objects/Weapons/Melee/crusher-inhands.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Melee/crusher.rsi
+    sprite: /Objects/Weapons/Melee/crusher.rsi
     quickEquip: false
     slots:
     - Back
@@ -173,7 +173,7 @@
   description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/crusher_dagger.rsi
+    sprite: /Objects/Weapons/Melee/crusher_dagger.rsi
     state: icon
   - type: MeleeWeapon
     autoAttack: true
@@ -203,13 +203,13 @@
   description: An early design of the proto-kinetic accelerator, in glaive form.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/crusher_glaive.rsi
+    sprite: /Objects/Weapons/Melee/crusher_glaive.rsi
     state: icon
   - type: Item
     size: Ginormous
-    sprite: Objects/Weapons/Melee/crusher_glaive-inhands.rsi
+    sprite: /Objects/Weapons/Melee/crusher_glaive-inhands.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Melee/crusher_glaive.rsi
+    sprite: /Objects/Weapons/Melee/crusher_glaive.rsi
     quickEquip: false
     slots:
     - Back

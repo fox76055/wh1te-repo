@@ -25,7 +25,7 @@
   id: ExplosivePayload
   components:
   - type: Sprite
-    sprite: Objects/Devices/payload.rsi
+    sprite: /Objects/Devices/payload.rsi
     state: payload-explosive-armed
   - type: Explosive
     explosionType: Default
@@ -56,7 +56,7 @@
   description: A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
   components:
   - type: Sprite
-    sprite: Objects/Devices/payload.rsi
+    sprite: /Objects/Devices/payload.rsi
     state: payload-empty
     layers:
     - state: payload-empty
@@ -92,7 +92,7 @@
   description: A single-use flash payload.
   components:
     - type: Sprite
-      sprite: Objects/Devices/payload.rsi
+      sprite: /Objects/Devices/payload.rsi
       state: payload-flash-armed
     - type: DeleteOnTrigger
     - type: FlashOnTrigger

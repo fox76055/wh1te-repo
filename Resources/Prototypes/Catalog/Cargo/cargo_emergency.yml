@@ -2,7 +2,7 @@
   id: EmergencyExplosive
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Head/Helmets/bombsuit.rsi
+    sprite: /Clothing/Head/Helmets/bombsuit.rsi
     state: icon
   product: CrateEmergencyExplosive
   cost: 1000
@@ -13,7 +13,7 @@
   id: EmergencyFire
   abstract: true # Frontier
   icon:
-    sprite: _NF/Objects/Misc/fire_extinguisher.rsi # Frontier
+    sprite: /_NF/Objects/Misc/fire_extinguisher.rsi # Frontier
     state: fire_extinguisher_closed
   product: CrateEmergencyFire
   cost: 1500
@@ -24,7 +24,7 @@
   id: EmergencyInternals
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Mask/breath.rsi
+    sprite: /Clothing/Mask/breath.rsi
     state: icon
   product: CrateEmergencyInternals
   cost: 600
@@ -35,7 +35,7 @@
   id: EmergencyInternalsLarge
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Mask/breath.rsi
+    sprite: /Clothing/Mask/breath.rsi
     state: icon
   product: CrateEmergencyInternalsLarge
   cost: 1200
@@ -46,7 +46,7 @@
   id: EmergencyRadiation
   abstract: true # Frontier
   icon:
-    sprite: Structures/Wallmounts/signs.rsi
+    sprite: /Structures/Wallmounts/signs.rsi
     state: radiation
   product: CrateEmergencyRadiation
   cost: 1000
@@ -57,7 +57,7 @@
   id: EmergencyInflatablewall
   abstract: true # Frontier
   icon:
-    sprite: Objects/Misc/inflatable_wall.rsi
+    sprite: /Objects/Misc/inflatable_wall.rsi
     state: item_wall
   product: CrateEmergencyInflatablewall
   cost: 500
@@ -68,7 +68,7 @@
   id: EmergencyNitrogenTanks
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tanks/red.rsi
+    sprite: /Objects/Tanks/red.rsi
     state: icon
   product: CrateNitrogenInternals
   cost: 350
@@ -79,7 +79,7 @@
   id: EmergencyBiosuit
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Head/Hoods/Bio/general.rsi
+    sprite: /Clothing/Head/Hoods/Bio/general.rsi
     state: icon
   product: CrateGenericBiosuit
   cost: 800

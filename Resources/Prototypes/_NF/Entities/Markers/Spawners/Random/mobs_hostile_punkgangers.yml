@@ -7,7 +7,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Weapons/Melee/baseball_bat.rsi
+    - sprite: /Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
     - state: ai
   - type: RandomSpawner
@@ -30,7 +30,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Weapons/Melee/baseball_bat.rsi
+    - sprite: /Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
     - state: ai
   - type: RandomSpawner
@@ -53,7 +53,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Weapons/Melee/baseball_bat.rsi
+    - sprite: /Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
     - state: ai
   - type: RandomSpawner
@@ -76,7 +76,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Weapons/Melee/baseball_bat.rsi
+    - sprite: /Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
     - state: ai
   - type: RandomSpawner

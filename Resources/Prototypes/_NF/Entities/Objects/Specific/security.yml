@@ -6,10 +6,10 @@
   description: A token awarded to the NFSD for turning in contraband. It can be exchanged in an NFSD uplink device for a variety of law enforcement tools.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Security/frontieruplinkcoin.rsi
+    sprite: /_NF/Objects/Specific/Security/frontieruplinkcoin.rsi
     state: frontieruplinkcoin
   - type: Item
-    sprite: _NF/Objects/Specific/Security/frontieruplinkcoin.rsi
+    sprite: /_NF/Objects/Specific/Security/frontieruplinkcoin.rsi
     size: Tiny
   - type: Stack
     count: 20
@@ -56,11 +56,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Devices/communication.rsi
+    sprite: /Objects/Devices/communication.rsi
     layers:
     - state: old-radio
   - type: Item
-    sprite: Objects/Devices/communication.rsi
+    sprite: /Objects/Devices/communication.rsi
     heldPrefix: old-radio
   - type: UserInterface
     interfaces:
@@ -106,7 +106,7 @@
   parent: DeployableBarrier
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Security/nfsdbarrier.rsi
+    sprite: /_NF/Objects/Specific/Security/nfsdbarrier.rsi
     layers:
     - state: idle
     - state: locked

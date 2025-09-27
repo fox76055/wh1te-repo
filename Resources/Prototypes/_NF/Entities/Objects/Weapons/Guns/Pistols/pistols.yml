@@ -6,9 +6,9 @@
   description: A cheap semiauto sidearm.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
   - type: NFWeaponDetails
   - type: PirateBountyItem
     id: NFWeaponPistolMk58
@@ -21,9 +21,9 @@
     The sidearm of any self respecting officer. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/N1984.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/N1984.rsi
 
 - type: entity
   id: NFWeaponPistolCobra
@@ -38,9 +38,9 @@
       params:
         volume: -5
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Pistols/cobra.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Pistols/cobra.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Pistols/cobra.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Pistols/cobra.rsi
 
 #region DeltaV
 - type: entity
@@ -53,9 +53,9 @@
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/universal.ogg
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Pistols/universal.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Pistols/universal.rsi
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Pistols/universal.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Pistols/universal.rsi
 
 - type: entity
   id: NFWeaponPistolUniversalNfsd

@@ -6,9 +6,9 @@
   description: This pea jacket increases the chance of a suspect's confession by half.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
   - type: Armor
     modifiers:
       coefficients:

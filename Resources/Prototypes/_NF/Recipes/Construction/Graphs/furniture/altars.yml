@@ -30,7 +30,7 @@
         name: construction-graph-tag-toolbox
         store: altar_component
         icon:
-          sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
+          sprite: /Objects/Tools/Toolboxes/toolbox_blue.rsi
           state: icon
       - material: Cloth
         store: altar_cloth
@@ -45,13 +45,13 @@
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth
@@ -66,19 +66,19 @@
         name: construction-graph-component-fire-extinguisher
         store: altar_component
         icon:
-          sprite: _NF/Objects/Misc/fire_extinguisher.rsi # Frontier
+          sprite: /_NF/Objects/Misc/fire_extinguisher.rsi # Frontier
           state: fire_extinguisher_closed
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth
@@ -93,19 +93,19 @@
         name: construction-graph-component-price-gun
         store: altar_component
         icon:
-          sprite: Objects/Tools/appraisal-tool.rsi
+          sprite: /Objects/Tools/appraisal-tool.rsi
           state: icon
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth
@@ -120,19 +120,19 @@
         name: construction-graph-component-random-fill-solution
         store: altar_component
         icon:
-          sprite: Objects/Specific/Chemistry/pills.rsi
+          sprite: /Objects/Specific/Chemistry/pills.rsi
           state: pill1
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth
@@ -147,19 +147,19 @@
         name: construction-graph-tag-ore
         store: altar_component
         icon:
-          sprite: Objects/Materials/ore.rsi
+          sprite: /Objects/Materials/ore.rsi
           state: iron
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth
@@ -174,19 +174,19 @@
         name: construction-graph-component-sharp
         store: altar_component
         icon:
-          sprite: Objects/Weapons/Melee/captain_sabre.rsi
+          sprite: /Objects/Weapons/Melee/captain_sabre.rsi
           state: icon
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth
@@ -201,20 +201,20 @@
         name: construction-graph-tag-crystal-orange
         store: altar_component
         icon:
-          sprite: Objects/Materials/Shards/crystal.rsi
+          sprite: /Objects/Materials/Shards/crystal.rsi
           state: shard1
           color: "#ff8227"
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth
@@ -229,7 +229,7 @@
         name: construction-graph-component-machine-board
         store: altar_component
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: /Objects/Misc/module.rsi
           state: generic
       - material: Cloth
         store: altar_cloth
@@ -244,7 +244,7 @@
         name: construction-graph-component-id-card
         store: altar_component
         icon:
-          sprite: Objects/Misc/id_cards.rsi
+          sprite: /Objects/Misc/id_cards.rsi
           state: default
       - material: Cloth
         store: altar_cloth
@@ -259,7 +259,7 @@
         name: construction-graph-component-dice
         store: altar_component
         icon:
-          sprite: Objects/Fun/dice.rsi
+          sprite: /Objects/Fun/dice.rsi
           state: d20_20
       - material: Cloth
         store: altar_cloth
@@ -274,7 +274,7 @@
         name: construction-graph-component-seed
         store: altar_component
         icon:
-          sprite: Objects/Specific/Hydroponics/seeds.rsi
+          sprite: /Objects/Specific/Hydroponics/seeds.rsi
           state: seed
       - material: Cloth
         store: altar_cloth
@@ -289,7 +289,7 @@
         name: construction-graph-component-tabletop-game
         store: altar_component
         icon:
-          sprite: Objects/Fun/Tabletop/Battlemaps/shipbm.rsi
+          sprite: /Objects/Fun/Tabletop/Battlemaps/shipbm.rsi
           state: icon
       - material: Cloth
         store: altar_cloth
@@ -304,7 +304,7 @@
         name: construction-graph-component-instrument
         store: altar_component
         icon:
-          sprite: Objects/Fun/Instruments/eguitar.rsi
+          sprite: /Objects/Fun/Instruments/eguitar.rsi
           state: icon
       - material: Cloth
         store: altar_cloth
@@ -319,7 +319,7 @@
         name: construction-graph-component-mail
         store: altar_component
         icon:
-          sprite: Nyanotrasen/Objects/Specific/Mail/mail.rsi
+          sprite: /Nyanotrasen/Objects/Specific/Mail/mail.rsi
           state: icon
       - material: Cloth
         store: altar_cloth
@@ -334,19 +334,19 @@
         name: construction-graph-component-bible
         store: altar_component
         icon:
-          sprite: Objects/Specific/Chapel/bible.rsi
+          sprite: /Objects/Specific/Chapel/bible.rsi
           state: icon
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle1
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - component: ExtinguishOnInteract # Not exclusive to candles I believe, but it's something that narrows down the list
         name: construction-graph-component-extinguish-on-interact
         store: altar_candle2
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: /Objects/Misc/candles.rsi
           state: candle-big
       - material: Cloth
         store: altar_cloth

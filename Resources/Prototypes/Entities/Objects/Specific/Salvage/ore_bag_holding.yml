@@ -10,7 +10,7 @@
     range: 1.5
   # Frontier: layered sprite
   - type: Sprite
-    sprite: _NF/Objects/Specific/Mining/ore_bag_holding.rsi
+    sprite: /_NF/Objects/Specific/Mining/ore_bag_holding.rsi
     layers:
     - state: icon
     - state: icon-on
@@ -26,7 +26,7 @@
           False: { visible: false }
   # End Frontier: sprite revisions
   - type: Clothing
-    sprite: _NF/Objects/Specific/Mining/ore_bag_holding.rsi # Frontier
+    sprite: /_NF/Objects/Specific/Mining/ore_bag_holding.rsi # Frontier
   - type: Storage
     grid:
     - 0,0,19,9

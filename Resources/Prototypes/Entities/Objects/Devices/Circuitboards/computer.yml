@@ -6,7 +6,7 @@
   components:
     - type: ComputerBoard
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: cpuboard
     - type: Item
       storedRotation: -90
@@ -640,7 +640,7 @@
   description: A computer printed circuit board for a rogue communications console.
   components:
     - type: Sprite
-      sprite: _Mono/Objects/Misc/module.rsi
+      sprite: /_Mono/Objects/Misc/module.rsi
       state: cpu_rogue
     - type: ComputerBoard
       prototype: RogueComputerComms

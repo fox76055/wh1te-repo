@@ -7,10 +7,10 @@
   description: Symbol of wizard's mastery of arcane arts.
   components:
   - type: Item
-    sprite: Objects/Weapons/Guns/Basic/staves.rsi
+    sprite: /Objects/Weapons/Guns/Basic/staves.rsi
     heldPrefix: staff
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/staves.rsi
+    sprite: /Objects/Weapons/Guns/Basic/staves.rsi
     state: nothing
   - type: MeleeWeapon
     attackRate: 1.1
@@ -30,10 +30,10 @@
   id: WizardStaffMeleeBaseNF
   components:
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Basic/staves.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/staves.rsi
     heldPrefix: staff
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Basic/staves.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/staves.rsi
     state: nothing
   - type: MeleeWeapon
     attackRate: 1.1

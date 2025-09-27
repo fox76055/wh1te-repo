@@ -9,6 +9,6 @@
   description: Серый берет, с кокардой подразделения "Синий Щит".
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hats/beret_blueshield.rsi
+    sprite: /_Lua/Clothing/Head/Hats/beret_blueshield.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hats/beret_blueshield.rsi
+    sprite: /_Lua/Clothing/Head/Hats/beret_blueshield.rsi

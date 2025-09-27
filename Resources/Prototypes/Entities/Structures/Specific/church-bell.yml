@@ -9,7 +9,7 @@
     anchored: true
   - type: Sprite
     noRot: true
-    sprite: Structures/Specific/church-bell.rsi
+    sprite: /Structures/Specific/church-bell.rsi
     layers:
     - state: church-bell
   - type: InteractionPopup

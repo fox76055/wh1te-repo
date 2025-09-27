@@ -83,7 +83,7 @@
   description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/e_sword.rsi
+    sprite: /Objects/Weapons/Melee/e_sword.rsi
     layers:
     - state: e_sword
     - state: e_sword_blade
@@ -92,7 +92,7 @@
       shader: unshaded
       map: [ "blade" ]
   - type: Item
-    sprite: Objects/Weapons/Melee/e_sword-inhands.rsi
+    sprite: /Objects/Weapons/Melee/e_sword-inhands.rsi
 
 - type: entity
   name: energy dagger
@@ -131,7 +131,7 @@
     - type: Execution
       doAfterDuration: 4.0
   - type: Sprite
-    sprite: Objects/Weapons/Melee/e_dagger_loud.rsi
+    sprite: /Objects/Weapons/Melee/e_dagger_loud.rsi
     layers:
       - state: e_sword
       - state: e_sword_blade
@@ -148,7 +148,7 @@
         Blunt: 1
   - type: Item
     size: Tiny
-    sprite: Objects/Weapons/Melee/e_dagger_loud.rsi
+    sprite: /Objects/Weapons/Melee/e_dagger_loud.rsi
   - type: PointLight
     enabled: false
     radius: 1.5
@@ -194,7 +194,7 @@
     # - type: Contraband # Frontier
     #   severity: Syndicate # Frontier
   - type: Sprite
-    sprite: Objects/Weapons/Melee/e_dagger.rsi
+    sprite: /Objects/Weapons/Melee/e_dagger.rsi
     layers:
       - state: e_sword
       - state: e_sword_blade
@@ -204,7 +204,7 @@
         map: [ "blade" ]
   - type: Item
     size: Tiny
-    sprite: Objects/Weapons/Melee/e_dagger.rsi
+    sprite: /Objects/Weapons/Melee/e_dagger.rsi
   - type: PointLight
     enabled: false
     radius: 1.5
@@ -234,7 +234,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Storage/penbox.rsi
+    sprite: /Objects/Storage/penbox.rsi
     state: e_dagger
   - type: SpawnItemsOnUse
     items:
@@ -255,7 +255,7 @@
             Heat: 12
     deactivatedSecret: true
   - type: Sprite
-    sprite: Objects/Weapons/Melee/e_cutlass.rsi
+    sprite: /Objects/Weapons/Melee/e_cutlass.rsi
     layers:
       - state: e_cutlass
       - state: e_cutlass_blade
@@ -264,7 +264,7 @@
         shader: unshaded
         map: [ "blade" ]
   - type: Item
-    sprite: Objects/Weapons/Melee/e_cutlass.rsi
+    sprite: /Objects/Weapons/Melee/e_cutlass.rsi
 
 - type: entity
   name: double-bladed energy sword
@@ -313,7 +313,7 @@
       types:
         Blunt: 4.5
   - type: Sprite
-    sprite: Objects/Weapons/Melee/e_sword_double.rsi
+    sprite: /Objects/Weapons/Melee/e_sword_double.rsi
     layers:
       - state: e_sword_double
       - state: e_sword_double_blade
@@ -323,7 +323,7 @@
         map: [ "blade" ]
   - type: Item
     size: Small
-    sprite: Objects/Weapons/Melee/e_sword_double-inhands.rsi
+    sprite: /Objects/Weapons/Melee/e_sword_double-inhands.rsi
   - type: Reflect
     reflectProb: .12
     spread: 10
@@ -361,7 +361,7 @@
   - type: UseDelay
     delay: 1.5
   - type: Sprite
-    sprite: Objects/Weapons/Melee/hypereutactic_blade.rsi
+    sprite: /Objects/Weapons/Melee/hypereutactic_blade.rsi
     layers:
     - state: hypereutactic
     - state: hypereutactic_blade
@@ -376,7 +376,7 @@
       map: [ "gem" ]
   - type: Item
     size: Small
-    sprite: Objects/Weapons/Melee/hypereutactic_blade_inhands.rsi
+    sprite: /Objects/Weapons/Melee/hypereutactic_blade_inhands.rsi
   - type: Reflect
     reflectProb: .09
     spread: 10

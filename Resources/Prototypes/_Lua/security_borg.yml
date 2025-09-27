@@ -9,7 +9,7 @@
   description: Бронированный киборг, чья главная цель — защита станции от любой угрозы. Принадлежит отделу службы безопасности.
   components:
   - type: Sprite
-    sprite: _Lua/SecurityBorg/securityborg.rsi
+    sprite: /_Lua/SecurityBorg/securityborg.rsi
     layers:
     - state: sec
     - state: sec_e
@@ -30,7 +30,7 @@
     noMindState: sec_e_r
   - type: BorgTransponder
     sprite:
-      sprite: _Lua/SecurityBorg/securityborg.rsi
+      sprite: /_Lua/SecurityBorg/securityborg.rsi
       state: sec
     name: cyborg
   - type: Construction
@@ -609,14 +609,14 @@
         name: borg-part-flash
         store: part-container
         icon:
-          sprite: Objects/Weapons/Melee/flash.rsi
+          sprite: /Objects/Weapons/Melee/flash.rsi
           state: flash
 
       - component: Flash
         name: borg-part-second-flash
         store: part-container
         icon:
-          sprite: Objects/Weapons/Melee/flash.rsi
+          sprite: /Objects/Weapons/Melee/flash.rsi
           state: flash
 
       - tool: Screwing

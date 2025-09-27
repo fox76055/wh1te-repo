@@ -5,14 +5,14 @@
   description: Rifles
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Rifels/abakan.rsi
+    sprite: /ADT/Objects/Weapons/Guns/Rifels/abakan.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: ADT/Objects/Weapons/Guns/Rifels/abakan.rsi
+    sprite: /ADT/Objects/Weapons/Guns/Rifels/abakan.rsi
     quickEquip: false
     slots:
     - Back
@@ -67,14 +67,14 @@
   description: Rifles
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Rifels/an_97.rsi
+    sprite: /ADT/Objects/Weapons/Guns/Rifels/an_97.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: ADT/Objects/Weapons/Guns/Rifels/an_97.rsi
+    sprite: /ADT/Objects/Weapons/Guns/Rifels/an_97.rsi
     quickEquip: false
     slots:
     - Back

@@ -12,7 +12,7 @@
   - type: FrontierZoneGenerator
     radius: 300
   - type: Sprite
-    sprite: _Lua/Interface/Alerts/zone.rsi
+    sprite: /_Lua/Interface/Alerts/zone.rsi
     layers:
     - state: frontier
 
@@ -26,7 +26,7 @@
   - type: NoFlightZoneGenerator
     radius: 300
   - type: Sprite
-    sprite: _Lua/Interface/Alerts/zone.rsi
+    sprite: /_Lua/Interface/Alerts/zone.rsi
     layers:
     - state: noflight
 
@@ -40,7 +40,7 @@
   - type: ExpeditionZoneGenerator
     radius: 300
   - type: Sprite
-    sprite: _Lua/Interface/Alerts/zone.rsi
+    sprite: /_Lua/Interface/Alerts/zone.rsi
     layers:
     - state: frontier
 
@@ -54,7 +54,7 @@
   - type: NfsdZoneGenerator
     radius: 150
   - type: Sprite
-    sprite: _Lua/Interface/Alerts/zone.rsi
+    sprite: /_Lua/Interface/Alerts/zone.rsi
     layers:
     - state: nfsd
 
@@ -65,9 +65,9 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Interface/Alerts/pacified.rsi
+    sprite: /Interface/Alerts/pacified.rsi
     layers:
-      - sprite: Markers/cross.rsi
+      - sprite: /Markers/cross.rsi
         state: pink
       - state: icon
   - type: PacifiedZoneGenerator

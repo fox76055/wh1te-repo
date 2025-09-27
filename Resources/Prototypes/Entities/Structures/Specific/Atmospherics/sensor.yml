@@ -81,7 +81,7 @@
   - type: Appearance
   - type: Sprite
     drawdepth: FloorObjects
-    sprite: Structures/Specific/Atmospherics/sensor.rsi
+    sprite: /Structures/Specific/Atmospherics/sensor.rsi
     layers:
     - state: gsensor1
       map: [ "enum.PowerDeviceVisualLayers.Powered" ]
@@ -106,6 +106,6 @@
     node: assembly
   - type: Sprite
     drawdepth: FloorObjects
-    sprite: Structures/Specific/Atmospherics/sensor.rsi
+    sprite: /Structures/Specific/Atmospherics/sensor.rsi
     layers:
     - state: gsensor0

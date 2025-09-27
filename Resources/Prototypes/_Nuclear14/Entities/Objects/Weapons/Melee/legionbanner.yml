@@ -5,7 +5,7 @@
   description: A glorious banner of The Legion, worn by a vexillarius
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Melee/legionbanner.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Melee/legionbanner.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135

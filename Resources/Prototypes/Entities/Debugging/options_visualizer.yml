@@ -6,7 +6,7 @@
     tags:
     - Debug
   - type: Sprite
-    sprite: Effects/optionsvisualizertest.rsi
+    sprite: /Effects/optionsvisualizertest.rsi
     layers:
     - state: none
       map: [ "layer" ]

@@ -70,7 +70,7 @@
       - id: Paper
         amount: 8
     - type: Sprite
-      sprite: Objects/Misc/folders.rsi
+      sprite: /Objects/Misc/folders.rsi
       layers:
       - state: folder-colormap
         color: "#2365FF"

@@ -4,9 +4,9 @@
   name: mercenary over-ear headset
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/mercenary.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/mercenary.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/mercenary.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/mercenary.rsi
 
 - type: entity
   parent: [ClothingHeadsetCommon, ClothingHeadsetAlt]
@@ -14,9 +14,9 @@
   name: pilot over-ear headset
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/pilot.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/pilot.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/pilot.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/pilot.rsi
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -30,27 +30,27 @@
       - EncryptionKeyNfsd
       - EncryptionKeyCommand
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
 
 - type: entity
   parent: ClothingHeadsetAltNfsdBrown
   id: ClothingHeadsetAltNfsdGreen
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
 
 - type: entity
   parent: ClothingHeadsetAltNfsdBrown
   id: ClothingHeadsetAltNfsdCreamandBrown
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
 
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
@@ -63,9 +63,9 @@
       key_slots:
       - EncryptionKeyStationMaster
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
 
 - type: entity
   parent: ClothingHeadsetAltNfsdBrownCentcom
@@ -73,9 +73,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_green.rsi
 
 - type: entity
   parent: ClothingHeadsetAltNfsdBrownCentcom
@@ -83,9 +83,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
+    sprite: /_NF/Clothing/Ears/Headsets/nfsd_h_cb.rsi
 
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
@@ -99,9 +99,9 @@
       - EncryptionKeyEngineering
       - EncryptionKeyCommand
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: /Clothing/Ears/Headsets/engineering.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: /Clothing/Ears/Headsets/engineering.rsi
 
 - type: entity
   parent: [ClothingHeadsetCommon, ClothingHeadsetAltMercenary]

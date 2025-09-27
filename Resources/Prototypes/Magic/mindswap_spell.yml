@@ -9,7 +9,7 @@
     sound: !type:SoundPathSpecifier
       path: /Audio/Magic/staff_animation.ogg
     icon:
-      sprite: Mobs/Species/Human/organs.rsi
+      sprite: /Mobs/Species/Human/organs.rsi
       state: brain
   - type: EntityTargetAction
     whitelist:

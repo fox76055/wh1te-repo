@@ -5,7 +5,7 @@
   description: "A basic hybrid energy gun with two settings: disable and kill. Designed for cyborgs. On the handle is a label that says 'for authorized use only.'"
   components:
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Battery/energygun.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Battery/energygun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -20,7 +20,7 @@
     slots: # Frontier
     - Back # Frontier
     - suitStorage # Frontier
-    sprite: _DV/Objects/Weapons/Guns/Battery/energygun.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Battery/energygun.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg

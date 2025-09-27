@@ -27,7 +27,7 @@
   - type: BallisticAmmoProvider
     proto: N14Cartridge45-70
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/45_70loader.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/45_70loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]
@@ -56,7 +56,7 @@
       - N14Cartridge45-70
     capacity: 10
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/45_70loadertube.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/45_70loadertube.rsi
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

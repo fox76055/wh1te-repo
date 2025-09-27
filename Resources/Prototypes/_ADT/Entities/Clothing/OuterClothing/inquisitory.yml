@@ -5,9 +5,9 @@
   description: Repent of your sins.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/inquisitory.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -35,9 +35,9 @@
   description: You have been given power over destinies.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/inquisitoryhead.rsi
   - type: PointLight
     color: white
     radius: 7

@@ -43,7 +43,7 @@
   components:
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: _NF/Mobs/Aliens/spacetick.rsi
+    sprite: /_NF/Mobs/Aliens/spacetick.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive

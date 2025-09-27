@@ -4,9 +4,9 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+    sprite: /Objects/Specific/Robotics/cyborg_parts.rsi
   - type: Icon
-    sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+    sprite: /Objects/Specific/Robotics/cyborg_parts.rsi
   - type: Damageable
     damageContainer: Inorganic
   - type: BodyPart

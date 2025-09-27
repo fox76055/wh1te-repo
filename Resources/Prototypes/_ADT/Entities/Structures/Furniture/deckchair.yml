@@ -5,7 +5,7 @@
   description: A deckchair for the acquisition of an even tan under the light of the nearest star.
   components:
   - type: Sprite
-    sprite: ADT/Structures/Furniture/deckchair.rsi
+    sprite: /ADT/Structures/Furniture/deckchair.rsi
     state: deckchair
   - type: Construction
     graph: bed

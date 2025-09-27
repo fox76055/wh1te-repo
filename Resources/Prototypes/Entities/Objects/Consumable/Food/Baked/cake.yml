@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_baked_whole.yml & food_baked_single.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_baked_whole.yml & /food_baked_single.yml
 # Base
 
 - type: entity
@@ -11,7 +11,7 @@
       - sweet
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/cake.rsi
+    sprite: /Objects/Consumable/Food/Baked/cake.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -1086,7 +1086,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Mobs
-    sprite: Mobs/Pets/cat.rsi
+    sprite: /Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cak
@@ -1109,7 +1109,7 @@
     heldPrefix: cak
   - type: Clothing
     quickEquip: false
-    sprite: Mobs/Pets/cat.rsi
+    sprite: /Mobs/Pets/cat.rsi
     equippedPrefix: cak
     slots:
     - HEAD

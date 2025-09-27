@@ -7,9 +7,9 @@
   description: Reptiles are not as primitive as you thought.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/nano_scale_armor_hardsuithead.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -35,9 +35,9 @@
   description: Very secretive and smells very sugary
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/nano_scale_armor_chameleon_head.rsi
   - type: Tag
     tags:
     - HidesHair

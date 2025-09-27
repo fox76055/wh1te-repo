@@ -5,10 +5,10 @@
   parent: [BaseItem, PaperBin]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Service/napkindrum.rsi
+    sprite: /_NF/Objects/Specific/Service/napkindrum.rsi
     state: drum0
   - type: ItemMapper
-    sprite: _NF/Objects/Specific/Service/napkindrum.rsi
+    sprite: /_NF/Objects/Specific/Service/napkindrum.rsi
     mapLayers:
       drum1:
         whitelist:
@@ -44,18 +44,18 @@
   description: A small napkin.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/bureaucracy.rsi
+    sprite: /_NF/Objects/Misc/bureaucracy.rsi
     layers:
     - state: napkin
     - state: napkin_words
       map: ["enum.PaperVisualLayers.Writing"]
       visible: false
     - state: paper_stamp-generic
-      sprite: Objects/Misc/bureaucracy.rsi
+      sprite: /Objects/Misc/bureaucracy.rsi
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
     backgroundModulate: "#EAD4AA"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
     contentMargin: 16.0, 16.0, 16.0, 16.0
@@ -99,7 +99,7 @@
   description: A crumpled napkin.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Service/napkin.rsi
+    sprite: /_NF/Objects/Specific/Service/napkin.rsi
     state: napkin
   - type: Tag
     tags:

@@ -13,7 +13,7 @@
     # If you update this also update the bulldog's size.
     size: Large
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
     quickEquip: false
     slots:
     - Back
@@ -52,7 +52,7 @@
   description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/bulldog.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -61,7 +61,7 @@
   - type: Item
     size: Large
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/bulldog.rsi
     quickEquip: false
     slots:
     - Back
@@ -110,12 +110,12 @@
   description: An immortal classic. A civilian grade shotgun. Uses .50 shotgun shells.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
   - type: Item
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     fireRate: 3
@@ -147,11 +147,11 @@
   description: A premium semi-automatic shotgun, featuring an upgraded clip capacity. Uses .50 shotgun shells. # Frontier: no sec reference
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Item
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
   - type: BallisticAmmoProvider
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: PirateBountyItem # Frontier
@@ -177,11 +177,11 @@
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: _NF/Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi # Frontier: add _NF prefix
+    sprite: /_NF/Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi # Frontier: add _NF prefix
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Shotguns/pump.rsi # Frontier: add _NF prefix
+    sprite: /_NF/Objects/Weapons/Guns/Shotguns/pump.rsi # Frontier: add _NF prefix
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Shotguns/pump.rsi # Frontier: add _NF prefix
+    sprite: /_NF/Objects/Weapons/Guns/Shotguns/pump.rsi # Frontier: add _NF prefix
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     fireRate: 1
@@ -199,12 +199,12 @@
   description: Groovy! Uses .50 shotgun shells.
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V: add _DV prefix
+    sprite: /_DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V: add _DV prefix
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V: add _DV prefix
+    sprite: /_DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V: add _DV prefix
   - type: Item
     size: Small
-    sprite: _DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V: add _DV prefix, sawn_inhands_64x<sawn
+    sprite: /_DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V: add _DV prefix, sawn_inhands_64x<sawn
   - type: Gun
     fireRate: 3
   - type: BallisticAmmoProvider
@@ -239,9 +239,9 @@
     size: Small
     storedRotation: 90
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
   - type: Gun
     fireRate: 4
   - type: BallisticAmmoProvider
@@ -266,7 +266,7 @@
     shape:
     - 0,0,4,0
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     fireRate: 2
@@ -283,14 +283,14 @@
   description: A shitty, but legal, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: Item
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/improvised_shotgun_inhands_64x.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     fireRate: 4 #No reason to stifle the firerate since you have to manually reload every time anyways.

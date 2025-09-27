@@ -5,9 +5,9 @@
   description: A massive, formidable semi-automatic handgun chambered in 9mm squash-head rounds. A common sight throughout both UN and TSE space, often held by both We-Ya PMC units and corporate executives. This weapon is also undergoing limited field testing as part of the Marines' next generation pistol program. The slide is engraved with the We-Ya logo reminding you who's really in charge.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -81,7 +81,7 @@
     proto: RMCCartridgePistol9mmSquashHead
     capacity: 18
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk80.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk80.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

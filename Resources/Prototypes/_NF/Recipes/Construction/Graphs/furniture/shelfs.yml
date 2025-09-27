@@ -23,7 +23,7 @@
       - tag: FreezerElectronics
         name: construction-graph-tag-freezer-electronics-circuit-board
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: /Objects/Misc/module.rsi
           state: door_electronics
 # White wall freezer deconstructs
   - node: ShelfWallFreezerWhite
@@ -72,7 +72,7 @@
       - tag: FreezerElectronics
         name: construction-graph-tag-freezer-electronics-circuit-board
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: /Objects/Misc/module.rsi
           state: door_electronics
 # Dark wall freezer deconstructs
   - node: ShelfWallFreezerDark

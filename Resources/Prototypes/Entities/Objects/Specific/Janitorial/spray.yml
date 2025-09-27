@@ -16,10 +16,10 @@
     - Spray
     - Trash
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/janitorial.rsi
+    sprite: /Objects/Specific/Janitorial/janitorial.rsi
     state: cleaner
   - type: Item
-    sprite: Objects/Specific/Janitorial/janitorial.rsi
+    sprite: /Objects/Specific/Janitorial/janitorial.rsi
   - type: SolutionContainerManager
     solutions:
       spray:
@@ -51,7 +51,7 @@
   description: A huge spray bottle, capable of unrivaled janitorial power.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/janitorial.rsi
+    sprite: /Objects/Specific/Janitorial/janitorial.rsi
     state: cleaner_large
   - type: SolutionContainerManager
     solutions:
@@ -145,7 +145,7 @@
     transferAmountPercentage: 0.5
   - type: AnimationPlayer
   - type: Sprite
-    sprite: Effects/chempuff.rsi
+    sprite: /Effects/chempuff.rsi
     rotation: 180
     layers:
     - state: chempuff
@@ -173,7 +173,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Effects/chempuff.rsi
+    sprite: /Effects/chempuff.rsi
     rotation: 180
     layers:
     - state: chempuff

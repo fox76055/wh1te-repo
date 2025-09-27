@@ -12,7 +12,7 @@
     arc: 360
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/barsign.rsi
+    sprite: /Structures/Wallmounts/barsign.rsi
     state: empty
   - type: ApcPowerReceiver
   - type: ExtensionCableReceiver
@@ -66,7 +66,7 @@
 #  - type: InteractionOutline
 #  - type: Sprite
 #    drawdepth: WallTops
-#    sprite: Structures/Wallmounts/sylphs.rsi
+#    sprite: /Structures/Wallmounts/sylphs.rsi
 #    state: sylph
 #  - type: ApcPowerReceiver
 #  - type: ExtensionCableReceiver

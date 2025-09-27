@@ -8,18 +8,18 @@
       steps:
       - tag: ProximitySensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: /Objects/Misc/proximity_sensor.rsi
           state: icon
         name: construction-graph-tag-proximity-sensor
       - tag: BorgHead
         icon:
-          sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+          sprite: /Objects/Specific/Robotics/cyborg_parts.rsi
           state: borg_head
         name: construction-graph-tag-borg-head
         doAfter: 1
       - tag: BorgArm
         icon:
-          sprite: Mobs/Silicon/drone.rsi
+          sprite: /Mobs/Silicon/drone.rsi
           state: l_hand
         name: construction-graph-tag-borg-arm
         doAfter: 2

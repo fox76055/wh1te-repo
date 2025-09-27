@@ -7,10 +7,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Alerts/internals.rsi
+      sprite: /Interface/Alerts/internals.rsi
       state: internal2
     iconOn:
-      sprite: Interface/Alerts/internals.rsi
+      sprite: /Interface/Alerts/internals.rsi
       state: internal1
   - type: InstantAction
     event: !type:ToggleActionEvent

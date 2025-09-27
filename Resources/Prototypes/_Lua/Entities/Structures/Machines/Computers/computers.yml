@@ -13,7 +13,7 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon
 
@@ -28,7 +28,7 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon
 
@@ -43,7 +43,7 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon
 
@@ -58,7 +58,7 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon
 
@@ -71,7 +71,7 @@
 #   description: Используется для пилотирования корабля.
 #   components:
 #   - type: Sprite
-#     sprite: _Lua/Structures/Machines/computers.rsi
+#     sprite: /_Lua/Structures/Machines/computers.rsi
 #     layers:
 #     - map: ["computerLayerBody"]
 #       state: computer

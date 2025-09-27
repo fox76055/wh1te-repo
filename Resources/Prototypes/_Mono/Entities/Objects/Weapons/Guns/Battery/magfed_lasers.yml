@@ -28,7 +28,7 @@
           tags:
           - MilitaryPowerCellMG
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi
     layers:
     - state: icon
       visible: false
@@ -45,7 +45,7 @@
       Steel: 500
       Gold: 125
   - type: Clothing
-    sprite: _Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi
     quickEquip: false
     slots:
     - back

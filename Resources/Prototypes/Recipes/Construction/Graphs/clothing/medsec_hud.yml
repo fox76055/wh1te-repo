@@ -9,13 +9,13 @@
             - tag: HudMedical
               name: construction-graph-tag-medical-hud
               icon:
-                sprite: Clothing/Eyes/Hud/med.rsi
+                sprite: /Clothing/Eyes/Hud/med.rsi
                 state: icon
               doAfter: 5
             - tag: HudSecurity
               name: construction-graph-tag-security-hud
               icon:
-                sprite: Clothing/Eyes/Hud/sec.rsi
+                sprite: /Clothing/Eyes/Hud/sec.rsi
                 state: icon
               doAfter: 5
             - material: Cable
@@ -24,7 +24,7 @@
             - tag: Radio
               name: construction-graph-tag-radio
               icon:
-                sprite: _NF/Objects/Devices/communication.rsi # Frontier
+                sprite: /_NF/Objects/Devices/communication.rsi # Frontier
                 state: base # Frontier
               doAfter: 5
             - material: Manipulator

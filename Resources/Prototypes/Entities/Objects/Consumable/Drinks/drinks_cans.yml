@@ -1,4 +1,4 @@
-# When adding new drinks also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\drinks_soda.yml
+# When adding new drinks also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/drinks_soda.yml
 - type: entity
   parent: BaseItem
   id: DrinkCanBaseFull
@@ -104,9 +104,9 @@
     - DrinkCan
     - Recyclable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cola.rsi
+    sprite: /Objects/Consumable/Drinks/cola.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/cola.rsi
+    sprite: /Objects/Consumable/Drinks/cola.rsi
 
 # created when taking apart an ied
 - type: entity
@@ -127,11 +127,11 @@
   - type: Openable
     opened: true
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cola.rsi
+    sprite: /Objects/Consumable/Drinks/cola.rsi
     layers:
     - state: icon_open
   - type: Item
-    sprite: Objects/Consumable/Drinks/cola.rsi
+    sprite: /Objects/Consumable/Drinks/cola.rsi
   - type: Tag
     tags:
     - Cola
@@ -159,9 +159,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/ice_tea_can.rsi
+    sprite: /Objects/Consumable/Drinks/ice_tea_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/ice_tea_can.rsi
+    sprite: /Objects/Consumable/Drinks/ice_tea_can.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -183,9 +183,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lemon-lime.rsi
+    sprite: /Objects/Consumable/Drinks/lemon-lime.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/lemon-lime.rsi
+    sprite: /Objects/Consumable/Drinks/lemon-lime.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -207,9 +207,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
+    sprite: /Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
+    sprite: /Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -264,9 +264,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/purple_can.rsi
+    sprite: /Objects/Consumable/Drinks/purple_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/purple_can.rsi
+    sprite: /Objects/Consumable/Drinks/purple_can.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -288,9 +288,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/rootbeer.rsi
+    sprite: /Objects/Consumable/Drinks/rootbeer.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/rootbeer.rsi
+    sprite: /Objects/Consumable/Drinks/rootbeer.rsi
   - type: Tag
     tags:
     - Beer
@@ -316,7 +316,7 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/sodawater.rsi
+    sprite: /Objects/Consumable/Drinks/sodawater.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -338,9 +338,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space_mountain_wind.rsi
+    sprite: /Objects/Consumable/Drinks/space_mountain_wind.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/space_mountain_wind.rsi
+    sprite: /Objects/Consumable/Drinks/space_mountain_wind.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -362,9 +362,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space-up.rsi
+    sprite: /Objects/Consumable/Drinks/space-up.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/space-up.rsi
+    sprite: /Objects/Consumable/Drinks/space-up.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -386,9 +386,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/sol_dry.rsi
+    sprite: /Objects/Consumable/Drinks/sol_dry.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/sol_dry.rsi
+    sprite: /Objects/Consumable/Drinks/sol_dry.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -410,9 +410,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/starkist.rsi
+    sprite: /Objects/Consumable/Drinks/starkist.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/starkist.rsi
+    sprite: /Objects/Consumable/Drinks/starkist.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -435,7 +435,7 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tonic.rsi
+    sprite: /Objects/Consumable/Drinks/tonic.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -457,9 +457,9 @@
         - ReagentId: Iron
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/fourteen_loko.rsi
+    sprite: /Objects/Consumable/Drinks/fourteen_loko.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/fourteen_loko.rsi
+    sprite: /Objects/Consumable/Drinks/fourteen_loko.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -482,9 +482,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/changelingsting.rsi
+    sprite: /Objects/Consumable/Drinks/changelingsting.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/changelingsting.rsi
+    sprite: /Objects/Consumable/Drinks/changelingsting.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -507,9 +507,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/dr_gibb.rsi
+    sprite: /Objects/Consumable/Drinks/dr_gibb.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/dr_gibb.rsi
+    sprite: /Objects/Consumable/Drinks/dr_gibb.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -539,9 +539,9 @@
     - DrinkCan
     - Recyclable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/robustnukie.rsi
+    sprite: /Objects/Consumable/Drinks/robustnukie.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/robustnukie.rsi
+    sprite: /Objects/Consumable/Drinks/robustnukie.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -564,9 +564,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/energy_drink.rsi
+    sprite: /Objects/Consumable/Drinks/energy_drink.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/energy_drink.rsi
+    sprite: /Objects/Consumable/Drinks/energy_drink.rsi
 
 - type: entity
   id: DrinkCanPack
@@ -574,7 +574,7 @@
   name: 6pack
   components:
   - type: Sprite
-    sprite: Objects/Misc/6pack.rsi
+    sprite: /Objects/Misc/6pack.rsi
     layers:
       - state: plastic-thingy
       - state: 6pack1
@@ -642,9 +642,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shamblersjuice.rsi
+    sprite: /Objects/Consumable/Drinks/shamblersjuice.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/shamblersjuice.rsi
+    sprite: /Objects/Consumable/Drinks/shamblersjuice.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -667,9 +667,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pwrgame.rsi
+    sprite: /Objects/Consumable/Drinks/pwrgame.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/pwrgame.rsi
+    sprite: /Objects/Consumable/Drinks/pwrgame.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -692,9 +692,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer_can.rsi
+    sprite: /Objects/Consumable/Drinks/beer_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/beer_can.rsi
+    sprite: /Objects/Consumable/Drinks/beer_can.rsi
   - type: Tag
     tags:
     - Beer
@@ -720,9 +720,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/wine_can.rsi
+    sprite: /Objects/Consumable/Drinks/wine_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/wine_can.rsi
+    sprite: /Objects/Consumable/Drinks/wine_can.rsi
   - type: Tag
     tags:
     - Wine

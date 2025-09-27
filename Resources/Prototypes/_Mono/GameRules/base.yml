@@ -30,6 +30,6 @@
     weight: 10
     reoccurrenceDelay: 90
     duration: 1
-    maxOccurrences: 24 # should be the same as [copies] in ship_spawns.yml Lua
+    maxOccurrences: 24 # should be the same as [copies] in /ship_spawns.yml Lua
   - type: RuleGrids
   - type: LoadMapRule

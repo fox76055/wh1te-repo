@@ -26,7 +26,7 @@
     factions:
     - Xeno
   - type: Sprite
-    sprite: Mobs/Aliens/Argocyte/argocyte_common.rsi
+    sprite: /Mobs/Aliens/Argocyte/argocyte_common.rsi
   - type: Bloodstream
     bloodReagent: FluorosulfuricAcid
     bloodMaxVolume: 75
@@ -277,7 +277,7 @@
   description: The last known lifecycle stage of the Stalker morphotype. Most often seen in mature hives preparing for an expansion.
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
+    sprite: /Mobs/Aliens/Argocyte/argocyte_large.rsi
     layers:
     - state: founder
       map: ["enum.DamageStateVisualLayers.Base"]
@@ -498,7 +498,7 @@
   description: The final known lifecycle stage of the Guardian morphotype. These hulking beasts lead attacks on the hive's enemies.
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
+    sprite: /Mobs/Aliens/Argocyte/argocyte_large.rsi
     layers:
       - state: leviathing
         map: ["enum.DamageStateVisualLayers.Base"]
@@ -574,7 +574,7 @@
   description: "Spawn an argocyte that will follow you. [color=yellow]60 second cooldown.[/color]"
   components:
   - type: Action
-    icon: { sprite : Mobs/Aliens/Argocyte/argocyte_common.rsi, state: pouncer }
+    icon: { sprite : /Mobs/Aliens/Argocyte/argocyte_common.rsi, state: pouncer }
     priority: 2
     itemIconStyle: BigAction
     useDelay: 60
@@ -641,7 +641,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Mobs/Aliens/Argocyte/argocyte_common.rsi
+    - sprite: /Mobs/Aliens/Argocyte/argocyte_common.rsi
       state: skitter
     - state: ai
   - type: EntityTableSpawner

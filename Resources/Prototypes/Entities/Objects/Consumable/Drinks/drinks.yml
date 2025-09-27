@@ -1,6 +1,6 @@
 # TODO: Find remaining cans and move to drinks_cans
 # TODO: Find empty containers (e.g. mug, pitcher) and move to their own yml
-# When adding new drinks also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\drinks_glass.yml
+# When adding new drinks also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/drinks_glass.yml
 - type: entity
   parent: BaseItem
   id: DrinkBase
@@ -91,7 +91,7 @@
   id: DrinkGlass
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/glass_clear.rsi
+    sprite: /Objects/Consumable/Drinks/glass_clear.rsi
     layers:
       - state: icon
         map: [ "enum.SolutionContainerLayers.Base" ]
@@ -110,7 +110,7 @@
     fillBaseName: fill
     metamorphic: true
     metamorphicDefaultSprite:
-      sprite: Objects/Consumable/Drinks/glass_clear.rsi
+      sprite: /Objects/Consumable/Drinks/glass_clear.rsi
       state: icon
   - type: TransformableContainer
 
@@ -121,7 +121,7 @@
   id: DrinkGlassCoupeShaped
   components:
     - type: Sprite
-      sprite: Objects/Consumable/Drinks/glass_coupe_shape.rsi
+      sprite: /Objects/Consumable/Drinks/glass_coupe_shape.rsi
       layers:
         - state: icon
           map: [ "enum.SolutionContainerLayers.Base" ]
@@ -154,7 +154,7 @@
         - ReagentId: Absinthe
           Quantity: 20
   - type: Icon
-    sprite: Objects/Consumable/Drinks/absintheglass.rsi
+    sprite: /Objects/Consumable/Drinks/absintheglass.rsi
     state: icon
 
 - type: entity
@@ -170,7 +170,7 @@
         - ReagentId: AcidSpit
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/acidspitglass.rsi
+    sprite: /Objects/Consumable/Drinks/acidspitglass.rsi
     state: icon
 
 - type: entity
@@ -186,7 +186,7 @@
         - ReagentId: Ale
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/aleglass.rsi
+    sprite: /Objects/Consumable/Drinks/aleglass.rsi
     state: icon
 
 - type: entity
@@ -202,7 +202,7 @@
         - ReagentId: AlienBrainHemorrhage
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/alienbrainhemorrhage.rsi
+    sprite: /Objects/Consumable/Drinks/alienbrainhemorrhage.rsi
     state: icon
 
 - type: entity
@@ -218,7 +218,7 @@
         - ReagentId: AlliesCocktail
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/alliescocktail.rsi
+    sprite: /Objects/Consumable/Drinks/alliescocktail.rsi
     state: icon
 
 - type: entity
@@ -234,7 +234,7 @@
         - ReagentId: Aloe
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/aloe.rsi
+    sprite: /Objects/Consumable/Drinks/aloe.rsi
     state: icon
 
 - type: entity
@@ -250,7 +250,7 @@
         - ReagentId: Amasec
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/amasecglass.rsi
+    sprite: /Objects/Consumable/Drinks/amasecglass.rsi
     state: icon
 
 - type: entity
@@ -266,7 +266,7 @@
         - ReagentId: Andalusia
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/andalusia.rsi
+    sprite: /Objects/Consumable/Drinks/andalusia.rsi
     state: icon
 
 - type: entity
@@ -295,7 +295,7 @@
         - ReagentId: ArnoldPalmer
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/arnoldpalmer.rsi
+    sprite: /Objects/Consumable/Drinks/arnoldpalmer.rsi
     state: icon
 
 - type: entity
@@ -311,7 +311,7 @@
         - ReagentId: AtomicBomb
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/atomicbombglass.rsi
+    sprite: /Objects/Consumable/Drinks/atomicbombglass.rsi
     state: icon
 
 - type: entity
@@ -327,7 +327,7 @@
         - ReagentId: B52
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/b52glass.rsi
+    sprite: /Objects/Consumable/Drinks/b52glass.rsi
     state: icon
 
 - type: entity
@@ -343,7 +343,7 @@
         - ReagentId: BahamaMama
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/bahama_mama.rsi
+    sprite: /Objects/Consumable/Drinks/bahama_mama.rsi
     state: icon
 
 - type: entity
@@ -359,7 +359,7 @@
         - ReagentId: BananaHonk
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/bananahonkglass.rsi
+    sprite: /Objects/Consumable/Drinks/bananahonkglass.rsi
     state: icon
 
 - type: entity
@@ -375,7 +375,7 @@
         - ReagentId: Barefoot
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/b&p.rsi
+    sprite: Objects/Consumable/Drinks/b&/p.rsi
     state: icon
 
 - type: entity
@@ -391,7 +391,7 @@
         - ReagentId: BeepskySmash
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/beepskysmashglass.rsi
+    sprite: /Objects/Consumable/Drinks/beepskysmashglass.rsi
     state: icon
 
 - type: entity
@@ -407,7 +407,7 @@
         - ReagentId: Beer
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/beerglass.rsi
+    sprite: /Objects/Consumable/Drinks/beerglass.rsi
     state: icon
   - type: Tag
     tags:
@@ -426,7 +426,7 @@
         - ReagentId: JuiceBerry
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/berryjuice.rsi
+    sprite: /Objects/Consumable/Drinks/berryjuice.rsi
     state: icon
 
 - type: entity
@@ -442,7 +442,7 @@
         - ReagentId: BlackRussian
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/blackrussianglass.rsi
+    sprite: /Objects/Consumable/Drinks/blackrussianglass.rsi
     state: icon
 
 - type: entity
@@ -458,7 +458,7 @@
         - ReagentId: BlueCuracao
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/curacaoglass.rsi
+    sprite: /Objects/Consumable/Drinks/curacaoglass.rsi
     state: icon
 
 - type: entity
@@ -474,7 +474,7 @@
         - ReagentId: BloodyMary
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/bloodymaryglass.rsi
+    sprite: /Objects/Consumable/Drinks/bloodymaryglass.rsi
     state: icon
 
 - type: entity
@@ -490,7 +490,7 @@
         - ReagentId: BlueHawaiian
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/bluehawaiian.rsi
+    sprite: /Objects/Consumable/Drinks/bluehawaiian.rsi
     state: icon
 
 - type: entity
@@ -506,7 +506,7 @@
         - ReagentId: Booger
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/booger.rsi
+    sprite: /Objects/Consumable/Drinks/booger.rsi
     state: icon
 
 - type: entity
@@ -522,7 +522,7 @@
         - ReagentId: BraveBull
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/bravebullglass.rsi
+    sprite: /Objects/Consumable/Drinks/bravebullglass.rsi
     state: icon
 
 - type: entity
@@ -538,7 +538,7 @@
         - ReagentId: Bronx
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/bronx.rsi
+    sprite: /Objects/Consumable/Drinks/bronx.rsi
     state: icon
 
 - type: entity
@@ -554,7 +554,7 @@
         - ReagentId: BudgetInsulsDrink
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/budgetinsulsdrink.rsi
+    sprite: /Objects/Consumable/Drinks/budgetinsulsdrink.rsi
     state: icon
 
 - type: entity
@@ -570,7 +570,7 @@
         - ReagentId: JuiceCarrot
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/carrotjuice.rsi
+    sprite: /Objects/Consumable/Drinks/carrotjuice.rsi
     state: icon
 
 - type: entity
@@ -586,7 +586,7 @@
         - ReagentId: HotCocoa
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/chocolateglass.rsi
+    sprite: /Objects/Consumable/Drinks/chocolateglass.rsi
     state: icon
 
 - type: entity
@@ -602,7 +602,7 @@
         - ReagentId: Rubberneck
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/rubberneck.rsi
+    sprite: /Objects/Consumable/Drinks/rubberneck.rsi
     state: icon
 
 - type: entity
@@ -618,7 +618,7 @@
         - ReagentId: CoconutRum
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/coconutrum.rsi
+    sprite: /Objects/Consumable/Drinks/coconutrum.rsi
     state: icon
 
 - type: entity
@@ -647,7 +647,7 @@
         - ReagentId: Coffee
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/coffee.rsi
+    sprite: /Objects/Consumable/Drinks/coffee.rsi
     state: icon
 
 - type: entity
@@ -663,7 +663,7 @@
         - ReagentId: Cognac
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/cognacglass.rsi
+    sprite: /Objects/Consumable/Drinks/cognacglass.rsi
     state: icon
 
 - type: entity
@@ -679,7 +679,7 @@
         - ReagentId: Cosmopolitan
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/cosmopolitan.rsi
+    sprite: /Objects/Consumable/Drinks/cosmopolitan.rsi
     state: icon
 
 - type: entity
@@ -708,7 +708,7 @@
         - ReagentId: CrushDepth
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/crushdepth.rsi
+    sprite: /Objects/Consumable/Drinks/crushdepth.rsi
     state: icon
 
 - type: entity
@@ -724,7 +724,7 @@
         - ReagentId: CubaLibre
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/cubalibreglass.rsi
+    sprite: /Objects/Consumable/Drinks/cubalibreglass.rsi
     state: icon
 
 - type: entity
@@ -740,7 +740,7 @@
         - ReagentId: DarkandStormy
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/dark&stormy.rsi
+    sprite: Objects/Consumable/Drinks/dark&/stormy.rsi
     state: icon
 
 - type: entity
@@ -756,7 +756,7 @@
         - ReagentId: DeadRum
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/rumglass.rsi
+    sprite: /Objects/Consumable/Drinks/rumglass.rsi
     state: icon
 
 - type: entity
@@ -772,7 +772,7 @@
         - ReagentId: DemonsBlood
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/demonsblood.rsi
+    sprite: /Objects/Consumable/Drinks/demonsblood.rsi
     state: icon
 
 - type: entity
@@ -788,7 +788,7 @@
         - ReagentId: DevilsKiss
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/devilskiss.rsi
+    sprite: /Objects/Consumable/Drinks/devilskiss.rsi
     state: icon
 
 - type: entity
@@ -804,7 +804,7 @@
         - ReagentId: DoctorsDelight
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/doctorsdelightglass.rsi
+    sprite: /Objects/Consumable/Drinks/doctorsdelightglass.rsi
     state: icon
 
 - type: entity
@@ -820,7 +820,7 @@
         - ReagentId: DriestMartini
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/driestmartiniglass.rsi
+    sprite: /Objects/Consumable/Drinks/driestmartiniglass.rsi
     state: icon
 
 - type: entity
@@ -836,7 +836,7 @@
         - ReagentId: DrGibb
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/dr_gibb_glass.rsi
+    sprite: /Objects/Consumable/Drinks/dr_gibb_glass.rsi
     state: icon
 
 - type: entity
@@ -852,7 +852,7 @@
         - ReagentId: Eggnog
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/eggnogglass.rsi
+    sprite: /Objects/Consumable/Drinks/eggnogglass.rsi
     state: icon
 
 - type: entity
@@ -868,7 +868,7 @@
         - ReagentId: ElectricShark
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/electricshark.rsi
+    sprite: /Objects/Consumable/Drinks/electricshark.rsi
     state: icon
 
 - type: entity
@@ -884,7 +884,7 @@
         - ReagentId: ErikaSurprise
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/erikasurprise.rsi
+    sprite: /Objects/Consumable/Drinks/erikasurprise.rsi
     state: icon
 
 - type: entity
@@ -900,7 +900,7 @@
         - ReagentId: FourteenLoko
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/fourteen_loko_glass.rsi
+    sprite: /Objects/Consumable/Drinks/fourteen_loko_glass.rsi
     state: icon
 
 - type: entity
@@ -916,7 +916,7 @@
         - ReagentId: GargleBlaster
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/gargleblasterglass.rsi
+    sprite: /Objects/Consumable/Drinks/gargleblasterglass.rsi
     state: icon
 
 - type: entity
@@ -932,7 +932,7 @@
         - ReagentId: Gin
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/ginvodkaglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginvodkaglass.rsi
     state: icon
 
 - type: entity
@@ -948,7 +948,7 @@
         - ReagentId: GinFizz
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/ginfizzglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginfizzglass.rsi
     state: icon
 
 - type: entity
@@ -964,7 +964,7 @@
         - ReagentId: GinTonic
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/gintonicglass.rsi
+    sprite: /Objects/Consumable/Drinks/gintonicglass.rsi
     state: icon
 
 - type: entity
@@ -980,7 +980,7 @@
         - ReagentId: Gildlager
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/gildlagerglass.rsi
+    sprite: /Objects/Consumable/Drinks/gildlagerglass.rsi
     state: icon
 
 - type: entity
@@ -996,7 +996,7 @@
         - ReagentId: JuiceGrape
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/grapejuice.rsi
+    sprite: /Objects/Consumable/Drinks/grapejuice.rsi
     state: icon
 
 - type: entity
@@ -1012,7 +1012,7 @@
         - ReagentId: GrapeSoda
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/gsodaglass.rsi
+    sprite: /Objects/Consumable/Drinks/gsodaglass.rsi
     state: icon
 
 - type: entity
@@ -1028,7 +1028,7 @@
         - ReagentId: GreenTea
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/glass_green.rsi #Placeholder
+    sprite: /Objects/Consumable/Drinks/glass_green.rsi #Placeholder
     state: icon
 
 - type: entity
@@ -1044,7 +1044,7 @@
         - ReagentId: Grenadine
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/grenadineglass.rsi
+    sprite: /Objects/Consumable/Drinks/grenadineglass.rsi
     state: icon
 
 - type: entity
@@ -1060,7 +1060,7 @@
         - ReagentId: Grog
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/grogglass.rsi
+    sprite: /Objects/Consumable/Drinks/grogglass.rsi
     state: icon
 
 - type: entity
@@ -1076,7 +1076,7 @@
         - ReagentId: HippiesDelight
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/hippiesdelightglass.rsi
+    sprite: /Objects/Consumable/Drinks/hippiesdelightglass.rsi
     state: icon
 
 - type: entity
@@ -1093,7 +1093,7 @@
         - ReagentId: Hooch
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/glass_brown2.rsi
+    sprite: /Objects/Consumable/Drinks/glass_brown2.rsi
     state: icon
 
 - type: entity
@@ -1109,7 +1109,7 @@
         - ReagentId: IcedCoffee
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/icedcoffeeglass.rsi
+    sprite: /Objects/Consumable/Drinks/icedcoffeeglass.rsi
     state: icon
 
 - type: entity
@@ -1125,7 +1125,7 @@
         - ReagentId: IcedGreenTea
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/glass_green.rsi #Placeholder
+    sprite: /Objects/Consumable/Drinks/glass_green.rsi #Placeholder
     state: icon
 
 - type: entity
@@ -1141,7 +1141,7 @@
         - ReagentId: IcedTea
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/icedteaglass.rsi
+    sprite: /Objects/Consumable/Drinks/icedteaglass.rsi
     state: icon
 
 - type: entity
@@ -1157,7 +1157,7 @@
         - ReagentId: IcedBeer
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/iced_beerglass.rsi
+    sprite: /Objects/Consumable/Drinks/iced_beerglass.rsi
     state: icon
   - type: Tag
     tags:
@@ -1176,7 +1176,7 @@
         - ReagentId: Ice
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/iceglass.rsi
+    sprite: /Objects/Consumable/Drinks/iceglass.rsi
     state: icon
 
 - type: entity
@@ -1192,7 +1192,7 @@
         - ReagentId: IceCream
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/icecreamglass.rsi
+    sprite: /Objects/Consumable/Drinks/icecreamglass.rsi
     state: icon
 
 - type: entity
@@ -1208,7 +1208,7 @@
         - ReagentId: IrishBool
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/beerglass.rsi
+    sprite: /Objects/Consumable/Drinks/beerglass.rsi
     state: icon
 
 - type: entity
@@ -1224,7 +1224,7 @@
         - ReagentId: IrishSlammer
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/irishslammer.rsi
+    sprite: /Objects/Consumable/Drinks/irishslammer.rsi
     state: icon
 
 - type: entity
@@ -1240,7 +1240,7 @@
         - ReagentId: IrishCoffee
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/irishcoffeeglass.rsi
+    sprite: /Objects/Consumable/Drinks/irishcoffeeglass.rsi
     state: icon
 
 - type: entity
@@ -1256,7 +1256,7 @@
         - ReagentId: IrishCream
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/irishcreamglass.rsi
+    sprite: /Objects/Consumable/Drinks/irishcreamglass.rsi
     state: icon
 
 - type: entity
@@ -1272,7 +1272,7 @@
         - ReagentId: CoffeeLiqueur
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/coffeeliqueurglass.rsi
+    sprite: /Objects/Consumable/Drinks/coffeeliqueurglass.rsi
     state: icon
 
 - type: entity
@@ -1288,7 +1288,7 @@
         - ReagentId: JackRose
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/jackrose.rsi
+    sprite: /Objects/Consumable/Drinks/jackrose.rsi
     state: icon
 
 - type: entity
@@ -1304,7 +1304,7 @@
         - ReagentId: JungleBird
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/junglebird.rsi
+    sprite: /Objects/Consumable/Drinks/junglebird.rsi
     state: icon
 
 - type: entity
@@ -1320,7 +1320,7 @@
         - ReagentId: Kalimotxo
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/kalimotxo.rsi
+    sprite: /Objects/Consumable/Drinks/kalimotxo.rsi
     state: icon
 
 - type: entity
@@ -1336,7 +1336,7 @@
         - ReagentId: KiraSpecial
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/kiraspecial.rsi
+    sprite: /Objects/Consumable/Drinks/kiraspecial.rsi
     state: icon
 
 
@@ -1353,7 +1353,7 @@
         - ReagentId: Lemonade
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/lemonadeglass.rsi
+    sprite: /Objects/Consumable/Drinks/lemonadeglass.rsi
     state: icon
 
 - type: entity
@@ -1369,7 +1369,7 @@
         - ReagentId: JuiceLemon
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/lemonjuiceglass.rsi
+    sprite: /Objects/Consumable/Drinks/lemonjuiceglass.rsi
     state: icon
 
 - type: entity
@@ -1385,7 +1385,7 @@
         - ReagentId: LemonLime
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/lemonlime.rsi
+    sprite: /Objects/Consumable/Drinks/lemonlime.rsi
     state: icon
 
 - type: entity
@@ -1414,7 +1414,7 @@
         - ReagentId: LongIslandIcedTea
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/longislandicedteaglass.rsi
+    sprite: /Objects/Consumable/Drinks/longislandicedteaglass.rsi
     state: icon
 
 - type: entity
@@ -1430,7 +1430,7 @@
         - ReagentId: Manhattan
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/manhattanglass.rsi
+    sprite: /Objects/Consumable/Drinks/manhattanglass.rsi
     state: icon
 
 - type: entity
@@ -1446,7 +1446,7 @@
         - ReagentId: ManhattanProject
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/proj_manhattanglass.rsi
+    sprite: /Objects/Consumable/Drinks/proj_manhattanglass.rsi
     state: icon
 
 - type: entity
@@ -1462,7 +1462,7 @@
         - ReagentId: ManlyDorf
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/manlydorfglass.rsi
+    sprite: /Objects/Consumable/Drinks/manlydorfglass.rsi
     state: icon
 
 - type: entity
@@ -1478,7 +1478,7 @@
         - ReagentId: Margarita
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/margaritaglass.rsi
+    sprite: /Objects/Consumable/Drinks/margaritaglass.rsi
     state: icon
 
 - type: entity
@@ -1494,7 +1494,7 @@
         - ReagentId: Martini
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/martiniglass.rsi
+    sprite: /Objects/Consumable/Drinks/martiniglass.rsi
     state: icon
 
 - type: entity
@@ -1510,7 +1510,7 @@
         - ReagentId: Mead
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/meadglass.rsi
+    sprite: /Objects/Consumable/Drinks/meadglass.rsi
     state: icon
 
 - type: entity
@@ -1519,7 +1519,7 @@
   suffix: milkshake
   components:
   - type: Icon
-    sprite: Objects/Consumable/Drinks/milkshake.rsi
+    sprite: /Objects/Consumable/Drinks/milkshake.rsi
     state: icon
 
 - type: entity
@@ -1535,7 +1535,7 @@
         - ReagentId: Mojito
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/mojito.rsi
+    sprite: /Objects/Consumable/Drinks/mojito.rsi
     state: icon
 
 - type: entity
@@ -1551,7 +1551,7 @@
         - ReagentId: MonkeyBusiness
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/monkeybusiness.rsi
+    sprite: /Objects/Consumable/Drinks/monkeybusiness.rsi
     state: icon
 
 - type: entity
@@ -1567,7 +1567,7 @@
         - ReagentId: Neurotoxin
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/neurotoxinglass.rsi
+    sprite: /Objects/Consumable/Drinks/neurotoxinglass.rsi
     state: icon
 
 - type: entity
@@ -1583,7 +1583,7 @@
         - ReagentId: Nothing
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/nothing.rsi
+    sprite: /Objects/Consumable/Drinks/nothing.rsi
     state: icon
 
 - type: entity
@@ -1599,7 +1599,7 @@
         - ReagentId: NTCahors
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/wineglass.rsi
+    sprite: /Objects/Consumable/Drinks/wineglass.rsi
     state: icon
 
 - type: entity
@@ -1615,7 +1615,7 @@
         - ReagentId: NuclearCola
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/nuclear_colaglass.rsi
+    sprite: /Objects/Consumable/Drinks/nuclear_colaglass.rsi
     state: icon
 
 - type: entity
@@ -1631,7 +1631,7 @@
         - ReagentId: JuiceOrange
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/orangejuice.rsi
+    sprite: /Objects/Consumable/Drinks/orangejuice.rsi
     state: icon
 
 - type: entity
@@ -1647,7 +1647,7 @@
         - ReagentId: Painkiller
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/painkiller.rsi
+    sprite: /Objects/Consumable/Drinks/painkiller.rsi
     state: icon
 
 - type: entity
@@ -1663,7 +1663,7 @@
         - ReagentId: Patron
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/patronglass.rsi
+    sprite: /Objects/Consumable/Drinks/patronglass.rsi
     state: icon
 
 - type: entity
@@ -1679,7 +1679,7 @@
         - ReagentId: PinaColada
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/pinacolada.rsi
+    sprite: /Objects/Consumable/Drinks/pinacolada.rsi
     state: icon
 
 - type: entity
@@ -1695,7 +1695,7 @@
         - ReagentId: JuiceBerryPoison
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/poisonberryjuice.rsi
+    sprite: /Objects/Consumable/Drinks/poisonberryjuice.rsi
     state: icon
 
 - type: entity
@@ -1711,7 +1711,7 @@
         - ReagentId: PoisonWine
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/pwineglass.rsi
+    sprite: /Objects/Consumable/Drinks/pwineglass.rsi
     state: icon
 
 - type: entity
@@ -1727,7 +1727,7 @@
         - ReagentId: Posca
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/glass_light_yellow.rsi
+    sprite: /Objects/Consumable/Drinks/glass_light_yellow.rsi
     state: icon
 
 - type: entity
@@ -1743,7 +1743,7 @@
         - ReagentId: Radler
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/radler.rsi
+    sprite: /Objects/Consumable/Drinks/radler.rsi
     state: icon
 
 - type: entity
@@ -1759,7 +1759,7 @@
         - ReagentId: RedMead
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/red_meadglass.rsi
+    sprite: /Objects/Consumable/Drinks/red_meadglass.rsi
     state: icon
 
 - type: entity
@@ -1775,7 +1775,7 @@
         - ReagentId: Rewriter
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/rewriter.rsi
+    sprite: /Objects/Consumable/Drinks/rewriter.rsi
     state: icon
 
 - type: entity
@@ -1791,7 +1791,7 @@
         - ReagentId: RootBeer
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/rootbeerglass.rsi
+    sprite: /Objects/Consumable/Drinks/rootbeerglass.rsi
     state: icon
 
 - type: entity
@@ -1807,7 +1807,7 @@
         - ReagentId: RootBeerFloat
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/rootbeerfloatglass.rsi
+    sprite: /Objects/Consumable/Drinks/rootbeerfloatglass.rsi
     state: icon
 
 - type: entity
@@ -1823,7 +1823,7 @@
         - ReagentId: Rum
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/rumglass.rsi
+    sprite: /Objects/Consumable/Drinks/rumglass.rsi
     state: icon
 
 - type: entity
@@ -1839,7 +1839,7 @@
         - ReagentId: RoyRogers
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/royrogers.rsi
+    sprite: /Objects/Consumable/Drinks/royrogers.rsi
     state: icon
 
 - type: entity
@@ -1855,7 +1855,7 @@
         - ReagentId: Sake
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/sakeglass.rsi
+    sprite: /Objects/Consumable/Drinks/sakeglass.rsi
     state: icon
 
 - type: entity
@@ -1871,7 +1871,7 @@
         - ReagentId: Sbiten
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/sbitenglass.rsi
+    sprite: /Objects/Consumable/Drinks/sbitenglass.rsi
     state: icon
 
 - type: entity
@@ -1887,7 +1887,7 @@
         - ReagentId: ScrewdriverCocktail
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/screwdriverglass.rsi
+    sprite: /Objects/Consumable/Drinks/screwdriverglass.rsi
     state: icon
 
 - type: entity
@@ -1903,7 +1903,7 @@
             - ReagentId: CogChamp
               Quantity: 30
     - type: Icon
-      sprite: Objects/Consumable/Drinks/cogchamp.rsi
+      sprite: /Objects/Consumable/Drinks/cogchamp.rsi
       state: icon
 
 - type: entity
@@ -1919,7 +1919,7 @@
         - ReagentId: SuiDream
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/sdreamglass.rsi
+    sprite: /Objects/Consumable/Drinks/sdreamglass.rsi
     state: icon
 
 - type: entity
@@ -1935,7 +1935,7 @@
         - ReagentId: MelonLiquor
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/emeraldglass.rsi
+    sprite: /Objects/Consumable/Drinks/emeraldglass.rsi
     state: icon
 
 - type: entity
@@ -1951,7 +1951,7 @@
         - ReagentId: Moonshine
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/glass_clear.rsi
+    sprite: /Objects/Consumable/Drinks/glass_clear.rsi
     state: icon
 
 - type: entity
@@ -1967,7 +1967,7 @@
         - ReagentId: Milk
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/glass_white.rsi
+    sprite: /Objects/Consumable/Drinks/glass_white.rsi
     state: icon
 
 - type: entity
@@ -1983,7 +1983,7 @@
         - ReagentId: ShirleyTemple
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/shirleytemple.rsi
+    sprite: /Objects/Consumable/Drinks/shirleytemple.rsi
     state: icon
 
 - type: entity
@@ -1999,7 +1999,7 @@
         - ReagentId: Silencer
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/silencerglass.rsi
+    sprite: /Objects/Consumable/Drinks/silencerglass.rsi
     state: icon
 
 - type: entity
@@ -2015,7 +2015,7 @@
         - ReagentId: Singulo
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/singulo.rsi
+    sprite: /Objects/Consumable/Drinks/singulo.rsi
     state: icon
 
 - type: entity
@@ -2031,7 +2031,7 @@
         - ReagentId: SolDry
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/sol_dry_glass.rsi
+    sprite: /Objects/Consumable/Drinks/sol_dry_glass.rsi
     state: icon
 
 - type: entity
@@ -2047,7 +2047,7 @@
         - ReagentId: SnowWhite
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/snowwhite.rsi
+    sprite: /Objects/Consumable/Drinks/snowwhite.rsi
     state: icon
 
 - type: entity
@@ -2063,7 +2063,7 @@
         - ReagentId: SoyLatte
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/soy_latte.rsi
+    sprite: /Objects/Consumable/Drinks/soy_latte.rsi
     state: icon
 
 - type: entity
@@ -2079,7 +2079,7 @@
         - ReagentId: SpaceUp
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/space-up_glass.rsi
+    sprite: /Objects/Consumable/Drinks/space-up_glass.rsi
     state: icon
 
 - type: entity
@@ -2095,7 +2095,7 @@
         - ReagentId: SpaceMountainWind
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/space_mountain_wind_glass.rsi
+    sprite: /Objects/Consumable/Drinks/space_mountain_wind_glass.rsi
     state: icon
 
 - type: entity
@@ -2111,7 +2111,7 @@
         - ReagentId: SyndicateBomb
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/syndicatebomb.rsi
+    sprite: /Objects/Consumable/Drinks/syndicatebomb.rsi
     state: icon
 
 - type: entity
@@ -2127,7 +2127,7 @@
         - ReagentId: Tea
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/teaglass.rsi
+    sprite: /Objects/Consumable/Drinks/teaglass.rsi
     state: icon
 
 - type: entity
@@ -2144,7 +2144,7 @@
         - ReagentId: Tea
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/teapot.rsi
+    sprite: /Objects/Consumable/Drinks/teapot.rsi
 
 - type: entity
   parent: DrinkGlass
@@ -2159,7 +2159,7 @@
         - ReagentId: Tequila
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/tequillaglass.rsi
+    sprite: /Objects/Consumable/Drinks/tequillaglass.rsi
     state: icon
 
 - type: entity
@@ -2175,7 +2175,7 @@
         - ReagentId: TequilaSunrise
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/tequillasunriseglass.rsi
+    sprite: /Objects/Consumable/Drinks/tequillasunriseglass.rsi
     state: icon
 
 - type: entity
@@ -2191,7 +2191,7 @@
             - ReagentId: TheMartinez
               Quantity: 30
     - type: Icon
-      sprite: Objects/Consumable/Drinks/the_martinez.rsi
+      sprite: /Objects/Consumable/Drinks/the_martinez.rsi
       state: icon
 
 - type: entity
@@ -2207,7 +2207,7 @@
         - ReagentId: ThreeMileIsland
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/threemileislandglass.rsi
+    sprite: /Objects/Consumable/Drinks/threemileislandglass.rsi
     state: icon
 
 - type: entity
@@ -2237,7 +2237,7 @@
         - ReagentId: Tortuga
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/tortuga.rsi
+    sprite: /Objects/Consumable/Drinks/tortuga.rsi
     state: icon
 
 - type: entity
@@ -2253,7 +2253,7 @@
         - ReagentId: ToxinsSpecial
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/toxinsspecialglass.rsi
+    sprite: /Objects/Consumable/Drinks/toxinsspecialglass.rsi
     state: icon
 
 - type: entity
@@ -2269,7 +2269,7 @@
         - ReagentId: Vampiro
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/vampiro.rsi
+    sprite: /Objects/Consumable/Drinks/vampiro.rsi
     state: icon
 
 - type: entity
@@ -2285,7 +2285,7 @@
         - ReagentId: Vermouth
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/vermouthglass.rsi
+    sprite: /Objects/Consumable/Drinks/vermouthglass.rsi
     state: icon
 
 - type: entity
@@ -2301,7 +2301,7 @@
         - ReagentId: Vodka
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/ginvodkaglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginvodkaglass.rsi
     state: icon
 
 - type: entity
@@ -2317,7 +2317,7 @@
         - ReagentId: VodkaMartini
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/martiniglass.rsi
+    sprite: /Objects/Consumable/Drinks/martiniglass.rsi
     state: icon
 
 - type: entity
@@ -2333,7 +2333,7 @@
         - ReagentId: VodkaRedBool
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/ginvodkaglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginvodkaglass.rsi
     state: icon
 
 - type: entity
@@ -2349,7 +2349,7 @@
         - ReagentId: VodkaTonic
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/vodkatonicglass.rsi
+    sprite: /Objects/Consumable/Drinks/vodkatonicglass.rsi
     state: icon
 
 - type: entity
@@ -2367,7 +2367,7 @@
           Quantity: 30
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/water.rsi
+    sprite: /Objects/Consumable/Drinks/water.rsi
 
 - type: entity
   parent: DrinkGlass
@@ -2395,7 +2395,7 @@
         - ReagentId: WatermelonWakeup
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/champagneglass.rsi
+    sprite: /Objects/Consumable/Drinks/champagneglass.rsi
     state: icon
 
 - type: entity
@@ -2411,7 +2411,7 @@
         - ReagentId: WhiskeyCola
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/whiskeycolaglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeycolaglass.rsi
     state: icon
 
 - type: entity
@@ -2427,7 +2427,7 @@
         - ReagentId: Whiskey
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/whiskeyglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeyglass.rsi
     state: icon
 
 - type: entity
@@ -2443,7 +2443,7 @@
         - ReagentId: WhiskeySoda
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/whiskeysodaglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeysodaglass.rsi
     state: icon
 
 - type: entity
@@ -2459,7 +2459,7 @@
         - ReagentId: WhiteRussian
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/whiterussianglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiterussianglass.rsi
     state: icon
 
 - type: entity
@@ -2475,7 +2475,7 @@
         - ReagentId: Wine
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/wineglass.rsi
+    sprite: /Objects/Consumable/Drinks/wineglass.rsi
     state: icon
 
 - type: entity
@@ -2491,7 +2491,7 @@
         - ReagentId: XenoBasher
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/xenobasher.rsi
+    sprite: /Objects/Consumable/Drinks/xenobasher.rsi
     state: icon
 
 - type: entity
@@ -2507,7 +2507,7 @@
         - ReagentId: Caipirinha
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/caipirinha.rsi
+    sprite: /Objects/Consumable/Drinks/caipirinha.rsi
     state: icon
 
 - type: entity
@@ -2523,7 +2523,7 @@
         - ReagentId: Daiquiri
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/daiquiri.rsi
+    sprite: /Objects/Consumable/Drinks/daiquiri.rsi
     state: icon
 
 - type: entity
@@ -2539,7 +2539,7 @@
         - ReagentId: DeathInTheAfternoon
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/deathintheafternoon.rsi
+    sprite: /Objects/Consumable/Drinks/deathintheafternoon.rsi
     state: icon
 
 - type: entity
@@ -2555,7 +2555,7 @@
         - ReagentId: Empress75
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/empress75.rsi
+    sprite: /Objects/Consumable/Drinks/empress75.rsi
     state: icon
 
 - type: entity
@@ -2571,7 +2571,7 @@
         - ReagentId: EspressoMartini
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/espressomartini.rsi
+    sprite: /Objects/Consumable/Drinks/espressomartini.rsi
     state: icon
 
 - type: entity
@@ -2587,7 +2587,7 @@
         - ReagentId: Mayojito
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/mayojito.rsi
+    sprite: /Objects/Consumable/Drinks/mayojito.rsi
     state: icon
 
 - type: entity
@@ -2603,7 +2603,7 @@
         - ReagentId: Mimeosa
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/mimeosa.rsi
+    sprite: /Objects/Consumable/Drinks/mimeosa.rsi
     state: icon
 
 - type: entity
@@ -2619,7 +2619,7 @@
         - ReagentId: Mimosa
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/mimosa.rsi
+    sprite: /Objects/Consumable/Drinks/mimosa.rsi
     state: icon
 
 - type: entity
@@ -2635,7 +2635,7 @@
         - ReagentId: MoscowMule
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/moscowmule.rsi
+    sprite: /Objects/Consumable/Drinks/moscowmule.rsi
     state: icon
 
 - type: entity
@@ -2651,7 +2651,7 @@
         - ReagentId: TheSunAlsoRises
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/thesunalsorises.rsi
+    sprite: /Objects/Consumable/Drinks/thesunalsorises.rsi
     state: icon
 
 - type: entity
@@ -2667,7 +2667,7 @@
         - ReagentId: WhiskeySour
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/whiskeysour.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeysour.rsi
     state: icon
 
 # TODO: MOVE
@@ -2680,7 +2680,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-blue.rsi
+    sprite: /Objects/Consumable/Drinks/shake-blue.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -2690,7 +2690,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-empty.rsi
+    sprite: /Objects/Consumable/Drinks/shake-empty.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -2700,7 +2700,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-meat.rsi
+    sprite: /Objects/Consumable/Drinks/shake-meat.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -2710,7 +2710,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-robo.rsi
+    sprite: /Objects/Consumable/Drinks/shake-robo.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -2720,7 +2720,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-white.rsi
+    sprite: /Objects/Consumable/Drinks/shake-white.rsi
 
 - type: entity
   parent: DrinkGlass
@@ -2735,7 +2735,7 @@
             - ReagentId: Blood
               Quantity: 30
     - type: Icon
-      sprite: Objects/Consumable/Drinks/bloodglass.rsi
+      sprite: /Objects/Consumable/Drinks/bloodglass.rsi
       state: icon
 
 - type: entity
@@ -2752,5 +2752,5 @@
         - ReagentId: BacchusBlessing
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/bacchusblessing.rsi
+    sprite: /Objects/Consumable/Drinks/bacchusblessing.rsi
     state: icon

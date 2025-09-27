@@ -7,9 +7,9 @@
   description: Mostly transparent raincoat made out of acid resistant polymers. Please, for the love of Space God, do wear undergarments.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -23,9 +23,9 @@
   name: blue acid raincoat
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_blue.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_blue.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_blue.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_blue.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodAcidRaincoatBlue
 
@@ -35,9 +35,9 @@
   name: green acid raincoat
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_green.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_green.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_green.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_green.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodAcidRaincoatGreen
 
@@ -47,9 +47,9 @@
   name: magenta acid raincoat
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_magenta.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_magenta.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_magenta.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_magenta.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodAcidRaincoatMagenta
 
@@ -59,9 +59,9 @@
   name: yellow acid raincoat
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_yellow.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_yellow.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_yellow.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/acid_raincoat_yellow.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodAcidRaincoatGreen
 
@@ -73,9 +73,9 @@
   description: Ya gotta 'ave style on dem streets.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/bomber_punk_red.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bomber_punk_red.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/bomber_punk_red.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bomber_punk_red.rsi
 
 - type: entity
   id: ClothingOuterCoatJacketLeather
@@ -84,9 +84,9 @@
   description: Rock'n'roll, babe!
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_leather.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_leather.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_leather.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_leather.rsi
 
 - type: entity
   id: ClothingOuterCoatJacketBiker
@@ -95,9 +95,9 @@
   description: Made out of toughest synthleather for toughest badasses.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_biker.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_biker.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_biker.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_biker.rsi
 
 - type: entity
   id: ClothingOuterCoatJacketJamrock
@@ -106,9 +106,9 @@
   description: Welcome to jamrock.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/blazer_jamrock.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/blazer_jamrock.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/blazer_jamrock.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/blazer_jamrock.rsi
 
 - type: entity
   id: ClothingOuterCoatBomberAerostatic
@@ -117,9 +117,9 @@
   description: When you wear it, you can always hear the sickest guitar solo in your mind.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/bomber_aerostatic.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bomber_aerostatic.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/bomber_aerostatic.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bomber_aerostatic.rsi
 
 - type: entity
   id: ClothingOuterCoatJacketLettermanBlue
@@ -128,9 +128,9 @@
   description: Where is your lacrosse stick?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_blue.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_blue.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_blue.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_blue.rsi
 
 - type: entity
   id: ClothingOuterCoatJacketLettermanBrown
@@ -139,9 +139,9 @@
   description: Where is your lacrosse stick?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_brown.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_brown.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_brown.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_brown.rsi
 
 - type: entity
   id: ClothingOuterCoatJacketLettermanRed
@@ -150,9 +150,9 @@
   description: Where is your lacrosse stick?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_red.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_red.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_red.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_red.rsi
 
 - type: entity
   id: ClothingOuterCoatJacketLettermanMagenta
@@ -161,9 +161,9 @@
   description: Where is your holocrosse joystick?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_magenta.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_magenta.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_magenta.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_letterman_magenta.rsi
 
 - type: entity
   id: ClothingOuterCoatBomberPinkSleeves
@@ -172,9 +172,9 @@
   description: Oi! Whatcha lookin' at?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/bomber_pinksleeves.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bomber_pinksleeves.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/bomber_pinksleeves.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bomber_pinksleeves.rsi
 
 # Procedural punk jackets
 - type: entity
@@ -185,7 +185,7 @@
   suffix: Random visuals
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
     layers:
     - state: base_OuterClothing_jacket_01
       map: [ "jacket_main" ]
@@ -195,7 +195,7 @@
       map: [ "jacket_overlay" ]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
     clothingVisuals:
       outerClothing:
       - state: base_OuterClothing_jacket_01
@@ -233,14 +233,14 @@
   suffix: Random visuals
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
     layers:
     - state: base_OuterClothing_letterman
       map: [ "jacket_main" ]
     - state: decor_base_OuterClothing_letterman
       map: [ "jacket_decor" ]
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/jacket_procedural.rsi
     clothingVisuals:
       outerClothing:
       - state: base_OuterClothing_letterman

@@ -7,7 +7,7 @@
     layers:
     - state: medical
     - state: icon-paramedic
-      sprite: _NF/Objects/Specific/Robotics/borgmodule.rsi
+      sprite: /_NF/Objects/Specific/Robotics/borgmodule.rsi
   - type: ItemBorgModule
     moduleId: NFAdvancedParamedic
     items:
@@ -15,7 +15,7 @@
     - BorgHypoTricordrazine
     - BorgHypoInaprovaline
   - type: BorgModuleIcon
-    icon: { sprite: _NF/Interface/Actions/actions_borg.rsi, state: adv-paramed-module }
+    icon: { sprite: /_NF/Interface/Actions/actions_borg.rsi, state: adv-paramed-module }
 
 - type: entity
   id: BorgModuleJetpack
@@ -26,7 +26,7 @@
     layers:
     - state: generic
     - state: icon-jetpack
-      sprite: _NF/Objects/Specific/Robotics/borgmodule.rsi
+      sprite: /_NF/Objects/Specific/Robotics/borgmodule.rsi
   - type: ItemBorgModule
     moduleId: NFJetpack
     items:
@@ -52,7 +52,7 @@
         - NFFuel
       displayName: borg-placeholder-display-name-fuel
   - type: BorgModuleIcon
-    icon: { sprite: _NF/Interface/Actions/actions_borg.rsi, state: jetpack-module }
+    icon: { sprite: /_NF/Interface/Actions/actions_borg.rsi, state: jetpack-module }
 
 - type: entity
   id: BorgModuleRCDShipyard
@@ -63,7 +63,7 @@
     layers:
     - state: engineering
     - state: icon-rcd-shipyard
-      sprite: _NF/Objects/Specific/Robotics/borgmodule.rsi
+      sprite: /_NF/Objects/Specific/Robotics/borgmodule.rsi
   - type: ItemBorgModule
     moduleId: ShipyardRCD
     items:
@@ -85,7 +85,7 @@
         - RCDAmmo
       displayName: borg-placeholder-display-name-compressed-matter
   - type: BorgModuleIcon
-    icon: { sprite: _NF/Interface/Actions/actions_borg.rsi, state: shipyard-rcd-module }
+    icon: { sprite: /_NF/Interface/Actions/actions_borg.rsi, state: shipyard-rcd-module }
 
 # Service modules
 - type: entity
@@ -97,7 +97,7 @@
     layers:
     - state: service
     - state: icon-martini
-      sprite: _NF/Objects/Specific/Robotics/borgmodule.rsi
+      sprite: /_NF/Objects/Specific/Robotics/borgmodule.rsi
   - type: ItemBorgModule
     moduleId: NFService
     items:
@@ -134,7 +134,7 @@
         - DrinkGlass
       displayName: borg-placeholder-display-name-glassware
   - type: BorgModuleIcon
-    icon: { sprite: Interface/Actions/actions_borg.rsi, state: service-module }
+    icon: { sprite: /Interface/Actions/actions_borg.rsi, state: service-module }
 
 - type: entity
   id: BorgModuleBureaucracy
@@ -174,7 +174,7 @@
         - Stamp
       displayName: borg-placeholder-display-name-rubber-stamp
   - type: BorgModuleIcon
-    icon: { sprite: _NF/Interface/Actions/actions_borg.rsi, state: bureaucracy-module }
+    icon: { sprite: /_NF/Interface/Actions/actions_borg.rsi, state: bureaucracy-module }
 
 - type: entity
   id: BorgModuleChef
@@ -185,7 +185,7 @@
     layers:
     - state: service
     - state: icon-burger
-      sprite: _NF/Objects/Specific/Robotics/borgmodule.rsi
+      sprite: /_NF/Objects/Specific/Robotics/borgmodule.rsi
   - type: ItemBorgModule
     moduleId: Chef
     items:
@@ -232,4 +232,4 @@
         - Ingredient
       displayName: borg-placeholder-display-name-food-or-ingredients
   - type: BorgModuleIcon
-    icon: { sprite: _NF/Interface/Actions/actions_borg.rsi, state: chef-module }
+    icon: { sprite: /_NF/Interface/Actions/actions_borg.rsi, state: chef-module }

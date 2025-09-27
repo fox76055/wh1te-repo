@@ -13,11 +13,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod_nt.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod_nt.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -40,7 +40,7 @@
   suffix: ФСФ, Браво
   components:
     - type: Sprite
-      sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_hardsuit.rsi
+      sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_hardsuit.rsi
       state: full
     - type: RandomHumanoidSpawner
       settings: FSFCommanderBravoPreset
@@ -91,11 +91,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod_nt.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod_nt.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -118,7 +118,7 @@
   suffix: ФСФ, Браво
   components:
     - type: Sprite
-      sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_hardsuit.rsi
+      sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_hardsuit.rsi
       state: full
     - type: RandomHumanoidSpawner
       settings: FSFSpecialistBravoPreset
@@ -164,11 +164,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod_nt.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod_nt.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -191,7 +191,7 @@
   suffix: ФСФ, Чарли
   components:
     - type: Sprite
-      sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_hardsuit.rsi
+      sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_hardsuit.rsi
       state: full
     - type: RandomHumanoidSpawner
       settings: FSFCommanderCharliePreset
@@ -242,11 +242,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod_nt.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod_nt.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod_nt.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -269,7 +269,7 @@
   suffix: ФСФ, Чарли
   components:
     - type: Sprite
-      sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_hardsuit.rsi
+      sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_hardsuit.rsi
       state: full
     - type: RandomHumanoidSpawner
       settings: FSFSpecialistCharliePreset

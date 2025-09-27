@@ -5,7 +5,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chelicerae.rsi
+  - sprite: /Mobs/Customization/Arachnid/chelicerae.rsi
     state: downwards
 
 - type: marking
@@ -14,7 +14,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chelicerae.rsi
+  - sprite: /Mobs/Customization/Arachnid/chelicerae.rsi
     state: inwards
 
 # Appendages
@@ -24,9 +24,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: long_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: long_secondary
 
 - type: marking
@@ -35,9 +35,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: sharp_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: sharp_secondary
 
 - type: marking
@@ -46,9 +46,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: stingers_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: stingers_secondary
 
 - type: marking
@@ -57,9 +57,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: zigzag_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: zigzag_secondary
 
 - type: marking
@@ -68,9 +68,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: curled_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: curled_secondary
 
 - type: marking
@@ -79,9 +79,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: chipped_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: chipped_secondary
 
 - type: marking
@@ -90,9 +90,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: harvest_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: harvest_secondary
 
 - type: marking
@@ -101,9 +101,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: short_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: short_secondary
 
 - type: marking
@@ -112,9 +112,9 @@
   markingCategory: Tail
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: freaky_primary
-  - sprite: Mobs/Customization/Arachnid/appendages.rsi
+  - sprite: /Mobs/Customization/Arachnid/appendages.rsi
     state: freaky_secondary
 
 # Chest
@@ -124,7 +124,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: stripes
   coloring:
     default:
@@ -137,7 +137,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: slashes
   coloring:
     default:
@@ -150,7 +150,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: x
   coloring:
     default:
@@ -163,7 +163,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: cross
   coloring:
     default:
@@ -176,7 +176,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: heart
   coloring:
     default:
@@ -189,7 +189,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: hourglass
   coloring:
     default:
@@ -202,7 +202,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: nail-and-hammer
   coloring:
     default:
@@ -215,7 +215,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: star
   coloring:
     default:
@@ -228,7 +228,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: arrows
   coloring:
     default:
@@ -241,7 +241,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: core
   coloring:
     default:
@@ -254,7 +254,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: fiddleback
   coloring:
     default:
@@ -267,7 +267,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: skull
   coloring:
     default:
@@ -280,7 +280,7 @@
   markingCategory: Chest
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/chest.rsi
+  - sprite: /Mobs/Customization/Arachnid/chest.rsi
     state: target
   coloring:
     default:
@@ -294,7 +294,7 @@
   markingCategory: Arms
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/arms.rsi
+  - sprite: /Mobs/Customization/Arachnid/arms.rsi
     state: stripes_right
   coloring:
     default:
@@ -307,7 +307,7 @@
   markingCategory: Arms
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/arms.rsi
+  - sprite: /Mobs/Customization/Arachnid/arms.rsi
     state: stripes_left
   coloring:
     default:
@@ -321,7 +321,7 @@
   markingCategory: Legs
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/legs.rsi
+  - sprite: /Mobs/Customization/Arachnid/legs.rsi
     state: stripes_right
   coloring:
     default:
@@ -334,7 +334,7 @@
   markingCategory: Legs
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/legs.rsi
+  - sprite: /Mobs/Customization/Arachnid/legs.rsi
     state: stripes_left
   coloring:
     default:
@@ -349,6 +349,6 @@
   forcedColoring: true
   speciesRestriction: [Arachnid]
   sprites:
-  - sprite: Mobs/Customization/Arachnid/overlay.rsi
+  - sprite: /Mobs/Customization/Arachnid/overlay.rsi
     state: fuzzy
 

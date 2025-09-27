@@ -9,9 +9,9 @@
     A simple civilian grade laser carbine, the workhorse of many private security organizations.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi
 
 - type: entity
   id: NFWeaponEnergyRifleCarbinePractice
@@ -22,9 +22,9 @@
     This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Battery/practice_laser_gun.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Battery/practice_laser_gun.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Battery/practice_laser_gun.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Battery/practice_laser_gun.rsi
 
 #region Pulse
 - type: entity
@@ -35,9 +35,9 @@
     A weapon that is almost as infamous as its users. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: /Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Battery # 300 shots. # Frontier, why the fuck did you make a deathsquad gun designed to kill stations without needing to recharge only 30 shots?
     maxCharge: 30000 #Lua edit: from 3000 to 30000
     startingCharge: 30000 #Lua edit: from 3000 to 30000
@@ -51,7 +51,7 @@
     Releases electromagnetic pulses that disrupt or damage many electronic devices or drain power cells, has a slow self charging nuclear powered battery.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Battery/emp.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Battery/emp.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -59,7 +59,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Battery/emp.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Battery/emp.rsi
   - type: Gun
     fireRate: 1
     selectedMode: SemiAuto
@@ -91,7 +91,7 @@
       sprintModifier: 0.6
     - type: HeldSpeedModifier
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
+      sprite: /Objects/Weapons/Guns/Battery/particle_decelerator.rsi
       layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -122,7 +122,7 @@
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/temp_gun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -130,7 +130,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/temp_gun.rsi
   - type: Battery # 30 shots
     maxCharge: 3000
     startingCharge: 3000

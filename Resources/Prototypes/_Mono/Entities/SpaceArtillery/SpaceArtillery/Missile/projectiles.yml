@@ -22,7 +22,7 @@
         Blunt: 65
         Heat: 10
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/mini_rocket.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/mini_rocket.rsi
     layers:
     - state: mini-rocket
   - type: Ammo
@@ -80,7 +80,7 @@
         Blunt: 175
         Heat: 50
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: frag
   - type: Ammo
@@ -129,7 +129,7 @@
         Blunt: 2000
         Heat: 500
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: frag
   - type: Ammo
@@ -178,7 +178,7 @@
         Heat: 150
         Ion: 2500
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/hybrid_missile.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/hybrid_missile.rsi
     layers:
     - state: hybrid-missile
   - type: Ammo

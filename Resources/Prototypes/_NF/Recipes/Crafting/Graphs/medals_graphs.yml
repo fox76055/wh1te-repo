@@ -10,37 +10,37 @@
         name: construction-graph-tag-medal
         doAfter: 2
         icon:
-          sprite: Clothing/Neck/Medals/gold.rsi
+          sprite: /Clothing/Neck/Medals/gold.rsi
           state: icon
       - tag: Medal
         name: construction-graph-tag-medal
         doAfter: 2
         icon:
-          sprite: Clothing/Neck/Medals/medicalmedal.rsi
+          sprite: /Clothing/Neck/Medals/medicalmedal.rsi
           state: icon
       - tag: Medal
         name: construction-graph-tag-medal
         doAfter: 2
         icon:
-          sprite: _NF/Clothing/Neck/Medals/shield_gold.rsi
+          sprite: /_NF/Clothing/Neck/Medals/shield_gold.rsi
           state: icon
       - tag: Medal
         name: construction-graph-tag-medal
         doAfter: 2
         icon:
-          sprite: Clothing/Neck/Medals/cargomedal.rsi
+          sprite: /Clothing/Neck/Medals/cargomedal.rsi
           state: icon
       - tag: Medal
         name: construction-graph-tag-medal
         doAfter: 2
         icon:
-          sprite: Clothing/Neck/Medals/sciencemedal.rsi
+          sprite: /Clothing/Neck/Medals/sciencemedal.rsi
           state: icon
       - tag: Medal
         name: construction-graph-tag-medal
         doAfter: 2
         icon:
-          sprite: _NF/Clothing/Neck/Medals/blood_drop.rsi
+          sprite: /_NF/Clothing/Neck/Medals/blood_drop.rsi
           state: icon
   - node: GloriousOrder
     entity: ClothingNeckMedalGloriousOrder

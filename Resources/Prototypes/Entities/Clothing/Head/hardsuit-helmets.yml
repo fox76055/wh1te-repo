@@ -1,4 +1,4 @@
-#When adding new hardsuits, please try to keep the organization consistent with hardsuit.yml (if possible.)
+#When adding new hardsuits, please try to keep the organization consistent with /hardsuit.yml (if possible.)
 
 #For now, since locational damage is not a thing, all "combat" hardsuits (with the exception of the deathsquad hardsuit) have the equvilent of a helmet in terms of armor.
 #This is so people don't need to wear both regular, on-station helmets and hardsuits to get full protection.
@@ -13,9 +13,9 @@
   description: A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/basic.rsi
+    sprite: /Clothing/Head/Hardsuits/basic.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/basic.rsi
+    sprite: /Clothing/Head/Hardsuits/basic.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -33,7 +33,7 @@
   description: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/atmospherics.rsi
+    sprite: /Clothing/Head/Hardsuits/atmospherics.rsi
     layers:
     - state: icon
     - state: icon-unshaded
@@ -82,9 +82,9 @@
   description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/engineering.rsi
+    sprite: /Clothing/Head/Hardsuits/engineering.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/engineering.rsi
+    sprite: /Clothing/Head/Hardsuits/engineering.rsi
   - type: PointLight
     color: "#ffdbad"
   - type: PressureProtection
@@ -99,9 +99,9 @@
   description: A sturdy helmet designed for complex industrial operations in space.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/spatiohelm.rsi
+    sprite: /Clothing/Head/Hardsuits/spatiohelm.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/spatiohelm.rsi
+    sprite: /Clothing/Head/Hardsuits/spatiohelm.rsi
     clothingVisuals:
       head:
       - state: off-equipped-HELMET
@@ -127,9 +127,9 @@
   description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/salvage.rsi
+    sprite: /Clothing/Head/Hardsuits/salvage.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/salvage.rsi
+    sprite: /Clothing/Head/Hardsuits/salvage.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
@@ -142,9 +142,9 @@
   id: ClothingHeadHelmetHardsuitSeniorSalvage
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/seniorsalvage.rsi
+    sprite: /Clothing/Head/Hardsuits/seniorsalvage.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/seniorsalvage.rsi
+    sprite: /Clothing/Head/Hardsuits/seniorsalvage.rsi
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
@@ -153,7 +153,7 @@
   description: A sturdy hardsuit helmet, infused with a goliath's hide and an eerie, unblinking eye cut from its mass.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/goliathhelm.rsi
+    sprite: /Clothing/Head/Hardsuits/goliathhelm.rsi
     layers:
     - state: icon
     - state: icon-unshaded
@@ -196,9 +196,9 @@
   description: A predication of decay washes over your mind.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/maxim.rsi
+    sprite: /Clothing/Head/Hardsuits/maxim.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/maxim.rsi
+    sprite: /Clothing/Head/Hardsuits/maxim.rsi
     # Lua start
     equippedPrefix: off
   - type: ToggleableVisuals
@@ -232,9 +232,9 @@
   description: Armored hardsuit helmet for security needs.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/security.rsi
+    sprite: /Clothing/Head/Hardsuits/security.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/security.rsi
+    sprite: /Clothing/Head/Hardsuits/security.rsi
   - type: PointLight
     color: '#3fb594'
   - type: PressureProtection
@@ -256,9 +256,9 @@
   description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/brigmedic.rsi
+    sprite: /Clothing/Head/Hardsuits/brigmedic.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/brigmedic.rsi
+    sprite: /Clothing/Head/Hardsuits/brigmedic.rsi
   - type: PointLight
     color: "#00FFFF"
   - type: Armor
@@ -282,9 +282,9 @@
   description: A modified riot helmet. Oddly comfortable.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/security-warden.rsi
+    sprite: /Clothing/Head/Hardsuits/security-warden.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/security-warden.rsi
+    sprite: /Clothing/Head/Hardsuits/security-warden.rsi
   - type: PointLight
     color: "#3fb594"
   - type: PressureProtection
@@ -306,9 +306,9 @@
   description: Special hardsuit helmet, made for the captain of the station.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/capspace.rsi
+    sprite: /Clothing/Head/Hardsuits/capspace.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/capspace.rsi
+    sprite: /Clothing/Head/Hardsuits/capspace.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -321,9 +321,9 @@
   description: Special hardsuit helmet, made for the chief engineer of the station.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/engineering-white.rsi
+    sprite: /Clothing/Head/Hardsuits/engineering-white.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/engineering-white.rsi
+    sprite: /Clothing/Head/Hardsuits/engineering-white.rsi
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -340,9 +340,9 @@
   description: Lightweight medical hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/medical.rsi
+    sprite: /Clothing/Head/Hardsuits/medical.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/medical.rsi
+    sprite: /Clothing/Head/Hardsuits/medical.rsi
   - type: PointLight
     color: "#adf1ff"
   - type: PressureProtection
@@ -357,9 +357,9 @@
   description: Lightweight hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/rd.rsi
+    sprite: /Clothing/Head/Hardsuits/rd.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/rd.rsi
+    sprite: /Clothing/Head/Hardsuits/rd.rsi
   - type: PointLight
     color: "#d6adff"
   - type: PressureProtection
@@ -374,9 +374,9 @@
   description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/security-red.rsi
+    sprite: /Clothing/Head/Hardsuits/security-red.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/security-red.rsi
+    sprite: /Clothing/Head/Hardsuits/security-red.rsi
   - type: PointLight
     color: '#3fb594'
   - type: PressureProtection
@@ -399,9 +399,9 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/luxury.rsi
+    sprite: /Clothing/Head/Hardsuits/luxury.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/luxury.rsi
+    sprite: /Clothing/Head/Hardsuits/luxury.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
@@ -418,9 +418,9 @@
   description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/syndicate.rsi
+    sprite: /Clothing/Head/Hardsuits/syndicate.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/syndicate.rsi
+    sprite: /Clothing/Head/Hardsuits/syndicate.rsi
   - type: PointLight
     color: green
   - type: PressureProtection
@@ -442,9 +442,9 @@
   description: An advanced red hardsuit helmet specifically designed for field medic operations.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
+    sprite: /Clothing/Head/Hardsuits/syndiemedic.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
+    sprite: /Clothing/Head/Hardsuits/syndiemedic.rsi
   - type: PointLight
     color: green
   - type: PressureProtection
@@ -466,9 +466,9 @@
   description: An elite version of the blood-red hardsuit's helmet, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/syndieelite.rsi
+    sprite: /Clothing/Head/Hardsuits/syndieelite.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/syndieelite.rsi
+    sprite: /Clothing/Head/Hardsuits/syndieelite.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -495,9 +495,9 @@
   description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
+    sprite: /Clothing/Head/Hardsuits/syndiecommander.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
+    sprite: /Clothing/Head/Hardsuits/syndiecommander.rsi
   - type: PointLight
     color: green
   - type: PressureProtection
@@ -519,9 +519,9 @@
   description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/cybersun.rsi
+    sprite: /Clothing/Head/Hardsuits/cybersun.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/cybersun.rsi
+    sprite: /Clothing/Head/Hardsuits/cybersun.rsi
   - type: PointLight # Corvax-Resprite
     color: red
   - type: PressureProtection
@@ -543,9 +543,9 @@
   description: A bizarre gem-encrusted helmet that radiates magical energies.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/wizard.rsi
+    sprite: /Clothing/Head/Hardsuits/wizard.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/wizard.rsi
+    sprite: /Clothing/Head/Hardsuits/wizard.rsi
   - type: PointLight
     color: "#ffadfb"
   - type: PressureProtection
@@ -567,9 +567,9 @@
   description: A spaceworthy biomass of pressure and temperature resistant tissue.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/lingspacehelmet.rsi
+    sprite: /Clothing/Head/Hardsuits/lingspacehelmet.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/lingspacehelmet.rsi
+    sprite: /Clothing/Head/Hardsuits/lingspacehelmet.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.225
     lowPressureMultiplier: 1000
@@ -583,9 +583,9 @@
   description: A deep space EVA helmet, very heavy but provides good protection.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/pirateeva.rsi
+    sprite: /Clothing/Head/Hardsuits/pirateeva.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/pirateeva.rsi
+    sprite: /Clothing/Head/Hardsuits/pirateeva.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -599,7 +599,7 @@
   description: A special hardsuit helmet, made for the captain of a pirate ship.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/piratecaptainhelm.rsi
+    sprite: /Clothing/Head/Hardsuits/piratecaptainhelm.rsi
   - type: ToggleableVisuals
     clothingVisuals:
       head:
@@ -609,7 +609,7 @@
       - state: equipped-HELMET-light-vox
         shader: unshaded
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/piratecaptainhelm.rsi
+    sprite: /Clothing/Head/Hardsuits/piratecaptainhelm.rsi
     clothingVisuals:
       head:
       - state: equipped-HELMET
@@ -644,9 +644,9 @@
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
   - type: PointLight # Corvax-Resprite
     color: cyan
   - type: Armor
@@ -665,9 +665,9 @@
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
   - type: PointLight
     color: "#ffffff"
 
@@ -679,9 +679,9 @@
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
   - type: PointLight
     color: "#f4ffad"
   - type: FireProtection
@@ -702,9 +702,9 @@
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
   - type: PointLight
     color: "#adffec"
 
@@ -716,9 +716,9 @@
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
   - type: PointLight
     color: "#ffadc6"
   - type: Armor
@@ -737,9 +737,9 @@
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
+    sprite: /Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
   - type: PointLight
     color: "#cbadff"
 
@@ -751,7 +751,7 @@
   description: A pressure resistant and fireproof hood worn by special cleanup units.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/cburn.rsi
+    sprite: /Clothing/Head/Hardsuits/cburn.rsi
     layers:
     - state: icon
     - state: icon-unshaded
@@ -793,9 +793,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/deathsquad.rsi
+    sprite: /Clothing/Head/Hardsuits/deathsquad.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/deathsquad.rsi
+    sprite: /Clothing/Head/Hardsuits/deathsquad.rsi
   - type: PointLight # Corvax-Resprite
     color: cyan
   - type: PressureProtection
@@ -831,9 +831,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/clown.rsi
+    sprite: /Clothing/Head/Hardsuits/clown.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/clown.rsi
+    sprite: /Clothing/Head/Hardsuits/clown.rsi
     equipSound: /Audio/Mecha/mechmove03.ogg
     unequipSound: /Audio/Effects/Emotes/parp1.ogg
 
@@ -846,9 +846,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/mime.rsi
+    sprite: /Clothing/Head/Hardsuits/mime.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/mime.rsi
+    sprite: /Clothing/Head/Hardsuits/mime.rsi
 
 #Santas Hardsuit
 - type: entity
@@ -859,9 +859,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/santahelm.rsi
+    sprite: /Clothing/Head/Hardsuits/santahelm.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/santahelm.rsi
+    sprite: /Clothing/Head/Hardsuits/santahelm.rsi
   - type: PointLight
     color: "#f4ffad"
     radius: 5

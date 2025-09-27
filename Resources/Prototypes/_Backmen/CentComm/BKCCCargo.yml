@@ -32,10 +32,10 @@
   - type: GhostRoleMobSpawner
     prototype: MobHumanCMBKCCCargo
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Mobs/Animals/regalrat.rsi
+    - sprite: /Mobs/Animals/regalrat.rsi
       state: icon
 
 - type: entity
@@ -46,7 +46,7 @@
   description: ""
   components:
   - type: Icon
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     state: ai
   - type: AutoImplant
     implants:

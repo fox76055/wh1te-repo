@@ -11,7 +11,7 @@
   description: A big container of salt. Good for cooking!
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: salt-big
   - type: SolutionContainerManager
     solutions:
@@ -32,7 +32,7 @@
   description: A big container of pepper. Good for cooking!
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: pepper-big
   - type: SolutionContainerManager
     solutions:
@@ -49,7 +49,7 @@
   description: A big bag of raisins. Good for baking!
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: raisin-big
   - type: SolutionContainerManager
     solutions:
@@ -66,7 +66,7 @@
   description: A big bag of cocoa powder. Good for cooking!
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: cocoa-chip-big
   - type: SolutionContainerManager
     solutions:
@@ -95,7 +95,7 @@
         - ReagentId: Theobromine # Caffeine
           Quantity: 1
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/coffee.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/coffee.rsi
     state: produce-beans
   - type: Item
     heldPrefix: produce-beans
@@ -131,7 +131,7 @@
         - ReagentId: CoffeeGrounds
           Quantity: 5
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/coffee.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/coffee.rsi
     state: produce-beans-light
   - type: Item
     heldPrefix: produce-beans-light
@@ -188,7 +188,7 @@
   description: A big squeeze bottle of honey. Great for sweetening up your day!
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: honeybottle
   - type: SolutionContainerManager
     solutions:
@@ -213,7 +213,7 @@
       - dough
       - butter
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: dough-flat-buttered
   - type: Construction
     graph: Pizza
@@ -226,7 +226,7 @@
   description: A buttery, rolled out pastry dough.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: dough-pastry-flat
   - type: Construction
     graph: Pizza
@@ -242,7 +242,7 @@
   description: A sugary waffle cone. Top with ice cream!
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/frozen.rsi
+    sprite: /_NF/Objects/Consumable/Food/frozen.rsi
     state: wafflecone
   - type: Construction
     graph: WaffleCone
@@ -266,7 +266,7 @@
   - type: Item
     storedRotation: -90
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: rice-noodle-sheet
   - type: SliceableFood
     count: 3
@@ -293,7 +293,7 @@
   description: A nest of delicate rice noodles. Probably better cooked.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: rice-noodle
   - type: SolutionContainerManager
     solutions:

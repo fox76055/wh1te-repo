@@ -5,9 +5,9 @@
   description: Produced from plasmatic fibers, nanomachines and silicon. Smells like cherry blossom
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/saiba_sain_hardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000

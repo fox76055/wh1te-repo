@@ -6,7 +6,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Storage/Crates/generic.rsi
+    - sprite: /Structures/Storage/Crates/generic.rsi
       state: icon
   - type: RandomSpawner
     prototypes:
@@ -165,7 +165,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Storage/Crates/o2.rsi
+    - sprite: /Structures/Storage/Crates/o2.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -181,7 +181,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Storage/Crates/engineering.rsi
+    - sprite: /Structures/Storage/Crates/engineering.rsi
       state: icon
   - type: RandomSpawner
     rarePrototypes:
@@ -224,7 +224,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Storage/Crates/sec_gear.rsi
+    - sprite: /Structures/Storage/Crates/sec_gear.rsi
       state: icon
   - type: RandomSpawner
     rarePrototypes: #Very useful stuff we probably don't want random people getting on space ruins often, even if there are hurdles to open it
@@ -267,7 +267,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Storage/Crates/lockbox.rsi
+    - sprite: /Structures/Storage/Crates/lockbox.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector

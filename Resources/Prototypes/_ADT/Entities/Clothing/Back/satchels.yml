@@ -5,7 +5,7 @@
   description: A trendy looking satchel.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/ninjasatchel.rsi
+    sprite: /ADT/Clothing/Back/ninjasatchel.rsi
   - type: Storage
     maxItemSize: Huge
 

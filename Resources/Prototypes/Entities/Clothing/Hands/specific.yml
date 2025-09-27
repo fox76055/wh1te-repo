@@ -8,9 +8,9 @@
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
-      sprite: Clothing/Hands/Gloves/Color/black.rsi
+      sprite: /Clothing/Hands/Gloves/Color/black.rsi
     - type: Clothing
-      sprite: Clothing/Hands/Gloves/Color/black.rsi
+      sprite: /Clothing/Hands/Gloves/Color/black.rsi
     - type: ChameleonClothing
       slot: [gloves]
       default: ClothingHandsGlovesColorBlack

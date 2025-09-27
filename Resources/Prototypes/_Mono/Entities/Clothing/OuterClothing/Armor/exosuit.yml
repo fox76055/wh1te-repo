@@ -6,9 +6,9 @@
   description:  
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Armor/aurora.rsi
+    sprite: /_Mono/Clothing/OuterClothing/Armor/aurora.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Armor/aurora.rsi
+    sprite: /_Mono/Clothing/OuterClothing/Armor/aurora.rsi
     stripDelay: 100
     equipDelay: 10 # to avoid accidentally falling into the trap associated with SelfUnremovableClothing
   - type: SelfUnremovableClothing

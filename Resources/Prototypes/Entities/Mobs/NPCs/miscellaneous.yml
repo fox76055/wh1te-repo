@@ -12,7 +12,7 @@
         task: SimpleRangedHostileCompound
     - type: Sprite
       drawdepth: Mobs
-      sprite: Mobs/Aliens/laser_raptor.rsi
+      sprite: /Mobs/Aliens/laser_raptor.rsi
       layers:
         - map: [ "enum.DamageStateVisualLayers.Base" ]
           state: laser_raptor
@@ -152,7 +152,7 @@
       components:
       - HumanoidAppearance
   - type: Sprite
-    sprite: Mobs/Demons/tomatokiller.rsi
+    sprite: /Mobs/Demons/tomatokiller.rsi
     noRot: true
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]

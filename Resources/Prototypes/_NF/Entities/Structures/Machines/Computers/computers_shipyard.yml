@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -58,7 +58,7 @@
   description: Used to enlist into Nanotrasen Security Forces
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -85,7 +85,7 @@
   description: Used to buy NFSD patrol vessels.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -118,7 +118,7 @@
       enum.ShipyardConsoleUiKey.Syndicate:
         type: ShipyardConsoleBoundUserInterface
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_blackmarket
@@ -149,7 +149,7 @@
       enum.ShipyardConsoleUiKey.BlackMarket:
         type: ShipyardConsoleBoundUserInterface
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_blackmarket
@@ -206,7 +206,7 @@
       enum.ShipyardConsoleUiKey.Expedition:
        type: ShipyardConsoleBoundUserInterface
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_expedition
@@ -230,7 +230,7 @@
       enum.ShipyardConsoleUiKey.Scrap:
         type: ShipyardConsoleBoundUserInterface
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_scrap
@@ -254,7 +254,7 @@
       enum.ShipyardConsoleUiKey.Medical:
         type: ShipyardConsoleBoundUserInterface
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_medical
@@ -278,7 +278,7 @@
       enum.ShipyardConsoleUiKey.Sr:
         type: ShipyardConsoleBoundUserInterface
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_sr

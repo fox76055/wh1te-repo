@@ -127,7 +127,7 @@
   name: uplink-spaceblade-syndicate-name
   description: uplink-spaceblade-syndicate-desc
   productEntity: SpaceBladeContra
-  icon: { sprite: _NF/Objects/Fun/spaceblade.rsi, state: contraband }
+  icon: { sprite: /_NF/Objects/Fun/spaceblade.rsi, state: contraband }
   cost:
     Telecrystal: 1
   categories:
@@ -151,7 +151,7 @@
   name: uplink-syndicate-segway-name
   description: uplink-syndicate-segway-desc
   productEntity: NFCrateFunSyndicateSegway
-  icon: { sprite: Objects/Vehicles/syndicatesegway.rsi, state: vehicle }
+  icon: { sprite: /Objects/Vehicles/syndicatesegway.rsi, state: vehicle }
   cost:
     Telecrystal: 25
   categories:

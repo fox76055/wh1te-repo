@@ -100,7 +100,7 @@
   result: MMI
   completetime: 3
   icon:
-    sprite: Objects/Specific/Robotics/mmi.rsi
+    sprite: /Objects/Specific/Robotics/mmi.rsi
     state: mmi_off
   materials:
     Steel: 1000

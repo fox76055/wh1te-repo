@@ -9,7 +9,7 @@
     flavors:
       - meaty
   - type: Sprite
-    sprite: Objects/Consumable/Food/meat.rsi
+    sprite: /Objects/Consumable/Food/meat.rsi
   - type: Extractable
     grindableSolutionName: food
   - type: SolutionContainerManager
@@ -627,7 +627,7 @@
     - Raw
     - Meat
   - type: Sprite
-    sprite: Objects/Consumable/Food/salami.rsi
+    sprite: /Objects/Consumable/Food/salami.rsi
     state: salami
   - type: SliceableFood
     slice: FoodMeatSalamiSlice
@@ -783,7 +783,7 @@
     flavors:
       - sweet
   - type: Sprite
-    sprite: Mobs/Aliens/slimes.rsi
+    sprite: /Mobs/Aliens/slimes.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: rainbow_slime_extract
@@ -1198,7 +1198,7 @@
     - Cooked
     - Meat
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/meat.rsi  # Frontier: New cooked sprite
+    sprite: /_NF/Objects/Consumable/Food/meat.rsi  # Frontier: New cooked sprite
     state: meatball-cooked
   - type: SolutionContainerManager
     solutions:

@@ -15,7 +15,7 @@
         volume: -2
         maxDistance: 5
   - type: Sprite
-    sprite: Objects/Misc/stamps.rsi
+    sprite: /Objects/Misc/stamps.rsi
     state: stamp-mime
   - type: Item
     size: Tiny
@@ -304,7 +304,7 @@
     stampedColor: "#3366FF" # Frontier: 5B97BC<3366FF
     stampState: "paper_stamp-nf-psychologist" # Frontier: psychologist<nf-psychologist
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi # Frontier
+    sprite: /_NF/Objects/Misc/stamps.rsi # Frontier
     state: stamp-psychologist
 
 - type: entity

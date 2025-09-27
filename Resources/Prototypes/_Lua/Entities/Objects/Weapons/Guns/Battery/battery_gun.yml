@@ -10,7 +10,7 @@
   suffix: Пистолет, НЕ МАППИТЬ
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Guns/Battery/x01.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Battery/x01.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -23,7 +23,7 @@
     steps: 5
     zeroVisible: false
   - type: Clothing
-    sprite: _Lua/Objects/Weapons/Guns/Battery/x01.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Battery/x01.rsi
   - type: Gun
     fireRate: 1.5
     soundGunshot:

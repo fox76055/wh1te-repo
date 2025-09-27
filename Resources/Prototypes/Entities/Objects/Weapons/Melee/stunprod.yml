@@ -5,7 +5,7 @@
   description: A stun prod for questionably legal incapacitation. # Frontier: illegal<questionably legal
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/stunprod.rsi
+    sprite: /Objects/Weapons/Melee/stunprod.rsi
     layers:
     - state: stunprod_off
       map: [ "enum.ToggleableVisuals.Layer" ]
@@ -50,7 +50,7 @@
     heldPrefix: off
     size: Normal
   - type: Clothing
-    sprite: Objects/Weapons/Melee/stunprod.rsi
+    sprite: /Objects/Weapons/Melee/stunprod.rsi
     quickEquip: false
     slots:
     - back

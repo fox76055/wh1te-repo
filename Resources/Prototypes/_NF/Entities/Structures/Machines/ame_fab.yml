@@ -29,18 +29,18 @@
   - type: Sprite
     noRot: true
     drawdepth: Mobs
-    sprite: _NF/Structures/Machines/AMEFab/32x32.rsi # needed for item mapper
+    sprite: /_NF/Structures/Machines/AMEFab/32x32.rsi # needed for item mapper
     layers:
-    - sprite: _NF/Structures/Machines/AMEFab/base.rsi
+    - sprite: /_NF/Structures/Machines/AMEFab/base.rsi
       state: base
     - state: dial
       offset: -0.5, 0.5
       map: [ dial ]
-    - sprite: _NF/Structures/Machines/AMEFab/64x32.rsi
+    - sprite: /_NF/Structures/Machines/AMEFab/64x32.rsi
       state: flywheel
       offset: 0.5, 0.5
       map: [ flywheel ]
-    - sprite: _NF/Structures/Machines/AMEFab/64x32.rsi
+    - sprite: /_NF/Structures/Machines/AMEFab/64x32.rsi
       state: press
       offset: -0.5, 0
       map: [ press ]
@@ -106,7 +106,7 @@
     group: Consumer
     loadNode: input
     collectionName: transmissionpoint
-    sprite: _NF/Structures/Power/transmission_point_icon.rsi
+    sprite: /_NF/Structures/Power/transmission_point_icon.rsi
     state: icon
   - type: WiredNetworkConnection
   - type: UserInterface

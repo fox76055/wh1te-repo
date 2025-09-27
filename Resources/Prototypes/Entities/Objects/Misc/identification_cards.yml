@@ -6,11 +6,11 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: /Objects/Misc/id_cards.rsi
   - type: Clothing
     slots:
     - idcard
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: /Objects/Misc/id_cards.rsi
   - type: Item
     size: Small
     heldPrefix: default
@@ -602,7 +602,7 @@
     layers:
     - state: default
     - state: idcontractor # Frontier: idpassenger<idcontractor
-      sprite: _NF/Objects/Misc/id_cards.rsi # Frontier
+      sprite: /_NF/Objects/Misc/id_cards.rsi # Frontier
   - type: AgentIDCard
   - type: ActivatableUI
     key: enum.AgentIDCardUiKey.Key
@@ -863,12 +863,12 @@
   description: An ID card that gives you access beyond your wildest dreams.
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: /Objects/Misc/id_cards.rsi
     layers:
     - state: admin
     - state: idadmin
   - type: Clothing
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: /Objects/Misc/id_cards.rsi
   - type: Item
     heldPrefix: green
   - type: IdCard

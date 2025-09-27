@@ -4,9 +4,9 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Misc/utensils.rsi
+    sprite: /Objects/Misc/utensils.rsi
   - type: Item # TODO add inhand sprites for all utensils
-    sprite: Objects/Misc/utensils.rsi
+    sprite: /Objects/Misc/utensils.rsi
   - type: SpaceGarbage
     cleanupExempt: true # Mono
   - type: StaticPrice # Frontier

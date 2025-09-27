@@ -4,13 +4,13 @@
   name: mail altar
   components:
   - type: Sprite
-    sprite: _NF/Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: /_NF/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: mail
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: _NF/Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: /_NF/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: mail
   - type: PointLight
     radius: 1.5

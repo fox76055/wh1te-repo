@@ -5,9 +5,9 @@
   description: A specialized black spacesuit used in 19th century Asian countries by the central police.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/cerber.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 10000

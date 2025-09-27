@@ -22,9 +22,9 @@
     - type: ShowPirIcons
 #    - type: BankAccount
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Mobs/Animals/regalrat.rsi
+    - sprite: /Mobs/Animals/regalrat.rsi
       state: icon
 #Бля щиткод

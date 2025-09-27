@@ -12,7 +12,7 @@
   - type: StaticPrice
     price: 10000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/asm220.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/asm220.rsi
     layers:
     - state: space_artillery
   - type: Appearance

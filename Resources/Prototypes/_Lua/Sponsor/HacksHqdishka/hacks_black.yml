@@ -10,7 +10,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Clothing/Back/Backpacks/lua_back.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Clothing/Back/Backpacks/lua_back.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterHardsuitLuaB
     requiredSlot: BACK
@@ -43,7 +43,7 @@
   description: Скафандр шлем с ушами под расу "Вульпканинов" сделанный на заказ LuaTech.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/Head/Hardsuits/lua_helm_black.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/Head/Hardsuits/lua_helm_black.rsi
     layers:
     - state: on-equipped-HELMET
   - type: PointLight
@@ -59,9 +59,9 @@
   description: Скафандр специализированный под расу "Вульпканинов" сделанный на заказ LuaTech.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_hardsuit_black.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_hardsuit_black.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_hardsuit_black.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_hardsuit_black.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetLuaB
 

@@ -22,7 +22,7 @@
   description: Prints equipment for service staff.
   components:
   - type: Sprite
-    sprite: Structures/Machines/techfab.rsi
+    sprite: /Structures/Machines/techfab.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -60,7 +60,7 @@
   description: Prints equipment for mcservice staff.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/techfab.rsi
+    sprite: /_NF/Structures/Machines/techfab.rsi
     layers:
     - state: icon
       map: ["enum.LatheVisualLayers.IsRunning"]
@@ -88,7 +88,7 @@
   description: Prints equipment for engineers.
   components:
   - type: Sprite
-    sprite: Structures/Machines/techfab.rsi
+    sprite: /Structures/Machines/techfab.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -121,7 +121,7 @@
   description: Prints equipment for salvagers.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/techfab.rsi
+    sprite: /_NF/Structures/Machines/techfab.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -157,7 +157,7 @@
   description: Prints equipment for use by NFSD.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/techfab.rsi
+    sprite: /_NF/Structures/Machines/techfab.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -193,7 +193,7 @@
   description: Prints the bare minimum of tools of the trade that any budget mercenary or private security could need. Nothing fancy.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/techfab.rsi
+    sprite: /_NF/Structures/Machines/techfab.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -232,7 +232,7 @@
   description: Prints the bare minimum of tools of the trade that any budget mercenary or private security could need. Nothing fancy.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/techfab.rsi
+    sprite: /_NF/Structures/Machines/techfab.rsi
     snapCardinals: true
     layers:
     - state: mercenary-hacked
@@ -244,7 +244,7 @@
       map: ["enum.MaterialStorageVisualLayers.Inserting"]
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-    - sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    - sprite: /_NF/Structures/Holo/graffiti/simple.rsi
       state: holograffiti01
       map: [ "graffiti" ]
       shader: unshaded
@@ -294,7 +294,7 @@
   - type: Transform
     noRot: false
   - type: Sprite
-    sprite: _NF/Structures/Machines/prizecounter.rsi
+    sprite: /_NF/Structures/Machines/prizecounter.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -324,7 +324,7 @@
   description: Prints any blueprints for recipes unlocked on the tech server it's linked to.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/blueprint_printer.rsi
+    sprite: /_NF/Structures/Machines/blueprint_printer.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -400,7 +400,7 @@
   description: This machine reclaims scrap into usable materials.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/scrap_processor.rsi
+    sprite: /_NF/Structures/Machines/scrap_processor.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -450,7 +450,7 @@
   description: Prints new or replacement uniforms for staff.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/staff_uniform_printer.rsi
+    sprite: /_NF/Structures/Machines/staff_uniform_printer.rsi
   - type: Machine
     board: UniformPrinterStaffMachineCircuitboard
   - type: ActivatableUIRequiresAccess
@@ -487,7 +487,7 @@
   description: This brand new uniform printer has been "found" and repurposed to print only the highest couture.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/pirate_stitcher.rsi
+    sprite: /_NF/Structures/Machines/pirate_stitcher.rsi
   - type: Machine
     board: PirateStitcherCircuitboard
   - type: Lathe

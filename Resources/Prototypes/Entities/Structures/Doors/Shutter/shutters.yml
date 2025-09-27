@@ -9,7 +9,7 @@
   components:
   - type: StationAiWhitelist
   - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters.rsi
+    sprite: /Structures/Doors/Shutters/shutters.rsi
     drawdepth: BlastDoors
     layers:
     - state: closed
@@ -138,7 +138,7 @@
   description: Why did they make these shutters radioactive?
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters_radiation.rsi
+    sprite: /Structures/Doors/Shutters/shutters_radiation.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -176,7 +176,7 @@
   description: The Best (TM) place to see your friends explode!
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters_window.rsi
+    sprite: /Structures/Doors/Shutters/shutters_window.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -212,7 +212,7 @@
   description: A frame for constructing a shutter.
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters.rsi
+    sprite: /Structures/Doors/Shutters/shutters.rsi
     state: frame
   - type: Construction
     graph: Shutters

@@ -40,7 +40,7 @@
             - tag: SurveillanceCameraMonitorCircuitboard
               name: construction-graph-tag-surveillance-camera-monitor-board
               icon:
-                sprite: Objects/Misc/module.rsi
+                sprite: /Objects/Misc/module.rsi
                 state: cpuboard
 
         - to: TelescreenFrame
@@ -129,7 +129,7 @@
             - tag: ComputerTelevisionCircuitboard
               name: construction-graph-tag-television-board
               icon:
-                sprite: Objects/Misc/module.rsi
+                sprite: /Objects/Misc/module.rsi
                 state: cpuboard
 
         - to: TelevisionFrame

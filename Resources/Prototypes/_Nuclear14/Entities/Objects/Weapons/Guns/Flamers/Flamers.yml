@@ -4,9 +4,9 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/water_pistol.rsi
   - type: Item
-    sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/water_pistol.rsi
     size: Huge
   - type: Gun
     cameraRecoilScalar: 0 #no recoil
@@ -59,7 +59,7 @@
     availableModes:
     - FullAuto
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/soaker.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/soaker.rsi
     layers:
     - state: detail1
     - state: detail2
@@ -67,5 +67,5 @@
     - state: icon
       map: [ "enum.DamageStateVisualLayers.Base" ]
   - type: Item
-    sprite: Objects/Weapons/Guns/Pistols/soaker.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/soaker.rsi
     size: Normal

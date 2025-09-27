@@ -5,9 +5,9 @@
   description: Бронежилет бренда "Центком".
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Armor/centcom_sec_armor.rsi
+    sprite: /Backmen/Clothing/OuterClothing/Armor/centcom_sec_armor.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Armor/centcom_sec_armor.rsi
+    sprite: /Backmen/Clothing/OuterClothing/Armor/centcom_sec_armor.rsi
   - type: Armor
     modifiers:
       coefficients:

@@ -8,9 +8,9 @@
     A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. An illegal firearm often used by Syndicate agents.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    sprite: /Objects/Weapons/Guns/LMGs/l6.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    sprite: /Objects/Weapons/Guns/LMGs/l6.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 4
@@ -30,9 +30,9 @@
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: Sprite
-    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    sprite: /Objects/Weapons/Guns/LMGs/l6.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    sprite: /Objects/Weapons/Guns/LMGs/l6.rsi
   - type: ProjectileBatteryAmmoProvider
     proto: NFCartridgeRifle20
     fireCost: 100

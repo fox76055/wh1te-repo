@@ -7,7 +7,7 @@
   components:
     - type: StationMap
     - type: Sprite
-      sprite: Objects/Devices/tablets.rsi
+      sprite: /Objects/Devices/tablets.rsi
       layers:
         - state: tablet
         - state: generic

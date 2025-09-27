@@ -4,7 +4,7 @@
   name: chat-emote-name-bubble
   category: Vocal
   available: false
-  icon: Interface/Emotes/squish.png
+  icon: /Interface/Emotes/squish.png
   whitelist:
     components:
     - Vocal
@@ -26,7 +26,7 @@
   name: chat-emote-name-pop
   category: Vocal
   available: false
-  icon: Interface/Emotes/squish.png
+  icon: /Interface/Emotes/squish.png
   whitelist:
     components:
     - Vocal
@@ -48,7 +48,7 @@
   id: Crack
   name: chat-emote-name-crack
   category: Hands
-  icon: _Impstation/Interface/Emotes/crack.png
+  icon: /_Impstation/Interface/Emotes/crack.png
   whitelist:
     components:
     - Hands

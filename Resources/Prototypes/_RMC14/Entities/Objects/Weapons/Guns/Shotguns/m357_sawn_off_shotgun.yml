@@ -5,7 +5,7 @@
   description: A double barrel shotgun produced by Aegis. Archaic, sturdy, affordable. It has been artificially shortened to reduce range but increase damage and spread.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Shotguns/dbsawnoff.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Shotguns/dbsawnoff.rsi
   - type: Item
     size: Normal
   # - type: GunDamageModifier

@@ -6,9 +6,9 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Corvax/Objects/Tanks/Jetpacks/mining.rsi
+    sprite: /Corvax/Objects/Tanks/Jetpacks/mining.rsi
   - type: Clothing
-    sprite: Corvax/Objects/Tanks/Jetpacks/mining.rsi
+    sprite: /Corvax/Objects/Tanks/Jetpacks/mining.rsi
     slots:
       - Back
       - SuitStorage

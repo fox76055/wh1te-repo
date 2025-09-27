@@ -19,7 +19,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Clothing/Head/Hats/wizardhat.rsi
+      sprite: /Clothing/Head/Hats/wizardhat.rsi
       state: icon
 
 - type: entity
@@ -30,5 +30,5 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Magic/magicactions.rsi
+      sprite: /Objects/Magic/magicactions.rsi
       state: fireball

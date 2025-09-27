@@ -12,7 +12,7 @@
     proto: NFCartridgePistol35
     capacity: 80
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
 
 - type: entity
   id: NFBaseAmmunitionBoxPistol45
@@ -27,7 +27,7 @@
     proto: NFCartridgePistol45
     capacity: 60
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
 
 #region .35 pistol
 - type: entity

@@ -9,7 +9,7 @@
     tags:
       - Debug
   - type: Sprite
-    sprite: Objects/Misc/skub.rsi
+    sprite: /Objects/Misc/skub.rsi
     state: icon
   - type: Item
     size: Tiny

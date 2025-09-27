@@ -14,9 +14,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Melee/katana.rsi
+    - sprite: /Objects/Weapons/Melee/katana.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 3
       color: red
   - type: RandomSpawner
@@ -74,9 +74,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    - sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 3
       color: red
   - type: RandomSpawner

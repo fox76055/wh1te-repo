@@ -88,7 +88,7 @@
         - ReagentId: JuiceLime
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/limejuice.rsi
+    sprite: /Objects/Consumable/Drinks/limejuice.rsi
 
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
@@ -103,7 +103,7 @@
         - ReagentId: JuiceOrange
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/orangejuice.rsi
+    sprite: /Objects/Consumable/Drinks/orangejuice.rsi
 
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
@@ -118,7 +118,7 @@
         - ReagentId: JuiceTomato
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tomatojuice.rsi
+    sprite: /Objects/Consumable/Drinks/tomatojuice.rsi
 
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
@@ -136,7 +136,7 @@
   - type: Label
     currentLabel: reagent-name-coconut-water
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/coconutwater.rsi
+    sprite: /Objects/Consumable/Drinks/coconutwater.rsi
 
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
@@ -151,7 +151,7 @@
         - ReagentId: Cream
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cream.rsi
+    sprite: /Objects/Consumable/Drinks/cream.rsi
 
 - type: entity
   parent: [RecyclableItemPlasticMedium, DrinkCartonVisualsOpenable, DrinkCartonBaseLargeFull] # Frontier: added RecyclableItemPlasticMedium
@@ -166,7 +166,7 @@
         - ReagentId: Milk
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/milk.rsi
+    sprite: /Objects/Consumable/Drinks/milk.rsi
 
 - type: entity
   parent: [RecyclableItemPlasticMedium, DrinkCartonVisualsOpenable, DrinkCartonBaseLargeFull] # Frontier: added RecyclableItemPlasticMedium
@@ -181,7 +181,7 @@
         - ReagentId: MilkSoy
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/soymilk.rsi
+    sprite: /Objects/Consumable/Drinks/soymilk.rsi
 
 - type: entity
   parent: [RecyclableItemPlasticMedium, DrinkCartonVisualsOpenable, DrinkCartonBaseLargeFull] # Frontier: added RecyclableItemPlasticMedium
@@ -196,7 +196,7 @@
         - ReagentId: MilkOat
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/oatmilk.rsi
+    sprite: /Objects/Consumable/Drinks/oatmilk.rsi
 
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
@@ -211,7 +211,7 @@
         - ReagentId: JuiceLemon
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lemonjuice.rsi
+    sprite: /Objects/Consumable/Drinks/lemonjuice.rsi
 
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
@@ -226,4 +226,4 @@
         - ReagentId: JuicePineapple
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pineapplejuice.rsi
+    sprite: /Objects/Consumable/Drinks/pineapplejuice.rsi

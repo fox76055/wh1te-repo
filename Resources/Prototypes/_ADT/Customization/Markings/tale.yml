@@ -4,5 +4,5 @@
   markingCategory: Chest
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/horns/tale.rsi
+    - sprite: /ADT/Customization/Markings/horns/tale.rsi
       state: succubus

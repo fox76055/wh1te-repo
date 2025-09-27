@@ -8,7 +8,7 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: Mobs/Aliens/paradox_clone.rsi
+    - sprite: /Mobs/Aliens/paradox_clone.rsi
       state: paradox
       shader: unshaded
   - type: RotationVisuals
@@ -33,5 +33,5 @@
   name: Paradox Clone
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/paradox_clone.rsi
+    sprite: /Mobs/Aliens/paradox_clone.rsi
     state: preview

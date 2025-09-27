@@ -16,7 +16,7 @@
     - type: ExplodeOnInit
       explodeOnInit: false
     - type: Sprite
-      sprite: _Lua/Effects/target.rsi
+      sprite: /_Lua/Effects/target.rsi
       layers:
         - state: alert
           shader: unshaded

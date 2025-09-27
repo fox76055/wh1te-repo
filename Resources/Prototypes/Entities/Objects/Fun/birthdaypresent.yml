@@ -7,7 +7,7 @@
   suffix: Cake, Party Hat
   components:
   - type: Sprite
-    sprite: _NF/Objects/Fun/birthdaypresent.rsi
+    sprite: /_NF/Objects/Fun/birthdaypresent.rsi
     layers:
       - state: icon
   - type: SpawnItemsOnUse

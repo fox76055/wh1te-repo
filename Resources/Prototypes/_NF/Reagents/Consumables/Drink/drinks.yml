@@ -19,7 +19,7 @@
         reagent: Sugar
         amount: 0.2
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/pumpkinspicelatte.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/pumpkinspicelatte.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 2
   metamorphicFillBaseName: fill-
@@ -39,7 +39,7 @@
         - !type:SatiateThirst
           factor: 6
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/cucumberwater.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/cucumberwater.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -59,7 +59,7 @@
       - !type:SatiateThirst
         factor: 0.6
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/honeyicedtea.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/honeyicedtea.rsi
     state: icon
 
 - type: reagent
@@ -80,7 +80,7 @@
         - "drinks-effect-nf-wassail"
         probability: 0.1
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/wassail.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/wassail.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -115,7 +115,7 @@
           force: true
           probability: 0.25
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/themadgob.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/themadgob.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -142,7 +142,7 @@
         reagent: Desoxyephedrine
         amount: 0.25
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/ginandsonic.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/ginandsonic.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -165,7 +165,7 @@
         reagent: Ethanol
         amount: 0.25
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/goldencat.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/goldencat.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -195,7 +195,7 @@
         maxTotalIntensity: 0.1
         probability: 0.1
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/pineappleblast.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/pineappleblast.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -218,7 +218,7 @@
         reagent: Ethanol
         amount: 0.3
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/torpedojuice.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/torpedojuice.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -254,7 +254,7 @@
       - !type:ModifyBloodLevel
         amount: 0.2
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/beesknees.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/beesknees.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -269,7 +269,7 @@
   flavor: creamy
   color: "#ffebc4"
   metamorphicSprite:
-    sprite: _NF/Objects/Consumable/Drinks/eggnog.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/eggnog.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 8
   metamorphicFillBaseName: fill

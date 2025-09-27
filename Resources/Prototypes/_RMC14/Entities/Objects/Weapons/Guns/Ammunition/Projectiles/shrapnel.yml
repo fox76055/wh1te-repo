@@ -5,7 +5,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
     layers:
     - state: buckshot
   - type: Fixtures

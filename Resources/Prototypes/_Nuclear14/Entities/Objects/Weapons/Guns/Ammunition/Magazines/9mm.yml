@@ -18,7 +18,7 @@
       ballistic-ammo: !type:Container
   - type: Sprite
     netsync: false
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/9mm/pistolmag.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/9mm/pistolmag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -47,7 +47,7 @@
     tags:
       - N14MagazineSMG9mm
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/9mm/smgmag.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/9mm/smgmag.rsi
   - type: BallisticAmmoProvider
     whitelist:
       tags:

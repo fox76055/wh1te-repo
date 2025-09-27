@@ -5,9 +5,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/mining.rsi
+    sprite: /Structures/Windows/mining.rsi
   - type: Icon
-    sprite: Structures/Windows/mining.rsi
+    sprite: /Structures/Windows/mining.rsi
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
@@ -47,7 +47,7 @@
     damageDivisor: 200 #Lua
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: /Structures/Windows/cracks.rsi
   - type: StaticPrice
     price: 100
 
@@ -62,7 +62,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/mining_diagonal.rsi
+    sprite: /Structures/Windows/mining_diagonal.rsi
     state: state0
   - type: Tag
     tags:
@@ -72,7 +72,7 @@
     key: walls # Frontier: windows<walls
     base: state
   - type: Icon
-    sprite: Structures/Windows/mining_diagonal.rsi
+    sprite: /Structures/Windows/mining_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:
@@ -94,7 +94,7 @@
     - East
   - type: DamageVisuals
     damageOverlay:
-      sprite: Structures/Windows/cracks_diagonal.rsi
+      sprite: /Structures/Windows/cracks_diagonal.rsi
   - type: Damageable
     damageContainer: StructuralInorganicUltraHeavy #Lua
     damageModifierSet: StructuralMetallicStrongUltra #Lua

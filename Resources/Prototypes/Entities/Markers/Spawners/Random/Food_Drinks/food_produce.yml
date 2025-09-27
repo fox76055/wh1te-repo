@@ -9,7 +9,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Hydroponics/onion_red.rsi
+      - sprite: /Objects/Specific/Hydroponics/onion_red.rsi
         state: produce
   - type: EntityTableSpawner
     table: !type:NestedSelector

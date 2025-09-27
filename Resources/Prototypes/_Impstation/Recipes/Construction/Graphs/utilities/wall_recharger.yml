@@ -62,7 +62,7 @@
         store: machine_board
         name: construction-graph-component-nf-weapon-charger-circuitboard
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "/Objects/Misc/module.rsi"
           state: "charger_APC"
         doAfter: 1
     - to: wires

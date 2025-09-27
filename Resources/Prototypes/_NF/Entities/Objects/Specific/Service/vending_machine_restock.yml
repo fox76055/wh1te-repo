@@ -57,7 +57,7 @@
     canRestock:
     - LessLethalVendInventory
   - type: Sprite
-    sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /_NF/Objects/Specific/Service/vending_machine_restock.rsi
     layers:
     - state: base
     - state: green_bit
@@ -74,7 +74,7 @@
     canRestock:
     - NonLethalVendInventory
   - type: Sprite
-    sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /_NF/Objects/Specific/Service/vending_machine_restock.rsi
     layers:
     - state: base
     - state: green_bit
@@ -91,7 +91,7 @@
     canRestock:
     - AutoTuneVendInventory
   - type: Sprite
-    sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /_NF/Objects/Specific/Service/vending_machine_restock.rsi
     layers:
     - state: base
     - state: green_bit
@@ -108,7 +108,7 @@
     canRestock:
     - PottedPlantVendInventory
   - type: Sprite
-    sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /_NF/Objects/Specific/Service/vending_machine_restock.rsi
     layers:
     - state: base
     - state: green_bit

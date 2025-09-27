@@ -10,9 +10,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Melee/shiv.rsi
+    - sprite: /Objects/Weapons/Melee/shiv.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 1
       color: red
   - type: RandomSpawner
@@ -46,9 +46,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Melee/katana.rsi
+    - sprite: /Objects/Weapons/Melee/katana.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 2
       color: red
   - type: RandomSpawner
@@ -79,9 +79,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Melee/katana.rsi
+    - sprite: /Objects/Weapons/Melee/katana.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 3
       color: red
   - type: RandomSpawner
@@ -109,9 +109,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Melee/katana.rsi
+    - sprite: /Objects/Weapons/Melee/katana.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 4
       color: red
   - type: RandomSpawner
@@ -137,9 +137,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Melee/katana.rsi
+    - sprite: /Objects/Weapons/Melee/katana.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 5
       color: red
   - type: RandomSpawner
@@ -162,9 +162,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    - sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 1
       color: red
   - type: RandomSpawner
@@ -198,9 +198,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    - sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 2
       color: red
   - type: RandomSpawner
@@ -237,9 +237,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    - sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 3
       color: red
   - type: RandomSpawner
@@ -271,9 +271,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    - sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 4
       color: red
   - type: RandomSpawner
@@ -305,9 +305,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    - sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 5
       color: red
   - type: RandomSpawner
@@ -333,9 +333,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Bombs/seismic.rsi
+    - sprite: /Objects/Weapons/Bombs/seismic.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 1
       color: red
   - type: RandomSpawner
@@ -359,9 +359,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Bombs/seismic.rsi
+    - sprite: /Objects/Weapons/Bombs/seismic.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 2
       color: red
   - type: RandomSpawner
@@ -385,9 +385,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Bombs/seismic.rsi
+    - sprite: /Objects/Weapons/Bombs/seismic.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 3
       color: red
   - type: RandomSpawner
@@ -411,9 +411,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Bombs/seismic.rsi
+    - sprite: /Objects/Weapons/Bombs/seismic.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 4
       color: red
   - type: RandomSpawner
@@ -437,9 +437,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Bombs/seismic.rsi
+    - sprite: /Objects/Weapons/Bombs/seismic.rsi
       state: icon
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: 5
       color: red
   - type: RandomSpawner
@@ -460,7 +460,7 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: _NF/Objects/Storage/Cases/ammocaseshort.rsi
+    - sprite: /_NF/Objects/Storage/Cases/ammocaseshort.rsi
       state: icon
   - type: RandomSpawner
     prototypes:
@@ -496,7 +496,7 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: _NF/Objects/Storage/Cases/ammocaseshort.rsi
+    - sprite: /_NF/Objects/Storage/Cases/ammocaseshort.rsi
       state: icon
   - type: RandomSpawner
     prototypes:
@@ -524,7 +524,7 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: _NF/Objects/Storage/Cases/ammocaseshort.rsi
+    - sprite: /_NF/Objects/Storage/Cases/ammocaseshort.rsi
       state: icon
   - type: RandomSpawner
     prototypes:
@@ -548,7 +548,7 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: _NF/Objects/Storage/Cases/ammocaseshort.rsi
+    - sprite: /_NF/Objects/Storage/Cases/ammocaseshort.rsi
       state: icon
   - type: RandomSpawner
     prototypes:
@@ -574,7 +574,7 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: _NF/Objects/Storage/Cases/ammocaseshort.rsi
+    - sprite: /_NF/Objects/Storage/Cases/ammocaseshort.rsi
       state: icon
   - type: RandomSpawner
     prototypes:

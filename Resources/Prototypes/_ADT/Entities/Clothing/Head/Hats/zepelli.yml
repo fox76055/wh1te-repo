@@ -5,9 +5,9 @@
   description: Edited by one businessman.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/zepelli.rsi
+    sprite: /ADT/Clothing/Head/Hats/zepelli.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/zepelli.rsi
+    sprite: /ADT/Clothing/Head/Hats/zepelli.rsi
   - type: DamageOtherOnHit
     damage:
       types:

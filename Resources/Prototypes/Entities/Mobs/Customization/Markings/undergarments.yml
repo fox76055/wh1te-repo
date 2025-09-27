@@ -11,7 +11,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: boxers
 
 - type: marking
@@ -24,7 +24,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: briefs
 
 - type: marking
@@ -37,7 +37,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: satin
 
 - type: marking
@@ -50,7 +50,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: classic
 
 - type: marking
@@ -63,7 +63,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: sports
 
 - type: marking
@@ -76,7 +76,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: binder
 
 - type: marking
@@ -89,7 +89,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: tanktop
 
 - type: marking
@@ -102,7 +102,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: boxers_vox
 
 - type: marking
@@ -115,7 +115,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: briefs_vox
 
 - type: marking
@@ -128,7 +128,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: satin_vox
 
 - type: marking
@@ -141,7 +141,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: classic_vox
 
 - type: marking
@@ -154,7 +154,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: sports_vox
 
 - type: marking
@@ -167,7 +167,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: binder_vox
 
 - type: marking
@@ -180,7 +180,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: tanktop_vox
 
 - type: marking
@@ -193,7 +193,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: boxers_reptilian
 
 - type: marking
@@ -206,7 +206,7 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: briefs_reptilian
 
 - type: marking
@@ -219,5 +219,5 @@
       type: null
       fallbackColor: '#FFFFFF'
   sprites:
-  - sprite: Mobs/Customization/undergarments.rsi
+  - sprite: /Mobs/Customization/undergarments.rsi
     state: satin_reptilian

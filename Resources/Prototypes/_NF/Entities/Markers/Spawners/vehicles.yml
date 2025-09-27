@@ -6,7 +6,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Vehicles/secway.rsi
+      - sprite: /Objects/Vehicles/secway.rsi
         state: keys
   - type: ConditionalSpawner
     prototypes:
@@ -20,7 +20,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Vehicles/janicart.rsi
+      - sprite: /Objects/Vehicles/janicart.rsi
         state: keys
   - type: ConditionalSpawner
     prototypes:
@@ -34,7 +34,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Vehicles/atv.rsi
+      - sprite: /Objects/Vehicles/atv.rsi
         state: keys
   - type: ConditionalSpawner
     prototypes:
@@ -48,7 +48,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Vehicles/motorbike.rsi
+      - sprite: /Objects/Vehicles/motorbike.rsi
         state: keys
   - type: ConditionalSpawner
     prototypes:
@@ -62,7 +62,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    - sprite: /_NF/Objects/Vehicles/hoverbike.rsi
       state: vehicle
   - type: ConditionalSpawner
     prototypes:

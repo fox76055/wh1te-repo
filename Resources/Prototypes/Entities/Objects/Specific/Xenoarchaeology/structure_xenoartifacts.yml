@@ -8,7 +8,7 @@
   # Visual
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
+    sprite: /Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
     noRot: true
     layers:
     - state: ano30

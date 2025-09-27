@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: CrateMedicalSurgery
   icon:
-    sprite: Structures/Storage/Crates/surgery.rsi
+    sprite: /Structures/Storage/Crates/surgery.rsi
     state: icon
   product: CrateMedicalSurgery
   cost: 3000
@@ -12,7 +12,7 @@
   id: CargoBarrel
   name: barrel (empty)
   icon:
-    sprite: _NF/Objects/Storage/Barrels/white.rsi
+    sprite: /_NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: MetalBarrelWhite
   cost: 2000
@@ -24,7 +24,7 @@
   name: barrel of carbon
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/black.rsi
+    sprite: /_NF/Objects/Storage/Barrels/black.rsi
     state: icon
   product: ChemicalBarrelCarbon
   cost: 5000
@@ -36,7 +36,7 @@
   name: barrel of iodine
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/red.rsi
+    sprite: /_NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelIodine
   cost: 5000
@@ -48,7 +48,7 @@
   name: barrel of fluorine
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/blue.rsi
+    sprite: /_NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelFluorine
   cost: 5000
@@ -60,7 +60,7 @@
   name: barrel of chlorine
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/green.rsi
+    sprite: /_NF/Objects/Storage/Barrels/green.rsi
     state: icon
   product: ChemicalBarrelChlorine
   cost: 5000
@@ -72,7 +72,7 @@
   name: barrel of aluminium
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/white.rsi
+    sprite: /_NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelAluminium
   cost: 5000
@@ -84,7 +84,7 @@
   name: barrel of phosphorus
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/red.rsi
+    sprite: /_NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelPhosphorus
   cost: 5000
@@ -96,7 +96,7 @@
   name: barrel of sulfur
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/yellow.rsi
+    sprite: /_NF/Objects/Storage/Barrels/yellow.rsi
     state: icon
   product: ChemicalBarrelSulfur
   cost: 5000
@@ -108,7 +108,7 @@
   name: barrel of silicon
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/black.rsi
+    sprite: /_NF/Objects/Storage/Barrels/black.rsi
     state: icon
   product: ChemicalBarrelSilicon
   cost: 5000
@@ -120,7 +120,7 @@
   name: barrel of hydrogen
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/white.rsi
+    sprite: /_NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelHydrogen
   cost: 5000
@@ -132,7 +132,7 @@
   name: barrel of lithium
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/grey.rsi
+    sprite: /_NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelLithium
   cost: 5000
@@ -144,7 +144,7 @@
   name: barrel of sodium
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/grey.rsi
+    sprite: /_NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelSodium
   cost: 5000
@@ -156,7 +156,7 @@
   name: barrel of potassium
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/yellow.rsi
+    sprite: /_NF/Objects/Storage/Barrels/yellow.rsi
     state: icon
   product: ChemicalBarrelPotassium
   cost: 5000
@@ -168,7 +168,7 @@
   name: barrel of radium
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/green.rsi
+    sprite: /_NF/Objects/Storage/Barrels/green.rsi
     state: icon
   product: ChemicalBarrelRadium
   cost: 5000
@@ -180,7 +180,7 @@
   name: barrel of iron
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/grey.rsi
+    sprite: /_NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelIron
   cost: 5000
@@ -192,7 +192,7 @@
   name: barrel of copper
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/red.rsi
+    sprite: /_NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelCopper
   cost: 5000
@@ -204,7 +204,7 @@
   name: barrel of gold
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/yellow.rsi
+    sprite: /_NF/Objects/Storage/Barrels/yellow.rsi
     state: icon
   product: ChemicalBarrelGold
   cost: 5000
@@ -216,7 +216,7 @@
   name: barrel of mercury
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/grey.rsi
+    sprite: /_NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelMercury
   cost: 5000
@@ -228,7 +228,7 @@
   name: barrel of silver
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/white.rsi
+    sprite: /_NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelSilver
   cost: 5000
@@ -240,7 +240,7 @@
   name: barrel of ethanol
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/blue.rsi
+    sprite: /_NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelEthanol
   cost: 5000
@@ -252,7 +252,7 @@
   name: barrel of sugar
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/white.rsi
+    sprite: /_NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelSugar
   cost: 5000
@@ -264,7 +264,7 @@
   name: barrel of nitrogen
 #  abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/red.rsi
+    sprite: /_NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelNitrogen
   cost: 5000
@@ -276,7 +276,7 @@
   name: barrel of oxygen
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/blue.rsi
+    sprite: /_NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelOxygen
   cost: 5000
@@ -288,7 +288,7 @@
   name: barrel of oil
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/black.rsi
+    sprite: /_NF/Objects/Storage/Barrels/black.rsi
     state: icon
   product: ChemicalBarrelOil
   cost: 5000
@@ -300,7 +300,7 @@
   name: barrel of diethylamine
   abstract: true
   icon:
-    sprite: _NF/Objects/Storage/Barrels/green.rsi
+    sprite: /_NF/Objects/Storage/Barrels/green.rsi
     state: icon
   product: ChemicalBarrelDiethylamine
   cost: 5000

@@ -65,7 +65,7 @@
   - type: Clothing
     slots: [ gloves, neck ]
   - type: Sprite
-    sprite: Clothing/Hands/Rings/basic.rsi
+    sprite: /Clothing/Hands/Rings/basic.rsi
   - type: Appearance
   - type: Item
     size: Tiny

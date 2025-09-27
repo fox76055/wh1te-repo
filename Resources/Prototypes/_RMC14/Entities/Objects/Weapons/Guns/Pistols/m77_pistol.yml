@@ -5,9 +5,9 @@
   description: Standard issue Marine firearm. Also found in the hands of We-Ya PMC teams. Fires 9mm armor shredding rounds and is capable of 3-round burst.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/m77.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/m77.rsi
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/m77.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/m77.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -75,7 +75,7 @@
     proto: CMCartridgePistolM77AP
     capacity: 19
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m77.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m77.rsi
     layers:
     - state: base_ap
       map: ["enum.GunVisualLayers.Base"]

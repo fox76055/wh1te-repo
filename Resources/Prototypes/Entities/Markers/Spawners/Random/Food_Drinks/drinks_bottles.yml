@@ -9,7 +9,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Consumable/Drinks/ginbottle.rsi
+      - sprite: /Objects/Consumable/Drinks/ginbottle.rsi
         state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector

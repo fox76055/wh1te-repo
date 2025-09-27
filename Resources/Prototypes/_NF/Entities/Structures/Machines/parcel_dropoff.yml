@@ -6,7 +6,7 @@
   components:
   - type: StationAiWhitelist
   - type: Sprite
-    sprite: _NF/Structures/Machines/parcel_dropoff.rsi
+    sprite: /_NF/Structures/Machines/parcel_dropoff.rsi
     snapCardinals: true
     layers:
     - state: base

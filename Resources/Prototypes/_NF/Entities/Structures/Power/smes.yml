@@ -6,7 +6,7 @@
   description: A bluespace-leveraged energy storage (BLES) unit.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Power/bles.rsi
+    sprite: /_NF/Structures/Power/bles.rsi
     offset: 0,0.5
     snapCardinals: false
     noRot: true

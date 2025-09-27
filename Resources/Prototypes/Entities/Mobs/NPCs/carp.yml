@@ -18,7 +18,7 @@
     - Dragon
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/Carps/space.rsi
+    sprite: /Mobs/Aliens/Carps/space.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
@@ -125,7 +125,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Mobs/Aliens/Carps/magic.rsi
+      sprite: /Mobs/Aliens/Carps/magic.rsi
     - type: TypingIndicator
       proto: guardian
 
@@ -137,7 +137,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Mobs/Aliens/Carps/holo.rsi
+      sprite: /Mobs/Aliens/Carps/holo.rsi
     - type: Physics
     - type: Fixtures
       fixtures:
@@ -223,7 +223,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Mobs/Aliens/Carps/sharkminnow.rsi
+      sprite: /Mobs/Aliens/Carps/sharkminnow.rsi
       layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive

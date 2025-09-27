@@ -7,10 +7,10 @@
   description: A dirty gold coin used for nefarious pirate exchanges.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Pirate/pirate_doubloon.rsi
+    sprite: /_NF/Objects/Specific/Pirate/pirate_doubloon.rsi
     state: doubloon
   - type: Item
-    sprite: _NF/Objects/Specific/Pirate/pirate_doubloon.rsi
+    sprite: /_NF/Objects/Specific/Pirate/pirate_doubloon.rsi
     size: Tiny
   - type: Stack
     count: 20
@@ -57,7 +57,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Devices/pirate_uplink.rsi
+    sprite: /_NF/Objects/Devices/pirate_uplink.rsi
     layers:
     - state: icon
       scale: 0.7, 0.7
@@ -65,7 +65,7 @@
       scale: 0.7, 0.7
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Devices/pirate_uplink.rsi
+    sprite: /_NF/Objects/Devices/pirate_uplink.rsi
     heldPrefix: icon
   - type: UserInterface
     interfaces:
@@ -116,7 +116,7 @@
     useOnOthersMessage: bluespace-dust-interact-other
     useOnSelfMessage: bluespace-dust-interact-self
   - type: Sprite
-    sprite: _NF/Objects/Specific/Pirate/bluespace_dust.rsi
+    sprite: /_NF/Objects/Specific/Pirate/bluespace_dust.rsi
     layers:
     - state: base
     - state: charge-3
@@ -135,7 +135,7 @@
   suffix: Unpowered
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Pirate/pinpointer_scanner.rsi
+    sprite: /_NF/Objects/Specific/Pirate/pinpointer_scanner.rsi
     layers:
       - state: icon
       - state: icon-on

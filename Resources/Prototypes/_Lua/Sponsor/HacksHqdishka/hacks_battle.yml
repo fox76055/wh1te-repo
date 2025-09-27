@@ -29,9 +29,9 @@
   description: Боевой скафандр специализированный под расу "Вульпканинов" сделанный на заказ LuaTech.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_battlehardsuit_black.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_battlehardsuit_black.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_battlehardsuit_black.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/OuterClothing/Hardsuits/lua_battlehardsuit_black.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetLuaD
   - type: ExplosionResistance
@@ -57,7 +57,7 @@
   description: Боевой скафандр шлем с ушами под расу "Вульпканинов" сделанный на заказ LuaTech.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/Head/Hardsuits/lua_battlehelm_black.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/Head/Hardsuits/lua_battlehelm_black.rsi
     layers:
     - state: on-equipped-HELMET
   - type: PointLight

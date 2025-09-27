@@ -6,7 +6,7 @@
   name: base EVA helmet with light
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
     - state: icon-reinforced-points
@@ -73,7 +73,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#5fa31e"
@@ -82,7 +82,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -99,7 +99,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#4960ed"
@@ -108,7 +108,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -127,7 +127,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#fff4e2"
@@ -136,7 +136,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -154,7 +154,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#194214"
@@ -165,7 +165,7 @@
     - state: icon-visor
       color: "#fbe6b8"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -187,7 +187,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#fe5c00"
@@ -196,7 +196,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -216,7 +216,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#2d4c5e"
@@ -227,7 +227,7 @@
     - state: icon-visor
       color: "#2572bf"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -250,7 +250,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#ffee00"
@@ -266,7 +266,7 @@
         color: "#ff7f00"
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -292,7 +292,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#ffee00"
@@ -301,7 +301,7 @@
     - state: icon-visor
       color: "#e1b537"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -321,7 +321,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#deb733"
@@ -330,7 +330,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -347,7 +347,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#deb733"
@@ -356,7 +356,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -376,7 +376,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#d6e6f3"
@@ -385,7 +385,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -404,7 +404,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#2c6946"
@@ -420,7 +420,7 @@
         color: blue
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -447,7 +447,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#edeaea"
@@ -456,7 +456,7 @@
     - state: icon-visor
       color: "#2accff"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -476,7 +476,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#cac4c3"
@@ -485,7 +485,7 @@
     - state: icon-visor
       color: "#bb5cc9"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -504,7 +504,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#e6001f"
@@ -513,7 +513,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -530,7 +530,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#fff4e2"
@@ -539,7 +539,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -556,7 +556,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#a42424"
@@ -565,7 +565,7 @@
     - state: icon-visor
       color: "#ffce5b"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -584,7 +584,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#d1502c"
@@ -593,7 +593,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -610,7 +610,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#4cd339"
@@ -619,7 +619,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -636,7 +636,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#23a0bb"
@@ -645,7 +645,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -662,7 +662,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#d9be15"
@@ -671,7 +671,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -688,7 +688,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: equipped-head-base
       map: [ "EVA_helmet_decal_boxing" ]
@@ -697,7 +697,7 @@
     - state: equipped-head-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -719,7 +719,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#496ea0"
@@ -728,7 +728,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -745,7 +745,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#7b7b3f"
@@ -754,7 +754,7 @@
     - state: icon-visor
       color: "#f5fc95"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -771,7 +771,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#935c3f"
@@ -780,7 +780,7 @@
     - state: icon-visor
       color: "#ffd600"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -798,7 +798,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#a9947d"
@@ -814,7 +814,7 @@
         color: red
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -841,7 +841,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#d4a365"
@@ -857,7 +857,7 @@
         color: gold
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -883,7 +883,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#ff8300"
@@ -892,7 +892,7 @@
     - state: icon-visor
       color: "#adcfd5"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -910,7 +910,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#e48545"
@@ -919,7 +919,7 @@
     - state: icon-visor
       color: "#283846"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -936,7 +936,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     layers:
     - state: icon-base
       color: "#3e3e48"
@@ -945,7 +945,7 @@
     - state: icon-visor
       color: "#8f1717"
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
     clothingVisuals:
       head:
       - state: equipped-head-base
@@ -964,7 +964,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/fsb_eva_helmet.rsi
+    sprite: /_NF/Clothing/Head/Helmets/fsb_eva_helmet.rsi
   - type: ToggleableVisuals
     spriteLayer: light
     clothingVisuals:

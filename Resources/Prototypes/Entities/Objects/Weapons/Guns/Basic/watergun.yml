@@ -4,12 +4,12 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/water_pistol.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/water_pistol.rsi
     slots: BELT
   - type: Item
-    sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/water_pistol.rsi
     size: Small
   - type: Gun
     clumsyProof: true
@@ -60,7 +60,7 @@
   description: The dinkiest of water-based weaponry. You swear the trigger doesn't do anything.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/water_pistol.rsi
     layers:
     - state: detail
     - state: icon
@@ -89,7 +89,7 @@
       chamber:
         maxVol: 100 #20 shots
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/soaker.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/soaker.rsi
     layers:
     - state: detail1
     - state: detail2
@@ -97,7 +97,7 @@
     - state: icon
       map: [ "enum.DamageStateVisualLayers.Base" ]
   - type: Item
-    sprite: Objects/Weapons/Guns/Pistols/soaker.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/soaker.rsi
     size: Normal
   - type: RandomSprite
     getAllGroups: true
@@ -126,7 +126,7 @@
       chamber:
         maxVol: 500 #100 shots
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/soaker.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/soaker.rsi
     layers:
     - state: detail1
     - state: detail2
@@ -134,7 +134,7 @@
     - state: icon
       map: [ "enum.DamageStateVisualLayers.Base" ]
   - type: Item
-    sprite: Objects/Weapons/Guns/Pistols/soaker.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/soaker.rsi
     size: Normal
   - type: RandomSprite
     getAllGroups: true

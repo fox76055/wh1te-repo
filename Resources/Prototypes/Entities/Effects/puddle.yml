@@ -105,7 +105,7 @@
       anchored: true
     - type: Sprite
       layers:
-        - sprite: Fluids/wet_floor_sparkles.rsi
+        - sprite: /Fluids/wet_floor_sparkles.rsi
           state: sparkles
       drawdepth: Puddles
       color: "#FFFFFF80"
@@ -124,7 +124,7 @@
     anchored: true
   - type: Sprite
     layers:
-    - sprite: Fluids/puddle.rsi
+    - sprite: /Fluids/puddle.rsi
       state: splat0
     drawdepth: Puddles
     color: "#FFFFFF80"

@@ -38,7 +38,7 @@
       steps:
       - tag: Multitool
         icon:
-          sprite: _NF/Objects/Tools/multitool.rsi # Frontier: separate sprites (add _NF folder)
+          sprite: /_NF/Objects/Tools/multitool.rsi # Frontier: separate sprites (add _NF folder)
           state: icon
         name: construction-graph-tag-multitool
       - material: Cable
@@ -48,7 +48,7 @@
       steps:
       - tag: MicroManipulatorStockPart
         icon:
-          sprite: Objects/Misc/stock_parts.rsi
+          sprite: /Objects/Misc/stock_parts.rsi
           state: micro_mani
         name: construction-graph-tag-manipulator
       - material: Manipulator

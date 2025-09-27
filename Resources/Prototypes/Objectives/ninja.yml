@@ -17,7 +17,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Tools/emag.rsi
+      sprite: /Objects/Tools/emag.rsi
       state: icon
   - type: NumberObjective
     min: 15
@@ -33,7 +33,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Machines/server.rsi
+      sprite: /Structures/Machines/server.rsi
       state: server
   - type: NumberObjective
     min: 9
@@ -48,7 +48,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Weapons/Bombs/spidercharge.rsi
+      sprite: /Objects/Weapons/Bombs/spidercharge.rsi
       state: icon
   - type: SpiderChargeCondition
 
@@ -60,7 +60,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Clothing/Mask/ninja.rsi
+      sprite: /Clothing/Mask/ninja.rsi
       state: icon
 
 - type: entity
@@ -71,7 +71,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Fun/Instruments/otherinstruments.rsi
+      sprite: /Objects/Fun/Instruments/otherinstruments.rsi
       state: red_phone
 
 - type: entity
@@ -82,5 +82,5 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Weapons/Melee/stunbaton.rsi
+      sprite: /Objects/Weapons/Melee/stunbaton.rsi
       state: stunbaton_on

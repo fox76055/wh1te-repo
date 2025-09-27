@@ -9,7 +9,7 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Weapons/Melee/cult_blade.rsi
+      - sprite: /Objects/Weapons/Melee/cult_blade.rsi
         state: icon
   - type: RandomSpawner
     prototypes:
@@ -39,7 +39,7 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Weapons/Melee/cult_blade.rsi
+      - sprite: /Objects/Weapons/Melee/cult_blade.rsi
         state: icon
   - type: RandomSpawner
     prototypes:
@@ -73,7 +73,7 @@
     layers:
       - state: red
       - state: ai
-      - sprite: _NF/Mobs/BloodCult/drainedone.rsi
+      - sprite: /_NF/Mobs/BloodCult/drainedone.rsi
         state: drained
   - type: RandomSpawner
     prototypes:

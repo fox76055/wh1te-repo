@@ -50,11 +50,11 @@
   id: SaltDrug
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Specific/Chemistry/salt_drugs.rsi
+    sprite: /_Lua/Objects/Specific/Chemistry/salt_drugs.rsi
     state: salt_drugs
   - type: Item
     size: Tiny
-    sprite: _Lua/Objects/Specific/Chemistry/salt_drugs.rsi
+    sprite: /_Lua/Objects/Specific/Chemistry/salt_drugs.rsi
   - type: Food
     forceFeedDelay: 1
     transferAmount: null

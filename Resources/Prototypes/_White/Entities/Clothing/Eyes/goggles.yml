@@ -7,9 +7,9 @@
   description: ent-ClothingEyesNightVisionGoggles.desc
   components:
   - type: Sprite
-    sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
+    sprite: /_White/Clothing/Eyes/Goggles/nightvision.rsi
   - type: Clothing
-    sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
+    sprite: /_White/Clothing/Eyes/Goggles/nightvision.rsi
   - type: NightVision
     flashDurationMultiplier: 2
     isEquipment: true
@@ -50,9 +50,9 @@
   description: ent-ClothingEyesThermalVisionGoggles.desc
   components:
   - type: Sprite
-    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+    sprite: /_White/Clothing/Eyes/Goggles/thermal.rsi
   - type: Clothing
-    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+    sprite: /_White/Clothing/Eyes/Goggles/thermal.rsi
   - type: ThermalVision
     flashDurationMultiplier: 2
     pulseTime: 4

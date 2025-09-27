@@ -8,7 +8,7 @@
     tags:
     - Knife
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Melee/pirate_hook.rsi
+    sprite: /_NF/Objects/Weapons/Melee/pirate_hook.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Weapons/Melee/pirate_hook.rsi
+    sprite: /_NF/Objects/Weapons/Melee/pirate_hook.rsi

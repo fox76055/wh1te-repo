@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/artifact_analyzer.rsi
+    sprite: /Structures/Machines/artifact_analyzer.rsi
     drawdepth: HighFloorObjects
     layers:
     - state: icon
@@ -97,7 +97,7 @@
     board: ArtifactCrusherMachineCircuitboard
   - type: WiresPanel
   - type: Sprite
-    sprite: Structures/Machines/artifact_crusher.rsi
+    sprite: /Structures/Machines/artifact_crusher.rsi
     offset: 0,0.5
     noRot: true
     layers:

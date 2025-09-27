@@ -6,7 +6,7 @@
   flavor: metallic
   color: "#800000"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bloodglass.rsi
+    sprite: /Objects/Consumable/Drinks/bloodglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-

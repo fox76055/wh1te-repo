@@ -7,14 +7,14 @@
     tags:
     - GlassBeaker
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/beaker.rsi
+    sprite: /Objects/Specific/Chemistry/beaker.rsi
     layers:
       - state: beaker
       - state: beaker1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: Item
-    sprite: Objects/Specific/Chemistry/beaker.rsi
+    sprite: /Objects/Specific/Chemistry/beaker.rsi
   - type: MeleeWeapon
     soundNoDamage:
       path: "/Audio/Effects/Fluids/splat.ogg"
@@ -109,14 +109,14 @@
     tags:
     - GlassBeaker
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/beaker.rsi
+    sprite: /Objects/Specific/Chemistry/beaker.rsi
     layers:
       - state: beaker
       - state: beaker1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: Item
-    sprite: Objects/Specific/Chemistry/beaker.rsi
+    sprite: /Objects/Specific/Chemistry/beaker.rsi
   - type: MeleeWeapon
     soundNoDamage:
       path: "/Audio/Effects/Fluids/splat.ogg"
@@ -167,14 +167,14 @@
     tags:
     - GlassBeaker
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/beaker.rsi
+    sprite: /Objects/Specific/Chemistry/beaker.rsi
     layers:
       - state: beaker
       - state: beaker1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: Item
-    sprite: Objects/Specific/Chemistry/beaker.rsi
+    sprite: /Objects/Specific/Chemistry/beaker.rsi
   - type: MeleeWeapon
     soundNoDamage:
       path: "/Audio/Effects/Fluids/splat.ogg"
@@ -267,7 +267,7 @@
   - type: Spillable
     solution: beaker
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/beaker_large.rsi
+    sprite: /Objects/Specific/Chemistry/beaker_large.rsi
     layers:
       - state: beakerlarge
       - state: beakerlarge1
@@ -275,7 +275,7 @@
         visible: false
   - type: Item
     size: Normal
-    sprite: Objects/Specific/Chemistry/beaker_large.rsi
+    sprite: /Objects/Specific/Chemistry/beaker_large.rsi
   - type: SolutionContainerManager
     solutions:
       beaker:
@@ -301,7 +301,7 @@
   - type: Spillable
     solution: beaker
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/beaker_cryostasis.rsi
+    sprite: /Objects/Specific/Chemistry/beaker_cryostasis.rsi
     layers:
       - state: beakernoreact
   - type: SolutionContainerVisuals
@@ -321,7 +321,7 @@
   - type: Spillable
     solution: beaker
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
+    sprite: /Objects/Specific/Chemistry/beaker_bluespace.rsi
     layers:
       - state: beakerbluespace
   - type: SolutionContainerVisuals
@@ -338,7 +338,7 @@
   id: Dropper
   components:
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/dropper.rsi
+    sprite: /Objects/Specific/Chemistry/dropper.rsi
     layers:
       - state: dropper
       - state: dropper1
@@ -365,7 +365,7 @@
   - type: Spillable
     solution: injector
   - type: Item
-    sprite: Objects/Specific/Chemistry/dropper.rsi
+    sprite: /Objects/Specific/Chemistry/dropper.rsi
     size: Tiny
   - type: Appearance
   - type: SolutionContainerVisuals
@@ -388,7 +388,7 @@
   description: State-of-the-art hydraulic dropper built for cyborgs. It features a higher capacity than hand-powered droppers, able to hold 15 units of liquid.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/dropper.rsi
+    sprite: /Objects/Specific/Chemistry/dropper.rsi
     layers:
       - state: borgdropper
       - state: dropper1
@@ -399,7 +399,7 @@
       injector:
         maxVol: 15
   - type: Item
-    sprite: Objects/Specific/Chemistry/dropper.rsi
+    sprite: /Objects/Specific/Chemistry/dropper.rsi
 
 - type: entity
   name: syringe
@@ -409,7 +409,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/syringe.rsi
+    sprite: /Objects/Specific/Chemistry/syringe.rsi
     layers:
       - state: syringe1
         map: ["enum.SolutionContainerLayers.Fill"]
@@ -417,11 +417,11 @@
       - state: syringe_base0
         map: ["enum.SolutionContainerLayers.Base"]
   - type: Icon
-    sprite: Objects/Specific/Chemistry/syringe.rsi
+    sprite: /Objects/Specific/Chemistry/syringe.rsi
     state: "syringe_base0"
   - type: Item
     size: Tiny
-    sprite: Objects/Specific/Chemistry/syringe.rsi
+    sprite: /Objects/Specific/Chemistry/syringe.rsi
   - type: SolutionContainerManager
     solutions:
       injector:
@@ -463,7 +463,7 @@
   id: MiniSyringe
   components:
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/syringe.rsi
+    sprite: /Objects/Specific/Chemistry/syringe.rsi
     layers:
       - state: minisyringe1
         map: ["enum.SolutionContainerLayers.Fill"]
@@ -545,7 +545,7 @@
     - state: bluespace_base0
       map: ["enum.SolutionContainerLayers.Base"]
   - type: Icon
-    sprite: Objects/Specific/Chemistry/syringe.rsi
+    sprite: /Objects/Specific/Chemistry/syringe.rsi
     state: bluespace_base0
   - type: SolutionContainerManager
     solutions:
@@ -576,7 +576,7 @@
     - state: cryo_base0
       map: ["enum.SolutionContainerLayers.Base"]
   - type: Icon
-    sprite: Objects/Specific/Chemistry/syringe.rsi
+    sprite: /Objects/Specific/Chemistry/syringe.rsi
     state: cryo_base0
   - type: SolutionContainerManager
     solutions:
@@ -601,11 +601,11 @@
   description: It's not a suppository.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/pills.rsi
+    sprite: /Objects/Specific/Chemistry/pills.rsi
     state: pill
   - type: Item
     size: Tiny
-    sprite: Objects/Specific/Chemistry/pills.rsi
+    sprite: /Objects/Specific/Chemistry/pills.rsi
   - type: Pill
   - type: Food
     delay: 0.6
@@ -652,9 +652,9 @@
   components:
   - type: Item
     size: Tiny
-    sprite: Objects/Specific/Chemistry/pills_canister.rsi
+    sprite: /Objects/Specific/Chemistry/pills_canister.rsi
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/pills_canister.rsi
+    sprite: /Objects/Specific/Chemistry/pills_canister.rsi
     state: pill_canister
   - type: Tag
     tags:

@@ -5,7 +5,7 @@
   description: Grab as much as you can fit in your pockets!
   components:
   - type: Sprite
-    sprite: Objects/Misc/candy_bowl.rsi
+    sprite: /Objects/Misc/candy_bowl.rsi
     noRot: true
     drawdepth: SmallObjects
     state: candy_bowl0
@@ -62,7 +62,7 @@
         friction: 0.2
   - type: InteractionOutline
   - type: ItemMapper
-    sprite: Objects/Misc/candy_bowl.rsi
+    sprite: /Objects/Misc/candy_bowl.rsi
     mapLayers:
       candy_bowl1:
         whitelist:

@@ -7,9 +7,9 @@
   description: the robes of those dedicated to the god who's name begins with G
   components:
   - type: Sprite
-    sprite: _NF/Faction/Clothing/OuterClothing/weedchurchrobes.rsi
+    sprite: /_NF/Faction/Clothing/OuterClothing/weedchurchrobes.rsi
   - type: Clothing
-    sprite: _NF/Faction/Clothing/OuterClothing/weedchurchrobes.rsi
+    sprite: /_NF/Faction/Clothing/OuterClothing/weedchurchrobes.rsi
 
 - type: entity
   parent: ClothingHeadBaseButcherable
@@ -18,9 +18,9 @@
   description: the beanie worn by followers of the church of weedgod
   components:
   - type: Sprite
-    sprite: _NF/Faction/Clothing/Head/weedchurchbeanie.rsi
+    sprite: /_NF/Faction/Clothing/Head/weedchurchbeanie.rsi
   - type: Clothing
-    sprite: _NF/Faction/Clothing/Head/weedchurchbeanie.rsi
+    sprite: /_NF/Faction/Clothing/Head/weedchurchbeanie.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -29,9 +29,9 @@
   description: a holy hat worn by those with high status in the church of weedgod
   components:
   - type: Sprite
-    sprite: _NF/Faction/Clothing/Head/weedchurchbishop.rsi
+    sprite: /_NF/Faction/Clothing/Head/weedchurchbishop.rsi
   - type: Clothing
-    sprite: _NF/Faction/Clothing/Head/weedchurchbishop.rsi
+    sprite: /_NF/Faction/Clothing/Head/weedchurchbishop.rsi
 
 #Bible
 - type: entity
@@ -61,11 +61,11 @@
     reactionTypes:
     - Holy
   - type: Sprite
-    sprite: _NF/Faction/Objects/weejurnum.rsi
+    sprite: /_NF/Faction/Objects/weejurnum.rsi
     state: icon
   - type: Item
     size: Normal
-    sprite: _NF/Faction/Objects/weejurnum.rsi
+    sprite: /_NF/Faction/Objects/weejurnum.rsi
   - type: Clothing
     slots:
     - Belt

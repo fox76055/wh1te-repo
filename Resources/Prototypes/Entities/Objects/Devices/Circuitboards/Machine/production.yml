@@ -713,7 +713,7 @@
   description: A machine printed circuit board for a SMES.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: power_mod
     - type: MachineBoard
       prototype: SMESBasicEmpty
@@ -731,7 +731,7 @@
   description: A machine printed circuit board for an Advanced SMES.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: power_mod
   - type: MachineBoard
     prototype: SMESAdvancedEmpty
@@ -751,7 +751,7 @@
   categories: [HideSpawnMenu] # Frontier: use recharger machine board
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: charger_APC
     - type: MachineBoard
       prototype: PowerCellRecharger
@@ -774,7 +774,7 @@
   description: A machine printed circuit board for a energy cage recharger.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: charger_APC
     - type: MachineBoard
       prototype: PowerCageRecharger
@@ -798,7 +798,7 @@
   description: A machine printed circuit board for a robot recharging station.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: charger_APC
     - type: MachineBoard
       prototype: BorgCharger
@@ -821,7 +821,7 @@
   description: A machine printed circuit board for a recharger.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: charger_APC
     - type: MachineBoard
       prototype: WeaponCapacitorRecharger
@@ -845,7 +845,7 @@
   description: A machine printed circuit board for a turbo recharger.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: charger_APC
   - type: MachineBoard
     prototype: TurboItemRecharger

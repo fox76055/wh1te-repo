@@ -39,7 +39,7 @@
   - type: ClusterGrenadeVisuals
     state: base
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/clusterbang.rsi
+    sprite: /Objects/Weapons/Grenades/clusterbang.rsi
     state: base-0
 
 - type: entity
@@ -50,7 +50,7 @@
   suffix: Full
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/clusterbang.rsi
+    sprite: /Objects/Weapons/Grenades/clusterbang.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -81,7 +81,7 @@
   description: Why use one grenade when you can use three at once!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/clusterbomb.rsi
+    sprite: /Objects/Weapons/Grenades/clusterbomb.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -106,7 +106,7 @@
   description: Splits into 6 explosive banana peels after throwing, guaranteed fun!
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: /Objects/Specific/Hydroponics/banana.rsi
     state: produce
   - type: ScatteringGrenade
     fillPrototype: TrashBananaPeelExplosive
@@ -129,7 +129,7 @@
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/soap.rsi
+    sprite: /Objects/Specific/Janitorial/soap.rsi
     layers:
     - state: syndie-4
   - type: ScatteringGrenade
@@ -154,7 +154,7 @@
   description: Releases a bothersome spray of foam darts that cause severe welching.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/foamdart.rsi
+    sprite: /Objects/Weapons/Grenades/foamdart.rsi
     layers:
     - state: icon
       map: ["Base"]

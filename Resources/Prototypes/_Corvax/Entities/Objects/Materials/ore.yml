@@ -7,7 +7,7 @@
   - type: Stack
     stackType: MagmiteOre
   - type: Sprite
-    sprite: Corvax/Objects/Materials/ore.rsi
+    sprite: /Corvax/Objects/Materials/ore.rsi
     state: magmite
   - type: Material
   - type: PhysicalComposition

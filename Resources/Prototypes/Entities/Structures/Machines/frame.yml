@@ -62,7 +62,7 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
     - type: Sprite
-      sprite: Structures/Machines/parts.rsi
+      sprite: /Structures/Machines/parts.rsi
       state: box_0
       snapCardinals: true
 
@@ -131,7 +131,7 @@
         machine_board: !type:Container
         machine_parts: !type:Container
     - type: Sprite
-      sprite: Structures/Machines/parts.rsi
+      sprite: /Structures/Machines/parts.rsi
       state: box_1
       snapCardinals: true
     - type: Appearance
@@ -181,5 +181,5 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
     - type: Sprite
-      sprite: Structures/Machines/parts.rsi
+      sprite: /Structures/Machines/parts.rsi
       state: destroyed

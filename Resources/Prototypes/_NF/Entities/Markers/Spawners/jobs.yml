@@ -22,7 +22,7 @@
   - type: SpawnPoint
     job_id: Mercenary
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: mercenary
@@ -35,7 +35,7 @@
   - type: SpawnPoint
     job_id: MercenaryBase
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: mercenary
@@ -56,7 +56,7 @@
   - type: SpawnPoint
     job_id: Pilot
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: pilot
@@ -78,7 +78,7 @@
   - type: SpawnPoint
     job_id: NFPirate
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: /Structures/Decoration/banner.rsi
     state: banner-red
 
 - type: entity
@@ -90,7 +90,7 @@
   - type: SpawnPoint
     job_id: NFPirateFirstMate
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: /Structures/Decoration/banner.rsi
     state: banner-red
 
 - type: entity
@@ -102,7 +102,7 @@
   - type: SpawnPoint
     job_id: NFPirateCaptain
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: /Structures/Decoration/banner.rsi
     state: banner-red
 
 - type: entity
@@ -113,7 +113,7 @@
   - type: SpawnPoint
     job_id: StationTrafficController
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: stc
@@ -126,7 +126,7 @@
   - type: SpawnPoint
     job_id: SecurityGuard
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: securityguard
@@ -139,7 +139,7 @@
   - type: SpawnPoint
     job_id: ERTMailCarrier
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: ertmailcarrier
@@ -152,7 +152,7 @@
   - type: SpawnPoint
     job_id: DirectorOfCare
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: medic
@@ -238,7 +238,7 @@
   - type: SpawnPoint
     job_id: PlantManager
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: plantmanager
@@ -251,7 +251,7 @@
   - type: SpawnPoint
     job_id: PlantTechnician
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: planttechnician

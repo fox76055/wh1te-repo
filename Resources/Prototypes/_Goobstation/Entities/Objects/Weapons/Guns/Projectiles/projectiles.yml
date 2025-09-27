@@ -35,7 +35,7 @@
     energy: 0.5
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: bullet
       shader: unshaded

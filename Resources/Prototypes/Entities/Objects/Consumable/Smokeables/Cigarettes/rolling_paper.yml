@@ -16,10 +16,10 @@
       - id: PaperRolling
         amount: 4
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/paper.rsi
     state: cigpapers
   - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/paper.rsi
 
 - type: entity
   parent: PackPaperRolling
@@ -50,10 +50,10 @@
     stackType: PaperRolling
     count: 5
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/paper.rsi
     state: cigpaper
   - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/paper.rsi
     size: Tiny
   - type: Tag
     tags:
@@ -81,10 +81,10 @@
     stackType: CigaretteFilter
     count: 5
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/paper.rsi
     state: cigfilter
   - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/paper.rsi
     size: Tiny
   - type: Tag
     tags:

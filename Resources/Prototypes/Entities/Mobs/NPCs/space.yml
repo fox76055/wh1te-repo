@@ -13,7 +13,7 @@
     - SimpleHostile
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/bear.rsi
+    sprite: /Mobs/Animals/bear.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: bear
@@ -79,7 +79,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/bear.rsi
+    sprite: /Mobs/Animals/bear.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: bear
@@ -131,7 +131,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/kangaroo.rsi
+    sprite: /Mobs/Animals/kangaroo.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: kangaroo-space
@@ -191,7 +191,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/spacespider.rsi
+    sprite: /Mobs/Animals/spacespider.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: spacespider
@@ -291,7 +291,7 @@
   components:
     - type: Sprite
       drawdepth: Mobs
-      sprite: Mobs/Animals/spacecobra.rsi
+      sprite: /Mobs/Animals/spacecobra.rsi
       layers:
         - map: [ "enum.DamageStateVisualLayers.Base" ]
           state: spacecobra
@@ -402,7 +402,7 @@
   - type: Emoting
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Animals/snail.rsi
+    sprite: /Mobs/Animals/snail.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: snail
@@ -507,7 +507,7 @@
   - type: BadFood
   - type: NonSpreaderZombie
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
   - type: Temperature
     heatDamageThreshold: 500

@@ -27,7 +27,7 @@
     - Flesh
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
   - type: MovementAlwaysTouching
   - type: MovementSpeedModifier
     baseWalkSpeed: 1
@@ -176,7 +176,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Demons/abomination.rsi
+    sprite: /Mobs/Demons/abomination.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: abomination
@@ -231,7 +231,7 @@
     - Flesh
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/flesh.rsi
+    sprite: /Mobs/Aliens/flesh.rsi
   - type: MovementAlwaysTouching
   - type: MovementSpeedModifier
     baseWalkSpeed: 1

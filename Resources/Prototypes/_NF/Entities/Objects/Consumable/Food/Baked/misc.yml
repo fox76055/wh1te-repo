@@ -41,7 +41,7 @@
       - muffin
       - pear
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/misc.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/misc.rsi
     state: pearmuffin
     scale: .75, .75
   - type: SolutionContainerManager
@@ -73,7 +73,7 @@
       - butter
       - bread
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/misc.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/misc.rsi
     layers:
       - state: apple_strudel_1
         map: [ "Variant" ]
@@ -110,7 +110,7 @@
       - cinnamon
       - bun
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/misc.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/misc.rsi
     layers:
       - state: cinnamonroll
   - type: SolutionContainerManager

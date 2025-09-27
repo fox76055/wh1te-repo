@@ -100,7 +100,7 @@
   description: It produces basic items using metal and glass. Has the ability to process blueprints to print new recipes.
   components:
   - type: Sprite
-    sprite: Structures/Machines/autolathe.rsi
+    sprite: /Structures/Machines/autolathe.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -169,7 +169,7 @@
   description: A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
-    sprite: Structures/Machines/autolathe_hypercon.rsi
+    sprite: /Structures/Machines/autolathe_hypercon.rsi
   - type: Machine
     board: AutolatheHyperConvectionMachineCircuitboard
 
@@ -180,7 +180,7 @@
   description: Converts raw materials into advanced items.
   components:
   - type: Sprite
-    sprite: Structures/Machines/protolathe.rsi
+    sprite: /Structures/Machines/protolathe.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -259,7 +259,7 @@
   description: A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
-    sprite: Structures/Machines/protolathe_hypercon.rsi
+    sprite: /Structures/Machines/protolathe_hypercon.rsi
   - type: Machine
     board: ProtolatheHyperConvectionMachineCircuitboard
 
@@ -270,7 +270,7 @@
   description: Prints circuit boards for machines.
   components:
   - type: Sprite
-    sprite: Structures/Machines/circuit_imprinter.rsi
+    sprite: /Structures/Machines/circuit_imprinter.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -328,7 +328,7 @@
   description: A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
-    sprite: Structures/Machines/circuit_imprinter_hypercon.rsi
+    sprite: /Structures/Machines/circuit_imprinter_hypercon.rsi
   - type: Machine
     board: CircuitImprinterHyperConvectionMachineCircuitboard
 
@@ -340,7 +340,7 @@
   components:
   - type: Sprite
     snapCardinals: true # Frontier
-    sprite: Structures/Machines/exosuit_fabricator.rsi
+    sprite: /Structures/Machines/exosuit_fabricator.rsi
     layers:
     - state: fab-idle
       map: ["enum.LatheVisualLayers.IsRunning"]
@@ -398,7 +398,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
-    sprite: Structures/Machines/biofabricator.rsi
+    sprite: /Structures/Machines/biofabricator.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -438,7 +438,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
-    sprite: Structures/Machines/techfab.rsi
+    sprite: /Structures/Machines/techfab.rsi
     snapCardinals: true # Frontier
     layers:
     - state: icon
@@ -497,7 +497,7 @@
   description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
   components:
     - type: Sprite
-      sprite: Structures/Machines/techfab.rsi
+      sprite: /Structures/Machines/techfab.rsi
       snapCardinals: true # Frontier
       layers:
         - state: icon
@@ -536,7 +536,7 @@
   description: Prints equipment for use by the medbay.
   components:
   - type: Sprite
-    sprite: Structures/Machines/techfab.rsi
+    sprite: /Structures/Machines/techfab.rsi
     snapCardinals: true # Frontier
     layers:
     - state: icon
@@ -584,7 +584,7 @@
   - type: Transform
     noRot: false
   - type: Sprite
-    sprite: Structures/Machines/uniform_printer.rsi
+    sprite: /Structures/Machines/uniform_printer.rsi
     snapCardinals: false
     layers:
     - state: icon
@@ -636,7 +636,7 @@
   description: Converts plants into biomass, which can be used to construct useful items.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/biofabricator.rsi # Frontier: use NF version
+    sprite: /_NF/Structures/Machines/biofabricator.rsi # Frontier: use NF version
     snapCardinals: true
     layers:
     - state: icon
@@ -704,7 +704,7 @@
   description: It produces sheets and ingots using ores.
   components:
     - type: Sprite
-      sprite: Structures/Machines/ore_processor.rsi
+      sprite: /Structures/Machines/ore_processor.rsi
       snapCardinals: true # Frontier
       layers:
         - state: icon
@@ -742,7 +742,7 @@
   description: An ore processor specifically designed for mass-producing metals in industrial applications.
   components:
   - type: Sprite
-    sprite: Structures/Machines/ore_processor_industrial.rsi
+    sprite: /Structures/Machines/ore_processor_industrial.rsi
   - type: Machine
     board: OreProcessorIndustrialMachineCircuitboard
   - type: Lathe
@@ -761,7 +761,7 @@
   description: A very sheety machine.
   components:
   - type: Sprite
-    sprite: Structures/Machines/sheetifier.rsi
+    sprite: /Structures/Machines/sheetifier.rsi
     snapCardinals: true # Frontier
     layers:
     - state: base_machine
@@ -797,7 +797,7 @@
   - type: Transform
     noRot: false
   - type: Sprite
-    sprite: Structures/Machines/cuttermachine.rsi
+    sprite: /Structures/Machines/cuttermachine.rsi
     snapCardinals: true
     layers:
     - state: icon

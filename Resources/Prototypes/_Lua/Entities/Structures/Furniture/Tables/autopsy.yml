@@ -21,7 +21,7 @@
         mask:
         - TableMask
   - type: Sprite
-    sprite: _Lua/Structures/Furniture/Tables/autopsytable.rsi
+    sprite: /_Lua/Structures/Furniture/Tables/autopsytable.rsi
     layers:
     - state: autopsy_table
       # map: [ "enum.AutopsyTableLayers.Base" ]
@@ -38,7 +38,7 @@
       shader: "unshaded"
       visible: false
   - type: Icon
-    sprite: _Lua/Structures/Furniture/Tables/autopsytable.rsi
+    sprite: /_Lua/Structures/Furniture/Tables/autopsytable.rsi
     state: autopsy_table
   - type: Strap
     position: Down

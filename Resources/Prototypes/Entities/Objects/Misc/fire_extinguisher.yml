@@ -5,12 +5,12 @@
   description: It extinguishes fires.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/fire_extinguisher.rsi # Frontier
+    sprite: /_NF/Objects/Misc/fire_extinguisher.rsi # Frontier
     layers:
     - state: fire_extinguisher_closed
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Item
-    sprite: _NF/Objects/Misc/fire_extinguisher.rsi # Frontier
+    sprite: /_NF/Objects/Misc/fire_extinguisher.rsi # Frontier
     size: Normal
   - type: SolutionContainerManager
     solutions:
@@ -98,7 +98,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Effects/extinguisherSpray.rsi
+    sprite: /Effects/extinguisherSpray.rsi
     layers:
       - state: extinguish
         map: [ "enum.VaporVisualLayers.Base" ]
@@ -116,12 +116,12 @@
   description: A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
   components:
   - type: Sprite
-    sprite: Objects/Misc/fire_extinguisher_mini.rsi
+    sprite: /Objects/Misc/fire_extinguisher_mini.rsi
     layers:
         - state: fire_extinguisher_closed
           map: [ "enabled" ]
   - type: Item
-    sprite: Objects/Misc/fire_extinguisher_mini.rsi
+    sprite: /Objects/Misc/fire_extinguisher_mini.rsi
     size: Small
   - type: SolutionContainerManager
     solutions:

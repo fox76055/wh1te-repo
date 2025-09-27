@@ -2,17 +2,17 @@
 # Finding individual authors is an unfeasible task. If you can reference the author please do so.
 # Copyright format is so far "Modified from [image] by [Github Username] (Discord Username)" or "Created by [Github Username] (Discord Username)"
 
-- files: ["mutter.png"]
+- files: ["/mutter.png"]
   license: "CC-BY-SA-3.0"
-  copyright: "Modified goblin head_m.png and goblin_ears_default.png by ErhardSteinhauer"
+  copyright: "Modified goblin /head_m.png and /goblin_ears_default.png by ErhardSteinhauer"
   source: "https://github.com/ErhardSteinhauer"
 
-- files: ["throatsinging.png"]
+- files: ["/throatsinging.png"]
   license: "CC-BY-SA-3.0"
-  copyright: "Modified goblin head_m.png and goblin_ears_default.png by ErhardSteinhauer"
+  copyright: "Modified goblin /head_m.png and /goblin_ears_default.png by ErhardSteinhauer"
   source: "https://github.com/ErhardSteinhauer"
 
-- files: ["belch.png"]
+- files: ["/belch.png"]
   license: "CC-BY-SA-3.0"
-  copyright: "Modified from vocal.png by BorisTakerman (Boris Takerman)"
+  copyright: "Modified from /vocal.png by BorisTakerman (Boris Takerman)"
   source: "https://github.com/BorisTakerman"

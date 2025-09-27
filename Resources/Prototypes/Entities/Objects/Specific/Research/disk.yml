@@ -5,7 +5,7 @@
   description: A disk for the R&D server containing 1000 points.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Research/researchdisk.rsi
+    sprite: /Objects/Specific/Research/researchdisk.rsi
     state: icon
   - type: ResearchDisk
   - type: GuideHelp
@@ -55,7 +55,7 @@
   categories: [ HideSpawnMenu ] # Frontier: no tech disks
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     layers:
     - state: datadisk_base
       map: ["enum.DamageStateVisualLayers.Base"]

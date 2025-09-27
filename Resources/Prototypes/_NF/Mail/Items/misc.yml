@@ -8,7 +8,7 @@
   description: If you're seeing this, something went wrong!
   components:
   - type: Sprite
-    sprite: error.rsi
+    sprite: /error.rsi
     state: error
   - type: DelayedItem
 
@@ -173,7 +173,7 @@
   description: When things get a bit hectic, all you need is a Moment of Clarity.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/premium_vodkabottle.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/premium_vodkabottle.rsi
 
 - type: entity
   id: DrinkPremiumGinBottleFull
@@ -182,7 +182,7 @@
   description: An interesting set of botanicals, for sure. Is that pumpkin?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/premium_ginbottle.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/premium_ginbottle.rsi
 
 - type: entity
   id: DrinkPremiumTequilaBottleFull
@@ -191,7 +191,7 @@
   description: Save the best for last. Casa del Eorg, 100% agave.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/premium_tequilabottle.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/premium_tequilabottle.rsi
 
 - type: entity
   id: DrinkPremiumWhiskeyBottleFull
@@ -200,7 +200,7 @@
   description: Surprisingly smooth, it has a nasty habit of sneaking up on you.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/premium_whiskeybottle.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/premium_whiskeybottle.rsi
 
 - type: entity
   id: DrinkPremiumRumBottleFull
@@ -209,7 +209,7 @@
   description: Well, you asked for it. Navy strength.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/premium_rumbottle.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/premium_rumbottle.rsi
 
 - type: entity
   id: DrinkPremiumAbsintheBottleFull
@@ -218,7 +218,7 @@
   description: A refined taste that tends to linger.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/premium_absinthebottle.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/premium_absinthebottle.rsi
 
 - type: entity
   id: CigarPlatinumCase
@@ -231,7 +231,7 @@
     - id: CigarPlatinum
       amount: 8
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Smokeables/Cigars/case-platinum.rsi
+    sprite: /_NF/Objects/Consumable/Smokeables/Cigars/case-platinum.rsi
 
 - type: entity
   id: CigarPlatinum
@@ -241,10 +241,10 @@
   components:
   - type: Sprite
     scale: 1.2, 1.2
-    sprite: _NF/Objects/Consumable/Smokeables/Cigars/cigar-platinum.rsi
+    sprite: /_NF/Objects/Consumable/Smokeables/Cigars/cigar-platinum.rsi
     state: unlit-icon
   - type: Clothing
-    sprite: _NF/Objects/Consumable/Smokeables/Cigars/cigar-platinum.rsi
+    sprite: /_NF/Objects/Consumable/Smokeables/Cigars/cigar-platinum.rsi
     equippedPrefix: unlit
 
 - type: entity

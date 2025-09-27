@@ -5,11 +5,11 @@
   description: A wooden cane.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cane.rsi
+    sprite: /Objects/Weapons/Melee/cane.rsi
     state: cane
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/cane.rsi
+    sprite: /Objects/Weapons/Melee/cane.rsi
   - type: Appearance
   - type: MeleeWeapon
     wideAnimationRotation: 45
@@ -34,7 +34,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    sprite: /Objects/Weapons/Melee/cane_blade.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 65
@@ -46,7 +46,7 @@
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    sprite: /Objects/Weapons/Melee/cane_blade.rsi
   - type: Tag
     tags:
       - CaneBlade
@@ -58,7 +58,7 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cane.rsi
+    sprite: /Objects/Weapons/Melee/cane.rsi
     state: cane-empty
   - type: ContainerContainer
     containers:

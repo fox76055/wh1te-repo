@@ -5,9 +5,9 @@
   description: A slim Type I armored vest that provides decent protection against most types of damage.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/OuterClothing/Vests/armor_sec.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Vests/armor_sec.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/OuterClothing/Vests/armor_sec.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Vests/armor_sec.rsi
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -16,9 +16,9 @@
   description: A security medic's armor vest, with little pockets for little things.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/OuterClothing/Vests/armor_sec_med.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Vests/armor_sec_med.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/OuterClothing/Vests/armor_sec_med.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Vests/armor_sec_med.rsi
 
 - type: entity
   parent: ClothingOuterBase
@@ -27,6 +27,6 @@
   description: A lightweight vest worn by the Security Medic.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/OuterClothing/Vests/vest_security_medic.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Vests/vest_security_medic.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/OuterClothing/Vests/vest_security_medic.rsi
+      sprite: /Corvax/Clothing/OuterClothing/Vests/vest_security_medic.rsi

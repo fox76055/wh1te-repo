@@ -37,4 +37,4 @@
   - type: BallisticAmmoProvider
     # proto: CartridgeCap # Frontier
   - type: Sprite
-    sprite: Objects/Fun/caps.rsi
+    sprite: /Objects/Fun/caps.rsi

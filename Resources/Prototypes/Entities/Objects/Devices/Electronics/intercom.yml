@@ -5,7 +5,7 @@
   description: An electronics board used in intercoms.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: id_mod
   - type: Tag
     tags:

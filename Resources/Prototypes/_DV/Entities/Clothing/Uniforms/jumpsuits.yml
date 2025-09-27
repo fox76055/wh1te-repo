@@ -5,9 +5,9 @@
   description: I'm just a little guy!
   components:
   - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi # DeltaV - Little-Guy-Ops
+    sprite: /_DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi # DeltaV - Little-Guy-Ops
   - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi
+    sprite: /_DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,6 +16,6 @@
   description: A fine bit o' garb for the lad an' lasses.
   components:
   - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/kilt.rsi
+    sprite: /_DV/Clothing/Uniforms/Jumpsuit/kilt.rsi
   - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/kilt.rsi
+    sprite: /_DV/Clothing/Uniforms/Jumpsuit/kilt.rsi

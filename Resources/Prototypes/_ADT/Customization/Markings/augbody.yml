@@ -5,7 +5,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: r_augarm
 
 - type: marking
@@ -15,7 +15,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: r_aughand
 
 - type: marking
@@ -25,7 +25,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: l_augarm
 
 - type: marking
@@ -35,7 +35,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: l_aughand
 
 - type: marking
@@ -45,7 +45,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: augtorso_m
 
 - type: marking
@@ -55,7 +55,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: r_augleg
 
 - type: marking
@@ -65,7 +65,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: r_augfoot
 
 - type: marking
@@ -75,7 +75,7 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: l_augleg
 
 - type: marking
@@ -85,5 +85,5 @@
   speciesRestriction: [Human]
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Mobs/Customization/augments/augbody.rsi
+    - sprite: /ADT/Mobs/Customization/augments/augbody.rsi
       state: l_augfoot

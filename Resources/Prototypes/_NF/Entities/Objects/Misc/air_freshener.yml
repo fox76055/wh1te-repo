@@ -5,7 +5,7 @@
   description: Removes bad odors, keep it in your pocket.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/airfreshener.rsi
+    sprite: /_NF/Objects/Misc/airfreshener.rsi
     state: icon
   - type: AirFreshener
   - type: StaticPrice

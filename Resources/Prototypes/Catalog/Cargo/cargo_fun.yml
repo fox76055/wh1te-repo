@@ -2,7 +2,7 @@
   id: FunInstrumentsVariety
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/accordion.rsi
+    sprite: /Objects/Fun/Instruments/accordion.rsi
     state: icon
   product: CrateFunInstrumentsVariety
   cost: 2000
@@ -13,7 +13,7 @@
   id: FunInstrumentsBrass
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: tuba
   product: CrateFunInstrumentsBrass
   cost: 2000
@@ -24,7 +24,7 @@
   id: FunInstrumentsString
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/bassguitar.rsi
+    sprite: /Objects/Fun/Instruments/bassguitar.rsi
     state: icon
   product: CrateFunInstrumentsString
   cost: 2500
@@ -35,7 +35,7 @@
   id: FunInstrumentsWoodwind
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/harmonica.rsi
+    sprite: /Objects/Fun/Instruments/harmonica.rsi
     state: icon
   product: CrateFunInstrumentsWoodwind
   cost: 3000
@@ -46,7 +46,7 @@
   id: FunInstrumentsKeyedPercussion
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/h_synthesizer.rsi
+    sprite: /Objects/Fun/Instruments/h_synthesizer.rsi
     state: icon
   product: CrateFunInstrumentsKeyedPercussion
   cost: 2500
@@ -57,7 +57,7 @@
   id: FunInstrumentsSpecial
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/gunpet.rsi
+    sprite: /Objects/Fun/Instruments/gunpet.rsi
     state: icon
   product: CrateFunInstrumentsSpecial
   cost: 10000
@@ -68,7 +68,7 @@
   id: FunArtSupplies
   abstract: true # Frontier
   icon:
-    sprite: Objects/Fun/crayons.rsi
+    sprite: /Objects/Fun/crayons.rsi
     state: box
   product: CrateFunArtSupplies
   cost: 500
@@ -79,7 +79,7 @@
   id: FunParty
   abstract: true # Frontier
   icon:
-    sprite: Objects/Consumable/Food/Baked/cake.rsi
+    sprite: /Objects/Consumable/Food/Baked/cake.rsi
     state: birthday
   product: CrateFunParty
   cost: 1000
@@ -90,7 +90,7 @@
   id: CrateFunWaterGuns
   abstract: true # Frontier
   icon:
-    sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/water_pistol.rsi
     state: display
   product: CrateFunWaterGuns
   cost: 750
@@ -101,7 +101,7 @@
   id: CrateFunFoamGuns
   abstract: true # Frontier
   icon:
-    sprite: Objects/Weapons/Guns/Rifles/foam_rifle.rsi
+    sprite: /Objects/Weapons/Guns/Rifles/foam_rifle.rsi
     state: icon
   product: CrateFunFoamGuns
   cost: 3000
@@ -112,7 +112,7 @@
   id: FunPlushies
   abstract: true # Frontier
   icon:
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: plushie_h
   product: CrateFunPlushie
   cost: 1000
@@ -123,7 +123,7 @@
   id: FunLizardPlushies
   abstract: true # Frontier
   icon:
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: plushie_lizard
   product: CrateFunLizardPlushieBulk
   cost: 500
@@ -134,7 +134,7 @@
   id: FunSharkPlushies
   abstract: true # Frontier
   icon:
-    sprite: Objects/Fun/sharkplush.rsi
+    sprite: /Objects/Fun/sharkplush.rsi
     state: blue
   product: CrateFunSharkPlushieBulk
   cost: 500
@@ -145,7 +145,7 @@
   id: FunBoardGames
   abstract: true # Frontier - Moved to vending machine
   icon:
-    sprite: Objects/Fun/dice.rsi
+    sprite: /Objects/Fun/dice.rsi
     state: d6_6
   product: CrateFunBoardGames
   cost: 1500
@@ -156,7 +156,7 @@
   id: FunSadTromboneImplants
   abstract: true # Frontier - Moved to vending machine
   icon:
-    sprite: Objects/Specific/Medical/implanter.rsi
+    sprite: /Objects/Specific/Medical/implanter.rsi
     state: implanter0
   product: CrateFunSadTromboneImplants
   cost: 1000
@@ -167,7 +167,7 @@
   id: FunLightImplants
   abstract: true # Frontier - Moved to vending machine
   icon:
-    sprite: Objects/Specific/Medical/implanter.rsi
+    sprite: /Objects/Specific/Medical/implanter.rsi
     state: implanter0
   product: CrateFunLightImplants
   cost: 1000
@@ -178,7 +178,7 @@
   id: FunBoxing
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Hands/Gloves/Boxing/boxingred.rsi
+    sprite: /Clothing/Hands/Gloves/Boxing/boxingred.rsi
     state: icon
   product: CrateFunBoxing
   cost: 500
@@ -189,7 +189,7 @@
   id: FunPirate
   abstract: true # Frontier
   icon:
-    sprite: Structures/Storage/Crates/piratechest.rsi
+    sprite: /Structures/Storage/Crates/piratechest.rsi
     state: crate_icon
   product: CrateFunPirate
   cost: 400
@@ -200,7 +200,7 @@
   id: FunToyBox
   abstract: true # Frontier
   icon:
-    sprite: Structures/Storage/Crates/toybox.rsi
+    sprite: /Structures/Storage/Crates/toybox.rsi
     state: crate_icon
   product: CrateFunToyBox
   cost: 900
@@ -211,7 +211,7 @@
   id: FunBikeHornImplants
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Medical/implanter.rsi
+    sprite: /Objects/Specific/Medical/implanter.rsi
     state: implanter0
   product: CrateFunBikeHornImplants
   cost: 1000
@@ -222,7 +222,7 @@
   id: FunMysteryFigurines
   abstract: true # Frontier
   icon:
-    sprite: Objects/Fun/figurines.rsi
+    sprite: /Objects/Fun/figurines.rsi
     state: fig_box
   product: CrateFunMysteryFigurines
   cost: 4000
@@ -233,7 +233,7 @@
   id: FunDartsSet
   abstract: true # Frontier
   icon:
-    sprite: Objects/Fun/Darts/dart_red.rsi
+    sprite: /Objects/Fun/Darts/dart_red.rsi
     state: icon
   product: CrateFunDartsSet
   cost: 900
@@ -243,7 +243,7 @@
 - type: cargoProduct
   id: FunATV
   icon:
-    sprite: Objects/Vehicles/atv.rsi
+    sprite: /Objects/Vehicles/atv.rsi
     state: vehicle
   product: CrateFunATV
   cost: 5000 # Frontier: 1500<5000
@@ -254,7 +254,7 @@
   id: FunCrateGambling
   abstract: true # Frontier
   icon:
-    sprite: Objects/Economy/cash.rsi
+    sprite: /Objects/Economy/cash.rsi
     state: cash_1000000
   product: CrateCargoGambling
   cost: 1000000 # Frontier 10000<1000000 in the case this is added again by mistake.
@@ -265,7 +265,7 @@
   id: ChurchOrganInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: church-organ
   product: ChurchOrganInstrument
   cost: 1500
@@ -276,7 +276,7 @@
   id: PianoInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: piano
   product: PianoInstrument
   cost: 1500
@@ -287,7 +287,7 @@
   id: UprightPianoInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: piano-upright
   product: UprightPianoInstrument
   cost: 1500
@@ -298,7 +298,7 @@
   id: VibraphoneInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: vibraphone
   product: VibraphoneInstrument
   cost: 1500
@@ -309,7 +309,7 @@
   id: MarimbaInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: marimba
   product: MarimbaInstrument
   cost: 1500
@@ -320,7 +320,7 @@
   id: TubaInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: tuba
   product: TubaInstrument
   cost: 1500
@@ -331,7 +331,7 @@
   id: HarpInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: harp
   product: HarpInstrument
   cost: 1500
@@ -342,7 +342,7 @@
   id: TimpaniInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: timpani
   product: TimpaniInstrument
   cost: 1500
@@ -353,7 +353,7 @@
   id: TaikoInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: taiko
   product: TaikoInstrument
   cost: 1500
@@ -364,7 +364,7 @@
   id: ContrabassInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: contrabass
   product: ContrabassInstrument
   cost: 1500
@@ -375,7 +375,7 @@
   id: MinimoogInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: minimoog
   product: MinimoogInstrument
   cost: 1500
@@ -386,7 +386,7 @@
   id: TomDrumsInstrument
   abstract: true # Frontier - Moved to AutoTune
   icon:
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: /Objects/Fun/Instruments/structureinstruments.rsi
     state: toms
   product: TomDrumsInstrument
   cost: 1500

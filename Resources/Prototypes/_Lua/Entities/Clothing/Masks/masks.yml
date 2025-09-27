@@ -9,9 +9,9 @@
   description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Mask/redneckgaiter.rsi
+    sprite: /_Lua/Clothing/Mask/redneckgaiter.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Mask/redneckgaiter.rsi
+    sprite: /_Lua/Clothing/Mask/redneckgaiter.rsi
   - type: IdentityBlocker
   - type: Tag
     tags:

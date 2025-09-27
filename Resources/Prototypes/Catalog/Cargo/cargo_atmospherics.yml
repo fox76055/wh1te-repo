@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: AtmosphericsAir
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: air # Frontier grey<air
   product: AirCanister
   cost: 1100 # Frontier: 600<1100
@@ -11,7 +11,7 @@
 - type: cargoProduct
   id: AtmosphericsOxygen
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: oxygen # Frontier blue<oxygen
   product: OxygenCanister
   cost: 1100 # Frontier: 600<1100
@@ -22,7 +22,7 @@
   id: AtmosphericsLiquidOxygen
   abstract: true # Frontier
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: oxygen_liquid # Frontier blue<oxygen_liquid
   product: LiquidOxygenCanister
   cost: 1000
@@ -32,7 +32,7 @@
 - type: cargoProduct
   id: AtmosphericsNitrogen
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen # Frontier red<nitrogen
   product: NitrogenCanister
   cost: 1100 # Frontier: 500<1100
@@ -43,7 +43,7 @@
   id: AtmosphericsLiquidNitrogen
   abstract: true # Frontier
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen_liquid # Frontier red<nitrogen_liquid
   product: LiquidNitrogenCanister
   cost: 1000
@@ -54,7 +54,7 @@
   id: AtmosphericsCarbonDioxide
   abstract: true # Frontier
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon # Frontier black<carbon
   product: CarbonDioxideCanister
   cost: 670 # even though it's poisonous, it comes locked and only damages you slowly even with high amounts (tested)
@@ -65,7 +65,7 @@
   id: AtmosphericsLiquidCarbonDioxide
   abstract: true # Frontier
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon_liquid # Frontier black<carbon_liquid
   product: LiquidCarbonDioxideCanister
   cost: 1800 # much less deadly than the plasma can (this has been tested) even though this is cold+poison
@@ -75,7 +75,7 @@
 - type: cargoProduct
   id: AtmosphericsStorage
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: storage # Frontier yellow<storage
   product: StorageCanister
   cost: 1000 # No gases in it so it's cheaper # Frontier: 210<1000
@@ -85,7 +85,7 @@
 #- type: cargoProduct
 #  id: AtmosphericsWaterVapor
 #  icon:
-#    sprite: Structures/Storage/canister.rsi
+#    sprite: /Structures/Storage/canister.rsi
 #    state: water_vapor
 #  product: WaterVaporCanister
 #  cost: 2600
@@ -96,7 +96,7 @@
   id: AtmosphericsPlasma
   abstract: true # Frontier
   icon:
-    sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
+    sprite: /_NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: plasma # Frontier orange<plasma
   product: PlasmaCanister
   cost: 4200 # for reference, bagel's 3x1 roundstart plasma chamber contains ~16kmol for free, this is $4.2k for 2769 mol
@@ -106,7 +106,7 @@
 #- type: cargoProduct
 #  id: AtmosphericsTritium
 #  icon:
-#    sprite: Structures/Storage/canister.rsi
+#    sprite: /Structures/Storage/canister.rsi
 #    state: green
 #  product: TritiumCanister
 #  cost: 15500

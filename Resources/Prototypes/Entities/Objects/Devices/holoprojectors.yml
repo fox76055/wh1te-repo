@@ -19,7 +19,7 @@
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Sprite
-    sprite: Objects/Devices/Holoprojectors/custodial.rsi
+    sprite: /Objects/Devices/Holoprojectors/custodial.rsi
     state: icon
   - type: Tag
     tags:
@@ -62,7 +62,7 @@
     signProto: HoloFan
     chargeUse: 120
   - type: Sprite
-    sprite: Objects/Devices/Holoprojectors/atmos.rsi
+    sprite: /Objects/Devices/Holoprojectors/atmos.rsi
     state: icon
   - type: Tag
     tags:
@@ -109,7 +109,7 @@
       signProto: HolosignForcefield
       chargeUse: 120
     - type: Sprite
-      sprite: Objects/Devices/Holoprojectors/field.rsi
+      sprite: /Objects/Devices/Holoprojectors/field.rsi
       state: icon
     - type: Tag
       tags:
@@ -137,7 +137,7 @@
       signProto: HolosignSecurity
       chargeUse: 90
     - type: Sprite
-      sprite: Objects/Devices/Holoprojectors/security.rsi
+      sprite: /Objects/Devices/Holoprojectors/security.rsi
       state: icon
     - type: Tag
       tags:

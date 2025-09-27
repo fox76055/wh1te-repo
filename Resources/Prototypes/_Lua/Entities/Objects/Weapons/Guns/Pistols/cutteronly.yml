@@ -19,7 +19,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Guns/Pistols/plasma_cutter.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Pistols/plasma_cutter.rsi
     state: icon
     layers:
     - state: base
@@ -28,7 +28,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Lua/Objects/Weapons/Guns/Pistols/plasma_cutter.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Pistols/plasma_cutter.rsi
   - type: Gun
     fireRate: 1.6
     selectedMode: SemiAuto
@@ -64,7 +64,7 @@
       - Energy
   - type: Sprite
     noRot: false
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/bullet_hit.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/bullet_hit.rsi
     layers:
     - state: impact_bullet
   - type: StaminaDamageOnCollide

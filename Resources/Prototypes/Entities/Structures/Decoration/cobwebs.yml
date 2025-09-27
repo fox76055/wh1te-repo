@@ -9,11 +9,11 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Decoration/cobweb.rsi
+    sprite: /Structures/Decoration/cobweb.rsi
     state: cobweb1
     drawdepth: OverMobs #We want this to appear below doors but above mobs
   - type: Icon
-    sprite: Structures/Decoration/cobweb.rsi
+    sprite: /Structures/Decoration/cobweb.rsi
     state: cobweb1
   - type: Transform
     anchored: true
@@ -34,8 +34,8 @@
   parent: Cobweb1
   components:
   - type: Sprite
-    sprite: Structures/Decoration/cobweb.rsi
+    sprite: /Structures/Decoration/cobweb.rsi
     state: cobweb2
   - type: Icon
-    sprite: Structures/Decoration/cobweb.rsi
+    sprite: /Structures/Decoration/cobweb.rsi
     state: cobweb2

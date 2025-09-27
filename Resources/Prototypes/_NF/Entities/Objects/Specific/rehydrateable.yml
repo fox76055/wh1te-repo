@@ -39,7 +39,7 @@
     possibleSpawns:
     - MobShark
   - type: Sprite
-    sprite: _NF/Objects/Fun/sharkminnow.rsi
+    sprite: /_NF/Objects/Fun/sharkminnow.rsi
     state: sharkminnowplush
   - type: Item
     heldPrefix: sharkminnowplush

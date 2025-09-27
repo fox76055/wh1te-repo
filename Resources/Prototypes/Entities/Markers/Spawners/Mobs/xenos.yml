@@ -7,7 +7,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/burrower.rsi
+    - sprite: /Mobs/Aliens/Xenos/burrower.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner
@@ -23,7 +23,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/drone.rsi
+    - sprite: /Mobs/Aliens/Xenos/drone.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner
@@ -39,7 +39,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/praetorian.rsi
+    - sprite: /Mobs/Aliens/Xenos/praetorian.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner
@@ -55,7 +55,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/queen.rsi
+    - sprite: /Mobs/Aliens/Xenos/queen.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner
@@ -71,7 +71,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/ravager.rsi
+    - sprite: /Mobs/Aliens/Xenos/ravager.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner
@@ -87,7 +87,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/runner.rsi
+    - sprite: /Mobs/Aliens/Xenos/runner.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner
@@ -103,7 +103,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/spitter.rsi
+    - sprite: /Mobs/Aliens/Xenos/spitter.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner

@@ -8,10 +8,10 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_bronze_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_bronze_badge.rsi
     layers: []
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_bronze_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_bronze_badge.rsi
 
 - type: entity
   parent: ClothingNeckNfsdBadge
@@ -26,9 +26,9 @@
   name: NFSD deputy badge
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
     
 - type: entity
   parent: ClothingNeckNfsdBadge
@@ -37,9 +37,9 @@
   name: NFSD brigmedic badge
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_silvercross_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_silvercross_badge.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_silvercross_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_silvercross_badge.rsi
 
 - type: entity
   parent: ClothingNeckNfsdBadge
@@ -48,9 +48,9 @@
   name: NFSD detective badge
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
 
 - type: entity
   parent: ClothingNeckNfsdBadge
@@ -59,9 +59,9 @@
   name: NFSD sergeant badge
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
 
 - type: entity
   parent: ClothingNeckNfsdBadge
@@ -70,9 +70,9 @@
   name: NFSD bailiff badge
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
 
 - type: entity
   parent: ClothingNeckNfsdBadge
@@ -81,9 +81,9 @@
   name: NFSD sheriff badge
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_star_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_star_badge.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Scarfs/nfsd_star_badge.rsi
+    sprite: /_NF/Clothing/Neck/Scarfs/nfsd_star_badge.rsi
   - type: EmbeddableProjectile # pointy
 
 - type: entity
@@ -93,9 +93,9 @@
   description: A badge for grade 4 paperwork wizards affiliated with the NFSD.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/palbadge.rsi
+    sprite: /_NF/Clothing/Neck/Misc/palbadge.rsi
     scale: 0.5, 0.5
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/palbadge.rsi
+    sprite: /_NF/Clothing/Neck/Misc/palbadge.rsi
   - type: TypingIndicatorClothing
     proto: pal

@@ -27,7 +27,7 @@
     - DinosaursNF
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/anki.rsi
+    sprite: /_NF/Mobs/Dinosaurs/anki.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatChicken
@@ -96,7 +96,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/compy.rsi
+    sprite: /_NF/Mobs/Dinosaurs/compy.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: compy
@@ -134,7 +134,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/dilo.rsi
+    sprite: /_NF/Mobs/Dinosaurs/dilo.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: dilo
@@ -169,7 +169,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/raptor.rsi
+    sprite: /_NF/Mobs/Dinosaurs/raptor.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: raptor
@@ -209,7 +209,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/para.rsi
+    sprite: /_NF/Mobs/Dinosaurs/para.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: para
@@ -251,7 +251,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/kentro.rsi
+    sprite: /_NF/Mobs/Dinosaurs/kentro.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: kentro
@@ -293,7 +293,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/trike.rsi
+    sprite: /_NF/Mobs/Dinosaurs/trike.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: trike
@@ -335,7 +335,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/anki.rsi
+    sprite: /_NF/Mobs/Dinosaurs/anki.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: anki
@@ -375,7 +375,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/spino.rsi
+    sprite: /_NF/Mobs/Dinosaurs/spino.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: spino
@@ -417,7 +417,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/stego.rsi
+    sprite: /_NF/Mobs/Dinosaurs/stego.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: stego
@@ -460,7 +460,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Dinosaurs/trex.rsi
+    sprite: /_NF/Mobs/Dinosaurs/trex.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: trex
@@ -536,7 +536,7 @@
   description: "Emits a powerful roar, intimidating and stunning nearby foe. [color=yellow]40 second cooldown.[/color]"
   components:
   - type: Action
-    icon: { sprite: _NF/Effects/sonic_wave.rsi, state: icon }
+    icon: { sprite: /_NF/Effects/sonic_wave.rsi, state: icon }
     iconColor: "#0099FF"
     priority: 2
     itemIconStyle: BigAction

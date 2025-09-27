@@ -8,7 +8,7 @@
           steps:
             - tag: Handcuffs
               icon:
-                sprite: Objects/Misc/cablecuffs.rsi
+                sprite: /Objects/Misc/cablecuffs.rsi
                 state: cuff
                 color: red
               name: construction-graph-tag-cuffs

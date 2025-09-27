@@ -10,9 +10,9 @@
   description: Капюшон, чтобы держать голову в тепле.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hoods/Coat/pathologist.rsi
+    sprite: /_Lua/Clothing/Head/Hoods/Coat/pathologist.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hoods/Coat/pathologist.rsi
+    sprite: /_Lua/Clothing/Head/Hoods/Coat/pathologist.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -21,9 +21,9 @@
   description: Чёрная шапочка, которая не дает вашим волосам щекотать внутренности трупов.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hats/pathologist.rsi
+    sprite: /_Lua/Clothing/Head/Hats/pathologist.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hats/pathologist.rsi
+    sprite: /_Lua/Clothing/Head/Hats/pathologist.rsi
   - type: Tag
     tags:
     - ClothMade

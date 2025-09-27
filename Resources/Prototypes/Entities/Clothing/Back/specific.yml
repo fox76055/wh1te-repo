@@ -8,7 +8,7 @@
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
-      sprite: Clothing/Back/Backpacks/backpack.rsi
+      sprite: /Clothing/Back/Backpacks/backpack.rsi
     - type: ChameleonClothing
       slot: [back]
       default: NFClothingBackpack # Frontier: ClothingBackpack<NFClothingBackpack
@@ -30,13 +30,13 @@
     - NozzleBackTank
     - WhitelistChameleon
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/waterbackpack.rsi
+    sprite: /Clothing/Back/Backpacks/waterbackpack.rsi
     state: icon
   - type: Item
     size: Ginormous
   - type: Clothing
     slots: BACK
-    sprite: Clothing/Back/Backpacks/waterbackpack.rsi
+    sprite: /Clothing/Back/Backpacks/waterbackpack.rsi
   - type: ItemSlots
     slots:
       item:

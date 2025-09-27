@@ -5,7 +5,7 @@
   description: Your mind begins to bubble and ooze as it tries to comprehend what it sees.
   components:
   - type: Sprite
-    sprite: Mobs/Demons/narsie.rsi
+    sprite: /Mobs/Demons/narsie.rsi
     drawdepth: Ghosts
     scale: 2.0,2.0
     layers:

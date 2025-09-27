@@ -7,7 +7,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: _NF/Mobs/Aliens/flesh.rsi
+    - sprite: /_NF/Mobs/Aliens/flesh.rsi
       state: lover
     - state: ai
   - type: RandomSpawner
@@ -35,7 +35,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: _NF/Mobs/Aliens/flesh.rsi
+    - sprite: /_NF/Mobs/Aliens/flesh.rsi
       state: lover
     - state: ai
   - type: RandomSpawner

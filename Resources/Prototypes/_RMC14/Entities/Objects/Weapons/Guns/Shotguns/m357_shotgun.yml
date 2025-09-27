@@ -5,7 +5,7 @@
   description: A double barrel shotgun produced by Aegis. Archaic, sturdy, affordable. Only holds two 12g shells at a time.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Shotguns/doublebarrel.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Shotguns/doublebarrel.rsi
   - type: Gun
     shotsPerBurst: 2
   - type: BallisticAmmoProvider

@@ -10,14 +10,14 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Weapons/kirawa.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Weapons/kirawa.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Weapons/kirawa.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Weapons/kirawa.rsi
   - type: Gun
     fireRate: 3
     selectedMode: SemiAuto
@@ -39,7 +39,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.3
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Tools/guncaseshort.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Tools/guncaseshort.rsi
     layers:
     - map: [ base ]
       state: icon
@@ -53,7 +53,7 @@
     size: Normal
     shape:
     - 0,0,1,1
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Tools/guncaseshort.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Tools/guncaseshort.rsi
   - type: Storage
     maxItemSize: Normal
     grid:

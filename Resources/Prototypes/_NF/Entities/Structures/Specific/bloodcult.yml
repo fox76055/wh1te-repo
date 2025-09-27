@@ -6,7 +6,7 @@
   description: A vile chamber filled with blood. Seems to hold more than it's volume.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/bloodcollector.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/bloodcollector.rsi
     layers:
     - state: blood_collector
     - state: unshaded
@@ -71,9 +71,9 @@
     tags:
       - Wall
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/wall.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/wall.rsi
   - type: Icon
-    sprite: _NF/Structures/Specific/BloodCult/wall.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/wall.rsi
   - type: IconSmooth
     key: walls
     base: cult
@@ -96,12 +96,12 @@
       - Window
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Specific/BloodCult/glowingfloor.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/glowingfloor.rsi
     layers:
     - state: wallglow
       #shader: unshaded
   - type: Icon
-    sprite: _NF/Structures/Specific/BloodCult/glowingfloor.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/glowingfloor.rsi
     state: wallglow
     #shader: unshaded
   - type: Physics
@@ -125,7 +125,7 @@
   suffix: Blood Cult
   components:
   - type: Sprite
-    sprite: _Lua/Structures/Doors/Airlocks/Glass/glass_blood_cult_airlock.rsi #Lua new door
+    sprite: /_Lua/Structures/Doors/Airlocks/Glass/glass_blood_cult_airlock.rsi #Lua new door
   - type: Fixtures
     fixtures:
       fix1:
@@ -145,7 +145,7 @@
   parent: BaseRune
   components:
     - type: Sprite
-      sprite: _NF/Structures/Specific/BloodCult/glowingfloor.rsi
+      sprite: /_NF/Structures/Specific/BloodCult/glowingfloor.rsi
       layers:
       - state: floorglow
         shader: unshaded
@@ -156,7 +156,7 @@
   parent: FlashRuneTimer
   components:
     - type: Sprite
-      sprite: _NF/Structures/Specific/BloodCult/props.rsi
+      sprite: /_NF/Structures/Specific/BloodCult/props.rsi
       layers:
       - state: prop-6
 
@@ -167,12 +167,12 @@
   name: blood cult gravity generator
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/gravity_generator.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/gravity_generator.rsi
     snapCardinals: true
     layers:
       - state: on
         map: ["enum.GravityGeneratorVisualLayers.Base"]
-      - sprite: _NF/Structures/Specific/BloodCult/gravity_generator_core.rsi
+      - sprite: /_NF/Structures/Specific/BloodCult/gravity_generator_core.rsi
         state: activated
         shader: unshaded
         map: ["enum.GravityGeneratorVisualLayers.Core"]
@@ -193,7 +193,7 @@
   parent: AlwaysPoweredWallLight
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/light.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/light.rsi
     drawdepth: WallMountedItems
     layers:
     - map: ["enum.PoweredLightLayers.Base"]
@@ -217,7 +217,7 @@
   description: Huh, I wonder what this thing is and what does it do.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/props.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/props.rsi
     layers:
     - state: prop-1
     - state: unshadedprop-1
@@ -230,7 +230,7 @@
   description: A forge for weapon and armor production.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/forge.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/forge.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -262,7 +262,7 @@
   description: An occult shrine for imbuing objects with vile energies.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/props.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/props.rsi
     layers:
     - state: prop-3
     - state: unshadedprop-3
@@ -275,7 +275,7 @@
   description: An occult workbench with handy drawers. There is a severed hand in one.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/props.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/props.rsi
     layers:
     - state: prop-4
     - state: unshaded-0
@@ -288,7 +288,7 @@
   description: Huh, I wonder what this thing is and what does it do.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/props.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/props.rsi
     layers:
     - state: prop-5
     - state: unshaded-0
@@ -301,7 +301,7 @@
   description: Huh, I wonder what this thing is and what does it do.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/BloodCult/props.rsi
+    sprite: /_NF/Structures/Specific/BloodCult/props.rsi
     layers:
     - state: prop-7
     - state: unshaded-0

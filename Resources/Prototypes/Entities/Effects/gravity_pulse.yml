@@ -10,7 +10,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Effects/gravityPulse.rsi
+      sprite: /Effects/gravityPulse.rsi
       state: gravityPulse
   - type: EffectVisuals
   - type: Tag

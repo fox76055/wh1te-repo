@@ -13,10 +13,10 @@
     - Trade
     defaultChannel: Trade
   - type: Item
-    sprite: _Lua/Objects/Devices/encryption_keys.rsi
+    sprite: /_Lua/Objects/Devices/encryption_keys.rsi
     size: Tiny
   - type: Sprite
-    sprite: _Lua/Objects/Devices/encryption_keys.rsi
+    sprite: /_Lua/Objects/Devices/encryption_keys.rsi
     layers:
     - state: crypt_gray
     - state: trade_label
@@ -32,10 +32,10 @@
     - Mercenary
     defaultChannel: Mercenary
   - type: Item
-    sprite: _Lua/encryption_keys.rsi
+    sprite: /_Lua/encryption_keys.rsi
     size: Tiny
   - type: Sprite
-    sprite: _Lua/encryption_keys.rsi
+    sprite: /_Lua/encryption_keys.rsi
     layers:
     - state: crypt_gray
     - state: merc_label
@@ -82,7 +82,7 @@
     - Typan
     defaultChannel: Typan
   - type: Sprite
-    sprite: _Lua/Objects/Devices/Encryption_keys/typankey.rsi
+    sprite: /_Lua/Objects/Devices/Encryption_keys/typankey.rsi
     layers:
     - state: crypt_typ
 

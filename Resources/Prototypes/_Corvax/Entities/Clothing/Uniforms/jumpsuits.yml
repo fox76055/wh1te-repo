@@ -5,9 +5,9 @@
   description: Flare cut trousers and a dirty shirt that might have been classy before someone took a piss in the armpits. It's the dress of a superstar.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/disco.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/disco.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/disco.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/disco.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,9 +16,9 @@
   description: A crisp and well-pressed suit; professional, comfortable and curiously authoritative.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/kim.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/kim.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/kim.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/kim.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -27,9 +27,9 @@
   description: Special Operations Officer uniform, nothing like that. Although... If you have time to read this, it's too late...
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/centcom_officer_black.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/centcom_officer_black.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/centcom_officer_black.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/centcom_officer_black.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -38,6 +38,6 @@
   description: A uniform worn by those with the rank Admiral in the Nanotrasen Navy.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
+      sprite: /Corvax/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi

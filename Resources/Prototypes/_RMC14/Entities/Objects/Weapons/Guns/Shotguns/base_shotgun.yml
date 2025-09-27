@@ -10,7 +10,7 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
     slots:
     - Back
     - SuitStorage
@@ -61,7 +61,7 @@
   id: RMCBaseBreechloader
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
     layers:
     - state: base
       # map: [ "enum.BreechVisuals.Open" ]
@@ -91,7 +91,7 @@
   description: A handful of rounds to reload on the go.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
     layers:
     - state: buckshot_shell_1
   - type: Item

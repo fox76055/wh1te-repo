@@ -9,7 +9,7 @@
   suffix: NPC Loot
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#EF8100"
@@ -18,7 +18,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK

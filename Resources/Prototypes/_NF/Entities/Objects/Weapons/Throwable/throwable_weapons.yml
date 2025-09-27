@@ -46,7 +46,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Darts/dart_red.rsi
+    sprite: /Objects/Fun/Darts/dart_red.rsi
     state: icon
   - type: SolutionContainerManager
     solutions:
@@ -78,7 +78,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Aliens/flesh.rsi
+    sprite: /_NF/Mobs/Aliens/flesh.rsi
     state: spike
 
 - type: entity
@@ -90,7 +90,7 @@
   - type: EmbeddableProjectile
     offset: -0.15,0.0
   - type: Sprite
-    sprite: _NF/Mobs/Aliens/flesh.rsi
+    sprite: /_NF/Mobs/Aliens/flesh.rsi
     layers:
     - state: spike
     - state: spikeSolution1
@@ -118,7 +118,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Aliens/flesh.rsi
+    sprite: /_NF/Mobs/Aliens/flesh.rsi
     state: spike
   - type: CartridgeAmmo
     deleteOnSpawn: true

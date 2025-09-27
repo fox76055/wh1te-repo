@@ -6,7 +6,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
-    icon: _Lua/Interface/Actions/action_hardsuit_speedbuff.png
+    icon: /_Lua/Interface/Actions/action_hardsuit_speedbuff.png
     priority: -20
     useDelay: 10
   - type: InstantAction

@@ -24,7 +24,7 @@
           - MachineLayer
         hard: false
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Turrets/sentry_turret.rsi
+    sprite: /Objects/Weapons/Guns/Turrets/sentry_turret.rsi
     drawdepth: HighFloorObjects
     granularLayersRendering: true
     layers:

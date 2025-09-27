@@ -58,7 +58,7 @@
       needsPower: true
       powerLoad: 0
     - type: Sprite
-      sprite: _Mono/Structures/ShuttleComponents/shield.rsi
+      sprite: /_Mono/Structures/ShuttleComponents/shield.rsi
       snapCardinals: true
       layers:
       - state: control

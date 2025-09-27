@@ -5,9 +5,9 @@
   description: A webbing created by Arcadia Industries. Seems very capable of fitting many items.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/arcadia.rsi
+    sprite: /_NF/Clothing/Belt/arcadia.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Belt/arcadia.rsi
+    sprite: /_NF/Clothing/Belt/arcadia.rsi
 
 - type: entity
   parent: NFClothingBeltStorageBase
@@ -16,9 +16,9 @@
   description: Who knew that scarves can be also tied around your waist?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/chaplain_sash.rsi
+    sprite: /_NF/Clothing/Belt/chaplain_sash.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Belt/chaplain_sash.rsi
+    sprite: /_NF/Clothing/Belt/chaplain_sash.rsi
   - type: ItemMapper
     mapLayers:
       book:
@@ -48,7 +48,7 @@
         whitelist:
           tags:
           - Crucifix
-    sprite: _NF/Clothing/Belt/chaplain_sash_overlay.rsi
+    sprite: /_NF/Clothing/Belt/chaplain_sash_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -58,9 +58,9 @@
   description: A webbing designed for someone seating a lot.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/pilot.rsi
+    sprite: /_NF/Clothing/Belt/pilot.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Belt/pilot.rsi
+    sprite: /_NF/Clothing/Belt/pilot.rsi
 
 - type: entity
   parent: [ BaseC2ContrabandUnredeemable, ClothingBeltAssault ]
@@ -69,9 +69,9 @@
   description: A tactical assault belt.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/nfsd_belt.rsi
+    sprite: /_NF/Clothing/Belt/nfsd_belt.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Belt/nfsd_belt.rsi
+    sprite: /_NF/Clothing/Belt/nfsd_belt.rsi
 
 - type: entity
   parent: [ BaseC2ContrabandUnredeemable, ClothingBeltSecurityWebbing ]
@@ -80,9 +80,9 @@
   description: A tactical assault webbing.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/nfsd_webbing.rsi
+    sprite: /_NF/Clothing/Belt/nfsd_webbing.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Belt/nfsd_webbing.rsi
+    sprite: /_NF/Clothing/Belt/nfsd_webbing.rsi
   - type: CatWearable
 
 # Ported from Nyano
@@ -99,6 +99,6 @@
         Blunt: 1
         Slash: 1
   - type: Sprite
-    sprite: _NF/Clothing/Belt/martial_black.rsi
+    sprite: /_NF/Clothing/Belt/martial_black.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Belt/martial_black.rsi
+    sprite: /_NF/Clothing/Belt/martial_black.rsi

@@ -5,9 +5,9 @@
   description: How did you even get this? did you make it yourself?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Cloaks/janitor.rsi
+    sprite: /_NF/Clothing/Neck/Cloaks/janitor.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Cloaks/janitor.rsi
+    sprite: /_NF/Clothing/Neck/Cloaks/janitor.rsi
   - type: ItemSlots
     slots:
       item:
@@ -23,7 +23,7 @@
         whitelist:
           tags:
             - Plunger
-    sprite: _NF/Clothing/Neck/Cloaks/janitor.rsi
+    sprite: /_NF/Clothing/Neck/Cloaks/janitor.rsi
   - type: Appearance
 
 - type: entity
@@ -43,9 +43,9 @@
   description: Shootouts with nukies are just another Tuesday for this Sheriff. This mantle is a symbol of commitment to the station.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Mantles/nfsdsheriff.rsi
+    sprite: /_NF/Clothing/Neck/Mantles/nfsdsheriff.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Mantles/nfsdsheriff.rsi
+    sprite: /_NF/Clothing/Neck/Mantles/nfsdsheriff.rsi
     
 - type: entity
   parent: ClothingNeckMantleHOP
@@ -54,9 +54,9 @@
   description: This mantle protects the station representative's neck and shoulders from vicious papercuts. This mantle is a symbol of Central Command's trust.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Mantles/sr.rsi
+    sprite: /_NF/Clothing/Neck/Mantles/sr.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Mantles/sr.rsi
+    sprite: /_NF/Clothing/Neck/Mantles/sr.rsi
 
 - type: entity
   id: ClothingNeckMantleBH
@@ -65,6 +65,6 @@
   description: "I can bring you in warm or I can bring you in cold. Or you can outbid the bounty."
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Mantles/bounty_hunter_mantle.rsi
+    sprite: /_NF/Clothing/Neck/Mantles/bounty_hunter_mantle.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Mantles/bounty_hunter_mantle.rsi
+    sprite: /_NF/Clothing/Neck/Mantles/bounty_hunter_mantle.rsi

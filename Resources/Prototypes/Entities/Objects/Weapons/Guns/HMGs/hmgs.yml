@@ -29,11 +29,11 @@
   description: Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses .10 rifle ammo. Illegal for use in the Frontier sector. # Frontier: edit description
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
+    sprite: /Objects/Weapons/Guns/HMGs/minigun.rsi
     layers:
     - state: icon
   - type: Item
-    sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
+    sprite: /Objects/Weapons/Guns/HMGs/minigun.rsi
   - type: Gun
     fireRate: 15
     soundGunshot:

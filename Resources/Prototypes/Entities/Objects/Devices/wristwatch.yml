@@ -5,17 +5,17 @@
   description: A cheap watch for telling time. It rattles when you shake it. # Frontier: edited description.
   components:
   - type: Sprite
-    sprite: Objects/Devices/wristwatch.rsi
+    sprite: /Objects/Devices/wristwatch.rsi
     layers:
     - state: wristwatch
     - map: [ "enum.ClockVisualLayers.MinuteHand"]
     - map: [ "enum.ClockVisualLayers.HourHand"]
   - type: Clock
   - type: Item
-    sprite: Objects/Devices/wristwatch.rsi
+    sprite: /Objects/Devices/wristwatch.rsi
     size: Small
   - type: Clothing
-    sprite: Objects/Devices/wristwatch.rsi
+    sprite: /Objects/Devices/wristwatch.rsi
     slots:
     - gloves
   - type: Appearance
@@ -49,15 +49,15 @@
   description: A fancy watch worth more than your kidney. It's heavy, so it must be real gold, right? # Frontier: edited description
   components:
   - type: Sprite
-    sprite: Objects/Devices/goldwatch.rsi
+    sprite: /Objects/Devices/goldwatch.rsi
     layers:
     - state: goldwatch
     - map: [ "enum.ClockVisualLayers.MinuteHand"]
     - map: [ "enum.ClockVisualLayers.HourHand"]
   - type: Item
-    sprite: Objects/Devices/goldwatch.rsi
+    sprite: /Objects/Devices/goldwatch.rsi
   - type: Clothing
-    sprite: Objects/Devices/goldwatch.rsi
+    sprite: /Objects/Devices/goldwatch.rsi
   - type: StaticPrice
     price: 500 #if you ever increase the price of kidneys, increase this too.
   - type: PhysicalComposition

@@ -10,7 +10,7 @@
     - NonEnergy
   - type: Sprite
     noRot: false
-    sprite: Corvax/Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: /Corvax/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
       - state: magmabolt
         shader: unshaded
@@ -37,7 +37,7 @@
   id: WeaponMagmiteCrusher
   components:
   - type: Sprite
-    sprite: Corvax/Objects/Weapons/Melee/magmitecrusher.rsi
+    sprite: /Corvax/Objects/Weapons/Melee/magmitecrusher.rsi
     layers:
     - state: icon
     - state: icon-uncharged
@@ -78,7 +78,7 @@
   description: An early design of the proto-kinetic accelerator, in glaive form.
   components:
   - type: Sprite
-    sprite: Corvax/Objects/Weapons/Melee/magmitecrusher_glaive.rsi
+    sprite: /Corvax/Objects/Weapons/Melee/magmitecrusher_glaive.rsi
   - type: UseDelay
     delay: 1.9
   - type: LeechOnMarker

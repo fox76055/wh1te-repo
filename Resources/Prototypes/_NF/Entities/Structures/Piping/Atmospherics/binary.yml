@@ -148,7 +148,7 @@
     resistance: 3
   - type: Occluder
   - type: Sprite
-    sprite: _NF/Structures/Piping/Atmospherics/gaslock.rsi
+    sprite: /_NF/Structures/Piping/Atmospherics/gaslock.rsi
     drawdepth: Doors
     layers:
     - state: closed
@@ -200,7 +200,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: _NF/Structures/Piping/Atmospherics/portable_gaslock.rsi
+    sprite: /_NF/Structures/Piping/Atmospherics/portable_gaslock.rsi
     drawdepth: Doors
     layers:
     - state: base

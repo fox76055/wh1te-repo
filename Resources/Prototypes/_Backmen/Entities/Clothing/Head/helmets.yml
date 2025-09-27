@@ -5,9 +5,9 @@
   description: Модифицированный шлем службы безопасности, предназначенный для нужд охраны станций Центрального командования.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/Head/Helmets/centcom_sec_helmet.rsi
+    sprite: /Backmen/Clothing/Head/Helmets/centcom_sec_helmet.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/Head/Helmets/centcom_sec_helmet.rsi
+    sprite: /Backmen/Clothing/Head/Helmets/centcom_sec_helmet.rsi
   - type: Armor
     modifiers:
       coefficients:

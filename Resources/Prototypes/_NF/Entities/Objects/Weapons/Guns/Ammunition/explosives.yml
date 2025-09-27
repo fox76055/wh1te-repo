@@ -14,7 +14,7 @@
     proto: NFBulletRocket
     deleteOnSpawn: true
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
     state: rpg
   - type: StaticPrice
     price: 20
@@ -47,7 +47,7 @@
     deleteOnSpawn: true
     proto: NFBulletRocketEmp
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
     state: rpg-emp
   - type: EmpDescription
     range: 2
@@ -167,7 +167,7 @@
     proto: NFBulletCannonBallEmp
     deleteOnSpawn: true
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/projectiles2.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Projectiles/projectiles2.rsi
     state: ball-emp
   - type: EmpDescription
     range: 4

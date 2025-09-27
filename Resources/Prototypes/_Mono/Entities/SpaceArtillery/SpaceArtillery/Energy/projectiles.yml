@@ -23,7 +23,7 @@
         Heat: 750 #350
         Ion: 600 #350
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/plasmashot.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/plasmashot.rsi
     layers:
     - state: plasmashot
   - type: Ammo
@@ -60,7 +60,7 @@
         Structural: 150
         Heat: 35
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/plasmashot.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/plasmashot.rsi
     layers:
     - state: plasmashot
     scale: 0.4, 0.4
@@ -94,7 +94,7 @@
         Heat: 15
         Ion: 375
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
   - type: Ammo
@@ -129,7 +129,7 @@
         Structural: 10000
         Heat: 10000
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/turbolaser_shot.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/turbolaser_shot.rsi
     layers:
     - state: turbolaser-shot
   - type: Ammo

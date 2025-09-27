@@ -7,5 +7,5 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Clothing/Head/Hats/wizardhat.rsi
+    - sprite: /Clothing/Head/Hats/wizardhat.rsi
       state: icon

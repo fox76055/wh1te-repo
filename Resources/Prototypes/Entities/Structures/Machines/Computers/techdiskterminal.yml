@@ -7,7 +7,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/tech_disk_printer.rsi
+    sprite: /Structures/Machines/tech_disk_printer.rsi
     layers:
     - map: ["computerLayerBody"]
       state: icon

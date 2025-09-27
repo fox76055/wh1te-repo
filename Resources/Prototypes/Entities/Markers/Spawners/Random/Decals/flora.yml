@@ -36,7 +36,7 @@
     layers:
     - state: green
     - state: decal
-    - sprite: Decals/Flora/flora_rocks.rsi
+    - sprite: /Decals/Flora/flora_rocks.rsi
       state: rock01
   - type: RandomDecalSpawner
     decals:
@@ -57,7 +57,7 @@
     layers:
     - state: green
     - state: decal
-    - sprite: Decals/basalt.rsi
+    - sprite: /Decals/basalt.rsi
       state: basalt1
   - type: RandomDecalSpawner
     decals:
@@ -80,7 +80,7 @@
     layers:
     - state: green
     - state: decal
-    - sprite: Decals/Flora/flora_bushes.rsi
+    - sprite: /Decals/Flora/flora_bushes.rsi
       state: busha1
   - type: RandomDecalSpawner
     decals:
@@ -105,7 +105,7 @@
     layers:
     - state: green
     - state: decal
-    - sprite: Decals/Flora/flora_flowers.rsi
+    - sprite: /Decals/Flora/flora_flowers.rsi
       state: flowersbr1
   - type: RandomDecalSpawner
     decals:
@@ -129,7 +129,7 @@
     layers:
     - state: green
     - state: decal
-    - sprite: Decals/Flora/flora_grass.rsi
+    - sprite: /Decals/Flora/flora_grass.rsi
       state: grassa1
   - type: RandomDecalSpawner
     decals:
@@ -153,7 +153,7 @@
     layers:
     - state: green
     - state: decal
-    - sprite: Decals/Flora/flora_grass.rsi
+    - sprite: /Decals/Flora/flora_grass.rsi
       state: grassc1
   - type: RandomDecalSpawner
     decals:
@@ -171,7 +171,7 @@
     layers:
     - state: green
     - state: decal
-    - sprite: Decals/Flora/flora_grass.rsi
+    - sprite: /Decals/Flora/flora_grass.rsi
       state: grassd1
   - type: RandomDecalSpawner
     decals:

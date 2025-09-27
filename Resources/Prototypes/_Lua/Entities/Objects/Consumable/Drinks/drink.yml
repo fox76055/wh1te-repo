@@ -54,9 +54,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Salo_2016.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Salo_2016.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Salo_2016.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Salo_2016.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -79,9 +79,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Netscape.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Netscape.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Netscape.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Netscape.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -104,9 +104,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Veergil.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Veergil.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Veergil.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Veergil.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -129,9 +129,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Mayski.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Mayski.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Mayski.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Mayski.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -154,9 +154,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/klifowo.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/klifowo.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/klifowo.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/klifowo.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -179,9 +179,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Arkanya.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Arkanya.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Arkanya.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Arkanya.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -204,9 +204,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/NickTesl.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/NickTesl.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/NickTesl.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/NickTesl.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -229,9 +229,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Gix.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Gix.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Gix.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Gix.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -254,9 +254,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/BrennNight.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/BrennNight.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/BrennNight.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/BrennNight.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -279,9 +279,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/Maxwell_Aska.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Maxwell_Aska.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/Maxwell_Aska.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/Maxwell_Aska.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -304,9 +304,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/FaustNetzach.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/FaustNetzach.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/FaustNetzach.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/FaustNetzach.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -329,9 +329,9 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/VanMin.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/VanMin.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/VanMin.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/VanMin.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -358,6 +358,6 @@
           Quantity: 1
   - type: Drink
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Drinks/NakiAraArc.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/NakiAraArc.rsi
   - type: Item
-    sprite: _Lua/Objects/Consumable/Drinks/NakiAraArc.rsi
+    sprite: /_Lua/Objects/Consumable/Drinks/NakiAraArc.rsi

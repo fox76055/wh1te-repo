@@ -158,7 +158,7 @@
       speedModifier: 1.5
       qualities:
         - Prying
-    - type: Prying # Open door from xeno.yml.
+    - type: Prying # Open door from /xeno.yml.
       pryPowered: true
       force: true
       speedModifier: 1.5

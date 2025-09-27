@@ -31,7 +31,7 @@
         layer:
         - TabletopMachineLayer
   - type: Sprite
-    sprite: Structures/Machines/grinder.rsi
+    sprite: /Structures/Machines/grinder.rsi
     drawdepth: LargeObjects
     snapCardinals: true
     offset: "0.0,0.4"
@@ -77,7 +77,7 @@
     solutionContainerId: output
     processMaterials: false # Frontier: fix material duplication
   - type: Sprite
-    sprite: Structures/Machines/recycling.rsi
+    sprite: /Structures/Machines/recycling.rsi
     layers:
       - state: grinder-b0
   - type: Machine

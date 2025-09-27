@@ -5,11 +5,11 @@
   description: A (probably stolen) SCAF suit painted red with white stripes. The armor feels degraded, but lighter.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
+    sprite: /_Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
+    sprite: /_Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000

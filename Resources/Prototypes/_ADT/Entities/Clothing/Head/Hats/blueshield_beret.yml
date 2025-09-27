@@ -5,6 +5,6 @@
   description: A corporate blue beret with a blueshield officer's rank emblem.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/blueshield_beret.rsi
+    sprite: /ADT/Clothing/Head/Hats/blueshield_beret.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/blueshield_beret.rsi
+    sprite: /ADT/Clothing/Head/Hats/blueshield_beret.rsi

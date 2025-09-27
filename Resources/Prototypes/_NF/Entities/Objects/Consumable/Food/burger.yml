@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_single.yml
 # Bun
 
 # Custom Burger Example
@@ -15,7 +15,7 @@
       - validhunting
   - type: Sprite
     scale: 0.8, 0.8
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: clurger
   - type: SolutionContainerManager
     solutions:
@@ -42,7 +42,7 @@
       - meaty
       - pink
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: rosy-mothroach
 
 - type: entity
@@ -52,7 +52,7 @@
   description: It's pretty... red?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plainred
 
 - type: entity
@@ -62,7 +62,7 @@
   description: It's pretty... orange?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plainorange
 
 - type: entity
@@ -72,7 +72,7 @@
   description: It's pretty... yellow?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plainyellow
 
 - type: entity
@@ -82,7 +82,7 @@
   description: It's pretty... green?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plaingreen
 
 - type: entity
@@ -92,7 +92,7 @@
   description: It's pretty... blue?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plainblue
 
 - type: entity
@@ -102,7 +102,7 @@
   description: It's pretty... purple?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plainpurple
 
 - type: entity
@@ -112,7 +112,7 @@
   description: It's pretty... black?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plainblack
 
 - type: entity
@@ -122,7 +122,7 @@
   description: It's pretty... white?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plainwhite
 
 - type: entity
@@ -137,7 +137,7 @@
     - bread
     - cheesy
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: cheesecotton
   - type: Food
     requiresSpecialDigestion: true
@@ -170,7 +170,7 @@
     - cotton
     - bread
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: plaincotton
   - type: Food
     requiresSpecialDigestion: true
@@ -201,7 +201,7 @@
       - cotton
       - bread
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/burger.rsi
+    sprite: /_NF/Objects/Consumable/Food/burger.rsi
     state: buncotton
   - type: Food
     requiresSpecialDigestion: true

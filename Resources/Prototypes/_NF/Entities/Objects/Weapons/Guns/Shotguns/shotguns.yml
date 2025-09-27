@@ -10,9 +10,9 @@
     An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/bulldog.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/bulldog.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/_Corvax/Weapons/Guns/Gunshots/shotgun_auto.ogg
@@ -34,13 +34,13 @@
     An immortal classic. A civilian grade shotgun.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
   - type: Item
     shape:
     - 0,0,3,0
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
   - type: BallisticAmmoProvider
     capacity: 2
   - type: Gun
@@ -59,13 +59,13 @@
     A premium semi-automatic shotgun, featuring an upgraded tube capacity.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Item
     shape:
     - 0,0,3,1
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
   - type: Gun
@@ -81,11 +81,11 @@
     An old yet faithful design, and a favorite among irregular forces on many worlds.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: Item
-    sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
     shape:
     - 0,0,4,0
   - type: BallisticAmmoProvider
@@ -106,11 +106,11 @@
     Groovy!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/sawn.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/sawn.rsi
   - type: Item
-    sprite: Objects/Weapons/Guns/Shotguns/sawn_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/sawn_inhands_64x.rsi
     size: Small
   - type: Gun
     soundGunshot:
@@ -139,9 +139,9 @@
     Looks unreliable, but legal.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
   - type: Item
     size: Small
   - type: BallisticAmmoProvider
@@ -169,13 +169,13 @@
     Deadly at close range, an illegal shotgun often found at the side of a pirate.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: Item
     shape:
     - 0,0,3,0
-    sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: BallisticAmmoProvider
     capacity: 1
   - type: NFWeaponDetails
@@ -189,11 +189,11 @@
     A shitty, but legal, hand-made shotgun. It can only hold one round in the chamber.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: Item
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun_inhands_64x.rsi
+    sprite: /Objects/Weapons/Guns/Shotguns/improvised_shotgun_inhands_64x.rsi
   - type: BallisticAmmoProvider
     capacity: 1
     proto: null

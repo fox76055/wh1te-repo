@@ -11,5 +11,5 @@
     - type: Anchorable
     - type: Rotatable
     - type: Sprite
-      sprite: Corvax/Structures/Furniture/chairs.rsi
+      sprite: /Corvax/Structures/Furniture/chairs.rsi
       state: carp

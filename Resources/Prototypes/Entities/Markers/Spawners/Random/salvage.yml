@@ -10,7 +10,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Structures/Storage/Crates/generic.rsi
+        - sprite: /Structures/Storage/Crates/generic.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:
@@ -48,7 +48,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Melee/crusher.rsi
+        - sprite: /Objects/Weapons/Melee/crusher.rsi
           state: icon
     - type: RandomSpawner
       prototypes:
@@ -68,7 +68,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Mobs/Aliens/Carps/space.rsi
+        - sprite: /Mobs/Aliens/Carps/space.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:
@@ -98,7 +98,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Mobs/Aliens/Xenos/spacetick.rsi
+        - sprite: /Mobs/Aliens/Xenos/spacetick.rsi
           state: icon
     - type: ConditionalSpawner
       prototypes:
@@ -113,7 +113,7 @@
     layers:
     - state: green
     - state: bear
-      sprite: Mobs/Animals/bear.rsi
+      sprite: /Mobs/Animals/bear.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobBearSpace # Frontier MobBearSpaceSalvage<NFMobBearSpace
@@ -151,7 +151,7 @@
     layers:
     - state: green
     - state: kangaroo-space
-      sprite: Mobs/Animals/kangaroo.rsi
+      sprite: /Mobs/Animals/kangaroo.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobKangarooSpace # Frontier MobKangarooSpaceSalvage<NFMobKangarooSpace
@@ -165,7 +165,7 @@
     layers:
     - state: green
     - state: spacespider
-      sprite: Mobs/Animals/spacespider.rsi
+      sprite: /Mobs/Animals/spacespider.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobSpiderSpace # Frontier MobSpiderSpaceSalvage<NFMobSpiderSpace
@@ -179,7 +179,7 @@
     layers:
       - state: green
       - state: spacecobra
-        sprite: Mobs/Animals/spacecobra.rsi
+        sprite: /Mobs/Animals/spacecobra.rsi
   - type: ConditionalSpawner
     prototypes:
     - NFMobCobraSpace # Frontier MobCobraSpaceSalvage<NFMobCobraSpace
@@ -194,7 +194,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Mobs/Aliens/flesh.rsi
+        - sprite: /Mobs/Aliens/flesh.rsi
           state: jared
     - type: RandomSpawner
       rarePrototypes:

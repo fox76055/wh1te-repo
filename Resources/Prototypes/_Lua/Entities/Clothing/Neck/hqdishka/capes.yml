@@ -9,7 +9,7 @@
   description: Нежно-розовый плащ с голубым кристаллом на спине.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/hqdishka/Neck/crystal.rsi
+    sprite: /_Lua/Clothing/hqdishka/Neck/crystal.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -18,7 +18,7 @@
   description: Плащ в неоновой расцветке.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/hqdishka/Neck/neon.rsi
+    sprite: /_Lua/Clothing/hqdishka/Neck/neon.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -27,7 +27,7 @@
   description: Плащ в лиловых тонах с сердцем на спине.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/hqdishka/Neck/violet.rsi
+    sprite: /_Lua/Clothing/hqdishka/Neck/violet.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -36,7 +36,7 @@
   description: На этом плаще изображена далёкая галактика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/hqdishka/Neck/galaxy.rsi
+    sprite: /_Lua/Clothing/hqdishka/Neck/galaxy.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -45,7 +45,7 @@
   description: На этом плаще изображена ярчайшая звезда ночного неба, видимая с Марса.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/hqdishka/Neck/sirius.rsi
+    sprite: /_Lua/Clothing/hqdishka/Neck/sirius.rsi
     
 - type: entity
   parent: ClothingNeckBase
@@ -54,7 +54,7 @@
   description: Пахнет сладкой фыркалкой.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/hqdishka/Neck/lua.rsi
+    sprite: /_Lua/Clothing/hqdishka/Neck/lua.rsi
     
 - type: entity
   parent: ClothingNeckBase
@@ -63,4 +63,4 @@
   description: На этом плаще изображено плазменное пламя.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/hqdishka/Neck/flame.rsi
+    sprite: /_Lua/Clothing/hqdishka/Neck/flame.rsi

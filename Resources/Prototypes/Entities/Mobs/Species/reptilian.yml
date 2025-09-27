@@ -19,7 +19,7 @@
     needsHands: false
   - type: Thirst
   - type: Icon
-    sprite: Mobs/Species/Reptilian/parts.rsi
+    sprite: /Mobs/Species/Reptilian/parts.rsi
     state: full
   - type: Body
     prototype: Reptilian
@@ -84,7 +84,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: /Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
   - type: ShortWhitelist # Frontier
@@ -116,7 +116,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: /Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
 
 #Weh

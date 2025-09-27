@@ -4,7 +4,7 @@
 #   name:  uplink-security-hardsuit-name
 #   description: uplink-security-hardsuit-desc
 #   productEntity: ClothingOuterHardsuitNfsdBronze
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 2
 #   categories:
@@ -20,7 +20,7 @@
 #   name:  uplink-security-hardsuit-patrol-name
 #   description: uplink-security-hardsuit-patrol-desc
 #   productEntity: ClothingOuterHardsuitNfsdSilver
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 2
 #   categories:
@@ -36,7 +36,7 @@
 #   name:  uplink-security-hardsuit-brigmedic-name
 #   description: uplink-security-hardsuit-brigmedic-desc
 #   productEntity: ClothingOuterHardsuitNfsdBrigmedic
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 2
 #   categories:
@@ -52,7 +52,7 @@
 #   name:  uplink-security-hardsuit-warden-name
 #   description: uplink-security-hardsuit-warden-desc
 #   productEntity: ClothingOuterHardsuitNfsdGold
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 3
 #   categories:
@@ -73,7 +73,7 @@
 #   name:  uplink-security-hardsuit-combat-name
 #   description: uplink-security-hardsuit-combat-desc
 #   productEntity: ClothingOuterHardsuitNfsdCombat
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 10
 #   categories:
@@ -89,7 +89,7 @@
 #   name:  uplink-security-hardsuit-commmand-name
 #   description: uplink-security-hardsuit-commmand-desc
 #   productEntity: ClothingOuterHardsuitNfsdCommand
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 10
 #   categories:
@@ -110,7 +110,7 @@
 #   name:  uplink-security-hardsuit-sheriff-name
 #   description: uplink-security-hardsuit-sheriff-desc
 #   productEntity: ClothingOuterHardsuitNfsdSheriff
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 3
 #   categories:
@@ -129,7 +129,7 @@
 #   name:  uplink-security-hardsuit-experimental-name
 #   description: uplink-security-hardsuit-experimental-desc
 #   productEntity: ClothingOuterHardsuitNfsdExperimental
-#   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 20
 #   categories:
@@ -149,7 +149,7 @@
   name:  uplink-security-mk58-name
   description: uplink-security-mk58-desc
   productEntity: NFWeaponPistolMk58
-  icon: { sprite: Objects/Weapons/Guns/Pistols/mk58.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 2
   categories:
@@ -165,7 +165,7 @@
   name:  uplink-security-disabler-name
   description: uplink-security-disabler-desc
   productEntity: NFWeaponEnergyPistolDisabler
-  icon: { sprite: Objects/Weapons/Guns/Battery/disabler.rsi, state: base }
+  icon: { sprite: /Objects/Weapons/Guns/Battery/disabler.rsi, state: base }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -181,7 +181,7 @@
   name:  uplink-security-stunbaton-name
   description: uplink-security-stunbaton-desc
   productEntity: Stunbaton
-  icon: { sprite: Objects/Weapons/Melee/stunbaton.rsi, state: stunbaton_off }
+  icon: { sprite: /Objects/Weapons/Melee/stunbaton.rsi, state: stunbaton_off }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -197,7 +197,7 @@
   name:  uplink-security-emitter-name
   description: uplink-security-emitter-desc
   productEntity: WeaponEmpEmitter
-  icon: { sprite: _NF/Objects/Weapons/Guns/Battery/emp.rsi, state: icon }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Battery/emp.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -213,7 +213,7 @@
   name:  uplink-security-enforcer-name
   description: uplink-security-enforcer-desc
   productEntity: NFWeaponShotgunEnforcer
-  icon: { sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/Shotguns/enforcer.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
   categories:
@@ -229,7 +229,7 @@
   name:  uplink-security-lecter-name
   description: uplink-security-lecter-desc
   productEntity: NFWeaponRifleAssaultLecter
-  icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
   categories:
@@ -245,7 +245,7 @@
   name:  uplink-security-vulcan-name
   description: uplink-security-vulcan-desc
   productEntity: NFWeaponRifleAssaultVulcan
-  icon: { sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi, state: icon }
+  icon: { sprite: /_DV/Objects/Weapons/Guns/Rifles/vulcan.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 4
   categories:
@@ -261,7 +261,7 @@
   name:  uplink-security-lasercarbine-name
   description: uplink-security-lasercarbine-desc
   productEntity: NFWeaponEnergyRifleCarbine
-  icon: { sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 2 #Lua: It's fucking SHIT. From 8 to 2
   categories:
@@ -277,7 +277,7 @@
   name:  uplink-security-lasercanon-name
   description: uplink-security-lasercanon-desc
   productEntity: NFWeaponEnergyRifleSniperCannon
-  icon: { sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/Battery/laser_cannon.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 4 #Lua: It's pretty much shit too. From 14 to 4
   categories:
@@ -293,7 +293,7 @@
   name:  uplink-security-disablersmg-name
   description: uplink-security-disablersmg-desc
   productEntity: NFWeaponEnergySubMachineGunDisabler
-  icon: { sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi, state: base }
+  icon: { sprite: /Objects/Weapons/Guns/Battery/disabler_smg.rsi, state: base }
   cost:
     FrontierUplinkCoin: 3 #Lua: From 6 to 3. It's pretty shit too, even with stun meta
   categories:
@@ -309,7 +309,7 @@
   name:  uplink-security-wt550-name
   description: uplink-security-wt550-desc
   productEntity: NFWeaponSubMachineGunWt550
-  icon: { sprite: Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 4
   categories:
@@ -325,7 +325,7 @@
   name:  uplink-security-energygun-name
   description: uplink-security-energygun-desc
   productEntity: NFWeaponEnergySubMachineGunDeltaV
-  icon: { sprite: _DV/Objects/Weapons/Guns/Battery/energygun.rsi, state: icon }
+  icon: { sprite: /_DV/Objects/Weapons/Guns/Battery/energygun.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -341,7 +341,7 @@
 #   name:  uplink-security-emprpg-name
 #   description: uplink-security-emprpg-desc
 #   productEntity: NFWeaponLauncherRocketEmp
-#   icon: { sprite: Objects/Weapons/Guns/Launchers/rocket.rsi, state: base }
+#   icon: { sprite: /Objects/Weapons/Guns/Launchers/rocket.rsi, state: base }
 #   cost:
 #     FrontierUplinkCoin: 5
 #   categories:
@@ -361,7 +361,7 @@
   name:  uplink-security-holo-name
   description: uplink-security-holo-desc
   productEntity: HoloprojectorNfsd
-  icon: { sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi, state: icon }
+  icon: { sprite: /_NF/Objects/Devices/Holoprojectors/nfsd.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -377,7 +377,7 @@
   name:  uplink-security-jetpack-name
   description: uplink-security-jetpack-desc
   productEntity: JetpackNfsdFilled
-  icon: { sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi, state: icon }
+  icon: { sprite: /_NF/Objects/Tanks/Jetpacks/nfsd.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -393,7 +393,7 @@
   name:  uplink-security-magboots-name
   description: uplink-security-magboots-desc
   productEntity: ClothingShoesBootsMagNfsdFilled
-  icon: { sprite: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi, state: icon }
+  icon: { sprite: /_NF/Clothing/Shoes/Boots/magboots-nfsd.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -409,7 +409,7 @@
   name:  uplink-security-techfab-name
   description: uplink-security-techfab-desc
   productEntity: NfsdTechFabCircuitboard
-  icon: { sprite: _NF/Objects/Misc/module.rsi, state: nfsd }
+  icon: { sprite: /_NF/Objects/Misc/module.rsi, state: nfsd }
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -428,7 +428,7 @@
   name:  uplink-security-key-name
   description: uplink-security-key-desc
   productEntity: BoxEncryptionKeyNfsd
-  icon: { sprite: Objects/Storage/boxes.rsi, state: box }
+  icon: { sprite: /Objects/Storage/boxes.rsi, state: box }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -449,7 +449,7 @@
   name:  uplink-pirate-rad-pen-name
   description: uplink-pirate-rad-pen-desc
   productEntity: RadAutoInjector
-  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: arithpen }
+  icon: { sprite: /Objects/Specific/Medical/medipen.rsi, state: arithpen }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -469,7 +469,7 @@
   name:  uplink-pirate-pyrazine-pen-name
   description: uplink-pirate-pyrazine-pen-desc
   productEntity: PyraAutoInjector
-  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: pyrapen }
+  icon: { sprite: /Objects/Specific/Medical/medipen.rsi, state: pyrapen }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -489,7 +489,7 @@
   name:  uplink-pirate-puncturase-pen-name
   description: uplink-pirate-puncturase-pen-desc
   productEntity: PunctAutoInjector
-  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: punctpen }
+  icon: { sprite: /Objects/Specific/Medical/medipen.rsi, state: punctpen }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -509,7 +509,7 @@
   name:  uplink-pirate-anti-poison-pen-name
   description: uplink-pirate-anti-poison-pen-desc
   productEntity: AntiPoisonMedipen
-  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: penacid }
+  icon: { sprite: /Objects/Specific/Medical/medipen.rsi, state: penacid }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -529,7 +529,7 @@
   name:  uplink-security-combat-pen-name
   description: uplink-security-combat-pen-desc
   productEntity: CombatMedipen
-  icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: morphen }
+  icon: { sprite: /Objects/Specific/Medical/medipen.rsi, state: morphen }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -545,7 +545,7 @@
   name:  uplink-security-cyborg-module-name
   description: uplink-security-cyborg-module-desc
   productEntity: BorgModuleSecurity
-  icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-weapon-module }
+  icon: { sprite: /Interface/Actions/actions_borg.rsi, state: syndicate-weapon-module }
   cost:
     FrontierUplinkCoin: 10
   categories:
@@ -563,7 +563,7 @@
   name:  uplink-security-emprocket-name
   description: uplink-security-emprocket-desc
   productEntity: NFCartridgeRocketEmp
-  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: rpg-emp }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: rpg-emp }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -582,7 +582,7 @@
   name:  uplink-pirate-thruster-kit-name
   description: uplink-pirate-thruster-kit-desc
   productEntity: BoxT3SuperCapacitor
-  icon: { sprite: Objects/Storage/boxes.rsi, state: box}
+  icon: { sprite: /Objects/Storage/boxes.rsi, state: box}
   cost:
     FrontierUplinkCoin: 8 # 4<8
   categories:
@@ -604,7 +604,7 @@
   name:  uplink-security-magazinepistol-name
   description: uplink-security-magazinepistol-desc
   productEntity: NFBoxMagazineHighCapacityPistol35Overpressure
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -620,7 +620,7 @@
   name:  uplink-security-20riflemagazine-name
   description: uplink-security-20riflemagazine-desc
   productEntity: NFBoxMagazineRifle20Overpressure
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -636,7 +636,7 @@
   name:  uplink-security-30riflemagazine-name
   description: uplink-security-30riflemagazine-desc
   productEntity: NFBoxMagazineRifle30Overpressure
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -652,7 +652,7 @@
   name:  uplink-security-wt550magazine-name
   description: uplink-security-wt550magazine-desc
   productEntity: NFMagazineSubMachineGunTopMounted35Overpressure
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -668,7 +668,7 @@
   name:  uplink-security-magazinepistol-rubber-name
   description: uplink-security-magazinepistol-rubber-desc
   productEntity: NFBoxMagazinePistol35Rubber
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -684,7 +684,7 @@
   name: uplink-security-20riflemagazine-rubber-name
   description: uplink-security-20riflemagazine-rubber-desc
   productEntity: NFBoxMagazineRifle20Rubber
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -700,7 +700,7 @@
   name: uplink-security-30riflemagazine-rubber-name
   description: uplink-security-30riflemagazine-rubber-desc
   productEntity: NFBoxMagazineRifle30Rubber
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -716,7 +716,7 @@
   name:  uplink-security-hypo-name
   description: uplink-security-hypo-desc
   productEntity: HypoBrigmedic
-  icon: { sprite: _NF/Objects/Specific/Medical/hypobrigmedic.rsi, state: hypo }
+  icon: { sprite: /_NF/Objects/Specific/Medical/hypobrigmedic.rsi, state: hypo }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -736,7 +736,7 @@
   name:  uplink-security-ambuzol-name
   description: uplink-security-ambuzol-desc
   productEntity: SyringeAmbuzol
-  icon: { sprite: Objects/Specific/Chemistry/syringe.rsi, state: syringe_base0 }
+  icon: { sprite: /Objects/Specific/Chemistry/syringe.rsi, state: syringe_base0 }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -756,7 +756,7 @@
   name:  uplink-security-medkit-name
   description: uplink-security-medkit-desc
   productEntity: MedkitCombatFilled
-  icon: { sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit } # Frontier: _NF prefix
+  icon: { sprite: /_NF/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit } # Frontier: _NF prefix
   cost:
     FrontierUplinkCoin: 2
   categories:
@@ -778,7 +778,7 @@
   name:  uplink-security-inspector-name
   description: uplink-security-inspector-desc
   productEntity: NFWeaponRevolverInspector
-  icon: { sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Guns/Revolvers/inspector.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -794,7 +794,7 @@
   name:  uplink-security-truncheon-name
   description: uplink-security-truncheon-desc
   productEntity: Truncheon
-  icon: { sprite: Objects/Weapons/Melee/truncheon.rsi, state: icon }
+  icon: { sprite: /Objects/Weapons/Melee/truncheon.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -810,7 +810,7 @@
   name:  uplink-security-armingsword-name
   description: uplink-security-armingsword-desc
   productEntity: PlasteelArmingSword
-  icon: { sprite: _NF/Objects/Weapons/Melee/armingsword.rsi, state: icon }
+  icon: { sprite: /_NF/Objects/Weapons/Melee/armingsword.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 2
   categories:
@@ -827,7 +827,7 @@
 #   name:  uplink-security-captainsword-name
 #   description: uplink-security-captainsword-desc
 #   productEntity: ClothingBeltSheathFilled
-#   icon: { sprite: Objects/Weapons/Melee/captain_sabre.rsi, state: icon }
+#   icon: { sprite: /Objects/Weapons/Melee/captain_sabre.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 8
 #   categories:
@@ -848,7 +848,7 @@
   name:  uplink-security-hammer-name
   description: uplink-security-hammer-desc
   productEntity: SecBreachingHammer
-  icon: { sprite: Nyanotrasen/Objects/Weapons/Melee/breaching_hammer.rsi, state: icon }
+  icon: { sprite: /Nyanotrasen/Objects/Weapons/Melee/breaching_hammer.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 4
   categories:
@@ -864,7 +864,7 @@
   name:  uplink-security-teleshield-name
   description: uplink-security-teleshield-desc
   productEntity: TelescopicShield
-  icon: { sprite: Objects/Weapons/Melee/teleriot_shield.rsi, state: teleriot-on }
+  icon: { sprite: /Objects/Weapons/Melee/teleriot_shield.rsi, state: teleriot-on }
   cost:
     FrontierUplinkCoin: 2
   categories:
@@ -880,7 +880,7 @@
   name:  uplink-security-energyshield-name
   description: uplink-security-energyshield-desc
   productEntity: EnergyShieldNfsd
-  icon: { sprite: _NF/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
+  icon: { sprite: /_NF/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   cost:
     FrontierUplinkCoin: 6
   categories:
@@ -901,7 +901,7 @@
   name:  uplink-security-swat-name
   description: uplink-security-swat-desc
   productEntity: ClothingMaskGasSheriff
-  icon: { sprite: _NF/Clothing/Mask/nfsd_sheriff.rsi, state: icon}
+  icon: { sprite: /_NF/Clothing/Mask/nfsd_sheriff.rsi, state: icon}
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -922,7 +922,7 @@
   name:  uplink-security-speedloader-name
   description: uplink-security-speedloader-desc
   productEntity: NFSpeedLoaderPistol45Overpressure
-  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol45/speed_loader.rsi, state: icon-overpressure }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol45/speed_loader.rsi, state: icon-overpressure }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -938,7 +938,7 @@
   name:  uplink-security-speedloaderrubber-name
   description: uplink-security-speedloaderrubber-desc
   productEntity: NFSpeedLoaderPistol45Rubber
-  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol45/speed_loader.rsi, state: icon-rubber }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol45/speed_loader.rsi, state: icon-rubber }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -954,7 +954,7 @@
   name:  uplink-security-shotlethal-name
   description: uplink-security-shotlethal-desc
   productEntity: NFAmmunitionBoxShellShotgunBuckshot
-  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-buckshot }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-buckshot }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -970,7 +970,7 @@
   name:  uplink-security-shotbeanbag-name
   description: uplink-security-shotbeanbag-desc
   productEntity: NFAmmunitionBoxShellShotgunBeanbag
-  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-beanbag }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-beanbag }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -986,7 +986,7 @@
   name:  uplink-security-shotslug-name
   description: uplink-security-shotslug-desc
   productEntity: NFAmmunitionBoxShellShotgunSlug
-  icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-slug }
+  icon: { sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-slug }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1002,7 +1002,7 @@
   name:  uplink-security-cash2500-name
   description: uplink-security-cash2500-desc
   productEntity: SpaceCash2500
-  icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000 }
+  icon: { sprite: /Objects/Economy/cash.rsi, state: cash_1000 }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1018,7 +1018,7 @@
   name:  uplink-security-empgrenade-box-name
   description: uplink-security-empgrenade-box-desc
   productEntity: BoxEMPGrenadesNfsd
-  icon: { sprite: Objects/Weapons/Grenades/empgrenade.rsi, state: icon}
+  icon: { sprite: /Objects/Weapons/Grenades/empgrenade.rsi, state: icon}
   cost:
     FrontierUplinkCoin: 2
   categories:
@@ -1039,7 +1039,7 @@
   name:  uplink-security-smokegrenade-box-name
   description: uplink-security-smokegrenade-box-desc
   productEntity: BoxSmokeGrenades
-  icon: { sprite: Objects/Weapons/Grenades/smoke.rsi, state: icon}
+  icon: { sprite: /Objects/Weapons/Grenades/smoke.rsi, state: icon}
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1055,7 +1055,7 @@
   name:  uplink-security-teargasgrenade-box-name
   description: uplink-security-teargasgrenade-box-desc
   productEntity: BoxTeargasGrenades
-  icon: { sprite: Objects/Weapons/Grenades/tear_gas.rsi, state: icon}
+  icon: { sprite: /Objects/Weapons/Grenades/tear_gas.rsi, state: icon}
   cost:
     FrontierUplinkCoin: 2
   categories:
@@ -1071,7 +1071,7 @@
   name:  uplink-security-flashbanggrenade-box-name
   description: uplink-security-flashbanggrenade-box-desc
   productEntity: BoxFlashBangGrenades
-  icon: { sprite: Objects/Weapons/Grenades/flashbang.rsi, state: icon}
+  icon: { sprite: /Objects/Weapons/Grenades/flashbang.rsi, state: icon}
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1087,7 +1087,7 @@
   name:  uplink-security-breachingcharge-box-name
   description: uplink-security-breachingcharge-box-desc
   productEntity: BoxBreachingCharges
-  icon: { sprite: _DV/Objects/Weapons/Bombs/breaching.rsi, state: icon}
+  icon: { sprite: /_DV/Objects/Weapons/Bombs/breaching.rsi, state: icon}
   cost:
     FrontierUplinkCoin: 3
   categories:
@@ -1108,7 +1108,7 @@
   name:  uplink-security-hoverbike-name
   description: uplink-security-hoverbike-desc
   productEntity: HoverbikeNfsdFlatpack
-  icon: { sprite: _NF/Objects/Vehicles/hoverbike.rsi, state: vehicle }
+  icon: { sprite: /_NF/Objects/Vehicles/hoverbike.rsi, state: vehicle }
   cost:
     FrontierUplinkCoin: 3
   categories:
@@ -1129,7 +1129,7 @@
   name:  uplink-security-lethalarmory-name
   description: uplink-security-lethalarmory-desc
   productEntity: CrateArmoryLethalNfsd
-  icon: { sprite: _NF/Structures/Storage/Crates/nfsd_secure2.rsi, state: icon }
+  icon: { sprite: /_NF/Structures/Storage/Crates/nfsd_secure2.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 15
   categories:
@@ -1150,7 +1150,7 @@
 #   name: uplink-security-trackingdart-bundle-name
 #   description: uplink-security-trackingdart-bundle-desc
 #   productEntity: ClothingBackpackDuffelNfsdTrackingBundle
-#   icon: { sprite: _NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 4
 #   categories:
@@ -1166,7 +1166,7 @@
 #   name: uplink-security-emp-bundle-name
 #   description: uplink-security-emp-bundle-desc
 #   productEntity: ClothingBackpackDuffelNfsdEmpBundle
-#   icon: { sprite: _NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
+#   icon: { sprite: /_NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
 #   cost:
 #     FrontierUplinkCoin: 4
 #   categories:
@@ -1182,7 +1182,7 @@
   name:  uplink-security-nonlethalarmory-name
   description: uplink-security-nonlethalarmory-desc
   productEntity: CrateArmoryNonLethalNfsd
-  icon: { sprite: _NF/Structures/Storage/Crates/nfsd_secure1.rsi, state: icon }
+  icon: { sprite: /_NF/Structures/Storage/Crates/nfsd_secure1.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 10
   categories:
@@ -1203,7 +1203,7 @@
   name:  uplink-security-emp-ammo-name
   description: uplink-security-emp-ammo-desc
   productEntity: BoxEmpGrenadesAmmo
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1219,7 +1219,7 @@
   name:  uplink-security-trackingdart-ammo-name
   description: uplink-security-trackingdart-ammo-desc
   productEntity: NFBoxDartsTracking
-  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-dart }
+  icon: { sprite: /_NF/Objects/Storage/boxes.rsi, state: icon-dart }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1235,7 +1235,7 @@
   name:  uplink-security-spaceblade-sec-name
   description: uplink-security-spaceblade-sec-desc
   productEntity: SpaceBladeSec
-  icon: { sprite: _NF/Objects/Fun/spaceblade.rsi, state: secblade }
+  icon: { sprite: /_NF/Objects/Fun/spaceblade.rsi, state: secblade }
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -1251,7 +1251,7 @@
   name:  uplink-security-contraband-forensics-module-name
   description: uplink-security-contraband-forensics-module-desc
   productEntity: ContrabandForensicsModule
-  icon: { sprite: _NF/Objects/Devices/cartridge.rsi, state: contraband_forensics }
+  icon: { sprite: /_NF/Objects/Devices/cartridge.rsi, state: contraband_forensics }
   cost:
     FrontierUplinkCoin: 4
   categories:

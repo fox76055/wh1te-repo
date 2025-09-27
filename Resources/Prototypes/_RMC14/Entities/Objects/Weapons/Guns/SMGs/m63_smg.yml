@@ -5,14 +5,14 @@
   description: The Aegis Battlefield Armaments M-63 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/SMGs/m63.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
     - state: mag-0
       map: [ "enum.GunVisualLayers.Mag" ]
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/SMGs/m63.rsi
   - type: HeldSpeedModifier
     walkModifier: 1.1
     sprintModifier: 1.1
@@ -85,7 +85,7 @@
     proto: CMCartridge10x20mm
     capacity: 40
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -109,7 +109,7 @@
       - CMCartridge10x20mmAP
     proto: CMCartridge10x20mmAP
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
@@ -130,7 +130,7 @@
   - type: BallisticAmmoProvider
     capacity: 60
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63e.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63e.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

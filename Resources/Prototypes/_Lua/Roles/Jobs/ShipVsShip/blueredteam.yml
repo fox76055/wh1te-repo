@@ -453,9 +453,9 @@
   - type: EncryptionKeyHolder
     keySlots: 5
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: /Clothing/Ears/Headsets/syndicate.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: /Clothing/Ears/Headsets/syndicate.rsi
   - type: ContainerFill
     containers:
       key_slots:
@@ -473,7 +473,7 @@
     - BlueTeam
     defaultChannel: BlueTeam
   - type: Sprite
-    sprite: _Lua/Objects/Devices/Encryption_keys/typankey.rsi
+    sprite: /_Lua/Objects/Devices/Encryption_keys/typankey.rsi
     layers:
     - state: crypt_typ
 
@@ -493,9 +493,9 @@
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitBlueTeamSpecialist
   - type: ExplosionResistance
@@ -524,9 +524,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_specialist_helmet.rsi
   - type: PointLight
     color: "#30b3ff"
   - type: Armor
@@ -545,9 +545,9 @@
   suffix: BlueTeam
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_hardsuit.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: Reflect
@@ -575,9 +575,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/BlueTeam/fsf_charlie_commander_helmet.rsi
   - type: PointLight
     color: "#30b3ff"
   - type: Armor
@@ -919,9 +919,9 @@
   - type: EncryptionKeyHolder
     keySlots: 5
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: /Clothing/Ears/Headsets/syndicate.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: /Clothing/Ears/Headsets/syndicate.rsi
   - type: ContainerFill
     containers:
       key_slots:
@@ -939,7 +939,7 @@
     - RedTeam
     defaultChannel: RedTeam
   - type: Sprite
-    sprite: _Lua/Objects/Devices/Encryption_keys/typankey.rsi
+    sprite: /_Lua/Objects/Devices/Encryption_keys/typankey.rsi
     layers:
     - state: crypt_typ
 
@@ -959,9 +959,9 @@
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRedTeamSpecialist
   - type: ExplosionResistance
@@ -990,9 +990,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_specialist_helmet.rsi
   - type: PointLight
     color: "#ff4860"
   - type: Armor
@@ -1011,9 +1011,9 @@
   suffix: RedTeam
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_hardsuit.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: Reflect
@@ -1041,9 +1041,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/RedTeam/fsf_charlie_commander_helmet.rsi
   - type: PointLight
     color: "#ff4860"
   - type: Armor

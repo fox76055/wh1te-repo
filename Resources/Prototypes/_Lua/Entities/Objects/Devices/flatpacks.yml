@@ -29,7 +29,7 @@
 # - type: cargoProduct
 #   id: ADTSMESIndustrialEmpty
 #   icon:
-#     sprite: ADT/Structures/Power/smes.rsi
+#     sprite: /ADT/Structures/Power/smes.rsi
 #     state: smes
 #   product: CrateADTSMESIndustrialEmpty
 #   cost: 30000

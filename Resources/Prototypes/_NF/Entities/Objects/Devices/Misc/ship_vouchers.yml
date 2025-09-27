@@ -11,7 +11,7 @@
   description: Used for free shuttle rentals from a shipyard.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/shipyard_voucher.rsi
+    sprite: /_NF/Objects/Misc/shipyard_voucher.rsi
   - type: Item
     size: Small
     heldPrefix: default

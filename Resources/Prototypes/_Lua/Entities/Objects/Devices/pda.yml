@@ -29,7 +29,7 @@
     borderColor: "#789876"
     accentHColor: "#CEC155"
   - type: Icon
-    sprite: Objects/Devices/pda.rsi
+    sprite: /Objects/Devices/pda.rsi
     state: pda-seniorservice
 
 - type: entity
@@ -108,7 +108,7 @@
     accentHColor: "#EAEAEA"
     accentVColor: "#EAEAEA"
   - type: Icon
-    sprite: Objects/Devices/pda.rsi
+    sprite: /Objects/Devices/pda.rsi
     state: pda-pathologist
 
 - type: entity

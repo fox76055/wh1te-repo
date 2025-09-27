@@ -5,7 +5,7 @@
   description: A banner displaying the colors of the New Frontier Sheriff's Department.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Decoration/banner.rsi
+    sprite: /_NF/Structures/Decoration/banner.rsi
     state: nfsd-banner
   - type: Construction
     graph: BannersGraph
@@ -18,7 +18,7 @@
   description: A flag displaying the colors of the New Frontier Sheriff's Department.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Decoration/banner.rsi
+    sprite: /_NF/Structures/Decoration/banner.rsi
     state: nfsd-flag
   - type: Construction
     graph: BannersGraph
@@ -31,7 +31,7 @@
   description: A banner displaying one of goblin clan symbols.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Decoration/banner.rsi
+    sprite: /_NF/Structures/Decoration/banner.rsi
     state: banner_goblin
   - type: Construction
     graph: NFGoblinMadeBanner
@@ -44,7 +44,7 @@
   description: A banner displaying the sigil of the Far Star Biotech corporation.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Decoration/banner.rsi
+    sprite: /_NF/Structures/Decoration/banner.rsi
     state: banner-fsb
   - type: Construction
     graph: BannersGraph

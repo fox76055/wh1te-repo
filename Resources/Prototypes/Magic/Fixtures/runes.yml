@@ -7,7 +7,7 @@
   components:
     - type: Clickable
     - type: Sprite
-      sprite: Structures/Magic/Cult/rune.rsi
+      sprite: /Structures/Magic/Cult/rune.rsi
       layers:
         - state: cult2
           color: '#FF00FF'
@@ -62,7 +62,7 @@
       intensitySlope: 5
       maxIntensity: 4
     - type: Sprite
-      sprite: Structures/Magic/Cult/trap.rsi
+      sprite: /Structures/Magic/Cult/trap.rsi
       layers:
         - state: trap
           color: '#FF770055'
@@ -79,7 +79,7 @@
       stunAmount: 5
       knockdownAmount: 3
     - type: Sprite
-      sprite: Structures/Magic/Cult/trap.rsi
+      sprite: /Structures/Magic/Cult/trap.rsi
       layers:
         - state: trap
           color: '#FFFF0055'
@@ -106,7 +106,7 @@
     - type: IgniteOnCollide
       fireStacks: 5
     - type: Sprite
-      sprite: Structures/Magic/Cult/trap.rsi
+      sprite: /Structures/Magic/Cult/trap.rsi
       layers:
         - state: trap
           color: '#FF000055'

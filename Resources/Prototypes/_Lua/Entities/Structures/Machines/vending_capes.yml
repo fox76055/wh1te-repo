@@ -20,7 +20,7 @@
     pack: GenericVendGoodbyes
   - type: Speech
   - type: Sprite
-    sprite: _Lua/Structures/hqdishka/Machines/VendingMachines/capes.rsi
+    sprite: /_Lua/Structures/hqdishka/Machines/VendingMachines/capes.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]

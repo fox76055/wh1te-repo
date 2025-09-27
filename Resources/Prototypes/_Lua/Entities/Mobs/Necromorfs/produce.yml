@@ -12,7 +12,7 @@
     tags:
     - MedipenLathe
   - type: Sprite
-    sprite: _Lua/Other/infector_gland.rsi
+    sprite: /_Lua/Other/infector_gland.rsi
     state: gland
   - type: PhysicalComposition
     materialComposition:

@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Misc/books.rsi
+    sprite: /Objects/Misc/books.rsi
   - type: Tag
     tags:
     - Book
@@ -18,7 +18,7 @@
   description: A big book of laws for space courts.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/books.rsi
+    sprite: /_NF/Objects/Misc/books.rsi
     layers:
     - state: law_space
   - type: HyperlinkBook
@@ -35,7 +35,7 @@
   description: A book defining NFSD standard operating procedures.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/books.rsi
+    sprite: /_NF/Objects/Misc/books.rsi
     layers:
     - state: nfsd_sop
   - type: HyperlinkBook

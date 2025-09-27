@@ -5,7 +5,7 @@
   id: SalvageEquipment
   name: research-technology-salvage-equipment
   icon:
-    sprite: Objects/Tools/handdrill.rsi
+    sprite: /Objects/Tools/handdrill.rsi
     state: handdrill
   discipline: Industrial
   tier: 1
@@ -21,7 +21,7 @@
   id: SpaceScanning
   name: research-technology-space-scanning
   icon:
-    sprite: Objects/Tools/handheld_mass_scanner.rsi
+    sprite: /Objects/Tools/handheld_mass_scanner.rsi
     state: icon
   discipline: Industrial
   tier: 1
@@ -34,7 +34,7 @@
   id: AdvancedPowercells
   name: research-technology-advanced-powercells
   icon:
-    sprite: Structures/Power/turbo_recharger.rsi
+    sprite: /Structures/Power/turbo_recharger.rsi
     state: empty
   discipline: Industrial
   tier: 1
@@ -48,7 +48,7 @@
   id: MechanicalCompression
   name: research-technology-mechanical-compression
   icon:
-    sprite: Structures/Machines/flatpacker.rsi
+    sprite: /Structures/Machines/flatpacker.rsi
     state: base
   discipline: Industrial
   tier: 1
@@ -60,7 +60,7 @@
   id: IndustrialEngineering
   name: research-technology-industrial-engineering
   icon:
-    sprite: Structures/Machines/protolathe_hypercon.rsi
+    sprite: /Structures/Machines/protolathe_hypercon.rsi
     state: building
   discipline: Industrial
   tier: 1
@@ -75,7 +75,7 @@
   id: PowerGeneration
   name: research-technology-power-generation
   icon:
-    sprite: Structures/Power/Generation/portable_generator.rsi
+    sprite: /Structures/Power/Generation/portable_generator.rsi
     state: portgen0
   discipline: Industrial
   tier: 1
@@ -92,7 +92,7 @@
   id: AtmosphericTech
   name: research-technology-atmospheric-tech
   icon:
-    sprite: Structures/Piping/Atmospherics/thermomachine.rsi
+    sprite: /Structures/Piping/Atmospherics/thermomachine.rsi
     state: freezerOff
   discipline: Industrial
   tier: 1
@@ -105,7 +105,7 @@
   id: RipleyAPLU
   name: research-technology-ripley-aplu
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     state: ripley
   discipline: Industrial
   tier: 1
@@ -126,7 +126,7 @@
   id: Shuttlecraft
   name: research-technology-shuttlecraft
   icon:
-    sprite: Structures/Shuttles/gyroscope.rsi
+    sprite: /Structures/Shuttles/gyroscope.rsi
     state: base
   discipline: Industrial
   tier: 2
@@ -141,7 +141,7 @@
   id: AdvancedAtmospherics
   name: research-technology-advanced-atmospherics
   icon:
-    sprite: Objects/Devices/Holoprojectors/atmos.rsi
+    sprite: /Objects/Devices/Holoprojectors/atmos.rsi
     state: icon
   discipline: Industrial
   tier: 2
@@ -157,7 +157,7 @@
   id: AdvancedToolsTechnology
   name: research-technology-advanced-tools
   icon:
-    sprite: Objects/Tools/welder_experimental.rsi
+    sprite: /Objects/Tools/welder_experimental.rsi
     state: icon
   discipline: Industrial
   tier: 2
@@ -174,7 +174,7 @@
   id: MassExcavation
   name: research-technology-excavation
   icon:
-    sprite: Objects/Tools/handdrilldiamond.rsi
+    sprite: /Objects/Tools/handdrilldiamond.rsi
     state: handdrill
   discipline: Industrial
   tier: 2
@@ -189,7 +189,7 @@
 #   id: Ripley2
 #   name: research-technology-ripley-mkii
 #   icon:
-#     sprite: Objects/Specific/Mech/mecha.rsi
+#     sprite: /Objects/Specific/Mech/mecha.rsi
 #     state: ripleymkii
 #   discipline: Industrial
 #   tier: 2
@@ -204,7 +204,7 @@
   id: Clarke
   name: research-technology-clarke
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     state: clarke
   discipline: Industrial
   tier: 2
@@ -226,7 +226,7 @@
   id: BluespaceStorage
   name: research-technology-bluespace-storage
   icon:
-    sprite: Clothing/Back/Backpacks/holding.rsi
+    sprite: /Clothing/Back/Backpacks/holding.rsi
     state: holding
   discipline: Industrial
   tier: 3
@@ -241,7 +241,7 @@
   id: OptimizedMicrogalvanism
   name: research-technology-optimized-microgalvanism
   icon:
-    sprite: Objects/Power/power_cells.rsi
+    sprite: /Objects/Power/power_cells.rsi
     state: microreactor
   discipline: Industrial
   tier: 3

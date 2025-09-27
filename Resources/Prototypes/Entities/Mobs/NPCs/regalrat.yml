@@ -22,7 +22,7 @@
     - SimpleHostile
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Animals/regalrat.rsi
+    sprite: /Mobs/Animals/regalrat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: regalrat
@@ -143,7 +143,7 @@
   suffix: Buff
   components:
   - type: Sprite
-    sprite: Mobs/Animals/buffrat.rsi
+    sprite: /Mobs/Animals/buffrat.rsi
     scale: 1.2, 1.2
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
@@ -208,7 +208,7 @@
     - SimpleHostile
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Animals/rat.rsi
+    sprite: /Mobs/Animals/rat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: rat
@@ -321,7 +321,7 @@
   - type: Item # Delta V - Make them edible and pickable.
     size: Tiny # Delta V - Make them edible and pickable.
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
   - type: NightVision # Goobstation - Nigthvision
     color: "#808080"
@@ -346,7 +346,7 @@
   - type: Action
     useDelay: 4
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: ratKingArmy
   - type: InstantAction
     event: !type:RatKingRaiseArmyActionEvent
@@ -360,7 +360,7 @@
   - type: Action
     useDelay: 6
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: ratKingDomain
   - type: InstantAction
     event: !type:RatKingDomainActionEvent
@@ -374,10 +374,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: stayOff
     iconOn:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: stay
     priority: 5
   - type: InstantAction
@@ -393,10 +393,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: followOff
     iconOn:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: follow
     priority: 6
   - type: InstantAction
@@ -412,10 +412,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: attackOff
     iconOn:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: attack
     priority: 7
   - type: InstantAction
@@ -431,10 +431,10 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: looseOff
     iconOn:
-      sprite: Interface/Actions/actions_rat_king.rsi
+      sprite: /Interface/Actions/actions_rat_king.rsi
       state: loose
     priority: 8
   - type: InstantAction

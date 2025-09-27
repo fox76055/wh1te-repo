@@ -5,9 +5,9 @@
   description: A raw material.
   components:
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: /Objects/Materials/materials.rsi
   - type: Item
-    sprite: Objects/Materials/materials.rsi
+    sprite: /Objects/Materials/materials.rsi
     size: Normal
   - type: Tag
     tags:
@@ -322,7 +322,7 @@
   name: bear hide
   components:
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: /Objects/Materials/materials.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: bearpelt
@@ -330,10 +330,10 @@
       state: bearpelt_glow
       shader: unshaded
   - type: Item
-    sprite: Clothing/Head/Misc/hides.rsi
+    sprite: /Clothing/Head/Misc/hides.rsi
     heldPrefix: bear
   - type: Clothing
-    sprite: Clothing/Head/Misc/hides.rsi
+    sprite: /Clothing/Head/Misc/hides.rsi
     equippedPrefix: bear
     slots:
       - HEAD
@@ -350,12 +350,12 @@
   description: Luxury pelt used in only the most elite fashion. Rumors say this is found when a corgi is sent to the nice farm.
   components:
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: /Objects/Materials/materials.rsi
     state: corgihide
   - type: Item
     heldPrefix: corgihide
   - type: Clothing
-    sprite: Clothing/Head/Misc/hides.rsi
+    sprite: /Clothing/Head/Misc/hides.rsi
     equippedPrefix: corgi2
     slots:
     - HEAD
@@ -602,7 +602,7 @@
     materialComposition:
       WebSilk: 100
   - type: Sprite
-    sprite: Objects/Materials/silk.rsi
+    sprite: /Objects/Materials/silk.rsi
     state: icon
   - type: Stack
     count: 50
@@ -632,7 +632,7 @@
       - DroneUsable
       - RawMaterial
   - type: Item
-    sprite: Objects/Materials/silk.rsi
+    sprite: /Objects/Materials/silk.rsi
     heldPrefix: silk
 
 - type: entity
@@ -659,12 +659,12 @@
   suffix: Full
   components:
   - type: Sprite
-    sprite: Objects/Materials/Mob/carptooth.rsi
+    sprite: /Objects/Materials/Mob/carptooth.rsi
     layers:
     - state: tooth
       map: [ "base" ]
   - type: Item
-    sprite: Objects/Materials/Mob/carptooth.rsi
+    sprite: /Objects/Materials/Mob/carptooth.rsi
     size: Normal
   - type: Appearance
   - type: Stack
@@ -701,12 +701,12 @@
       types:
         Slash: 15
   - type: Sprite
-    sprite: Objects/Materials/Mob/sharktooth.rsi
+    sprite: /Objects/Materials/Mob/sharktooth.rsi
     layers:
     - state: tooth
       map: [ "base" ]
   - type: Item
-    sprite: Objects/Materials/Mob/sharktooth.rsi
+    sprite: /Objects/Materials/Mob/sharktooth.rsi
     size: Normal
   - type: Appearance
   - type: Stack
@@ -786,7 +786,7 @@
     stackType: Gunpowder
     count: 1
   - type: Sprite
-    sprite: Objects/Misc/reagent_fillings.rsi
+    sprite: /Objects/Misc/reagent_fillings.rsi
     state: powderpile
     color: darkgray
   - type: PhysicalComposition
@@ -803,7 +803,7 @@
   suffix: Full
   components:
   - type: Sprite
-    sprite: Objects/Materials/hide.rsi
+    sprite: /Objects/Materials/hide.rsi
     layers:
     - state: goliath_hide
       map: [ "base" ]
@@ -822,7 +822,7 @@
   - type: Item
     size: Large
     heldPrefix: goliathhide
-    sprite: Objects/Materials/hide.rsi
+    sprite: /Objects/Materials/hide.rsi
     shape:
     - 0,0,2,2
   - type: Tag

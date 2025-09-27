@@ -5,9 +5,9 @@
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/veteransechardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 10000
@@ -35,9 +35,9 @@
   description: Safety helmet with the latest top-secret NT-HUD software.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/veteransechardsuithead.rsi
   - type: PointLight
     color: "#ffadad"
   - type: PressureProtection

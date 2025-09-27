@@ -24,9 +24,9 @@
         pipeDirection: South
   - type: AtmosPipeLayers
     spriteRsiPaths:
-      Primary: Structures/Piping/Atmospherics/pump.rsi
-      Secondary: Structures/Piping/Atmospherics/pump_alt1.rsi
-      Tertiary: Structures/Piping/Atmospherics/pump_alt2.rsi
+      Primary: /Structures/Piping/Atmospherics/pump.rsi
+      Secondary: /Structures/Piping/Atmospherics/pump_alt1.rsi
+      Tertiary: /Structures/Piping/Atmospherics/pump_alt2.rsi
 
 - type: entity
   parent: GasBinaryBase
@@ -48,9 +48,9 @@
     visibleLayers:
     - enum.SubfloorLayers.FirstLayer
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/pump.rsi
+    sprite: /Structures/Piping/Atmospherics/pump.rsi
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: /Structures/Piping/Atmospherics/pipe.rsi
       state: pipeStraight
       map: [ "enum.PipeVisualLayers.Pipe" ]
     - state: pumpPressure
@@ -107,9 +107,9 @@
       visibleLayers:
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/pump.rsi
+      sprite: /Structures/Piping/Atmospherics/pump.rsi
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: /Structures/Piping/Atmospherics/pipe.rsi
           state: pipeStraight
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: pumpVolume
@@ -167,9 +167,9 @@
       visibleLayers:
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/pump.rsi
+      sprite: /Structures/Piping/Atmospherics/pump.rsi
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: /Structures/Piping/Atmospherics/pipe.rsi
           state: pipeStraight
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: pumpPassiveGate
@@ -205,9 +205,9 @@
       visibleLayers:
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/pump.rsi
+      sprite: /Structures/Piping/Atmospherics/pump.rsi
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: /Structures/Piping/Atmospherics/pipe.rsi
           state: pipeStraight
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: pumpManualValve
@@ -261,9 +261,9 @@
     visibleLayers:
     - enum.SubfloorLayers.FirstLayer
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/pump.rsi
+    sprite: /Structures/Piping/Atmospherics/pump.rsi
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: /Structures/Piping/Atmospherics/pipe.rsi
       state: pipeStraight
       map: [ "enum.PipeVisualLayers.Pipe" ]
     - state: pumpSignalValve
@@ -327,9 +327,9 @@
       visibleLayers:
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/gascanisterport.rsi
+      sprite: /Structures/Piping/Atmospherics/gascanisterport.rsi
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: /Structures/Piping/Atmospherics/pipe.rsi
           state: pipeUnaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: gasCanisterPort
@@ -368,9 +368,9 @@
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
       drawdepth: FloorObjects
-      sprite: _NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
+      sprite: /_NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: /Structures/Piping/Atmospherics/pipe.rsi
           state: pipeBinaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: vent_off
@@ -430,9 +430,9 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Structures/Machines/gasrecycler.rsi
+    sprite: /Structures/Machines/gasrecycler.rsi
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: /Structures/Piping/Atmospherics/pipe.rsi
       state: pipeBinaryConnectors
       map: [ "enum.PipeVisualLayers.Pipe" ]
     - state: running
@@ -441,9 +441,9 @@
   - type: AtmosPipeLayers
     spriteLayersRsiPaths:
       enum.PipeVisualLayers.Pipe:
-        Primary: Structures/Piping/Atmospherics/pipe.rsi
-        Secondary: Structures/Piping/Atmospherics/pipe_alt1.rsi
-        Tertiary: Structures/Piping/Atmospherics/pipe_alt2.rsi
+        Primary: /Structures/Piping/Atmospherics/pipe.rsi
+        Secondary: /Structures/Piping/Atmospherics/pipe_alt1.rsi
+        Tertiary: /Structures/Piping/Atmospherics/pipe_alt2.rsi
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -504,9 +504,9 @@
   - type: Transform
     noRot: false
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/heatexchanger.rsi
+    sprite: /Structures/Piping/Atmospherics/heatexchanger.rsi
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: /Structures/Piping/Atmospherics/pipe.rsi
       state: pipeStraight
       map: [ "enum.PipeVisualLayers.Pipe" ]
     - state: heStraight
@@ -550,7 +550,7 @@
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
       layers:
-      - sprite: Structures/Piping/Atmospherics/pipe.rsi
+      - sprite: /Structures/Piping/Atmospherics/pipe.rsi
         state: pipeBend
         map: [ "enum.PipeVisualLayers.Pipe" ]
       - state: heBend

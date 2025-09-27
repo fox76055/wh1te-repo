@@ -39,10 +39,10 @@
     - Knife
     - KitchenKnife
   - type: Sprite
-    sprite: Objects/Weapons/Melee/kitchen_knife.rsi
+    sprite: /Objects/Weapons/Melee/kitchen_knife.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Melee/kitchen_knife.rsi
+    sprite: /Objects/Weapons/Melee/kitchen_knife.rsi
   - type: GuideHelp
     guides:
     - Chef
@@ -59,7 +59,7 @@
     - Knife
     - Cleaver
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cleaver.rsi
+    sprite: /Objects/Weapons/Melee/cleaver.rsi
     state: butch
   - type: MeleeWeapon
     wideAnimationRotation: -115
@@ -69,7 +69,7 @@
         Slash: 13
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/cleaver.rsi
+    sprite: /Objects/Weapons/Melee/cleaver.rsi
   - type: GuideHelp
     guides:
     - Chef
@@ -86,7 +86,7 @@
     - CombatKnife
     - Knife
   - type: Sprite
-    sprite: Objects/Weapons/Melee/combat_knife.rsi
+    sprite: /Objects/Weapons/Melee/combat_knife.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -103,10 +103,10 @@
       types:
         Slash: 10
   - type: Item
-    sprite: Objects/Weapons/Melee/combat_knife.rsi
+    sprite: /Objects/Weapons/Melee/combat_knife.rsi
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/combat_knife.rsi
+      sprite: /Objects/Weapons/Melee/combat_knife.rsi
   - type: DisarmMalus
     malus: 0.225
   - type: ThrowingAngle
@@ -119,13 +119,13 @@
   description: Weapon of first and last resort for combatting space carp.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/survival_knife.rsi
+    sprite: /Objects/Weapons/Melee/survival_knife.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Melee/survival_knife.rsi
+    sprite: /Objects/Weapons/Melee/survival_knife.rsi
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/survival_knife.rsi
+      sprite: /Objects/Weapons/Melee/survival_knife.rsi
 
 - type: entity
   name: kukri knife
@@ -134,7 +134,7 @@
   description: Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/kukri_knife.rsi
+    sprite: /Objects/Weapons/Melee/kukri_knife.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.0
@@ -142,7 +142,7 @@
       types:
         Slash: 15
   - type: Item
-    sprite: Objects/Weapons/Melee/kukri_knife.rsi
+    sprite: /Objects/Weapons/Melee/kukri_knife.rsi
     storedSprite: null
 
 - type: entity
@@ -167,9 +167,9 @@
         Slash: 10
   - type: LandAtCursor
   - type: Sprite
-    sprite: Clothing/Head/Hats/greyflatcap.rsi
+    sprite: /Clothing/Head/Hats/greyflatcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/greyflatcap.rsi
+    sprite: /Clothing/Head/Hats/greyflatcap.rsi
 
 - type: entity
   parent: BladedFlatcapGrey
@@ -180,9 +180,9 @@
   - type: Construction
     graph: BladedFlatcapBrown
   - type: Sprite
-    sprite: Clothing/Head/Hats/brownflatcap.rsi
+    sprite: /Clothing/Head/Hats/brownflatcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/brownflatcap.rsi
+    sprite: /Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
   name: shiv
@@ -199,7 +199,7 @@
     graph: Shiv
     node: icon
   - type: Sprite
-    sprite: Objects/Weapons/Melee/shiv.rsi
+    sprite: /Objects/Weapons/Melee/shiv.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.5
@@ -207,7 +207,7 @@
       types:
         Slash: 5.5
   - type: Item
-    sprite: Objects/Weapons/Melee/shiv.rsi
+    sprite: /Objects/Weapons/Melee/shiv.rsi
   - type: DisarmMalus
     malus: 0.225
 
@@ -226,9 +226,9 @@
       types:
         Slash: 7 #each "tier" grants an additional 2 damage
   - type: Item
-    sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
+    sprite: /Objects/Weapons/Melee/reinforced_shiv.rsi
   - type: Sprite
-    sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
+    sprite: /Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
   name: plasma shiv
@@ -245,9 +245,9 @@
       types:
         Slash: 9
   - type: Item
-    sprite: Objects/Weapons/Melee/plasma_shiv.rsi
+    sprite: /Objects/Weapons/Melee/plasma_shiv.rsi
   - type: Sprite
-    sprite: Objects/Weapons/Melee/plasma_shiv.rsi
+    sprite: /Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
   name: uranium shiv
@@ -265,9 +265,9 @@
         Slash: 7
         Radiation: 4
   - type: Item
-    sprite: Objects/Weapons/Melee/uranium_shiv.rsi
+    sprite: /Objects/Weapons/Melee/uranium_shiv.rsi
   - type: Sprite
-    sprite: Objects/Weapons/Melee/uranium_shiv.rsi
+    sprite: /Objects/Weapons/Melee/uranium_shiv.rsi
 
 - type: entity
   name: throwing knife
@@ -280,7 +280,7 @@
     - CombatKnife
     - Knife
   - type: Sprite
-    sprite: Objects/Weapons/Melee/throwing_knife.rsi
+    sprite: /Objects/Weapons/Melee/throwing_knife.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -299,6 +299,6 @@
         Slash: 10
         Piercing: 15
   - type: Item
-    sprite: Objects/Weapons/Melee/throwing_knife.rsi
+    sprite: /Objects/Weapons/Melee/throwing_knife.rsi
   - type: ThrowingAngle
     angle: 225

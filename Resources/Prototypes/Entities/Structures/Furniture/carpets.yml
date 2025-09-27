@@ -44,9 +44,9 @@
   suffix: Red
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/red_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/red_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/red_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/red_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -74,9 +74,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/black_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/black_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/black_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/black_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -104,9 +104,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/pink_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/pink_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/pink_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/pink_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -134,9 +134,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/blue_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/blue_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/blue_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/blue_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -164,9 +164,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/green_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/green_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/green_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/green_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -194,9 +194,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/orange_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/orange_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/orange_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/orange_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -224,9 +224,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/skyblue_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/skyblue_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/skyblue_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/skyblue_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -254,9 +254,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/purple_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/purple_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/purple_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/purple_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -284,9 +284,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/cyan_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/cyan_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/cyan_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/cyan_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -314,9 +314,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/white_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/white_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/white_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/white_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -344,11 +344,11 @@
   name: "chapel's carpet"
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/chapel_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/chapel_carpet.rsi
     state: chapel
     drawdepth: FloorTiles
   - type: Icon
-    sprite: Structures/Furniture/Carpets/chapel_carpet.rsi
+    sprite: /Structures/Furniture/Carpets/chapel_carpet.rsi
     state: chapel
   - type: Tag
     tags: [ Carpet ]

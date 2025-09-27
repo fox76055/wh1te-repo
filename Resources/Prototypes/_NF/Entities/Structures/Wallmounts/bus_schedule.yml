@@ -9,7 +9,7 @@
     arc: 360
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _NF/Structures/Wallmounts/bus_schedule.rsi
+    sprite: /_NF/Structures/Wallmounts/bus_schedule.rsi
     snapCardinals: true
     layers:
     - state: body

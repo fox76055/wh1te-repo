@@ -5,5 +5,5 @@
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _NF/Effects/crayondecals.rsi
+    sprite: /_NF/Effects/crayondecals.rsi
     state: big-ed

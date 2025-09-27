@@ -5,7 +5,7 @@
   description: An ancient weapon still used to this day, due to its ease of lodging itself into its victim's body parts.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Throwable/throwing_star.rsi
+    sprite: /Objects/Weapons/Throwable/throwing_star.rsi
     layers:
     - state: icon
       map: ["base"]

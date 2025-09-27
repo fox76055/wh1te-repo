@@ -33,15 +33,15 @@
       smokable:
         maxVol: 20
   - type: Sprite
-    sprite: _NF/Objects/Misc/censer.rsi
+    sprite: /_NF/Objects/Misc/censer.rsi
     state: unlit-icon
   - type: Clothing
-    sprite: Objects/Consumable/Smokeables/Pipes/pipe.rsi
+    sprite: /Objects/Consumable/Smokeables/Pipes/pipe.rsi
     slots: [ belt ]
     equippedPrefix: unlit
   - type: Item
     size: Small
-    sprite: _NF/Objects/Misc/censer.rsi
+    sprite: /_NF/Objects/Misc/censer.rsi
   - type: Appearance
   - type: BurnStateVisuals
     unlitIcon: unlit-icon

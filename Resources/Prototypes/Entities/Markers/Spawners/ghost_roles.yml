@@ -26,10 +26,10 @@
   - type: GhostRoleMobSpawner
     prototype: MobRatKing
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
       - state: green
-      - sprite: Mobs/Animals/regalrat.rsi
+      - sprite: /Mobs/Animals/regalrat.rsi
         state: icon
 
 - type: entity
@@ -49,10 +49,10 @@
   - type: GhostRoleMobSpawner
     prototype: MobBatRemilia
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
       - state: green
-      - sprite: Mobs/Animals/bat.rsi
+      - sprite: /Mobs/Animals/bat.rsi
         state: bat
 
 - type: entity
@@ -72,10 +72,10 @@
   - type: GhostRoleMobSpawner
     prototype: MobCorgiCerberus
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
       - state: green
-      - sprite: Mobs/Pets/corgi.rsi
+      - sprite: /Mobs/Pets/corgi.rsi
         state: narsian
 
 - type: entity
@@ -94,10 +94,10 @@
   - type: GhostRoleMobSpawner
     prototype: MobHumanNukeOp
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
       - state: green
-      - sprite: Structures/Wallmounts/signs.rsi
+      - sprite: /Structures/Wallmounts/signs.rsi
         state: radiation
 
 - type: entity
@@ -112,10 +112,10 @@
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
       - state: green
-      - sprite: Structures/Wallmounts/signs.rsi
+      - sprite: /Structures/Wallmounts/signs.rsi
         state: radiation
 
 - type: entity
@@ -168,7 +168,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Carps/dragon.rsi
+    - sprite: /Mobs/Aliens/Carps/dragon.rsi
       state: alive
 
 - type: entity
@@ -185,10 +185,10 @@
     raffle:
       settings: default
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Objects/Weapons/Melee/energykatana.rsi
+    - sprite: /Objects/Weapons/Melee/energykatana.rsi
       state: icon
 
 - type: entity
@@ -206,9 +206,9 @@
       settings: default
   - type: Sprite
     layers:
-    - sprite: Markers/jobs.rsi
+    - sprite: /Markers/jobs.rsi
       state: green
-    - sprite: Mobs/Aliens/paradox_clone.rsi
+    - sprite: /Mobs/Aliens/paradox_clone.rsi
       state: preview
 
 - type: entity
@@ -223,10 +223,10 @@
     raffle:
       settings: default
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Mobs/Silicon/chassis.rsi
+    - sprite: /Mobs/Silicon/chassis.rsi
       state: derelict_icon
 
 - type: entity
@@ -244,8 +244,8 @@
     raffle:
       settings: default
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Clothing/Head/Hats/wizardhat.rsi
+    - sprite: /Clothing/Head/Hats/wizardhat.rsi
       state: icon

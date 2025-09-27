@@ -9,10 +9,10 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Misc/skub.rsi
+      - sprite: /Objects/Misc/skub.rsi
         scale: 0.7, 0.7
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -47,11 +47,11 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: _NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
+      - sprite: /_NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
         state: icon
-      - sprite: _NF/Objects/Tools/crowbar.rsi # Frontier: separate sprites (add _NF folder)
+      - sprite: /_NF/Objects/Tools/crowbar.rsi # Frontier: separate sprites (add _NF folder)
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -90,9 +90,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Tools/drill.rsi
+      - sprite: /Objects/Tools/drill.rsi
         state: drill_screw
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -120,9 +120,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
+      - sprite: /Objects/Tools/Toolboxes/toolbox_yellow.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -151,9 +151,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Clothing/Uniforms/Jumpsuit/engineering.rsi
+      - sprite: /Clothing/Uniforms/Jumpsuit/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -181,11 +181,11 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/closet.rsi
+      - sprite: /Structures/Storage/closet.rsi
         state: eng_secure
-      - sprite: Structures/Storage/closet.rsi
+      - sprite: /Structures/Storage/closet.rsi
         state: eng_secure_door
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -219,11 +219,11 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/suit_storage.rsi
+      - sprite: /Structures/Storage/suit_storage.rsi
         state: base
-      - sprite: Structures/Storage/suit_storage.rsi
+      - sprite: /Structures/Storage/suit_storage.rsi
         state: door
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -251,9 +251,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/Crates/engineering.rsi
+      - sprite: /Structures/Storage/Crates/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -321,9 +321,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/Crates/engineering.rsi
+      - sprite: /Structures/Storage/Crates/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -345,9 +345,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/Crates/engineering.rsi
+      - sprite: /Structures/Storage/Crates/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -370,11 +370,11 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Machines/techfab.rsi
+      - sprite: /Structures/Machines/techfab.rsi
         state: icon
-      - sprite: Structures/Machines/techfab.rsi
+      - sprite: /Structures/Machines/techfab.rsi
         state: engi
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -405,9 +405,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Machines/VendingMachines/youtool.rsi
+      - sprite: /Structures/Machines/VendingMachines/youtool.rsi
         state: off
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -436,9 +436,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: _NF/Objects/Misc/stock_parts.rsi
+      - sprite: /_NF/Objects/Misc/stock_parts.rsi
         state: bluespace_matter_bin
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -484,9 +484,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Power/power_cells.rsi
+      - sprite: /Objects/Power/power_cells.rsi
         state: hyper
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -511,9 +511,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Misc/module.rsi
+      - sprite: /Objects/Misc/module.rsi
         state: science
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -564,9 +564,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: _NF/Objects/Devices/flatpack.rsi
+      - sprite: /_NF/Objects/Devices/flatpack.rsi
         state: engineering_lathe
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner

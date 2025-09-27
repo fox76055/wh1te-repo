@@ -5,13 +5,13 @@
   description: Quality headphones from Drunk Masters, with good sound insulation.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Misc/headphones.rsi
+    sprite: /Clothing/Neck/Misc/headphones.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
     equippedPrefix: off
-    sprite: Clothing/Neck/Misc/headphones.rsi
+    sprite: /Clothing/Neck/Misc/headphones.rsi
   - type: ToggleableVisuals
     spriteLayer: enum.ToggleableVisuals.Layer
     clothingVisuals:
@@ -40,10 +40,10 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: Clothing/Neck/Misc/stethoscope.rsi
+    sprite: /Clothing/Neck/Misc/stethoscope.rsi
     state: icon
   - type: Clothing
-    sprite: Clothing/Neck/Misc/stethoscope.rsi
+    sprite: /Clothing/Neck/Misc/stethoscope.rsi
     quickEquip: true
     slots:
     - neck
@@ -56,7 +56,7 @@
   components:
   - type: Action
     icon:
-      sprite: Clothing/Neck/Misc/stethoscope.rsi
+      sprite: /Clothing/Neck/Misc/stethoscope.rsi
       state: icon
     priority: -1
     itemIconStyle: BigAction
@@ -72,11 +72,11 @@
   description: Damn, it feels good to be a gangster.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Misc/bling.rsi
+    sprite: /Clothing/Neck/Misc/bling.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Misc/bling.rsi
+    sprite: /Clothing/Neck/Misc/bling.rsi
   - type: Item
-    sprite: Clothing/Neck/Misc/bling.rsi
+    sprite: /Clothing/Neck/Misc/bling.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -85,9 +85,9 @@
   description: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Misc/lawyerbadge.rsi
+    sprite: /Clothing/Neck/Misc/lawyerbadge.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Misc/lawyerbadge.rsi
+    sprite: /Clothing/Neck/Misc/lawyerbadge.rsi
   - type: TypingIndicatorClothing
     proto: lawyer
 
@@ -98,7 +98,7 @@
   description: A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Misc/dinkystar.rsi
+    sprite: /Clothing/Neck/Misc/dinkystar.rsi
     state: icon
   - type: Item
     size: Tiny

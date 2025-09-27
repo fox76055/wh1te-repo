@@ -35,7 +35,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/8x65mm/8x65mm.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Ammunition/Magazine/8x65mm/8x65mm.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -98,7 +98,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/8x65mm/8x65mm_box.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Ammunition/Magazine/8x65mm/8x65mm_box.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

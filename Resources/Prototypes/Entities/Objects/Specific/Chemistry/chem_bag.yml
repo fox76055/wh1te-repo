@@ -6,7 +6,7 @@
   components:
   # Frontier: layered sprite
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/chem_bag.rsi
+    sprite: /Objects/Specific/Chemistry/chem_bag.rsi
     layers:
     - state: icon
     - state: icon-on
@@ -14,7 +14,7 @@
       map: [ "enum.ToggleableVisuals.Layer" ]
   # End Frontier: layered sprite
   - type: Clothing
-    sprite: Objects/Specific/Chemistry/chem_bag.rsi
+    sprite: /Objects/Specific/Chemistry/chem_bag.rsi
     quickEquip: false
     slots:
     - belt

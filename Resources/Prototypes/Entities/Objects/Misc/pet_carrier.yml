@@ -7,7 +7,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Items
-    sprite: Objects/Storage/petcarrier.rsi
+    sprite: /Objects/Storage/petcarrier.rsi
     layers:
     - state: pet_carrier_base
       map: ["enum.StorageVisualLayers.Base"]
@@ -17,7 +17,7 @@
       visible: false
       map: ["enum.WeldableLayers.BaseWelded"]
   - type: Icon
-    sprite: Objects/Storage/petcarrier.rsi
+    sprite: /Objects/Storage/petcarrier.rsi
     state: icon
   - type: InteractionOutline
   - type: Physics
@@ -67,7 +67,7 @@
   - type: ItemSlots
   - type: Item
     size: Ginormous
-    sprite: Objects/Storage/petcarrier.rsi
+    sprite: /Objects/Storage/petcarrier.rsi
   - type: Construction
     graph: PetCarrier
     node: petCarrier

@@ -5,9 +5,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/goblin_robe_hood.rsi
+    sprite: /_NF/Clothing/Head/Hoods/goblin_robe_hood.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/goblin_robe_hood.rsi
+    sprite: /_NF/Clothing/Head/Hoods/goblin_robe_hood.rsi
 
 - type: entity
   parent: ClothingHeadEVAHelmetBase
@@ -17,6 +17,6 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/goblin_eva_hood.rsi
+    sprite: /_NF/Clothing/Head/Helmets/goblin_eva_hood.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/goblin_eva_hood.rsi
+    sprite: /_NF/Clothing/Head/Helmets/goblin_eva_hood.rsi

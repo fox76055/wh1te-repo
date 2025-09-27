@@ -9,7 +9,7 @@
         - VehicleKey
         - SkeletonMotorcycleKeys
     - type: Sprite
-      sprite: Objects/Vehicles/motorbike.rsi
+      sprite: /Objects/Vehicles/motorbike.rsi
       state: keys
 
 - type: entity
@@ -23,7 +23,7 @@
     - VehicleKey
     - HoverbikeKeys
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
     state: keys
   - type: StaticPrice
     price: 50

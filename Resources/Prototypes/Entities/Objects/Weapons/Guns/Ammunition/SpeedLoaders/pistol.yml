@@ -14,7 +14,7 @@
         - CartridgePistol
     capacity: 6
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol/pistol_speed_loader.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol/pistol_speed_loader.rsi
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

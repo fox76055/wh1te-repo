@@ -5,9 +5,9 @@
   description: Cute bunny ears.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/bunny.rsi
+    sprite: /Clothing/Head/Misc/bunny.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/bunny.rsi
+    sprite: /Clothing/Head/Misc/bunny.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -16,9 +16,9 @@
   description: You put the cake on your head. Brilliant.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/cake.rsi
+    sprite: /Clothing/Head/Misc/cake.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/cake.rsi
+    sprite: /Clothing/Head/Misc/cake.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -27,9 +27,9 @@
   description: "It's a chicken head. Bok bok bok!"
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/chickenhead.rsi
+    sprite: /Clothing/Head/Misc/chickenhead.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/chickenhead.rsi
+    sprite: /Clothing/Head/Misc/chickenhead.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: HideLayerClothing
@@ -45,9 +45,9 @@
   description: A wreath of colourful flowers. Can be worn both on head and neck.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/flower-wreath.rsi
+    sprite: /Clothing/Head/Misc/flower-wreath.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/flower-wreath.rsi
+    sprite: /Clothing/Head/Misc/flower-wreath.rsi
     slots:
     - HEAD
     - neck
@@ -62,9 +62,9 @@
   description: A jack o' lantern! Believed to ward off evil spirits.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/pumpkin.rsi
+    sprite: /Clothing/Head/Misc/pumpkin.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/pumpkin.rsi
+    sprite: /Clothing/Head/Misc/pumpkin.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: PointLight
@@ -93,9 +93,9 @@
   description: A foppish article, fit for but the most conspicuous of dandies. # Frontier: "To be honest, those look ridiculous."
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Misc/pwig.rsi # Frontier: add _NF prefix
+    sprite: /_NF/Clothing/Head/Misc/pwig.rsi # Frontier: add _NF prefix
   - type: Clothing
-    sprite: _NF/Clothing/Head/Misc/pwig.rsi # Frontier: add _NF prefix
+    sprite: /_NF/Clothing/Head/Misc/pwig.rsi # Frontier: add _NF prefix
   - type: HideLayerClothing
     slots:
     - HeadTop
@@ -107,9 +107,9 @@
   description: I doubt even the CMO knows how to use this thing.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/head_mirror.rsi
+    sprite: /Clothing/Head/Misc/head_mirror.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/head_mirror.rsi
+    sprite: /Clothing/Head/Misc/head_mirror.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -118,9 +118,9 @@
   description: 'Do you like hurting people?'
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/richard.rsi
+    sprite: /Clothing/Head/Misc/richard.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/richard.rsi
+    sprite: /Clothing/Head/Misc/richard.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: HideLayerClothing
@@ -137,9 +137,9 @@
   description: 'Best paired with the Skub Suit.'
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/skubhead.rsi
+    sprite: /Clothing/Head/Misc/skubhead.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/skubhead.rsi
+    sprite: /Clothing/Head/Misc/skubhead.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: HideLayerClothing
@@ -155,9 +155,9 @@
   description: The tag reads "All proceeds go to the Hakurei Shrine."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
+    sprite: /Clothing/Head/Misc/shrine-maidens-wig.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
+    sprite: /Clothing/Head/Misc/shrine-maidens-wig.rsi
   - type: Tag
     tags:
     - HamsterWearable
@@ -175,9 +175,9 @@
   description: This cone is trying to warn you of something!
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/cone.rsi
+    sprite: /Clothing/Head/Misc/cone.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/cone.rsi
+    sprite: /Clothing/Head/Misc/cone.rsi
   - type: Item
     storedRotation: 0
   - type: PhysicalComposition #you can't just pass up some free plastic!
@@ -193,9 +193,9 @@
   description: It smells like dead rat. Lets you speak like one!
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/fancycrown.rsi
+    sprite: /Clothing/Head/Misc/fancycrown.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/fancycrown.rsi
+    sprite: /Clothing/Head/Misc/fancycrown.rsi
   - type: TypingIndicatorClothing
     proto: regal
  # - type: MobPrice # Frontier - remove Mobprice
@@ -215,9 +215,9 @@
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: Sprite
-    sprite: Clothing/Head/Hats/catears.rsi
+    sprite: /Clothing/Head/Hats/catears.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/catears.rsi
+    sprite: /Clothing/Head/Hats/catears.rsi
   - type: AddAccentClothing
     accent: OwOAccent
 
@@ -237,9 +237,9 @@
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: Sprite
-    sprite: Clothing/Head/Hats/catears.rsi
+    sprite: /Clothing/Head/Hats/catears.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/catears.rsi
+    sprite: /Clothing/Head/Hats/catears.rsi
   - type: AddAccentClothing
     accent: OwOAccent
 
@@ -257,9 +257,9 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/dogears.rsi
+    sprite: /Clothing/Head/Hats/dogears.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/dogears.rsi
+    sprite: /Clothing/Head/Hats/dogears.rsi
   - type: AddAccentClothing
     accent: BarkAccent
 
@@ -270,9 +270,9 @@
   description: "Scare your friends with this eldritch mask."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/squiddy.rsi
+    sprite: /Clothing/Head/Misc/squiddy.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/squiddy.rsi
+    sprite: /Clothing/Head/Misc/squiddy.rsi
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: HideLayerClothing
@@ -289,9 +289,9 @@
   description: Fluffy hat of red racoon!
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/red_racoon.rsi
+    sprite: /Clothing/Head/Misc/red_racoon.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/red_racoon.rsi
+    sprite: /Clothing/Head/Misc/red_racoon.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -306,10 +306,10 @@
   description: Makes 8-eyed friends 8 times more adorable!
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/waterdroplet.rsi
+    sprite: /Clothing/Head/Misc/waterdroplet.rsi
     state: icon
   - type: Item
-    sprite: Clothing/Head/Misc/waterdroplet.rsi
+    sprite: /Clothing/Head/Misc/waterdroplet.rsi
     size: Tiny
     storedRotation: -90
   - type: Clothing
@@ -364,9 +364,9 @@
   description: A beautiful hairflower that can be inserted between locks of hair.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/hairflower.rsi
+    sprite: /Clothing/Head/Misc/hairflower.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/hairflower.rsi
+    sprite: /Clothing/Head/Misc/hairflower.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -375,9 +375,9 @@
   description: On a closer inspection, it appears that it is made from optic fiber.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/performer-wig.rsi
+    sprite: /Clothing/Head/Misc/performer-wig.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/performer-wig.rsi
+    sprite: /Clothing/Head/Misc/performer-wig.rsi
   - type: HideLayerClothing
     slots:
     - Hair

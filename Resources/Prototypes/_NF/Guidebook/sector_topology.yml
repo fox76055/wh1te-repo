@@ -5,5 +5,5 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Guidebook/large_icons/128x96.rsi
+    sprite: /_NF/Guidebook/large_icons/128x96.rsi
     state: sector_map

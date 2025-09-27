@@ -7,7 +7,7 @@
   components:
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+    sprite: /Objects/Consumable/Food/Baked/donkpocket.rsi
   - type: SolutionContainerManager
     solutions:
       food:

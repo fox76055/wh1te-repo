@@ -11,18 +11,18 @@
             - tag: PowerCellSmall
               name: construction-graph-tag-power-cell-small
               icon:
-                sprite: Objects/Power/power_cells.rsi
+                sprite: /Objects/Power/power_cells.rsi
                 state: small
             - tag: Handcuffs
               icon:
-                sprite: Objects/Misc/cablecuffs.rsi
+                sprite: /Objects/Misc/cablecuffs.rsi
                 state: cuff
                 color: red
               name: construction-graph-tag-cuffs
             - tag: Igniter
               name: construction-graph-tag-igniter
               icon:
-                sprite: Objects/Devices/igniter.rsi
+                sprite: /Objects/Devices/igniter.rsi
                 state: icon
               doAfter: 15
     - node: msstunprod

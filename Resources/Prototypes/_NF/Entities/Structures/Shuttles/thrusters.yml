@@ -14,7 +14,7 @@
   - type: ApcPowerReceiver
     powerLoad: 500
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/thruster.rsi
+    sprite: /_NF/Structures/Shuttles/thruster.rsi
     layers:
     - state: base_small
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -57,7 +57,7 @@
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi
     layers:
     - state: base_small
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -96,7 +96,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/thruster.rsi
+    sprite: /_NF/Structures/Shuttles/thruster.rsi
     layers: &secThrusterLayers
     - state: base_sec
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -127,7 +127,7 @@
   suffix: DEBUG, Security
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/thruster.rsi
+    sprite: /_NF/Structures/Shuttles/thruster.rsi
     layers: *secThrusterLayers
   - type: Destructible
     thresholds: *secDestructibleThresholds
@@ -144,7 +144,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi
     layers: &secGyroLayers
     - state: base_sec
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -169,7 +169,7 @@
   suffix: DEBUG, Security
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi
     layers: *secGyroLayers
   - type: Machine
     board: GyroscopeSecurityMachineCircuitboard
@@ -191,7 +191,7 @@
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi
     layers:
     - state: base_small_sec
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -220,7 +220,7 @@
   suffix: NFSD
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/thruster.rsi
+    sprite: /_NF/Structures/Shuttles/thruster.rsi
     layers: &nfsdThrusterLayers
     - state: base_nfsd
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -242,7 +242,7 @@
   suffix: DEBUG, NFSD
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/thruster.rsi
+    sprite: /_NF/Structures/Shuttles/thruster.rsi
     layers: *nfsdThrusterLayers
   - type: Machine
     board: ThrusterNfsdMachineCircuitboard
@@ -253,7 +253,7 @@
   suffix: NFSD
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi
     layers: &nfsdGyroLayers
     - state: base_nfsd
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -277,7 +277,7 @@
   suffix: DEBUG, NFSD
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi
     layers: *nfsdGyroLayers
     snapCardinals: true
   - type: Machine
@@ -290,7 +290,7 @@
   suffix: NFSD
   components:
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi
     layers:
     - state: base_small_nfsd
       map: ["enum.ThrusterVisualLayers.Base"]

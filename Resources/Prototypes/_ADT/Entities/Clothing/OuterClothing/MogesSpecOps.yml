@@ -6,9 +6,9 @@
   description: Reptiles are not as primitive as you thought.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -39,9 +39,9 @@
   description: Very secretive and smells very sugary
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/nano_scale_armor_chameleon.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.6
     lowPressureMultiplier: 1000

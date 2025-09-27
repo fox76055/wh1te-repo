@@ -8,7 +8,7 @@
   markingCategory: Hair
   speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: burqasolid
 
 - type: marking
@@ -17,7 +17,7 @@
   markingCategory: Hair
   speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: hijabchic
 
 - type: marking
@@ -26,7 +26,7 @@
   markingCategory: Hair
   speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: hijabsimple
 
 - type: marking
@@ -35,7 +35,7 @@
   markingCategory: Hair
   speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: niqab
 
 - type: marking
@@ -44,7 +44,7 @@
   markingCategory: Hair
   speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: tichelfashionable
 
 - type: marking
@@ -53,7 +53,7 @@
   markingCategory: Hair
   speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: tichelsimple
 
 #lizard
@@ -63,7 +63,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: burqalizard
 
 - type: marking
@@ -72,7 +72,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: hijabchic
 
 - type: marking
@@ -81,7 +81,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: hijabsimple
 
 - type: marking
@@ -90,7 +90,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: niqablizard
 
 - type: marking
@@ -99,7 +99,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: tichelsimple
 
 - type: marking
@@ -108,7 +108,7 @@
   markingCategory: HeadSide
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: tichelfashionable
 
 #vox
@@ -118,7 +118,7 @@
   markingCategory: Hair
   speciesRestriction: [Vox]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: hijabsimplevox
 
 - type: marking
@@ -127,7 +127,7 @@
   markingCategory: Hair
   speciesRestriction: [Vox]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: hijabchicvox
 
 - type: marking
@@ -136,7 +136,7 @@
   markingCategory: Hair
   speciesRestriction: [Vox]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: tichelsimplevox
 
 - type: marking
@@ -145,5 +145,5 @@
   markingCategory: Hair
   speciesRestriction: [Vox]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/headcovers.rsi
+  - sprite: /_Impstation/Mobs/Customization/headcovers.rsi
     state: tichelfashionablevox

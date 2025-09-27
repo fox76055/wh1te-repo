@@ -4,7 +4,7 @@
   id: NFVehicleATV
   components:
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/atv.rsi
+    sprite: /_NF/Objects/Vehicles/atv.rsi
     layers:
     - state: hull
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -53,7 +53,7 @@
         whitelist:
           components:
             - Storage
-    sprite: _NF/Objects/Vehicles/atv.rsi
+    sprite: /_NF/Objects/Vehicles/atv.rsi
   - type: UnpoweredFlashlight
   - type: PointLight
     enabled: false
@@ -80,7 +80,7 @@
       hornSound:
         collection: NFGuitarRiffs
     - type: Sprite
-      sprite: Objects/Vehicles/motorbike.rsi
+      sprite: /Objects/Vehicles/motorbike.rsi
       layers:
         - state: vehicle
           map: ["enum.VehicleVisualLayers.AutoAnimate"]
@@ -146,7 +146,7 @@
       params:
         variation: 0.125
   - type: Sprite
-    sprite: Objects/Vehicles/unicycle.rsi
+    sprite: /Objects/Vehicles/unicycle.rsi
     layers:
     - state: vehicle
       map: ["enum.VehicleVisualLayers.AutoAnimate", "unfoldedLayer"]
@@ -193,7 +193,7 @@
   name: destroyed janicart
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/janicart.rsi
+    sprite: /Objects/Vehicles/janicart.rsi
     state: destroyed
 
 #region hoverbike
@@ -217,7 +217,7 @@
     baseWalkSpeed: 4.5
     baseSprintSpeed: 7
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
     layers:
     - state: hull
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -260,7 +260,7 @@
         whitelist:
           components:
             - Storage
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
   - type: Appearance
   - type: PointLight
     radius: 7
@@ -371,7 +371,7 @@
         whitelist:
           tags:
             - TrashBag
-    sprite: Objects/Vehicles/janicart.rsi
+    sprite: /Objects/Vehicles/janicart.rsi
   - type: Appearance
   - type: Spillable
     solution: bucket
@@ -474,7 +474,7 @@
     volume: 5
     enabled: false
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
     layers:
     - state: hull
       color: "#8fd3ff"
@@ -510,7 +510,7 @@
         whitelist:
           components:
             - Gun
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
   - type: Appearance
   - type: PointLight
     enabled: false
@@ -569,7 +569,7 @@
     baseWalkSpeed: 4.3
     baseSprintSpeed: 6.8
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
     layers:
     - state: hull
       color: "#49633d"
@@ -605,7 +605,7 @@
         whitelist:
           components:
             - Stunbaton
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
   - type: Appearance
   - type: RotatingLight
     speed: 190
@@ -661,7 +661,7 @@
     - 0,0,5,3
     maxItemSize: Huge
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
     layers:
     - state: hull
       color: "#3d2712"
@@ -697,7 +697,7 @@
         whitelist:
           components:
             - Gun
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
   - type: Appearance
   - type: Tag
     tags:
@@ -746,7 +746,7 @@
     grid:
     - 0,0,8,4
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
     layers:
     - state: hull
       color: "#b51e0e"
@@ -782,7 +782,7 @@
         whitelist:
           components:
             - Gun
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: /_NF/Objects/Vehicles/hoverbike.rsi
   - type: Appearance
   - type: PointLight
     enabled: false
@@ -851,18 +851,18 @@
       params:
         variation: 0.125
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/dumpster.rsi
+    sprite: /_NF/Objects/Vehicles/dumpster.rsi
     layers:
     - state: dumpster
       map: ["enum.VehicleVisualLayers.AutoAnimate"]
-    - sprite: _NF/Structures/Storage/magnetbox.rsi
+    - sprite: /_NF/Structures/Storage/magnetbox.rsi
       state: controller
-    - sprite: _NF/Structures/Storage/magnetbox.rsi
+    - sprite: /_NF/Structures/Storage/magnetbox.rsi
       state: controller-on
       visible: False
       map: [ "enum.ToggleableVisuals.Layer" ]
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: MovementSpeedModifier

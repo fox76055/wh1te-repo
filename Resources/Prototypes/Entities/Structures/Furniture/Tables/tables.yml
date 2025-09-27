@@ -6,9 +6,9 @@
   description: Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/frame.rsi
+    sprite: /Structures/Furniture/Tables/frame.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/frame.rsi
+    sprite: /Structures/Furniture/Tables/frame.rsi
     state: full
   - type: Fixtures
     fixtures:
@@ -63,9 +63,9 @@
   components:
   - type: SpriteFade
   - type: Sprite
-    sprite: Structures/Furniture/Tables/frame.rsi
+    sprite: /Structures/Furniture/Tables/frame.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/frame.rsi
+    sprite: /Structures/Furniture/Tables/frame.rsi
     state: full
   - type: Fixtures
     fixtures:
@@ -120,9 +120,9 @@
   description: Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/frame.rsi
+    sprite: /Structures/Furniture/Tables/frame.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/frame.rsi
+    sprite: /Structures/Furniture/Tables/frame.rsi
     state: full
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -165,9 +165,9 @@
   description: A square piece of metal standing on four metal legs.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/generic.rsi
+    sprite: /Structures/Furniture/Tables/generic.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/generic.rsi
+    sprite: /Structures/Furniture/Tables/generic.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic
@@ -209,9 +209,9 @@
   description: A square piece of metal standing on four metal legs. Extra robust.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/reinforced.rsi
+    sprite: /Structures/Furniture/Tables/reinforced.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/reinforced.rsi
+    sprite: /Structures/Furniture/Tables/reinforced.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -256,9 +256,9 @@
   description: A square piece of glass, standing on four metal legs.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/glass.rsi
+    sprite: /Structures/Furniture/Tables/glass.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/glass.rsi
+    sprite: /Structures/Furniture/Tables/glass.rsi
   - type: GlassTable
     climberDamage:
       types:
@@ -310,9 +310,9 @@
   description: A square piece of glass, standing on four metal legs. Extra robust.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/r_glass.rsi
+    sprite: /Structures/Furniture/Tables/r_glass.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/r_glass.rsi
+    sprite: /Structures/Furniture/Tables/r_glass.rsi
   - type: GlassTable
     climberDamage:
       types:
@@ -367,9 +367,9 @@
   description: A square piece of plasma glass, standing on four metal legs. Pretty!
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/plasma.rsi
+    sprite: /Structures/Furniture/Tables/plasma.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/plasma.rsi
+    sprite: /Structures/Furniture/Tables/plasma.rsi
   - type: GlassTable
     climberDamage:
       types:
@@ -424,9 +424,9 @@
   description: A shiny, corrosion resistant brass table. Steampunk!
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/brass.rsi
+    sprite: /Structures/Furniture/Tables/brass.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/brass.rsi
+    sprite: /Structures/Furniture/Tables/brass.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic
@@ -467,9 +467,9 @@
   description: Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/wood.rsi
+    sprite: /Structures/Furniture/Tables/wood.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/wood.rsi
+    sprite: /Structures/Furniture/Tables/wood.rsi
   - type: Damageable
     damageModifierSet: Wood
   - type: Destructible
@@ -516,9 +516,9 @@
   description: Play em' cowboy.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/carpet.rsi
+    sprite: /Structures/Furniture/Tables/carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/carpet.rsi
+    sprite: /Structures/Furniture/Tables/carpet.rsi
   - type: Damageable
     damageModifierSet: Wood
   - type: Destructible
@@ -568,9 +568,9 @@
   description: Literally the sturdiest thing you have ever seen.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/stone.rsi
+    sprite: /Structures/Furniture/Tables/stone.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/stone.rsi
+    sprite: /Structures/Furniture/Tables/stone.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -597,9 +597,9 @@
   - type: Damageable
     damageModifierSet: Web
   - type: Sprite
-    sprite: Structures/Furniture/Tables/web.rsi
+    sprite: /Structures/Furniture/Tables/web.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/web.rsi
+    sprite: /Structures/Furniture/Tables/web.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -667,9 +667,9 @@
   suffix: Blue
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/blue.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/blue.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/blue.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/blue.rsi
   - type: Construction
     graph: Table
     node: TableFancyBlue
@@ -682,9 +682,9 @@
   suffix: Cyan
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/cyan.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/cyan.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/cyan.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/cyan.rsi
   - type: Construction
     graph: Table
     node: TableFancyCyan
@@ -697,9 +697,9 @@
   suffix: Black
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/black.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/black.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/black.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/black.rsi
   - type: Construction
     graph: Table
     node: TableFancyBlack
@@ -712,9 +712,9 @@
   suffix: Red
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/red.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/red.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/red.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/red.rsi
   - type: Construction
     graph: Table
     node: TableFancyRed
@@ -727,9 +727,9 @@
   suffix: Purple
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/purple.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/purple.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/purple.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/purple.rsi
   - type: Construction
     graph: Table
     node: TableFancyPurple
@@ -742,9 +742,9 @@
   suffix: Pink
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/pink.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/pink.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/pink.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/pink.rsi
   - type: Construction
     graph: Table
     node: TableFancyPink
@@ -757,9 +757,9 @@
   suffix: Green
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/green.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/green.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/green.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/green.rsi
   - type: Construction
     graph: Table
     node: TableFancyGreen
@@ -772,9 +772,9 @@
   suffix: Orange
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/orange.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/orange.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/orange.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/orange.rsi
   - type: Construction
     graph: Table
     node: TableFancyOrange
@@ -787,9 +787,9 @@
   suffix: White
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/Fancy/white.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/white.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/Fancy/white.rsi
+    sprite: /Structures/Furniture/Tables/Fancy/white.rsi
   - type: Construction
     graph: Table
     node: TableFancyWhite
@@ -809,9 +809,9 @@
     tags:
       - Debug
   - type: Sprite
-    sprite: Structures/Furniture/Tables/debug.rsi
+    sprite: /Structures/Furniture/Tables/debug.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/debug.rsi
+    sprite: /Structures/Furniture/Tables/debug.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -830,9 +830,9 @@
   description: Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/counterwood.rsi
+    sprite: /Structures/Furniture/Tables/counterwood.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/counterwood.rsi
+    sprite: /Structures/Furniture/Tables/counterwood.rsi
     state: full
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -876,9 +876,9 @@
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/countermetal.rsi
+    sprite: /Structures/Furniture/Tables/countermetal.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/countermetal.rsi
+    sprite: /Structures/Furniture/Tables/countermetal.rsi
     state: full
   - type: Damageable
     damageContainer: StructuralInorganic

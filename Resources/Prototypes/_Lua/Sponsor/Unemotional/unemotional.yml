@@ -13,7 +13,7 @@
   description: Плащ разработанный компанией "deFo".
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/cloak.rsi
+    sprite: /_Lua/Sponsor/unemotional/cloak.rsi
 
 # Jumpsuit
 - type: entity
@@ -24,9 +24,9 @@
   description: Комбинезон разработанный компанией "deFo".
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/jumpsuit.rsi
+    sprite: /_Lua/Sponsor/unemotional/jumpsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/unemotional/jumpsuit.rsi
+    sprite: /_Lua/Sponsor/unemotional/jumpsuit.rsi
 
 # Magboots
 - type: entity
@@ -37,12 +37,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: _Lua/Sponsor/unemotional/magboots.rsi
+      sprite: /_Lua/Sponsor/unemotional/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleableVisuals.Layer" ]
     - type: Clothing
-      sprite: _Lua/Sponsor/unemotional/magboots.rsi
+      sprite: /_Lua/Sponsor/unemotional/magboots.rsi
     - type: GasTank
       outputPressure: 42.6
       air:
@@ -78,9 +78,9 @@
   description: Визор разработанный компанией "deFO".
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/hud.rsi
+    sprite: /_Lua/Sponsor/unemotional/hud.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/unemotional/hud.rsi
+    sprite: /_Lua/Sponsor/unemotional/hud.rsi
   - type: ShowHealthBars
     damageContainers:
     - Biological
@@ -100,9 +100,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/belt.rsi
+    sprite: /_Lua/Sponsor/unemotional/belt.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/unemotional/belt.rsi
+    sprite: /_Lua/Sponsor/unemotional/belt.rsi
   - type: Storage
     grid:
       - 0,0,9,1
@@ -128,9 +128,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/gloves.rsi
+    sprite: /_Lua/Sponsor/unemotional/gloves.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/unemotional/gloves.rsi
+    sprite: /_Lua/Sponsor/unemotional/gloves.rsi
   - type: Item
     size: Tiny
 
@@ -143,9 +143,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/gasmask.rsi
+    sprite: /_Lua/Sponsor/unemotional/gasmask.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/unemotional/gasmask.rsi
+    sprite: /_Lua/Sponsor/unemotional/gasmask.rsi
 
 # Hardsuit
 - type: entity
@@ -156,9 +156,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/hardsuit.rsi
+    sprite: /_Lua/Sponsor/unemotional/hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/unemotional/hardsuit.rsi
+    sprite: /_Lua/Sponsor/unemotional/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitdeFOA
   - type: ContainerContainer
@@ -200,9 +200,9 @@
   description: Изготовлено на заказ компанией "deFo".
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/helmet.rsi
+    sprite: /_Lua/Sponsor/unemotional/helmet.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/unemotional/helmet.rsi
+    sprite: /_Lua/Sponsor/unemotional/helmet.rsi
   - type: PointLight
     radius: 7
     energy: 3
@@ -266,7 +266,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/unemotional/backpack.rsi
+    sprite: /_Lua/Sponsor/unemotional/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:

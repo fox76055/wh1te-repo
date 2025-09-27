@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_snack.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_snack.yml
 # Base
 
 - type: entity
@@ -8,7 +8,7 @@
   components:
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/frozen.rsi
+    sprite: /Objects/Consumable/Food/frozen.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -359,7 +359,7 @@
   description: A crumpled paper cone used for an icy treat. Worthless.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/frozen.rsi
+    sprite: /Objects/Consumable/Food/frozen.rsi
     state: cone-trash
   - type: Tag
     tags:
@@ -375,7 +375,7 @@
   description: Once held a delicious treat. Now, 'tis barren.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/frozen.rsi
+    sprite: /Objects/Consumable/Food/frozen.rsi
     layers:
       - state: stick
         map: [ "enum.DamageStateVisualLayers.Base" ]

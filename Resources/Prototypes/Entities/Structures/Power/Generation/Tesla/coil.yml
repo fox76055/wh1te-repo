@@ -21,7 +21,7 @@
         layer:
         - MachineLayer
   - type: Sprite
-    sprite: Structures/Power/Generation/Tesla/coil.rsi
+    sprite: /Structures/Power/Generation/Tesla/coil.rsi
     snapCardinals: true
     noRot: true
     layers:
@@ -53,7 +53,7 @@
     group: Generator
     loadNode: input
     collectionName: teslaCoil
-    sprite: Structures/Power/Generation/Tesla/coil.rsi
+    sprite: /Structures/Power/Generation/Tesla/coil.rsi
     state: coil
   - type: Battery
     maxCharge: 5000000
@@ -84,7 +84,7 @@
     damageDivisor: 3.333
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Power/Generation/Tesla/coil_cracks.rsi
+      sprite: /Structures/Power/Generation/Tesla/coil_cracks.rsi
   - type: Destructible
     thresholds:
       - trigger: # Excess damage, don't spawn entities
@@ -138,7 +138,7 @@
         layer:
         - MachineLayer
   - type: Sprite
-    sprite: Structures/Power/Generation/Tesla/coil.rsi
+    sprite: /Structures/Power/Generation/Tesla/coil.rsi
     noRot: true
     snapCardinals: true
     layers:
@@ -179,7 +179,7 @@
     damageDivisor: 3.333
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Power/Generation/Tesla/groundingrod_cracks.rsi
+      sprite: /Structures/Power/Generation/Tesla/groundingrod_cracks.rsi
   - type: Destructible
     thresholds:
       - trigger: # Excess damage, don't spawn entities

@@ -10,7 +10,7 @@
   description: Уменьшенный инъектор, содержащий дозу стимулятора на около пятнадцати секунд.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/medipen.rsi
+    sprite: /Objects/Specific/Medical/medipen.rsi
     layers:
     - state: microstimpen
       map: ["enum.SolutionContainerLayers.Fill"]

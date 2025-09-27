@@ -5,9 +5,9 @@
   description: A pair of rubber flippers that improves swimming ability when worn.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/flippers.rsi
+    sprite: /Clothing/Shoes/Misc/flippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/flippers.rsi
+    sprite: /Clothing/Shoes/Misc/flippers.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -16,9 +16,9 @@
   description: Very stylish pair of boots, made from fine leather.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/leather.rsi
+    sprite: /Clothing/Shoes/Misc/leather.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/leather.rsi
+    sprite: /Clothing/Shoes/Misc/leather.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -27,9 +27,9 @@
   description: Fluffy!
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/slippers.rsi
+    sprite: /Clothing/Shoes/Misc/slippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/slippers.rsi
+    sprite: /Clothing/Shoes/Misc/slippers.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -38,9 +38,9 @@
   description: You wish these made quacking sounds as you walked. It's a good thing they don't, though.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/duck-slippers.rsi
+    sprite: /Clothing/Shoes/Misc/duck-slippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/duck-slippers.rsi
+    sprite: /Clothing/Shoes/Misc/duck-slippers.rsi
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepDuck
@@ -66,9 +66,9 @@
   description: An adorable pair of slippers that resemble a lizardperson. Combine this with some other green clothing and you'll be the coolest crewmember on the station!
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/lizard-slippers.rsi
+    sprite: /Clothing/Shoes/Misc/lizard-slippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/lizard-slippers.rsi
+    sprite: /Clothing/Shoes/Misc/lizard-slippers.rsi
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepCarpet
@@ -99,9 +99,9 @@
   description: These cheap sandals don't look very comfortable.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/tourist.rsi
+    sprite: /Clothing/Shoes/Misc/tourist.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/tourist.rsi
+    sprite: /Clothing/Shoes/Misc/tourist.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -110,9 +110,9 @@
   description: At last...
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
+    sprite: /Clothing/Shoes/Misc/damedaneshoes.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
+    sprite: /Clothing/Shoes/Misc/damedaneshoes.rsi
 
 - type: entity
   parent: ClothingShoesBase
@@ -121,9 +121,9 @@
   description: Boots made of high-class snakeskin, everyone around you will be jealous.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/snakeskin.rsi
+    sprite: /Clothing/Shoes/Misc/snakeskin.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/snakeskin.rsi
+    sprite: /Clothing/Shoes/Misc/snakeskin.rsi
 #  - type: NoSlip # Frontier
 
 - type: entity
@@ -133,12 +133,12 @@
   description: High-tech boots with interwoven bluespace fibers, able to convert electricity into pure speed! # DeltaV illegal ops
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    sprite: /Clothing/Shoes/Boots/speedboots.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    sprite: /Clothing/Shoes/Boots/speedboots.rsi
   - type: ToggleClothing
     action: ActionToggleSpeedBoots
   - type: ClothingSpeedModifier
@@ -182,11 +182,11 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Boots/moonboots.rsi
+    sprite: /Clothing/Shoes/Boots/moonboots.rsi
     layers:
     - state: icon
   - type: Clothing
-    sprite: Clothing/Shoes/Boots/moonboots.rsi
+    sprite: /Clothing/Shoes/Boots/moonboots.rsi
   - type: AntiGravityClothing
   - type: StaticPrice
     price: 75

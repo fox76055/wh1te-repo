@@ -20,7 +20,7 @@
   - type: StaticPrice
     price: 2000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/vespera.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/vespera.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -68,7 +68,7 @@
   - type: StaticPrice
     price: 7500
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/vanyk-MK2.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/vanyk-MK2.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -114,7 +114,7 @@
   - type: StaticPrice
     price: 5000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/vanyk.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/vanyk.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -172,7 +172,7 @@
   - type: StaticPrice
     price: 10000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/tovek.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/tovek.rsi
     layers:
     - state: space_artillery
   - type: Appearance

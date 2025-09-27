@@ -17,11 +17,11 @@
           category: FacialHair
         - !type:SkinColoring
   sprites:
-  - sprite: _Lua/fox_parts.rsi
+  - sprite: /_Lua/fox_parts.rsi
     state: tail_fox_wag_stripes_prime # AdventureTime-Sponsors
-  - sprite: _Lua/fox_parts.rsi
+  - sprite: /_Lua/fox_parts.rsi
     state: tail_fox_wag_stripes_second # AdventureTime-Sponsors
-  - sprite: _Lua/fox_parts.rsi
+  - sprite: /_Lua/fox_parts.rsi
     state: tail_fox_wag_stripes_third # AdventureTime-Sponsors
 
 # Felinid Ears
@@ -32,9 +32,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: basic_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: basic_inner
 
 - type: marking
@@ -43,9 +43,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: curled_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: curled_inner
 
 - type: marking
@@ -54,9 +54,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: droopy_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: droopy_inner
 
 - type: marking
@@ -65,9 +65,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: basic_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: fuzzy_inner
 
 - type: marking
@@ -76,9 +76,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: stubby_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: stubby_inner
 
 - type: marking
@@ -87,11 +87,11 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: tall_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: tall_inner
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: tall_fuzz
 
 - type: marking
@@ -100,9 +100,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: torn_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: torn_inner
 
 - type: marking
@@ -111,9 +111,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: wide_outer
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: wide_inner
 
 # Felinid Tails
@@ -124,11 +124,11 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_even
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_odd
 
 - type: marking
@@ -137,13 +137,13 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_even
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_odd
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_bow
 
 - type: marking
@@ -152,13 +152,13 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_even
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_odd
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_bell
 
 - type: marking
@@ -167,15 +167,15 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_even
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_odd
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_bow
-  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+  - sprite: /Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_bell
 
 - type: marking
@@ -184,9 +184,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-  - sprite: _DV/Mobs/Customization/Felinid/felinid_tails.rsi
+  - sprite: /_DV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
-  - sprite: _DV/Mobs/Customization/Felinid/felinid_tails.rsi
+  - sprite: /_DV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: felinid_fluffy_tail_rings
 
 - type: marking
@@ -195,7 +195,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-  - sprite: _DV/Mobs/Customization/Felinid/felinid_tails.rsi
+  - sprite: /_DV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
 
 # Tail Markings
@@ -205,9 +205,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp-fade
 
 - type: marking
@@ -216,9 +216,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp-tip
 
 - type: marking
@@ -227,9 +227,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag-tip #fade
 
 - type: marking
@@ -238,9 +238,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag-tip
 
 - type: marking
@@ -249,9 +249,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt-fade
 
 - type: marking
@@ -260,9 +260,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt-tip
 
 - type: marking
@@ -271,9 +271,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: long
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: long-tip
 
 - type: marking
@@ -282,9 +282,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox-fade
 
 - type: marking
@@ -293,9 +293,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox-tip
 
 - type: marking
@@ -304,9 +304,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag-fade
 
 - type: marking
@@ -315,9 +315,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag-tip
 
 - type: marking
@@ -326,7 +326,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: bushfluff
 
 - type: marking
@@ -335,7 +335,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: bushfluff_wag
 
 - type: marking
@@ -344,7 +344,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote
 
 - type: marking
@@ -353,7 +353,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote_wag
 
 - type: marking
@@ -362,7 +362,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: corgi_wag
 
 - type: marking
@@ -371,9 +371,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky-inner
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky-outer
 
 - type: marking
@@ -382,9 +382,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: kitsune_primary
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: kitsune_secondary
 
 - type: marking
@@ -393,7 +393,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: fluffy
 
 - type: marking
@@ -402,7 +402,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: shadowkin_medium
 
 - type: marking
@@ -411,7 +411,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: shadowkin_shorter
 
 - type: marking
@@ -420,7 +420,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: maw
 
 - type: marking
@@ -429,9 +429,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: datashark_ears
-    - sprite: _Lua/tails32x32.rsi
+    - sprite: /_Lua/tails32x32.rsi
       state: datashark_ears_inner
 
 - type: marking
@@ -440,7 +440,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky
 
 - type: marking
@@ -449,7 +449,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox2
 
 - type: marking
@@ -458,9 +458,9 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox3
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox3-tip
 
 - type: marking
@@ -469,7 +469,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fennec
 
 - type: marking
@@ -478,7 +478,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: otie
 
 - type: marking
@@ -487,7 +487,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fluffy
 
 - type: marking
@@ -496,7 +496,7 @@
   markingCategory: Tail
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: dalmatian_wag
 
 # Ears Markings
@@ -506,9 +506,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp-inner
 
 - type: marking
@@ -517,9 +517,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp-fade
 
 - type: marking
@@ -528,9 +528,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp-sharp
 
 - type: marking
@@ -539,9 +539,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: jackal
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: jackal-inner
 
 - type: marking
@@ -550,9 +550,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: terrier
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: terrier-inner
 
 - type: marking
@@ -561,9 +561,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: wolf
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: wolf-inner
 
 - type: marking
@@ -572,9 +572,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fennec
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fennec-inner
 
 - type: marking
@@ -583,7 +583,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fox
 
 - type: marking
@@ -592,9 +592,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: otie
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: otie-inner
 
 - type: marking
@@ -603,9 +603,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: msai
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: msai-inner
 
 - type: marking
@@ -614,7 +614,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: shock
 
 - type: marking
@@ -623,7 +623,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: coyote
 
 - type: marking
@@ -632,5 +632,5 @@
   markingCategory: HeadTop
   speciesRestriction: [Human]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+    - sprite: /_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: dalmatian

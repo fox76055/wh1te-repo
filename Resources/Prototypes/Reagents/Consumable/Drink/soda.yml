@@ -8,7 +8,7 @@
   color: "#6c2828"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/colaglass.rsi
+    sprite: /Objects/Consumable/Drinks/colaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -32,7 +32,7 @@
   flavor: cola
   color: "#262019"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/royrogers.rsi
+    sprite: /Objects/Consumable/Drinks/royrogers.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -61,7 +61,7 @@
   flavor: drgibb
   color: "#102000"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/dr_gibb_glass.rsi
+    sprite: /Objects/Consumable/Drinks/dr_gibb_glass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -108,7 +108,7 @@
   color: "#fffbd6"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/icecreamglass.rsi
+    sprite: /Objects/Consumable/Drinks/icecreamglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -152,7 +152,7 @@
   flavor: rootbeersoda
   color: "#381c07"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/rootbeerglass.rsi
+    sprite: /Objects/Consumable/Drinks/rootbeerglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -167,7 +167,7 @@
   flavor: rootbeerfloat
   color: "#4f361f"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/rootbeerfloatglass.rsi
+    sprite: /Objects/Consumable/Drinks/rootbeerfloatglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 7
   metamorphicFillBaseName: fill-
@@ -183,7 +183,7 @@
   flavor: gingersoda
   color: "#ccb87e"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/sol_dry_glass.rsi
+    sprite: /Objects/Consumable/Drinks/sol_dry_glass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -198,7 +198,7 @@
   flavor: sweet
   color: "#af2221"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/shirleytemple.rsi
+    sprite: /Objects/Consumable/Drinks/shirleytemple.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -218,7 +218,7 @@
   flavor: sodacitrus
   color: "#a6fa5a"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/space_mountain_wind_glass.rsi
+    sprite: /Objects/Consumable/Drinks/space_mountain_wind_glass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -233,7 +233,7 @@
   flavor: spaceup
   color: "#e3e3e37d"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/space-up_glass.rsi
+    sprite: /Objects/Consumable/Drinks/space-up_glass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -257,7 +257,7 @@
   flavor: fourteenlokosoda
   color: "#deb928"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/fourteen_loko_glass.rsi
+    sprite: /Objects/Consumable/Drinks/fourteen_loko_glass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-

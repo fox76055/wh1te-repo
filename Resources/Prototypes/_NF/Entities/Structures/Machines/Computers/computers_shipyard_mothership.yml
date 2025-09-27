@@ -27,7 +27,7 @@
   name: empress shipyard console
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -65,7 +65,7 @@
   name: caladrius shipyard console
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_medical

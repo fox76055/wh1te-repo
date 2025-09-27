@@ -5,9 +5,9 @@
   suffix: RMC
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Melee/fireaxe.rsi
+    sprite: /_RMC14/Objects/Weapons/Melee/fireaxe.rsi
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Melee/fireaxe.rsi
+    sprite: /_RMC14/Objects/Weapons/Melee/fireaxe.rsi
   - type: MeleeWeapon
     damage:
       types:

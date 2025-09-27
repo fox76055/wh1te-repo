@@ -6,10 +6,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Mobs/Species/Human/parts.rsi
+    - sprite: /Mobs/Species/Human/parts.rsi
       state: full
       rotation: 90
   - type: RandomHumanoidSpawner

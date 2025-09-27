@@ -6,7 +6,7 @@
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/pipebomb.rsi
+    sprite: /Objects/Weapons/Bombs/pipebomb.rsi
     layers:
     - state: base
       map: ["enum.TriggerVisualLayers.Base"]
@@ -41,7 +41,7 @@
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/pipebomb.rsi
+    sprite: /Objects/Weapons/Bombs/pipebomb.rsi
     state: base
   - type: Construction
     graph: PipeBomb
@@ -57,7 +57,7 @@
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/pipebomb.rsi
+    sprite: /Objects/Weapons/Bombs/pipebomb.rsi
     state: base
   - type: Construction
     graph: PipeBomb

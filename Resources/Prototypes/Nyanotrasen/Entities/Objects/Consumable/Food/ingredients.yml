@@ -12,7 +12,7 @@
       - cheesy
       - creamy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/cheese.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/cheese.rsi
     state: curdcheese
   - type: SolutionContainerManager
     solutions:
@@ -34,7 +34,7 @@
     flavors:
       - cheesy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/cheese.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/cheese.rsi
     state: cheesecurds
   - type: SolutionContainerManager
     solutions:
@@ -55,7 +55,7 @@
     flavors:
       - cheesy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/cheese.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/cheese.rsi
     state: mozzarella
   - type: SolutionContainerManager
     solutions:

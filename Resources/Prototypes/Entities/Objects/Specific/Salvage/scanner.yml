@@ -6,7 +6,7 @@
   suffix: Always Powered
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mining/mineral_scanner.rsi
+    sprite: /Objects/Specific/Mining/mineral_scanner.rsi
     layers:
     - state: icon
     - state: icon-o

@@ -68,7 +68,7 @@
       state: rock_asteroid_north
     - map: [ "enum.EdgeLayer.West" ]
       state: rock_asteroid_west
-    - sprite: _NF/Structures/Walls/rock.rsi
+    - sprite: /_NF/Structures/Walls/rock.rsi
       state: rock_bluespace
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -92,7 +92,7 @@
         state: ironrock_north
       - map: [ "enum.EdgeLayer.West" ]
         state: ironrock_west
-      - sprite: _NF/Structures/Walls/rock.rsi
+      - sprite: /_NF/Structures/Walls/rock.rsi
         state: rock_bluespace
         map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -123,7 +123,7 @@
         state: rock_north
       - map: [ "enum.EdgeLayer.West" ]
         state: rock_west
-      - sprite: _NF/Structures/Walls/rock.rsi
+      - sprite: /_NF/Structures/Walls/rock.rsi
         state: rock_bluespace
         map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -147,7 +147,7 @@
         state: rock_wall_north
       - map: [ "enum.EdgeLayer.West" ]
         state: rock_wall_west
-      - sprite: _NF/Structures/Walls/rock.rsi
+      - sprite: /_NF/Structures/Walls/rock.rsi
         state: rock_bluespace
         map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -171,7 +171,7 @@
         state: rock_snow_north
       - map: [ "enum.EdgeLayer.West" ]
         state: rock_snow_west
-      - sprite: _NF/Structures/Walls/rock.rsi
+      - sprite: /_NF/Structures/Walls/rock.rsi
         state: rock_bluespace
         map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -195,7 +195,7 @@
         state: rock_sand_north
       - map: [ "enum.EdgeLayer.West" ]
         state: rock_sand_west
-      - sprite: _NF/Structures/Walls/rock.rsi
+      - sprite: /_NF/Structures/Walls/rock.rsi
         state: rock_bluespace
         map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -219,7 +219,7 @@
         state: rock_chromite_north
       - map: [ "enum.EdgeLayer.West" ]
         state: rock_chromite_west
-      - sprite: _NF/Structures/Walls/rock.rsi
+      - sprite: /_NF/Structures/Walls/rock.rsi
         state: rock_bluespace
         map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -243,7 +243,7 @@
         state: rock_andesite_north
       - map: [ "enum.EdgeLayer.West" ]
         state: rock_andesite_west
-      - sprite: _NF/Structures/Walls/rock.rsi
+      - sprite: /_NF/Structures/Walls/rock.rsi
         state: rock_bluespace
         map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 # endregion Ore
@@ -260,10 +260,10 @@
     oreChance: 1.0
     currentOre: NFOreScrap
   - type: Icon
-    sprite: _NF/Structures/Walls/rock.rsi
+    sprite: /_NF/Structures/Walls/rock.rsi
     state: scraprock01
   - type: Sprite
-    sprite: _NF/Structures/Walls/rock.rsi
+    sprite: /_NF/Structures/Walls/rock.rsi
     layers:
     - state: scraprock01
       map: [ "scraprock_variant" ]
@@ -313,7 +313,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_coal
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -342,7 +342,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_gold
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -371,7 +371,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_diamond
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -400,7 +400,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_phoron
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -429,7 +429,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_quartz
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -458,7 +458,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_silver
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -487,7 +487,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_tin
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -516,7 +516,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_uranium
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -545,7 +545,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_bananium
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -574,7 +574,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_salt
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
@@ -603,7 +603,7 @@
       state: scraprock_north
     - map: [ "enum.EdgeLayer.West" ]
       state: scraprock_west
-    - sprite: Structures/Walls/rock.rsi
+    - sprite: /Structures/Walls/rock.rsi
       state: rock_artifact_fragment
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 

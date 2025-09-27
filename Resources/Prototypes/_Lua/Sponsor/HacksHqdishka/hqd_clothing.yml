@@ -9,9 +9,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Blue/Clothing/Hands/Misc/iris_ring.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Blue/Clothing/Hands/Misc/iris_ring.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Iris/Iris_Blue/Clothing/Hands/Misc/iris_ring.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Blue/Clothing/Hands/Misc/iris_ring.rsi
   - type: Item
     size: Tiny
 
@@ -23,6 +23,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Iris/Iris_Blue/Clothing/Uniforms/Jumsuit/iris_jumpsuit.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Blue/Clothing/Uniforms/Jumsuit/iris_jumpsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Iris/Iris_Blue/Clothing/Uniforms/Jumsuit/iris_jumpsuit.rsi
+    sprite: /_Lua/Sponsor/Iris/Iris_Blue/Clothing/Uniforms/Jumsuit/iris_jumpsuit.rsi

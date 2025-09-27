@@ -5,9 +5,9 @@
   description: This red coat is heavier than look
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/oktyabrina_coat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -23,9 +23,9 @@
   description: White coat with blue strips? YOS.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/johan_coat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -42,9 +42,9 @@
   suffix: Big_Chungus
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/pyotr_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/pyotr_coat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/pyotr_coat.rsi
+    sprite: /ADT/Clothing/OuterClothing/Coats/pyotr_coat.rsi
   - type: Armor
     modifiers:
       coefficients:

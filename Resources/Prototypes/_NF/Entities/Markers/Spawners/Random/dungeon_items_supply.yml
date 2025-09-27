@@ -9,7 +9,7 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -41,9 +41,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Weapons/Melee/crusher_dagger.rsi
+      - sprite: /Objects/Weapons/Melee/crusher_dagger.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -81,9 +81,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Clothing/Uniforms/Jumpsuit/salvage.rsi
+      - sprite: /Clothing/Uniforms/Jumpsuit/salvage.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -115,9 +115,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
+      - sprite: /Clothing/OuterClothing/Hardsuits/luxury.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -141,11 +141,11 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/closet.rsi
+      - sprite: /Structures/Storage/closet.rsi
         state: mining
-      - sprite: Structures/Storage/closet.rsi
+      - sprite: /Structures/Storage/closet.rsi
         state: mining_door
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -171,11 +171,11 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/suit_storage.rsi
+      - sprite: /Structures/Storage/suit_storage.rsi
         state: base
-      - sprite: Structures/Storage/suit_storage.rsi
+      - sprite: /Structures/Storage/suit_storage.rsi
         state: door
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -202,11 +202,11 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Machines/techfab.rsi
+      - sprite: /Structures/Machines/techfab.rsi
         state: icon
-      - sprite: Structures/Machines/techfab.rsi
+      - sprite: /Structures/Machines/techfab.rsi
         state: cargo
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -233,9 +233,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Machines/VendingMachines/youtool.rsi
+      - sprite: /Structures/Machines/VendingMachines/youtool.rsi
         state: off
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -264,9 +264,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Misc/module.rsi
+      - sprite: /Objects/Misc/module.rsi
         state: supply
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -304,9 +304,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: _NF/Objects/Devices/flatpack.rsi
+      - sprite: /_NF/Objects/Devices/flatpack.rsi
         state: engineering_lathe
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner

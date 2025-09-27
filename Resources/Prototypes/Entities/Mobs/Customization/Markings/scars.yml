@@ -5,7 +5,7 @@
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_eye_right
 
 - type: marking
@@ -15,7 +15,7 @@
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_eye_left
 
 - type: marking
@@ -26,7 +26,7 @@
   sexRestriction: [Male]
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_top_surgery_short
 
 - type: marking
@@ -37,7 +37,7 @@
   sexRestriction: [Male]
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_top_surgery_long
 
 - type: marking
@@ -47,7 +47,7 @@
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_chest
 
 - type: marking
@@ -57,7 +57,7 @@
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_neck
 
 - type: marking
@@ -67,7 +67,7 @@
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_chest_bullets
 
 - type: marking
@@ -77,7 +77,7 @@
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_stomach_bullets
 
 - type: marking
@@ -87,7 +87,7 @@
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_face_1
 
 - type: marking
@@ -97,5 +97,5 @@
   speciesRestriction: [Human, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
-  - sprite: Mobs/Customization/scars.rsi
+  - sprite: /Mobs/Customization/scars.rsi
     state: scar_face_2

@@ -16,14 +16,14 @@
         - NFCartridgePistol35
     capacity: 10
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -46,14 +46,14 @@
         - NFCartridgePistol35
     capacity: 16
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_high_capacity_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_high_capacity_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_high_capacity_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_high_capacity_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -76,14 +76,14 @@
         - NFCartridgePistol35
     capacity: 30
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -107,7 +107,7 @@
       - NFCartridgePistol35
     capacity: 30
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag_top_mounted.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag_top_mounted.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -115,7 +115,7 @@
         map: ["enum.GunVisualLayers.MagUnshaded"]
         shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag_top_mounted.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag_top_mounted.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag

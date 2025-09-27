@@ -27,7 +27,7 @@
         type: StationMapBoundUserInterface
         requireInputValidation: false
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: /Objects/Fun/pai.rsi
     layers:
     - state: pai-base
     - state: pai-off-overlay
@@ -101,7 +101,7 @@
   description: Your Syndicate pal who's fun to be with!
   components:
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: /Objects/Fun/pai.rsi
     layers:
     - state: pai-base
     - state: syndicate-pai-off-overlay
@@ -135,7 +135,7 @@
   description: Your electronic pal who's fun to be with! Special golden edition!
   components:
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: /Objects/Fun/pai.rsi
     layers:
     - state: golden-pai-base
     - state: pai-off-overlay
@@ -152,7 +152,7 @@
   description: It's a potato. You forced it to be sentient, you monster.
   components:
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: /Objects/Fun/pai.rsi
     layers:
     - state: potato-base
     - state: potato-off-overlay
@@ -183,7 +183,7 @@
   description: Install new software to assist your owner.
   components:
   - type: Action
-    icon: Interface/Actions/shop.png
+    icon: /Interface/Actions/shop.png
   - type: InstantAction
     event: !type:PAIShopActionEvent
 
@@ -194,7 +194,7 @@
   description: View a mass scanner interface.
   components:
   - type: Action
-    icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
+    icon: { sprite: /Interface/Actions/actions_ai.rsi, state: mass_scanner }
     itemIconStyle: NoItem
   - type: InstantAction
     event: !type:OpenUiActionEvent
@@ -207,7 +207,7 @@
   description: Open your portable MIDI interface to soothe your owner.
   components:
   - type: Action
-    icon: Interface/Actions/pai-midi.png
+    icon: /Interface/Actions/pai-midi.png
     itemIconStyle: NoItem
   - type: InstantAction
     event: !type:OpenUiActionEvent
@@ -220,7 +220,7 @@
   description: Open your map interface and guide your owner.
   components:
   - type: Action
-    icon: { sprite: Interface/Actions/pai-map.rsi, state: icon }
+    icon: { sprite: /Interface/Actions/pai-map.rsi, state: icon }
     itemIconStyle: NoItem
   - type: InstantAction
     event: !type:OpenUiActionEvent

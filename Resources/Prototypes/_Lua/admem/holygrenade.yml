@@ -10,7 +10,7 @@
   suffix: Адмем
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/holyhandgrenade.rsi
+    sprite: /Objects/Weapons/Grenades/holyhandgrenade.rsi
   - type: SoundOnTrigger
     sound:
       path: /Audio/Effects/Emotes/parp1.ogg

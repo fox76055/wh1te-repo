@@ -3,7 +3,7 @@
   id: Scream
   name: chat-emote-name-scream
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: /Interface/Actions/scream.png
   whitelist:
     components:
     - Vocal
@@ -30,7 +30,7 @@
   id: Laugh
   name: chat-emote-name-laugh
   category: Vocal
-  icon: Interface/Emotes/laugh.png
+  icon: /Interface/Emotes/laugh.png
   whitelist:
     components:
     - Vocal
@@ -60,7 +60,7 @@
   id: Honk
   name: chat-emote-name-honk
   category: Vocal
-  icon: Interface/Emotes/honk.png
+  icon: /Interface/Emotes/honk.png
   whitelist:
     requireAll: true
     components:
@@ -78,7 +78,7 @@
   id: Sigh
   name: chat-emote-name-sigh
   category: Vocal
-  icon: Interface/Emotes/sigh.png
+  icon: /Interface/Emotes/sigh.png
   whitelist:
     components:
     - Vocal
@@ -96,7 +96,7 @@
   id: Whistle
   name: chat-emote-name-whistle
   category: Vocal
-  icon: Interface/Emotes/whistle.png
+  icon: /Interface/Emotes/whistle.png
   whitelist:
     components:
     - Vocal
@@ -114,7 +114,7 @@
   id: Crying
   name: chat-emote-name-crying
   category: Vocal
-  icon: Interface/Emotes/cry.png
+  icon: /Interface/Emotes/cry.png
   whitelist:
     components:
     - Vocal
@@ -137,7 +137,7 @@
   name: chat-emote-name-squish
   category: Vocal
   available: false
-  icon: Interface/Emotes/squish.png
+  icon: /Interface/Emotes/squish.png
   whitelist:
     components:
     - Vocal
@@ -156,7 +156,7 @@
   name: chat-emote-name-chitter
   category: Vocal
   available: false
-  icon: Interface/Emotes/chitter.png
+  icon: /Interface/Emotes/chitter.png
   whitelist:
     components:
     - Vocal
@@ -175,7 +175,7 @@
   name: chat-emote-name-squeak
   category: Vocal
   available: false
-  icon: Interface/Emotes/squeak.png
+  icon: /Interface/Emotes/squeak.png
   whitelist:
     components:
       - Vocal
@@ -194,7 +194,7 @@
   name: chat-emote-name-click
   category: Vocal
   available: false
-  icon: Interface/Emotes/click.png
+  icon: /Interface/Emotes/click.png
   whitelist:
     components:
     - Vocal
@@ -213,7 +213,7 @@
   id: Clap
   name: chat-emote-name-clap
   category: Hands
-  icon: Interface/Emotes/clap.png
+  icon: /Interface/Emotes/clap.png
   whitelist:
     components:
     - Hands
@@ -230,7 +230,7 @@
   id: ClapSingle
   name: chat-emote-name-clap-single
   category: Hands
-  icon: Interface/Emotes/clap.png #TODO: Needs a sprite that distinguishes it better from clap
+  icon: /Interface/Emotes/clap.png #TODO: Needs a sprite that distinguishes it better from clap
   whitelist:
     components:
     - Hands
@@ -249,7 +249,7 @@
   id: Snap
   name: chat-emote-name-snap
   category: Hands
-  icon: Interface/Emotes/snap.png
+  icon: /Interface/Emotes/snap.png
   whitelist:
     components:
     - Hands
@@ -276,7 +276,7 @@
   name: chat-emote-name-thump
   category: Hands
   available: false
-  icon: Interface/Emotes/tailslap.png
+  icon: /Interface/Emotes/tailslap.png
   whitelist:
     components:
     - Hands
@@ -300,7 +300,7 @@
   id: Salute
   name: chat-emote-name-salute
   category: Hands
-  icon: Interface/Emotes/salute.png
+  icon: /Interface/Emotes/salute.png
   whitelist:
     components:
     - Hands
@@ -330,7 +330,7 @@
 - type: emote
   id: DefaultDeathgasp
   name: chat-emote-name-deathgasp
-  icon: Interface/Emotes/deathgasp.png
+  icon: /Interface/Emotes/deathgasp.png
   whitelist:
     components:
     - MobState
@@ -341,14 +341,14 @@
 - type: emote
   id: MonkeyDeathgasp
   name: chat-emote-name-deathgasp
-  icon: Interface/Emotes/deathgasp.png
+  icon: /Interface/Emotes/deathgasp.png
   chatMessages: ["chat-emote-msg-deathgasp-monkey"]
 
 - type: emote
   id: Buzz
   name: chat-emote-name-buzz
   category: Vocal
-  icon: Interface/Emotes/buzz.png
+  icon: /Interface/Emotes/buzz.png
   whitelist:
     requireAll: true
     components:
@@ -366,14 +366,14 @@
   id: Weh
   name: chat-emote-name-weh
   category: Vocal
-  icon: Interface/Emotes/weh.png
+  icon: /Interface/Emotes/weh.png
   chatMessages: ["chat-emote-msg-weh"]
 
 - type: emote
   id: Hew
   name: chat-emote-name-hew
   category: Vocal
-  icon: Interface/Emotes/hew.png
+  icon: /Interface/Emotes/hew.png
   chatMessages: ["chat-emote-msg-hew"]
 
 - type: emote
@@ -381,7 +381,7 @@
   name: chat-emote-name-chirp
   category: Vocal
   available: false
-  icon: Interface/Emotes/chirp.png
+  icon: /Interface/Emotes/chirp.png
   whitelist:
     components:
     - Nymph
@@ -401,7 +401,7 @@
   id: Beep
   name: chat-emote-name-beep
   category: Vocal
-  icon: Interface/Emotes/beep.png
+  icon: /Interface/Emotes/beep.png
   whitelist:
     requireAll: true
     components:
@@ -419,7 +419,7 @@
   id: Chime
   name: chat-emote-name-chime
   category: Vocal
-  icon: Interface/Emotes/chime.png
+  icon: /Interface/Emotes/chime.png
   whitelist:
     requireAll: true
     components:
@@ -437,7 +437,7 @@
   id: Buzz-Two
   name: chat-emote-name-buzztwo
   category: Vocal
-  icon: Interface/Emotes/buzztwo.png
+  icon: /Interface/Emotes/buzztwo.png
   whitelist:
     requireAll: true
     components:
@@ -462,7 +462,7 @@
   id: Ping
   name: chat-emote-name-ping
   category: Vocal
-  icon: Interface/Emotes/ping.png
+  icon: /Interface/Emotes/ping.png
   whitelist:
     requireAll: true
     components:

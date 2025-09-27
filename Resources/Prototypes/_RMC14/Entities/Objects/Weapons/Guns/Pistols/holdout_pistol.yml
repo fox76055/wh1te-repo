@@ -13,9 +13,9 @@
   #   baseFireRate: 4
   #   burstScatterMult: 10
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/holdout.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/holdout.rsi
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/holdout.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/holdout.rsi
   - type: MagazineAmmoProvider
     autoEject: false
     soundAutoEject: null
@@ -57,7 +57,7 @@
     proto: CMCartridgePistol.22mm
     capacity: 5
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/holdout.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/holdout.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

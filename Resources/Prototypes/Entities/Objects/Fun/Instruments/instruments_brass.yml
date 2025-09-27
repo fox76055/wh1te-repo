@@ -20,7 +20,7 @@
       "Standard": {56: 0}
       "Muted": {59: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/trumpet.rsi
+    sprite: /Objects/Fun/Instruments/trumpet.rsi
 
 - type: entity
   parent: BaseBrassInstrument
@@ -31,7 +31,7 @@
   - type: Instrument
     program: 57
   - type: Sprite
-    sprite: Objects/Fun/Instruments/trombone.rsi
+    sprite: /Objects/Fun/Instruments/trombone.rsi
 
 - type: entity
   parent: BaseBrassInstrument
@@ -42,7 +42,7 @@
   - type: Instrument
     program: 60
   - type: Sprite
-    sprite: Objects/Fun/Instruments/frenchhorn.rsi
+    sprite: /Objects/Fun/Instruments/frenchhorn.rsi
 
 - type: entity
   parent: BaseBrassInstrument
@@ -54,4 +54,4 @@
     program: 3
     bank: 1
   - type: Sprite
-    sprite: Objects/Fun/Instruments/euphonium.rsi
+    sprite: /Objects/Fun/Instruments/euphonium.rsi

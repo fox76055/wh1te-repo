@@ -5,10 +5,10 @@
   name: mccargo meal
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Happyhonk/mccargo.rsi
+    sprite: /_NF/Objects/Storage/Happyhonk/mccargo.rsi
     state: box
   - type: Item
-    sprite: _NF/Objects/Storage/Happyhonk/mccargo.rsi
+    sprite: /_NF/Objects/Storage/Happyhonk/mccargo.rsi
     heldPrefix: box
   - type: StorageFill
     contents:
@@ -221,7 +221,7 @@
   description: Plastic sushi container with lid.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/sushi.rsi
+    sprite: /_NF/Objects/Consumable/Food/sushi.rsi
     scale: 0.8, 0.8
     state: tray
     layers:
@@ -248,7 +248,7 @@
       map: ["closeLayer"]
       visible: false
   - type: Item
-    sprite: _NF/Objects/Consumable/Food/sushi.rsi
+    sprite: /_NF/Objects/Consumable/Food/sushi.rsi
     size: Normal
     inhandVisuals:
       left:
@@ -282,7 +282,7 @@
   suffix: Bad
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/sushi.rsi
+    sprite: /_NF/Objects/Consumable/Food/sushi.rsi
     scale: 0.8, 0.8
     state: tray
     layers:
@@ -348,7 +348,7 @@
   description: A box of Waffle Co. brand waffle cones. There's a mildly offputting picture of a smiling child on the box.
   components:
   - type: Sprite
-    sprite: Objects/Storage/boxes.rsi
+    sprite: /Objects/Storage/boxes.rsi
     state: box # TODO: pretty sprites
   - type: Storage
     grid:

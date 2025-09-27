@@ -5,7 +5,7 @@
   description: Throw it at the floor and listen to it POP!
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: snappop
   - type: Item
     size: Tiny
@@ -43,7 +43,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: spbox
   - type: Storage
     grid:

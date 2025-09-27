@@ -11,7 +11,7 @@
         loop: true
         maxDistance: 5
   - type: Sprite
-    sprite: Structures/Machines/fat_sucker.rsi
+    sprite: /Structures/Machines/fat_sucker.rsi
     snapCardinals: true
     layers:
     - state: fat

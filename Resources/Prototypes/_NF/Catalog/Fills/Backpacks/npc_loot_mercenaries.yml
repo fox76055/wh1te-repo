@@ -10,7 +10,7 @@
   suffix: NPC Loot
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#6e6e38"
@@ -26,7 +26,7 @@
     quickEquip: false
     slots:
     - back
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -74,7 +74,7 @@
   suffix: NPC Loot
   components:
   - type: Sprite
-    sprite: Clothing/Belt/mercwebbing.rsi
+    sprite: /Clothing/Belt/mercwebbing.rsi
     state: icon
   - type: Item
     size: Normal
@@ -304,7 +304,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Clothing/Belt/bandolier.rsi
+    sprite: /Clothing/Belt/bandolier.rsi
     state: icon
   - type: SpawnItemsOnUse
     items:
@@ -372,7 +372,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Clothing/Belt/emt.rsi
+    sprite: /Clothing/Belt/emt.rsi
     state: icon
   - type: SpawnItemsOnUse
     items:
@@ -442,7 +442,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Clothing/Belt/militarywebbing.rsi
+    sprite: /Clothing/Belt/militarywebbing.rsi
     state: icon
   - type: SpawnItemsOnUse
     items:
@@ -466,7 +466,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#C09F72"
@@ -475,7 +475,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK

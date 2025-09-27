@@ -7,7 +7,7 @@
   - type: InteractionOutline
   - type: MovementIgnoreGravity
   - type: Sprite
-    sprite: Objects/Fun/immovable_rod.rsi
+    sprite: /Objects/Fun/immovable_rod.rsi
     state: icon
     noRot: false
   - type: ImmovableRod
@@ -107,7 +107,7 @@
   description: Hurled like a javelin, with the power of a thousand furious janitors.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/mop.rsi
+    sprite: /Objects/Specific/Janitorial/mop.rsi
     state: mop
     rotation: 225
     noRot: false
@@ -119,7 +119,7 @@
   description: SHARK TORNADO!
   components:
   - type: Sprite
-    sprite: Objects/Fun/sharkplush.rsi
+    sprite: /Objects/Fun/sharkplush.rsi
     state: blue
     rotation: 90
     noRot: false
@@ -131,7 +131,7 @@
   description: Ejected from the neighbouring station one solar system over. HONK!
   components:
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     state: clown
     rotation: 180
     noRot: false
@@ -143,7 +143,7 @@
   description: At least you won't slip on it.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: /Objects/Specific/Hydroponics/banana.rsi
     state: produce
     noRot: false
 
@@ -154,7 +154,7 @@
   description: Bwoink.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/sledgehammer.rsi
+    sprite: /Objects/Weapons/Melee/sledgehammer.rsi
     state: icon
     rotation: 225
     noRot: false
@@ -166,7 +166,7 @@
   description: If you catch it, you can keep it.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/Throngler2.rsi
+    sprite: /Objects/Weapons/Melee/Throngler2.rsi
     state: icon
     rotation: 225
     noRot: false
@@ -178,7 +178,7 @@
   description: What did you expect?
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: /Objects/Weapons/Melee/debug.rsi
     state: icon
     rotation: 225
     noRot: false
@@ -190,6 +190,6 @@
   description: WEH!
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: plushie_lizard
     noRot: false

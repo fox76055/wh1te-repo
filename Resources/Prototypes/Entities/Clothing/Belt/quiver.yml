@@ -5,7 +5,7 @@
   description: Can hold up to 15 arrows, and fits snug around your waist.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/quiver.rsi
+    sprite: /Clothing/Belt/quiver.rsi
     layers:
     - state: icon
     - map: [ "enum.StorageContainerVisualLayers.Fill" ]

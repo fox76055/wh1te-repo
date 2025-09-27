@@ -4,7 +4,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: basarab
 
 - type: marking
@@ -13,7 +13,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: crayfish
 
 - type: marking
@@ -22,7 +22,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: hank
 
 - type: marking
@@ -31,7 +31,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: honor
 
 - type: marking
@@ -40,7 +40,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: madscientist
 
 - type: marking
@@ -49,7 +49,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: monday
 
 - type: marking
@@ -58,7 +58,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: nemesida
 
 - type: marking
@@ -67,7 +67,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: punk
 
 - type: marking
@@ -76,7 +76,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: turanga
 
 - type: marking
@@ -85,7 +85,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: ayanami
 
 - type: marking
@@ -94,7 +94,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: bubble_gum
 
 - type: marking
@@ -103,7 +103,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: mavis
 
 - type: marking
@@ -112,7 +112,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: cloud
 
 - type: marking
@@ -121,7 +121,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: morning_hairstyle
 
 - type: marking
@@ -130,7 +130,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: morning_hairstyle_2
 
 - type: marking
@@ -139,7 +139,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: ponytail
 
 - type: marking
@@ -148,7 +148,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: prince_charming
 
 - type: marking
@@ -157,7 +157,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: shaved_female
 
 - type: marking
@@ -166,5 +166,5 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: ADT/Customization/Markings/hair.rsi
+    - sprite: /ADT/Customization/Markings/hair.rsi
       state: shaved_unisex

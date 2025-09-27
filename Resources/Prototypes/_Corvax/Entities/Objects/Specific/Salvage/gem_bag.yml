@@ -5,10 +5,10 @@
   description: A bag made of polyester, covered with a layer of ash, for storing gems.
   components:
   - type: Sprite
-    sprite: Corvax/Objects/Specific/Mining/gems_sbag.rsi
+    sprite: /Corvax/Objects/Specific/Mining/gems_sbag.rsi
     state: icon
   - type: Clothing
-    sprite: Corvax/Objects/Specific/Mining/gems_sbag.rsi
+    sprite: /Corvax/Objects/Specific/Mining/gems_sbag.rsi
     quickEquip: false
     slots:
     - belt

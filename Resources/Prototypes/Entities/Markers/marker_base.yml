@@ -14,7 +14,7 @@
     - ForceFixRotations
   - type: Sprite
     drawdepth: Overdoors
-    sprite: Markers/cross.rsi
+    sprite: /Markers/cross.rsi
 # If serialization was cool this would work.
 #    layers:
 #      - state: blue

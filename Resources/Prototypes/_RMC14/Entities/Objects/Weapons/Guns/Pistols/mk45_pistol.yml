@@ -12,9 +12,9 @@
   # - type: GunDamageModifier
   #   multiplier: 1.4
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk45.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/mk45.rsi
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk45.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/mk45.rsi
   - type: MagazineAmmoProvider
     autoEject: false
     soundAutoEject: null
@@ -68,7 +68,7 @@
     proto: CMCartridgePistolMK45
     capacity: 13
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk45.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk45.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

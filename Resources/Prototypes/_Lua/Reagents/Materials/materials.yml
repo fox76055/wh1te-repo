@@ -6,7 +6,7 @@
   id: FoodAmbrosiaDeus
   stackEntity: FoodAmbrosiaDeus
   name: materials-FoodAmbrosiaDeus
-  icon: { sprite: Objects/Specific/Hydroponics/ambrosia_deus.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/ambrosia_deus.rsi, state: produce }
   color: "#02624B"
   price: 0.01
 
@@ -14,7 +14,7 @@
   id: FoodAloe
   stackEntity: FoodAloe
   name: materials-FoodAloe
-  icon: { sprite: Objects/Specific/Hydroponics/aloe.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/aloe.rsi, state: produce }
   color: "#537633"
   price: 0.01
 
@@ -22,7 +22,7 @@
   id: FoodAmbrosiaVulgaris
   stackEntity: FoodAmbrosiaVulgaris
   name: materials-FoodAmbrosiaVulgaris
-  icon: { sprite: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi, state: produce }
   color: "#1E3E00"
   price: 0.01
 
@@ -30,7 +30,7 @@
   id: NecroGland
   stackEntity: NecroGland
   name: materials-NecroGland
-  icon: { sprite: _Lua/Other/infector_gland.rsi, state: gland }
+  icon: { sprite: /_Lua/Other/infector_gland.rsi, state: gland }
   color: "#BAA06C"
   price: 0.01
 
@@ -38,7 +38,7 @@
   id: DeathNettle
   stackEntity: DeathNettle
   name: materials-DeathNettle
-  icon: { sprite: Objects/Specific/Hydroponics/death_nettle.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/death_nettle.rsi, state: produce }
   color: "#1F130F"
   price: 0.01
 
@@ -46,7 +46,7 @@
   id: FoodFlyAmanita
   stackEntity: FoodFlyAmanita
   name: materials-FoodFlyAmanita
-  icon: { sprite: Objects/Specific/Hydroponics/fly_amanita.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/fly_amanita.rsi, state: produce }
   color: "#99120E"
   price: 0.01
 
@@ -54,7 +54,7 @@
   id: FoodGalaxythistle
   stackEntity: FoodGalaxythistle
   name: materials-FoodGalaxythistle
-  icon: { sprite: Objects/Specific/Hydroponics/galaxythistle.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/galaxythistle.rsi, state: produce }
   color: "#8A1C43"
   price: 0.01
 
@@ -62,7 +62,7 @@
   id: FoodGatfruit
   stackEntity: FoodGatfruit
   name: materials-FoodGatfruit
-  icon: { sprite: Objects/Specific/Hydroponics/gatfruit.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/gatfruit.rsi, state: produce }
   color: "#1A1614"
   price: 0.01
 
@@ -70,7 +70,7 @@
   id: FoodLingzhi
   stackEntity: FoodLingzhi
   name: materials-FoodLingzhi
-  icon: { sprite: Objects/Specific/Hydroponics/lingzhi.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/lingzhi.rsi, state: produce }
   color: "#AA2D01"
   price: 0.01
 
@@ -78,7 +78,7 @@
   id: Nettle
   stackEntity: Nettle
   name: materials-Nettle
-  icon: { sprite: Objects/Specific/Hydroponics/nettle.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/nettle.rsi, state: produce }
   color: "#22311C"
   price: 0.01
 
@@ -86,7 +86,7 @@
   id: FoodGoldenApple
   stackEntity: FoodGoldenApple
   name: materials-FoodGoldenApple
-  icon: { sprite: Objects/Specific/Hydroponics/golden_apple.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/golden_apple.rsi, state: produce }
   color: "#8D6D01"
   price: 0.01
 
@@ -94,7 +94,7 @@
   id: FoodChiliPepper
   stackEntity: FoodChiliPepper
   name: materials-FoodChiliPepper
-  icon: { sprite: Objects/Specific/Hydroponics/chili.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/chili.rsi, state: produce }
   color: "#B00000"
   price: 0.01
 
@@ -102,7 +102,7 @@
   id: FoodChillyPepper
   stackEntity: FoodChillyPepper
   name: materials-FoodChillyPepper
-  icon: { sprite: Objects/Specific/Hydroponics/chilly.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/chilly.rsi, state: produce }
   color: "#00005C"
   price: 0.01
 
@@ -110,7 +110,7 @@
   id: FoodGarlic
   stackEntity: FoodGarlic
   name: materials-FoodGarlic
-  icon: { sprite: Objects/Specific/Hydroponics/garlic.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/garlic.rsi, state: produce }
   color: "#AA9584"
   price: 0.01
 
@@ -118,7 +118,7 @@
   id: FoodPoppy
   stackEntity: FoodPoppy
   name: materials-FoodPoppy
-  icon: { sprite: Objects/Specific/Hydroponics/poppy.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/poppy.rsi, state: produce }
   color: "#841E15"
   price: 0.01
 
@@ -126,7 +126,7 @@
   id: FoodLily
   stackEntity: FoodLily
   name: materials-FoodLily
-  icon: { sprite: Objects/Specific/Hydroponics/lily.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/lily.rsi, state: produce }
   color: "#B75D08"
   price: 0.01
 
@@ -134,7 +134,7 @@
   id: FoodSpacemansTrumpet
   stackEntity: FoodSpacemansTrumpet
   name: materials-FoodSpacemansTrumpet
-  icon: { sprite: Objects/Specific/Hydroponics/spacemans_trumpet.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/spacemans_trumpet.rsi, state: produce }
   color: "#9C7191"
   price: 0.01
 
@@ -142,6 +142,6 @@
   id: FoodBloodTomato
   stackEntity: FoodBloodTomato
   name: materials-FoodBloodTomato
-  icon: { sprite: Objects/Specific/Hydroponics/blood_tomato.rsi, state: produce }
+  icon: { sprite: /Objects/Specific/Hydroponics/blood_tomato.rsi, state: produce }
   color: "#960000"
   price: 0.01

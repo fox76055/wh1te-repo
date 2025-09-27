@@ -206,7 +206,7 @@
       types:
         Heat: 1.5
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Generic_mob_burning
 
 # Used for mobs that need to breathe

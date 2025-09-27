@@ -61,7 +61,7 @@
   suffix: Bananium, Rad+, 60 kW
   components:
     - type: Sprite
-      sprite: _NF/Structures/Power/Generation/portable_generator.rsi
+      sprite: /_NF/Structures/Power/Generation/portable_generator.rsi
       layers:
         - state: portgen1
           map: [ "enum.GeneratorVisualLayers.Body" ]
@@ -95,7 +95,7 @@
     - type: MaterialStorage
       materialWhiteList: [Bananium, FuelGradeBananium, RawBananium, Skrungle]
     - type: PowerMonitoringDevice
-      sprite: _NF/Structures/Power/Generation/portable_generator.rsi
+      sprite: /_NF/Structures/Power/Generation/portable_generator.rsi
       state: portgen1
     - type: RadiationSource
       enabled: false
@@ -145,7 +145,7 @@
   suffix: Bananium, Rad-, 60 kW
   components:
     - type: Sprite
-      sprite: Structures/Power/Generation/portable_generator.rsi
+      sprite: /Structures/Power/Generation/portable_generator.rsi
       layers:
         - state: portgen2
           map: [ "enum.GeneratorVisualLayers.Body" ]
@@ -170,7 +170,7 @@
       fuelEfficiencyConstant: 0.75
       radiationIntensity: 0.00004 # 4 rad/s at full output, 2.4 at optimal settings
     - type: PowerMonitoringDevice
-      sprite: Structures/Power/Generation/portable_generator.rsi
+      sprite: /Structures/Power/Generation/portable_generator.rsi
       state: portgen2
 
 - type: entity

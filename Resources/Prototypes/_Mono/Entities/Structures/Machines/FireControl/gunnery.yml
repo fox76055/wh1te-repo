@@ -17,7 +17,7 @@
   suffix: НЕ РАБОЧИЙ
   components:
   - type: Sprite
-    sprite: Structures/Machines/telecomms.rsi
+    sprite: /Structures/Machines/telecomms.rsi
     snapCardinals: true
     layers:
     - state: telecom-nopower
@@ -218,7 +218,7 @@
   - type: ExtensionCableReceiver
   - type: ActivatableUIRequiresPower
   - type: Sprite
-    sprite: _Mono/Structures/Machines/computers.rsi
+    sprite: /_Mono/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_not_rot

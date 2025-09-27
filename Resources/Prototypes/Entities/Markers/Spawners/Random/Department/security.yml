@@ -8,7 +8,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Melee/flash.rsi
+        - sprite: /Objects/Weapons/Melee/flash.rsi
           state: flash
     - type: RandomSpawner
       rarePrototypes:
@@ -32,7 +32,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Melee/flash.rsi
+        - sprite: /Objects/Weapons/Melee/flash.rsi
           state: flash
     - type: RandomSpawner
       rarePrototypes:
@@ -64,9 +64,9 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Clothing/OuterClothing/Armor/security.rsi
+        - sprite: /Clothing/OuterClothing/Armor/security.rsi
           state: icon
-        - sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
+        - sprite: /Objects/Weapons/Guns/Shotguns/pump.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:
@@ -102,7 +102,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
+        - sprite: /Objects/Weapons/Guns/Shotguns/pump.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:
@@ -129,7 +129,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Clothing/OuterClothing/Armor/security.rsi
+        - sprite: /Clothing/OuterClothing/Armor/security.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:

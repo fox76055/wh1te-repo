@@ -12,7 +12,7 @@
     - PlantSampleTaker
     - Wirecutter
   - type: Sprite
-    sprite: Objects/Tools/wirecutters.rsi
+    sprite: /Objects/Tools/wirecutters.rsi
     layers:
     - state: cutters
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -35,7 +35,7 @@
       - enum.DamageStateVisualLayers.Base:
           cutters: Rainbow
   - type: Item
-    sprite: Objects/Tools/wirecutters.rsi
+    sprite: /Objects/Tools/wirecutters.rsi
     storedRotation: -90
   - type: ToolTileCompatible
   - type: PhysicalComposition
@@ -57,13 +57,13 @@
     tags:
     - Screwdriver
   - type: Sprite
-    sprite: Objects/Tools/screwdriver.rsi
+    sprite: /Objects/Tools/screwdriver.rsi
     layers:
       - state: screwdriver
         map: [ "enum.DamageStateVisualLayers.Base" ]
       - state: screwdriver-screwybits
   - type: Item
-    sprite: Objects/Tools/screwdriver.rsi
+    sprite: /Objects/Tools/screwdriver.rsi
     storedRotation: -90
   - type: MeleeWeapon
     wideAnimationRotation: -90
@@ -101,12 +101,12 @@
     tags:
     - Wrench
   - type: Sprite
-    sprite: _NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
+    sprite: /_NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
     state: icon
   - type: Item
-    sprite: _NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
+    sprite: /_NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
     storedSprite:
-      sprite: _NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
+      sprite: /_NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
       state: storage
   - type: MeleeWeapon
     wideAnimationRotation: 135
@@ -140,7 +140,7 @@
     sound:
       path: /Audio/Items/multitool_drop.ogg
   - type: Sprite
-    sprite: _NF/Objects/Tools/multitool.rsi # Frontier: separate sprites (add _NF folder)
+    sprite: /_NF/Objects/Tools/multitool.rsi # Frontier: separate sprites (add _NF folder)
     layers:
     - state: icon
     - state: green-unlit
@@ -148,7 +148,7 @@
   - type: Item
     size: Small
   - type: Clothing
-    sprite: _NF/Objects/Tools/multitool.rsi # Frontier: separate sprites (add _NF folder)
+    sprite: /_NF/Objects/Tools/multitool.rsi # Frontier: separate sprites (add _NF folder)
     quickEquip: false
     slots:
     - Belt
@@ -194,7 +194,7 @@
       sound:
         path: /Audio/Items/multitool_drop.ogg
     - type: Sprite
-      sprite: Objects/Tools/network_configurator.rsi
+      sprite: /Objects/Tools/network_configurator.rsi
       layers:
         - state: icon
         - state: mode-link
@@ -203,7 +203,7 @@
     - type: Item
       size: Small
     - type: Clothing
-      sprite: Objects/Tools/network_configurator.rsi
+      sprite: /Objects/Tools/network_configurator.rsi
       quickEquip: false
       slots:
         - Belt
@@ -247,10 +247,10 @@
     tags:
     - Powerdrill
   - type: Sprite
-    sprite: Objects/Tools/drill.rsi
+    sprite: /Objects/Tools/drill.rsi
     state: drill_screw
   - type: Item
-    sprite: Objects/Tools/drill.rsi
+    sprite: /Objects/Tools/drill.rsi
     size: Small
   - type: Tool
     qualities:
@@ -262,7 +262,7 @@
     entries:
       - behavior: Screwing
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: /Objects/Tools/drill.rsi
           state: drill_screw
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -270,7 +270,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: /Objects/Tools/drill.rsi
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -321,12 +321,12 @@
   - type: LimitedCharges
     maxCharges: 30
   - type: Sprite
-    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    sprite: /_NF/Objects/Tools/rcd.rsi # Frontier
     state: icon
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    sprite: /_NF/Objects/Tools/rcd.rsi # Frontier
     quickEquip: false
     slots:
     - Belt
@@ -383,10 +383,10 @@
   components:
   - type: RCDAmmo
   - type: Sprite
-    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    sprite: /_NF/Objects/Tools/rcd.rsi # Frontier
     state: ammo
   - type: Item
-    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    sprite: /_NF/Objects/Tools/rcd.rsi # Frontier
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:
@@ -403,10 +403,10 @@
   description: A drone's best friend.
   components:
   - type: Sprite
-    sprite: Objects/Tools/omnitool.rsi
+    sprite: /Objects/Tools/omnitool.rsi
     state: omnitool-screwing
   - type: Item
-    sprite: Objects/Tools/omnitool.rsi
+    sprite: /Objects/Tools/omnitool.rsi
     size: Normal
   - type: Tag
     tags:
@@ -424,7 +424,7 @@
     entries:
       - behavior: Screwing
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
+          sprite: /Objects/Tools/omnitool.rsi
           state: omnitool-screwing
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -432,7 +432,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Prying
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
+          sprite: /Objects/Tools/omnitool.rsi
           state: omnitool-prying
         useSound:
           path: /Audio/Items/jaws_pry.ogg
@@ -440,7 +440,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
+          sprite: /Objects/Tools/omnitool.rsi
           state: omnitool-wrenching
         useSound:
           path: /Audio/Items/ratchet.ogg
@@ -448,7 +448,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Cutting
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
+          sprite: /Objects/Tools/omnitool.rsi
           state: omnitool-snipping
         useSound:
           path: /Audio/Items/jaws_cut.ogg
@@ -456,7 +456,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Pulsing
         sprite:
-          sprite: Objects/Tools/omnitool.rsi
+          sprite: /Objects/Tools/omnitool.rsi
           state: omnitool-pulsing
         changeSound:
           path: /Audio/Items/change_drill.ogg
@@ -469,7 +469,7 @@
   description: A large tool for digging and moving dirt.
   components:
   - type: Sprite
-    sprite: Objects/Tools/shovel.rsi
+    sprite: /Objects/Tools/shovel.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 45
@@ -483,7 +483,7 @@
     shape: # Frontier
     - 0,0,3,0 # Frontier
     storedRotation: 45 # Frontier
-    sprite: Objects/Tools/shovel.rsi
+    sprite: /Objects/Tools/shovel.rsi
   - type: PhysicalComposition
     materialComposition:
       Steel: 100
@@ -508,13 +508,13 @@
   description: A tool used to shape and flatten dough.
   components:
   - type: Sprite
-    sprite: Objects/Tools/rolling_pin.rsi
+    sprite: /Objects/Tools/rolling_pin.rsi
     state: icon
   - type: Item
-    sprite: Objects/Tools/rolling_pin.rsi
+    sprite: /Objects/Tools/rolling_pin.rsi
     size: Small
   - type: Clothing
-    sprite: Objects/Tools/rolling_pin.rsi
+    sprite: /Objects/Tools/rolling_pin.rsi
     quickEquip: false
     slots:
     - Belt

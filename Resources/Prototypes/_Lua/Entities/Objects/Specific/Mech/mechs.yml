@@ -16,7 +16,7 @@
     scale: 0.8, 0.8
     drawdepth: Mobs
     noRot: true
-    sprite: _Lua/Objects/Specific/Mech/mech.rsi
+    sprite: /_Lua/Objects/Specific/Mech/mech.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: reising

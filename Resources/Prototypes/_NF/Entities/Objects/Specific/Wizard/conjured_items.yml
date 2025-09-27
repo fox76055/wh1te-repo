@@ -56,7 +56,7 @@
   - ConjuredObject10
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Wizard/conjuredsoap.rsi
+    sprite: /_NF/Objects/Specific/Wizard/conjuredsoap.rsi
     layers:
     - state: soap-4
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -151,7 +151,7 @@
   - ConjuredObject10
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Wizard/conjuredsoap.rsi
+    sprite: /_NF/Objects/Specific/Wizard/conjuredsoap.rsi
     layers:
     - state: soap-4
       shader: unshaded
@@ -208,7 +208,7 @@
   #- ConjuredObject10
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Wizard/conjuredsoap.rsi
+    sprite: /_NF/Objects/Specific/Wizard/conjuredsoap.rsi
     layers:
     - state: soap-4
       shader: unshaded
@@ -245,7 +245,7 @@
     damage: 15
   - type: Sprite
     noRot: false
-    sprite: _NF/Objects/Specific/Wizard/conjuredbrick.rsi
+    sprite: /_NF/Objects/Specific/Wizard/conjuredbrick.rsi
     layers:
     - state: brick
   - type: Ammo

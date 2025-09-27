@@ -9,7 +9,7 @@
   - type: Advertise
     pack: DetDrobeAds
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/detdrobe.rsi
+    sprite: /Structures/Machines/VendingMachines/detdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -29,7 +29,7 @@
   - type: VendingMachine
     pack: BoxingDrobeInventory
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Machines/VendingMachines/boxingdrobe.rsi
+    sprite: /Nyanotrasen/Structures/Machines/VendingMachines/boxingdrobe.rsi
     layers:
     - state: off
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -54,7 +54,7 @@
   - type: Advertise
     pack: MailDrobeAds
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Machines/VendingMachines/maildrobe.rsi
+    sprite: /Nyanotrasen/Structures/Machines/VendingMachines/maildrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]

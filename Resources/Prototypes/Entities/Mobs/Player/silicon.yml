@@ -126,7 +126,7 @@
   description: An electronics board containing the Vessel Efficiency lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: EfficiencyLawset
@@ -138,7 +138,7 @@
   description: An electronics board containing the Vessel lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: VesselLawset
@@ -150,7 +150,7 @@
   description: An electronics board containing the NFSD lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: NFSDLawset
@@ -162,7 +162,7 @@
   description: An electronics board containing the Rogue lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: RogueLawset
@@ -174,7 +174,7 @@
   description: An electronics board containing the Freeman lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: FreemanLawset
@@ -186,7 +186,7 @@
   description: An electronics board containing the Entertainer lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: EntertainerLawset
@@ -205,7 +205,7 @@
     proto: AiHeldIntellicard
     container: station_ai_mind_slot
   - type: Sprite
-    sprite: Objects/Devices/ai_card.rsi
+    sprite: /Objects/Devices/ai_card.rsi
     layers:
     - state: base
     - state: full
@@ -225,7 +225,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Mobs/Silicon/station_ai.rsi
+    sprite: /Mobs/Silicon/station_ai.rsi
     layers:
     - state: base
     - state: ai
@@ -261,7 +261,7 @@
   - type: StationAiVision
   - type: InteractionOutline
   - type: Sprite
-    sprite: Mobs/Silicon/station_ai.rsi
+    sprite: /Mobs/Silicon/station_ai.rsi
     layers:
     - state: base
     - state: ai_empty
@@ -359,7 +359,7 @@
       StationAiHolograms: StationAiHologramFemale
   - type: HolographicAvatar
     layerData:
-    - sprite: Mobs/Silicon/holograms.rsi
+    - sprite: /Mobs/Silicon/holograms.rsi
       state: ai_female
   - type: NameIdentifier
     group: StationAi
@@ -382,7 +382,7 @@
   - type: Visibility
     layer: 2
   - type: Sprite
-    sprite: Mobs/Silicon/station_ai.rsi
+    sprite: /Mobs/Silicon/station_ai.rsi
     layers:
     - state: ai_camera
       shader: unshaded
@@ -514,7 +514,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Structures/Decoration/banner.rsi
+      - sprite: /Structures/Decoration/banner.rsi
         state: banner_syndicate
   - type: RandomSpawner
     prototypes:

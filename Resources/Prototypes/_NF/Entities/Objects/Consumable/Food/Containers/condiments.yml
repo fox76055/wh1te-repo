@@ -25,9 +25,9 @@
     materialComposition:
       Plastic: 50
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/condiments.rsi
+    sprite: /_NF/Objects/Consumable/Food/condiments.rsi
   - type: Icon
-    sprite: _NF/Objects/Consumable/Food/condiments.rsi
+    sprite: /_NF/Objects/Consumable/Food/condiments.rsi
   - type: CondimentSqueezeBottle
   - type: FitsInDispenser
     solution: food
@@ -115,7 +115,7 @@
     minTransferAmount: 1
     maxTransferAmount: 5
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/soysauce.rsi
+    sprite: /_NF/Objects/Consumable/Food/soysauce.rsi
     state: icon
   - type: Openable
     closeable: true

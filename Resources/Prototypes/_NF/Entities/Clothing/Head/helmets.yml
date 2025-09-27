@@ -9,9 +9,9 @@
   description: An in-atmosphere helmet worn by mail members of the Nanotrasen Emergency Response Team. Has dark purple highlights.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/ert_mailcarrier.rsi
+    sprite: /_NF/Clothing/Head/Helmets/ert_mailcarrier.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/ert_mailcarrier.rsi
+    sprite: /_NF/Clothing/Head/Helmets/ert_mailcarrier.rsi
 
 - type: entity
   parent: [ BaseC2ContrabandUnredeemable, ClothingHeadHelmetBasic ]
@@ -20,9 +20,9 @@
   description: An NFSD issued helmet to protect your head.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/nfsd.rsi
+    sprite: /_NF/Clothing/Head/Helmets/nfsd.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/nfsd.rsi
+    sprite: /_NF/Clothing/Head/Helmets/nfsd.rsi
 
 #Mercenary Helmet
 - type: entity
@@ -32,6 +32,6 @@
   description: The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the urban sprawl.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/mercenary_black.rsi
+    sprite: /_NF/Clothing/Head/Helmets/mercenary_black.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/mercenary_black.rsi
+    sprite: /_NF/Clothing/Head/Helmets/mercenary_black.rsi

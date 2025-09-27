@@ -20,6 +20,6 @@
       - id: ADTObjectsSpecificDexalinPlusChemistryBottle
       - id: ADTObjectsSpecificDermalineChemistryBottle
   - type: Sprite
-    sprite: _Lua/Clothing/Belt/webbing_blueshield.rsi
+    sprite: /_Lua/Clothing/Belt/webbing_blueshield.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Belt/webbing_blueshield.rsi
+    sprite: /_Lua/Clothing/Belt/webbing_blueshield.rsi

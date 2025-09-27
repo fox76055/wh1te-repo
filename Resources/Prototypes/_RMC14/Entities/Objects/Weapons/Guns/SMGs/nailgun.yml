@@ -6,14 +6,14 @@
   suffix: Filled
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/SMGs/nailgun.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/SMGs/nailgun.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
     - state: mag-0
       map: [ "enum.GunVisualLayers.Mag" ]
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/SMGs/nailgun.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/SMGs/nailgun.rsi
   - type: Item
     size: Normal
   - type: Gun
@@ -75,7 +75,7 @@
     proto: RMCCartridge7x45mm
     capacity: 48
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/nailgun.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/nailgun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -5,9 +5,9 @@
   description: Snort snort snort!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Suits/racoon.rsi
+    sprite: /ADT/Clothing/OuterClothing/Suits/racoon.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Suits/racoon.rsi
+    sprite: /ADT/Clothing/OuterClothing/Suits/racoon.rsi
 
 - type: entity
   parent: ClothingOuterBase
@@ -16,6 +16,6 @@
   description: Snort snort snort!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Suits/fox.rsi
+    sprite: /ADT/Clothing/OuterClothing/Suits/fox.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Suits/fox.rsi
+    sprite: /ADT/Clothing/OuterClothing/Suits/fox.rsi

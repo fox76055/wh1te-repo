@@ -5,7 +5,7 @@
   components:
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _NF/Structures/Machines/computer_wallmount.rsi
+    sprite: /_NF/Structures/Machines/computer_wallmount.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_wallmount
@@ -20,7 +20,7 @@
   components:
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _NF/Structures/Machines/computer_wallmount.rsi
+    sprite: /_NF/Structures/Machines/computer_wallmount.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_wallmount
@@ -35,7 +35,7 @@
   components:
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _NF/Structures/Machines/computer_wallmount.rsi
+    sprite: /_NF/Structures/Machines/computer_wallmount.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_wallmount
@@ -50,7 +50,7 @@
   components:
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: _NF/Structures/Machines/computer_wallmount.rsi
+    sprite: /_NF/Structures/Machines/computer_wallmount.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_wallmount

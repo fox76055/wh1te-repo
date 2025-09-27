@@ -25,7 +25,7 @@
           - LowImpassable
   - type: Sprite
     drawdepth: Items
-    sprite: Objects/Misc/landmine.rsi
+    sprite: /Objects/Misc/landmine.rsi
     layers:
     - state: landmine-inactive
       map: [ "enum.ToggleableVisuals.Layer" ]

@@ -5,16 +5,16 @@
   description: A program for making player-to-player bank transfers.
   components:
     - type: Sprite
-      sprite: _NF/Objects/Devices/cartridge.rsi
+      sprite: /_NF/Objects/Devices/cartridge.rsi
       state: cart-ledger
     - type: Icon
-      sprite: _NF/Objects/Devices/cartridge.rsi
+      sprite: /_NF/Objects/Devices/cartridge.rsi
       state: cart-ledger
     - type: UIFragment
       ui: !type:YupiTransferUi
     - type: Cartridge
       programName: yupi-program-name
       icon:
-        sprite: _NF/Interface/icons.rsi
+        sprite: /_NF/Interface/icons.rsi
         state: ledger
     - type: YupiTransferCartridge

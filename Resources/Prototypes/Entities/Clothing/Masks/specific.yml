@@ -8,9 +8,9 @@
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
-      sprite: Clothing/Mask/gas.rsi
+      sprite: /Clothing/Mask/gas.rsi
     - type: Clothing
-      sprite: Clothing/Mask/gas.rsi
+      sprite: /Clothing/Mask/gas.rsi
     - type: ChameleonClothing
       slot: [mask]
       default: ClothingMaskGas
@@ -47,12 +47,12 @@
   description: An ancient-looking mask bearing the visage of some simian monarch. You swear it looks cursed. # Frontier: doesn't contort, not really cursed
   components:
   - type: Sprite
-    sprite: Clothing/Mask/goldenmask.rsi
+    sprite: /Clothing/Mask/goldenmask.rsi
     layers:
     - state: icon
       map: [ "mask" ]
   - type: Clothing
-    sprite: Clothing/Mask/goldenmask.rsi
+    sprite: /Clothing/Mask/goldenmask.rsi
   - type: Appearance
   # Frontier: replace visualizer with random state
   # - type: GenericVisualizer

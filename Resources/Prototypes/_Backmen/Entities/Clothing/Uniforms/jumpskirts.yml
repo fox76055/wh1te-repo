@@ -5,6 +5,6 @@
   description: Вот прелесть карпоративной жизни, стильные костюмы с юбкой в тему!
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/Uniforms/Jumpskirt/centcom-official.rsi
+    sprite: /Backmen/Clothing/Uniforms/Jumpskirt/centcom-official.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/Uniforms/Jumpskirt/centcom-official.rsi
+    sprite: /Backmen/Clothing/Uniforms/Jumpskirt/centcom-official.rsi

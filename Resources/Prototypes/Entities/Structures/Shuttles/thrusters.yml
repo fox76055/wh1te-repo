@@ -77,7 +77,7 @@
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/thruster.rsi # Frontier: use _NF prefix
+    sprite: /_NF/Structures/Shuttles/thruster.rsi # Frontier: use _NF prefix
     layers:
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -130,7 +130,7 @@
     needsPower: false
     powerLoad: 0
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/thruster.rsi # Frontier: use _NF prefix
+    sprite: /_NF/Structures/Shuttles/thruster.rsi # Frontier: use _NF prefix
     layers:
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -159,7 +159,7 @@
     thrustPerPartLevel: [2000, 2500, 3000, 3500, 4000] # Frontier: upgradable gyroscopes
   - type: Sprite
     # Listen I'm not the biggest fan of the sprite but it was the most appropriate thing I could find.
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi # Frontier: add _NF prefix
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi # Frontier: add _NF prefix
     snapCardinals: true
     layers:
     - state: base
@@ -239,7 +239,7 @@
     needsPower: false
     powerLoad: 0
   - type: Sprite
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi # Frontier: add _NF prefix
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi # Frontier: add _NF prefix
     snapCardinals: true
     layers:
     - state: base

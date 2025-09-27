@@ -39,7 +39,7 @@
 #   components:
 #   - type: Sprite
 #     drawdepth: WallMountedItems
-#     sprite: Structures/Wallmounts/camera.rsi
+#     sprite: /Structures/Wallmounts/camera.rsi
 #     layers:
 #       - map: [ "enum.SurveillanceCameraVisualsKey.Layer" ]
 #         state: camera

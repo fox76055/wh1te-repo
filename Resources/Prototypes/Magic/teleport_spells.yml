@@ -10,7 +10,7 @@
     sound: !type:SoundPathSpecifier
       path: /Audio/Magic/blink.ogg
     icon:
-      sprite: Objects/Magic/magicactions.rsi
+      sprite: /Objects/Magic/magicactions.rsi
       state: blink
   - type: TargetAction
     range: 16 # default examine-range.
@@ -32,7 +32,7 @@
     sound: !type:SoundPathSpecifier
       path: /Audio/Magic/Eldritch/voidblink.ogg
     icon:
-      sprite: Objects/Magic/Eldritch/eldritch_actions.rsi
+      sprite: /Objects/Magic/Eldritch/eldritch_actions.rsi
       state: voidblink
   - type: TargetAction
     checkCanAccess: false

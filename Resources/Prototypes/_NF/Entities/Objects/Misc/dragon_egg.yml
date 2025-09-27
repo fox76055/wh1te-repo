@@ -5,10 +5,10 @@
   description: How many did you kill just to get one of these eggs.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/dragon_egg.rsi
+    sprite: /_NF/Objects/Consumable/Food/dragon_egg.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Consumable/Food/dragon_egg.rsi
+    sprite: /_NF/Objects/Consumable/Food/dragon_egg.rsi
     size: Large
   - type: MultiHandedItem
   - type: Food
@@ -69,11 +69,11 @@
   description: You're walkin' on 'em bud.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/dragon_egg.rsi
+    sprite: /_NF/Objects/Consumable/Food/dragon_egg.rsi
     state: broken
   - type: Food
   - type: Item
-    sprite: Objects/Consumable/Food/egg.rsi
+    sprite: /Objects/Consumable/Food/egg.rsi
     size: Large
   - type: SolutionContainerManager
     solutions:
@@ -99,7 +99,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: _NF/Effects/dragonspawn.rsi
+    sprite: /_NF/Effects/dragonspawn.rsi
     state: dragon
   - type: EmitSoundOnSpawn
     sound:

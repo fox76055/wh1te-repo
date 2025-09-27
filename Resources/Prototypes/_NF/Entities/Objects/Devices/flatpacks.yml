@@ -6,7 +6,7 @@
   - type: StaticPrice
     price: 150
   - type: Sprite
-    sprite: _NF/Objects/Devices/flatpack.rsi
+    sprite: /_NF/Objects/Devices/flatpack.rsi
     layers:
     - state: engineering_lathe
 
@@ -362,7 +362,7 @@
     entity: HydroponicsTrayEmpty
   - type: Sprite
     layers:
-    - sprite: Objects/Devices/flatpack.rsi
+    - sprite: /Objects/Devices/flatpack.rsi
       state: hydroponics-tray
 
 - type: entity

@@ -24,7 +24,7 @@
     bodyType: Static
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Necromorfs/obelisk.rsi
+    sprite: /_Lua/Structures/Necromorfs/obelisk.rsi
     layers:
     - state: corrypt
       map: [ "enum.DamageStateVisualLayers.Base" ]

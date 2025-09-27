@@ -5,7 +5,7 @@
   followSkinColor: true
   speciesRestriction: [Ariral]
   sprites:
-  - sprite: _ShibaStation/Mobs/Customization/Ariral/ear_markings.rsi
+  - sprite: /_ShibaStation/Mobs/Customization/Ariral/ear_markings.rsi
     state: ears
 
 - type: marking
@@ -15,7 +15,7 @@
   followSkinColor: true
   speciesRestriction: [Ariral]
   sprites:
-  - sprite: _ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
+  - sprite: /_ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
     state: tail
 
 - type: marking
@@ -24,9 +24,9 @@
   markingCategory: Tail
   speciesRestriction: [Ariral]
   sprites:
-  - sprite: _ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
+  - sprite: /_ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
     state: tail
-  - sprite: _ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
+  - sprite: /_ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
     state: tail_overlay
 
 - type: marking
@@ -35,7 +35,7 @@
   markingCategory: Tail
   speciesRestriction: [Ariral]
   sprites:
-  - sprite: _ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
+  - sprite: /_ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
     state: tail
-  - sprite: _ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
+  - sprite: /_ShibaStation/Mobs/Customization/Ariral/tail_markings.rsi
     state: tail_long

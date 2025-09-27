@@ -6,6 +6,6 @@
   description: A portable anti-materiel rifle.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
+    sprite: /Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
+    sprite: /Objects/Weapons/Guns/Snipers/heavy_sniper.rsi

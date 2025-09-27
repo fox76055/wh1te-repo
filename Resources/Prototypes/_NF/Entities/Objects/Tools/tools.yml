@@ -38,7 +38,7 @@
   description: A maintenance jack for removing up floor plating.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/maintenance-jack.rsi
+    sprite: /_NF/Objects/Tools/maintenance-jack.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -45
@@ -53,7 +53,7 @@
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Objects/Weapons/Melee/fireaxe.rsi
+    sprite: /Objects/Weapons/Melee/fireaxe.rsi
     quickEquip: false
     slots:
     - back
@@ -75,7 +75,7 @@
     sound:
       path: /Audio/Items/toolbox_drop.ogg
   - type: Sprite
-    sprite: _NF/Objects/Tools/Toolboxes/toolbox_pirate.rsi
+    sprite: /_NF/Objects/Tools/Toolboxes/toolbox_pirate.rsi
     state: icon
   - type: NFPirateToolbox
   - type: StaticPrice
@@ -98,7 +98,7 @@
   description: "An old relic from the Glorious Leader. Capable of 18 functions, including digging, chopping, cutting, picking, prying, wire cutting, shoveling."
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/cm-shovel.rsi
+    sprite: /_NF/Objects/Tools/cm-shovel.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -106,7 +106,7 @@
         Slash: 3
         Structural: 1
   - type: Item
-    sprite: _NF/Objects/Tools/cm-shovel.rsi
+    sprite: /_NF/Objects/Tools/cm-shovel.rsi
   - type: StaticPrice
     price: 2000
   - type: Sharp
@@ -131,7 +131,7 @@
     entries:
       - behavior: Digging
         sprite:
-          sprite: _NF/Objects/Tools/cm-shovel.rsi
+          sprite: /_NF/Objects/Tools/cm-shovel.rsi
           state: icon
         useSound:
           path: /Audio/Items/shovel_dig.ogg
@@ -139,7 +139,7 @@
           path: /Audio/Items/shovel_dig.ogg
       - behavior: Screwing
         sprite:
-          sprite: _NF/Objects/Tools/cm-shovel.rsi
+          sprite: /_NF/Objects/Tools/cm-shovel.rsi
           state: icon
         useSound:
           path: /Audio/Items/screwdriver.ogg
@@ -147,7 +147,7 @@
           path: /Audio/Items/shovel_dig.ogg
       - behavior: Anchoring
         sprite:
-          sprite: _NF/Objects/Tools/cm-shovel.rsi
+          sprite: /_NF/Objects/Tools/cm-shovel.rsi
           state: icon
         useSound:
           path: /Audio/Items/ratchet.ogg
@@ -157,7 +157,7 @@
         - Prying
         - Axing
         sprite:
-          sprite: _NF/Objects/Tools/cm-shovel.rsi
+          sprite: /_NF/Objects/Tools/cm-shovel.rsi
           state: icon
         useSound:
           path: /Audio/Items/crowbar.ogg
@@ -168,7 +168,7 @@
         - Slicing
         - Sawing
         sprite:
-          sprite: _NF/Objects/Tools/cm-shovel.rsi
+          sprite: /_NF/Objects/Tools/cm-shovel.rsi
           state: icon
         useSound:
           path: /Audio/Items/wirecutter.ogg

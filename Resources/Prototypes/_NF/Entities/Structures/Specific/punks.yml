@@ -7,13 +7,13 @@
   components:
   - type: Sprite
     layers:
-    - sprite: _NF/Structures/Specific/Punks/partysupplies.rsi
+    - sprite: /_NF/Structures/Specific/Punks/partysupplies.rsi
       state: base
-    - sprite: _NF/Structures/Specific/Punks/partysupplies.rsi
+    - sprite: /_NF/Structures/Specific/Punks/partysupplies.rsi
       state: unshaded
       map: [ "neon_bit" ]
       shader: unshaded
-    - sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    - sprite: /_NF/Structures/Holo/graffiti/simple.rsi
       state:   holograffiti01
       map: [ "graffiti" ]
       shader: unshaded

@@ -6,10 +6,10 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Melee/shields.rsi
+      sprite: /Objects/Weapons/Melee/shields.rsi
       state: riot-icon
     - type: Item
-      sprite: Objects/Weapons/Melee/shields.rsi
+      sprite: /Objects/Weapons/Melee/shields.rsi
       size: Ginormous
       heldPrefix: riot
     - type: Blocking
@@ -241,10 +241,10 @@
   description: A stringy shield. It's weak, and doesn't seem to do well against heat.
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Melee/web-shield.rsi
+      sprite: /Objects/Weapons/Melee/web-shield.rsi
       state: icon
     - type: Item
-      sprite: Objects/Weapons/Melee/web-shield.rsi
+      sprite: /Objects/Weapons/Melee/web-shield.rsi
       heldPrefix: icon
     - type: Blocking
       passiveBlockModifier:
@@ -387,7 +387,7 @@
       - type: DisarmMalus
         malus: 0.6
     - type: Sprite
-      sprite: Objects/Weapons/Melee/e_shield.rsi
+      sprite: /Objects/Weapons/Melee/e_shield.rsi
       layers:
         - state: eshield-icon
         - state: eshield-on
@@ -397,7 +397,7 @@
           map: [ "shield" ]
     - type: Item
       size: Small
-      sprite: Objects/Weapons/Melee/e_shield.rsi
+      sprite: /Objects/Weapons/Melee/e_shield.rsi
       heldPrefix: eshield
     - type: UseDelay
       delay: 0.5
@@ -472,10 +472,10 @@
   description: Something inside is burned out, it is no longer functional.
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Melee/e_shield.rsi
+      sprite: /Objects/Weapons/Melee/e_shield.rsi
       state: eshield-icon
     - type: Item
-      sprite: Objects/Weapons/Melee/e_shield.rsi
+      sprite: /Objects/Weapons/Melee/e_shield.rsi
       size: Small
       heldPrefix: eshield
     - type: StaticPrice
@@ -511,7 +511,7 @@
       - type: DisarmMalus
         malus: 0.6
     - type: Sprite
-      sprite: Objects/Weapons/Melee/e_shield.rsi
+      sprite: /Objects/Weapons/Melee/e_shield.rsi
       layers:
         - state: eshield-icon
         - state: eshield-on
@@ -521,7 +521,7 @@
           map: [ "shield" ]
     - type: Item
       size: Small
-      sprite: Objects/Weapons/Melee/e_shield.rsi
+      sprite: /Objects/Weapons/Melee/e_shield.rsi
       heldPrefix: eshield
     - type: UseDelay
       delay: 0.5
@@ -600,7 +600,7 @@
     - type: ItemToggleSize
       activatedSize: Huge
     - type: Sprite
-      sprite: Objects/Weapons/Melee/teleriot_shield.rsi
+      sprite: /Objects/Weapons/Melee/teleriot_shield.rsi
       layers:
         - state: teleriot-icon
         - state: teleriot-on
@@ -608,7 +608,7 @@
           map: [ "shield" ]
     - type: Item
       size: Small
-      sprite: Objects/Weapons/Melee/teleriot_shield.rsi
+      sprite: /Objects/Weapons/Melee/teleriot_shield.rsi
       heldPrefix: teleriot
     - type: UseDelay
       delay: 0.5

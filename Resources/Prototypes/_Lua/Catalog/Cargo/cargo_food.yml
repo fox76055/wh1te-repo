@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: CargoFoodContainerShrimp
   icon:
-    sprite: _Lua/Objects/Consumable/Food/shrimp_packaging.rsi
+    sprite: /_Lua/Objects/Consumable/Food/shrimp_packaging.rsi
     state: icon
   product: FoodContainerShrimp
   cost: 10000

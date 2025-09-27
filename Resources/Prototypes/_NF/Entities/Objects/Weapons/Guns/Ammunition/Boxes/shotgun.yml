@@ -11,7 +11,7 @@
       - ShellShotgun
     capacity: 20
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
 
 #region boxesPellets
 - type: entity

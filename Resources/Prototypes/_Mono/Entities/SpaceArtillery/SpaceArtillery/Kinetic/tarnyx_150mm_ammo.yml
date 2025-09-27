@@ -17,7 +17,7 @@
         Structural: 50
         Ion: 10000
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/150_shell.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/150_shell.rsi
     layers:
     - state: 150-shell
   - type: Ammo
@@ -52,7 +52,7 @@
     proto: ShipTarnyxProjectile
     deleteOnSpawn: true
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Explosives/150mmtarnyx.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Ammunition/Explosives/150mmtarnyx.rsi
     layers:
     - state: 150mm_emp
       map: ["enum.AmmoVisualLayers.Base"]
@@ -77,7 +77,7 @@
         Structural: 12000
         Blunt: 3000
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/150_shell.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/150_shell.rsi
     layers:
     - state: 150-shell
   - type: Ammo
@@ -110,7 +110,7 @@
     proto: ShipTarnyxApProjectile
     deleteOnSpawn: true
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Explosives/150mmtarnyx.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Ammunition/Explosives/150mmtarnyx.rsi
     layers:
     - state: 150mm_standard
       map: ["enum.AmmoVisualLayers.Base"]

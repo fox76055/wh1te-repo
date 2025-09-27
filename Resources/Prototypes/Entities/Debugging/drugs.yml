@@ -16,4 +16,4 @@
           - ReagentId: Desoxyephedrine
             Quantity: 20
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi
+    sprite: /Objects/Consumable/Drinks/beer.rsi

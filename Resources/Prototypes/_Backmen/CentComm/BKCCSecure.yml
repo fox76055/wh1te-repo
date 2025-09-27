@@ -26,10 +26,10 @@
   - type: GhostRoleMobSpawner
     prototype: MobHumanCMBKCCSecOfficer
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Markers/jobs.rsi
+    - sprite: /Markers/jobs.rsi
       state: ertsecurity
 
 - type: entity
@@ -40,7 +40,7 @@
   id: MobHumanCMBKCCSecOfficer
   components:
   - type: Icon
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     state: security_officer
   - type: AutoImplant
     implants:

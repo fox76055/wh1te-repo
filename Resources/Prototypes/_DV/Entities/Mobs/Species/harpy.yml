@@ -54,7 +54,7 @@
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
-        sprite: Objects/Misc/handcuffs.rsi
+        sprite: /Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
       - map: [ "id" ]
@@ -72,7 +72,7 @@
       - map: [ "pocket1" ]
       - map: [ "pocket2" ]
       - map: [ "clownedon" ] # Dynamically generated
-        sprite: "Effects/creampie.rsi"
+        sprite: "/Effects/creampie.rsi"
         state: "creampie_human"
         visible: false
       - map: [ "enum.HumanoidVisualLayers.RArmExtension" ] # Frontier
@@ -81,7 +81,7 @@
       - map: [ "mask" ]
       - map: [ "head" ]
       - map: [ enum.InstrumentVisuals.Layer ]
-        sprite: _DV/Effects/harpysinger.rsi
+        sprite: /_DV/Effects/harpysinger.rsi
         state: singing_music_notes
         visible: false
   - type: HumanoidAppearance
@@ -142,7 +142,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _DV/Mobs/Species/Harpy/displacement.rsi
+            sprite: /_DV/Mobs/Species/Harpy/displacement.rsi
             state: jumpsuit
     femaleDisplacements: {} # Frontier: female jumpsuit displacement
   - type: HarpyVisuals
@@ -169,7 +169,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _DV/Mobs/Species/Harpy/displacement.rsi
+            sprite: /_DV/Mobs/Species/Harpy/displacement.rsi
             state: jumpsuit
     femaleDisplacements: {} # Frontier: female jumpsuit displacement
   - type: Sprite
@@ -209,7 +209,7 @@
       - map: [ "pocket1" ]
       - map: [ "pocket2" ]
       - map: [ "clownedon" ] # Dynamically generated
-        sprite: "Effects/creampie.rsi"
+        sprite: "/Effects/creampie.rsi"
         state: "creampie_human"
         visible: false
       - map: [ "enum.HumanoidVisualLayers.RArmExtension" ] # Frontier
@@ -225,7 +225,7 @@
   components:
   - type: Action # Frontier, Wizden#27422 compliance, InstantAction<Action
     checkCanInteract: false
-    icon: _DV/Interface/Actions/harpy_sing.png
+    icon: /_DV/Interface/Actions/harpy_sing.png
   - type: InstantAction # Frontier, Wizden#27422 compliance
     event: !type:OpenUiActionEvent
       key: enum.InstrumentUiKey.Key
@@ -237,7 +237,7 @@
   description: Change the name others hear to something else.
   components:
   - type: Action # Frontier, Wizden#27422 compliance, InstantAction<Action
-    icon: _DV/Interface/Actions/harpy_syrinx.png
+    icon: /_DV/Interface/Actions/harpy_syrinx.png
     itemIconStyle: BigAction
   - type: InstantAction # Frontier, Wizden#27422 compliance
     event: !type:VoiceMaskSetNameEvent

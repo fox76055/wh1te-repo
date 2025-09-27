@@ -15,7 +15,7 @@
   - type: StaticPrice
     price: 40000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/charon.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/charon.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -86,7 +86,7 @@
   - type: StaticPrice
     price: 40000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/charon.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/charon.rsi
     layers:
     - state: space_artillery
   - type: Appearance

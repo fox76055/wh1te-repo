@@ -10,6 +10,6 @@
       # - EncryptionKeyPrison # Frontier
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: _DV/Clothing/Ears/Headsets/prisoner.rsi
+    sprite: /_DV/Clothing/Ears/Headsets/prisoner.rsi
   - type: Clothing
-    sprite: _DV/Clothing/Ears/Headsets/prisoner.rsi
+    sprite: /_DV/Clothing/Ears/Headsets/prisoner.rsi

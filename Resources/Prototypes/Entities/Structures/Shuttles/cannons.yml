@@ -64,7 +64,7 @@
   - type: ShipGunClass # Lua
     shipClass: Superlight # Lua
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
+    sprite: /Objects/Weapons/Guns/Shuttles/laser.rsi
     layers:
     - state: lse-400c
     - state: mag-unshaded-9
@@ -128,7 +128,7 @@
   - type: ShipGunClass # Lua
     shipClass: Superlight # Lua
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
+    sprite: /Objects/Weapons/Guns/Shuttles/laser.rsi
     layers:
     - state: lse-1200c
     - state: mag-unshaded-9
@@ -191,7 +191,7 @@
   - type: ShipGunClass # Lua
     shipClass: Light # Lua
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
+    sprite: /Objects/Weapons/Guns/Shuttles/launcher.rsi
     layers:
     - state: exp-320g
     - state: mag-7
@@ -249,7 +249,7 @@
   - type: ShipGunClass # Lua
     shipClass: Medium # Lua
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
+    sprite: /Objects/Weapons/Guns/Shuttles/launcher.rsi
     layers:
     - state: exp-2100g
     - state: mag-7
@@ -329,7 +329,7 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/pirate_cannon.rsi
+    sprite: /Objects/Weapons/Guns/Shuttles/pirate_cannon.rsi
     layers:
     - state: base
   - type: Gun
@@ -366,7 +366,7 @@
   - type: ShipGunClass # Lua
     shipClass: Light # Lua
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/kinetic.rsi
+    sprite: /Objects/Weapons/Guns/Shuttles/kinetic.rsi
     layers:
     - state: ptk-800
     - state: mag-7

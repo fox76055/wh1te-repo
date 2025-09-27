@@ -5,7 +5,7 @@
   description: An industrial machine used for expediting machine construction across the station.
   components:
   - type: Sprite
-    sprite: _Lua/Structures/Machines/flatpacker.rsi # Lua
+    sprite: /_Lua/Structures/Machines/flatpacker.rsi # Lua
     snapCardinals: true
     layers:
     - state: base
@@ -96,6 +96,6 @@
   - HideSpawnMenu
   components:
   - type: Sprite
-    sprite: Structures/Machines/autolathe.rsi
+    sprite: /Structures/Machines/autolathe.rsi
     state: icon
     color: "#222222"

@@ -8,7 +8,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: _NF/Objects/Weapons/Guns/Turrets/laser.rsi
+    - sprite: /_NF/Objects/Weapons/Guns/Turrets/laser.rsi
       state: base
   - type: ConditionalSpawner
     prototypes:
@@ -23,7 +23,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Weapons/Guns/Turrets/turrets.rsi
+    - sprite: /Objects/Weapons/Guns/Turrets/turrets.rsi
       state: syndie_lethal
   - type: ConditionalSpawner
     prototypes:
@@ -40,7 +40,7 @@
     layers:
     - state: green
     - state: ai
-    - sprite: _NF/Objects/Weapons/Guns/Turrets/laser.rsi
+    - sprite: /_NF/Objects/Weapons/Guns/Turrets/laser.rsi
       state: base
   - type: ConditionalSpawner
     prototypes:

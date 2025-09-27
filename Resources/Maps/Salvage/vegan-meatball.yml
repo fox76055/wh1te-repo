@@ -517,7 +517,7 @@ entities:
         bioluminescentColor: '#FFFFFFFF'
         production: 12
         plantIconState: produce
-        plantRsi: Objects/Specific/Hydroponics/cannabis.rsi
+        plantRsi: /Objects/Specific/Hydroponics/cannabis.rsi
         displayName: seeds-cannabis-display-name
         noun: seeds-noun-seeds
         name: seeds-cannabis-name
@@ -590,7 +590,7 @@ entities:
         bioluminescentColor: '#FFFFFFFF'
         production: 3
         plantIconState: produce
-        plantRsi: Objects/Specific/Hydroponics/galaxythistle.rsi
+        plantRsi: /Objects/Specific/Hydroponics/galaxythistle.rsi
         displayName: seeds-galaxythistle-display-name
         noun: seeds-noun-seeds
         name: seeds-galaxythistle-name

@@ -8,7 +8,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: _NF/Mobs/Dinosaurs/compy.rsi
+    - sprite: /_NF/Mobs/Dinosaurs/compy.rsi
       state: compy
     - state: ai
   - type: RandomSpawner
@@ -28,7 +28,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: _NF/Mobs/Dinosaurs/kentro.rsi
+    - sprite: /_NF/Mobs/Dinosaurs/kentro.rsi
       state: kentro
     - state: ai
   - type: RandomSpawner
@@ -49,7 +49,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: _NF/Mobs/Dinosaurs/stego.rsi
+    - sprite: /_NF/Mobs/Dinosaurs/stego.rsi
       state: stego
     - state: ai
   - type: RandomSpawner

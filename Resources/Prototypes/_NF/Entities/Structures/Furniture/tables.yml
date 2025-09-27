@@ -57,7 +57,7 @@
   - type: Item
     size: Huge
   - type: Sprite
-    sprite: _NF/Structures/Furniture/folding_table.rsi
+    sprite: /_NF/Structures/Furniture/folding_table.rsi
     layers:
     - state: folding
       map: ["unfoldedLayer"]

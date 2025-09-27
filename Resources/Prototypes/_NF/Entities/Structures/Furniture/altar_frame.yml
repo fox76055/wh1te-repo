@@ -9,10 +9,10 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: _NF/Structures/Furniture/altar_frame.rsi
+    sprite: /_NF/Structures/Furniture/altar_frame.rsi
     state: altar_frame
   - type: Icon
-    sprite: _NF/Structures/Furniture/altar_frame.rsi
+    sprite: /_NF/Structures/Furniture/altar_frame.rsi
     state: altar_frame
   - type: Damageable
     damageContainer: Inorganic

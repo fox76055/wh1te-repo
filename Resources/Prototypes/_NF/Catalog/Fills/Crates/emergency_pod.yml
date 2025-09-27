@@ -28,7 +28,7 @@
       prob: 0.05
   - type: Sprite # Fix our initial state (occupied, occupied-unlit visible).  This sucks.
     noRot: true
-    sprite: _NF/Structures/Storage/emergency_pod.rsi
+    sprite: /_NF/Structures/Storage/emergency_pod.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]

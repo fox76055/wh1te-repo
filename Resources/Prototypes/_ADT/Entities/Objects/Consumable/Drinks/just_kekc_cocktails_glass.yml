@@ -8,7 +8,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtsummershade
 
 - type: entity
@@ -19,7 +19,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtwintersun
 
 - type: entity
@@ -30,7 +30,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adthungoverangel
 
 - type: entity
@@ -41,7 +41,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtcitrusbalance
 
 - type: entity
@@ -52,7 +52,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtdobryidrink
 
 - type: entity
@@ -63,7 +63,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtmilkeclipse
 
 - type: entity
@@ -74,7 +74,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtarcticexplosion
 
 - type: entity
@@ -85,7 +85,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtsugarknight
 
 - type: entity
@@ -96,7 +96,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtgrapelady
 
 - type: entity
@@ -107,7 +107,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtsaturdaybaron
 
 - type: entity
@@ -118,7 +118,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtarcticlatte
 
 - type: entity
@@ -129,7 +129,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtazureblue
 
 - type: entity
@@ -140,7 +140,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adteclipsedeclispe
 
 - type: entity
@@ -151,7 +151,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtspacebush
 
 - type: entity
@@ -162,7 +162,7 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtapplemartini
 
 - type: entity
@@ -173,5 +173,5 @@
   components:
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
+    sprite: /ADT/Objects/Consumable/Drinks/just_kekc_cocktail.rsi
     state: adtbacardiapple

@@ -6,11 +6,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi
+    sprite: /_NF/Objects/Tanks/Jetpacks/nfsd.rsi
   - type: Sprite
-    sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi
+    sprite: /_NF/Objects/Tanks/Jetpacks/nfsd.rsi
   - type: Clothing
-    sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi
+    sprite: /_NF/Objects/Tanks/Jetpacks/nfsd.rsi
   - type: Tag
     tags:
       - EmagImmune
@@ -23,11 +23,11 @@
   suffix: Filled
   components:
   - type: Item
-    sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi
+    sprite: /_NF/Objects/Tanks/Jetpacks/nfsd.rsi
   - type: Sprite
-    sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi
+    sprite: /_NF/Objects/Tanks/Jetpacks/nfsd.rsi
   - type: Clothing
-    sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi
+    sprite: /_NF/Objects/Tanks/Jetpacks/nfsd.rsi
   - type: Tag
     tags:
       - EmagImmune

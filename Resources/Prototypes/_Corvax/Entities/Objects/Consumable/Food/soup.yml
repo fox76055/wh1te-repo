@@ -8,7 +8,7 @@
       flavors:
         - meaty
     - type: Sprite
-      sprite: Corvax/Objects/Consumable/Food/bowl.rsi
+      sprite: /Corvax/Objects/Consumable/Food/bowl.rsi
       layers:
         - state: bowl
         - state: pelmeni

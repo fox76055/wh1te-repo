@@ -2,7 +2,7 @@
   id: LivestockEmotionalSupport
   abstract: true
   icon:
-    sprite: Mobs/Pets/cat.rsi
+    sprite: /Mobs/Pets/cat.rsi
     state: spacecat
   product: CrateNPCEmotionalSupport
   cost: 10000
@@ -13,7 +13,7 @@
   id: LivestockPoultryCube
   abstract: true
   icon:
-    sprite: _NF/Objects/Misc/monkeycube.rsi
+    sprite: /_NF/Objects/Misc/monkeycube.rsi
     state: box_poultry
   product: CrateNPCPoultryCube
   cost: 2000

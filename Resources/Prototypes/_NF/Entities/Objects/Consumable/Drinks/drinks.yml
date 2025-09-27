@@ -12,7 +12,7 @@
         - ReagentId: PumpkinSpiceLatte
           Quantity: 30
   - type: Icon
-    sprite: _NF/Objects/Consumable/Drinks/pumpkinspicelatte.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/pumpkinspicelatte.rsi
     state: icon
 
 - type: entity
@@ -28,7 +28,7 @@
         - ReagentId: TheMadgob
           Quantity: 30
   - type: Icon
-    sprite: _NF/Objects/Consumable/Drinks/themadgob.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/themadgob.rsi
     state: icon
 
 # Alcohol drinks
@@ -45,7 +45,7 @@
         - ReagentId: GinAndSonic
           Quantity: 30
   - type: Icon
-    sprite: _NF/Objects/Consumable/Drinks/ginandsonic.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/ginandsonic.rsi
     state: icon
 
 - type: entity
@@ -61,7 +61,7 @@
         - ReagentId: GoldenCat
           Quantity: 30
   - type: Icon
-    sprite: _NF/Objects/Consumable/Drinks/goldencat.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/goldencat.rsi
     state: icon
 
 - type: entity
@@ -77,7 +77,7 @@
         - ReagentId: PineappleBlast
           Quantity: 30
   - type: Icon
-    sprite: _NF/Objects/Consumable/Drinks/pineappleblast.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/pineappleblast.rsi
     state: icon
 
 - type: entity
@@ -93,7 +93,7 @@
         - ReagentId: TorpedoJuice
           Quantity: 30
   - type: Icon
-    sprite: _NF/Objects/Consumable/Drinks/torpedojuice.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/torpedojuice.rsi
     state: icon
 
 - type: entity
@@ -109,7 +109,7 @@
         - ReagentId: BeesKnees
           Quantity: 30
   - type: Icon
-    sprite: _NF/Objects/Consumable/Drinks/beesknees.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/beesknees.rsi
     state: icon
 
 # condiment cup
@@ -120,9 +120,9 @@
   description: A flimsy cup that can be filled with condiments. Warranty void if filled with other things.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/condiment_cup.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/condiment_cup.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hats/condiment_cup.rsi
+    sprite: /_NF/Clothing/Head/Hats/condiment_cup.rsi
   - type: CondimentCup
   - type: SolutionContainerManager
     solutions:
@@ -147,7 +147,7 @@
     tags:
       - DrinkGlass
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/coffeecup.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/coffeecup.rsi
     state: icon
   - type: Item
     inhandVisuals:
@@ -166,7 +166,7 @@
   id: DrinkDisposableMcCup
   components:
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/mccoffeecup.rsi
+    sprite: /_NF/Objects/Consumable/Drinks/mccoffeecup.rsi
     state: icon
   - type: Item
     inhandVisuals:

@@ -5,7 +5,7 @@
   description: A refined bag to carry your own library.
   components:
     - type: Sprite
-      sprite: Objects/Specific/Library/Equipment/books_bag.rsi
+      sprite: /Objects/Specific/Library/Equipment/books_bag.rsi
       # Frontier: layered sprite
       layers:
       - state: icon
@@ -14,7 +14,7 @@
         map: [ "enum.ToggleableVisuals.Layer" ]
       # End Frontier
     - type: Clothing
-      sprite: Objects/Specific/Library/Equipment/books_bag.rsi
+      sprite: /Objects/Specific/Library/Equipment/books_bag.rsi
       quickEquip: false
       slots:
         - belt

@@ -7,7 +7,7 @@
   flavor: soju
   color: "#DDDDDD"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/sojuglass.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/sojuglass.rsi
     state: icon
   metabolisms:
     Drink:
@@ -27,7 +27,7 @@
   flavor: orangecreamcicle
   color: "#efaa16"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/orangecreamcicle.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/orangecreamcicle.rsi
     state: icon
   metabolisms:
     Drink:
@@ -47,7 +47,7 @@
   flavor: silverjack
   color: "#978647"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/silverjack.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/silverjack.rsi
     state: icon
   metabolisms:
     Drink:
@@ -67,7 +67,7 @@
   flavor: brainbomb
   color: "#6f7a2c"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/brainbomb.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/brainbomb.rsi
     state: icon
   metabolisms:
     Drink:
@@ -100,7 +100,7 @@
   flavor: funny
   color: "#94001c"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/clownblood.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/clownblood.rsi
     state: icon
   metabolisms:
     Drink:
@@ -120,7 +120,7 @@
   flavor: circusjuice
   color: "#c47872"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/circusjuice.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/circusjuice.rsi
     state: icon
   metabolisms:
     Drink:
@@ -143,7 +143,7 @@
   flavor: sapopicante
   color: "#c0501a"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/sapopicante.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/sapopicante.rsi
     state: icon
   metabolisms:
     Drink:
@@ -165,7 +165,7 @@
   flavor: graveyard
   color: "#4f1b1b"
   metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/graveyard.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/graveyard.rsi
     state: icon
   metabolisms:
     Drink:

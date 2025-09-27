@@ -7,10 +7,10 @@
   parent: MarkerBase
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     layers:
       - state: singularitytoy
-      - sprite: Markers/cross.rsi
+      - sprite: /Markers/cross.rsi
         state: pink
   - type: DangerTether
     maxDistance: 500

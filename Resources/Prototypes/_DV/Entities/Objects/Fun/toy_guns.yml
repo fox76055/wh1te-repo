@@ -6,12 +6,12 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Objects/Weapons/Guns/Rifles/bbgun.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Rifles/bbgun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Rifles/bbgun.rsi ##
+    sprite: /_DV/Objects/Weapons/Guns/Rifles/bbgun.rsi ##
     quickEquip: false
     slots:
     - Back

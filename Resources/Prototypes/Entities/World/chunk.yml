@@ -9,6 +9,6 @@
   components:
     - type: WorldChunk
     - type: Sprite
-      sprite: Markers/cross.rsi
+      sprite: /Markers/cross.rsi
       layers:
         - state: blue

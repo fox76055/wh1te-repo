@@ -5,7 +5,7 @@
   description: An experimental device that is able to swap the locations of two entities by switching their particles' spin values. Must be linked to another device to function.
   components:
   - type: Sprite
-    sprite: Objects/Devices/swapper.rsi
+    sprite: /Objects/Devices/swapper.rsi
     layers:
     - state: icon
       map: ["base"]

@@ -18,12 +18,12 @@
     layers:
       - map: ["enum.DamageStateVisualLayers.Base"]
       - state: horror
-        sprite: _Lua/admem/horror.rsi
+        sprite: /_Lua/admem/horror.rsi
       - state: spookysmoke
-        sprite: _Lua/admem/horror.rsi
+        sprite: /_Lua/admem/horror.rsi
       - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
         state: alive-unshaded
-        sprite: _Lua/admem/horror.rsi
+        sprite: /_Lua/admem/horror.rsi
         shader: unshaded
   - type: DamageStateVisuals
     states:

@@ -320,7 +320,7 @@
   description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typancargo.rsi
+    sprite: /_Lua/Objects/Misc/typancargo.rsi
     layers:
     - state: typancardcargo
   - type: PresetIdCard
@@ -338,7 +338,7 @@
   description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typansec.rsi
+    sprite: /_Lua/Objects/Misc/typansec.rsi
     layers:
     - state: typancardcom
   - type: PresetIdCard
@@ -363,7 +363,7 @@
   description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typaneng.rsi
+    sprite: /_Lua/Objects/Misc/typaneng.rsi
     layers:
     - state: typancardeng
   - type: PresetIdCard
@@ -383,7 +383,7 @@
   description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typanmed.rsi
+    sprite: /_Lua/Objects/Misc/typanmed.rsi
     layers:
     - state: typancardmed
   - type: PresetIdCard
@@ -402,7 +402,7 @@
   description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typanrd.rsi
+    sprite: /_Lua/Objects/Misc/typanrd.rsi
     layers:
     - state: typancardrd
   - type: PresetIdCard
@@ -421,7 +421,7 @@
   description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typanscien.rsi
+    sprite: /_Lua/Objects/Misc/typanscien.rsi
     layers:
     - state: typancardscience
   - type: PresetIdCard
@@ -439,7 +439,7 @@
   name: ID карта
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typanbotan.rsi
+    sprite: /_Lua/Objects/Misc/typanbotan.rsi
     layers:
     - state: typancardbotanist
   - type: PresetIdCard
@@ -457,7 +457,7 @@
   name: ID карта
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typanchef.rsi
+    sprite: /_Lua/Objects/Misc/typanchef.rsi
     layers:
     - state: typancardchef
   - type: PresetIdCard
@@ -475,7 +475,7 @@
   name: ID карта
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/typanresearcher.rsi
+    sprite: /_Lua/Objects/Misc/typanresearcher.rsi
     layers:
     - state: typancardresearcher
   - type: PresetIdCard

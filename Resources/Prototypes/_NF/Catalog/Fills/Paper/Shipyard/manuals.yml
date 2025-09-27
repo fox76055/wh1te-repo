@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Misc/books.rsi
+    sprite: /Objects/Misc/books.rsi
     layers:
     - state: paper
     - state: cover_base

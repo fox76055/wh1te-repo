@@ -5,7 +5,7 @@
   description: Commemorating something.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Memorials/generic_memorial.rsi
+    sprite: /Structures/Furniture/Memorials/generic_memorial.rsi
     state: memorial
   - type: Transform
     noRot: true
@@ -39,7 +39,7 @@
     Whose acts will not be forgotten
   components:
     - type: Sprite
-      sprite: Structures/Furniture/Memorials/ss13_memorial.rsi
+      sprite: /Structures/Furniture/Memorials/ss13_memorial.rsi
       state: memorial
       drawdepth: Mobs
       noRot: true

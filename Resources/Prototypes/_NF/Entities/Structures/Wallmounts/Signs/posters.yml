@@ -6,7 +6,7 @@
   description: "This poster depicts an ethereal judge. You think you hear a 'BWOINK,' but it is just your imagination, right?"
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster1_legit
 
 - type: entity
@@ -16,7 +16,7 @@
   description: "This poster depicts a cheerful goblin engineer telling you that explosions are the spice of tinkering."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster2_legit
 
 - type: entity
@@ -26,7 +26,7 @@
   description: Kick your feet up and enjoy the simulated tropical beach at Bahama Mama's.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster3_legit
 
 - type: entity
@@ -36,7 +36,7 @@
   description: A mouthwatering looking roast taunts you. So close, yet so far.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster4_legit
 
 - type: entity
@@ -46,7 +46,7 @@
   description: Wanted for piracy and assault. If you can help end this biting spree, please contact the NFSD.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster5_legit
 
 - type: entity
@@ -56,7 +56,7 @@
   description: An adorable mothgirl in a cute hat asks that you think before hurting a mothroach.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster6_legit
 
 - type: entity
@@ -66,7 +66,7 @@
   description: Please inform NFSD personnel of any strange sightings like roaming space monsters, gigantic purple eggs, and strange notes left behind posters or vending machines.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster7_legit
 
 - type: entity
@@ -76,7 +76,7 @@
   description: The NFSD reminds you to give in your unregistered guns found planetside. The FUCs these are worth help keep the department running. Do your duty!
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster8_legit
 
 # Contraband posters
@@ -87,7 +87,7 @@
   description: "This poster depicts Tetotum Space Station constructed by Langstad-Voigt Heavy Industries."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster1_contraband
 
 - type: entity
@@ -97,7 +97,7 @@
   description: "This poster depicts a shuttle exiting the planet's atmosphere. The text advertises the use of Langstad-Voigt Heavy Industries shuttles for planetary exploration."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster2_contraband
 
 - type: entity
@@ -107,7 +107,7 @@
   description: "This poster depicts a mineral-rich planet orbited by a moon, with both celestial bodies brightly illuminated by a blue star. The text promotes the use of Langstad-Voigt Heavy Industries shuttles for deep space exploration."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster3_contraband
 
 - type: entity
@@ -117,7 +117,7 @@
   description: "Far Star Biotech: Wherever you are know that your body is safe with us."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster4_contraband
 
 - type: entity
@@ -127,7 +127,7 @@
   description: "The FSB Stasis! Ensuring the worst mistake you've ever made is just the worst mistake you've made so far."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster5_contraband
 
 - type: entity
@@ -137,7 +137,7 @@
   description: "The FSB Apothecary! For the seasoned chemist, the FSB Apothecary offers top-of-the-line service at the price you deserve."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster6_contraband
 
 - type: entity
@@ -147,7 +147,7 @@
   description: "The FSB Spirit! We know what your life is worth."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster7_contraband
 
 - type: entity
@@ -157,7 +157,7 @@
   description: "Rosy the Medroach reminding you to turn your suit coordinates! Make sure your next death isn't your last!"
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster8_contraband
 
 - type: entity
@@ -168,7 +168,7 @@
    This poster depicts a planetary crust with a mountain range and an upper layer of magma. The advertising slogan reads: "Langstad-Voigt Heavy Industries. Mining the Skies, Building New Horizons."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster9_contraband
 
 - type: entity
@@ -178,7 +178,7 @@
   description: "Poster about Deep Core Resource Extraction™ techniques employed by Langstad-Voigt Heavy Industries."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster10_contraband
 
 - type: entity
@@ -189,7 +189,7 @@
     Poster with Langstad-Voigt Heavy Industries logo. Ad slogan beneath it reads: "Beyond the Stars, Within Your Grasp."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster11_contraband
 
 - type: entity
@@ -199,7 +199,7 @@
   description: "Eat Shrooms!"
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster12_contraband
 
 - type: entity
@@ -209,7 +209,7 @@
   description: "A printed copy of what appears to be a hand-drawn poster of a goblin in a tattered tunic with a spear."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster13_contraband
 
 - type: entity
@@ -219,7 +219,7 @@
   description: "A poster rallying goblins to unite and fight for their rights."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster14_contraband
 
 - type: entity
@@ -229,7 +229,7 @@
   description: "A poster calling to restore The Great Goblinate in all its former glory."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster15_contraband
 
 - type: entity
@@ -239,7 +239,7 @@
   description: "The FSB Rubicon! Guiding you through the afterlife and back into productive service!"
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster16_contraband
 
 - type: entity
@@ -249,7 +249,7 @@
   description: "The Future can't come any faster, but we can get you there in a jiff!"
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster17_contraband
 
 - type: entity
@@ -259,7 +259,7 @@
   description: A poster in a strange language with pictures of machinery. "RATVAR LIVES" is scrawled in the corner.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster18_contraband    
 
 - type: entity
@@ -269,7 +269,7 @@
   description: "The FSB Nightlight, chasing the night away."
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster20_contraband      
   - type: PointLight
     radius: 1.5
@@ -283,7 +283,7 @@
   description: "The FSB Retort! Ignite your potential!"
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster19_contraband    
     
 - type: entity
@@ -293,5 +293,5 @@
   description: "The FSB Caladrius, when there's no one else to turn to you'll be glad to see us!"
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
+    sprite: /_NF/Structures/Wallmounts/posters.rsi
     state: nf_poster21_contraband

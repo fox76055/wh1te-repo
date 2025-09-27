@@ -12,7 +12,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: bat
-      sprite: Mobs/Animals/bat.rsi
+      sprite: /Mobs/Animals/bat.rsi
   - type: Carriable #DeltaV
   - type: Speech
     speechSounds: Squeak
@@ -99,7 +99,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: 0
-      sprite: Mobs/Animals/bee.rsi
+      sprite: /Mobs/Animals/bee.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -208,7 +208,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: chicken-0
-      sprite: Mobs/Animals/chicken.rsi
+      sprite: /Mobs/Animals/chicken.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -294,7 +294,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: chicken-1
-      sprite: Mobs/Animals/chicken.rsi
+      sprite: /Mobs/Animals/chicken.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -319,7 +319,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: chicken-2
-      sprite: Mobs/Animals/chicken.rsi
+      sprite: /Mobs/Animals/chicken.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -361,7 +361,7 @@
   components:
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Animals/cockroach.rsi
+    sprite: /Mobs/Animals/cockroach.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cockroach
@@ -524,7 +524,7 @@
     insertingState: inserting_mothroach
   - type: MothAccent
   - type: Sprite
-    sprite: Mobs/Animals/mothroach/mothroach.rsi
+    sprite: /Mobs/Animals/mothroach/mothroach.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: mothroach
@@ -539,7 +539,7 @@
     size: Normal
   - type: Clothing
     quickEquip: false
-    sprite: Mobs/Animals/mothroach/mothroach.rsi
+    sprite: /Mobs/Animals/mothroach/mothroach.rsi
     equippedPrefix: 0
     slots:
     - HEAD
@@ -620,7 +620,7 @@
       - !type:GibBehavior
         recursive: false
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
   - type: Strippable
   - type: UserInterface
@@ -635,27 +635,27 @@
       head:
         sizeMaps:
           32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
+            sprite: /Mobs/Animals/mothroach/displacement.rsi
             state: head
       mask:
         sizeMaps:
           32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
+            sprite: /Mobs/Animals/mothroach/displacement.rsi
             state: mask
       suitstorage:
         sizeMaps:
           32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
+            sprite: /Mobs/Animals/mothroach/displacement.rsi
             state: suitstorage
       eyes:
         sizeMaps:
           32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
+            sprite: /Mobs/Animals/mothroach/displacement.rsi
             state: eyes
       neck:
         sizeMaps:
           32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
+            sprite: /Mobs/Animals/mothroach/displacement.rsi
             state: neck
 
 
@@ -673,7 +673,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: duck-0
-    sprite: Mobs/Animals/duck.rsi
+    sprite: /Mobs/Animals/duck.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -809,7 +809,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: butterfly
-      sprite: Mobs/Animals/butterfly.rsi
+      sprite: /Mobs/Animals/butterfly.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -880,7 +880,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cow
-      sprite: Mobs/Animals/cow.rsi
+      sprite: /Mobs/Animals/cow.rsi
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -965,7 +965,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: crab
-      sprite: Mobs/Animals/crab.rsi
+      sprite: /Mobs/Animals/crab.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -1035,7 +1035,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goat
-      sprite: Mobs/Animals/goat.rsi
+      sprite: /Mobs/Animals/goat.rsi
   - type: Carriable #DeltaV
   - type: Fixtures
     fixtures:
@@ -1140,7 +1140,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goose
-      sprite: Mobs/Animals/goose.rsi
+      sprite: /Mobs/Animals/goose.rsi
   - type: Carriable #DeltaV
   - type: Fixtures
     fixtures:
@@ -1189,7 +1189,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: crawling
-      sprite: Mobs/Animals/gorilla.rsi
+      sprite: /Mobs/Animals/gorilla.rsi
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1272,7 +1272,7 @@
     layers:
       - map: ["enum.DamageStateVisualLayers.Base"]
         state: kangaroo
-        sprite: Mobs/Animals/kangaroo.rsi
+        sprite: /Mobs/Animals/kangaroo.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -1386,11 +1386,11 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: monkey
-      sprite: Mobs/Animals/monkey.rsi
+      sprite: /Mobs/Animals/monkey.rsi
     - map: [ "jumpsuit" ]
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
+      sprite: /Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false
     - map: [ "ears" ]
@@ -1399,7 +1399,7 @@
     - map: [ "mask" ]
     - map: [ "head" ]
     - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
+      sprite: "/Effects/creampie.rsi"
       state: "creampie_human"
       visible: false
   - type: Carriable #DeltaV
@@ -1416,7 +1416,7 @@
     requiredLegs: 1 # TODO: More than 1 leg
   - type: CreamPied
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Monkey_burning
   - type: InteractionPopup
     successChance: 0.9
@@ -1615,17 +1615,17 @@
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
-      sprite: Mobs/Animals/kobold.rsi
+      sprite: /Mobs/Animals/kobold.rsi
       state: kobold
     - map: [ "outline" ]
-      sprite: Mobs/Animals/kobold.rsi
+      sprite: /Mobs/Animals/kobold.rsi
       state: outline
     - map: [ "horns" ]
-      sprite: Mobs/Customization/reptilian_parts.rsi
+      sprite: /Mobs/Customization/reptilian_parts.rsi
       state: horns_short
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
+      sprite: /Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false
     - map: [ "ears" ]
@@ -1633,7 +1633,7 @@
     - map: [ "mask" ]
     - map: [ "head" ]
     - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
+      sprite: "/Effects/creampie.rsi"
       state: "creampie_human"
       visible: false
   - type: RandomSprite
@@ -1749,7 +1749,7 @@
     allowedEmotes: ['Squeak']
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Animals/mouse.rsi
+    sprite: /Mobs/Animals/mouse.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: mouse-0
@@ -1765,7 +1765,7 @@
     heldPrefix: 0
   - type: Clothing
     quickEquip: false
-    sprite: Mobs/Animals/mouse.rsi
+    sprite: /Mobs/Animals/mouse.rsi
     equippedPrefix: 0
     slots:
     - HEAD
@@ -1892,7 +1892,7 @@
   - type: BadFood
   - type: NonSpreaderZombie
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
   - type: FoodSequenceElement
     entries:
@@ -2065,7 +2065,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: lizard
-      sprite: Mobs/Animals/lizard.rsi
+      sprite: /Mobs/Animals/lizard.rsi
   - type: Carriable #DeltaV
   - type: Physics
   - type: Fixtures
@@ -2122,7 +2122,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: slug
-      sprite: Mobs/Animals/slug.rsi
+      sprite: /Mobs/Animals/slug.rsi
   - type: Carriable #DeltaV
     freeHandsRequired: 1
   - type: Physics
@@ -2171,7 +2171,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: frog
-      sprite: Mobs/Animals/frog.rsi
+      sprite: /Mobs/Animals/frog.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -2242,7 +2242,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: parrot
-      sprite: Mobs/Animals/parrot.rsi
+      sprite: /Mobs/Animals/parrot.rsi
   - type: Carriable #DeltaV
     freeHandsRequired: 1
   - type: Fixtures
@@ -2308,7 +2308,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: penguin
-      sprite: Mobs/Animals/penguin.rsi
+      sprite: /Mobs/Animals/penguin.rsi
   - type: Carriable #DeltaV
   - type: Physics
   - type: Fixtures
@@ -2381,7 +2381,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: penguin
-      sprite: Mobs/Animals/grenadepenguin.rsi
+      sprite: /Mobs/Animals/grenadepenguin.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -2409,7 +2409,7 @@
         Brute: 5
   - type: Item
     size: Normal
-    sprite: Mobs/Animals/grenadepenguin.rsi
+    sprite: /Mobs/Animals/grenadepenguin.rsi
   - type: OnUseTimerTrigger
     delay: 10
     beepSound:
@@ -2431,7 +2431,7 @@
       behaviors:
       - !type:ExplodeBehavior
 
-  # I have included a snake_hiss.ogg sound file so if you want to use that be my guest
+  # I have included a /snake_hiss.ogg sound file so if you want to use that be my guest
 - type: entity
   name: snake
   parent: SimpleMobBase
@@ -2443,7 +2443,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: snake
-      sprite: Mobs/Animals/snake.rsi
+      sprite: /Mobs/Animals/snake.rsi
   - type: Carriable #DeltaV
   - type: Physics
   - type: Fixtures
@@ -2554,13 +2554,13 @@
     tags:
     - DoorBumpOpener
     - FootstepSound
-  - type: Prying # Open door from xeno.yml.
+  - type: Prying # Open door from /xeno.yml.
     pryPowered: true
     force: true
     speedModifier: 1.5
     useSound:
       path: /Audio/Items/crowbar.ogg
-  - type: PassiveDamage # Slight passive regen. Assuming one damage type, comes out to about 4 damage a minute from base.yml.
+  - type: PassiveDamage # Slight passive regen. Assuming one damage type, comes out to about 4 damage a minute from /base.yml.
     allowedStates:
     - Alive
     damageCap: 89
@@ -2610,7 +2610,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: tarantula
-      sprite: Mobs/Animals/spider.rsi
+      sprite: /Mobs/Animals/spider.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -2653,7 +2653,7 @@
       layers:
       - map: ["enum.DamageStateVisualLayers.Base"]
         state: clown
-        sprite: Mobs/Animals/clownspider.rsi
+        sprite: /Mobs/Animals/clownspider.rsi
     - type: Butcherable
       spawned:
         - id: MaterialBananium1
@@ -2710,7 +2710,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/possum.rsi
+    sprite: /Mobs/Animals/possum.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: possum
@@ -2763,7 +2763,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/possum_old.rsi
+    sprite: /Mobs/Animals/possum_old.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: possum_old
@@ -2784,7 +2784,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/raccoon.rsi
+    sprite: /Mobs/Animals/raccoon.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: raccoon
@@ -2838,7 +2838,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/fox.rsi
+    sprite: /Mobs/Animals/fox.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: fox
@@ -2918,7 +2918,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/corgi.rsi
+    sprite: /Mobs/Pets/corgi.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: corgi
@@ -2985,7 +2985,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/corgi.rsi
+    sprite: /Mobs/Pets/corgi.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: narsian
@@ -3048,7 +3048,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/corgi.rsi
+    sprite: /Mobs/Pets/corgi.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: puppy
@@ -3075,7 +3075,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/cat.rsi
+    sprite: /Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cat
@@ -3261,7 +3261,7 @@
   description: Hilarious.
   components:
   - type: Sprite
-    sprite: Mobs/Pets/caracal.rsi
+    sprite: /Mobs/Pets/caracal.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: caracal_flop
@@ -3320,7 +3320,7 @@
     baseSprintSpeed : 1
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/sloth.rsi
+    sprite: /Mobs/Pets/sloth.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: sloth
@@ -3374,7 +3374,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/ferret.rsi
+    sprite: /Mobs/Pets/ferret.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: ferret
@@ -3441,7 +3441,7 @@
     allowedEmotes: ['Squeak']
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Animals/hamster.rsi
+    sprite: /Mobs/Animals/hamster.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: hamster-0
@@ -3561,7 +3561,7 @@
     price: 60
   - type: NonSpreaderZombie
   - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
+    sprite: /Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
   - type: Destructible
     thresholds:
@@ -3584,7 +3584,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: pig
-      sprite: Mobs/Animals/pig.rsi
+      sprite: /Mobs/Animals/pig.rsi
   - type: Carriable #DeltaV
   - type: Fixtures
     fixtures:
@@ -3656,7 +3656,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: nymph
-      sprite: Mobs/Animals/nymph.rsi
+      sprite: /Mobs/Animals/nymph.rsi
   - type: Carriable #DeltaV
   - type: Physics
   - type: Fixtures
@@ -3746,7 +3746,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: reindeer_buck
-      sprite: Mobs/Animals/reindeer_buck.rsi
+      sprite: /Mobs/Animals/reindeer_buck.rsi
 #  - type: SpriteMovement  # One day when this shit isnt broken as hell. For now they hoppity hop.
 #    movementLayers:
 #      movement:
@@ -3812,7 +3812,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: reindeer_doe
-      sprite: Mobs/Animals/reindeer_doe.rsi
+      sprite: /Mobs/Animals/reindeer_doe.rsi
 #  - type: SpriteMovement  # One day when this shit isnt broken as hell. For now they hoppity hop.
 #    movementLayers:
 #      movement:
@@ -3842,7 +3842,7 @@
       state: corgi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi # Would do a custom dog handcuff sprite but unfortunately handcuffs have their overlay baked-in to the cuff itself so this is mostly filler
+      sprite: /Objects/Misc/handcuffs.rsi # Would do a custom dog handcuff sprite but unfortunately handcuffs have their overlay baked-in to the cuff itself so this is mostly filler
       state: body-overlay-2
       visible: false
   - type: UserInterface
@@ -3859,12 +3859,12 @@
       belt:
         sizeMaps:
           32:
-            sprite: Mobs/Pets/corgi.rsi
+            sprite: /Mobs/Pets/corgi.rsi
             state: belt_displacement
       ears:
         sizeMaps:
           32:
-            sprite: Mobs/Pets/corgi.rsi
+            sprite: /Mobs/Pets/corgi.rsi
             state: belt_displacement
   - type: Hands # HANDS!
   - type: Puller

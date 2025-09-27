@@ -5,7 +5,7 @@
   components:
   - type: Action
     useDelay: 1.0
-    icon: _Lua/Interface/Actions/action_hardsuit_dna.png
+    icon: /_Lua/Interface/Actions/action_hardsuit_dna.png
   - type: InstantAction
     event: !type:OpenDNARadialActionEvent
 
@@ -16,7 +16,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
-    icon: _Lua/Interface/Actions/action_hardsuit_reg_dna.png
+    icon: /_Lua/Interface/Actions/action_hardsuit_reg_dna.png
     priority: -20
     useDelay: 10
   - type: InstantAction
@@ -29,7 +29,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
-    icon: _Lua/Interface/Actions/action_hardsuit_lock_dna.png
+    icon: /_Lua/Interface/Actions/action_hardsuit_lock_dna.png
     priority: -20
     useDelay: 10
   - type: InstantAction
@@ -42,7 +42,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
-    icon: _Lua/Interface/Actions/action_hardsuit_clear_dna.png
+    icon: /_Lua/Interface/Actions/action_hardsuit_clear_dna.png
     priority: -20
     useDelay: 10
   - type: InstantAction

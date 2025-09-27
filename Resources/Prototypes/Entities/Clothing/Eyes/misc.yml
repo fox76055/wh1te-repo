@@ -5,9 +5,9 @@
   description: The bind leading the blind.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Misc/blindfold.rsi
+    sprite: /Clothing/Eyes/Misc/blindfold.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Misc/blindfold.rsi
+    sprite: /Clothing/Eyes/Misc/blindfold.rsi
     equipDelay: 3
     unequipDelay: 3
   - type: Blindfold
@@ -23,9 +23,9 @@
   description: Yarr.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Misc/eyepatch.rsi
+    sprite: /Clothing/Eyes/Misc/eyepatch.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Misc/eyepatch.rsi
+    sprite: /Clothing/Eyes/Misc/eyepatch.rsi
   - type: EyeProtection
     protectionTime: 5
 

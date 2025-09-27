@@ -4,7 +4,7 @@
   name: nuclear code folder
   components:
   - type: Sprite
-    sprite: Objects/Misc/folders.rsi
+    sprite: /Objects/Misc/folders.rsi
     layers:
     - state: folder-colormap
       color: "#cc2323"
@@ -25,13 +25,13 @@
   description: A folder filled with top secret paperwork.
   components:
   - type: Sprite
-    sprite: Objects/Misc/folders.rsi
+    sprite: /Objects/Misc/folders.rsi
     layers:
     - state: folder-colormap
     - state: folder-base
 # RandomSpriteColor requires netsync which is currently incompatible with ItemMapper
 #  - type: RandomSpriteColor
-#    sprite: Objects/Misc/folders.rsi
+#    sprite: /Objects/Misc/folders.rsi
 #    state: folder-colormap
 #    colors:
 #      red: "#cc2323"
@@ -42,7 +42,7 @@
 #      black: "#3f3f3f"
 #      green: "#43bc38"
   - type: Item
-    sprite: Objects/Misc/folders.rsi
+    sprite: /Objects/Misc/folders.rsi
     size: Small
     shape: null
   - type: Storage
@@ -170,7 +170,7 @@
   description: The weapon of choice for those on the front lines of bureaucracy.
   components:
   - type: Sprite
-    sprite: Objects/Misc/clipboard.rsi
+    sprite: /Objects/Misc/clipboard.rsi
     layers:
     - state: clipboard
     - state: clipboard_paper
@@ -194,12 +194,12 @@
           - Write
         insertOnInteract: false
   - type: Item
-    sprite: Objects/Misc/clipboard.rsi
+    sprite: /Objects/Misc/clipboard.rsi
     size: Small
   - type: Clothing
     slots: [belt]
     quickEquip: false
-    sprite: Objects/Misc/clipboard.rsi
+    sprite: /Objects/Misc/clipboard.rsi
   - type: Storage
     grid:
     - 0,0,5,3
@@ -229,7 +229,7 @@
   description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
   components:
   - type: Sprite
-    sprite: Objects/Misc/cc-clipboard.rsi
+    sprite: /Objects/Misc/cc-clipboard.rsi
     layers:
     - state: clipboard
     - state: clipboard_paper
@@ -240,9 +240,9 @@
       visible: false
     - state: clipboard_over
   - type: Item
-    sprite: Objects/Misc/cc-clipboard.rsi
+    sprite: /Objects/Misc/cc-clipboard.rsi
   - type: Clothing
-    sprite: Objects/Misc/cc-clipboard.rsi
+    sprite: /Objects/Misc/cc-clipboard.rsi
 
 - type: entity
   id: BoxFolderQmClipboard
@@ -251,7 +251,7 @@
   description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
   components:
   - type: Sprite
-    sprite: Objects/Misc/qm_clipboard.rsi
+    sprite: /Objects/Misc/qm_clipboard.rsi
     layers:
     - state: qm_clipboard
     - state: qm_clipboard_paper
@@ -270,10 +270,10 @@
           - Write
         insertOnInteract: true
   - type: Item
-    sprite: Objects/Misc/qm_clipboard.rsi
+    sprite: /Objects/Misc/qm_clipboard.rsi
     size: Normal
   - type: Clothing
-    sprite: Objects/Misc/qm_clipboard.rsi
+    sprite: /Objects/Misc/qm_clipboard.rsi
   - type: Storage
     grid:
     - 0,0,4,3

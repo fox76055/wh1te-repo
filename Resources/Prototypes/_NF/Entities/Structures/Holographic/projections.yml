@@ -8,7 +8,7 @@
       bodyType: Static
       canCollide: true
     - type: Sprite
-      sprite: _NF/Structures/Holo/nfsd.rsi
+      sprite: /_NF/Structures/Holo/nfsd.rsi
       state: icon
     - type: Fixtures
       fixtures:

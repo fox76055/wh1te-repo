@@ -11,7 +11,7 @@
     bodyType: Static
     canCollide: false
   - type: Sprite
-    sprite: Structures/Holo/wetfloor.rsi
+    sprite: /Structures/Holo/wetfloor.rsi
     state: icon
   - type: TimedDespawn
     lifetime: 90
@@ -33,7 +33,7 @@
   description: A barrier of hard light that blocks air, but nothing else.
   components:
   - type: Sprite
-    sprite: Structures/Holo/holofan.rsi
+    sprite: /Structures/Holo/holofan.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -56,7 +56,7 @@
       bodyType: Static
       canCollide: true
     - type: Sprite
-      sprite: Structures/Holo/security.rsi
+      sprite: /Structures/Holo/security.rsi
       state: icon
     - type: Fixtures
       fixtures:
@@ -87,7 +87,7 @@
     bodyType: Static
     canCollide: true
   - type: Sprite
-    sprite: Structures/Holo/field.rsi
+    sprite: /Structures/Holo/field.rsi
     state: icon
   - type: Fixtures
     fixtures:

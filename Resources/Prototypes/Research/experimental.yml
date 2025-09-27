@@ -5,7 +5,7 @@
   id: BasicRobotics
   name: research-technology-basic-robotics
   icon:
-    sprite: Structures/Machines/exosuit_fabricator.rsi
+    sprite: /Structures/Machines/exosuit_fabricator.rsi
     state: fab-idle
   discipline: Experimental
   tier: 1
@@ -17,7 +17,7 @@
   id: BasicAnomalousResearch
   name: research-technology-basic-anomalous-research
   icon:
-    sprite: Objects/Specific/Research/anomalyscanner.rsi
+    sprite: /Objects/Specific/Research/anomalyscanner.rsi
     state: icon
   discipline: Experimental
   tier: 1
@@ -33,7 +33,7 @@
   id: BasicXenoArcheology
   name: research-technology-basic-xenoarcheology
   icon:
-    sprite: Structures/Machines/artifact_analyzer.rsi
+    sprite: /Structures/Machines/artifact_analyzer.rsi
     state: display
   discipline: Experimental
   tier: 1
@@ -47,7 +47,7 @@
   id: AlternativeResearch
   name: research-technology-alternative-research
   icon:
-    sprite: Structures/Machines/tech_disk_printer.rsi
+    sprite: /Structures/Machines/tech_disk_printer.rsi
     state: display
   discipline: Experimental
   tier: 1
@@ -59,7 +59,7 @@
   id: MagnetsTech
   name: research-technology-magnets-tech
   icon:
-    sprite: Clothing/Shoes/Boots/magboots-science.rsi
+    sprite: /Clothing/Shoes/Boots/magboots-science.rsi
     state: icon
   discipline: Experimental
   tier: 1
@@ -72,7 +72,7 @@
   id: AnomalyCoreHarnessing
   name: research-technology-anomaly-harnessing
   icon:
-    sprite: Objects/Weapons/Melee/gorilla.rsi
+    sprite: /Objects/Weapons/Melee/gorilla.rsi
     state: icon
   discipline: Experimental
   tier: 1
@@ -86,7 +86,7 @@
   id: AbnormalArtifactManipulation
   name: research-technology-abnormal-artifact-manipulation
   icon:
-    sprite: Structures/Machines/artifact_crusher.rsi
+    sprite: /Structures/Machines/artifact_crusher.rsi
     state: icon
   discipline: Experimental
   tier: 2
@@ -98,7 +98,7 @@
   id: AdvancedAnomalyResearch
   name: research-technology-advanced-anomaly-research
   icon:
-    sprite: Structures/Machines/anomaly_sync.rsi
+    sprite: /Structures/Machines/anomaly_sync.rsi
     state: base
   discipline: Experimental
   tier: 2
@@ -114,7 +114,7 @@
   id: DeterrenceTechnologies
   name: research-technology-deterrence
   icon:
-    sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
+    sprite: /Objects/Weapons/Guns/Battery/particle_decelerator.rsi
     state: base
   discipline: Experimental
   tier: 2
@@ -127,7 +127,7 @@
   id: GravityManipulation
   name: research-technology-gravity-manipulation
   icon:
-    sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
+    sprite: /Objects/Weapons/Guns/Launchers/tether_gun.rsi
     state: base
   discipline: Experimental
   tier: 2
@@ -142,7 +142,7 @@
   id: QuantumLeaping
   name: research-technology-quantum-leaping
   icon:
-    sprite: Objects/Devices/swapper.rsi
+    sprite: /Objects/Devices/swapper.rsi
     state: icon
   discipline: Experimental
   tier: 3
@@ -154,7 +154,7 @@
   id: BluespaceTimeManipulation
   name: research-technology-bluespace-time-manipulation
   icon:
-    sprite: Objects/Devices/desynchronizer.rsi
+    sprite: /Objects/Devices/desynchronizer.rsi
     state: icon
   discipline: Experimental
   tier: 3

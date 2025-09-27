@@ -10,9 +10,9 @@
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_hardsuit.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: Reflect
@@ -43,9 +43,9 @@
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFSpecialistBravo
   - type: ExplosionResistance
@@ -81,9 +81,9 @@
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_hardsuit.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: Reflect
@@ -114,9 +114,9 @@
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFSpecialistCharlie
   - type: ExplosionResistance
@@ -151,9 +151,9 @@
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFCommanderAlt
   - type: HardsuitIdentification
@@ -171,9 +171,9 @@
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFMediumAlt
   - type: Tag
@@ -195,9 +195,9 @@
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_hardsuit.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFLightAlt
   - type: Tag

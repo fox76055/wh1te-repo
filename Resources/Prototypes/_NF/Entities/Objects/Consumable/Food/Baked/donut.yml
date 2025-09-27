@@ -9,7 +9,7 @@
       - dough
       - sweet
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/donut.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/donut.rsi
     state: uncooked
   - type: SolutionContainerManager
     solutions: &uncookedSolution
@@ -39,7 +39,7 @@
   - type: SolutionContainerManager
     solutions: *uncookedSolution
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/donut.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-uncooked
   - type: DeepFrySpawn
     cycles: 2

@@ -8,7 +8,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Specific/Medical/medical.rsi
+        - sprite: /Objects/Specific/Medical/medical.rsi
           state: brutepack
     - type: RandomSpawner
       rarePrototypes:
@@ -33,7 +33,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
+        - sprite: /_NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
           state: firstaid
     - type: RandomSpawner
       rarePrototypes:

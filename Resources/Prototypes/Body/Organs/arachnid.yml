@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Arachnid/organs.rsi
+    sprite: /Mobs/Species/Arachnid/organs.rsi
   - type: Organ
   - type: Food
   - type: Extractable
@@ -32,7 +32,7 @@
   description: "Gross. This is hard to stomach."
   components:
   - type: Sprite
-    sprite: Mobs/Species/Arachnid/organs.rsi
+    sprite: /Mobs/Species/Arachnid/organs.rsi
     state: stomach
   - type: Item
     size: Small

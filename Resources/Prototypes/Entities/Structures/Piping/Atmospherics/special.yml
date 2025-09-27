@@ -11,7 +11,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/tinyfan.rsi
+    sprite: /Structures/Piping/Atmospherics/tinyfan.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -41,7 +41,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/directionalfan.rsi
+    sprite: /Structures/Piping/Atmospherics/directionalfan.rsi
     state: icon
   - type: Fixtures
     fixtures:

@@ -11,7 +11,7 @@
   - type: RadioSpeaker
     toggleOnInteract: false # Nuclear-14
   - type: Sprite
-    sprite: _NF/Objects/Devices/communication.rsi
+    sprite: /_NF/Objects/Devices/communication.rsi
     layers:
     - state: base
     - state: broadcasting
@@ -23,7 +23,7 @@
       shader: unshaded
       visible: false
   - type: Item
-    sprite: _NF/Objects/Devices/communication.rsi
+    sprite: /_NF/Objects/Devices/communication.rsi
     heldPrefix: walkietalkie
   # Nuclear-14-Start
   - type: ActivatableUI

@@ -38,7 +38,7 @@
 - type: latheRecipe
   id: NFBioGenWoodPlank
   result: MaterialWoodPlank1
-  parent: BaseMaterialsNoDiscountRecipe # Base prototype is in Resources\Prototypes\_NF\Recipes\Lathes\sheet.yml
+  parent: BaseMaterialsNoDiscountRecipe # Base prototype is in /Resources/Prototypes/_NF/Recipes/Lathes/sheet.yml
   materials:
     Biomass: 15
 
@@ -213,7 +213,7 @@
   resultReagents:
     Astrotame: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-astrotame
 
 - type: latheRecipe
@@ -222,7 +222,7 @@
   resultReagents:
     BbqSauce: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-bbq
 
 - type: latheRecipe
@@ -231,7 +231,7 @@
   resultReagents:
     Cornoil: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-cornoil
 
 - type: latheRecipe
@@ -240,7 +240,7 @@
   resultReagents:
     Coldsauce: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-frostoil
 
 - type: latheRecipe
@@ -249,7 +249,7 @@
   resultReagents:
     Hotsauce: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-hotsauce
 
 - type: latheRecipe
@@ -258,7 +258,7 @@
   resultReagents:
     HorseradishSauce: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-greygoo
 
 - type: latheRecipe
@@ -267,7 +267,7 @@
   resultReagents:
     Ketchup: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-ketchup
 
 - type: latheRecipe
@@ -276,7 +276,7 @@
   resultReagents:
     Mustard: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-mustard
 
 - type: latheRecipe
@@ -285,7 +285,7 @@
   resultReagents:
     Soysauce: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-soysauce
 
 - type: latheRecipe
@@ -294,7 +294,7 @@
   resultReagents:
     OilOlive: 10
   icon:
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: /Objects/Consumable/Food/ingredients.rsi
     state: oliveoil
 
 - type: latheRecipe
@@ -303,7 +303,7 @@
   resultReagents:
     Cornmeal: 10
   icon:
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: /Objects/Consumable/Food/ingredients.rsi
     state: cornmeal-big
 
 - type: latheRecipe
@@ -312,7 +312,7 @@
   resultReagents:
     Rice: 10
   icon:
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: /Objects/Consumable/Food/ingredients.rsi
     state: rice-big
 
 - type: latheRecipe
@@ -321,7 +321,7 @@
   resultReagents:
     Raisins: 10
   icon:
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    sprite: /_NF/Objects/Consumable/Food/ingredients.rsi
     state: raisin-big
 
 - type: latheRecipe
@@ -330,7 +330,7 @@
   resultReagents:
     CocoaPowder: 10
   icon:
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     state: chocolatebar
 
 - type: latheRecipe
@@ -339,7 +339,7 @@
   resultReagents:
     TableSalt: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-salt
 
 - type: latheRecipe
@@ -348,7 +348,7 @@
   resultReagents:
     OilGhee: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: bottle-vinegar
 
 - type: latheRecipe
@@ -357,7 +357,7 @@
   resultReagents:
     Vinegar: 10
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: bottle-vinegar
 
 # region Soda
@@ -369,7 +369,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/cola.rsi
+    sprite: /Objects/Consumable/Drinks/cola.rsi
     state: icon
   completetime: 1
   materials:
@@ -382,7 +382,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/changelingsting.rsi
+    sprite: /Objects/Consumable/Drinks/changelingsting.rsi
     state: icon
   completetime: 1
   materials:
@@ -395,7 +395,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/dr_gibb.rsi
+    sprite: /Objects/Consumable/Drinks/dr_gibb.rsi
     state: icon
   completetime: 1
   materials:
@@ -408,7 +408,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/energy_drink.rsi
+    sprite: /Objects/Consumable/Drinks/energy_drink.rsi
     state: icon
   completetime: 1
   materials:
@@ -421,7 +421,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/purple_can.rsi
+    sprite: /Objects/Consumable/Drinks/purple_can.rsi
     state: icon
   completetime: 1
   materials:
@@ -434,7 +434,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/lemon-lime.rsi
+    sprite: /Objects/Consumable/Drinks/lemon-lime.rsi
     state: icon
   completetime: 1
   materials:
@@ -447,7 +447,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
+    sprite: /Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
     state: icon
   completetime: 1
   materials:
@@ -460,7 +460,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/pwrgame.rsi
+    sprite: /Objects/Consumable/Drinks/pwrgame.rsi
     state: icon
   completetime: 1
   materials:
@@ -473,7 +473,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/rootbeer.rsi
+    sprite: /Objects/Consumable/Drinks/rootbeer.rsi
     state: icon
   completetime: 1
   materials:
@@ -486,7 +486,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/sol_dry.rsi
+    sprite: /Objects/Consumable/Drinks/sol_dry.rsi
     state: icon
   completetime: 1
   materials:
@@ -499,7 +499,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/space_mountain_wind.rsi
+    sprite: /Objects/Consumable/Drinks/space_mountain_wind.rsi
     state: icon
   completetime: 1
   materials:
@@ -512,7 +512,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/space-up.rsi
+    sprite: /Objects/Consumable/Drinks/space-up.rsi
     state: icon
   completetime: 1
   materials:
@@ -525,7 +525,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/starkist.rsi
+    sprite: /Objects/Consumable/Drinks/starkist.rsi
     state: icon
   completetime: 1
   materials:
@@ -538,7 +538,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/fourteen_loko.rsi
+    sprite: /Objects/Consumable/Drinks/fourteen_loko.rsi
     state: icon
   completetime: 1
   materials:
@@ -551,7 +551,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/shamblersjuice.rsi
+    sprite: /Objects/Consumable/Drinks/shamblersjuice.rsi
     state: icon
   completetime: 1
   materials:
@@ -564,7 +564,7 @@
   categories:
   - Soda
   icon:
-    sprite: Objects/Consumable/Drinks/sodawater.rsi
+    sprite: /Objects/Consumable/Drinks/sodawater.rsi
     state: icon
   completetime: 1
   materials:
@@ -577,7 +577,7 @@
   parent: BioGenSeedsRecipe
   result: AppleSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/apple.rsi
+    sprite: /Objects/Specific/Hydroponics/apple.rsi
     state: seed
 
 - type: latheRecipe
@@ -585,7 +585,7 @@
   parent: BioGenSeedsRecipe
   result: AvocadoSeeds
   icon:
-    sprite: _NF/Objects/Specific/Hydroponics/avocado.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/avocado.rsi
     state: seed
 
 - type: latheRecipe
@@ -593,7 +593,7 @@
   parent: BioGenSeedsRecipe
   result: BananaSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: /Objects/Specific/Hydroponics/banana.rsi
     state: seed
 
 - type: latheRecipe
@@ -601,7 +601,7 @@
   parent: BioGenSeedsRecipe
   result: BeeSeeds
   icon:
-    sprite: _NF/Objects/Specific/Hydroponics/bees.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/bees.rsi
     state: seed
 
 - type: latheRecipe
@@ -609,7 +609,7 @@
   parent: BioGenSeedsRecipe
   result: BerrySeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/berries.rsi
+    sprite: /Objects/Specific/Hydroponics/berries.rsi
     state: seed
 
 - type: latheRecipe
@@ -617,7 +617,7 @@
   parent: BioGenSeedsRecipe
   result: BungoSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/bungo.rsi
+    sprite: /Objects/Specific/Hydroponics/bungo.rsi
     state: seed
 
 - type: latheRecipe
@@ -625,7 +625,7 @@
   parent: BioGenSeedsRecipe
   result: CarrotSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/carrot.rsi
+    sprite: /Objects/Specific/Hydroponics/carrot.rsi
     state: seed
 
 - type: latheRecipe
@@ -633,7 +633,7 @@
   parent: BioGenSeedsRecipe
   result: CabbageSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/cabbage.rsi
+    sprite: /Objects/Specific/Hydroponics/cabbage.rsi
     state: seed
 
 - type: latheRecipe
@@ -641,7 +641,7 @@
   parent: BioGenSeedsRecipe
   result: ChanterelleSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/chanterelle.rsi
+    sprite: /Objects/Specific/Hydroponics/chanterelle.rsi
     state: seed
 
 - type: latheRecipe
@@ -649,7 +649,7 @@
   parent: BioGenSeedsRecipe
   result: CherrySeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/cherry.rsi
+    sprite: /Objects/Specific/Hydroponics/cherry.rsi
     state: seed
 
 - type: latheRecipe
@@ -657,7 +657,7 @@
   parent: BioGenSeedsRecipe
   result: ChiliSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/chili.rsi
+    sprite: /Objects/Specific/Hydroponics/chili.rsi
     state: seed
 
 - type: latheRecipe
@@ -665,7 +665,7 @@
   parent: BioGenSeedsRecipe
   result: CocoaSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/cocoa.rsi
+    sprite: /Objects/Specific/Hydroponics/cocoa.rsi
     state: seed
 
 - type: latheRecipe
@@ -673,7 +673,7 @@
   parent: BioGenSeedsRecipe
   result: CoffeeSeeds
   icon:
-    sprite: _NF/Objects/Specific/Hydroponics/coffee.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/coffee.rsi
     state: seed
 
 - type: latheRecipe
@@ -681,7 +681,7 @@
   parent: BioGenSeedsRecipe
   result: CornSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/corn.rsi
+    sprite: /Objects/Specific/Hydroponics/corn.rsi
     state: seed
 
 - type: latheRecipe
@@ -689,7 +689,7 @@
   parent: BioGenSeedsRecipe
   result: CottonSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/cotton.rsi
+    sprite: /Objects/Specific/Hydroponics/cotton.rsi
     state: seed
 
 - type: latheRecipe
@@ -697,7 +697,7 @@
   parent: BioGenSeedsRecipe
   result: CucumberSeeds
   icon:
-    sprite: _NF/Objects/Specific/Hydroponics/cucumber.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/cucumber.rsi
     state: seed
 
 - type: latheRecipe
@@ -705,7 +705,7 @@
   parent: BioGenSeedsRecipe
   result: EggplantSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/eggplant.rsi
+    sprite: /Objects/Specific/Hydroponics/eggplant.rsi
     state: seed
 
 - type: latheRecipe
@@ -713,7 +713,7 @@
   parent: BioGenSeedsRecipe
   result: EggySeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/eggy.rsi
+    sprite: /Objects/Specific/Hydroponics/eggy.rsi
     state: seed
 
 - type: latheRecipe
@@ -721,7 +721,7 @@
   parent: BioGenSeedsRecipe
   result: EveryspiceSeeds
   icon:
-    sprite: _NF/Objects/Specific/Hydroponics/everyspice.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/everyspice.rsi
     state: seed
 
 - type: latheRecipe
@@ -729,7 +729,7 @@
   parent: BioGenSeedsRecipe
   result: GarlicSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/garlic.rsi
+    sprite: /Objects/Specific/Hydroponics/garlic.rsi
     state: seed
 
 - type: latheRecipe
@@ -737,7 +737,7 @@
   parent: BioGenSeedsRecipe
   result: GrapeSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/grape.rsi
+    sprite: /Objects/Specific/Hydroponics/grape.rsi
     state: seed
 
 - type: latheRecipe
@@ -745,7 +745,7 @@
   parent: BioGenSeedsRecipe
   result: LemonSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/lemon.rsi
+    sprite: /Objects/Specific/Hydroponics/lemon.rsi
     state: seed
 
 - type: latheRecipe
@@ -753,7 +753,7 @@
   parent: BioGenSeedsRecipe
   result: LimeSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/lime.rsi
+    sprite: /Objects/Specific/Hydroponics/lime.rsi
     state: seed
 
 - type: latheRecipe
@@ -761,7 +761,7 @@
   parent: BioGenSeedsRecipe
   result: PineappleSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/pineapple.rsi
+    sprite: /Objects/Specific/Hydroponics/pineapple.rsi
     state: seed
 
 - type: latheRecipe
@@ -769,7 +769,7 @@
   parent: BioGenSeedsRecipe
   result: OatSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/oat.rsi
+    sprite: /Objects/Specific/Hydroponics/oat.rsi
     state: seed
 
 - type: latheRecipe
@@ -777,7 +777,7 @@
   parent: BioGenSeedsRecipe
   result: OnionSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/onion.rsi
+    sprite: /Objects/Specific/Hydroponics/onion.rsi
     state: seed
 
 - type: latheRecipe
@@ -785,7 +785,7 @@
   parent: BioGenSeedsRecipe
   result: OnionRedSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/onion_red.rsi
+    sprite: /Objects/Specific/Hydroponics/onion_red.rsi
     state: seed
 
 - type: latheRecipe
@@ -793,7 +793,7 @@
   parent: BioGenSeedsRecipe
   result: OrangeSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/orange.rsi
+    sprite: /Objects/Specific/Hydroponics/orange.rsi
     state: seed
 
 - type: latheRecipe
@@ -801,7 +801,7 @@
   parent: BioGenSeedsRecipe
   result: PearSeeds
   icon:
-    sprite: _NF/Objects/Specific/Hydroponics/pear.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/pear.rsi
     state: seed
 
 - type: latheRecipe
@@ -809,7 +809,7 @@
   parent: BioGenSeedsRecipe
   result: PeaSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/pea.rsi
+    sprite: /Objects/Specific/Hydroponics/pea.rsi
     state: seed
 
 - type: latheRecipe
@@ -817,7 +817,7 @@
   parent: BioGenSeedsRecipe
   result: PotatoSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/potato.rsi
+    sprite: /Objects/Specific/Hydroponics/potato.rsi
     state: seed
 
 - type: latheRecipe
@@ -825,7 +825,7 @@
   parent: BioGenSeedsRecipe
   result: PumpkinSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/pumpkin.rsi
+    sprite: /Objects/Specific/Hydroponics/pumpkin.rsi
     state: seed
 
 - type: latheRecipe
@@ -833,7 +833,7 @@
   parent: BioGenSeedsRecipe
   result: RiceSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/rice.rsi
+    sprite: /Objects/Specific/Hydroponics/rice.rsi
     state: seed
 
 - type: latheRecipe
@@ -841,7 +841,7 @@
   parent: BioGenSeedsRecipe
   result: SoybeanSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/soybeans.rsi
+    sprite: /Objects/Specific/Hydroponics/soybeans.rsi
     state: seed
 
 - type: latheRecipe
@@ -849,7 +849,7 @@
   parent: BioGenSeedsRecipe
   result: SugarcaneSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/sugarcane.rsi
+    sprite: /Objects/Specific/Hydroponics/sugarcane.rsi
     state: seed
 
 - type: latheRecipe
@@ -857,7 +857,7 @@
   parent: BioGenSeedsRecipe
   result: TeaPlantSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/tea_plant.rsi
+    sprite: /Objects/Specific/Hydroponics/tea_plant.rsi
     state: seed
 
 - type: latheRecipe
@@ -865,7 +865,7 @@
   parent: BioGenSeedsRecipe
   result: TomatoSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/tomato.rsi
+    sprite: /Objects/Specific/Hydroponics/tomato.rsi
     state: seed
 
 - type: latheRecipe
@@ -873,7 +873,7 @@
   parent: BioGenSeedsRecipe
   result: TowercapSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/towercap.rsi
+    sprite: /Objects/Specific/Hydroponics/towercap.rsi
     state: seed
 
 - type: latheRecipe
@@ -881,7 +881,7 @@
   parent: BioGenSeedsRecipe
   result: WheatSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/wheat.rsi
+    sprite: /Objects/Specific/Hydroponics/wheat.rsi
     state: seed
 
 - type: latheRecipe
@@ -889,7 +889,7 @@
   parent: BioGenSeedsRecipe
   result: WatermelonSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/watermelon.rsi
+    sprite: /Objects/Specific/Hydroponics/watermelon.rsi
     state: seed
 
 # region Medical Seeds
@@ -899,7 +899,7 @@
   parent: BioGenSeedsRecipe
   result: AloeSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/aloe.rsi
+    sprite: /Objects/Specific/Hydroponics/aloe.rsi
     state: seed
 
 - type: latheRecipe
@@ -907,7 +907,7 @@
   parent: BioGenSeedsRecipe
   result: AmbrosiaVulgarisSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
+    sprite: /Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
     state: seed
 
 - type: latheRecipe
@@ -915,7 +915,7 @@
   parent: BioGenSeedsRecipe
   result: GalaxythistleSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/galaxythistle.rsi
+    sprite: /Objects/Specific/Hydroponics/galaxythistle.rsi
     state: seed
 
 - type: latheRecipe
@@ -923,7 +923,7 @@
   parent: BioGenSeedsRecipe
   result: LingzhiSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/lingzhi.rsi
+    sprite: /Objects/Specific/Hydroponics/lingzhi.rsi
     state: seed
 
 - type: latheRecipe
@@ -931,7 +931,7 @@
   parent: BioGenSeedsRecipe
   result: PoppySeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/poppy.rsi
+    sprite: /Objects/Specific/Hydroponics/poppy.rsi
     state: seed
 
 # region Emag
@@ -941,5 +941,5 @@
   parent: BioGenSeedsRecipe
   result: FlyAmanitaSeeds
   icon:
-    sprite: Objects/Specific/Hydroponics/fly_amanita.rsi
+    sprite: /Objects/Specific/Hydroponics/fly_amanita.rsi
     state: seed

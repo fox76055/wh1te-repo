@@ -41,7 +41,7 @@
     priority: -1
     useDelay: 30
     icon:
-      sprite: _NF/Structures/Walls/solid.rsi # Frontier
+      sprite: /_NF/Structures/Walls/solid.rsi # Frontier
       state: full
   - type: InstantAction
     event: !type:InvisibleWallActionEvent

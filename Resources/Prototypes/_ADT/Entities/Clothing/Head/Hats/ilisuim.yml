@@ -5,9 +5,9 @@
   description: Ilisium
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/hurashka.rsi
+    sprite: /ADT/Clothing/Head/Hats/hurashka.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/hurashka.rsi
+    sprite: /ADT/Clothing/Head/Hats/hurashka.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -16,9 +16,9 @@
   description: Ilisium
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/helmetSolder.rsi
+    sprite: /ADT/Clothing/Head/Hats/helmetSolder.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/helmetSolder.rsi
+    sprite: /ADT/Clothing/Head/Hats/helmetSolder.rsi
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] #ClothingHeadSuitWithLightBase
@@ -28,9 +28,9 @@
   description: Ilisium
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/helmet.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/helmet.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/helmet.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/helmet.rsi
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -51,9 +51,9 @@
   description: A close-fitting tactical mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/gasmask_ili.rsi
+    sprite: /ADT/Clothing/Head/Hats/gasmask_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/gasmask_ili.rsi
+    sprite: /ADT/Clothing/Head/Hats/gasmask_ili.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -65,9 +65,9 @@
   description: hardsuit ilisium
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/hardsuit_ili.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -96,9 +96,9 @@
   description: Ilisium
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/plash_ili.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -111,6 +111,6 @@
   description: Suit Ilisiom
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
+    sprite: /ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
+    sprite: /ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi

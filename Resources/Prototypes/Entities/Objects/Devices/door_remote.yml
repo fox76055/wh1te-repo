@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Devices/door_remote.rsi
+    sprite: /Objects/Devices/door_remote.rsi
   - type: Item
     storedRotation: -90
   - type: Access

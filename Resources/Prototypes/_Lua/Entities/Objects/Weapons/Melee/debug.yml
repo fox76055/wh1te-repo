@@ -10,7 +10,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Melee/vie-sword.rsi
+    sprite: /_Lua/Objects/Weapons/Melee/vie-sword.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -21,7 +21,7 @@
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
     size: Normal
-    sprite: _Lua/Objects/Weapons/Melee/vie-sword.rsi
+    sprite: /_Lua/Objects/Weapons/Melee/vie-sword.rsi
   - type: DisarmMalus
 
 - type: entity
@@ -59,7 +59,7 @@
   description: BEHOLD, THE VEIL-RIPPER'S MEGASTAFF!
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Melee/vie-healer.rsi
+    sprite: /_Lua/Objects/Weapons/Melee/vie-healer.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -70,7 +70,7 @@
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
     size: Normal
-    sprite: _Lua/Objects/Weapons/Melee/vie-healer.rsi
+    sprite: /_Lua/Objects/Weapons/Melee/vie-healer.rsi
   - type: DisarmMalus
 
 - type: entity

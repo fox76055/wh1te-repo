@@ -5,9 +5,9 @@
   description: Sturdy shoes that minimize injury from falling objects or knives.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/chef.rsi
+    sprite: /Clothing/Shoes/Specific/chef.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/chef.rsi
+    sprite: /Clothing/Shoes/Specific/chef.rsi
 
 # stuff common to all clown & jester shoes
 - type: entity
@@ -50,9 +50,9 @@
   description: "The prankster's standard-issue clowning shoes. Damn they're huge!"
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/clown.rsi
+    sprite: /Clothing/Shoes/Specific/clown.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/clown.rsi
+    sprite: /Clothing/Shoes/Specific/clown.rsi
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepClown
@@ -71,9 +71,9 @@
   description: "When humor and footwear combine into new levels of absurdity."
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/clown_banana.rsi
+    sprite: /Clothing/Shoes/Specific/clown_banana.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/clown_banana.rsi
+    sprite: /Clothing/Shoes/Specific/clown_banana.rsi
   #- type: FootstepModifier You can add a sound effect when you make one that doesn't sound like a dog dying. -emo
   #  footstepSoundCollection:
   #    collection: FootstepSlip
@@ -94,9 +94,9 @@
   description: Made of refined bananium and shined with the pulp of a fresh banana peel. These make a flashy statement.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/bling.rsi
+    sprite: /Clothing/Shoes/Specific/bling.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/bling.rsi
+    sprite: /Clothing/Shoes/Specific/bling.rsi
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepClown
@@ -116,9 +116,9 @@
   description: A pair of boots worn by the followers of Nar'Sie.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/cult.rsi
+    sprite: /Clothing/Shoes/Specific/cult.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/cult.rsi
+    sprite: /Clothing/Shoes/Specific/cult.rsi
 
 - type: entity
   parent: ClothingShoesBase # Frontier: remove BaseJanitorContraband
@@ -127,9 +127,9 @@
   description: Rubber boots.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/galoshes.rsi
+    sprite: /Clothing/Shoes/Specific/galoshes.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/galoshes.rsi
+    sprite: /Clothing/Shoes/Specific/galoshes.rsi
   - type: NoSlip
   - type: SlowedOverSlippery
     slowdownModifier: 0.7
@@ -144,9 +144,9 @@
   description: A pair of nano-enhanced boots with built-in magnetic suction cups.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/spaceninja.rsi
+    sprite: /Clothing/Shoes/Specific/spaceninja.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/spaceninja.rsi
+    sprite: /Clothing/Shoes/Specific/spaceninja.rsi
   - type: NoSlip
   - type: Magboots # always have gravity because le suction cups
   - type: ClothingSpeedModifier
@@ -163,9 +163,9 @@
   description: When you want to turn up the heat.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/swat.rsi
+    sprite: /Clothing/Shoes/Specific/swat.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/swat.rsi
+    sprite: /Clothing/Shoes/Specific/swat.rsi
 
 - type: entity
   parent: [ClothingShoesBaseButcherable, BaseC3WizardContraband] # Frontier: added BaseC3WizardContraband
@@ -174,9 +174,9 @@
   description: A pair of magic shoes.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/wizard.rsi
+    sprite: /Clothing/Shoes/Specific/wizard.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/wizard.rsi
+    sprite: /Clothing/Shoes/Specific/wizard.rsi
 
 - type: entity
   parent: ClothingShoesBase
@@ -188,13 +188,13 @@
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
-      sprite: Clothing/Shoes/color.rsi
+      sprite: /Clothing/Shoes/color.rsi
       layers:
       - state: icon
         color: "#3f3f3f"
       - state: soles-icon
     - type: Clothing
-      sprite: Clothing/Shoes/color.rsi
+      sprite: /Clothing/Shoes/color.rsi
       clothingVisuals:
         shoes:
         - state: equipped-FEET
@@ -221,7 +221,7 @@
 - type: entity
   parent: [ClothingShoesChameleon, BaseC3SyndicateContraband] # Frontier: add BaseC3SyndicateContraband
   id: ClothingShoesChameleonNoSlips
-  name: black shoes #actual name and description in uplink_catalog.yml
+  name: black shoes #actual name and description in /uplink_catalog.yml
   suffix: No-slip, Chameleon
   description: Stylish black shoes.
   components:
@@ -236,9 +236,9 @@
   description: A court jester's shoes, updated with modern squeaking technology.
   components:
     - type: Sprite
-      sprite: Clothing/Shoes/Specific/jester.rsi
+      sprite: /Clothing/Shoes/Specific/jester.rsi
     - type: Clothing
-      sprite: Clothing/Shoes/Specific/jester.rsi
+      sprite: /Clothing/Shoes/Specific/jester.rsi
     - type: FootstepModifier
       footstepSoundCollection:
         collection: FootstepJester
@@ -260,9 +260,9 @@
   description: "Cursed pair of cluwne shoes."
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/cluwne.rsi
+    sprite: /Clothing/Shoes/Specific/cluwne.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/cluwne.rsi
+    sprite: /Clothing/Shoes/Specific/cluwne.rsi
   - type: Unremoveable
 
 - type: entity
@@ -273,16 +273,16 @@
   components:
   - type: Sprite
     state: "icon"
-    sprite: Clothing/Shoes/Specific/large_clown.rsi
+    sprite: /Clothing/Shoes/Specific/large_clown.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/large_clown.rsi
+    sprite: /Clothing/Shoes/Specific/large_clown.rsi
     clothingVisuals:
       shoes:
       - state: equipped-FEET
         offset: "0, -0.02"
   - type: Item
     size: Small
-    sprite: Clothing/Shoes/Specific/large_clown.rsi
+    sprite: /Clothing/Shoes/Specific/large_clown.rsi
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.8
@@ -294,15 +294,15 @@
   description: "Get your skates on!"
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/skates.rsi
+    sprite: /Clothing/Shoes/Specific/skates.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/skates.rsi
+    sprite: /Clothing/Shoes/Specific/skates.rsi
     clothingVisuals:
       shoes:
       - state: equipped-FEET
         offset: "0, -0.04"
   - type: Item
-    sprite: Clothing/Shoes/Specific/skates.rsi
+    sprite: /Clothing/Shoes/Specific/skates.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1.1
     sprintModifier: 1.1

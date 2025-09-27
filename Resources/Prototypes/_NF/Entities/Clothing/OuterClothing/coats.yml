@@ -5,9 +5,9 @@
   description: A greatcoat enhanced with a bulletproof alloy for some extra protection and style for those with a charismatic presence.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi
   - type: Armor # ClothingOuterArmorBulletproof stats
     modifiers:
       coefficients:
@@ -25,9 +25,9 @@
   description: Golden threads aren't actually made of gold. Bummer.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/bishop_robe.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/bishop_robe.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/bishop_robe.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/bishop_robe.rsi
 
 - type: entity
   parent:  ClothingOuterBaseToggleable
@@ -36,9 +36,9 @@
   description: Looks even better under constant rain with storm wind.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodChaplainHood
 
@@ -49,9 +49,9 @@
   description: Nobody expects the Spanish Inquisition!
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/cardinal_robe.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/cardinal_robe.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/cardinal_robe.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/cardinal_robe.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodCardinalHood
 
@@ -62,9 +62,9 @@
   description: Lookin' slick Tom.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -73,9 +73,9 @@
   description: Blood may stain.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -84,9 +84,9 @@
   description: Snazzy.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -95,9 +95,9 @@
   description: Very snazzy.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -106,9 +106,9 @@
   description: Big iron on his hip...
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_long.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_long.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_long.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/nfsd_long.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -117,11 +117,11 @@
   description: The upper part of the station representative's uniform.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/sr_jacket.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/sr_jacket.rsi
     layers:
     - state: icon
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/sr_jacket.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/sr_jacket.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -133,9 +133,9 @@
   description: Y'arrgh har fiddle di dee.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/pirate_captain.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/pirate_captain.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/pirate_captain.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/pirate_captain.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageFoldableBase, BaseC3ContrabandNoValue, ContrabandClothing ]
@@ -144,9 +144,9 @@
   description: A flak trenchcoat produced by Arcadia Industries, enhanced with a bulletproof alloy for some extra protection.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/arcadia_trench.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/arcadia_trench.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/arcadia_trench.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/arcadia_trench.rsi
   - type: Armor # ClothingOuterArmorBulletproof stats + caustic
     modifiers:
       coefficients:
@@ -181,9 +181,9 @@
   description: ClothingOuterWizardBrick
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/wizard/brickwizard.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/wizard/brickwizard.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/wizard/brickwizard.rsi
+    sprite: /_NF/Clothing/OuterClothing/Misc/wizard/brickwizard.rsi
   - type: Armor # Open = less armor
     modifiers:
       coefficients:

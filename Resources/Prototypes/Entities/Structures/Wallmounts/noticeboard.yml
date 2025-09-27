@@ -8,7 +8,7 @@
   - type: WallMount
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/noticeboard.rsi
+    sprite: /Structures/Wallmounts/noticeboard.rsi
     layers:
       - state: noticeboard
       - state: notice-0

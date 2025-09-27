@@ -15,7 +15,7 @@
     - type: StaminaDamageOnCollide
       damage: 6
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Projectiles/xeno_toxic.rsi
+      sprite: /Objects/Weapons/Guns/Projectiles/xeno_toxic.rsi
       layers:
         - state: xeno_toxic
     - type: Ammo

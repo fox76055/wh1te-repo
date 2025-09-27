@@ -12,7 +12,7 @@
     storedOffset: 0,0
   - type: VisionCorrection
   - type: Sprite
-    sprite: _NF/Clothing/Eyes/Glasses/punk_glasses.rsi
+    sprite: /_NF/Clothing/Eyes/Glasses/punk_glasses.rsi
     layers:
     - state: icon_base_glasses_01
       map: [ "glasses_main" ]
@@ -20,7 +20,7 @@
       map: [ "glasses_decor" ]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Eyes/Glasses/punk_glasses.rsi
+    sprite: /_NF/Clothing/Eyes/Glasses/punk_glasses.rsi
     clothingVisuals:
       eyes:
       - state: base_glasses_01
@@ -55,7 +55,7 @@
     - 0,0,1,0
     storedOffset: 0,0
   - type: Sprite
-    sprite: _NF/Clothing/Eyes/Glasses/punk_glasses.rsi
+    sprite: /_NF/Clothing/Eyes/Glasses/punk_glasses.rsi
     layers:
     - state: icon_base_glasses_02
       map: [ "infoshades_main" ]
@@ -63,7 +63,7 @@
       map: [ "infoshades_decor" ]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Eyes/Glasses/punk_glasses.rsi
+    sprite: /_NF/Clothing/Eyes/Glasses/punk_glasses.rsi
     clothingVisuals:
       eyes:
       - state: base_glasses_02

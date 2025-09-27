@@ -7,10 +7,10 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
+    sprite: /Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
     drawdepth: BelowFloor
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: /Structures/Piping/Atmospherics/pipe.rsi
       map: [ "enum.PipeVisualLayers.Pipe" ]
       state: pipeStraight
     - map: ["base"]
@@ -20,9 +20,9 @@
       shader: unshaded
   - type: AtmosPipeLayers
     spriteRsiPaths:
-      Primary: Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
-      Secondary: Structures/Piping/Atmospherics/gas_pipe_sensor_alt1.rsi
-      Tertiary: Structures/Piping/Atmospherics/gas_pipe_sensor_alt2.rsi
+      Primary: /Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
+      Secondary: /Structures/Piping/Atmospherics/gas_pipe_sensor_alt1.rsi
+      Tertiary: /Structures/Piping/Atmospherics/gas_pipe_sensor_alt2.rsi
   - type: Appearance
   - type: GenericVisualizer
     visuals:

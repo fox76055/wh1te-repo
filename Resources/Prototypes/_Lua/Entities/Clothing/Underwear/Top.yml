@@ -36,7 +36,7 @@
   description: Standard Nanotrasen bra for station staff. Painted white.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Top/bra.rsi
+    sprite: /Sirena/Clothing/Underwear/Top/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -45,7 +45,7 @@
   description: Sports bra. Painted white.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Top/sportsbra.rsi
+    sprite: /Sirena/Clothing/Underwear/Top/sportsbra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -54,7 +54,7 @@
   description: Sports bra. Alternate version. Painted white.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Top/sportsbraalt.rsi
+    sprite: /Sirena/Clothing/Underwear/Top/sportsbraalt.rsi
 
 ## Antags
 - type: entity
@@ -64,7 +64,7 @@
   description: Стандартное нижнее бельё ядерного оперативника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Antag/nuclear_operative/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Antag/nuclear_operative/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -73,7 +73,7 @@
   description: Стандартное нижнее бельё капера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Antag/pirate/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Antag/pirate/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -82,7 +82,7 @@
   description: Стандартное нижнее бельё агента синдиката.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Antag/syndicate_agent/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Antag/syndicate_agent/women/bra.rsi
 
 ## Cargo
 - type: entity
@@ -92,7 +92,7 @@
   description: Стандартное нижнее бельё грузчика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Cargo/cargo_technician/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Cargo/cargo_technician/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -101,7 +101,7 @@
   description: Стандартное нижнее бельё квартирмейстера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Cargo/quartermaster/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Cargo/quartermaster/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -110,7 +110,7 @@
   description: Стандартное нижнее бельё утилизатора.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Cargo/salvage_specialist/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Cargo/salvage_specialist/women/bra.rsi
 
 ## Civilian
 - type: entity
@@ -120,7 +120,7 @@
   description: Стандартное нижнее бельё бармена.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/bartender/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/bartender/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -129,7 +129,7 @@
   description: Стандартное нижнее бельё ботаника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/botanist/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/botanist/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -138,7 +138,7 @@
   description: Стандартное нижнее бельё боксёра.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/boxer/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/boxer/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -147,7 +147,7 @@
   description: Стандартное нижнее бельё священника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/chaplain/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/chaplain/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -156,7 +156,7 @@
   description: Стандартное нижнее бельё шефа.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/chef/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/chef/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -165,7 +165,7 @@
   description: Стандартное нижнее бельё клоуна.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/clown/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/clown/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -174,7 +174,7 @@
   description: Стандартное нижнее бельё представителя станции.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/head_of_personnel/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/head_of_personnel/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -183,7 +183,7 @@
   description: Стандартное нижнее бельё уборщика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/janitor/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/janitor/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -192,7 +192,7 @@
   description: Стандартное нижнее бельё библиотекаря.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/librarian/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/librarian/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -201,7 +201,7 @@
   description: Стандартное нижнее бельё мима.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/mime/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/mime/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -210,7 +210,7 @@
   description: Стандартное нижнее бельё музыканта.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/musician/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/musician/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -219,7 +219,7 @@
   description: Стандартное нижнее бельё репортёра.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/reporter/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/reporter/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -228,7 +228,7 @@
   description: Стандартное нижнее бельё сервисного работника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/service/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/service/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -237,7 +237,7 @@
   description: Стандартное нижнее бельё зоотехника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/zoo/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/zoo/women/bra.rsi
 
 # Command
 - type: entity
@@ -247,7 +247,7 @@
   description: Стандартное нижнее бельё капитана.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Command/captain/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Command/captain/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -256,7 +256,7 @@
   description: Стандартное нижнее бельё РХБЗЗ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Command/cburn/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Command/cburn/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -265,7 +265,7 @@
   description: Стандартное нижнее бельё центрального командования.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Command/centcomm/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Command/centcomm/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -274,7 +274,7 @@
   description: Стандартное нижнее бельё эскадрона смерти.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Command/death_squad/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Command/death_squad/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -283,7 +283,7 @@
   description: Стандартное нижнее бельё ОБР.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Command/ert/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Command/ert/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -292,7 +292,7 @@
   description: Стандартное нижнее бельё ОСЩ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Command/blue_shield/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Command/blue_shield/women/bra.rsi
 
 # Engineering
 - type: entity
@@ -302,7 +302,7 @@
   description: Стандартное нижнее бельё атмосферного техника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/atmospheric_technician/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/atmospheric_technician/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -311,7 +311,7 @@
   description: Стандартное нижнее бельё старшего инженера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/chief_engineer/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/chief_engineer/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -320,7 +320,7 @@
   description: Стандартное нижнее бельё инженера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/engineer/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/engineer/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -329,7 +329,7 @@
   description: Стандартное нижнее бельё ведущего инженера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/senior_engineer/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/senior_engineer/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -338,7 +338,7 @@
   description: Стандартное нижнее бельё инженера стажёра.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/technical_assistant/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/technical_assistant/women/bra.rsi
 
 # Law
 - type: entity
@@ -348,7 +348,7 @@
   description: Стандартное нижнее бельё агента внутренних дел.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Law/iaa/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Law/iaa/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -357,7 +357,7 @@
   description: Стандартное нижнее бельё юриста.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Law/lawyer/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Law/lawyer/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -366,7 +366,7 @@
   description: Стандартное нижнее бельё магистрата.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Law/magistrat/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Law/magistrat/women/bra.rsi
 
 # Medical
 - type: entity
@@ -376,7 +376,7 @@
   description: Стандартное нижнее бельё химика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/chemist/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/chemist/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -385,7 +385,7 @@
   description: Стандартное нижнее бельё главного врача.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/cmo/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/cmo/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -394,7 +394,7 @@
   description: Стандартное нижнее бельё врача.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/doctor/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/doctor/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -403,7 +403,7 @@
   description: Стандартное нижнее бельё интерна.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/intern/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/intern/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -412,7 +412,7 @@
   description: Стандартное нижнее бельё парамедика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/paramedic/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/paramedic/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -421,7 +421,7 @@
   description: Стандартное нижнее бельё психолога.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/psychologist/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/psychologist/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -430,7 +430,7 @@
   description: Стандартное нижнее бельё ведущего врача.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/senior_physician/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/senior_physician/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -439,7 +439,7 @@
   description: Стандартное нижнее бельё патологоанатома.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/pathologist/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/pathologist/women/bra.rsi
 
 # Science
 - type: entity
@@ -449,7 +449,7 @@
   description: Стандартное нижнее бельё научного ассистента.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/research_assistant/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/research_assistant/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -458,7 +458,7 @@
   description: Стандартное нижнее бельё научного руководителя.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/research_director/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/research_director/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -467,7 +467,7 @@
   description: Стандартное нижнее бельё учёного.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/scientist/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/scientist/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -476,7 +476,7 @@
   description: Стандартное нижнее бельё ведущего учёного.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/senior_researcher/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/senior_researcher/women/bra.rsi
 
 # Security
 - type: entity
@@ -486,7 +486,7 @@
   description: Стандартное нижнее бельё фельдшера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/brigmedic/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/brigmedic/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -495,7 +495,7 @@
   description: Стандартное нижнее бельё кадета СБ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/cadet/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/cadet/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -504,7 +504,7 @@
   description: Стандартное нижнее бельё констебля.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/detective/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/detective/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -513,7 +513,7 @@
   description: Стандартное нижнее бельё шерифа.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/head_of_security/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/head_of_security/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -522,7 +522,7 @@
   description: Стандартное нижнее бельё офицера СБ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/security_officer/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/security_officer/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -531,7 +531,7 @@
   description: Стандартное нижнее бельё лейтенанта СБ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/senior_officer/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/senior_officer/women/bra.rsi
 
 - type: entity
   parent: ClothingUnderwearTopBase
@@ -540,4 +540,4 @@
   description: Стандартное нижнее бельё маршала.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/warden/women/bra.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/warden/women/bra.rsi

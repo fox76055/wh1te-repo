@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_single.yml
 # Kebabs
 
 - type: entity
@@ -8,7 +8,7 @@
   description: A thin rod of metal used to skewer just about anything and cook it.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/skewer.rsi
+    sprite: /Objects/Consumable/Food/skewer.rsi
     state: 
     layers:
     - state: skewer

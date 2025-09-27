@@ -9,7 +9,7 @@
     - type: Transform
       noRot: false
     - type: Sprite
-      sprite: Structures/Power/Generation/teg.rsi
+      sprite: /Structures/Power/Generation/teg.rsi
       layers:
         - state: teg
         - state: teg_mid
@@ -54,7 +54,7 @@
     - type: PowerMonitoringDevice
       group: Generator
       loadNode: output
-      sprite: Structures/Power/Generation/teg.rsi
+      sprite: /Structures/Power/Generation/teg.rsi
       state: static
     - type: Rotatable
 
@@ -117,7 +117,7 @@
 
     # visuals
     - type: Sprite
-      sprite: Structures/Power/Generation/teg.rsi
+      sprite: /Structures/Power/Generation/teg.rsi
       layers:
         - state: circ-0
           map: [ "enum.TegVisualLayers.CirculatorBase" ]
@@ -192,7 +192,7 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: Markers/teg_arrow.rsi
+      sprite: /Markers/teg_arrow.rsi
       color: "#FFFFFFBB"
       layers:
         - state: arrow

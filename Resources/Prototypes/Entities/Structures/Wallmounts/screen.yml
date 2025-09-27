@@ -21,7 +21,7 @@
     rows: 2
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/screen.rsi
+    sprite: /Structures/Wallmounts/screen.rsi
     state: screen
     noRot: true
   - type: Construction

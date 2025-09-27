@@ -41,7 +41,7 @@
             max: 2
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Wallmounts/notice_board.rsi
+    sprite: /_NF/Structures/Wallmounts/notice_board.rsi
     snapCardinals: false
     state: base
     layers:
@@ -49,7 +49,7 @@
     - map: [ "enum.StorageContainerVisualLayers.Fill" ]
       visible: false
   - type: Icon
-    sprite: _NF/Structures/Wallmounts/notice_board.rsi
+    sprite: /_NF/Structures/Wallmounts/notice_board.rsi
     state: icon
   - type: Appearance
   - type: StorageContainerVisuals

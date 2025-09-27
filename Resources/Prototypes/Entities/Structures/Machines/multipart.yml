@@ -6,7 +6,7 @@
   components:
     - type: MultipartMachineGhost
     - type: Sprite
-      sprite: Markers/cross.rsi
+      sprite: /Markers/cross.rsi
       layers:
         - state: green
       color: "#FFFFFF80"

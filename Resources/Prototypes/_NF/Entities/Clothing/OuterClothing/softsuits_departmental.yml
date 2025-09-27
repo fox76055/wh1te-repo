@@ -1,4 +1,4 @@
-# Recolorable departmental base (parent in softsuits.yml)
+# Recolorable departmental base (parent in /softsuits.yml)
 - type: entity
   abstract: true
   parent: NFClothingOuterEVASuitBase
@@ -6,9 +6,9 @@
   components:
   - type: MonkeyWearable
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    sprite: /_NF/Clothing/OuterClothing/Suits/eva_color.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    sprite: /_NF/Clothing/OuterClothing/Suits/eva_color.rsi
 
 - type: entity
   abstract: true
@@ -1659,7 +1659,7 @@
         color: "#e48545"
       - state: equipped-reinforced-points
         color: "#3e3e48"
-      - sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+      - sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
         state: decor_base_OuterClothing_armor_06
         color: "#e48545"
       - state: equipped-breathing-gear
@@ -1696,7 +1696,7 @@
         color: "#e48545"
       - state: equipped-reinforced-points
         color: "#3e3e48"
-      - sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+      - sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
         state: decor_base_OuterClothing_armor_06
         color: "#e48545"
       - state: equipped-breathing-gear
@@ -1719,13 +1719,13 @@
         color: "#8f1717"
       - state: equipped-reinforced-points
         color: "#3e3e48"
-      - sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+      - sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
         state: decor_base_OuterClothing_armor_02
         color: "#8f1717"
       - state: equipped-breathing-gear
       - state: equipped-unshaded
         shader: unshaded
-      - sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+      - sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
         state: decor_base_OuterClothing_armor_05
         color: "#8f1717"
   - type: Item
@@ -1759,13 +1759,13 @@
         color: "#8f1717"
       - state: equipped-reinforced-points
         color: "#3e3e48"
-      - sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+      - sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
         state: decor_base_OuterClothing_armor_02
         color: "#8f1717"
       - state: equipped-breathing-gear
       - state: equipped-unshaded
         shader: unshaded
-      - sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
+      - sprite: /_NF/Clothing/OuterClothing/Armor/bulletproof_vest_procedural.rsi
         state: decor_base_OuterClothing_armor_05
         color: "#8f1717"
   - type: ToggleableClothing

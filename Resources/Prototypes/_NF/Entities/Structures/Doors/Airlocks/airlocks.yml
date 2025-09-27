@@ -5,7 +5,7 @@
   suffix: Mercenary
   components:
   - type: Sprite
-    sprite: _NF/Structures/Doors/Airlocks/Standard/mercenary.rsi
+    sprite: /_NF/Structures/Doors/Airlocks/Standard/mercenary.rsi
   - type: Wires
     layoutId: AirlockSecurity
 
@@ -15,7 +15,7 @@
   suffix: NFSD
   components:
   - type: Sprite
-    sprite: _NF/Structures/Doors/Airlocks/Standard/nfsd.rsi
+    sprite: /_NF/Structures/Doors/Airlocks/Standard/nfsd.rsi
 # endregion
 
 # region Glass
@@ -25,7 +25,7 @@
   suffix: Mercenary
   components:
   - type: Sprite
-    sprite: _NF/Structures/Doors/Airlocks/Glass/mercenary.rsi
+    sprite: /_NF/Structures/Doors/Airlocks/Glass/mercenary.rsi
   - type: Wires
     layoutId: AirlockSecurity
 
@@ -35,7 +35,7 @@
   suffix: NFSD
   components:
   - type: Sprite
-    sprite: _NF/Structures/Doors/Airlocks/Glass/nfsd.rsi
+    sprite: /_NF/Structures/Doors/Airlocks/Glass/nfsd.rsi
     group: Glass
   - type: Wires
     layoutId: AirlockSecurity

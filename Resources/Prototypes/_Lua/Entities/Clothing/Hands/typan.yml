@@ -12,9 +12,9 @@
     fiberColor: fibers-black
   - type: Insulated
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
+    sprite: /Clothing/Hands/Gloves/tacticalmaidgloves.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
+    sprite: /Clothing/Hands/Gloves/tacticalmaidgloves.rsi
 
 - type: entity
   parent: ClothingHandsButcherable
@@ -26,7 +26,7 @@
     fiberMaterial: fibers-leather
     fiberColor: fibers-black
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/robohands.rsi
+    sprite: /Clothing/Hands/Gloves/robohands.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/robohands.rsi
+    sprite: /Clothing/Hands/Gloves/robohands.rsi
   - type: FingerprintMask

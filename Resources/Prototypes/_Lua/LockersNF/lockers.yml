@@ -14,7 +14,7 @@
     stateDoorOpen: nfsd_gold_open
     stateDoorClosed: nfsd_gold_door
   - type: Sprite
-    sprite: _NF/Structures/Storage/closet.rsi
+    sprite: /_NF/Structures/Storage/closet.rsi
     noRot: true
     layers:
     - state: generic
@@ -49,7 +49,7 @@
     stateDoorOpen: nfsd_brigmed_open
     stateDoorClosed: nfsd_brigmed_door
   - type: Sprite
-    sprite: _NF/Structures/Storage/closet.rsi
+    sprite: /_NF/Structures/Storage/closet.rsi
     noRot: true
     layers:
     - state: generic
@@ -84,7 +84,7 @@
     stateDoorOpen: nfsd_sheriff_open
     stateDoorClosed: nfsd_sheriff_door
   - type: Sprite
-    sprite: _NF/Structures/Storage/closet.rsi
+    sprite: /_NF/Structures/Storage/closet.rsi
     noRot: true
     layers:
     - state: generic
@@ -123,7 +123,7 @@
     stateDoorOpen: nfsd_silver_open
     stateDoorClosed: nfsd_silver_door
   - type: Sprite
-    sprite: _NF/Structures/Storage/closet.rsi
+    sprite: /_NF/Structures/Storage/closet.rsi
     noRot: true
     layers:
     - state: generic

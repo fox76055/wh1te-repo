@@ -71,7 +71,7 @@
     - enum.DamageStateVisualLayers.Base:
         alive: Rainbow
   - type: Sprite
-    sprite: _NF/Mobs/Pets/baby_dragon.rsi
+    sprite: /_NF/Mobs/Pets/baby_dragon.rsi
     noRot: true
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -179,7 +179,7 @@
   description: Spew out tiny flames at anyone foolish enough to attack you! Adorable.
   components:
   - type: Action
-    icon: { sprite : Objects/Weapons/Guns/Projectiles/magic.rsi, state: fireball }
+    icon: { sprite : /Objects/Weapons/Guns/Projectiles/magic.rsi, state: fireball }
     priority: 2
     itemIconStyle: BigAction
     useDelay: 120

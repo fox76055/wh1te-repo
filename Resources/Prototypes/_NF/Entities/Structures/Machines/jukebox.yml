@@ -12,7 +12,7 @@
   parent: [ BaseStructureWallmount, Jukebox ]
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/jukebox.rsi
+    sprite: /_NF/Structures/Machines/jukebox.rsi
     layers:
     - state: "off"
       map: ["enum.JukeboxVisualLayers.Base"]

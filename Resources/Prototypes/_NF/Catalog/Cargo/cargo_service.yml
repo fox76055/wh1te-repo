@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: CargoBarreSpaceCleaner
   icon:
-    sprite: _NF/Objects/Storage/Barrels/blue.rsi
+    sprite: /_NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelSpaceCleaner
   cost: 3500
@@ -12,7 +12,7 @@
   id: ServiceVehicleJanicart
   abstract: true
   icon:
-    sprite: Objects/Vehicles/janicart.rsi
+    sprite: /Objects/Vehicles/janicart.rsi
     state: icon
   product: CrateVehicleJanicart
   cost: 1500
@@ -22,7 +22,7 @@
 - type: cargoProduct
   id: ServiceColoredLightsReplacement
   icon:
-    sprite: Objects/Power/light_bulb.rsi
+    sprite: /Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceReplacementColoredLights
   cost: 600
@@ -32,7 +32,7 @@
 - type: cargoProduct
   id: ServiceCoffeeDispenser
   icon:
-    sprite: Objects/Consumable/Drinks/generic_jug.rsi
+    sprite: /Objects/Consumable/Drinks/generic_jug.rsi
     state: icon
   product: CrateServiceCoffeeDispenser
   cost: 4000 # Beeg number

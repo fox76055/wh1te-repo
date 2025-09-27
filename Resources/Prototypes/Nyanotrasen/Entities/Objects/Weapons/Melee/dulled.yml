@@ -9,7 +9,7 @@
     tags:
     - Katana
   - type: Sprite
-    sprite: Objects/Weapons/Melee/katana.rsi
+    sprite: /Objects/Weapons/Melee/katana.rsi
     state: icon
   - type: MeleeWeapon
     damage:
@@ -18,7 +18,7 @@
         Slash: 1
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/katana.rsi
+    sprite: /Objects/Weapons/Melee/katana.rsi
 
 - type: entity
   name: claymore
@@ -28,7 +28,7 @@
   description: An ancient war blade. This one has been dulled.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/claymore.rsi
+    sprite: /Objects/Weapons/Melee/claymore.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 0.75
@@ -39,6 +39,6 @@
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Weapons/Melee/claymore.rsi
+    sprite: /Objects/Weapons/Melee/claymore.rsi
     slots:
     - back

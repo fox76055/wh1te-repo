@@ -9,7 +9,7 @@
   description: Состоит из жидкости, и может растворить вас в себе.
   components:
   - type: Sprite
-    sprite: _Lua/Structures/Specific/Slimes/slimestructure.rsi
+    sprite: /_Lua/Structures/Specific/Slimes/slimestructure.rsi
     layers:
     - state: slime_statue
     - state: unshaded

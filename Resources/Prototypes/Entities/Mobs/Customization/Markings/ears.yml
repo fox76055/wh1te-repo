@@ -6,7 +6,7 @@
   followSkinColor: true
   speciesRestriction: [Human, Dwarf, Oni, Sheleg] # Frontier: Oni, Sheleg
   sprites:
-  - sprite: Mobs/Customization/ears.rsi
+  - sprite: /Mobs/Customization/ears.rsi
     state: long_ears_standard
 
 - type: marking
@@ -17,7 +17,7 @@
   followSkinColor: true
   speciesRestriction: [Human, Sheleg] # Frontier: Sheleg
   sprites:
-  - sprite: Mobs/Customization/ears.rsi
+  - sprite: /Mobs/Customization/ears.rsi
     state: long_ears_wide
 
 - type: marking
@@ -28,7 +28,7 @@
   followSkinColor: true
   speciesRestriction: [Human, Dwarf, Oni, Sheleg] # Frontier: Oni, Sheleg
   sprites:
-  - sprite: Mobs/Customization/ears.rsi
+  - sprite: /Mobs/Customization/ears.rsi
     state: long_ears_small
 
 - type: marking
@@ -39,7 +39,7 @@
   followSkinColor: true
   speciesRestriction: [Human, Sheleg] # Frontier: Sheleg
   sprites:
-  - sprite: Mobs/Customization/ears.rsi
+  - sprite: /Mobs/Customization/ears.rsi
     state: long_ears_upwards
 
 - type: marking
@@ -50,7 +50,7 @@
   followSkinColor: true
   speciesRestriction: [Human, Sheleg] # Frontier: Sheleg
   sprites:
-  - sprite: Mobs/Customization/ears.rsi
+  - sprite: /Mobs/Customization/ears.rsi
     state: long_ears_tall
 
 - type: marking
@@ -61,5 +61,5 @@
   followSkinColor: true
   speciesRestriction: [Human, Dwarf, Oni, Sheleg] # Frontier: Oni, Sheleg
   sprites:
-  - sprite: Mobs/Customization/ears.rsi
+  - sprite: /Mobs/Customization/ears.rsi
     state: long_ears_thin

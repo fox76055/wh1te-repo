@@ -9,7 +9,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/corgi.rsi
+    sprite: /Mobs/Pets/corgi.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: ian
@@ -227,7 +227,7 @@
       - Cat
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/bingus.rsi
+    sprite: /Mobs/Pets/bingus.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: bingus
@@ -284,7 +284,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/mcgriff.rsi
+    sprite: /Mobs/Pets/mcgriff.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: mcgriff
@@ -346,7 +346,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/paperwork.rsi
+    sprite: /Mobs/Pets/paperwork.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: paperwork
@@ -380,7 +380,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/walter.rsi
+    sprite: /Mobs/Pets/walter.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: walter
@@ -466,7 +466,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/possum_old.rsi
+    sprite: /Mobs/Animals/possum_old.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: possum_old
@@ -489,7 +489,7 @@
       gender: female
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Animals/possum.rsi
+    sprite: /Mobs/Animals/possum.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: poppy
@@ -582,7 +582,7 @@
   components:
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Pets/hamlet.rsi
+    sprite: /Mobs/Pets/hamlet.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: hamster-0
@@ -648,7 +648,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: shiva
-      sprite: Mobs/Pets/shiva.rsi
+      sprite: /Mobs/Pets/shiva.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -744,7 +744,7 @@
       head:
         sizeMaps:
           32:
-            sprite: Mobs/Pets/Smile/smile_displacement.rsi
+            sprite: /Mobs/Pets/Smile/smile_displacement.rsi
             state: head
   - type: MobThresholds
     thresholds:
@@ -789,7 +789,7 @@
         Caustic: 1
   - type: MultiHandedItem
   - type: Item
-    sprite: Mobs/Pets/Smile/smile.rsi
+    sprite: /Mobs/Pets/Smile/smile.rsi
     size: Huge
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-slime

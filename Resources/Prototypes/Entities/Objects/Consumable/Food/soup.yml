@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_meal.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_meal.yml
 
 - type: entity
   parent: FoodInjectableBase
@@ -21,7 +21,7 @@
         - ReagentId: Flavorol
           Quantity: 10
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: /Objects/Consumable/Food/bowl.rsi
   - type: DamageOnLand
     damage:
       types:
@@ -77,7 +77,7 @@
       - creamy
       - peas
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: /Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: alpha-filling
@@ -597,7 +597,7 @@
       - mushroom
       - jelly
   - type: Sprite
-    sprite: Objects/Consumable/Food/meals.rsi
+    sprite: /Objects/Consumable/Food/meals.rsi
     state: amanita-jelly
   - type: SolutionContainerManager
     solutions:

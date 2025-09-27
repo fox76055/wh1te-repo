@@ -25,7 +25,7 @@
           endValue: 2.0 # Wizden#37444
           isLooped: true
     - type: Sprite
-      sprite: Objects/Tools/lantern.rsi
+      sprite: /Objects/Tools/lantern.rsi
       layers:
         - state: lantern
         - state: lantern-on
@@ -33,7 +33,7 @@
           visible: false
           map: [ "light" ]
     - type: Item
-      sprite: Objects/Tools/lantern.rsi
+      sprite: /Objects/Tools/lantern.rsi
       heldPrefix: off
     - type: PointLight
       enabled: false
@@ -58,7 +58,7 @@
     - type: StealTarget
       stealGroup: LAMP
     - type: Clothing
-      sprite: Objects/Tools/lantern.rsi
+      sprite: /Objects/Tools/lantern.rsi
       equippedPrefix: off
       quickEquip: false
       slots:
@@ -73,7 +73,7 @@
   suffix: Flash
   components:
     - type: Sprite
-      sprite: Objects/Tools/lantern.rsi
+      sprite: /Objects/Tools/lantern.rsi
       layers:
       - state: lantern
         map: [ "enum.FlashVisuals.BaseLayer" ]

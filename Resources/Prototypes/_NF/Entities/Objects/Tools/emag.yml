@@ -8,9 +8,9 @@
   - type: NFEmagPass
   - type: LimitedCharges
   - type: Sprite
-    sprite: _NF/Objects/Tools/emagpass.rsi
+    sprite: /_NF/Objects/Tools/emagpass.rsi
   - type: Item
-    sprite: _NF/Objects/Tools/emagpass.rsi
+    sprite: /_NF/Objects/Tools/emagpass.rsi
     storedRotation: -90
     size: Tiny
 
@@ -25,10 +25,10 @@
     emagType: [Interaction, Access, StationBound]
     demag: true
   - type: Sprite
-    sprite: _NF/Objects/Tools/demag.rsi
+    sprite: /_NF/Objects/Tools/demag.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Tools/demag.rsi
+    sprite: /_NF/Objects/Tools/demag.rsi
 
 - type: entity
   parent: DemagUnlimited
@@ -48,10 +48,10 @@
   - type: Emag
     emagType: [StationBound]
   - type: Sprite
-    sprite: _NF/Objects/Tools/pmag.rsi
+    sprite: /_NF/Objects/Tools/pmag.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Tools/pmag.rsi
+    sprite: /_NF/Objects/Tools/pmag.rsi
 
 - type: entity
   parent: PmagUnlimited

@@ -7,7 +7,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/drone.rsi
+    - sprite: /Mobs/Aliens/Xenos/drone.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner
@@ -25,7 +25,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Mobs/Aliens/Xenos/ravager.rsi
+    - sprite: /Mobs/Aliens/Xenos/ravager.rsi
       state: running
     - state: ai
   - type: ConditionalSpawner

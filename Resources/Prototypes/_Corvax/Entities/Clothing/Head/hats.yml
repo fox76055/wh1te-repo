@@ -5,9 +5,9 @@
   description: The NanoTrasen gold-engraved special cap of the higher ranks, which has long gone through more than one blitzkrieg...
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Head/Hats/centcom_officer_black.rsi
+      sprite: /Corvax/Clothing/Head/Hats/centcom_officer_black.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Head/Hats/centcom_officer_black.rsi
+      sprite: /Corvax/Clothing/Head/Hats/centcom_officer_black.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -16,9 +16,9 @@
   description: A cap worn by those in the Nanotrasen Navy.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Head/Hats/centcom_naval_cap.rsi
+      sprite: /Corvax/Clothing/Head/Hats/centcom_naval_cap.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Head/Hats/centcom_naval_cap.rsi
+      sprite: /Corvax/Clothing/Head/Hats/centcom_naval_cap.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -27,9 +27,9 @@
   description: A beret worn by those in the Nanotrasen Navy.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Head/Hats/centcom_naval_beret.rsi
+      sprite: /Corvax/Clothing/Head/Hats/centcom_naval_beret.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Head/Hats/centcom_naval_beret.rsi
+      sprite: /Corvax/Clothing/Head/Hats/centcom_naval_beret.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -38,9 +38,9 @@
   description: A blue beret made of durathread with a genuine golden badge, denoting its owner as a Leader of ERT.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Head/Hats/ERT_leader_beret.rsi
+      sprite: /Corvax/Clothing/Head/Hats/ERT_leader_beret.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Head/Hats/ERT_leader_beret.rsi
+      sprite: /Corvax/Clothing/Head/Hats/ERT_leader_beret.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -49,9 +49,9 @@
   description: The robust standard-issue cap of the Head of Security. For showing the officers who's in charge.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Head/Hats/hoshat.rsi
+      sprite: /Corvax/Clothing/Head/Hats/hoshat.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Head/Hats/hoshat.rsi
+      sprite: /Corvax/Clothing/Head/Hats/hoshat.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -60,9 +60,9 @@
   description: It's a special blue hat issued to the Warden of a security force.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Head/Hats/warden_alt.rsi
+      sprite: /Corvax/Clothing/Head/Hats/warden_alt.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Head/Hats/warden_alt.rsi
+      sprite: /Corvax/Clothing/Head/Hats/warden_alt.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -71,9 +71,9 @@
   description: A robust beret with the medical insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Head/Hats/beret_security_medic.rsi
+      sprite: /Corvax/Clothing/Head/Hats/beret_security_medic.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Head/Hats/beret_security_medic.rsi
+      sprite: /Corvax/Clothing/Head/Hats/beret_security_medic.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -82,6 +82,6 @@
   description: A special hat made to order for the captain.
   components:
   - type: Sprite
-    sprite: Corvax/Clothing/Head/Hats/caphat.rsi
+    sprite: /Corvax/Clothing/Head/Hats/caphat.rsi
   - type: Clothing
-    sprite: Corvax/Clothing/Head/Hats/caphat.rsi
+    sprite: /Corvax/Clothing/Head/Hats/caphat.rsi

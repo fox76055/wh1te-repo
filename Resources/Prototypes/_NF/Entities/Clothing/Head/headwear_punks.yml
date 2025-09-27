@@ -7,9 +7,9 @@
   description: Mostly transparent raincoat hood made out of acid resistant polymers.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -24,9 +24,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_blue.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_blue.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_blue.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_blue.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodAcidRaincoat
@@ -34,9 +34,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_green.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_green.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_green.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_green.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodAcidRaincoat
@@ -44,9 +44,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_magenta.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_magenta.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_magenta.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_magenta.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodAcidRaincoat
@@ -54,6 +54,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_yellow.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_yellow.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/Coat/acid_raincoat_yellow.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Coat/acid_raincoat_yellow.rsi

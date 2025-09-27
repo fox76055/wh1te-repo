@@ -19,7 +19,7 @@
     - type: SpawnPoint
       job_id: CentralCommandAssistant
     - type: Sprite
-      sprite: Backmen/Markers/jobs.rsi
+      sprite: /Backmen/Markers/jobs.rsi
       layers:
         - state: green
         - state: centcom_intern
@@ -37,7 +37,7 @@
         - state: green
         - state: qm
         - state: jobicon
-          sprite: Backmen/Markers/jobs.rsi
+          sprite: /Backmen/Markers/jobs.rsi
 
 - type: entity
   id: SpawnPointBKCCOfficial
@@ -91,7 +91,7 @@
         - state: green
         - state: security_officer
         - state: jobicon
-          sprite: Backmen/Markers/jobs.rsi
+          sprite: /Backmen/Markers/jobs.rsi
 
 - type: entity
   id: SpawnPointBKCCSpecialOperationsOfficerLJ
@@ -118,7 +118,7 @@
       job_id: CentralCommandAssistant
       spawn_type: LateJoin
     - type: Sprite
-      sprite: Backmen/Markers/jobs.rsi
+      sprite: /Backmen/Markers/jobs.rsi
       layers:
         - state: green
         - state: centcom_intern
@@ -138,7 +138,7 @@
         - state: green
         - state: qm
         - state: jobicon
-          sprite: Backmen/Markers/jobs.rsi
+          sprite: /Backmen/Markers/jobs.rsi
 
 - type: entity
   id: SpawnPointBKCCOfficialLJ
@@ -199,5 +199,5 @@
         - state: green
         - state: security_officer
         - state: jobicon
-          sprite: Backmen/Markers/jobs.rsi
+          sprite: /Backmen/Markers/jobs.rsi
 

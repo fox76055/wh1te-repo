@@ -5,7 +5,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/bullet_projectiles.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/bullet_projectiles.rsi
     layers:
     - state: bullet
       shader: unshaded
@@ -22,7 +22,7 @@
     spread: 11
     proto: CMPelletShotgunIncendiaryBuckshot
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
     layers:
     - state: buckshot
       shader: unshaded
@@ -38,7 +38,7 @@
   name: slug
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
     layers:
     - state: beanbag
       shader: unshaded
@@ -68,7 +68,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
     layers:
     - state: beanbag
       shader: unshaded
@@ -84,7 +84,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
     layers:
     - state: flechette
       shader: unshaded

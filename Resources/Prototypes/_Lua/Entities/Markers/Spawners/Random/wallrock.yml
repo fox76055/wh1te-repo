@@ -11,7 +11,7 @@
     - type: Sprite
       layers:
         - state: blue
-        - sprite: Structures/Walls/rock.rsi
+        - sprite: /Structures/Walls/rock.rsi
           state: rock
         - state: timed
     - type: SingleSpawner

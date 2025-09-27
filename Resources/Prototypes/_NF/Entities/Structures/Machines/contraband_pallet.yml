@@ -24,7 +24,7 @@
   - type: Sprite
     drawdepth: FloorTiles
     layers:
-    - sprite: _NF/Structures/Machines/contraband_pallet.rsi
+    - sprite: /_NF/Structures/Machines/contraband_pallet.rsi
       state: base
 
 # Pirate reskin for flavour
@@ -35,7 +35,7 @@
   parent: ContrabandPallet
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/piratebounty_pallet.rsi
+    sprite: /_NF/Structures/Machines/piratebounty_pallet.rsi
     layers:
     - state: base
     - state: unshaded

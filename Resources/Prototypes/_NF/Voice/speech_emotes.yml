@@ -3,7 +3,7 @@
   name: chat-emote-name-goblin-muttering
   category: Vocal
   available: false
-  icon: _NF/Interface/Emotes/mutter.png
+  icon: /_NF/Interface/Emotes/mutter.png
   whitelist:
     components:
     - Vocal
@@ -22,7 +22,7 @@
   name: chat-emote-name-goblin-throat-singing
   category: Vocal
   available: false
-  icon: _NF/Interface/Emotes/throatsinging.png
+  icon: /_NF/Interface/Emotes/throatsinging.png
   whitelist:
     components:
     - Vocal
@@ -42,7 +42,7 @@
   name: chat-emote-name-belch
   category: Vocal
   available: false
-  icon: _NF/Interface/Emotes/belch.png
+  icon: /_NF/Interface/Emotes/belch.png
   whitelist:
     components:
     - Vocal

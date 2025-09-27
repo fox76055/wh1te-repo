@@ -18,7 +18,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _NF/Structures/Furniture/bedroll.rsi
+    sprite: /_NF/Structures/Furniture/bedroll.rsi
     noRot: true
     layers:
     - state: bedroll01
@@ -156,7 +156,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: _NF/Structures/Furniture/bedroll.rsi
+    - sprite: /_NF/Structures/Furniture/bedroll.rsi
       state: bedroll01_folded
   - type: RandomSpawner
     prototypes:

@@ -8,14 +8,14 @@
     walkModifier: 0.88
     sprintModifier: 0.88
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Rifles/m54c.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
     - state: mag-0
       map: [ "enum.GunVisualLayers.Mag" ]
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Rifles/m54c.rsi
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -80,7 +80,7 @@
     proto: CMCartridgeRifle10x24mm
     capacity: 45
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54c.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54c.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -104,7 +104,7 @@
       - CMCartridgeRifle10x24mmAP
     proto: CMCartridgeRifle10x24mmAP
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54c.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54c.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -130,7 +130,7 @@
     proto: CMCartridgeRifle10x24mm
     capacity: 60
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54ce.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54ce.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

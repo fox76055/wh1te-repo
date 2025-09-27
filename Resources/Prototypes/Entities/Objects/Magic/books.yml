@@ -5,7 +5,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: /Objects/Misc/books.rsi
       layers:
       - state: paper_blood
       - state: cover_strong
@@ -28,7 +28,7 @@
   parent: [ BaseItem, StorePresetSpellbook, BaseC3WizardContraband ] # Frontier: BaseMagicalContraband<BaseC3WizardContraband
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: /Objects/Misc/books.rsi
       layers:
       - state: paper_blood
       - state: cover_strong
@@ -77,7 +77,7 @@
   parent: BaseSpellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: /Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_strong
@@ -100,7 +100,7 @@
   parent: BaseSpellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: /Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_old
@@ -121,7 +121,7 @@
   parent: BaseSpellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: /Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_old
@@ -144,7 +144,7 @@
   parent: BaseSpellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: /Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_strong
@@ -166,7 +166,7 @@
   parent: BaseSpellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: /Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_old
@@ -192,7 +192,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: Objects/Magic/magicactions.rsi
+    sprite: /Objects/Magic/magicactions.rsi
     layers:
     - state: spell_default
   - type: Spellbook

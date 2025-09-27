@@ -6,9 +6,9 @@
   components:
   - type: GoblinClothingRobes
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodGoblin
     slot: head
@@ -27,9 +27,9 @@
     - SuitEVA
     - WhitelistChameleon
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Suits/goblin_eva_robes.rsi
+    sprite: /_NF/Clothing/OuterClothing/Suits/goblin_eva_robes.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Suits/goblin_eva_robes.rsi
+    sprite: /_NF/Clothing/OuterClothing/Suits/goblin_eva_robes.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadEVAHelmetGoblin
     slot: head

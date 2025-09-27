@@ -12,7 +12,7 @@
           steps:
             - tag: Handcuffs
               icon:
-                  sprite: Objects/Misc/cablecuffs.rsi
+                  sprite: /Objects/Misc/cablecuffs.rsi
                   state: cuff
                   color: red
               name: crafting-cuffs

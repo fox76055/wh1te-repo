@@ -24,7 +24,7 @@
               store: board
               name: construction-graph-component-computer-wallmount-board
               icon:
-                sprite: "Objects/Misc/module.rsi"
+                sprite: "/Objects/Misc/module.rsi"
                 state: "id_mod"
 
         - to: start

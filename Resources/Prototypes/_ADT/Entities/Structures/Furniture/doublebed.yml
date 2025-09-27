@@ -5,7 +5,7 @@
   description: You now, hot to use it.
   components:
   - type: Sprite
-    sprite: ADT/Structures/Furniture/doublebed.rsi
+    sprite: /ADT/Structures/Furniture/doublebed.rsi
     state: top
   - type: Construction
     graph: bed
@@ -21,7 +21,7 @@
   description: You now, hot to use it.
   components:
   - type: Sprite
-    sprite: ADT/Structures/Furniture/doublebed.rsi
+    sprite: /ADT/Structures/Furniture/doublebed.rsi
     state: bottom
   - type: Construction
     graph: bed

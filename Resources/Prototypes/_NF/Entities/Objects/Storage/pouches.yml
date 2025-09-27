@@ -8,14 +8,14 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Pouches/pouch.rsi
+    sprite: /_NF/Objects/Storage/Pouches/pouch.rsi
   - type: Item
     size: Normal
     shape:
     - 0,0,1,1
   - type: Clothing
     quickEquip: false
-    sprite: _NF/Objects/Storage/Pouches/pouch.rsi
+    sprite: /_NF/Objects/Storage/Pouches/pouch.rsi
     slots: [ belt, pocket ]
   - type: Storage
     maxItemSize: Small
@@ -1211,7 +1211,7 @@
   - type: SpaceGarbage
     cleanupExempt: true
   - type: Sprite
-    sprite: _NF/Objects/Storage/Pouches/tobacco_pouch.rsi
+    sprite: /_NF/Objects/Storage/Pouches/tobacco_pouch.rsi
     layers:
     - state: closed
       map: ["closeLayer"]
@@ -1246,7 +1246,7 @@
       - state: inhand-right
         color: "#8a4f23"
   - type: Clothing
-    sprite: _NF/Objects/Storage/Pouches/tobacco_pouch.rsi
+    sprite: /_NF/Objects/Storage/Pouches/tobacco_pouch.rsi
     clothingVisuals:
       belt:
       - state: equipped-BELT
@@ -1351,7 +1351,7 @@
   name: trashuch
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Pouches/trash_pouch.rsi
+    sprite: /_NF/Objects/Storage/Pouches/trash_pouch.rsi
     layers:
     - state: closed
       map: ["closeLayer"]
@@ -1371,9 +1371,9 @@
       map: [ "pouchFill4" ]
       visible: false
   - type: Item
-    sprite: _NF/Objects/Storage/Pouches/trash_pouch.rsi
+    sprite: /_NF/Objects/Storage/Pouches/trash_pouch.rsi
   - type: Clothing
-    sprite: _NF/Objects/Storage/Pouches/trash_pouch.rsi
+    sprite: /_NF/Objects/Storage/Pouches/trash_pouch.rsi
   - type: GoblinMade
   - type: Dumpable
   - type: Storage

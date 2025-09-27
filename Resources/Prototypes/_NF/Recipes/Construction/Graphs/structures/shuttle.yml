@@ -1,4 +1,4 @@
-# This should mimic the base shuttle graphs in Resources/Prototypes/Recipes/Construction/Graphs/structures/shuttle.yml
+# This should mimic the base shuttle graphs in /Resources/Prototypes/Recipes/Construction/Graphs/structures/shuttle.yml
 - type: constructionGraph
   id: AirlockShuttleNfsd
   start: start
@@ -28,7 +28,7 @@
         store: board
         name: construction-graph-component-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: start

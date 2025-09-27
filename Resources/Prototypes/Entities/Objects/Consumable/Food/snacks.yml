@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_snack.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_snack.yml
 # Base
 
 - type: entity
@@ -11,7 +11,7 @@
     tags:
       - FoodSnack
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -20,7 +20,7 @@
         - ReagentId: Nutriment
           Quantity: 10
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Tiny
   - type: StaticPrice
@@ -104,7 +104,7 @@
   description: Tastes like cardboard.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     state: chocolatebar
   - type: Item
     heldPrefix: chocolatebar
@@ -407,7 +407,7 @@
         - ReagentId: Nutriment
           Quantity: 1
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Tiny
   - type: Food
@@ -426,7 +426,7 @@
     tags:
       - FoodSnack
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     state: nutribrick
   - type: SpawnItemsOnUse
     items:
@@ -471,7 +471,7 @@
   description: A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     state: mre-brownie
   - type: Tag
     tags:
@@ -520,9 +520,9 @@
   components:
   - type: GoblinPreciousTrash # Frontier
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Tiny
   - type: Tag

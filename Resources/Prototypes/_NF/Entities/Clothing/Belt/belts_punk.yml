@@ -7,14 +7,14 @@
   suffix: Random visuals
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/punk.rsi
+    sprite: /_NF/Clothing/Belt/punk.rsi
     layers:
     - state: icon_belt_01
       map: [ "belt_main" ]
     - state: icon_decor_base_belt_01
       map: [ "belt_decor" ]
   - type: Clothing
-    sprite: _NF/Clothing/Belt/punk.rsi
+    sprite: /_NF/Clothing/Belt/punk.rsi
     clothingVisuals:
       belt:
       - state: base_belt_01

@@ -73,12 +73,12 @@
     castShadows: false
     color: "#85c6ff"
   - type: Sprite
-    sprite: _NF/Structures/Machines/memp_mini.rsi
+    sprite: /_NF/Structures/Machines/memp_mini.rsi
     snapCardinals: true
     layers:
       - state: on
         map: ["enum.EmpGeneratorVisualLayers.Base"]
-      - sprite: _NF/Structures/Machines/memp_core.rsi
+      - sprite: /_NF/Structures/Machines/memp_core.rsi
         state: activated
         shader: unshaded
         map: ["enum.EmpGeneratorVisualLayers.Core"]

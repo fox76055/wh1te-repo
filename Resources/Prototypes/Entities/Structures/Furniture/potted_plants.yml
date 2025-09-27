@@ -23,7 +23,7 @@
   - type: Sprite
     drawdepth: Overdoors
     offset: "0.0,0.3"
-    sprite: Structures/Furniture/potted_plants.rsi
+    sprite: /Structures/Furniture/potted_plants.rsi
     noRot: true
   - type: Speech
     speechVerb: Plant # for pais (In the secret stash)

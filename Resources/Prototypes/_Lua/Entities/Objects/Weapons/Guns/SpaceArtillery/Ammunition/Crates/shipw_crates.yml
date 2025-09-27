@@ -9,7 +9,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
 
 - type: entity
   id: CrateArmoryWeaponImpulseLaser

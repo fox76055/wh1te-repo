@@ -5,7 +5,7 @@
   description: A hand-held scanner built to collect information on various anomalous objects.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Research/anomalyscanner.rsi
+    sprite: /Objects/Specific/Research/anomalyscanner.rsi
     state: icon
   - type: ActivatableUI
     key: enum.AnomalyScannerUiKey.Key
@@ -30,7 +30,7 @@
   suffix: Always Powered
   components:
   - type: Sprite
-    sprite: Objects/Specific/Research/anomalylocator.rsi
+    sprite: /Objects/Specific/Research/anomalylocator.rsi
     layers:
       - state: icon
       - state: screen
@@ -88,7 +88,7 @@
   suffix: Always Powered
   components:
   - type: Sprite
-    sprite: Objects/Specific/Research/anomalylocatorwide.rsi
+    sprite: /Objects/Specific/Research/anomalylocatorwide.rsi
   - type: Beeper
     minBeepInterval: 0.15
     maxBeepInterval: 2.0
@@ -122,13 +122,13 @@
   description: A robust piece of research equipment. When powered with an anomaly core, a single blow can launch anomalous objects through the air.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/gorilla.rsi
+    sprite: /Objects/Weapons/Melee/gorilla.rsi
     state: icon
   - type: Item
     size: Large
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/gorilla.rsi
+      sprite: /Objects/Weapons/Melee/gorilla.rsi
   - type: MeleeWeapon
     attackRate: 0.5
     angle: 0

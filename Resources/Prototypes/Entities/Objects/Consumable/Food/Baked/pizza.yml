@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_meal.yml & food_single.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_meal.yml & /food_single.yml
 # Base
 
 - type: entity
@@ -12,7 +12,7 @@
       - bread
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: /Objects/Consumable/Food/Baked/pizza.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -46,7 +46,7 @@
       - bread
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: /Objects/Consumable/Food/Baked/pizza.rsi
   - type: SolutionContainerManager
     solutions:
       food:

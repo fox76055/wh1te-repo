@@ -12,9 +12,9 @@
   #   scatterUnwielded: 8
   #   baseFireRate: 10
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/b92fs.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/b92fs.rsi
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Pistols/b92fs.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Pistols/b92fs.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -52,7 +52,7 @@
     proto: CMCartridgePistol9mm
     capacity: 15
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/b92fs.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/b92fs.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

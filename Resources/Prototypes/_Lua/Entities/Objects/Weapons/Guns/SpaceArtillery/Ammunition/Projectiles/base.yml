@@ -12,7 +12,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
       layers:
         - state: 20mm
     - type: ExplodeOnTrigger
@@ -38,7 +38,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
       layers:
         - state: 53mm
     - type: ExplodeOnTrigger
@@ -64,7 +64,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
       layers:
         - state: 53mm
     - type: ExplodeOnTrigger
@@ -90,7 +90,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
       layers:
         - state: 105mm
     - type: ExplodeOnTrigger
@@ -116,7 +116,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
       layers:
         - state: 105mm
     - type: ExplodeOnTrigger
@@ -142,7 +142,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Projectiles/explosives.rsi
       layers:
         - state: 140mm
     - type: ExplodeOnTrigger

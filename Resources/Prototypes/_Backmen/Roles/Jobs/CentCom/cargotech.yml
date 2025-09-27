@@ -71,7 +71,7 @@
     - type: PdaBorderColor
       borderColor: "#00842e"
     - type: Icon
-      sprite: Backmen/Objects/Devices/pda.rsi
+      sprite: /Backmen/Objects/Devices/pda.rsi
       state: pda-centcomcargo
 
 - type: entity
@@ -80,7 +80,7 @@
   name: ID карта ЦК Грузчика
   components:
     - type: Sprite
-      sprite: Backmen/Objects/Misc/id_cards.rsi
+      sprite: /Backmen/Objects/Misc/id_cards.rsi
       layers:
         - state: card_centcom # Backmen
         - state: sub_department # Backmen

@@ -5,7 +5,7 @@
   description: An advanced machine, capable of using bluespace technology to transmit materials to nearby machines.
   components:
   - type: Sprite
-    sprite: Structures/Machines/silo.rsi
+    sprite: /Structures/Machines/silo.rsi
     snapCardinals: true
     layers:
     - state: silo

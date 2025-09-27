@@ -51,13 +51,13 @@
     doAfter: 5
     removeOnInteract: true
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Turrets/disabler.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/disabler.rsi
     state: packed
   - type: Item
     size: Ginormous
     shape:
     - 0,0,3,3
-    sprite: _NF/Objects/Weapons/Guns/Turrets/disabler.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/disabler.rsi
 
 - type: constructionGraph # deconstruction graph
   id: WeaponTurretContrabandDenyingPackingGraph
@@ -91,7 +91,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Turrets/laser.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/laser.rsi
   - type: Gun
     fireRate: 2
     soundGunshot:
@@ -126,13 +126,13 @@
     doAfter: 5
     removeOnInteract: true
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Turrets/laser.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/laser.rsi
     state: packed
   - type: Item
     size: Ginormous
     shape:
     - 0,0,3,3
-    sprite: _NF/Objects/Weapons/Guns/Turrets/laser.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/laser.rsi
 
 - type: constructionGraph # deconstruction graph
   id: WeaponTurretLaserNanoTrasenPackingGraph
@@ -163,7 +163,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Turrets/laser.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/laser.rsi
   - type: Gun
     fireRate: 2
     soundGunshot:
@@ -211,7 +211,7 @@
     factions:
     - NanoTrasen
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Turrets/magazinefed.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/magazinefed.rsi
     drawdepth: Mobs
     layers:
     - state: base
@@ -256,13 +256,13 @@
     doAfter: 5
     removeOnInteract: true
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Turrets/magazinefed.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/magazinefed.rsi
     state: packed
   - type: Item
     size: Ginormous
     shape:
     - 0,0,3,3
-    sprite: _NF/Objects/Weapons/Guns/Turrets/magazinefed.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Turrets/magazinefed.rsi
 
 - type: constructionGraph # deconstruction graph
   id: WeaponTurretAsmgtNtPackingGraph

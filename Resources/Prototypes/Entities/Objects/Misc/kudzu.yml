@@ -30,7 +30,7 @@
           path:
             "/Audio/Weapons/slash.ogg"
     - type: Sprite
-      sprite: Objects/Misc/kudzu.rsi
+      sprite: /Objects/Misc/kudzu.rsi
       state: kudzu_11
       drawdepth: Overdoors
     - type: KudzuVisuals
@@ -119,7 +119,7 @@
   components:
     - type: Sprite
       drawdepth: HighFloorObjects
-      sprite: Objects/Misc/kudzuflower.rsi
+      sprite: /Objects/Misc/kudzuflower.rsi
       state: kudzu_11
     - type: Kudzu
       spriteVariants: 5
@@ -178,7 +178,7 @@
           path:
             "/Audio/Weapons/slash.ogg"
     - type: Sprite
-      sprite: Objects/Misc/fleshkudzu.rsi
+      sprite: /Objects/Misc/fleshkudzu.rsi
       state: kudzu_11
       drawdepth: Overdoors
     - type: KudzuVisuals
@@ -274,7 +274,7 @@
     - type: Occluder
     - type: Sprite
       drawdepth: Effects
-      sprite: Effects/spookysmoke.rsi
+      sprite: /Effects/spookysmoke.rsi
       layers:
       - state: spookysmoke
         color: "#793a80dd"

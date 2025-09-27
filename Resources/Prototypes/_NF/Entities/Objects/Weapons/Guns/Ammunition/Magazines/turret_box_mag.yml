@@ -12,7 +12,7 @@
       - MagazineAsmgt
   - type: Item
     size: Small
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Turret/box_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Turret/box_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -31,7 +31,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Turret/box_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Turret/box_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Bow/bow.rsi
+    sprite: /Objects/Weapons/Guns/Bow/bow.rsi
   - type: Item
     size: Normal
   - type: Clothing

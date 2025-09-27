@@ -15,7 +15,7 @@
       types:
         Heat: 1
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: /Effects/fire.rsi
     normalState: fire
   - type: Damageable
     damageModifierSet: Wood
@@ -64,7 +64,7 @@
   description: 'A piece of white paper.'
   components:
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: /Objects/Misc/bureaucracy.rsi
     layers:
     - state: paper
     - state: paper_words
@@ -97,7 +97,7 @@
     - Trash
     - Paper
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: /Objects/Misc/bureaucracy.rsi
     layers:
     - state: scrap
 
@@ -108,8 +108,8 @@
   description: 'A plain sheet of office paper.'
   components:
   - type: PaperVisuals
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
-    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg./96dpi.png"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
@@ -134,12 +134,12 @@
     guides:
     - ArtifactReports
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/paper_heading_artifact_analyzer.svg.96dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_artifact_analyzer.svg./96dpi.png"
     headerMargin: 0.0, 0.0, 0.0, 16.0
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_dotmatrix.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_dotmatrix.svg./96dpi.png"
     backgroundImageTile: true
     backgroundPatchMargin: 37.0, 0.0, 37.0, 0.0
-    contentImagePath: "/Textures/Interface/Paper/paper_content_dotmatrix.svg.96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_dotmatrix.svg./96dpi.png"
     contentImageNumLines: 2
     contentMargin: 16.0, 16.0, 16.0, 0.0
     # Make this a wide dot-matrix printer
@@ -165,8 +165,8 @@
   - type: PaperLabelType
     paperType: CaptainsPaper
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/paper_heading_captains_thoughts.svg.96dpi.png"
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_captains_thoughts.svg./96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
     backgroundModulate: "#e6e6fa"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
     contentMargin: 32.0, 16.0, 32.0, 0.0
@@ -198,13 +198,13 @@
     - Trash
     - Paper
   - type: PaperVisuals
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
-    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg./96dpi.png"
     backgroundModulate: "#9ef5ff"
     contentImageModulate: "#9ef5ff"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
     contentMargin: 16.0, 16.0, 16.0, 16.0
-    headerImagePath: "/Textures/Interface/Paper/paper_heading_cargo_invoice.svg.96dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_cargo_invoice.svg./96dpi.png"
     headerMargin: 0.0, 12.0, 0.0, 0.0
 
 - type: entity
@@ -222,7 +222,7 @@
     price: 0
   - type: NanoTaskPrinted
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: /Objects/Misc/bureaucracy.rsi
     layers:
     - state: paper_receipt
     - state: paper_receipt_words
@@ -232,8 +232,8 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_perforated.svg.96dpi.png"
-    headerImagePath: "/Textures/Interface/Paper/paper_heading_nanotask.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_perforated.svg./96dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_nanotask.svg./96dpi.png"
     headerMargin: 0.0, 0.0, 0.0, 6.0
     backgroundImageTile: true
     backgroundPatchMargin: 0.0, 6.0, 0.0, 6.0
@@ -268,13 +268,13 @@
     - Trash
     - Paper
   - type: PaperVisuals
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
-    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg./96dpi.png"
     backgroundModulate: "#f7e574"
     contentImageModulate: "#f7e574"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
     contentMargin: 16.0, 16.0, 16.0, 16.0
-    headerImagePath: "/Textures/Interface/Paper/paper_heading_cargo_invoice.svg.96dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_cargo_invoice.svg./96dpi.png"
     headerMargin: 0.0, 12.0, 0.0, 0.0
   - type: CargoBountyLabel
   - type: StaticPrice
@@ -309,8 +309,8 @@
     - Trash
     - Paper
   - type: PaperVisuals
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
-    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg./96dpi.png"
     backgroundModulate: "#f7e574"
     contentImageModulate: "#f7e574"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
@@ -340,8 +340,8 @@
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
   - type: PaperVisuals
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
-    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg./96dpi.png"
     backgroundModulate: "#cccccc"
     contentImageModulate: "#cccccc"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
@@ -400,7 +400,7 @@
   description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
   components:
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: /Objects/Misc/bureaucracy.rsi
     layers:
     - state: envelope_open
       map: ["enum.EnvelopeVisualLayers.Open"]
@@ -416,7 +416,7 @@
   - type: Paper
     content: envelope-default-message
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/paper_heading_postage_stamp.svg.96dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_postage_stamp.svg./96dpi.png"
     headerMargin: 216.0, 0.0, 0.0, 0.0
     contentMargin: 0.0, 0.0, 0.0, 0.0
     maxWritableArea: 368.0, 256.0
@@ -456,7 +456,7 @@
       types:
         Heat: 1
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: /Effects/fire.rsi
     normalState: fire
   - type: Damageable
     damageModifierSet: Wood

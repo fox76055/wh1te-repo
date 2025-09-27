@@ -2,7 +2,7 @@
   id: EngineeringCableLv
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tools/cable-coils.rsi
+    sprite: /Objects/Tools/cable-coils.rsi
     state: coillv-30
   product: CrateEngineeringCableLV
   cost: 300
@@ -13,7 +13,7 @@
   id: EngineeringCableMv
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tools/cable-coils.rsi
+    sprite: /Objects/Tools/cable-coils.rsi
     state: coilmv-30
   product: CrateEngineeringCableMV
   cost: 300
@@ -24,7 +24,7 @@
   id: EngineeringCableHv
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tools/cable-coils.rsi
+    sprite: /Objects/Tools/cable-coils.rsi
     state: coilhv-30
   product: CrateEngineeringCableHV
   cost: 300
@@ -35,7 +35,7 @@
   id: EngineeringFoamGrenade
   abstract: true # Frontier
   icon:
-    sprite: Objects/Weapons/Grenades/metalfoam.rsi
+    sprite: /Objects/Weapons/Grenades/metalfoam.rsi
     state: icon
   product: CrateEngineeringFoamGrenade
   cost: 2500
@@ -46,7 +46,7 @@
   id: EngineeringCableBulk
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tools/cable-coils.rsi
+    sprite: /Objects/Tools/cable-coils.rsi
     state: coilall-30
   product: CrateEngineeringCableBulk
   cost: 600
@@ -57,7 +57,7 @@
   id: EngineeringElectricalSupplies
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
+    sprite: /Objects/Tools/Toolboxes/toolbox_yellow.rsi
     state: icon
   product: CrateEngineeringElectricalSupplies
   cost: 4500
@@ -68,7 +68,7 @@
   id: StationBeaconBundle
   abstract: true # Frontier
   icon:
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: /Objects/Devices/station_beacon.rsi
     state: icon
   product: CrateEngineeringStationBeaconBundle
   cost: 500
@@ -79,7 +79,7 @@
   id: EngineeringJetpack
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: /Objects/Tanks/Jetpacks/blue.rsi
     state: icon
   product: CrateEngineeringJetpack
   cost: 1000
@@ -90,7 +90,7 @@
   id: EngineeringMiniJetpack
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tanks/Jetpacks/mini.rsi
+    sprite: /Objects/Tanks/Jetpacks/mini.rsi
     state: icon
   product: CrateEngineeringMiniJetpack
   cost: 750
@@ -101,7 +101,7 @@
   id: AirlockKit
   abstract: true # Frontier
   icon:
-    sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
+    sprite: /Objects/Tools/Toolboxes/toolbox_yellow.rsi
     state: icon
   product: CrateAirlockKit
   cost: 1100
@@ -112,7 +112,7 @@
   id: EvaKit
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Head/Helmets/eva.rsi
+    sprite: /Clothing/Head/Helmets/eva.rsi
     state: icon
   product: CrateEvaKit
   cost: 5000
@@ -123,7 +123,7 @@
   id: EngineeringRCDAmmo
   abstract: true # Frontier
   icon:
-    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    sprite: /_NF/Objects/Tools/rcd.rsi # Frontier
     state: ammo
   product: CrateRCDAmmo
   cost: 2500
@@ -134,7 +134,7 @@
   id: EngineeringRCD
   abstract: true # Frontier
   icon:
-    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    sprite: /_NF/Objects/Tools/rcd.rsi # Frontier
     state: icon
   product: CrateRCD
   cost: 800
@@ -145,7 +145,7 @@
   id: EngineeringParticleDecelerators
   abstract: true # Frontier
   icon:
-    sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
+    sprite: /Objects/Weapons/Guns/Battery/particle_decelerator.rsi
     state: base
   # product: CrateParticleDecelerators # Frontier
   cost: 15000
@@ -155,7 +155,7 @@
 - type: cargoProduct
   id: EngineeringSpaceHeater
   icon:
-    sprite: Structures/Piping/Atmospherics/Portable/portable_sheater.rsi
+    sprite: /Structures/Piping/Atmospherics/Portable/portable_sheater.rsi
     state: sheaterOff
   product: SpaceHeaterAnchored # Frontier: CrateEngineeringSpaceHeater<SpaceHeaterAnchored
   cost: 600 # Frontier: 350<600

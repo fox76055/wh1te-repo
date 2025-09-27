@@ -6,9 +6,9 @@
   description: Обувь спецназа Nanotrasen, для боевых операций или боевых действий. Борьба - всё, борьба - всегда.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/swat.rsi
+    sprite: /Clothing/Shoes/Specific/swat.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/swat.rsi
+    sprite: /Clothing/Shoes/Specific/swat.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -30,7 +30,7 @@
   description: Специальная обувь служащих Центрального командования.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/Shoes/Boots/centcom_jackboots.rsi
+    sprite: /Backmen/Clothing/Shoes/Boots/centcom_jackboots.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/Shoes/Boots/centcom_jackboots.rsi
+    sprite: /Backmen/Clothing/Shoes/Boots/centcom_jackboots.rsi
   - type: NoSlip

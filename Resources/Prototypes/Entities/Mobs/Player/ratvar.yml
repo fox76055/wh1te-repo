@@ -5,7 +5,7 @@
   description: Your mind aches as it fails to understand the complex mechanics of what is before you.
   components:
   - type: Sprite
-    sprite: Mobs/Demons/ratvar.rsi
+    sprite: /Mobs/Demons/ratvar.rsi
     drawdepth: Ghosts
     scale: 1.15,1.15
     layers:

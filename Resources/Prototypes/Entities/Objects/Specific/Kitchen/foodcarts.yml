@@ -73,7 +73,7 @@
   components:
     - type: Sprite
       noRot: true
-      sprite: Objects/Specific/Kitchen/food_carts.rsi
+      sprite: /Objects/Specific/Kitchen/food_carts.rsi
       layers:
         - state: stand-food
     - type: Storage
@@ -135,7 +135,7 @@
           whitelist:
             tags:
               - Ketchup
-      sprite: Objects/Specific/Kitchen/food_carts.rsi
+      sprite: /Objects/Specific/Kitchen/food_carts.rsi
     - type: ContainerContainer
       containers:
         storagebase: !type:Container
@@ -153,7 +153,7 @@
   components:
     - type: Sprite
       noRot: true
-      sprite: Objects/Specific/Kitchen/food_carts.rsi
+      sprite: /Objects/Specific/Kitchen/food_carts.rsi
       layers:
         - state: stand-ice
     - type: ContainerContainer

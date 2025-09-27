@@ -5,13 +5,13 @@
   description: Skub is the fifth Chaos God.
   components:
   - type: Sprite
-    sprite: Objects/Misc/skub.rsi
+    sprite: /Objects/Misc/skub.rsi
     state: icon
   - type: Tag
     tags:
       - Payload
   - type: Item
-    sprite: Objects/Misc/skub.rsi
+    sprite: /Objects/Misc/skub.rsi
   - type: EmitSoundOnUse
     sound:
       collection: Skub

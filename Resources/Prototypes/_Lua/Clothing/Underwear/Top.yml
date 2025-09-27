@@ -9,4 +9,4 @@
   description: Стандартное нижнее бельё вип.
   components:
   - type: Sprite
-    sprite: _Lua/Underwear/vip/women/bra.rsi
+    sprite: /_Lua/Underwear/vip/women/bra.rsi

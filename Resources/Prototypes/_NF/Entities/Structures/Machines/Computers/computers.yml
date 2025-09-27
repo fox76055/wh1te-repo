@@ -109,7 +109,7 @@
   description: Used to exchange contraband for Frontier Uplink Coins.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -194,7 +194,7 @@
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: cargo_market
     - map: ["computerLayerKeys"]
       state: tech_key
@@ -249,7 +249,7 @@
   description: Avast, get ye pirate bounties here.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_blackmarket
@@ -318,7 +318,7 @@
   description: Fence yer ill-gotten goods here! And keep yer pile orderly.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_blackmarket
@@ -370,7 +370,7 @@
   description: Back from a voyage? Redeem yer bounties here, matey.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer_blackmarket
@@ -441,7 +441,7 @@
   suffix: Normal
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: /_NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -517,10 +517,10 @@
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: shuttle
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: generic_panel_open

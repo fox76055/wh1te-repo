@@ -150,7 +150,7 @@
     - MobRogueSiliconLootT1
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    sprite: /_NF/Mobs/RogueSilicons/robots.rsi
     layers:
     - state: body_generic
       map: [ "body" ]
@@ -550,15 +550,15 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: base
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: decor_department
       color: "#990000"
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: decor_department_accent
       color: "#000000"
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: base_eyes
       shader: unshaded
       color: "#990000"
@@ -574,15 +574,15 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: base
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: decor_department
       color: "#c86400"
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: decor_department_accent
       color: "#ffff00"
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: base_eyes
       shader: unshaded
       color: "#0055cc"
@@ -601,14 +601,14 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: base
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: decor_department
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: decor_department_accent
       color: "#6400c8"
-    - sprite: _NF/Mobs/RogueSilicons/drones.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/drones.rsi
       state: base_eyes
       shader: unshaded
       color: "#ffff00"
@@ -627,7 +627,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/RogueSilicons/viscerator.rsi
+    sprite: /_NF/Mobs/RogueSilicons/viscerator.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: base
@@ -684,21 +684,21 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: body_servo
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_servo
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_servo_eye
       color: "#990000"
       shader: unshaded
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: l_arm_servo
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: r_arm_servo
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: l_leg_servo
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: r_leg_servo
   - type: DamageStateVisuals
   - type: RotationVisuals
@@ -722,27 +722,27 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: body_generic
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_sturdy
       color: "#0055cc"
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_sturdy_eye
       color: "#0055cc"
       shader: unshaded
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: overlay_meson
       shader: unshaded
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: l_arm_sturdy
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: r_arm_sturdy
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: l_leg_generic
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: r_leg_generic
-    - sprite: Objects/Weapons/Melee/stunprod.rsi
+    - sprite: /Objects/Weapons/Melee/stunprod.rsi
       state: on-inhand-right
   - type: DamageStateVisuals
   - type: RotationVisuals
@@ -780,27 +780,27 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: body_light
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_light
       color: "#990000"
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_light_eye
       color: "#990000"
       shader: unshaded
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: overlay_thermal
       shader: unshaded
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: l_arm_light
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: r_arm_light
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: leg_thruster
-    - sprite: Clothing/Neck/mantles/hosmantle.rsi
+    - sprite: /Clothing/Neck/mantles/hosmantle.rsi
       state: equipped-NECK
-    - sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    - sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi
       state: wielded-inhand-right
   - type: PointLight
     radius: 3.5
@@ -837,26 +837,26 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: body_generic
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_heavy
       color: "#d6b328"
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: head_heavy_eye
       color: "#990000"
       shader: unshaded
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: l_arm_heavy
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: r_arm_heavy
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: l_leg_generic
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: r_leg_generic
-    - sprite: Clothing/Neck/mantles/qmmantle.rsi
+    - sprite: /Clothing/Neck/mantles/qmmantle.rsi
       state: equipped-NECK
-    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/robots.rsi
       state: overlay_r_arm_claws
   - type: DamageStateVisuals
   - type: RotationVisuals
@@ -905,17 +905,17 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/RogueSilicons/ancient.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/ancient.rsi
       state: base
       color: "#8ca1a3"
-    - sprite: _NF/Mobs/RogueSilicons/ancient.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/ancient.rsi
       state: decor_02
       color: "#c96d25"
-    - sprite: _NF/Mobs/RogueSilicons/ancient.rsi
+    - sprite: /_NF/Mobs/RogueSilicons/ancient.rsi
       state: eyes
       color: "#990000"
       shader: unshaded
-    - sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
+    - sprite: /Objects/Weapons/Guns/Battery/tesla_gun.rsi
       state: inhand-right
   - type: DamageStateVisuals
   - type: RotationVisuals
@@ -985,7 +985,7 @@
           - FlyingMobLayer
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/RogueSilicons/netguardian.rsi
+    sprite: /_NF/Mobs/RogueSilicons/netguardian.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: netguardian
@@ -1069,9 +1069,9 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: Mobs/Silicon/onestar.rsi
+    - sprite: /Mobs/Silicon/onestar.rsi
       state: onestar_boss
-    - sprite: Mobs/Silicon/onestar.rsi
+    - sprite: /Mobs/Silicon/onestar.rsi
       state: onestar_boss_screen
       shader: unshaded
   - type: DamageStateVisuals

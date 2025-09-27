@@ -2,7 +2,7 @@
   id: LivestockBee
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/bee.rsi
+    sprite: /Mobs/Animals/bee.rsi
     state: 0
   product: CrateNPCBee
   cost: 7000
@@ -13,7 +13,7 @@
   id: LivestockButterfly
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/butterfly.rsi
+    sprite: /Mobs/Animals/butterfly.rsi
     state: butterfly
   product: CrateNPCButterflies
   cost: 4400
@@ -24,7 +24,7 @@
   id: LivestockCat
   abstract: true
   icon:
-    sprite: Mobs/Pets/cat.rsi
+    sprite: /Mobs/Pets/cat.rsi
     state: cat
   product: CrateNPCCat
   cost: 1200
@@ -35,7 +35,7 @@
   id: LivestockChicken
   abstract: true # Frontier - replaced by poultry cube crate
   icon:
-    sprite: Mobs/Animals/chicken.rsi
+    sprite: /Mobs/Animals/chicken.rsi
     state: icon-1
   product: CrateNPCChicken
   cost: 4000
@@ -46,7 +46,7 @@
   id: LivestockCrab
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/crab.rsi
+    sprite: /Mobs/Animals/crab.rsi
     state: crab
   product: CrateNPCCrab
   cost: 3000
@@ -57,7 +57,7 @@
   id: LivestockDuck
   abstract: true # Frontier - replaced by poultry cube crate
   icon:
-    sprite: Mobs/Animals/duck.rsi
+    sprite: /Mobs/Animals/duck.rsi
     state: icon-0
   product: CrateNPCDuck
   cost: 4000
@@ -68,7 +68,7 @@
   id: LivestockCorgi
   abstract: true
   icon:
-    sprite: Mobs/Pets/corgi.rsi
+    sprite: /Mobs/Pets/corgi.rsi
     state: corgi
   product: CrateNPCCorgi
   cost: 1200
@@ -79,7 +79,7 @@
   id: LivestockPupCorgi
   abstract: true
   icon:
-    sprite: Mobs/Pets/corgi.rsi
+    sprite: /Mobs/Pets/corgi.rsi
     state: puppy
   product: CrateNPCPuppyCorgi
   cost: 1200
@@ -90,7 +90,7 @@
   id: LivestockCow
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/cow.rsi
+    sprite: /Mobs/Animals/cow.rsi
     state: cow
   product: CrateNPCCow
   cost: 3200
@@ -101,7 +101,7 @@
   id: LivestockGoat
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/goat.rsi
+    sprite: /Mobs/Animals/goat.rsi
     state: goat
   product: CrateNPCGoat
   cost: 1200
@@ -112,7 +112,7 @@
   id: LivestockGoose
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/goose.rsi
+    sprite: /Mobs/Animals/goose.rsi
     state: goose
   product: CrateNPCGoose
   cost: 2100
@@ -123,7 +123,7 @@
   id: LivestockGorilla
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/gorilla.rsi
+    sprite: /Mobs/Animals/gorilla.rsi
     state: icon
   product: CrateNPCGorilla
   cost: 1100
@@ -134,7 +134,7 @@
   id: LivestockMonkeyCube
   abstract: true # Frontier
   icon:
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: /Objects/Misc/monkeycube.rsi
     state: box
   product: CrateNPCMonkeyCube
   cost: 2000
@@ -145,7 +145,7 @@
   id: LivestockKoboldCube
   abstract: true # Frontier
   icon:
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: /Objects/Misc/monkeycube.rsi
     state: box_kobold
   product: CrateNPCKoboldCube
   cost: 2000
@@ -156,7 +156,7 @@
   id: LivestockMouse
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/mouse.rsi
+    sprite: /Mobs/Animals/mouse.rsi
     state: icon-0
   product: CrateNPCMouse
   cost: 4400
@@ -167,7 +167,7 @@
   id: LivestockParrot
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/parrot.rsi
+    sprite: /Mobs/Animals/parrot.rsi
     state: parrot
   product: CrateNPCParrot
   cost: 3000
@@ -178,7 +178,7 @@
   id: LivestockPenguin
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/penguin.rsi
+    sprite: /Mobs/Animals/penguin.rsi
     state: penguin
   product: CrateNPCPenguin
   cost: 2100
@@ -189,7 +189,7 @@
   id: LivestockPig
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/pig.rsi
+    sprite: /Mobs/Animals/pig.rsi
     state: pig
   product: CrateNPCPig
   cost: 1100
@@ -200,7 +200,7 @@
   id: LivestockSnake
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/snake.rsi
+    sprite: /Mobs/Animals/snake.rsi
     state: snake
   product: CrateNPCSnake
   cost: 3000
@@ -211,7 +211,7 @@
   id: LivestockHamster
   abstract: true
   icon:
-    sprite: Mobs/Animals/hamster.rsi
+    sprite: /Mobs/Animals/hamster.rsi
     state: icon-0
   product: CrateNPCHamster
   cost: 2800
@@ -222,7 +222,7 @@
   id: LivestockLizard
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/lizard.rsi
+    sprite: /Mobs/Animals/lizard.rsi
     state: lizard
   product: CrateNPCLizard
   cost: 1100
@@ -233,7 +233,7 @@
   id: LivestockKangaroo
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/kangaroo.rsi
+    sprite: /Mobs/Animals/kangaroo.rsi
     state: kangaroo
   product: CrateNPCKangaroo
   cost: 2800
@@ -244,7 +244,7 @@
   id: LivestockMothroach
   abstract: true # Frontier
   icon:
-    sprite: Mobs/Animals/mothroach/mothroach.rsi
+    sprite: /Mobs/Animals/mothroach/mothroach.rsi
     state: mothroach
   product: CrateNPCMothroach
   cost: 5000

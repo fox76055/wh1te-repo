@@ -17,7 +17,7 @@
     proto: NFCartridgeRifle20
     capacity: 25
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -28,7 +28,7 @@
     steps: 7
     zeroVisible: false
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -52,7 +52,7 @@
     proto: NFCartridgeRifle20
     capacity: 60
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_drum.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_drum.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -65,7 +65,7 @@
     steps: 10
     zeroVisible: false
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_drum.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_drum.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -85,13 +85,13 @@
     proto: NFCartridgeRifle20
     capacity: 100
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 8
     zeroVisible: false
   - type: Item
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -280,7 +280,7 @@
       - NFMagazineClipRifle20
   - type: Item
     size: Small
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_novalite_clip.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_novalite_clip.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -296,7 +296,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_novalite_clip.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_novalite_clip.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

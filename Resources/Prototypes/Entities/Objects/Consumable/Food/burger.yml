@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_single.yml
 # Bun
 
 - type: entity
@@ -9,7 +9,7 @@
   components:
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/burger.rsi
+    sprite: /Objects/Consumable/Food/burger.rsi
     layers:
     - state: bun
   - type: SolutionContainerManager
@@ -39,7 +39,7 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Consumable/Food/burger_sequence.rsi
+    sprite: /Objects/Consumable/Food/burger_sequence.rsi
     layers:
     - state: bun_bottom
     - map: ["foodSequenceLayers"]
@@ -70,7 +70,7 @@
   components:
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/burger_sequence.rsi
+    sprite: /Objects/Consumable/Food/burger_sequence.rsi
     layers:
     - state: bun_top
   - type: SolutionContainerManager
@@ -98,7 +98,7 @@
   - type: Food
     transferAmount: 5
   - type: Sprite
-    sprite: Objects/Consumable/Food/burger.rsi
+    sprite: /Objects/Consumable/Food/burger.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -109,7 +109,7 @@
         - ReagentId: Vitamin
           Quantity: 3
   - type: Item
-    sprite: Objects/Consumable/Food/burger.rsi
+    sprite: /Objects/Consumable/Food/burger.rsi
 
 # Custom Burger Example
 

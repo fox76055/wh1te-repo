@@ -7,7 +7,7 @@
   - type: BindToStation # Frontier
     enabled: false # Frontier - should be draggable between stations
   - type: Sprite
-    sprite: Structures/Machines/server.rsi
+    sprite: /Structures/Machines/server.rsi
     snapCardinals: true
     layers:
       - state: server-off
@@ -101,7 +101,7 @@
   # We should make this abstract once there are actual point sources.
   components:
   - type: Sprite
-    sprite: Structures/Machines/rndpointsource.rsi
+    sprite: /Structures/Machines/rndpointsource.rsi
     layers:
     - state: rndpointsource-off
     - state: rndpointsource

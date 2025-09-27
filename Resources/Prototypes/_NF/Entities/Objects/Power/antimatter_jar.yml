@@ -6,9 +6,9 @@
   categories: [DoNotMap]
   components:
   - type: Item
-    sprite: _NF/Objects/Power/big_ame_jar.rsi
+    sprite: /_NF/Objects/Power/big_ame_jar.rsi
   - type: Sprite
-    sprite: _NF/Objects/Power/big_ame_jar.rsi
+    sprite: /_NF/Objects/Power/big_ame_jar.rsi
   - type: AmeFuelContainer
     fuelAmount: 1500
     fuelCapacity: 1500 # ~ 900 MJ

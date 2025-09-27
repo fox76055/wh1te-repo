@@ -5,9 +5,9 @@
   description: A cute and fluffy head of a grey cat.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Animals/cat.rsi
+    sprite: /Clothing/Head/Animals/cat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Animals/cat.rsi
+    sprite: /Clothing/Head/Animals/cat.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -16,9 +16,9 @@
   description: A cute and fluffy head of a brown cat.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Animals/cat2.rsi
+    sprite: /Clothing/Head/Animals/cat2.rsi
   - type: Clothing
-    sprite: Clothing/Head/Animals/cat2.rsi
+    sprite: /Clothing/Head/Animals/cat2.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -27,9 +27,9 @@
   description: A cute and fluffy head of a black cat.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Animals/cat3.rsi
+    sprite: /Clothing/Head/Animals/cat3.rsi
   - type: Clothing
-    sprite: Clothing/Head/Animals/cat3.rsi
+    sprite: /Clothing/Head/Animals/cat3.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -38,9 +38,9 @@
   description: A green, sticky headslime, you put it on your head.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Animals/headslime.rsi
+    sprite: /Clothing/Head/Animals/headslime.rsi
   - type: Clothing
-    sprite: Clothing/Head/Animals/headslime.rsi
+    sprite: /Clothing/Head/Animals/headslime.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -49,6 +49,6 @@
   description: That's a monkey head. It has a hole on a mouth to eat bananas.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Animals/monkey.rsi
+    sprite: /Clothing/Head/Animals/monkey.rsi
   - type: Clothing
-    sprite: Clothing/Head/Animals/monkey.rsi
+    sprite: /Clothing/Head/Animals/monkey.rsi

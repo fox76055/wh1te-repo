@@ -5,17 +5,17 @@
 #   description: A cartridge that helps identify crimes and see appropriate punishment.
 #   components:
 #   - type: Sprite
-#     sprite: _DV/Objects/Devices/cartridge.rsi
+#     sprite: /_DV/Objects/Devices/cartridge.rsi
 #     state: cart-cri
 #   - type: Icon
-#     sprite: _DV/Objects/Devices/cartridge.rsi
+#     sprite: /_DV/Objects/Devices/cartridge.rsi
 #     state: cart-cri
 #   - type: UIFragment
 #     ui: !type:CrimeAssistUi
 #   - type: Cartridge
 #     programName: crime-assist-program-name
 #     icon:
-#       sprite: _DV/Icons/cri.rsi
+#       sprite: /_DV/Icons/cri.rsi
 #       state: cri
 
 - type: entity
@@ -25,10 +25,10 @@
   description: A cartridge that tracks statistics related to mail deliveries.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Devices/cartridge.rsi
+    sprite: /_DV/Objects/Devices/cartridge.rsi
     state: cart-mail
   - type: Icon
-    sprite: _DV/Objects/Devices/cartridge.rsi
+    sprite: /_DV/Objects/Devices/cartridge.rsi
     state: cart-mail
   - type: UIFragment
     ui: !type:MailMetricUi
@@ -36,6 +36,6 @@
   - type: Cartridge
     programName: mail-metrics-program-name
     icon:
-      sprite: Nyanotrasen/Objects/Specific/Mail/mail.rsi
+      sprite: /Nyanotrasen/Objects/Specific/Mail/mail.rsi
       state: icon
     readonly: true # Frontier

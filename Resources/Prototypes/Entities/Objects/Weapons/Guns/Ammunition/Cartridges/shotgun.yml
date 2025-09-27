@@ -14,7 +14,7 @@
     soundEject:
       collection: ShellEject
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]

@@ -7,7 +7,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Objects/Devices/nuke.rsi
+    sprite: /Objects/Devices/nuke.rsi
     noRot: true
     layers:
     - state: nuclearbomb_base
@@ -145,7 +145,7 @@
     anchored: false
   - type: NukeLabel
   - type: Sprite
-    sprite: Objects/Devices/nuke.rsi
+    sprite: /Objects/Devices/nuke.rsi
     layers:
     - state: nuclearbomb_base
     - state: nukefestive

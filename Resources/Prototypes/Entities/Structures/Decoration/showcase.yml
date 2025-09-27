@@ -39,7 +39,7 @@
   description: A non-functional replica of an old security robot.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/showcase.rsi
+    sprite: /Structures/Decoration/showcase.rsi
     state: showcase_1
 
 - type: entity
@@ -49,7 +49,7 @@
   description: A non-functional replica of an old robot.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/showcase.rsi
+    sprite: /Structures/Decoration/showcase.rsi
     state: showcase_2
 
 - type: entity
@@ -59,7 +59,7 @@
   description: A non-functional replica of an old cargo robot.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/showcase.rsi
+    sprite: /Structures/Decoration/showcase.rsi
     state: showcase_3
 
 - type: entity
@@ -69,5 +69,5 @@
   description: A non-functional replica of a marauder, painted green.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/showcase.rsi
+    sprite: /Structures/Decoration/showcase.rsi
     state: showcase_4

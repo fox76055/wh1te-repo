@@ -34,7 +34,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Structures/Power/power.rsi
+    sprite: /Structures/Power/power.rsi
     state: wiredmachine
   - type: NodeContainer
     nodes:
@@ -79,7 +79,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Structures/Power/power.rsi
+    sprite: /Structures/Power/power.rsi
     state: provider
   - type: Battery
   - type: NodeContainer
@@ -113,7 +113,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Structures/Power/power.rsi
+    sprite: /Structures/Power/power.rsi
     state: provider
   - type: Battery
   - type: NodeContainer
@@ -174,7 +174,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Structures/Power/power.rsi
+    sprite: /Structures/Power/power.rsi
     state: wirelessmachine
   - type: ApcPowerReceiver
   - type: ExtensionCableReceiver

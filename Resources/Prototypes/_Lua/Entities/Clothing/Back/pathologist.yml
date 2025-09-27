@@ -9,7 +9,7 @@
   description: Рюкзак патологоанатома - донеси свою любовь к трупам, не говоря даже слов.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Back/Backpacks/pathologist.rsi
+    sprite: /_Lua/Clothing/Back/Backpacks/pathologist.rsi
 
 - type: entity
   parent: ClothingBackpackDuffel
@@ -18,7 +18,7 @@
   description: Большой вещмешок для хранения дополнительных медицинских припасов.
   components:
     - type: Sprite
-      sprite: _Lua/Clothing/Back/Duffels/pathologist.rsi
+      sprite: /_Lua/Clothing/Back/Duffels/pathologist.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -27,4 +27,4 @@
   description: Идеальная сумка, чтобы переносить свои тайны вместе с несколькими косточками в кармане.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Back/Satchels/pathologist.rsi
+    sprite: /_Lua/Clothing/Back/Satchels/pathologist.rsi

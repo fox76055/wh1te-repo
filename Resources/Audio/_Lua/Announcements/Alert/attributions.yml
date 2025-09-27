@@ -1,4 +1,4 @@
-- files: ["gamma_alert.ogg", "delta.ogg"]
+- files: ["/gamma_alert.ogg", "/delta.ogg"]
   license: "CC-BY-SA-3.0"
   copyright: "Sounds by https://github.com/BlueMoon-Labs/MOLOT-BlueMoon-Station"
   source: "https://github.com/BlueMoon-Labs/MOLOT-BlueMoon-Station"
@@ -8,32 +8,32 @@
   copyright: "Made by ratyyy, voice by elevenlabs"
   source: "https://www.zedge.net/ringtone/8fb4fb0d-4b6e-4eab-95f2-c5efe27a9deb"
 
-- files: ["redalert.ogg"]
+- files: ["/redalert.ogg"]
   license: "CC-BY-SA-3.0"
   copyright: "Taken from Citadel Station 13"
   source: "https://github.com/Skyrat-SS13/Skyrat13/commit/2d4f2d1b489590b559e4073f41b126cef56f4c50"
 
-- files: ["bluealert.ogg"]
+- files: ["/bluealert.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Taken from TG station."
   source: "https://github.com/TauCetiStation/TauCetiClassic/pull/10207/commits/2454e0f5a1b06b303f19029a279a8ac6e5b2580d"
 
-- files: ["greenalert.ogg"]
+- files: ["/greenalert.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Taken from TG station."
   source: "https://github.com/TauCetiStation/TauCetiClassic/pull/10207/commits/2454e0f5a1b06b303f19029a279a8ac6e5b2580d"
 
-- files: ["delta.ogg"]
+- files: ["/delta.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Taken from TG station."
   source: "https://github.com/TauCetiStation/TauCetiClassic/pull/10207/commits/2454e0f5a1b06b303f19029a279a8ac6e5b2580d"
 
-- files: ["violetalert.ogg"]
+- files: ["/violetalert.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Taken from Vesta.Bay."
   source: "https://github.com/Skyrat-SS13/Vesta.Bay/commit/dd97e897e280c5715b717945b03c8e65ec306b6e"
 
-- files: ["yellowalert.ogg"]
+- files: ["/yellowalert.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Taken from prometheus"
   source: "https://github.com/stickbear2015/prometheus/commit/e6d4f124f2853ef732628b24e6075cf1f2956256"

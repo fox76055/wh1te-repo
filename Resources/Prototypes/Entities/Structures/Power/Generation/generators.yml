@@ -31,7 +31,7 @@
     anchored: true
     noRot: true
   - type: Sprite
-    sprite: Structures/Power/power.rsi
+    sprite: /Structures/Power/power.rsi
     state: generator
     snapCardinals: true
   - type: NodeContainer
@@ -43,7 +43,7 @@
   - type: PowerMonitoringDevice
     group: Generator
     loadNode: output
-    sprite: Structures/Power/power.rsi
+    sprite: /Structures/Power/power.rsi
     state: generator
   - type: PowerSupplier
     supplyRate: 3000
@@ -122,7 +122,7 @@
     canCollide: false
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Power/Generation/wallmount_generator.rsi
+    sprite: /Structures/Power/Generation/wallmount_generator.rsi
     layers:
     - state: panel
     - state: on
@@ -136,7 +136,7 @@
   - type: PowerMonitoringDevice
     group: Generator
     loadNode: output
-    sprite: Structures/Power/Generation/wallmount_generator.rsi
+    sprite: /Structures/Power/Generation/wallmount_generator.rsi
     state: static
   - type: PowerSupplier
     supplyRate: 3000
@@ -166,7 +166,7 @@
     anchored: true
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Power/Generation/wallmount_generator.rsi
+    sprite: /Structures/Power/Generation/wallmount_generator.rsi
     layers:
     - state: panel
   - type: Construction
@@ -259,10 +259,10 @@
   - type: PowerSupplier
     supplyRate: 10000 # supposed to be low power at no fuel cost to power derelicts
   - type: Sprite
-    sprite: Structures/Power/Generation/rtg.rsi
+    sprite: /Structures/Power/Generation/rtg.rsi
     state: rtg
   - type: PowerMonitoringDevice
-    sprite: Structures/Power/Generation/rtg.rsi
+    sprite: /Structures/Power/Generation/rtg.rsi
     state: rtg
   - type: AmbientSound
     range: 5
@@ -326,12 +326,12 @@
   - type: PowerSupplier
     supplyRate: 10000
   - type: Sprite
-    sprite: Structures/Power/Generation/rtg.rsi
+    sprite: /Structures/Power/Generation/rtg.rsi
     layers:
       - state: rtg_damaged
       - state: rtg_glow
   - type: PowerMonitoringDevice
-    sprite: Structures/Power/Generation/rtg.rsi
+    sprite: /Structures/Power/Generation/rtg.rsi
     state: rtg_damaged
   - type: RadiationSource # ideally only when opened.
     intensity: 2

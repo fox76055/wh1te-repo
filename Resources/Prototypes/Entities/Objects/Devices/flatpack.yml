@@ -9,7 +9,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: Objects/Devices/flatpack.rsi
+    sprite: /Objects/Devices/flatpack.rsi
     layers:
     - state: base
     - state: overlay

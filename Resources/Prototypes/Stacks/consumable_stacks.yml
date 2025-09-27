@@ -23,7 +23,7 @@
 - type: stack
   id: PizzaBox
   name: stack-pizza-box
-  icon: { sprite: Objects/Consumable/Food/Baked/pizza.rsi, state: box }
+  icon: { sprite: /Objects/Consumable/Food/Baked/pizza.rsi, state: box }
   spawn: FoodBoxPizza
   maxCount: 30
 

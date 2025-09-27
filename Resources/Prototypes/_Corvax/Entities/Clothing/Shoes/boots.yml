@@ -3,6 +3,6 @@
   id: ClothingShoesBootsJackSec
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Shoes/Boots/jackboots_sec.rsi
+      sprite: /Corvax/Clothing/Shoes/Boots/jackboots_sec.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Shoes/Boots/jackboots_sec.rsi
+      sprite: /Corvax/Clothing/Shoes/Boots/jackboots_sec.rsi

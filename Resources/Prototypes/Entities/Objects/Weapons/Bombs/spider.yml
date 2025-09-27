@@ -6,10 +6,10 @@
   id: SpiderCharge
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/spidercharge.rsi
+    sprite: /Objects/Weapons/Bombs/spidercharge.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Bombs/spidercharge.rsi
+    sprite: /Objects/Weapons/Bombs/spidercharge.rsi
     size: Small
   - type: SpiderCharge
   - type: OnUseTimerTrigger

@@ -18,7 +18,7 @@
   - type: Action
     useDelay: 0.5
     icon:
-      sprite: Objects/Weapons/Throwable/throwing_star.rsi
+      sprite: /Objects/Weapons/Throwable/throwing_star.rsi
       state: icon
     itemIconStyle: NoItem
     priority: -10
@@ -34,7 +34,7 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Objects/Weapons/Melee/energykatana.rsi
+      sprite: /Objects/Weapons/Melee/energykatana.rsi
       state: icon
     itemIconStyle: NoItem
     priority: -11
@@ -49,7 +49,7 @@
   components:
   - type: Action
     icon:
-      sprite: Objects/Weapons/Grenades/empgrenade.rsi
+      sprite: /Objects/Weapons/Grenades/empgrenade.rsi
       state: icon
     itemIconStyle: BigAction
     priority: -13
@@ -78,7 +78,7 @@
   components:
   - type: Action
     icon:
-      sprite: Objects/Magic/magicactions.rsi
+      sprite: /Objects/Magic/magicactions.rsi
       state: blink
     itemIconStyle: NoItem
     sound:

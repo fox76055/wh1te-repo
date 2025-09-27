@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Species/Sheleg/organs.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/organs.rsi
   - type: Extractable
     grindableSolutionName: organ
   - type: SolutionContainerManager

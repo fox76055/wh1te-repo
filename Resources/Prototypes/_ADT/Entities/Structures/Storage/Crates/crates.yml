@@ -5,11 +5,11 @@
 #   description: An old, scary chest with pulsating meat on it.
 #   components:
 #   - type: Sprite
-#     sprite: ADT/Structures/Storage/Crates/lavaland.rsi
+#     sprite: /ADT/Structures/Storage/Crates/lavaland.rsi
 #     layers:
 #     - state: base
 #     - state: closed
 #       map: ["enum.StorageVisualLayers.Door"]
 #   - type: Icon
-#     sprite: ADT/Structures/Storage/Crates/lavaland.rsi
+#     sprite: /ADT/Structures/Storage/Crates/lavaland.rsi
 #     state: base

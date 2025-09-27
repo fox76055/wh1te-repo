@@ -5,6 +5,6 @@
   description: where my martini shot?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/pink_hat.rsi
+    sprite: /ADT/Clothing/Head/Hats/pink_hat.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/pink_hat.rsi
+    sprite: /ADT/Clothing/Head/Hats/pink_hat.rsi

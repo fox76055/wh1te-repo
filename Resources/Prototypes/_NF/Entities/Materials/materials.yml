@@ -5,7 +5,7 @@
   description: A thin layer of rosy maple mothroach hide.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Materials/rosymothroach.rsi
+    sprite: /_NF/Objects/Materials/rosymothroach.rsi
     state: hiderosymothroach
   - type: Tag
     tags:
@@ -39,7 +39,7 @@
     stackType: Anomalite
     count: 10
   - type: Sprite
-    sprite: _NF/Objects/Materials/ore.rsi
+    sprite: /_NF/Objects/Materials/ore.rsi
     layers:
     - state: anomalite
     - state: anomalite-unshaded

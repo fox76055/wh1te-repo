@@ -5,6 +5,6 @@
   description: stylish jacket for bear holding.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
+    sprite: /ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
+    sprite: /ADT/Clothing/OuterClothing/Jackets/barjacket.rsi

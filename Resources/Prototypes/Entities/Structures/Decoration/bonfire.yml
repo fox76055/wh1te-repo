@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/bonfire.rsi
+    sprite: /Structures/Decoration/bonfire.rsi
     layers:
       - state: bonfire
       - state: burning

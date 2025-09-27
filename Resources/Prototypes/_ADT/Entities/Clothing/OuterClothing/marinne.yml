@@ -5,9 +5,9 @@
   description: Скафандр принадлежащий лучшими из лучших воинов древности. Не очерните его имя.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
+    sprite: /ADT/Clothing/OuterClothing/Hardsuits/marinne.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -40,9 +40,9 @@
   description: И не знает он страха.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hardsuits/marinnehead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/marinnehead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hardsuits/marinnehead.rsi
+    sprite: /ADT/Clothing/Head/Hardsuits/marinnehead.rsi
   - type: PointLight
     color: red
   - type: PressureProtection

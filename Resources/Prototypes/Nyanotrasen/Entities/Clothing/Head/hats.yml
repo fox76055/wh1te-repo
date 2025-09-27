@@ -5,9 +5,9 @@
   description: Smells like a good pension.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Head/Hats/mailman.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/mailman.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Head/Hats/mailman.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/mailman.rsi
   - type: CatWearable # Frontier
 
 - type: entity
@@ -17,9 +17,9 @@
   description: Protects you from all manner of intrusive thoughts.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -32,9 +32,9 @@
   description: All the inconvinience and humiliation of a fez with none of the style!
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Head/Hats/bellhop.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/bellhop.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Head/Hats/bellhop.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/bellhop.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -43,9 +43,9 @@
   description: Grants full immunity from denying others basic human rights, dignity, or respect.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Head/Hats/prisonguard.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/prisonguard.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Head/Hats/prisonguard.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Hats/prisonguard.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -54,9 +54,9 @@
   description: The quintessential head armor of the kendo practitioner.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Head/Helmets/men.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Helmets/men.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Head/Helmets/men.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Helmets/men.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -71,9 +71,9 @@
   description: A modern replica of a kabuto and menpo.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Head/Helmets/kabuto.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Helmets/kabuto.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Head/Helmets/kabuto.rsi
+    sprite: /Nyanotrasen/Clothing/Head/Helmets/kabuto.rsi
   - type: Item
     size: Small
   - type: Armor

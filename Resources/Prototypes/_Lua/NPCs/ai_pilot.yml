@@ -29,7 +29,7 @@
         - MachineLayer
   - type: AiShuttleKillSwitch
   - type: Sprite
-    sprite: Mobs/Silicon/station_ai.rsi
+    sprite: /Mobs/Silicon/station_ai.rsi
     layers:
     - state: base
     - state: ai_angel_dead

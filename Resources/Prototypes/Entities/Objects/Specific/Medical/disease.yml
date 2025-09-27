@@ -7,7 +7,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Specific/Medical/mouth_swab.rsi
+    sprite: /Objects/Specific/Medical/mouth_swab.rsi
     state: icon
   - type: Tag
     tags:
@@ -51,5 +51,5 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Specific/Medical/medipen.rsi
+    sprite: /Objects/Specific/Medical/medipen.rsi
     state: salpen

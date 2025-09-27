@@ -16,7 +16,7 @@
   - type: InteractionOutline
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch.rsi
+    sprite: /Structures/Wallmounts/switch.rsi
     state: on
   - type: Appearance
   - type: Rotatable
@@ -69,7 +69,7 @@
     rows: 1
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/signalscreen.rsi
+    sprite: /Structures/Wallmounts/signalscreen.rsi
     state: signalscreen
     noRot: true
   - type: Construction
@@ -114,7 +114,7 @@
     anchored: true
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/signalscreen.rsi
+    sprite: /Structures/Wallmounts/signalscreen.rsi
     state: signalscreen
   - type: Construction
     graph: Timer

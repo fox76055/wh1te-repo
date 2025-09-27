@@ -5,7 +5,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Decoration/Flora/flora_tree_palm.rsi
+    sprite: /_NF/Objects/Decoration/Flora/flora_tree_palm.rsi
     offset: 0,0.7
   - type: Fixtures
     fixtures:

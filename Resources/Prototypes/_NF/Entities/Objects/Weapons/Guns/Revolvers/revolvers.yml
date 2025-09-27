@@ -7,9 +7,9 @@
     A detective's best friend. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/inspector.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/inspector.rsi
 
 - type: entity
   id: NFWeaponRevolverWard45
@@ -19,9 +19,9 @@
     The iconic sidearm of the dreaded death squads. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/mateba.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/mateba.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
@@ -34,7 +34,7 @@
     A rare, civilian grade custom-built revolver. Use when there is no time for Voight-Kampff test.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/deckard.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -42,7 +42,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/deckard.rsi
   - type: RevolverAmmoProvider
     capacity: 5
     chambers: [ True, True, True, True, True ]
@@ -60,9 +60,9 @@
     An illegal revolver favoured by Syndicate agents.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/python.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/python.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/python.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/python.rsi
 
 - type: entity
   id: NFWeaponRevolverPirate
@@ -72,9 +72,9 @@
     An odd, illegal, old-looking revolver, favoured by pirate crews.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
 
 - type: entity
   id: NFWeaponPistolFlintlock
@@ -84,9 +84,9 @@
     A pirate's companion. Yarrr! An illegal weapon often used by pirates.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Revolvers/flintlock.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Revolvers/flintlock.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Revolvers/flintlock.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Revolvers/flintlock.rsi
   - type: UseDelay
     delay: 8
 
@@ -106,9 +106,9 @@
     A compact and concealable self defence snub revolver.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
 
 - type: entity
   id: NFWeaponRevolverFaith
@@ -118,9 +118,9 @@
     Delivers blessings in bullet form.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Revolvers/faith.rsi
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Revolvers/faith.rsi
   - type: RevolverAmmoProvider
     capacity: 4
     chambers: [ True, True, True, True ]
@@ -134,9 +134,9 @@
     Luck always beats skill, ya weasel.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Revolvers/lucky.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Revolvers/lucky.rsi
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Revolvers/lucky.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Revolvers/lucky.rsi
 
 #region Frontier
 - type: entity
@@ -148,9 +148,9 @@
   components:
   - type: Sprite
     scale: 0.75, 0.75
-    sprite: _NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
   - type: Gun
     fireRate: 2.5
     resetOnHandSelected: false

@@ -11,7 +11,7 @@
     stackType: ScrapOreTech
   - type: Sprite
     layers:
-    - sprite: _NF/Objects/Materials/ore.rsi
+    - sprite: /_NF/Objects/Materials/ore.rsi
       state: scrapore
   - type: Material
   - type: PhysicalComposition
@@ -30,7 +30,7 @@
     stackType: ScrapOre
   - type: Sprite
     layers:
-    - sprite: _NF/Objects/Materials/ore.rsi
+    - sprite: /_NF/Objects/Materials/ore.rsi
       state: scrapmaterials
   - type: Material
   - type: PhysicalComposition
@@ -170,9 +170,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: _NF/Objects/Materials/ore.rsi
+      - sprite: /_NF/Objects/Materials/ore.rsi
         state: scrapore
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: EntityTableSpawner
@@ -343,9 +343,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: _NF/Objects/Materials/ore.rsi
+      - sprite: /_NF/Objects/Materials/ore.rsi
         state: scrapmaterials
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: EntityTableSpawner

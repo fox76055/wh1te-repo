@@ -53,7 +53,7 @@
     reactionTypes:
     - Electrolysis
   - type: Sprite
-    sprite: Structures/Machines/Medical/electrolysis.rsi
+    sprite: /Structures/Machines/Medical/electrolysis.rsi
     noRot: true
     offset: "0.0,0.4"
     layers:
@@ -93,7 +93,7 @@
     reactionTypes:
     - Centrifuge
   - type: Sprite
-    sprite: Structures/Machines/Medical/centrifuge.rsi
+    sprite: /Structures/Machines/Medical/centrifuge.rsi
     noRot: true
     offset: "0.0,0.4"
     layers:

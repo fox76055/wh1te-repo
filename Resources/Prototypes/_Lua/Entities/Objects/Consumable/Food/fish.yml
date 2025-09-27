@@ -10,7 +10,7 @@
     - Raw
     - Meat
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/raw_shrimp.rsi
+    sprite: /_Lua/Objects/Consumable/Food/raw_shrimp.rsi
     scale: 0.7, 0.7
     state: icon
   - type: Item
@@ -39,7 +39,7 @@
     - Cooked
     - Meat
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/shrimp.rsi
+    sprite: /_Lua/Objects/Consumable/Food/shrimp.rsi
     scale: 0.7, 0.7
     state: icon
   - type: SolutionContainerManager
@@ -66,7 +66,7 @@
     - Raw
     - Meat
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/raw_blueshrimp.rsi
+    sprite: /_Lua/Objects/Consumable/Food/raw_blueshrimp.rsi
     scale: 0.7, 0.7
     state: icon
   - type: SolutionContainerManager
@@ -93,7 +93,7 @@
     - Cooked
     - Meat
   - type: Sprite
-    sprite: _Lua/Objects/Consumable/Food/blueshrimp.rsi
+    sprite: /_Lua/Objects/Consumable/Food/blueshrimp.rsi
     scale: 0.7, 0.7
     state: icon
   - type: SolutionContainerManager

@@ -8,7 +8,7 @@
     shape:
     - 0,0,2,2
   - type: Sprite
-    sprite: _NF/Mobs/NPC/Animals/parrot.rsi
+    sprite: /_NF/Mobs/NPC/Animals/parrot.rsi
   - type: ActiveListener
     range: 5
   - type: ParrotSpeech
@@ -51,11 +51,11 @@
     insertingState: inserting_rosy_mothroach
   - type: MothAccent
   - type: Sprite
-    sprite: _NF/Mobs/Animals/rosy_mothroach.rsi
+    sprite: /_NF/Mobs/Animals/rosy_mothroach.rsi
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: _NF/Mobs/Animals/rosy_mothroach.rsi
+    sprite: /_NF/Mobs/Animals/rosy_mothroach.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatSlime

@@ -11,7 +11,7 @@
         beaker:
           maxVol: 400
     - type: Sprite
-      sprite: _NF/Objects/Specific/Chemistry/reinforced_jug.rsi
+      sprite: /_NF/Objects/Specific/Chemistry/reinforced_jug.rsi
       layers:
       - state: icon
       - state: stopper
@@ -24,7 +24,7 @@
       size: Large
       shape:
       - 0,0,2,2
-      sprite: _NF/Objects/Specific/Chemistry/reinforced_jug.rsi
+      sprite: /_NF/Objects/Specific/Chemistry/reinforced_jug.rsi
       inhandVisuals:
         left:
         - state: inhand-left
@@ -64,7 +64,7 @@
         beaker:
           maxVol: 1000
     - type: Sprite
-      sprite: _NF/Objects/Specific/Chemistry/jug_bluespace.rsi
+      sprite: /_NF/Objects/Specific/Chemistry/jug_bluespace.rsi
       layers:
         - state: jug
         - state: jug-unlit
@@ -73,7 +73,7 @@
           map: [ "enum.SolutionContainerLayers.Fill" ]
           visible: false
     - type: Item
-      sprite: _NF/Objects/Specific/Chemistry/jug_bluespace.rsi
+      sprite: /_NF/Objects/Specific/Chemistry/jug_bluespace.rsi
       inhandVisuals:
         left:
         - state: inhand-left
@@ -106,7 +106,7 @@
       beaker:
         maxVol: 200
   - type: Sprite
-    sprite: _NF/Objects/Specific/Chemistry/jerrycan.rsi
+    sprite: /_NF/Objects/Specific/Chemistry/jerrycan.rsi
     layers:
     - state: jerrycan
     - state: jerrycan1
@@ -114,7 +114,7 @@
       visible: false
   - type: Item
     size: Normal
-    sprite: _NF/Objects/Specific/Chemistry/jerrycan.rsi
+    sprite: /_NF/Objects/Specific/Chemistry/jerrycan.rsi
   - type: MixableSolution
     solution: beaker
   - type: RefillableSolution
@@ -212,7 +212,7 @@
     materialComposition:
       FuelGradePlasma: 100
   - type: Sprite
-    sprite: _NF/Objects/Specific/Fuel/fuelgrade_material.rsi
+    sprite: /_NF/Objects/Specific/Fuel/fuelgrade_material.rsi
     layers:
     - state: plasma
       map: ["base"]
@@ -247,7 +247,7 @@
     materialComposition:
       FuelGradeUranium: 100
   - type: Sprite
-    sprite: _NF/Objects/Specific/Fuel/fuelgrade_material.rsi
+    sprite: /_NF/Objects/Specific/Fuel/fuelgrade_material.rsi
     layers:
     - state: uranium
       map: ["base"]
@@ -282,7 +282,7 @@
     materialComposition:
       FuelGradeBananium: 100
   - type: Sprite
-    sprite: _NF/Objects/Specific/Fuel/fuelgrade_material.rsi
+    sprite: /_NF/Objects/Specific/Fuel/fuelgrade_material.rsi
     layers:
     - state: bananium
       map: ["base"]
@@ -317,7 +317,7 @@
     materialComposition:
       Skrungle: 100
   - type: Sprite
-    sprite: _NF/Objects/Specific/Fuel/fuelgrade_material.rsi
+    sprite: /_NF/Objects/Specific/Fuel/fuelgrade_material.rsi
     layers:
     - state: skrungle
       map: ["base"]

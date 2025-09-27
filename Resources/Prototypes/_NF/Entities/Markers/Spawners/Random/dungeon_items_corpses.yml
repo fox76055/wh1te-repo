@@ -5,12 +5,12 @@
   suffix: "Dungeon, Corpse"
   components:
   - type: Sprite
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Structures/Storage/Crates/coffin.rsi
+    - sprite: /Structures/Storage/Crates/coffin.rsi
       state: base
-    - sprite: _NF/Markers/general.rsi
+    - sprite: /_NF/Markers/general.rsi
       state: questionmark
       color: red
   - type: RandomSpawner

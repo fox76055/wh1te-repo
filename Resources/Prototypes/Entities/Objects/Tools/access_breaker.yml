@@ -8,10 +8,10 @@
   - type: Emag
     emagType: Access
   - type: Sprite
-    sprite: Objects/Tools/access_breaker.rsi
+    sprite: /Objects/Tools/access_breaker.rsi
     state: icon
   - type: Item
-    sprite: Objects/Tools/access_breaker.rsi
+    sprite: /Objects/Tools/access_breaker.rsi
 
 - type: entity
   parent: AccessBreakerUnlimited

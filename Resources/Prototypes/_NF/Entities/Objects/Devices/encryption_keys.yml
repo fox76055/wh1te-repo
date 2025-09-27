@@ -9,9 +9,9 @@
     - Traffic
     defaultChannel: Traffic
   - type: Item
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
   - type: Sprite
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
     layers:
     - state: crypt_gray
     - state: stc_label
@@ -28,9 +28,9 @@
     - Nfsd
     defaultChannel: Nfsd
   - type: Item
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
   - type: Sprite
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
     layers:
     - state: crypt_gray
     - state: nfsd_label
@@ -49,9 +49,9 @@
     - Command
     defaultChannel: Common
   - type: Item
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
   - type: Sprite
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
     layers:
     - state: crypt_silver
     - state: cmo_label
@@ -68,9 +68,9 @@
     - Greeting
     defaultChannel: Greeting
   - type: Item
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
   - type: Sprite
-    sprite: _NF/Objects/Devices/encryption_keys.rsi
+    sprite: /_NF/Objects/Devices/encryption_keys.rsi
     layers:
     - state: crypt_gray
     - state: greeting_label

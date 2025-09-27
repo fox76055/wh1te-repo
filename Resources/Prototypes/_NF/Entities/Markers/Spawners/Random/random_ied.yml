@@ -57,20 +57,20 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: _NF/Objects/Weapons/Bombs/ied_overlay.rsi
+    - sprite: /_NF/Objects/Weapons/Bombs/ied_overlay.rsi
       state: ied_wiring1
       color: "#990000"
-    - sprite: _NF/Objects/Weapons/Bombs/ied_overlay.rsi
+    - sprite: /_NF/Objects/Weapons/Bombs/ied_overlay.rsi
       state: ied_wiring2
       color: "#009900"
-    - sprite: _NF/Objects/Weapons/Bombs/ied_overlay.rsi
+    - sprite: /_NF/Objects/Weapons/Bombs/ied_overlay.rsi
       state: ied_wiring3
       color: "#000099"
-    - sprite: Objects/Consumable/Food/snacks.rsi
+    - sprite: /Objects/Consumable/Food/snacks.rsi
       state: cheesiehonkers-trash
-    - sprite: _NF/Objects/Weapons/Bombs/ied_overlay.rsi
+    - sprite: /_NF/Objects/Weapons/Bombs/ied_overlay.rsi
       state: ied_display
-    - sprite: _NF/Objects/Weapons/Bombs/ied_overlay.rsi
+    - sprite: /_NF/Objects/Weapons/Bombs/ied_overlay.rsi
       shader: unshaded
       state: ied_light
   - type: EntityTableSpawner

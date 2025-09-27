@@ -6,7 +6,7 @@
   id: NFMaltroach
   name: barsign-prototype-name-nf-maltroach
   icon:
-    sprite: _NF/Structures/Wallmounts/barsign.rsi
+    sprite: /_NF/Structures/Wallmounts/barsign.rsi
     state: maltroach
   description: barsign-prototype-description-nf-maltroach
 
@@ -14,7 +14,7 @@
   id: NeonFlamingos
   name: barsign-prototype-name-neon-flamingos
   icon:
-    sprite: _NF/Structures/Wallmounts/barsign.rsi
+    sprite: /_NF/Structures/Wallmounts/barsign.rsi
     state: neonflamingos
   description: barsign-prototype-description-neon-flamingos
 
@@ -22,7 +22,7 @@
   id: TheRune
   name: barsign-prototype-name-the-rune
   icon:
-    sprite: _NF/Structures/Wallmounts/barsign.rsi
+    sprite: /_NF/Structures/Wallmounts/barsign.rsi
     state: therune
   description: barsign-prototype-description-the-rune
 
@@ -30,7 +30,7 @@
   id: LittleTreats
   name: barsign-prototype-name-little-treats
   icon:
-    sprite: _NF/Structures/Wallmounts/barsign.rsi
+    sprite: /_NF/Structures/Wallmounts/barsign.rsi
     state: littletreats
   description: barsign-prototype-description-little-treats
 
@@ -38,6 +38,6 @@
   id: WyvernShipyards
   name: barsign-prototype-name-wyvern-shipyards
   icon:
-    sprite: _NF/Structures/Wallmounts/barsign.rsi
+    sprite: /_NF/Structures/Wallmounts/barsign.rsi
     state: wyvernshipyards
   description: barsign-prototype-description-wyvern-shipyards

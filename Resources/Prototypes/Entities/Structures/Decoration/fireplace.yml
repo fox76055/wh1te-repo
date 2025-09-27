@@ -5,7 +5,7 @@
   description: A place that has fire. Cozy!
   components:
   - type: Sprite
-    sprite: Structures/Decoration/fireplace.rsi
+    sprite: /Structures/Decoration/fireplace.rsi
     layers:
       - state: fireplace
       - state: fireplacefestive

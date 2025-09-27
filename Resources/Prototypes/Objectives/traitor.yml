@@ -16,7 +16,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Misc/folders.rsi
+      sprite: /Objects/Misc/folders.rsi
       state: folder-white
   - type: MultipleTraitorsRequirement
 
@@ -43,7 +43,7 @@
   - type: Objective
     difficulty: 1.3
     icon:
-      sprite: Structures/Furniture/chairs.rsi
+      sprite: /Structures/Furniture/chairs.rsi
       state: shuttle
   - type: EscapeShuttleCondition
 
@@ -56,7 +56,7 @@
   - type: Objective
     difficulty: 0.5
     icon:
-      sprite: Mobs/Ghosts/ghost_human.rsi
+      sprite: /Mobs/Ghosts/ghost_human.rsi
       state: icon
   - type: ObjectiveBlacklistRequirement
     blacklist:
@@ -74,7 +74,7 @@
 #    - type: Objective
 #      difficulty: 5 # insane, default config max difficulty
 #      icon:
-#        sprite: Objects/Tools/emag.rsi
+#        sprite: /Objects/Tools/emag.rsi
 #        state: icon
 #    - type: HijackShuttleCondition
 

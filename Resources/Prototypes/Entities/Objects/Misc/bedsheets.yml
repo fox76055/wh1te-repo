@@ -10,7 +10,7 @@
     - Bed
   components:
   - type: Sprite
-    sprite: Objects/Misc/bedsheets.rsi
+    sprite: /Objects/Misc/bedsheets.rsi
     noRot: true
   - type: Item
     size: Small
@@ -32,7 +32,7 @@
   - type: Sprite
     state: sheetblack
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/black.rsi
+    sprite: /Clothing/Neck/Bedsheets/black.rsi
 
 - type: entity
   id: BedsheetBlue
@@ -42,7 +42,7 @@
   - type: Sprite
     state: sheetblue
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/blue.rsi
+    sprite: /Clothing/Neck/Bedsheets/blue.rsi
 
 - type: entity
   id: BedsheetBrown
@@ -52,7 +52,7 @@
   - type: Sprite
     state: sheetbrown
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/brown.rsi
+    sprite: /Clothing/Neck/Bedsheets/brown.rsi
 
 - type: entity
   id: BedsheetCaptain
@@ -63,7 +63,7 @@
   - type: Sprite
     state: sheetcaptain
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/captain.rsi
+    sprite: /Clothing/Neck/Bedsheets/captain.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -76,7 +76,7 @@
   - type: Sprite
     state: sheetce
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/ce.rsi
+    sprite: /Clothing/Neck/Bedsheets/ce.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -89,7 +89,7 @@
   - type: Sprite
     state: sheetcentcom
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/centcom.rsi
+    sprite: /Clothing/Neck/Bedsheets/centcom.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -102,7 +102,7 @@
   - type: Sprite
     state: sheetclown
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/rainbow.rsi
+    sprite: /Clothing/Neck/Bedsheets/rainbow.rsi
 
 - type: entity
   id: BedsheetCMO
@@ -113,7 +113,7 @@
   - type: Sprite
     state: sheetcmo
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/cmo.rsi
+    sprite: /Clothing/Neck/Bedsheets/cmo.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -126,7 +126,7 @@
   - type: Sprite
     state: sheetcosmos
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/cosmos.rsi
+    sprite: /Clothing/Neck/Bedsheets/cosmos.rsi
 
 - type: entity
   id: BedsheetCult
@@ -137,7 +137,7 @@
   - type: Sprite
     state: sheetcult
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/cult.rsi
+    sprite: /Clothing/Neck/Bedsheets/cult.rsi
 
 - type: entity
   id: BedsheetGreen
@@ -147,7 +147,7 @@
   - type: Sprite
     state: sheetgreen
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/green.rsi
+    sprite: /Clothing/Neck/Bedsheets/green.rsi
 
 - type: entity
   id: BedsheetGrey
@@ -157,7 +157,7 @@
   - type: Sprite
     state: sheetgrey
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/grey.rsi
+    sprite: /Clothing/Neck/Bedsheets/grey.rsi
 
 - type: entity
   id: BedsheetHOP
@@ -168,7 +168,7 @@
   - type: Sprite
     state: sheethop
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/hop.rsi
+    sprite: /Clothing/Neck/Bedsheets/hop.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -181,7 +181,7 @@
   - type: Sprite
     state: sheethos
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/hos.rsi
+    sprite: /Clothing/Neck/Bedsheets/hos.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -193,7 +193,7 @@
   - type: Sprite
     state: sheetian
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/ian.rsi
+    sprite: /Clothing/Neck/Bedsheets/ian.rsi
 
 - type: entity
   id: BedsheetMedical
@@ -204,7 +204,7 @@
   - type: Sprite
     state: sheetmedical
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/medical.rsi
+    sprite: /Clothing/Neck/Bedsheets/medical.rsi
 
 - type: entity
   id: BedsheetMime
@@ -215,7 +215,7 @@
   - type: Sprite
     state: sheetmime
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/mime.rsi
+    sprite: /Clothing/Neck/Bedsheets/mime.rsi
 
 - type: entity
   id: BedsheetNT
@@ -226,7 +226,7 @@
   - type: Sprite
     state: sheetNT
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/NT.rsi
+    sprite: /Clothing/Neck/Bedsheets/NT.rsi
 
 - type: entity
   id: BedsheetOrange
@@ -236,7 +236,7 @@
   - type: Sprite
     state: sheetorange
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/orange.rsi
+    sprite: /Clothing/Neck/Bedsheets/orange.rsi
 
 - type: entity
   id: BedsheetPurple
@@ -246,7 +246,7 @@
   - type: Sprite
     state: sheetpurple
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/purple.rsi
+    sprite: /Clothing/Neck/Bedsheets/purple.rsi
 
 - type: entity
   id: BedsheetQM
@@ -256,7 +256,7 @@
   - type: Sprite
     state: sheetqm
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/qm.rsi
+    sprite: /Clothing/Neck/Bedsheets/qm.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -268,7 +268,7 @@
   - type: Sprite
     state: sheetrainbow
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/rainbow.rsi
+    sprite: /Clothing/Neck/Bedsheets/rainbow.rsi
 
 - type: entity
   id: BedsheetRD
@@ -279,7 +279,7 @@
   - type: Sprite
     state: sheetrd
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/rd.rsi
+    sprite: /Clothing/Neck/Bedsheets/rd.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -292,7 +292,7 @@
   - type: Sprite
     state: sheetbrigmedic
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/brigmedic.rsi
+    sprite: /Clothing/Neck/Bedsheets/brigmedic.rsi
 
 - type: entity
   id: BedsheetRed
@@ -302,7 +302,7 @@
   - type: Sprite
     state: sheetred
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/red.rsi
+    sprite: /Clothing/Neck/Bedsheets/red.rsi
 
 - type: entity
   id: BedsheetSyndie
@@ -313,7 +313,7 @@
   - type: Sprite
     state: sheetsyndie
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/syndie.rsi
+    sprite: /Clothing/Neck/Bedsheets/syndie.rsi
 
 - type: entity
   id: BedsheetUSA
@@ -323,7 +323,7 @@
   - type: Sprite
     state: sheetUSA
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/USA.rsi
+    sprite: /Clothing/Neck/Bedsheets/USA.rsi
 
 - type: entity
   id: BedsheetWhite
@@ -337,7 +337,7 @@
   - type: Sprite
     state: sheetwhite
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/white.rsi
+    sprite: /Clothing/Neck/Bedsheets/white.rsi
 
 - type: entity
   id: BedsheetWiz
@@ -348,7 +348,7 @@
   - type: Sprite
     state: sheetwiz
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/wiz.rsi
+    sprite: /Clothing/Neck/Bedsheets/wiz.rsi
 
 - type: entity
   id: BedsheetYellow
@@ -358,4 +358,4 @@
   - type: Sprite
     state: sheetyellow
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/yellow.rsi
+    sprite: /Clothing/Neck/Bedsheets/yellow.rsi

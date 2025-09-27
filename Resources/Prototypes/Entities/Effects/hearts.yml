@@ -7,7 +7,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Effects
-    sprite: Effects/hearts.rsi
+    sprite: /Effects/hearts.rsi
     state: hearts
   - type: EffectVisuals
   - type: Tag

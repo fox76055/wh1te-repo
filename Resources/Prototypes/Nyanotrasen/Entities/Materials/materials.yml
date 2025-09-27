@@ -5,7 +5,7 @@
   name: bluespace crystal
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Materials/materials.rsi
+    sprite: /Nyanotrasen/Objects/Materials/materials.rsi
     layers:
       - state: bluespace_3
         map: ["base"]
@@ -48,7 +48,7 @@
   description: A thin layer of mothroach hide.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Materials/mothroach.rsi
+    sprite: /Nyanotrasen/Objects/Materials/mothroach.rsi
     state: mothroachhide
   - type: Tag
     tags:

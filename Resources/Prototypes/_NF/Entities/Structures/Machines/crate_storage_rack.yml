@@ -48,7 +48,7 @@
   components:
   - type: CrateStorageRack
   - type: Sprite
-    sprite: _NF/Structures/Storage/crate_storage_rack.rsi
+    sprite: /_NF/Structures/Storage/crate_storage_rack.rsi
     snapCardinals: true
     layers:
     - state: fill-0
@@ -96,7 +96,7 @@
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/crate_storage_rack.rsi
+    sprite: /_NF/Structures/Storage/crate_storage_rack.rsi
     snapCardinals: true
     layers:
     - state: frame
@@ -111,7 +111,7 @@
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/crate_storage_rack.rsi
+    sprite: /_NF/Structures/Storage/crate_storage_rack.rsi
     snapCardinals: true
     layers:
     - state: tallframe
@@ -126,7 +126,7 @@
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/crate_storage_rack.rsi
+    sprite: /_NF/Structures/Storage/crate_storage_rack.rsi
     snapCardinals: true
     layers:
     - state: superstructure

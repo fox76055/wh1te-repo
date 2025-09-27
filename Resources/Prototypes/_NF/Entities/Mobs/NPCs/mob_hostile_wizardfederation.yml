@@ -68,7 +68,7 @@
       path: /Audio/_NF/Effects/silence.ogg
 
 # Red Wizard, shoots magic bolts that put targets on fire (2 heat damage, 2 fire stacks)
-# Look for magic bolt here:\Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\magic.yml
+# Look for magic bolt here:/Resources/Prototypes/_NF/Entities/Objects/Weapons/Guns/Projectiles/magic.yml
 - type: entity
   name: Red Wizard
   parent: MobWizFedlBase
@@ -89,7 +89,7 @@
       path: /Audio/Magic/fireball.ogg
 
 # Violet Wizard, shoots asphyxiation magic bolts (4 bloodloss, 4 asphyxiation)
-# Look for magic bolt here:\Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\magic.yml
+# Look for magic bolt here:/Resources/Prototypes/_NF/Entities/Objects/Weapons/Guns/Projectiles/magic.yml
 - type: entity
   name: Violet Wizard
   parent: MobWizFedlBase
@@ -114,7 +114,7 @@
       path: /Audio/_NF/Effects/silence.ogg
 
 # Soap Wizard, summons soap to slip targets
-# Look for soap here: \Resources\Prototypes\_NF\Entities\Objects\Specific\Wizard\conjured_items.yml
+# Look for soap here: /Resources/Prototypes/_NF/Entities/Objects/Specific/Wizard/conjured_items.yml
 - type: entity
   name: Soap Wizard
   parent: MobWizFedlBase
@@ -135,7 +135,7 @@
       path: /Audio/Effects/teleport_arrival.ogg
 
 # Brick Wizard, shoots magic bricks that smack targets (12 blunt damage on hit)
-# Look for magic brick here:\Resources\Prototypes\_NF\Entities\Objects\Specific\Wizard\conjured_items.yml
+# Look for magic brick here:/Resources/Prototypes/_NF/Entities/Objects/Specific/Wizard/conjured_items.yml
 - type: entity
   name: Brick Wizard
   parent: MobWizFedlBase
@@ -237,7 +237,7 @@
     - WizFedFaction
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/elemental.rsi
+    sprite: /Mobs/Aliens/elemental.rsi
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive

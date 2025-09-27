@@ -36,7 +36,7 @@
   description: Nanotrasen high socks for station employees. Painted white.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Socks/socksknee.rsi
+    sprite: /Sirena/Clothing/Underwear/Socks/socksknee.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -45,7 +45,7 @@
   description: Make them loins buzz!
   components:
   - type: Sprite
-    sprite: Clothing/Under/Socks/bee.rsi
+    sprite: /Clothing/Under/Socks/bee.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -54,7 +54,7 @@
   description: It's time to code sisters!!11!
   components:
   - type: Sprite
-    sprite: Clothing/Under/Socks/coder.rsi
+    sprite: /Clothing/Under/Socks/coder.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -63,7 +63,7 @@
   description: Standard Nanotrasen socks for station employees. Dyed white.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Socks/socksnorm.rsi
+    sprite: /Sirena/Clothing/Underwear/Socks/socksnorm.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -72,7 +72,7 @@
   description: Nanotrasen short socks for station employees. Dyed white.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Socks/socksshort.rsi
+    sprite: /Sirena/Clothing/Underwear/Socks/socksshort.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -81,7 +81,7 @@
   description: Standard Nanotrasen stockings for station employees. Dyed white.
   components:
   - type: Sprite
-    sprite: Sirena/Clothing/Underwear/Socks/socksthigh.rsi
+    sprite: /Sirena/Clothing/Underwear/Socks/socksthigh.rsi
 
 ## Cargo
 - type: entity
@@ -91,7 +91,7 @@
   description: Стандартные носки квартирмейстера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Cargo/quartermaster/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Cargo/quartermaster/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -100,7 +100,7 @@
   description: Стандартные носки для отдела снабжения.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Cargo/cargo_technician/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Cargo/cargo_technician/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -109,7 +109,7 @@
   description: Стандартные носки утилизатора.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Cargo/salvage_specialist/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Cargo/salvage_specialist/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -118,7 +118,7 @@
   description: Стандартные носки ведущего утилизатора.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Cargo/senior_salvage/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Cargo/senior_salvage/socks.rsi
 
 ## Civilian
 - type: entity
@@ -128,7 +128,7 @@
   description: Стандартные носки представителя станции.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/head_of_personnel/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/head_of_personnel/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -137,7 +137,7 @@
   description: Стандартные носки сервисного работника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/service/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/service/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -146,7 +146,7 @@
   description: Стандартные носки бармена. Похожи на всеми любимый пенный напиток.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/bartender/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/bartender/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -155,7 +155,7 @@
   description: Стандартные носки ботаника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/botanist/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/botanist/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -164,7 +164,7 @@
   description: Стандартные носки боксёра.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/boxer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/boxer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -173,7 +173,7 @@
   description: Стандартные носки священника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/chaplain/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/chaplain/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -182,7 +182,7 @@
   description: Стандартные носки шефа.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/chef/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/chef/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -191,7 +191,7 @@
   description: Стандартные носки клоуна.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/clown/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/clown/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -200,7 +200,7 @@
   description: Стандартные носки уборщика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/janitor/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/janitor/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -209,7 +209,7 @@
   description: Стандартные носки библиотекаря.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/librarian/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/librarian/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -218,7 +218,7 @@
   description: Стандартные носки мима. Пахнут... пирогами?
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/mime/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/mime/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -227,7 +227,7 @@
   description: Стандартные носки музыканта.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/mime/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/mime/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -236,7 +236,7 @@
   description: Стандартные носки менеджера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/reporter/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/reporter/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -245,7 +245,7 @@
   description: Стандартные носки репортёра.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/reporter/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/reporter/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -254,7 +254,7 @@
   description: Стандартные носки зоотехника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Civilian/zoo/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Civilian/zoo/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -263,7 +263,7 @@
   description: Стандартные носки капитана.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Command/captain/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Command/captain/socks.rsi
 
 ## Engineering
 - type: entity
@@ -273,7 +273,7 @@
   description: Стандартные носки старшего инженера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/chief_engineer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/chief_engineer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -282,7 +282,7 @@
   description: Стандартные носки инженера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/engineer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/engineer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -291,7 +291,7 @@
   description: Стандартные носки атмосферного техника.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/atmospheric_technician/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/atmospheric_technician/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -300,7 +300,7 @@
   description: Стандартные носки ведущего инженера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/senior_engineer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/senior_engineer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -309,7 +309,7 @@
   description: Стандартные носки инженера стажёра.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Engineering/technical_assistant/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Engineering/technical_assistant/socks.rsi
 
 ## Medical
 - type: entity
@@ -319,7 +319,7 @@
   description: Стандартные носки главного врача.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/cmo/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/cmo/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -328,7 +328,7 @@
   description: Стандартные носки патологоанатома.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/pathologist/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/pathologist/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -337,7 +337,7 @@
   description: Стандартные носки химика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/chemist/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/chemist/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -346,7 +346,7 @@
   description: Стандартные носки интерна.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/intern/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/intern/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -355,7 +355,7 @@
   description: Стандартные носки врача.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/doctor/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/doctor/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -364,7 +364,7 @@
   description: Стандартные носки парамедика.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/paramedic/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/paramedic/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -373,7 +373,7 @@
   description: Стандартные носки психолога.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/psychologist/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/psychologist/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -382,7 +382,7 @@
   description: Стандартные носки ведущего врача.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Medical/senior_physician/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Medical/senior_physician/socks.rsi
 
 ## Science
 - type: entity
@@ -392,7 +392,7 @@
   description: Стандартные носки научного руководителя.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/research_director/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/research_director/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -401,7 +401,7 @@
   description: Стандартные носки учёного.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/scientist/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/scientist/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -410,7 +410,7 @@
   description: Стандартные научного ассистента.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/research_assistant/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/research_assistant/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -419,7 +419,7 @@
   description: Стандартные ведущего учёного.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Science/senior_researcher/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Science/senior_researcher/socks.rsi
 
 ## Security
 - type: entity
@@ -429,7 +429,7 @@
   description: Стандартные носки шерифа.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/head_of_security/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/head_of_security/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -438,7 +438,7 @@
   description: Стандартные носки фельдшера.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/brigmedic/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/brigmedic/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -447,7 +447,7 @@
   description: Стандартные носки кадета СБ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/cadet/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/cadet/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -456,7 +456,7 @@
   description: Стандартные носки констебля.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/detective/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/detective/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -465,7 +465,7 @@
   description: Стандартные носки офицера СБ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/security_officer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/security_officer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -474,7 +474,7 @@
   description: Стандартные носки пилота СБ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/security_officer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/security_officer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -483,7 +483,7 @@
   description: Стандартные носки инструктора СБ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/senior_officer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/senior_officer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -492,7 +492,7 @@
   description: Стандартные носки смотрителя.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Security/warden/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Security/warden/socks.rsi
 
 ## Law
 - type: entity
@@ -502,7 +502,7 @@
   description: Стандартные носки агента внутренних дел.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Law/iaa/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Law/iaa/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -511,7 +511,7 @@
   description: Стандартные носки юриста.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Law/lawyer/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Law/lawyer/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -520,7 +520,7 @@
   description: Стандартные носки магистрата.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Law/magistrat/socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Law/magistrat/socks.rsi
 
 # Misc
 
@@ -531,7 +531,7 @@
   description: Солнце светит, эльфы пашут, вот такая доля наша.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/xmas.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/xmas.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -540,7 +540,7 @@
   description: Для любителей красного.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/darkred_longocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/darkred_longocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -549,7 +549,7 @@
   description: Дорого богато, но не для всех. Подходят к дорогой шубе.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/expensive_socks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/expensive_socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -558,7 +558,7 @@
   description: Для любителей зелёного.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/green_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/green_longsocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -567,7 +567,7 @@
   description: Для любителей бумаги.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/sr_longocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/sr_longocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -576,7 +576,7 @@
   description: Самое то для чёрных платьев и юбок.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/stockings.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/stockings.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -585,7 +585,7 @@
   description: Самое то для чёрных платьев и юбок... Зачем их порвали?
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/stockingsdamaged.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/stockingsdamaged.rsi
 
 # Longsocks
 
@@ -596,7 +596,7 @@
   description: Яркий зелёный цвет для смелых образов и мета-вейн-ящеров.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/Color/green_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/Color/green_longsocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -605,7 +605,7 @@
   description: Прохладный оттенок, как лёгкое дыхание морского бриза.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/Color/lightblue_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/Color/lightblue_longsocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -614,7 +614,7 @@
   description: Нежные, как аромат лаванды на закате.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/Color/lightviolet_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/Color/lightviolet_longsocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -623,7 +623,7 @@
   description: Цвет апельсинового настроения и яркой энергии.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/Color/orange_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/Color/orange_longsocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -632,7 +632,7 @@
   description: Для тех, кто знает, чего хочет.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/Color/red_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/Color/red_longsocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -641,7 +641,7 @@
   description: Самая обычная пара чулок. Слишком скучные.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/Color/standart_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/Color/standart_longsocks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -650,4 +650,4 @@
   description: Яркие, как солнечный свет сквозь утреннюю рощу.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Underwear/Misc/Socks/Color/yellow_longsocks.rsi
+    sprite: /_Lua/Clothing/Underwear/Misc/Socks/Color/yellow_longsocks.rsi

@@ -92,7 +92,7 @@
   name: ID карта ПЦК
   components:
     - type: Sprite
-      sprite: Backmen/Objects/Misc/id_cards.rsi
+      sprite: /Backmen/Objects/Misc/id_cards.rsi
       layers:
       - state: card_silver # Backmen
       - state: sub_department # Backmen

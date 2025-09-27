@@ -2,7 +2,7 @@
   id: ScienceLabBundle
   abstract: true
   icon:
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: cpu_science
   product: CrateScienceLabBundle
   cost: 20000

@@ -4,9 +4,9 @@
   id: PartAriralBase
   components:
   - type: Sprite
-    sprite: _ShibaStation/Mobs/Species/Ariral/parts.rsi
+    sprite: /_ShibaStation/Mobs/Species/Ariral/parts.rsi
   - type: Icon
-    sprite: _ShibaStation/Mobs/Species/Ariral/parts.rsi
+    sprite: /_ShibaStation/Mobs/Species/Ariral/parts.rsi
 
 - type: entity
   parent: [ PartAriralBase, BaseTorso ]

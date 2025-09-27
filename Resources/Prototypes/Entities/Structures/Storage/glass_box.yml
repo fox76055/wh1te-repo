@@ -32,7 +32,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/glassbox.rsi
+    sprite: /Structures/Storage/glassbox.rsi
     layers:
     - state: base
     - state: caplaser # TODO: Remove it after item scaling in cabinets is implemented.
@@ -67,7 +67,7 @@
     damageDivisor: 7.555
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Storage/glassbox.rsi
+      sprite: /Structures/Storage/glassbox.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Glass
@@ -172,7 +172,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/glassbox.rsi
+    sprite: /Structures/Storage/glassbox.rsi
     layers:
     - state: base
   - type: Construction
@@ -215,7 +215,7 @@
   suffix: Broken
   components:
   - type: Sprite
-    sprite: Structures/Storage/glassbox.rsi
+    sprite: /Structures/Storage/glassbox.rsi
     layers:
     - state: base
     - state: glass-broken

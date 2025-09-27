@@ -7,7 +7,7 @@
     trash: 
     - FoodKebabSkewer
   - type: Sprite
-    sprite: Objects/Consumable/Food/skewer.rsi
+    sprite: /Objects/Consumable/Food/skewer.rsi
   - type: SolutionContainerManager
     solutions:
       food:

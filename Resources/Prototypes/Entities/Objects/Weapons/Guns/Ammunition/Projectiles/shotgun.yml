@@ -5,7 +5,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: slug
   - type: Projectile
     damage:
@@ -21,7 +21,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
   - type: Projectile
     damage:
@@ -37,7 +37,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
   - type: Projectile
     damage:
@@ -63,7 +63,7 @@
   parent: BaseBulletIncendiary
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot-flare
   - type: Projectile
     damage:
@@ -90,7 +90,7 @@
   parent: BaseBulletPractice
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
   - type: Projectile
     damage:
@@ -114,7 +114,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: shard
   - type: Projectile
     damage:
@@ -139,7 +139,7 @@
   parent: BaseBulletPractice
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
   - type: Projectile
     damage:
@@ -178,7 +178,7 @@
         mask:
           - BulletImpassable
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot-flare
   - type: IgnitionSource
     ignited: true
@@ -213,7 +213,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: depleted-uranium
   - type: Projectile
     damage:
@@ -239,7 +239,7 @@
   components:
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: grapeshot
       shader: unshaded
@@ -267,7 +267,7 @@
   components:
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: shard
       shader: unshaded

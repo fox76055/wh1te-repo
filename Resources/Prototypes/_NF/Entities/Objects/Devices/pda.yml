@@ -486,7 +486,7 @@
         !type:String
         pda-doc
   - type: Icon
-    sprite: _NF/Objects/Devices/pda.rsi
+    sprite: /_NF/Objects/Devices/pda.rsi
     state: pda-doc
   - type: CartridgeLoader
     preinstalled:

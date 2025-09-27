@@ -5,7 +5,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: rubber
   - type: Projectile
@@ -28,7 +28,7 @@
       types:
         Shock: 0
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: emp_projectile
       shader: unshaded
@@ -50,7 +50,7 @@
   - type: TimedDespawn
     lifetime: 15
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/projectiles2.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Projectiles/projectiles2.rsi
     layers:
     - state: frag-emp
   - type: EmpOnTrigger
@@ -65,7 +65,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: emp_projectile
       shader: unshaded
@@ -108,7 +108,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/projectiles2.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Projectiles/projectiles2.rsi
     layers:
     - state: ball-emp
     - state: ball-emp-unlit
@@ -133,7 +133,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser_greyscale
       shader: unshaded

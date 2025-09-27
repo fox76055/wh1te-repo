@@ -67,7 +67,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/hospital.rsi
+    sprite: /Structures/Decoration/Curtains/hospital.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -97,7 +97,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/black.rsi
+    sprite: /Structures/Decoration/Curtains/black.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -127,7 +127,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/blue.rsi
+    sprite: /Structures/Decoration/Curtains/blue.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -157,7 +157,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/cyan.rsi
+    sprite: /Structures/Decoration/Curtains/cyan.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -187,7 +187,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/green.rsi
+    sprite: /Structures/Decoration/Curtains/green.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -217,7 +217,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/orange.rsi
+    sprite: /Structures/Decoration/Curtains/orange.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -247,7 +247,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/pink.rsi
+    sprite: /Structures/Decoration/Curtains/pink.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -277,7 +277,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/purple.rsi
+    sprite: /Structures/Decoration/Curtains/purple.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -307,7 +307,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/red.rsi
+    sprite: /Structures/Decoration/Curtains/red.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -337,7 +337,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/white.rsi
+    sprite: /Structures/Decoration/Curtains/white.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]

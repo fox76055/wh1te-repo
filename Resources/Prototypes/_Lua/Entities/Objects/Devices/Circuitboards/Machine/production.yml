@@ -31,7 +31,7 @@
   components:
   - type: LuaTech
   - type: Sprite
-    sprite: _Lua/Objects/Misc/module.rsi
+    sprite: /_Lua/Objects/Misc/module.rsi
     state: ltthruster
   - type: MachineBoard
     prototype: ThrusterLua
@@ -61,7 +61,7 @@
   suffix: Lua
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Misc/module.rsi
+    sprite: /_Lua/Objects/Misc/module.rsi
     state: ltshieldgen
   - type: MachineBoard
     prototype: CircularShieldLua

@@ -10,14 +10,14 @@
   - type: NFFireBomb # Frontier
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/ied.rsi
+    sprite: /Objects/Weapons/Bombs/ied.rsi
     layers:
     - state: base
       map: ["enum.TriggerVisualLayers.Base"]
     - state: fuel
     - state: wires
   - type: Item
-    sprite: Objects/Weapons/Bombs/ied.rsi
+    sprite: /Objects/Weapons/Bombs/ied.rsi
   - type: OnUseTimerTrigger
     delay: 5
     examinable: false
@@ -64,7 +64,7 @@
   description: A weak, improvised incendiary device. This one has no fuel.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/ied.rsi
+    sprite: /Objects/Weapons/Bombs/ied.rsi
     layers:
     - state: base
       map: ["enum.OpenableVisuals.Layer"]

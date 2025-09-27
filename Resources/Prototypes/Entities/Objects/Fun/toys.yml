@@ -31,7 +31,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
   - type: Tag
     tags:
       - Payload
@@ -88,14 +88,14 @@
   description: A stuffed toy to remind cargo techs of what they can no longer have.
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Melee/ThronglerPlushie.rsi
+      sprite: /Objects/Weapons/Melee/ThronglerPlushie.rsi
       state: icon
     - type: MeleeWeapon
       wideAnimationRotation: -135
       attackRate: 10
     - type: Item
       size: Ginormous
-      sprite: Objects/Weapons/Melee/Throngler-in-hand.rsi
+      sprite: /Objects/Weapons/Melee/Throngler-in-hand.rsi
     - type: FoodSequenceElement
       entries:
         CottonBurger: ThronglerPlushie
@@ -108,7 +108,7 @@
   description: The start of your personal GHOST GANG!
   components:
     - type: Sprite
-      sprite: Mobs/Ghosts/ghost_human.rsi
+      sprite: /Mobs/Ghosts/ghost_human.rsi
       state: icon
       noRot: true
     - type: Item
@@ -153,7 +153,7 @@
     - type: Item
       size: Normal
     - type: Sprite
-      sprite: Mobs/Ghosts/revenant.rsi
+      sprite: /Mobs/Ghosts/revenant.rsi
       state: icon
       noRot: true
     - type: Construction
@@ -170,11 +170,11 @@
   description: A cute toy that resembles an even cuter programmer. You'd have to be a monster to grind this up.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: plushie_h
   - type: Item
     size: Normal
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: bee
   - type: Extractable
     grindableSolutionName: bee
@@ -193,7 +193,7 @@
           Quantity: 5
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     equippedPrefix: bee
     slots:
     - HEAD
@@ -344,7 +344,7 @@
   description: An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: plushie_lizard
   - type: Item
     heldPrefix: plushielizard
@@ -387,7 +387,7 @@
           Quantity: 10
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     equippedPrefix: lizard
     slots:
     - HEAD
@@ -409,7 +409,7 @@
   description: A plushie of a canid of sorts, it yearns to be detonated on a landmine.
   components:
   - type: Sprite
-    sprite: Objects/Fun/expiplush.rsi
+    sprite: /Objects/Fun/expiplush.rsi
     state: expi
   - type: Item
     inhandVisuals:
@@ -453,7 +453,7 @@
       - state: expi-equipped-HELMET
         shader: shaded
     quickEquip: false
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     equippedPrefix: expi
     slots:
     - HEAD
@@ -603,7 +603,7 @@
           Quantity: 10
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     equippedPrefix: lizard-inversed
     slots:
     - HEAD
@@ -701,7 +701,7 @@
   description: Big and safe to have by your side if you want to discover the world below the surface of the ocean.
   components:
   - type: Sprite
-    sprite: Objects/Fun/sharkplush.rsi
+    sprite: /Objects/Fun/sharkplush.rsi
     state: blue
   - type: EmitSoundOnLand
     sound:
@@ -740,7 +740,7 @@
   description: Hehe shonk :)
   components:
   - type: Sprite
-    sprite: Objects/Fun/sharkplush.rsi
+    sprite: /Objects/Fun/sharkplush.rsi
     state: pink
   - type: Item
     heldPrefix: pink
@@ -759,7 +759,7 @@
   description: A quiet, reserved kind of shonk. Loves to ride the grey tide.
   components:
   - type: Sprite
-    sprite: Objects/Fun/sharkplush.rsi
+    sprite: /Objects/Fun/sharkplush.rsi
     state: grey
   - type: Item
     heldPrefix: grey
@@ -995,7 +995,7 @@
       path: /Audio/Items/Toys/mousesqueek.ogg
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     equippedPrefix: mouse
     slots:
     - HEAD
@@ -1175,7 +1175,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
   - type: Tag
     tags:
       - Payload
@@ -1207,11 +1207,11 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Fun/ducky.rsi
+    sprite: /Objects/Fun/ducky.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/ducky.rsi
+    sprite: /Objects/Fun/ducky.rsi
     slots:
     - HEAD
   - type: EmitSoundOnUse
@@ -1283,7 +1283,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
   - type: PhysicalComposition
     materialComposition:
       Plastic: 100
@@ -1389,11 +1389,11 @@
   description: Aiming this at Security may get you filled with lead.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: foamcrossbow
   - type: Item
     size: Normal
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: foamcrossbow
   - type: Gun
     fireRate: 0.5
@@ -1431,12 +1431,12 @@
   abstract: true # Frontier
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
   - type: Item
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: capgun
   - type: Tag
     tags:
@@ -1491,7 +1491,7 @@
   description: It says "Sternside Changs number 1 fan" on it.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: foamblade
   - type: MeleeWeapon
     attackRate: 1.5
@@ -1503,7 +1503,7 @@
         Blunt: 0
   - type: Item
     size: Small
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: foamblade
   - type: UseDelay
 
@@ -1516,14 +1516,14 @@
   description: Where dah courts at?
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: basketball
   - type: EmitSoundOnCollide
     sound:
       path: /Audio/Effects/Footsteps/bounce.ogg
   - type: Item
     size: Normal
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: bask
   - type: TileFrictionModifier
     modifier: 0.5
@@ -1535,11 +1535,11 @@
   description: Otherwise known as a handegg.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: football
   - type: Item
     size: Small
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: footb
 
 - type: entity
@@ -1549,14 +1549,14 @@
   description: The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: beachball
   - type: EmitSoundOnCollide
     sound:
       path: /Audio/Effects/Footsteps/bounce.ogg
   - type: Item
     size: Normal
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: beachb
   - type: TileFrictionModifier
     modifier: 0.05
@@ -1568,11 +1568,11 @@
   description: Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: synb
   - type: Item
     size: Small
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: synb
   - type: Damageable
     damageContainer: Inorganic
@@ -1587,11 +1587,11 @@
   description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: ntb
   - type: Item
     size: Small
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: ntb
   - type: Damageable
     damageContainer: Inorganic
@@ -1606,11 +1606,11 @@
   description: Just like owning a real dog - but a lot floatier.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: corgib
   - type: Item
     size: Small
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: corgib
   - type: Damageable
     damageContainer: Inorganic
@@ -1625,17 +1625,17 @@
   description: Mass-produced by a sadistic corporate conglomerate!
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: singularitytoy
   - type: Icon
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     state: singularitytoy
   - type: SingularityDistortion
     intensity: 2000
     falloffPower: 2.6
   - type: Item
     size: Normal
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: singularitytoy
 
 - type: entity
@@ -1645,7 +1645,7 @@
   description: The favorite toy of the great engineer Nikola Tesla.
   components:
   - type: Sprite
-    sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
+    sprite: /Structures/Power/Generation/Tesla/energy_miniball.rsi
     layers:
     - state: tesla_projectile
       shader: unshaded # Wizden#37444
@@ -1671,7 +1671,7 @@
   description: Ponderous, man... Really ponderous.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     layers: # Wizden#37444
     - state: orb # Wizden#37444
       shader: unshaded # Wizden#37444
@@ -1680,7 +1680,7 @@
     color: "#00CCFF"
   - type: Item
     size: Normal
-    sprite: Objects/Fun/toys.rsi
+    sprite: /Objects/Fun/toys.rsi
     heldPrefix: orb
   - type: TileFrictionModifier
     modifier: 0.001
@@ -1723,7 +1723,7 @@
       activeSound:
         path: /Audio/Weapons/ebladehum.ogg
     - type: Sprite
-      sprite: Objects/Weapons/Melee/e_sword.rsi
+      sprite: /Objects/Weapons/Melee/e_sword.rsi
       layers:
         - state: e_sword
         - state: e_sword_blade
@@ -1733,7 +1733,7 @@
           map: [ "blade" ]
     - type: Item
       size: Small
-      sprite: Objects/Weapons/Melee/e_sword-inhands.rsi
+      sprite: /Objects/Weapons/Melee/e_sword-inhands.rsi
     - type: UseDelay
       delay: 1.0
     - type: PointLight
@@ -1783,7 +1783,7 @@
   description: Sus!
   components:
   - type: Sprite
-    sprite: Objects/Fun/pequeno.rsi
+    sprite: /Objects/Fun/pequeno.rsi
     layers:
     - state: base
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -1804,7 +1804,7 @@
   description: Cosplay as a pirate and force your friends to walk the plank.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cutlass.rsi
+    sprite: /Objects/Weapons/Melee/cutlass.rsi
     state: foam_icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -1817,7 +1817,7 @@
     size: Normal
     storedSprite:
       state: foam_storage
-      sprite: Objects/Weapons/Melee/cutlass.rsi
+      sprite: /Objects/Weapons/Melee/cutlass.rsi
     shape:
     - 0,0,0,2
 
@@ -1828,7 +1828,7 @@
   description: When you just can't get those laughs coming the natural way!
   components:
   - type: Sprite
-    sprite: Objects/Fun/clownrecorder.rsi
+    sprite: /Objects/Fun/clownrecorder.rsi
     state: icon
   - type: EmitSoundOnUse
     sound:
@@ -1859,13 +1859,13 @@
   description: A brightly colored hammer made of rubber.
   components:
     - type: Sprite
-      sprite: Objects/Fun/rubber_hammer.rsi
+      sprite: /Objects/Fun/rubber_hammer.rsi
       state: icon
     - type: StaminaDamageOnHit
       damage: 2
     - type: Item
       size: Small
-      sprite: Objects/Fun/rubber_hammer.rsi
+      sprite: /Objects/Fun/rubber_hammer.rsi
     - type: Appearance
     - type: DisarmMalus
       malus: 0
@@ -1892,7 +1892,7 @@
   description: A practical joke device involving flatulence humour.
   components:
   - type: Sprite
-    sprite: Objects/Fun/whoopie.rsi
+    sprite: /Objects/Fun/whoopie.rsi
     state: icon
   - type: EmitSoundOnUse
     sound:
@@ -1974,7 +1974,7 @@
       - plastic
   - type: Food
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: /Objects/Specific/Hydroponics/banana.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -1995,7 +1995,7 @@
     sound:
       collection: packetOpenSounds
   - type: Sprite
-    sprite: Objects/Fun/glue.rsi
+    sprite: /Objects/Fun/glue.rsi
     state: icon
     layers:
       - state: icon
@@ -2010,7 +2010,7 @@
   - type: Glue
     consumptionUnit: 10
   - type: Item
-    sprite: Objects/Fun/glue.rsi
+    sprite: /Objects/Fun/glue.rsi
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -2031,10 +2031,10 @@
   description: A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
   components:
   - type: Sprite
-    sprite: Objects/Fun/newton_cradle.rsi
+    sprite: /Objects/Fun/newton_cradle.rsi
     state: icon-off
   - type: Item
-    sprite: Objects/Fun/newton_cradle.rsi
+    sprite: /Objects/Fun/newton_cradle.rsi
     storedRotation: -90
   - type: Appearance
   - type: GenericVisualizer

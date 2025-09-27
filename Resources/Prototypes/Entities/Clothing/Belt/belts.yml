@@ -7,9 +7,9 @@
   description: Can hold various things.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/utility.rsi
+    sprite: /Clothing/Belt/utility.rsi
   - type: Clothing
-    sprite: Clothing/Belt/utility.rsi
+    sprite: /Clothing/Belt/utility.rsi
   - type: Storage
     #maxItemSize: Normal# Frontier
     # TODO: Fill this out more.
@@ -79,7 +79,7 @@
         whitelist:
           tags:
             - Multitool
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -89,9 +89,9 @@
   description: Holds tools, looks snazzy.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/ce.rsi
+    sprite: /Clothing/Belt/ce.rsi
   - type: Clothing
-    sprite: Clothing/Belt/ce.rsi
+    sprite: /Clothing/Belt/ce.rsi
   #- type: Storage # Frontier
     #grid: # Frontier
     #- 0,0,9,1 # Frontier
@@ -160,7 +160,7 @@
         whitelist:
           tags:
           - Wrench
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -170,9 +170,9 @@
   description: A tactical assault belt.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/assault.rsi
+    sprite: /Clothing/Belt/assault.rsi
   - type: Clothing
-    sprite: Clothing/Belt/assault.rsi
+    sprite: /Clothing/Belt/assault.rsi
   # - type: Storage # Frontier: commented out whitelist
     # whitelist:
       # tags:
@@ -200,7 +200,7 @@
         whitelist:
           components:
           - SmokeOnTrigger
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -210,9 +210,9 @@
   description: A belt used to hold most janitorial supplies.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/janitor.rsi
+    sprite: /Clothing/Belt/janitor.rsi
   - type: Clothing
-    sprite: Clothing/Belt/janitor.rsi
+    sprite: /Clothing/Belt/janitor.rsi
   #- type: Storage # Frontier
     # whitelist: # Frontier: commented out whitelist
       # tags:
@@ -246,7 +246,7 @@
         whitelist:
           tags:
           - Wrench
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -256,9 +256,9 @@
   description: Can hold various medical equipment.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/medical.rsi
+    sprite: /Clothing/Belt/medical.rsi
   - type: Clothing
-    sprite: Clothing/Belt/medical.rsi
+    sprite: /Clothing/Belt/medical.rsi
   # - type: Storage # Frontier: commented out whitelist
   #   whitelist:
   #     tags:
@@ -312,7 +312,7 @@
         whitelist:
           tags:
           - Wrench
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -322,9 +322,9 @@
   description: Perfect for holding various equipment for medical emergencies.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/emt.rsi
+    sprite: /Clothing/Belt/emt.rsi
   - type: Clothing
-    sprite: Clothing/Belt/emt.rsi
+    sprite: /Clothing/Belt/emt.rsi
 
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
@@ -333,9 +333,9 @@
   description: A belt used to hold most hydroponics supplies. Suprisingly, not green.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/plant.rsi
+    sprite: /Clothing/Belt/plant.rsi
   - type: Clothing
-    sprite: Clothing/Belt/plant.rsi
+    sprite: /Clothing/Belt/plant.rsi
   # - type: Storage # Frontier: commented out whitelist
   #   whitelist:
   #     tags:
@@ -380,7 +380,7 @@
         whitelist:
           tags:
           - Bottle
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -390,9 +390,9 @@
   description: A belt used to hold kitchen knives and condiments for quick access.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/chef.rsi
+    sprite: /Clothing/Belt/chef.rsi
   - type: Clothing
-    sprite: Clothing/Belt/chef.rsi
+    sprite: /Clothing/Belt/chef.rsi
   # - type: Storage # Frontier: commented out whitelist
     # whitelist:
       # tags:
@@ -457,7 +457,7 @@
         whitelist:
           tags:
           - PepperShaker
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -467,9 +467,9 @@
   description: Can hold security gear like handcuffs and flashes.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/security.rsi
+    sprite: /Clothing/Belt/security.rsi
   - type: Clothing
-    sprite: Clothing/Belt/security.rsi
+    sprite: /Clothing/Belt/security.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.9
   # Frontier: commented out whitelist
@@ -512,7 +512,7 @@
         whitelist:
           components:
           - SmokeOnTrigger
-    sprite: Clothing/Belt/belt_overlay.rsi
+    sprite: /Clothing/Belt/belt_overlay.rsi
   - type: Appearance
 
 - type: entity
@@ -522,10 +522,10 @@
   description: An ornate sheath designed to hold an officer's blade.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/sheath.rsi
+    sprite: /Clothing/Belt/sheath.rsi
     state: sheath
   - type: Clothing
-    sprite: Clothing/Belt/sheath.rsi
+    sprite: /Clothing/Belt/sheath.rsi
   #- type: Item # Frontier
     #size: Ginormous # Frontier
   - type: ItemSlots
@@ -556,9 +556,9 @@
   description: A bandolier for holding shotgun ammunition.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/bandolier.rsi
+    sprite: /Clothing/Belt/bandolier.rsi
   - type: Clothing
-    sprite: Clothing/Belt/bandolier.rsi
+    sprite: /Clothing/Belt/bandolier.rsi
   #- type: Item # Frontier
     #size: Huge # Frontier
   - type: BallisticAmmoProvider
@@ -574,9 +574,9 @@
   description: Proves to the world that you are the strongest!
   components:
   - type: Sprite
-    sprite: Clothing/Belt/champion.rsi
+    sprite: /Clothing/Belt/champion.rsi
   - type: Clothing
-    sprite: Clothing/Belt/champion.rsi
+    sprite: /Clothing/Belt/champion.rsi
     quickEquip: true
   - type: Tag
     tags:
@@ -589,9 +589,9 @@
   description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
   components:
   - type: Sprite
-    sprite: Clothing/Belt/holster.rsi
+    sprite: /Clothing/Belt/holster.rsi
   - type: Clothing
-    sprite: Clothing/Belt/holster.rsi
+    sprite: /Clothing/Belt/holster.rsi
   - type: Storage # Frontier: commented out
     maxItemSize: Huge # Frontier: commented out
     grid: # Frontier: commented out
@@ -609,9 +609,9 @@
   description: A deep shoulder holster capable of holding many types of ballistics.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: /Clothing/Belt/syndieholster.rsi
   - type: Clothing
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: /Clothing/Belt/syndieholster.rsi
   - type: Item # Frontier
     size: Ginormous # Frontier
   - type: Storage # Frontier: commented out # _Lua
@@ -634,9 +634,9 @@
   description: Unique and versatile chest rig, can hold security gear.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: /Clothing/Belt/securitywebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: /Clothing/Belt/securitywebbing.rsi
 
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, remove BaseSecurityCargoContraband
@@ -645,9 +645,9 @@
   description: Ideal for storing everything from ammo to weapons and combat essentials.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/mercwebbing.rsi
+    sprite: /Clothing/Belt/mercwebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/mercwebbing.rsi
+    sprite: /Clothing/Belt/mercwebbing.rsi
 
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
@@ -656,9 +656,9 @@
   description: Universal unloading system for work in space.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/salvagewebbing.rsi
+    sprite: /Clothing/Belt/salvagewebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/salvagewebbing.rsi
+    sprite: /Clothing/Belt/salvagewebbing.rsi
 
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband] # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, BaseSyndicateContraband<BaseC1Contraband
@@ -667,9 +667,9 @@
   description: A set of tactical webbing worn by boarding parties. # Frontier
   components:
   - type: Sprite
-    sprite: Clothing/Belt/militarywebbing.rsi
+    sprite: /Clothing/Belt/militarywebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/militarywebbing.rsi
+    sprite: /Clothing/Belt/militarywebbing.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.1
 
@@ -680,9 +680,9 @@
   description: A set of tactical webbing worn by medic operatives. # Frontier
   components:
   - type: Sprite
-    sprite: Clothing/Belt/militarywebbingmed.rsi
+    sprite: /Clothing/Belt/militarywebbingmed.rsi
   - type: Clothing
-    sprite: Clothing/Belt/militarywebbingmed.rsi
+    sprite: /Clothing/Belt/militarywebbingmed.rsi
   #- type: Item # Frontier
     #size: Huge # Frontier
   - type: ExplosionResistance
@@ -698,10 +698,10 @@
     tags:
     - MimeBelt
   - type: Sprite
-    sprite: Clothing/Belt/suspenders_red.rsi
+    sprite: /Clothing/Belt/suspenders_red.rsi
     state: icon
   - type: Clothing
-    sprite: Clothing/Belt/suspenders_red.rsi
+    sprite: /Clothing/Belt/suspenders_red.rsi
     quickEquip: true
 
 - type: entity
@@ -710,9 +710,9 @@
   name: black suspenders
   components:
   - type: Sprite
-    sprite: Clothing/Belt/suspenders_black.rsi
+    sprite: /Clothing/Belt/suspenders_black.rsi
   - type: Clothing
-    sprite: Clothing/Belt/suspenders_black.rsi
+    sprite: /Clothing/Belt/suspenders_black.rsi
 
 - type: entity
   parent: [NFClothingBeltStorageBase, BaseC3WizardContraband, ContrabandClothing] # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, BaseMagicalContraband<BaseC3WizardContraband, ContrabandClothing as parent
@@ -721,9 +721,9 @@
   description: A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/wand.rsi
+    sprite: /Clothing/Belt/wand.rsi
   - type: Clothing
-    sprite: Clothing/Belt/wand.rsi
+    sprite: /Clothing/Belt/wand.rsi
   # - type: Storage # Frontier: commented out
     # grid: # Frontier: commented out
     # - 0,0,15,1 # Frontier: commented out

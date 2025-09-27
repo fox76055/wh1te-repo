@@ -5,28 +5,28 @@
   id: ADiffReal
   name: Andreas Viklund - A.D.R (Lagoona rmx)
   path:
-    path: /Audio/_DV/Jukebox/a_different_reality_lagoona_remix.xm-MONO.ogg
+    path: /Audio/_DV/Jukebox/a_different_reality_lagoona_remix./xm-MONO.ogg
   category: Default
 
 - type: jukebox
   id: AggAss
   name: melcom - Aggravated Assault
   path:
-    path: /Audio/_DV/Jukebox/aggravated.it-MONO.ogg
+    path: /Audio/_DV/Jukebox/aggravated./it-MONO.ogg
   category: Default
 
 - type: jukebox
   id: AutEqu
   name: lemonade - Autumnal Equinox
   path:
-    path: /Audio/_DV/Jukebox/autumnal_equinox.xm-MONO.ogg
+    path: /Audio/_DV/Jukebox/autumnal_equinox./xm-MONO.ogg
   category: Default
 
 - type: jukebox
   id: DosHighUmb
   name: MASTER BOOT RECORD - DOS=HIGH, UMB
   path:
-    path: /Audio/_DV/Jukebox/DOS=HIGH,_UMB.ogg
+    path: /Audio/_DV/Jukebox/DOS=HIGH,/_UMB.ogg
   category: Default
 
 - type: jukebox
@@ -40,14 +40,14 @@
   id: DrozAlone
   name: Drozerix - Alone
   path:
-    path: /Audio/_DV/Jukebox/drozerix_-_alone.xm-MONO.ogg
+    path: /Audio/_DV/Jukebox/drozerix_-_alone./xm-MONO.ogg
   category: Default
 
 - type: jukebox
   id: DrozLeisure
   name: Drozerix - Leisurely Voice
   path:
-    path: /Audio/_DV/Jukebox/drozerix_-_leisurely_voice.xm-MONO.ogg
+    path: /Audio/_DV/Jukebox/drozerix_-_leisurely_voice./xm-MONO.ogg
   category: Default
 
 - type: jukebox
@@ -96,7 +96,7 @@
   id: NymphsForest
   name: Psirius - Nymphs of the Forest
   path:
-    path: /Audio/_DV/Jukebox/psirius_-_nymphs_of_the_forest.mptm-MONO.ogg
+    path: /Audio/_DV/Jukebox/psirius_-_nymphs_of_the_forest./mptm-MONO.ogg
   category: Default
 
 - type: jukebox

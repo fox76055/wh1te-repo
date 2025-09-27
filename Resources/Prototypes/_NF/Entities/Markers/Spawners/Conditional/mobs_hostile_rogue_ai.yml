@@ -8,9 +8,9 @@
     layers:
       - state: red
       - state: ai
-      - sprite: _NF/Mobs/RogueSilicons/viscerator.rsi
+      - sprite: /_NF/Mobs/RogueSilicons/viscerator.rsi
         state: base
-      - sprite: _NF/Mobs/RogueSilicons/viscerator.rsi
+      - sprite: /_NF/Mobs/RogueSilicons/viscerator.rsi
         state: base_lights
   - type: ConditionalSpawner
     prototypes:
@@ -26,9 +26,9 @@
     layers:
       - state: red
       - state: ai
-      - sprite: Mobs/Silicon/onestar.rsi
+      - sprite: /Mobs/Silicon/onestar.rsi
         state: onestar_boss
-      - sprite: Mobs/Silicon/onestar.rsi
+      - sprite: /Mobs/Silicon/onestar.rsi
         state: onestar_boss_screen
   - type: ConditionalSpawner
     prototypes:
@@ -44,7 +44,7 @@
     layers:
       - state: red
       - state: ai
-      - sprite: _NF/Mobs/RogueSilicons/netguardian.rsi
+      - sprite: /_NF/Mobs/RogueSilicons/netguardian.rsi
         state: netguardian
   - type: ConditionalSpawner
     prototypes:

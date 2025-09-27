@@ -8,7 +8,7 @@
   parent: MarkerBase
   components:
   - type: Sprite
-    sprite: Markers/cross.rsi
+    sprite: /Markers/cross.rsi
     layers:
     - state: pink
   - type: RandomSpawner

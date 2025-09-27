@@ -21,7 +21,7 @@
     weight: 10 # 10 default
     reoccurrenceDelay: 30
     duration: 1
-    maxOccurrences: 1 # should be the same as [copies] in shuttle_incoming_event.yml
+    maxOccurrences: 1 # should be the same as [copies] in /shuttle_incoming_event.yml
   - type: RuleGrids
   - type: LoadMapRule
     gridPath: /Maps/_Lua/ShuttleEvent/FSF/gamma_bravo.yml
@@ -38,7 +38,7 @@
     weight: 10 # 10 default
     reoccurrenceDelay: 30
     duration: 1
-    maxOccurrences: 1 # should be the same as [copies] in shuttle_incoming_event.yml
+    maxOccurrences: 1 # should be the same as [copies] in /shuttle_incoming_event.yml
   - type: RuleGrids
   - type: LoadMapRule
     gridPath: /Maps/_Lua/ShuttleEvent/FSF/gamma_charlie.yml

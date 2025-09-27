@@ -43,13 +43,13 @@
   id: C4
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/c4.rsi
+    sprite: /Objects/Weapons/Bombs/c4.rsi
     state: icon
     layers:
     - state: icon
       map: ["base"]
   - type: Clothing
-    sprite: Objects/Weapons/Bombs/c4.rsi
+    sprite: /Objects/Weapons/Bombs/c4.rsi
     slots:
     - HEAD
     quickEquip: false
@@ -79,7 +79,7 @@
       - FestiveSeason
   - type: HolidayRsiSwap
     sprite:
-      festive: Objects/Weapons/Bombs/c4gift.rsi
+      festive: /Objects/Weapons/Bombs/c4gift.rsi
 
 - type: entity
   name: seismic charge
@@ -88,7 +88,7 @@
   id: SeismicCharge
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/seismic.rsi
+    sprite: /Objects/Weapons/Bombs/seismic.rsi
     state: icon
     layers:
     - state: icon

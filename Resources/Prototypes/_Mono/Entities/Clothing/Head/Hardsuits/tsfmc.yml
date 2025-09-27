@@ -7,9 +7,9 @@
   description: An armored tacsuit helmet used by the TSFMC.
   components:
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
   - type: PointLight
     color: "#ffeead"
   - type: Armor
@@ -27,9 +27,9 @@
   name: TSFMC M74 tacsuit helmet
   components:
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitNfsdBronze
@@ -38,9 +38,9 @@
   name: TSFMC M75 tacsuit helmet
   components:
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitNfsdBronze
@@ -52,9 +52,9 @@
   - type: PointLight
     radius: 5 # Mono
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc.rsi
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitNfsdBronze
@@ -64,9 +64,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_sheriff.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_sheriff.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_sheriff.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_sheriff.rsi
 
 - type: entity
   parent: NFClothingHeadHardsuitWithLightBaseNfsd
@@ -76,9 +76,9 @@
   description: Heavily armored hardsuit helmet for TSFMC raids.
   components:
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_experimental.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_experimental.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_experimental.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_experimental.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -99,9 +99,9 @@
   description: Medium armored hardsuit helmet for TSFMC raids.
   components:
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_combat.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_combat.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_combat.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_combat.rsi
   - type: PointLight
     color: "#79bb66"
   - type: PressureProtection
@@ -124,9 +124,9 @@
   description: Medium armored hardsuit helmet for TSFMC raids.
   components:
   - type: Sprite
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_command.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_command.rsi
   - type: Clothing
-    sprite: _EE/Clothing/Head/Hardsuits/tsfmc_command.rsi
+    sprite: /_EE/Clothing/Head/Hardsuits/tsfmc_command.rsi
   - type: PointLight
     color: "#ffed7f"
   - type: PressureProtection

@@ -26,7 +26,7 @@
         layer:
         - WallLayer
   - type: Sprite
-    sprite: _NF/Structures/Machines/mini_station_anchor.rsi
+    sprite: /_NF/Structures/Machines/mini_station_anchor.rsi
     layers:
     - state: station_anchor
       map: ["base"]

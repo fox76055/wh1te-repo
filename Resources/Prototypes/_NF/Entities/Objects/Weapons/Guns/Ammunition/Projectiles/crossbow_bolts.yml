@@ -48,7 +48,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/crossbow_bolts.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Projectiles/crossbow_bolts.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -444,7 +444,7 @@
     - state: solution1
       map: ["enum.SolutionContainerLayers.Fill"]
       visible: false
-    - sprite: Effects/sparks.rsi
+    - sprite: /Effects/sparks.rsi
       state: sparks
       shader: unshaded
       scale: 0.3,0.3
@@ -493,7 +493,7 @@
     - state: solution1
       map: ["enum.SolutionContainerLayers.Fill"]
       visible: false
-    - sprite: Objects/Misc/flare.rsi
+    - sprite: /Objects/Misc/flare.rsi
       state: flare_burn
       shader: unshaded
       scale: 0.4,0.4
@@ -570,7 +570,7 @@
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
   - type: Projectile
     damage:

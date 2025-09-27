@@ -5,7 +5,7 @@
   description: Surprisingly thick. Careful not to lose it, and don't sit on it.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Wallet/leather.rsi
+    sprite: /_NF/Clothing/Wallet/leather.rsi
     layers:
     - state: closed
       map: ["closeLayer"]
@@ -22,7 +22,7 @@
       map: ["closed-coin"]
       visible: false
   - type: Item
-    sprite: _NF/Clothing/Wallet/leather.rsi
+    sprite: /_NF/Clothing/Wallet/leather.rsi
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -30,7 +30,7 @@
       amount: 1
   - type: Appearance
   - type: ItemMapper
-    sprite: _NF/Clothing/Wallet/leather.rsi
+    sprite: /_NF/Clothing/Wallet/leather.rsi
 
 - type: entity
   parent: ClothingWalletLeatherBrown

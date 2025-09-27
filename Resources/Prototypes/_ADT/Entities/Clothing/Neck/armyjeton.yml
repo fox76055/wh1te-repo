@@ -5,4 +5,4 @@
   description: 
   components:
     - type: Sprite
-      sprite: ADT/Clothing/Neck/armytoken.rsi
+      sprite: /ADT/Clothing/Neck/armytoken.rsi

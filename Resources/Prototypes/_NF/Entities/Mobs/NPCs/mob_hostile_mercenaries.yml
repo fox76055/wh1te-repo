@@ -79,20 +79,20 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#d3bf86" #"#404029"
-    - sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
+    - sprite: /Clothing/OuterClothing/Vests/mercwebvest.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/merc.rsi
+    - sprite: /Clothing/Mask/merc.rsi
       state: equipped-MASK
-    - sprite: Clothing/Head/Helmets/merc_helmet.rsi
+    - sprite: /Clothing/Head/Helmets/merc_helmet.rsi
       state: equipped-HELMET
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -124,20 +124,20 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#d3bf86"
-    - sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
+    - sprite: /Clothing/OuterClothing/Vests/mercwebvest.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/merc.rsi
+    - sprite: /Clothing/Mask/merc.rsi
       state: equipped-MASK
-    - sprite: Clothing/Head/Helmets/merc_helmet.rsi
+    - sprite: /Clothing/Head/Helmets/merc_helmet.rsi
       state: equipped-HELMET
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -170,20 +170,20 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#d3bf86"
-    - sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
+    - sprite: /Clothing/OuterClothing/Vests/mercwebvest.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/merc.rsi
+    - sprite: /Clothing/Mask/merc.rsi
       state: equipped-MASK
-    - sprite: Clothing/Head/Helmets/merc_helmet.rsi
+    - sprite: /Clothing/Head/Helmets/merc_helmet.rsi
       state: equipped-HELMET
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -219,22 +219,22 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#3d5c87"
-    - sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+    - sprite: /Clothing/OuterClothing/Armor/security_slim.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/gas.rsi
+    - sprite: /Clothing/Mask/gas.rsi
       state: equipped-MASK
-    - sprite: Clothing/Head/Helmets/security.rsi
+    - sprite: /Clothing/Head/Helmets/security.rsi
       state: equipped-HELMET
-    - sprite: Clothing/Belt/militarywebbing.rsi
+    - sprite: /Clothing/Belt/militarywebbing.rsi
       state: equipped-BELT
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -265,22 +265,22 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#3d5c87"
-    - sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+    - sprite: /Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/neckgaiter.rsi
+    - sprite: /Clothing/Mask/neckgaiter.rsi
       state: equipped-MASK
-    - sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+    - sprite: /Clothing/Eyes/Glasses/sunglasses.rsi
       state: equipped-EYES
-    - sprite: Clothing/Head/Hats/hoshat.rsi
+    - sprite: /Clothing/Head/Hats/hoshat.rsi
       state: equipped-HELMET
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -315,20 +315,20 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#3d5c87"
-    - sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+    - sprite: /Clothing/OuterClothing/Armor/security_slim.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/gas.rsi
+    - sprite: /Clothing/Mask/gas.rsi
       state: equipped-MASK
-    - sprite: Clothing/Head/Helmets/security.rsi
+    - sprite: /Clothing/Head/Helmets/security.rsi
       state: equipped-HELMET
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -368,20 +368,20 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#2e687a"
-    - sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+    - sprite: /Clothing/OuterClothing/Armor/security_slim.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/medicalsecurity.rsi
+    - sprite: /Clothing/Mask/medicalsecurity.rsi
       state: equipped-MASK
-    - sprite: Clothing/Head/Helmets/light_riot.rsi
+    - sprite: /Clothing/Head/Helmets/light_riot.rsi
       state: equipped-HELMET
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -433,23 +433,23 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: _NF/Clothing/Uniforms/Jumpsuit/military.rsi
+    - sprite: /_NF/Clothing/Uniforms/Jumpsuit/military.rsi
       state: equipped-base-top-jumpsuit
       color: "#2e687a"
-    - sprite: _NF/Clothing/Uniforms/Jumpsuit/military.rsi
+    - sprite: /_NF/Clothing/Uniforms/Jumpsuit/military.rsi
       state: equipped-base-bottom
       color: "#2e687a"
-    - sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+    - sprite: /Clothing/OuterClothing/Armor/security_slim.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/gassecurity.rsi
+    - sprite: /Clothing/Mask/gassecurity.rsi
       state: equipped-MASK
-    - sprite: _NF/Clothing/Head/Hats/nfsd_beret_green.rsi
+    - sprite: /_NF/Clothing/Head/Hats/nfsd_beret_green.rsi
       state: equipped-HELMET
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -489,24 +489,24 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
-    - sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - sprite: /Clothing/Uniforms/Jumpsuit/color.rsi
       state: equipped-INNERCLOTHING
       color: "#d3bf86"
-    - sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
+    - sprite: /Clothing/OuterClothing/Armor/bulletproof.rsi
       state: equipped-OUTERCLOTHING
-    - sprite: Clothing/Mask/gassecurity.rsi
+    - sprite: /Clothing/Mask/gassecurity.rsi
       state: equipped-MASK
-    - sprite: Clothing/Head/Helmets/security.rsi
+    - sprite: /Clothing/Head/Helmets/security.rsi
       state: equipped-HELMET
-    - sprite: Clothing/Belt/militarywebbing.rsi
+    - sprite: /Clothing/Belt/militarywebbing.rsi
       state: equipped-BELT
-    - sprite: Clothing/Neck/mantles/qmmantle.rsi
+    - sprite: /Clothing/Neck/mantles/qmmantle.rsi
       state: equipped-NECK
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -577,7 +577,7 @@
   description: "Luck always beats skill, ya weasel. [color=yellow]5 second between ammo recharges.[/color]"
   components:
   - type: Action
-    icon: { sprite : _DV/Objects/Weapons/Guns/Revolvers/lucky.rsi, state: icon }
+    icon: { sprite : /_DV/Objects/Weapons/Guns/Revolvers/lucky.rsi, state: icon }
     priority: 2
     itemIconStyle: BigAction
   - type: TargetAction
@@ -595,43 +595,43 @@
     drawdepth: Mobs
     layers:
     # Body
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
     # Suit
-    - sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Suits/eva_color.rsi
       state: equipped-base
       color: "#7b7b3f"
-    - sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Suits/eva_color.rsi
       state: equipped-decals-01
       color: "#b8b873"
-    - sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Suits/eva_color.rsi
       state: equipped-reinforced-points
       color: "#3e3e48"
-    - sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Suits/eva_color.rsi
       state: equipped-breathing-gear
-    - sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Suits/eva_color.rsi
       state: equipped-unshaded
       shader: unshaded
     # Gas tank
-    - sprite: _NF/Objects/Tanks/o2n2equal.rsi
+    - sprite: /_NF/Objects/Tanks/o2n2equal.rsi
       state: equipped-SUITSTORAGE
     # Helmet
-    - sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    - sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
       state: equipped-head-base
       color: "#7b7b3f"
-    - sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    - sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
       state: equipped-head-reinforced-points
       color: "#27272e"
-    - sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    - sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
       state: equipped-head-visor
       color: "#f5fc95"
-    - sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    - sprite: /_NF/Clothing/Head/Helmets/eva_color.rsi
       state: equipped-head-light
       shader: unshaded
     # IFF
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -678,21 +678,21 @@
     drawdepth: Mobs
     layers:
     # Body
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
     # Suit
-    - sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
       state: equipped-OUTERCLOTHING
     # Gas tank
-    - sprite: _NF/Objects/Tanks/o2n2equal.rsi
+    - sprite: /_NF/Objects/Tanks/o2n2equal.rsi
       state: equipped-SUITSTORAGE
     # Helmet
-    - sprite: _NF/Clothing/Head/Hardsuits/mercenary.rsi
+    - sprite: /_NF/Clothing/Head/Hardsuits/mercenary.rsi
       state: on-equipped-HELMET
     # IFF
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -731,21 +731,21 @@
     drawdepth: Mobs
     layers:
     # Body
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
     # Suit
-    - sprite: _NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
       state: equipped-OUTERCLOTHING
     # Gas tank
-    - sprite: _NF/Objects/Tanks/o2n2equal.rsi
+    - sprite: /_NF/Objects/Tanks/o2n2equal.rsi
       state: equipped-SUITSTORAGE
     # Helmet
-    - sprite: _NF/Clothing/Head/Hardsuits/private_security.rsi
+    - sprite: /_NF/Clothing/Head/Hardsuits/private_security.rsi
       state: on-equipped-HELMET
     # IFF
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded
@@ -776,24 +776,24 @@
     drawdepth: Mobs
     layers:
     # Body
-    - sprite: _NF/Mobs/Species/Templates/human.rsi
+    - sprite: /_NF/Mobs/Species/Templates/human.rsi
       state: human
     # Suit
-    - sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
+    - sprite: /_NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
       state: equipped-OUTERCLOTHING
     # Gas tank
-    - sprite: _NF/Objects/Tanks/o2n2equal.rsi
+    - sprite: /_NF/Objects/Tanks/o2n2equal.rsi
       state: equipped-SUITSTORAGE
     # Helmet
-    - sprite: _NF/Clothing/Head/Hardsuits/scaf.rsi
+    - sprite: /_NF/Clothing/Head/Hardsuits/scaf.rsi
       state: off-equipped-HELMET
     # Mantle
-    - sprite: Clothing/Neck/mantles/qmmantle.rsi
+    - sprite: /Clothing/Neck/mantles/qmmantle.rsi
       state: equipped-NECK
     # IFF
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-off
-    - sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    - sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
       state: equipped-NECK-on
       color: "#a9b6bd"
       shader: unshaded

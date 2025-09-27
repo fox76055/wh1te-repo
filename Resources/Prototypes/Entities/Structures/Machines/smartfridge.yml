@@ -11,7 +11,7 @@
   - type: Speech
   - type: Appearance
   - type: Sprite
-    sprite: Structures/Machines/smartfridge.rsi
+    sprite: /Structures/Machines/smartfridge.rsi
     snapCardinals: true
     layers:
     - state: smartfridge

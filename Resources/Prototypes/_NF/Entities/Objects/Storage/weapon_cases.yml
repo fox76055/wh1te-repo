@@ -6,7 +6,7 @@
   suffix: Long
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Cases/guncaselong.rsi
+    sprite: /_NF/Objects/Storage/Cases/guncaselong.rsi
     layers:
     - map: [ base ]
       state: icon
@@ -19,7 +19,7 @@
           True: { state: icon-open }
           False: { state: icon }
   - type: Item
-    sprite: _NF/Objects/Storage/Cases/guncaselong.rsi
+    sprite: /_NF/Objects/Storage/Cases/guncaselong.rsi
     size: Large
     shape:
     - 0,0,5,3
@@ -51,9 +51,9 @@
   suffix: Short
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Cases/guncaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/guncaseshort.rsi
   - type: Item
-    sprite: _NF/Objects/Storage/Cases/guncaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/guncaseshort.rsi
     size: Normal
     shape:
     - 0,0,3,1
@@ -84,9 +84,9 @@
   suffix: Short
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Cases/ammocaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/ammocaseshort.rsi
   - type: Item
-    sprite: _NF/Objects/Storage/Cases/ammocaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/ammocaseshort.rsi
 
 - type: entity
   name: explosives case
@@ -98,9 +98,9 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: Sprite
-    sprite: _NF/Objects/Storage/Cases/explosivescaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/explosivescaseshort.rsi
   - type: Item
-    sprite: _NF/Objects/Storage/Cases/explosivescaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/explosivescaseshort.rsi
 
 - type: entity
   name: document case
@@ -110,9 +110,9 @@
   suffix: Short
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Cases/documentcaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/documentcaseshort.rsi
   - type: Item
-    sprite: _NF/Objects/Storage/Cases/documentcaseshort.rsi
+    sprite: /_NF/Objects/Storage/Cases/documentcaseshort.rsi
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -132,9 +132,9 @@
   components:
   - type: MultiHandedItem
   - type: Sprite
-    sprite: _NF/Objects/Storage/Cases/guncaseheavy.rsi
+    sprite: /_NF/Objects/Storage/Cases/guncaseheavy.rsi
   - type: Item
-    sprite: _NF/Objects/Storage/Cases/guncaseheavy.rsi
+    sprite: /_NF/Objects/Storage/Cases/guncaseheavy.rsi
     size: Ginormous
     shape:
     - 0,0,8,3

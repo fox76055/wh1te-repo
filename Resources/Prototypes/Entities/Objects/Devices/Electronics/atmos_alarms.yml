@@ -5,7 +5,7 @@
   description: An electronics board used in air alarms.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: airalarm_electronics
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
   - type: Item
     storedRotation: 0
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: airalarm_electronics
   - type: Tag
     tags:

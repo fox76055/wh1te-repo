@@ -15,12 +15,12 @@
     soundSwing:
       collection: N14BaseballBatSwing
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Melee/policebaton.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Melee/policebaton.rsi
     state: icon
   - type: Item
     size: Normal 
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Melee/policebaton.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Melee/policebaton.rsi
     quickEquip: false
     slots:
     - belt
@@ -39,12 +39,12 @@
     soundSwing:
       collection: N14LargeSwing
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Melee/tribalclub.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Melee/tribalclub.rsi
     state: icon
   - type: Item
     size: Large
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Melee/tribalclub.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Melee/tribalclub.rsi
     quickEquip: false
     slots:
     - belt
@@ -63,12 +63,12 @@
     soundSwing:
       collection: N14LargeSwing
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Melee/pipe.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Melee/pipe.rsi
     state: icon
   - type: Item
     size: Large
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Melee/pipe.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Melee/pipe.rsi
     quickEquip: false
     slots:
     - belt

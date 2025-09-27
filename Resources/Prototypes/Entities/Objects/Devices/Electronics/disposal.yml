@@ -5,7 +5,7 @@
   description: An electronics board used in mailing units.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: net_wired
     - type: Tag
       tags:

@@ -5,9 +5,9 @@
   description: For daring acts of selflessness and devotion to duty in dire circumstances.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/star_gold.rsi
+    sprite: /_NF/Clothing/Neck/Medals/star_gold.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/star_gold.rsi
+    sprite: /_NF/Clothing/Neck/Medals/star_gold.rsi
   - type: Tag
     tags:
       - Medal
@@ -19,9 +19,9 @@
   description: For exemplary courage and leadership beyond expectation in contact with the enemy.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/shield_gold.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_gold.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/shield_gold.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_gold.rsi
   - type: Tag
     tags:
       - Medal
@@ -33,9 +33,9 @@
   description: For acts of conspicuous gallantry against enemies of the Frontier.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/shield_silver.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_silver.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/shield_silver.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_silver.rsi
   - type: Tag
     tags:
       - Medal
@@ -47,9 +47,9 @@
   description: For distinguished and meritorious conduct in the line of duty.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/shield_bronze.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_bronze.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/shield_bronze.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_bronze.rsi
   - type: Tag
     tags:
       - Medal
@@ -61,9 +61,9 @@
   description: In recognition of exceptional and honorable civilian service.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/star_civviesilver.rsi
+    sprite: /_NF/Clothing/Neck/Medals/star_civviesilver.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/star_civviesilver.rsi
+    sprite: /_NF/Clothing/Neck/Medals/star_civviesilver.rsi
   - type: Tag
     tags:
       - Medal
@@ -75,9 +75,9 @@
   description: For extraordinary civilian assistance in the face of danger.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/shield_civviegold.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_civviegold.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/shield_civviegold.rsi
+    sprite: /_NF/Clothing/Neck/Medals/shield_civviegold.rsi
   - type: Tag
     tags:
       - Medal
@@ -89,9 +89,9 @@
   description: For grave wounds obtained in dutiful service.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/blood_drop.rsi
+    sprite: /_NF/Clothing/Neck/Medals/blood_drop.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/blood_drop.rsi
+    sprite: /_NF/Clothing/Neck/Medals/blood_drop.rsi
   - type: Tag
     tags:
       - Medal
@@ -104,9 +104,9 @@
   description: For unequivocal entrepreneurship and lugubriosity against incorrigible verisimilitude.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Medals/glorious_order.rsi
+    sprite: /_NF/Clothing/Neck/Medals/glorious_order.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Medals/glorious_order.rsi
+    sprite: /_NF/Clothing/Neck/Medals/glorious_order.rsi
   - type: Tag
     tags:
       - Medal

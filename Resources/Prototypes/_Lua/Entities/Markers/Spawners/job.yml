@@ -8,7 +8,7 @@
       job_id: Valet
       spawn_type: LateJoin
     - type: Sprite
-      sprite: Backmen/Markers/jobs.rsi
+      sprite: /Backmen/Markers/jobs.rsi
       layers:
         - state: green
         - state: jobicon
@@ -23,7 +23,7 @@
       job_id: NFJanitor
       spawn_type: LateJoin
     - type: Sprite
-      sprite: Backmen/Markers/jobs.rsi
+      sprite: /Backmen/Markers/jobs.rsi
       layers:
         - state: green
         - state: jobicon
@@ -38,7 +38,7 @@
     job_id: SecurityGuard
     spawn_type: LateJoin
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: securityguard
@@ -54,7 +54,7 @@
     - type: SpawnPoint
       job_id: Valet
     - type: Sprite
-      sprite: Backmen/Markers/jobs.rsi
+      sprite: /Backmen/Markers/jobs.rsi
       layers:
         - state: green
         - state: jobicon
@@ -68,7 +68,7 @@
     - type: SpawnPoint
       job_id: NFJanitor
     - type: Sprite
-      sprite: Backmen/Markers/jobs.rsi
+      sprite: /Backmen/Markers/jobs.rsi
       layers:
         - state: green
         - state: jobicon
@@ -82,7 +82,7 @@
   - type: SpawnPoint
     job_id: SecurityGuard
   - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
+    sprite: /_NF/Markers/jobs.rsi
     layers:
       - state: green
       - state: securityguard

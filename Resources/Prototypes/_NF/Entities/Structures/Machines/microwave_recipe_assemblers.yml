@@ -78,7 +78,7 @@
         - LowImpassable
         hard: false
   - type: Sprite
-    sprite: _NF/Structures/Machines/oven.rsi
+    sprite: /_NF/Structures/Machines/oven.rsi
     snapCardinals: true
     layers:
     - state: off_no_door
@@ -133,7 +133,7 @@
   - type: Microwave
     cookTimeMultiplier: 0.5
   - type: Sprite
-    sprite: _NF/Structures/Machines/oven_syndie.rsi
+    sprite: /_NF/Structures/Machines/oven_syndie.rsi
   - type: Machine
     board: SyndicateElectricRangeMachineCircuitboard
   - type: FoodRecipeProvider
@@ -187,7 +187,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: Sprite
-    sprite: _NF/Structures/Machines/assembler.rsi
+    sprite: /_NF/Structures/Machines/assembler.rsi
     drawdepth: SmallObjects
     snapCardinals: true
     layers:
@@ -244,7 +244,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: Sprite
-    sprite: _NF/Structures/Machines/medical_assembler.rsi
+    sprite: /_NF/Structures/Machines/medical_assembler.rsi
     snapCardinals: true
     layers:
     - state: mediwave-base

@@ -15,7 +15,7 @@
   - type: Item
     size: Small
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    sprite: /Objects/Weapons/Guns/Pistols/viper.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -67,14 +67,14 @@
   description: A cheap, ubiquitous sidearm, chambered in 9 mm.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
   - type: Gun
     fireRate: 5
     soundGunshot:
@@ -102,14 +102,14 @@
   description: A cheap, ubiquitous sidearm, chambered in 10mm. # TODO: Need to create projectiles, magazines and boxes for 10mm.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
   - type: Gun
     fireRate: 4
     soundGunshot:
@@ -137,14 +137,14 @@
   description: A rugged handgun chambered in .45.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/colt.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/colt.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/colt.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/colt.rsi
   - type: Gun
     fireRate: 4
     soundGunshot:
@@ -179,14 +179,14 @@
   description: A rugged, robust handgun chambered in 12.7mm. # TODO: Need to create projectiles, magazines and boxes for 12mm.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
   - type: Gun
     fireRate: 3
     soundGunshot:
@@ -221,14 +221,14 @@
   description: a light 10mm makeshift pistol, the grip is incredibly uncomfortable.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
   - type: Gun
     fireRate: 4
     soundGunshot:
@@ -256,12 +256,12 @@
   description: A elegant and long barrel pistol with a integrated magazine, chambered in 9 mm.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
     size: Small
   - type: Clothing
     slots:
@@ -301,12 +301,12 @@
   description: A modified version of the common chinese pistols. with a integrated silencer, extended mag and fully automatic conversion this gun was designed with passion, chambered in 9 mm.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/thespy.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/thespy.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/thespy.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/thespy.rsi
     size: Small
   - type: Clothing
     slots:
@@ -346,14 +346,14 @@
   description: A simple and silenced pistol, chambered in 22lr.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/22lr.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/22lr.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/22lr.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Pistols/22lr.rsi
   - type: Gun
     fireRate: 4
     soundGunshot:

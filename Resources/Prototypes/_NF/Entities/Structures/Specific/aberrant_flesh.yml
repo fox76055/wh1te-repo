@@ -24,7 +24,7 @@
         layer:
         - MobLayer
   - type: Sprite
-    sprite: _NF/Structures/Specific/AberrantFlesh/digestivesack.rsi
+    sprite: /_NF/Structures/Specific/AberrantFlesh/digestivesack.rsi
     drawdepth: Mobs
     snapCardinals: true
     layers:

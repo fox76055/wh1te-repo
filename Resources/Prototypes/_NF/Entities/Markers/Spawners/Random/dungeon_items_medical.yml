@@ -9,9 +9,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/healthanalyzer.rsi
+      - sprite: /Objects/Specific/Medical/healthanalyzer.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -60,9 +60,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
+      - sprite: /_NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
         state: firstaid
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -98,9 +98,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/Surgery/saw.rsi
+      - sprite: /Objects/Specific/Medical/Surgery/saw.rsi
         state: improv
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -124,9 +124,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/Surgery/saw.rsi
+      - sprite: /Objects/Specific/Medical/Surgery/saw.rsi
         state: saw
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -153,9 +153,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/Surgery/saw.rsi
+      - sprite: /Objects/Specific/Medical/Surgery/saw.rsi
         state: advanced
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -183,9 +183,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Clothing/Back/Duffels/medical.rsi
+      - sprite: /Clothing/Back/Duffels/medical.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -209,9 +209,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Chemistry/beaker_large.rsi
+      - sprite: /Objects/Specific/Chemistry/beaker_large.rsi
         state: beakerlarge
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -239,9 +239,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/medipen.rsi
+      - sprite: /Objects/Specific/Medical/medipen.rsi
         state: firstaid
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -273,9 +273,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/medical.rsi
+      - sprite: /Objects/Specific/Medical/medical.rsi
         state: gauze
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -302,9 +302,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/medical.rsi
+      - sprite: /Objects/Specific/Medical/medical.rsi
         state: gauze
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -325,9 +325,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
+      - sprite: /Objects/Specific/Medical/Morgue/bodybags.rsi
         state: bag
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -353,9 +353,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/implanter.rsi
+      - sprite: /Objects/Specific/Medical/implanter.rsi
         state: implanter0
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -389,9 +389,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Chemistry/syringe.rsi
+      - sprite: /Objects/Specific/Chemistry/syringe.rsi
         state: syringe_base0
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -429,9 +429,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/hypospray.rsi
+      - sprite: /Objects/Specific/Medical/hypospray.rsi
         state: hypo
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -456,9 +456,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Clothing/Uniforms/Jumpsuit/medical.rsi
+      - sprite: /Clothing/Uniforms/Jumpsuit/medical.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -499,11 +499,11 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/closet.rsi
+      - sprite: /Structures/Storage/closet.rsi
         state: med_secure
-      - sprite: Structures/Storage/closet.rsi
+      - sprite: /Structures/Storage/closet.rsi
         state: med_secure_door
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -534,9 +534,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
+      - sprite: /Structures/Storage/Crates/medicalcrate_secure.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -590,9 +590,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
+      - sprite: /Structures/Storage/Crates/medicalcrate_secure.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -612,9 +612,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
+      - sprite: /Structures/Storage/Crates/medicalcrate_secure.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -634,9 +634,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Structures/Machines/VendingMachines/medical.rsi
+      - sprite: /Structures/Machines/VendingMachines/medical.rsi
         state: off
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -666,9 +666,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Specific/Chemistry/beaker.rsi
+      - sprite: /Objects/Specific/Chemistry/beaker.rsi
         state: beaker
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -717,9 +717,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: Objects/Misc/module.rsi
+      - sprite: /Objects/Misc/module.rsi
         state: medical
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -757,9 +757,9 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: _NF/Objects/Devices/flatpack.rsi
+      - sprite: /_NF/Objects/Devices/flatpack.rsi
         state: engineering_lathe
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: RandomSpawner

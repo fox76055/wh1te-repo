@@ -1,8 +1,8 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_baked_whole.yml & food_baked_single.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_baked_whole.yml & /food_baked_single.yml
 # Base
 
 - type: entity
-  parent: [ FoodInjectableBase, LaunchableProjectileBase ] # Frontier: added LaunchableProjectileBase, located in \Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\base_projectiles.yml
+  parent: [ FoodInjectableBase, LaunchableProjectileBase ] # Frontier: added LaunchableProjectileBase, located in /Resources/Prototypes/_NF/Entities/Objects/Weapons/Guns/Projectiles/base_projectiles.yml
   id: FoodBreadBase
   abstract: true
   components:
@@ -11,7 +11,7 @@
       - bread
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/bread.rsi
+    sprite: /Objects/Consumable/Food/Baked/bread.rsi
   - type: Tag
     tags:
     - Bread
@@ -1013,7 +1013,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Mobs
-    sprite: Mobs/Pets/breaddog.rsi
+    sprite: /Mobs/Pets/breaddog.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: base

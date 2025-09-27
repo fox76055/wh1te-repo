@@ -46,10 +46,10 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/window.rsi
+    sprite: /_NF/Structures/Windows/window.rsi
     color: "#ffd38c"
   - type: Icon
-    sprite: _NF/Structures/Windows/window.rsi
+    sprite: /_NF/Structures/Windows/window.rsi
     state: full
 
 # Reinforced window
@@ -62,10 +62,10 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/reinforced_window.rsi
+    sprite: /_NF/Structures/Windows/reinforced_window.rsi
     color: "#ffd38c"
   - type: Icon
-    sprite: _NF/Structures/Windows/reinforced_window.rsi
+    sprite: /_NF/Structures/Windows/reinforced_window.rsi
 
 # Mining window
 - type: entity
@@ -77,10 +77,10 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/mining.rsi
+    sprite: /Structures/Windows/mining.rsi
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/mining.rsi
+    sprite: /Structures/Windows/mining.rsi
   - type: Destructible # Made it as durable as common window
     thresholds:
     - trigger:
@@ -108,10 +108,10 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/plasma_window.rsi
+    sprite: /_NF/Structures/Windows/plasma_window.rsi
     color: "#ffd38c"
   - type: Icon
-    sprite: _NF/Structures/Windows/plasma_window.rsi
+    sprite: /_NF/Structures/Windows/plasma_window.rsi
 
 # Plasma reinforced window
 - type: entity
@@ -123,10 +123,10 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/reinforced_plasma_window.rsi
+    sprite: /_NF/Structures/Windows/reinforced_plasma_window.rsi
     color: "#ffd38c"
   - type: Icon
-    sprite: _NF/Structures/Windows/reinforced_plasma_window.rsi
+    sprite: /_NF/Structures/Windows/reinforced_plasma_window.rsi
 
 # Uranium reinforced window
 - type: entity
@@ -138,10 +138,10 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _NF/Structures/Windows/reinforced_uranium_window.rsi
+    sprite: /_NF/Structures/Windows/reinforced_uranium_window.rsi
     color: "#ffd38c"
   - type: Icon
-    sprite: _NF/Structures/Windows/reinforced_uranium_window.rsi
+    sprite: /_NF/Structures/Windows/reinforced_uranium_window.rsi
 
 # Directional
 - type: entity
@@ -153,11 +153,11 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: window
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: window
 
 - type: entity
@@ -168,11 +168,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: frosted_window
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: frosted_window
 
 - type: entity
@@ -183,11 +183,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: reinforced_window
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: reinforced_window
 
 - type: entity
@@ -198,11 +198,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: plasma_window
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: plasma_window
 
 - type: entity
@@ -213,11 +213,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: plasma_reinforced_window
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: plasma_reinforced_window
 
 - type: entity
@@ -228,11 +228,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: uranium_window
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: uranium_window
 
 - type: entity
@@ -243,9 +243,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: uranium_reinforced_window
     color: "#ffd38c"
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: /Structures/Windows/directional.rsi
     state: uranium_reinforced_window

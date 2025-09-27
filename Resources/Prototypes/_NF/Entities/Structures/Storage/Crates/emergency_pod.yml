@@ -9,11 +9,11 @@
     noRot: true
   - type: Anchorable
   - type: Icon
-    sprite:  _NF/Structures/Storage/emergency_pod.rsi
+    sprite:  /_NF/Structures/Storage/emergency_pod.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _NF/Structures/Storage/emergency_pod.rsi
+    sprite: /_NF/Structures/Storage/emergency_pod.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -113,11 +113,11 @@
     noRot: true
   - type: Anchorable
   - type: Icon
-    sprite:  _NF/Structures/Storage/emergency_pod.rsi
+    sprite:  /_NF/Structures/Storage/emergency_pod.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _NF/Structures/Storage/emergency_pod.rsi
+    sprite: /_NF/Structures/Storage/emergency_pod.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]

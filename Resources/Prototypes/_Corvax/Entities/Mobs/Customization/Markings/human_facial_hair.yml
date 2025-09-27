@@ -4,7 +4,7 @@
   markingCategory: FacialHair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_facial_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_facial_hair.rsi
       state: handlebar
 
 - type: marking
@@ -13,5 +13,5 @@
   markingCategory: FacialHair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_facial_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_facial_hair.rsi
       state: handlebar2

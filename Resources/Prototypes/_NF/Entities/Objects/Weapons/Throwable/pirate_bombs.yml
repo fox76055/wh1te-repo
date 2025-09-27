@@ -30,7 +30,7 @@
   description: A foul-smelling grenade that makes you feel fuzzy.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Bombs/pirate_caustic.rsi
+    sprite: /_NF/Objects/Weapons/Bombs/pirate_caustic.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -48,7 +48,7 @@
   description: A solid grenade that feels like a cannonball.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Bombs/pirate_explosive.rsi
+    sprite: /_NF/Objects/Weapons/Bombs/pirate_explosive.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -67,7 +67,7 @@
   description: A grenade that's hot to the touch; prone to catch things on fire.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Bombs/pirate_fire.rsi
+    sprite: /_NF/Objects/Weapons/Bombs/pirate_fire.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]

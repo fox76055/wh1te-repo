@@ -8,5 +8,5 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    texture: Interface/VerbIcons/information.svg.192dpi.png
+    texture: Interface/VerbIcons/information.svg./192dpi.png
     scale: 0.3,0.3

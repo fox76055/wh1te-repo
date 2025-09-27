@@ -248,9 +248,9 @@
   description: Мантия отличающая командира РХБЗЗ от его подчинённых.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/mantles/hosmantle_shoulder.rsi
+    sprite: /Clothing/Neck/mantles/hosmantle_shoulder.rsi
   - type: Clothing
-    sprite: Clothing/Neck/mantles/hosmantle_shoulder.rsi
+    sprite: /Clothing/Neck/mantles/hosmantle_shoulder.rsi
 
 - type: entity
   parent: PillCanister

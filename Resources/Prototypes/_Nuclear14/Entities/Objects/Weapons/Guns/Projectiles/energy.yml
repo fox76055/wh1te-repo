@@ -10,7 +10,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: declone
       shader: unshaded
@@ -69,7 +69,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: /Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser_greyscale
       shader: unshaded

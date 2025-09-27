@@ -27,7 +27,7 @@
   - type: BallisticAmmoProvider
     proto: N14CartridgePistol9
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/9mmloader.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/9mmloader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]

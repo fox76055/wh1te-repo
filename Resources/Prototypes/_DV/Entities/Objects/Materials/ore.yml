@@ -7,10 +7,10 @@
   - type: Stack
     stackType: BluespaceOre
   - type: Sprite
-    sprite: _NF/Objects/Materials/ore.rsi
+    sprite: /_NF/Objects/Materials/ore.rsi
     state: bluespace
   - type: Item
-    sprite: _NF/Objects/Materials/ore.rsi
+    sprite: /_NF/Objects/Materials/ore.rsi
   - type: Material
   - type: PhysicalComposition
     materialComposition:

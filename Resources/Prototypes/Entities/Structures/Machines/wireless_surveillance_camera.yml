@@ -55,7 +55,7 @@
       bodyType: Static
     - type: Sprite
       noRot: true
-      sprite: Structures/monitors.rsi
+      sprite: /Structures/monitors.rsi
       layers:
         - map: [ "enum.SurveillanceCameraVisualsKey.Key" ]
           state: television
@@ -71,7 +71,7 @@
     - type: Transform
     - type: Sprite
       noRot: true
-      sprite: Structures/monitors.rsi
+      sprite: /Structures/monitors.rsi
       layers:
         - map: [ "enum.SurveillanceCameraVisualsKey.Key" ]
           state: mobilevision

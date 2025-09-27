@@ -16,7 +16,7 @@
   - type: InteractionOutline
   - type: Sprite
     noRot: false
-    sprite: Effects/clicktest.rsi
+    sprite: /Effects/clicktest.rsi
 
 
 - type: entity

@@ -8,7 +8,7 @@
   suffix: NPC Loot
   components:
   - type: Sprite
-    sprite: Clothing/Back/Duffels/salvage.rsi
+    sprite: /Clothing/Back/Duffels/salvage.rsi
     state: icon
 
 # EXPLORER NPC LOOT

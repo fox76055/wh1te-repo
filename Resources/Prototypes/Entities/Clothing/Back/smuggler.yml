@@ -41,7 +41,7 @@
   description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/smuggler.rsi
+    sprite: /Clothing/Back/Satchels/smuggler.rsi
     state: icon
 
 - type: entity
@@ -52,7 +52,7 @@
   description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/smuggler.rsi
+    sprite: /Clothing/Back/Satchels/smuggler.rsi
     state: icon
 
 - type: entity
@@ -99,7 +99,7 @@
   suffix: Smuggler, Do Not Map
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/smuggler.rsi
+    sprite: /Clothing/Back/Satchels/smuggler.rsi
     state: icon
   - type: EntityTableContainerFill
     containers:
@@ -114,7 +114,7 @@
   components:
   - type: Sprite
     layers:
-      - sprite: Clothing/Back/Satchels/smuggler.rsi
+      - sprite: /Clothing/Back/Satchels/smuggler.rsi
         state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector

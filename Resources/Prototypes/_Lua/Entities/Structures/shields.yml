@@ -17,7 +17,7 @@
       projectileWattPerImpact: 8
       damageSurgeDuration: 8
     - type: Sprite
-      sprite: _Lua/Structures/Machines/shield.rsi
+      sprite: /_Lua/Structures/Machines/shield.rsi
       snapCardinals: true
       layers:
       - state: control

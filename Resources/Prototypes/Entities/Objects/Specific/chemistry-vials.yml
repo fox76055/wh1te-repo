@@ -17,7 +17,7 @@
     solution: beaker
   - type: SpaceGarbage
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/vial.rsi
+    sprite: /Objects/Specific/Chemistry/vial.rsi
     layers:
       - state: vial-1
       - state: vial-1-1
@@ -57,7 +57,7 @@
         type: TransferAmountBoundUserInterface
   - type: Item
     size: Tiny
-    sprite: Objects/Specific/Chemistry/vial.rsi
+    sprite: /Objects/Specific/Chemistry/vial.rsi
     shape:
     - 0,0,0,0
   - type: MeleeWeapon
@@ -112,7 +112,7 @@
   components:
   # All this shit is here to avoid inheriting breakable, since borgs can't replace broken vials.
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/vial.rsi
+    sprite: /Objects/Specific/Chemistry/vial.rsi
     layers:
       - state: vial-1
       - state: vial-1-1
@@ -152,7 +152,7 @@
         type: TransferAmountBoundUserInterface
   - type: Item
     size: Tiny
-    sprite: Objects/Specific/Chemistry/vial.rsi
+    sprite: /Objects/Specific/Chemistry/vial.rsi
     shape:
     - 0,0,0,0
   - type: MeleeWeapon

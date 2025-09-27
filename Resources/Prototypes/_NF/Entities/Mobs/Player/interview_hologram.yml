@@ -12,7 +12,7 @@
   - type: HumanoidAppearance
     species: Human
   - type: Fixtures
-    fixtures: # Fixtures taken from species/base.yml
+    fixtures: # Fixtures taken from /species/base.yml
       fix1:
         shape:
           !type:PhysShapeCircle
@@ -102,8 +102,8 @@
   description: Toggles whether or not you approve to work with this crew.
   components:
   - type: Action
-    icon: _NF/Interface/Actions/acceptOff.png
-    iconOn: _NF/Interface/Actions/accept.png
+    icon: /_NF/Interface/Actions/acceptOff.png
+    iconOn: /_NF/Interface/Actions/accept.png
     checkCanInteract: false
     itemIconStyle: NoItem
     useDelay: 1.5
@@ -117,7 +117,7 @@
   description: Cancel your application and return to the lobby.
   components:
   - type: Action
-    icon: _NF/Interface/Actions/paperFire.png
+    icon: /_NF/Interface/Actions/paperFire.png
     checkCanInteract: false
     itemIconStyle: NoItem
     useDelay: 3

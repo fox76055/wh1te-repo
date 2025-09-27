@@ -9,9 +9,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/Belt/lua_belt.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/Belt/lua_belt.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Clothing/Belt/lua_belt.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Clothing/Belt/lua_belt.rsi
   - type: Storage
     grid:
       - 0,0,9,1
@@ -38,7 +38,7 @@
       signProto: LuaTechForcefield
       chargeUse: 30
     - type: Sprite
-      sprite: Objects/Devices/Holoprojectors/field.rsi
+      sprite: /Objects/Devices/Holoprojectors/field.rsi
       state: icon
 
 - type: entity
@@ -53,7 +53,7 @@
   - type: Airtight
     noAirWhenFullyAirBlocked: false
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Structures/Holo/field.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Structures/Holo/field.rsi
     state: icon
 
 - type: entity
@@ -64,9 +64,9 @@
   description: Визор разработанный "LuaTech".
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Clothing/Eyes/Hud/lua_hud.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Clothing/Eyes/Hud/lua_hud.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_White/Clothing/Eyes/Hud/lua_hud.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Clothing/Eyes/Hud/lua_hud.rsi
   - type: ShowHealthBars
     damageContainers:
     - Biological
@@ -92,9 +92,9 @@
   components:
   - type: HandheldGPS
   - type: Icon
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Devices/lua_pda.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Devices/lua_pda.rsi
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Devices/lua_pda.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Devices/lua_pda.rsi
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     preinstalled:
@@ -114,10 +114,10 @@
   id: HyposprayLua
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Specific/Medical/lua_hypo.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Specific/Medical/lua_hypo.rsi
     state: hypo
   - type: Item
-    sprite: _Lua/Sponsor/Lua/Lua_White/Objects/Specific/Medical/lua_hypo.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Objects/Specific/Medical/lua_hypo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
@@ -139,7 +139,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_crewmonitor.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_crewmonitor.rsi
     state: scanner
   - type: ContainerContainer
     containers:
@@ -160,7 +160,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
     state: syn_jaws_cutter
   - type: Item
     inhandVisuals:
@@ -179,7 +179,7 @@
     speedModifier: 3.0
     enabled: false
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
     quickEquip: false
     slots:
       - Belt
@@ -188,25 +188,25 @@
     entries:
     - behavior: Cutting
       sprite:
-        sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
+        sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
         state: syn_jaws_cutter
       useSound: /Audio/Items/jaws_cut.ogg
       changeSound: /Audio/Items/change_jaws.ogg
     - behavior: Prying
       sprite:
-        sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
+        sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
         state: syn_jaws_pry
       useSound: /Audio/Items/jaws_pry.ogg
       changeSound: /Audio/Items/change_jaws.ogg
     - behavior: Screwing
       sprite:
-        sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
+        sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
         state: syn_jaws_drill
       useSound: /Audio/Items/drill_use.ogg
       changeSound: /Audio/Items/change_jaws.ogg
     - behavior: Anchoring
       sprite:
-        sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
+        sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_jaws.rsi
         state: syn_jaws_wrench
       useSound: /Audio/Items/ratchet.ogg
       changeSound: /Audio/Items/change_jaws.ogg
@@ -224,7 +224,7 @@
   components:
   - type: Item
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_massscanner.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_massscanner.rsi
     state: icon
     layers:
       - state: icon
@@ -242,13 +242,13 @@
   components:
   - type: TrayScanner
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_multitool.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_multitool.rsi
     layers:
     - state: icon
     - state: green-unlit
       shader: unshaded
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_multitool.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_multitool.rsi
     quickEquip: false
     slots:
     - Belt
@@ -261,12 +261,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_rcd.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_rcd.rsi
     state: icon
   - type: Item
     size: Small
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_rcd.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_rcd.rsi
     quickEquip: false
     slots:
     - Belt
@@ -279,7 +279,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_welder.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_welder.rsi
     layers:
     - state: icon
     - state: welder_flame
@@ -288,4 +288,4 @@
       map: ["enum.ToggleableVisuals.Layer"]
   - type: Item
     size: Small
-    sprite: _Lua/Sponsor/Lua/Lua_Black/Tools/lua_welder.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_Black/Tools/lua_welder.rsi

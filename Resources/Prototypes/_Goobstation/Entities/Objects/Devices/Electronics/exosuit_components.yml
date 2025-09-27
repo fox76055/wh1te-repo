@@ -8,7 +8,7 @@
     storedRotation: -90
     size: Ginormous
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_camera
   - type: StaticPrice
     price: 100
@@ -25,7 +25,7 @@
     - type: Item
       storedRotation: 0
     - type: Sprite
-      sprite: _Goobstation/Objects/Specific/Mech/durand_construction.rsi
+      sprite: /_Goobstation/Objects/Specific/Mech/durand_construction.rsi
       state: durand_armor
     - type: Tag
       tags:
@@ -43,7 +43,7 @@
     - type: Item
       storedRotation: 0
     - type: Sprite
-      sprite: _Goobstation/Objects/Specific/Mech/gygax_construction.rsi
+      sprite: /_Goobstation/Objects/Specific/Mech/gygax_construction.rsi
       state: gygax_armor
     - type: Tag
       tags:

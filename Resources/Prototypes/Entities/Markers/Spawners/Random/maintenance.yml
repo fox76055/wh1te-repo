@@ -183,7 +183,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Clothing/Eyes/Glasses/gar.rsi
+      - sprite: /Clothing/Eyes/Glasses/gar.rsi
         state: icon-super
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -311,7 +311,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Power/power_cells.rsi
+      - sprite: /Objects/Power/power_cells.rsi
         state: high
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -369,7 +369,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Weapons/Melee/machete.rsi
+      - sprite: /Objects/Weapons/Melee/machete.rsi
         state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -385,7 +385,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Misc/spaceshroom.rsi
+        - sprite: /Objects/Misc/spaceshroom.rsi
           state: structure
     - type: RandomSpawner
       prototypes:
@@ -416,7 +416,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Clothing/Hands/Gloves/Color/yellow.rsi
+    - sprite: /Clothing/Hands/Gloves/Color/yellow.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector

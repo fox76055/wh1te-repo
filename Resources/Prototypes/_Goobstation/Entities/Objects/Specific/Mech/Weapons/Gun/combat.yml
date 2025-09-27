@@ -6,7 +6,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_pulse
   - type: Gun
     fireRate: 1.2
@@ -30,7 +30,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_laser
   - type: Gun
     fireRate: 0.6
@@ -53,7 +53,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_laser
   - type: Gun
     fireRate: 1
@@ -76,7 +76,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_laser
   - type: Gun
     fireRate: 0.8
@@ -99,7 +99,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_wholegen
   - type: Gun
     projectileSpeed: 3
@@ -125,7 +125,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_disabler
   - type: Gun
     fireRate: 1
@@ -148,7 +148,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_taser
   - type: Gun
     fireRate: 1
@@ -171,7 +171,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_scatter
   - type: Gun
     fireRate: 0.5
@@ -194,7 +194,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_carbine
   - type: Gun
     fireRate: 1.2
@@ -217,7 +217,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_uac2
   - type: Gun
     fireRate: 3
@@ -240,7 +240,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_missilerack
   - type: Gun
     fireRate: 1
@@ -263,7 +263,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_missilerack_six
   - type: Gun
     fireRate: 1
@@ -286,7 +286,7 @@
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_grenadelnchr
   - type: Gun
     fireRate: 1

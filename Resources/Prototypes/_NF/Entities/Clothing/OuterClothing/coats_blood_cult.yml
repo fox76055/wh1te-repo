@@ -9,9 +9,9 @@
   description: An unholy custodian's garb. Surprisingly comfortable.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
 
 - type: entity
   id: ClothingOuterCoatBloodCultRobes
@@ -25,8 +25,8 @@
   suffix: Frontier
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Coats/cult_robes.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/cult_robes.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Coats/cult_robes.rsi
+    sprite: /_NF/Clothing/OuterClothing/Coats/cult_robes.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodBloodCulthood

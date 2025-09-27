@@ -18,7 +18,7 @@
   - type: RandomGasDeposit
   - type: Sprite
     drawdepth: FloorTiles
-    sprite: _NF/Objects/Specific/Atmospherics/deposit.rsi
+    sprite: /_NF/Objects/Specific/Atmospherics/deposit.rsi
     layers:
     - state: deposit
 
@@ -467,7 +467,7 @@
   suffix: Unpowered
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Atmospherics/locator.rsi
+    sprite: /_NF/Objects/Specific/Atmospherics/locator.rsi
     layers:
       - state: icon
       - state: screen

@@ -6,7 +6,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Melee/armingsword.rsi
+    sprite: /_NF/Objects/Weapons/Melee/armingsword.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -20,7 +20,7 @@
     reflectProb: .06
     spread: 90
   - type: Item
-    sprite: _NF/Objects/Weapons/Melee/armingsword.rsi
+    sprite: /_NF/Objects/Weapons/Melee/armingsword.rsi
   - type: DisarmMalus
   - type: Clothing
     quickEquip: false
@@ -36,7 +36,7 @@
   description: A bit pointless, isn't it?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Melee/captain_sword_hilt.rsi
+    sprite: /_NF/Objects/Weapons/Melee/captain_sword_hilt.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -48,7 +48,7 @@
       collection: MetalThud
   - type: Item
     size: Small
-    sprite: _NF/Objects/Weapons/Melee/captain_sword_hilt.rsi
+    sprite: /_NF/Objects/Weapons/Melee/captain_sword_hilt.rsi
   - type: Tag
     tags:
     - CaptainSabre

@@ -10,7 +10,7 @@
       - cheesy
       - pear
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/pie.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/pie.rsi
     layers:
     - state: tin
     - state: pearandcheese
@@ -33,7 +33,7 @@
       - cheesy
       - pear
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/pie.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/pie.rsi
     layers:
     - state: pearandcheese-slice
     - state: alpha-slice-filling
@@ -56,7 +56,7 @@
       - apple
       - oats
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/pie.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/pie.rsi
     layers:
     - state: tin
     - state: applecrisp
@@ -90,7 +90,7 @@
       - apple
       - oats
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/Baked/pie.rsi
+    sprite: /_NF/Objects/Consumable/Food/Baked/pie.rsi
     layers:
     - state: applecrisp-slice
     - state: alpha-slice-filling

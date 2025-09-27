@@ -11,7 +11,7 @@
     anchored: true
   - type: WallMount
   - type: Sprite
-    sprite: Structures/Wallmounts/bell.rsi
+    sprite: /Structures/Wallmounts/bell.rsi
     layers:
     - state: bell
   - type: InteractionPopup

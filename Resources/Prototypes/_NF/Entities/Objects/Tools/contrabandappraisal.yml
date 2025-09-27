@@ -5,15 +5,15 @@
   description: An officer's best friend, with a quantum connection to the NT database and the ability to appraise even the toughest items.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/appraisal-tool.rsi
+    sprite: /_NF/Objects/Tools/appraisal-tool.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Tools/appraisal-tool.rsi
+    sprite: /_NF/Objects/Tools/appraisal-tool.rsi
   - type: ContrabandPriceGun
   - type: UseDelay
     delay: 1
   - type: Clothing
-    sprite: _NF/Objects/Tools/appraisal-tool.rsi
+    sprite: /_NF/Objects/Tools/appraisal-tool.rsi
     quickEquip: false
     slots:
     - Belt
@@ -29,7 +29,7 @@
   description: A book claiming to appraise all items at their black market rate. The book is in tatters, and is missing several pages.
   components:
   - type: Sprite
-    sprite: Objects/Misc/books.rsi
+    sprite: /Objects/Misc/books.rsi
     layers:
     - state: paper
     - state: cover_old

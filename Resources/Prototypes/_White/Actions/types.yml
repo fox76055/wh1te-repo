@@ -9,7 +9,7 @@
     priority: -20
     useDelay: 1
     icon:
-      sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
+      sprite: /_White/Clothing/Eyes/Goggles/nightvision.rsi
       state: icon
   - type: InstantAction
     event: !type:ToggleNightVisionEvent
@@ -25,7 +25,7 @@
     priority: -20
     useDelay: 1
     icon:
-      sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+      sprite: /_White/Clothing/Eyes/Goggles/thermal.rsi
       state: icon
   - type: InstantAction
     event: !type:ToggleThermalVisionEvent

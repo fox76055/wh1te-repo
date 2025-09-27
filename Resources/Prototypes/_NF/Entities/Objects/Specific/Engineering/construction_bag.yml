@@ -8,7 +8,7 @@
   #   magnetEnabled: false
   #   magnetCanBeEnabled: false
   - type: Sprite
-    sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
+    sprite: /_NF/Objects/Specific/Engineering/construction_bag.rsi
     layers:
     - state: icon
     - state: icon-on
@@ -21,7 +21,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: Clothing
-    sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
+    sprite: /_NF/Objects/Specific/Engineering/construction_bag.rsi
     quickEquip: false
   - type: Storage
     quickInsert: true
@@ -64,7 +64,7 @@
   # - type: MagnetPickup
   #   range: 2
   - type: Sprite
-    sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
+    sprite: /_NF/Objects/Specific/Engineering/construction_bag.rsi
     layers:
     - state: icon
     - state: icon-bluespace-overlay
@@ -87,7 +87,7 @@
       - state: inhand-right-bluespace-overlay-unshaded
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Specific/Engineering/construction_bag.rsi
+    sprite: /_NF/Objects/Specific/Engineering/construction_bag.rsi
     quickEquip: false
     slots:
     - belt

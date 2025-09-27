@@ -89,7 +89,7 @@
   description: The future of transportation. Popularized by St. James, the patron saint of security officers and internet forum moderators.
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/secway.rsi
+    sprite: /Objects/Vehicles/secway.rsi
     state: vehicle
     noRot: true
   - type: Vehicle
@@ -137,7 +137,7 @@
   description: Be an enemy of the corporation, in style.
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/syndicatesegway.rsi
+    sprite: /Objects/Vehicles/syndicatesegway.rsi
     state: vehicle
     noRot: true
   - type: ItemSlots
@@ -164,7 +164,7 @@
   categories: [HideSpawnMenu] # Frontier: use NF variant
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/atv.rsi
+    sprite: /Objects/Vehicles/atv.rsi
     state: vehicle
     noRot: true
   - type: Vehicle
@@ -195,7 +195,7 @@
   categories: [HideSpawnMenu] # Frontier: use NF variant
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/janicart.rsi
+    sprite: /Objects/Vehicles/janicart.rsi
     state: vehicle
     noRot: true
   - type: Vehicle
@@ -221,7 +221,7 @@
   description: A chair with big wheels. It looks like you can move in these on your own.
   components:
   - type: Sprite
-    sprite: Objects/Vehicles/wheelchair.rsi
+    sprite: /Objects/Vehicles/wheelchair.rsi
     layers:
     - state: vehicle
       map: ["unfoldedLayer"]
@@ -266,7 +266,7 @@
   description: A luxury hoverchair, kick back and relax.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Vehicles/hoverchair.rsi
+    sprite: /_Goobstation/Objects/Vehicles/hoverchair.rsi
     layers:
     - state: vehicle
     - state: vehicle_unshaded # Frontier

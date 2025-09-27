@@ -23,7 +23,7 @@
   - type: Paper
     editingDisabled: true
   - type: PaperVisuals
-    footerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/barcode.svg.192dpi.png"
+    footerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/barcode.svg./192dpi.png"
     maxWritableArea: 512.0, 512.0
 
 - type: entity
@@ -43,7 +43,7 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/medical.svg.192dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/medical.svg./192dpi.png"
 
 - type: entity
   parent: PaperAcquisitionSlip
@@ -62,7 +62,7 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/science.svg.192dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/science.svg./192dpi.png"
 
 - type: entity
   parent: PaperAcquisitionSlip
@@ -81,7 +81,7 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/security.svg.192dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/security.svg./192dpi.png"
 
 - type: entity
   parent: PaperAcquisitionSlip
@@ -100,7 +100,7 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/service.svg.192dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/service.svg./192dpi.png"
 
 - type: entity
   parent: PaperAcquisitionSlip
@@ -119,7 +119,7 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/cargo.svg.192dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/cargo.svg./192dpi.png"
 
 - type: entity
   parent: PaperAcquisitionSlip
@@ -138,4 +138,4 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: PaperVisuals
-    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/engineering.svg.192dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/AcquisitionSlips/engineering.svg./192dpi.png"

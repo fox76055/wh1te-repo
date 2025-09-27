@@ -5,7 +5,7 @@
   name: debug bang
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
+    sprite: /Objects/Weapons/Guns/SMGs/c20r.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -42,7 +42,7 @@
   description: A weapon using light amplified by the stimulated emission of radiation.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_retro.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -73,7 +73,7 @@
   parent: [ BaseMechWeaponRange, DebugMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    sprite: /Objects/Weapons/Guns/Battery/disabler.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]

@@ -8,7 +8,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: _Goobstation/Objects/Specific/Mech/ripleymkii_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/ripleymkii_construction.rsi
 
 - type: entity
   parent: BaseRipleyMKIIPart
@@ -39,7 +39,7 @@
         whitelist:
           tags:
           - RipleyRLeg
-    sprite: _Goobstation/Objects/Specific/Mech/ripleymkii_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/ripleymkii_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container
@@ -85,7 +85,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: _Goobstation/Objects/Specific/Mech/clarke_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/clarke_construction.rsi
 
 - type: entity
   id: BaseClarkePartItem
@@ -120,7 +120,7 @@
         whitelist:
           tags:
           - ClarkeTreads
-    sprite: _Goobstation/Objects/Specific/Mech/clarke_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/clarke_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container
@@ -213,7 +213,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: _Goobstation/Objects/Specific/Mech/durand_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/durand_construction.rsi
 
 - type: entity
   id: BaseDurandPartItem
@@ -252,7 +252,7 @@
         whitelist:
           tags:
           - DurandRLeg
-    sprite: _Goobstation/Objects/Specific/Mech/durand_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/durand_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container
@@ -358,7 +358,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: _Goobstation/Objects/Specific/Mech/gygax_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/gygax_construction.rsi
 
 - type: entity
   id: BaseGygaxPartItem
@@ -397,7 +397,7 @@
         whitelist:
           tags:
           - GygaxRLeg
-    sprite: _Goobstation/Objects/Specific/Mech/gygax_construction.rsi
+    sprite: /_Goobstation/Objects/Specific/Mech/gygax_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container

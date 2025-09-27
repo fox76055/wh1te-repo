@@ -9,7 +9,7 @@
   description: M70-Вулкан высокоскорострельный миниган на корпусе выгравировано "LuaTech"
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /_Lua/Objects/Specific/Mech/mecha_equipment.rsi
     layers:
     - state: mecha_minigun
   - type: Gun
@@ -39,7 +39,7 @@
   description: MR12-Клан пусковая ракетная устновка на корпусе выгравировано "LuaTech"
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /_Lua/Objects/Specific/Mech/mecha_equipment.rsi
     layers:
     - state: mecha_mrack
       map: ["enum.GunVisualLayers.Base"]
@@ -90,7 +90,7 @@
 #     soundGunshot:
 #       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
 #   - type: Sprite
-#     sprite: _Lua/Objects/Specific/Mech/mecha_equipment.rsi
+#     sprite: /_Lua/Objects/Specific/Mech/mecha_equipment.rsi
 #     state: mecha_sniper
 #   - type: BallisticAmmoProvider
 #    # whitelist:

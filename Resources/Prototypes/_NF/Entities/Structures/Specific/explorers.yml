@@ -5,7 +5,7 @@
   description: Essential tool for any looter.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Specific/Explorers/salvageradar.rsi
+    sprite: /_NF/Structures/Specific/Explorers/salvageradar.rsi
     layers:
     - state: base
     - state: unshaded

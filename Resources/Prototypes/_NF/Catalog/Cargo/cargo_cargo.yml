@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: CrateTradeSecureNormal
   icon:
-    sprite: _NF/Structures/Storage/Crates/tradedark.rsi
+    sprite: /_NF/Structures/Storage/Crates/tradedark.rsi
     state: icon
   product: CrateTradeSecureNormal
   cost: 1000
@@ -11,7 +11,7 @@
 - type: cargoProduct
   id: CrateTradeSecureHigh
   icon:
-    sprite: _NF/Structures/Storage/Crates/tradelight.rsi
+    sprite: /_NF/Structures/Storage/Crates/tradelight.rsi
     state: icon
   product: CrateTradeSecureHigh
   cost: 2000
@@ -25,7 +25,7 @@
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Mech/mecha.rsi
+    sprite: /_NF/Objects/Specific/Mech/mecha.rsi
     state: emu
   - type: EntityTableSpawner
     offset: 0
@@ -37,7 +37,7 @@
 - type: cargoProduct
   id: MechEmu
   icon:
-    sprite: _NF/Objects/Specific/Mech/mecha.rsi
+    sprite: /_NF/Objects/Specific/Mech/mecha.rsi
     state: emu
   product: MechEmuCargoListing
   cost: 5000

@@ -5,9 +5,9 @@
   description: A hardsuit helmet with signature markings of the Viper Group. Has a built-in medical HUD complemented by thermal pulse systems.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/nukeops.rsi
+    sprite: /_Lua/Clothing/Head/nukeops.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/nukeops.rsi
+    sprite: /_Lua/Clothing/Head/nukeops.rsi
   - type: PointLight
     color: "#00ff2a"
   - type: NightVision
@@ -39,9 +39,9 @@
   description: A hardsuit helmet with signature markings of the Viper Group. Has a built-in medical HUD complemented by thermal pulse systems.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/pmc.rsi
+    sprite: /_Lua/Clothing/Head/pmc.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/pmc.rsi
+    sprite: /_Lua/Clothing/Head/pmc.rsi
   - type: PointLight
     color: "#00ff2a"
   - type: NightVision

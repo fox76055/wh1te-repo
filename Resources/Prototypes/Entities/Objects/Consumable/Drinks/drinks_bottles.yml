@@ -1,4 +1,4 @@
-# When adding new drinks also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\drinks_bottles.yml
+# When adding new drinks also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/drinks_bottles.yml
 - type: entity
   parent: DrinkBase
   id: DrinkBottlePlasticBaseFull
@@ -20,7 +20,7 @@
         maxVol: 100
   - type: Sprite
     state: icon
-    sprite: Objects/Consumable/Drinks/generic_jug.rsi # fallback to generic plastic jug
+    sprite: /Objects/Consumable/Drinks/generic_jug.rsi # fallback to generic plastic jug
   - type: Item
     size: Normal
   - type: Damageable
@@ -69,7 +69,7 @@
       collection: bottleCloseSounds
   - type: Sprite
     state: icon
-    sprite: Objects/Consumable/Drinks/waterbottle.rsi
+    sprite: /Objects/Consumable/Drinks/waterbottle.rsi
   - type: Damageable
     damageContainer: Inorganic
   - type: Destructible
@@ -101,7 +101,7 @@
       drink:
         maxVol: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi
+    sprite: /Objects/Consumable/Drinks/beer.rsi
   - type: DamageOnLand
     damage:
       types:
@@ -207,7 +207,7 @@
           True: {state: "icon_open"}
           False: {state: "icon_empty"}
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-bottle.rsi
+    sprite: /Objects/Consumable/Drinks/alco-bottle.rsi
     layers:
       - state: icon
         map: ["enum.OpenableVisuals.Layer"]
@@ -235,7 +235,7 @@
   - type: Label
     currentLabel: reagent-name-absinthe
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/absinthebottle.rsi
+    sprite: /Objects/Consumable/Drinks/absinthebottle.rsi
   - type: Sealable
 
 - type: entity
@@ -253,7 +253,7 @@
   - type: Label
     currentLabel: reagent-name-blue-curacao
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-bottle.rsi
+    sprite: /Objects/Consumable/Drinks/alco-bottle.rsi
     layers:
       - state: icon_blue
         map: ["enum.OpenableVisuals.Layer"]
@@ -279,7 +279,7 @@
   - type: Label
     currentLabel: reagent-name-nothing
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/bottleofnothing.rsi
+    sprite: /Objects/Consumable/Drinks/bottleofnothing.rsi
   - type: Sealable
 
 - type: entity
@@ -297,7 +297,7 @@
   - type: Label
     currentLabel: reagent-name-champagne
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/champagnebottle.rsi
+    sprite: /Objects/Consumable/Drinks/champagnebottle.rsi
   - type: Openable
     closeable: false # Champagne corks are fat. Not worth the effort.
 
@@ -316,7 +316,7 @@
   - type: Label
     currentLabel: reagent-name-cognac
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cognacbottle.rsi
+    sprite: /Objects/Consumable/Drinks/cognacbottle.rsi
   - type: Sealable
 
 - type: entity
@@ -337,7 +337,7 @@
   - type: Openable
     opened: true
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/grenadinebottle.rsi
+    sprite: /Objects/Consumable/Drinks/grenadinebottle.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 6
 
@@ -356,7 +356,7 @@
   - type: Label
     currentLabel: reagent-name-gin
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/ginbottle.rsi
+    sprite: /Objects/Consumable/Drinks/ginbottle.rsi
   - type: Sealable
 
 - type: entity
@@ -374,7 +374,7 @@
   - type: Label
     currentLabel: reagent-name-gildlager
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/gildlagerbottle.rsi
+    sprite: /Objects/Consumable/Drinks/gildlagerbottle.rsi
   - type: Sealable
 
 - type: entity
@@ -392,7 +392,7 @@
   - type: Label
     currentLabel: reagent-name-coffeeliqueur
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/coffeeliqueurbottle.rsi
+    sprite: /Objects/Consumable/Drinks/coffeeliqueurbottle.rsi
   - type: Sealable
 
 - type: entity
@@ -410,7 +410,7 @@
   - type: Label
     currentLabel: reagent-name-melon-liquor
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-bottle.rsi
+    sprite: /Objects/Consumable/Drinks/alco-bottle.rsi
     layers:
       - state: icon_green
         map: ["enum.OpenableVisuals.Layer"]
@@ -436,7 +436,7 @@
   - type: Label
     currentLabel: reagent-name-patron
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/patronbottle.rsi
+    sprite: /Objects/Consumable/Drinks/patronbottle.rsi
 
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
@@ -451,7 +451,7 @@
         - ReagentId: PoisonWine
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pwinebottle.rsi
+    sprite: /Objects/Consumable/Drinks/pwinebottle.rsi
   - type: Sealable
   - type: Tag
     tags:
@@ -473,7 +473,7 @@
   - type: Label
     currentLabel: reagent-name-rum
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/rumbottle.rsi
+    sprite: /Objects/Consumable/Drinks/rumbottle.rsi
   - type: Sealable
 
 - type: entity
@@ -491,7 +491,7 @@
   - type: Label
     currentLabel: reagent-name-tequila
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tequillabottle.rsi
+    sprite: /Objects/Consumable/Drinks/tequillabottle.rsi
   - type: Sealable
 
 - type: entity
@@ -509,7 +509,7 @@
   - type: Label
     currentLabel: reagent-name-vermouth
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/vermouthbottle.rsi
+    sprite: /Objects/Consumable/Drinks/vermouthbottle.rsi
   - type: Sealable
 
 - type: entity
@@ -527,7 +527,7 @@
   - type: Label
     currentLabel: reagent-name-vodka
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/vodkabottle.rsi
+    sprite: /Objects/Consumable/Drinks/vodkabottle.rsi
   - type: Sealable
 
 - type: entity
@@ -545,7 +545,7 @@
   - type: Label
     currentLabel: reagent-name-whiskey
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/whiskeybottle.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeybottle.rsi
   - type: Sealable
 
 - type: entity
@@ -563,7 +563,7 @@
   - type: Label
     currentLabel: reagent-name-wine
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/winebottle.rsi
+    sprite: /Objects/Consumable/Drinks/winebottle.rsi
   - type: Sealable
   - type: Tag
     tags:
@@ -586,7 +586,7 @@
   - type: Label
     currentLabel: reagent-name-beer
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi
+    sprite: /Objects/Consumable/Drinks/beer.rsi
   - type: Openable
     closeable: false
   - type: Tag
@@ -610,7 +610,7 @@
   - type: Label
     currentLabel: reagent-name-ale
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alebottle.rsi
+    sprite: /Objects/Consumable/Drinks/alebottle.rsi
   - type: Openable
     closeable: false
 
@@ -631,7 +631,7 @@
   - type: Label
     currentLabel: reagent-name-cola
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/colabottle.rsi
+    sprite: /Objects/Consumable/Drinks/colabottle.rsi
   - type: Sealable
 
 - type: entity
@@ -649,7 +649,7 @@
   - type: Label
     currentLabel: reagent-name-space-mountain-wind
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
+    sprite: /Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
   - type: Sealable
 
 - type: entity
@@ -667,7 +667,7 @@
   - type: Label
     currentLabel: reagent-name-space-up
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space-up_bottle.rsi
+    sprite: /Objects/Consumable/Drinks/space-up_bottle.rsi
   - type: Sealable
 
 - type: entity
@@ -684,7 +684,7 @@
         - ReagentId: SodaWater
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/sodawater-bottle.rsi
+    sprite: /Objects/Consumable/Drinks/sodawater-bottle.rsi
   - type: Label
     currentLabel: reagent-name-soda-water
   - type: Sealable
@@ -703,7 +703,7 @@
         - ReagentId: TonicWater
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tonic-bottle.rsi
+    sprite: /Objects/Consumable/Drinks/tonic-bottle.rsi
   - type: Label
     currentLabel: reagent-name-tonic-water
   - type: Sealable
@@ -723,7 +723,7 @@
         - ReagentId: Water
           Quantity: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/waterbottle.rsi
+    sprite: /Objects/Consumable/Drinks/waterbottle.rsi
   - type: SolutionContainerVisuals
     inHandsMaxFillLevels: 2
     inHandsFillBaseName: -fill-
@@ -746,7 +746,7 @@
   - type: Label
     currentLabel: reagent-name-beer
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi
+    sprite: /Objects/Consumable/Drinks/beer.rsi
   - type: Openable
     closeable: false
   - type: Tag
@@ -768,7 +768,7 @@
   - type: Label
     currentLabel: reagent-name-ale
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alebottle.rsi
+    sprite: /Objects/Consumable/Drinks/alebottle.rsi
   - type: Openable
     closeable: false
 
@@ -792,7 +792,7 @@
   - type: Label
     currentLabel: reagent-name-sake
   - type: Sprite
-    sprite: _NF/Objects/Consumable/Drinks/sakebottle.rsi # Frontier: use _NF version
+    sprite: /_NF/Objects/Consumable/Drinks/sakebottle.rsi # Frontier: use _NF version
   - type: Sealable
 
 # Cartons, TODO: this needs to be moved elsewhere eventually, since cartons shouldnt smash into glass shards
@@ -814,7 +814,7 @@
   - type: Label
     currentLabel: reagent-name-juice-lime
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/limejuice.rsi
+    sprite: /Objects/Consumable/Drinks/limejuice.rsi
 
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
@@ -833,7 +833,7 @@
   - type: Label
     currentLabel: reagent-name-juice-orange
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/orangejuice.rsi
+    sprite: /Objects/Consumable/Drinks/orangejuice.rsi
 
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
@@ -852,7 +852,7 @@
   - type: Label
     currentLabel: reagent-name-cream
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cream.rsi
+    sprite: /Objects/Consumable/Drinks/cream.rsi
 
 #boring jugs some more sprites are made
 

@@ -10,7 +10,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default

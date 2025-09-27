@@ -10,7 +10,7 @@
   description: Ominous.
   components:
     - type: Sprite
-      sprite: _Lua/Objects/Misc/button.rsi
+      sprite: /_Lua/Objects/Misc/button.rsi
       state: "buttonred"
 
 - type: entity

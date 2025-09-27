@@ -5,10 +5,10 @@
   description: Displays a readout of the station's camera network.
   components:
   - type: Sprite
-    sprite: Objects/Devices/tablets.rsi
+    sprite: /Objects/Devices/tablets.rsi
     layers:
       - state: tablet
-      - sprite: _NF/Objects/Devices/tablets.rsi
+      - sprite: /_NF/Objects/Devices/tablets.rsi
         state: cameras
         shader: unshaded
   - type: Damageable

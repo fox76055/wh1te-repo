@@ -5,9 +5,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/bmf.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/bmf.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/bmf.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/bmf.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -16,9 +16,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/musical.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/musical.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/musical.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/musical.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -27,9 +27,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/kvdhead.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/kvdhead.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/kvdhead.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/kvdhead.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -38,9 +38,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/mvd.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/mvd.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/mvd.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/mvd.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -49,9 +49,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/msh.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/msh.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/msh.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/msh.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -60,9 +60,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/sea.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/sea.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/sea.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/sea.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -71,9 +71,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/millitary.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/millitary.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/millitary.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/millitary.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -82,9 +82,9 @@
   description:
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/Nine/border.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/border.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/Nine/border.rsi
+    sprite: /ADT/Clothing/Head/Hats/Nine/border.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -93,9 +93,9 @@
   description: Pepe
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Nine/bmf.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/bmf.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Nine/bmf.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/bmf.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -104,9 +104,9 @@
   description: Pepe
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Nine/musical.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/musical.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Nine/musical.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/musical.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -115,9 +115,9 @@
   description: Pepe
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Nine/kvd.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/kvd.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Nine/kvd.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/kvd.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -126,9 +126,9 @@
   description: Pepe
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Nine/sea.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/sea.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Nine/sea.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/sea.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -137,9 +137,9 @@
   description: Pepe
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Nine/commonnine.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/commonnine.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Nine/commonnine.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/commonnine.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -148,9 +148,9 @@
   description: Pepe
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Nine/millitary.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/millitary.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Nine/millitary.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/millitary.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -159,6 +159,6 @@
   description: Pepe
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Uniforms/Nine/border.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/border.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Uniforms/Nine/border.rsi
+    sprite: /ADT/Clothing/Uniforms/Nine/border.rsi

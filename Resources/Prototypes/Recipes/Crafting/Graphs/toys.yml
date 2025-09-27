@@ -9,12 +9,12 @@
             - tag: PlushieGhost
               name: construction-graph-tag-ghost
               icon:
-                sprite: Mobs/Ghosts/ghost_human.rsi
+                sprite: /Mobs/Ghosts/ghost_human.rsi
                 state: icon
             - tag: Ectoplasm
               name: construction-graph-tag-ectoplasm
               icon:
-                sprite: Mobs/Ghosts/revenant.rsi
+                sprite: /Mobs/Ghosts/revenant.rsi
                 state: ectoplasm
               doAfter: 10
     - node: plushie
@@ -31,7 +31,7 @@
       - tag: HideCorgi
         name: construction-graph-tag-corgi-hide
         icon:
-          sprite: Objects/Materials/materials.rsi
+          sprite: /Objects/Materials/materials.rsi
           state: corgihide
         doAfter: 5
   - node: suit

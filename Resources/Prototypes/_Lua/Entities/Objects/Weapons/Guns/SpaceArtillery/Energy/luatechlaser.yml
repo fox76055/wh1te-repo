@@ -18,15 +18,15 @@
           layer:
             - MachineLayer
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Turrets/laserluatech.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Turrets/laserluatech.rsi
       drawdepth: Mobs
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
         - state: impulselaser
-          sprite: _Lua/Objects/Weapons/Guns/Turrets/laserluatech.rsi
+          sprite: /_Lua/Objects/Weapons/Guns/Turrets/laserluatech.rsi
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: impulselaser-unshaded
-          sprite: _Lua/Objects/Weapons/Guns/Turrets/laserluatech.rsi
+          sprite: /_Lua/Objects/Weapons/Guns/Turrets/laserluatech.rsi
           shader: unshaded
     - type: InteractionPopup
       interactDelay: 0.2

@@ -13,11 +13,11 @@
             - tag: HardHat
               name: crafting-hardhat
               icon:
-                sprite: Clothing/Head/Hardhats/yellow.rsi
+                sprite: /Clothing/Head/Hardhats/yellow.rsi
                 state: icon
             - tag: Handcuffs
               icon:
-                  sprite: Objects/Misc/cablecuffs.rsi
+                  sprite: /Objects/Misc/cablecuffs.rsi
                   state: cuff
                   color: red
               name: crafting-cuffs

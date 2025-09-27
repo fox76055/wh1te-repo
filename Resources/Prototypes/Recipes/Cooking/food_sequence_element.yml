@@ -4,7 +4,7 @@
   id: BunTopBurger
   final: true
   sprites:
-  - sprite: Objects/Consumable/Food/burger_sequence.rsi
+  - sprite: /Objects/Consumable/Food/burger_sequence.rsi
     state: bun_top
   tags:
   - Bun
@@ -15,25 +15,25 @@
   id: RatBurger
   name: food-sequence-burger-content-rat
   sprites:
-  - sprite: Mobs/Animals/mouse.rsi
+  - sprite: /Mobs/Animals/mouse.rsi
     state: dead-0
-  - sprite: Mobs/Animals/mouse.rsi
+  - sprite: /Mobs/Animals/mouse.rsi
     state: dead-1
-  - sprite: Mobs/Animals/mouse.rsi
+  - sprite: /Mobs/Animals/mouse.rsi
     state: dead-2
 
 - type: foodSequenceElement
   id: RatTaco
   name: food-sequence-content-rat
   sprites:
-  - sprite: Objects/Consumable/Food/taco_sequence.rsi
+  - sprite: /Objects/Consumable/Food/taco_sequence.rsi
     state: rat
 
 - type: foodSequenceElement
   id: RatSkewer
   name: food-sequence-content-rat
   sprites:
-  - sprite: Objects/Consumable/Food/skewer.rsi
+  - sprite: /Objects/Consumable/Food/skewer.rsi
     state: skewer-rat
 
 # Cheese
@@ -42,7 +42,7 @@
   id: CheeseBurger
   name: food-sequence-content-cheese
   sprites:
-  - sprite: Objects/Consumable/Food/burger_sequence.rsi
+  - sprite: /Objects/Consumable/Food/burger_sequence.rsi
     state: cheese
   tags:
   - Cheese
@@ -51,7 +51,7 @@
   id: CheeseTaco
   name: food-sequence-content-cheese
   sprites:
-  - sprite: Objects/Consumable/Food/taco_sequence.rsi
+  - sprite: /Objects/Consumable/Food/taco_sequence.rsi
     state: cheese
   tags:
   - Cheese
@@ -61,7 +61,7 @@
 - type: foodSequenceElement
   id: MeatSteak
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: plain-cooked
   tags:
   - Cooked
@@ -72,7 +72,7 @@
 - type: foodSequenceElement
   id: MeatPatty
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: patty
   tags:
   - Cooked
@@ -84,7 +84,7 @@
   id: DragonSteak
   name: food-sequence-content-dragon
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: dragon-cooked
   tags:
   - Cooked
@@ -95,9 +95,9 @@
 - type: foodSequenceElement
   id: MeatBacon
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: bacon-cooked
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: bacon2-cooked
   tags:
   - Cooked
@@ -109,7 +109,7 @@
   id: MeatBear
   name: food-sequence-content-bear
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: product-cooked
   tags:
   - Cooked
@@ -119,7 +119,7 @@
   id: MeatBearBurger
   name: food-sequence-burger-content-bear
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: product-cooked
   tags:
   - Cooked
@@ -131,7 +131,7 @@
   id: MeatPenguin
   name: food-sequence-content-penguin
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: bird-cooked
   tags:
   - Cooked
@@ -141,7 +141,7 @@
   id: MeatPenguinBurger
   name: food-sequence-burger-content-penguin
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: bird-cooked
   tags:
   - Cooked
@@ -153,7 +153,7 @@
   id: MeatChicken
   name: food-sequence-content-chicken
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: chicken-fried
   tags:
   - Cooked
@@ -166,9 +166,9 @@
   id: MeatFriedChicken
   name: food-sequence-content-chicken
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: chicken-fried
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: chicken2-fried
   tags:
   - Cooked
@@ -181,7 +181,7 @@
   id: MeatDuck
   name: food-sequence-content-duck
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: bird-cooked
   tags:
   - Cooked
@@ -193,7 +193,7 @@
   id: MeatCrab
   name: food-sequence-content-crab
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: crab-cooked
   tags:
   - Cooked
@@ -204,7 +204,7 @@
   id: MeatCrabBurger
   name: food-sequence-burger-content-crab
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: crab-cooked
   tags:
   - Cooked
@@ -217,7 +217,7 @@
   id: MeatGoliath
   name: food-sequence-content-goliath
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: goliath-cooked
   tags:
   - Cooked
@@ -227,7 +227,7 @@
   id: MeatGoliathBurger
   name: food-sequence-burger-content-goliath
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: goliath-cooked
   tags:
   - Cooked
@@ -239,7 +239,7 @@
   id: MeatXeno
   name: food-sequence-content-xeno
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: rouny-cooked
   tags:
   - Cooked
@@ -251,7 +251,7 @@
   id: MeatLizard
   name: food-sequence-content-lizard
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: lizard-cooked
   tags:
   - Cooked
@@ -261,7 +261,7 @@
   id: MeatLizardBurger
   name: food-sequence-burger-content-lizard
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: lizard-cooked
   tags:
   - Cooked
@@ -273,7 +273,7 @@
   id: MeatSpider
   name: food-sequence-content-spider
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: spiderleg-cooked
   tags:
   - Cooked
@@ -283,7 +283,7 @@
   id: MeatSpiderBurger
   name: food-sequence-burger-content-spider
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: spiderleg-cooked
   tags:
   - Cooked
@@ -294,7 +294,7 @@
 - type: foodSequenceElement
   id: MeatBall
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: meatball-cooked
   tags:
   - Cooked
@@ -306,7 +306,7 @@
   id: MeatSnail
   name: food-sequence-content-snail
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: snail-cooked
   tags:
   - Cooked
@@ -317,7 +317,7 @@
 - type: foodSequenceElement
   id: MeatCutlet
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -330,7 +330,7 @@
   id: BearCutlet
   name: food-sequence-content-bear
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -341,7 +341,7 @@
   id: BearCutletBurger
   name: food-sequence-burger-content-bear
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -354,7 +354,7 @@
   id: PenguinCutlet
   name: food-sequence-content-penguin
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -365,7 +365,7 @@
   id: PenguinCutletBurger
   name: food-sequence-burger-content-penguin
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -378,7 +378,7 @@
   id: ChickenCutlet
   name: food-sequence-content-chicken
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -392,7 +392,7 @@
   id: DuckCutlet
   name: food-sequence-content-duck
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -405,7 +405,7 @@
   id: LizardCutlet
   name: food-sequence-content-lizard
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -416,7 +416,7 @@
   id: LizardCutletBurger
   name: food-sequence-burger-content-lizard
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: cutlet-cooked
   tags:
   - Cooked
@@ -429,7 +429,7 @@
   id: SpiderCutlet
   name: food-sequence-content-spider
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: spidercutlet-cooked
   tags:
   - Cooked
@@ -440,7 +440,7 @@
   id: SpiderCutletBurger
   name: food-sequence-burger-content-spider
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: spidercutlet-cooked
   tags:
   - Cooked
@@ -453,7 +453,7 @@
   id: XenoCutlet
   name: food-sequence-content-xeno
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: xenocutlet-cooked
   tags:
   - Cooked
@@ -466,7 +466,7 @@
   id: DragonCutlet
   name: food-sequence-content-dragon
   sprites:
-  - sprite: Objects/Consumable/Food/meat.rsi
+  - sprite: /Objects/Consumable/Food/meat.rsi
     state: dragoncutlet-cooked
   tags:
   - Cooked
@@ -479,7 +479,7 @@
   id: Brain
   name: food-sequence-content-brain
   sprites:
-  - sprite: Mobs/Species/Human/organs.rsi
+  - sprite: /Mobs/Species/Human/organs.rsi
     state: brain
   tags:
   - Brain
@@ -491,7 +491,7 @@
   id: Banana
   name: food-sequence-content-banana
   sprites:
-  - sprite: Objects/Specific/Hydroponics/banana.rsi
+  - sprite: /Objects/Specific/Hydroponics/banana.rsi
     state: produce
   tags:
   - Fruit
@@ -502,7 +502,7 @@
   id: Mimana
   name: food-sequence-content-mimana
   sprites:
-  - sprite: Objects/Specific/Hydroponics/mimana.rsi
+  - sprite: /Objects/Specific/Hydroponics/mimana.rsi
     state: produce
   tags:
   - Fruit
@@ -513,7 +513,7 @@
   id: Carrot
   name: food-sequence-content-carrot
   sprites:
-  - sprite: Objects/Specific/Hydroponics/carrot.rsi
+  - sprite: /Objects/Specific/Hydroponics/carrot.rsi
     state: produce
   tags:
   - Vegetable
@@ -522,7 +522,7 @@
   id: CarrotBurger
   name: food-sequence-burger-content-carrot
   sprites:
-  - sprite: Objects/Specific/Hydroponics/carrot.rsi
+  - sprite: /Objects/Specific/Hydroponics/carrot.rsi
     state: produce
   tags:
   - Vegetable
@@ -533,7 +533,7 @@
   id: Cabbage
   name: food-sequence-content-cabbage
   sprites:
-  - sprite: Objects/Specific/Hydroponics/carrot.rsi
+  - sprite: /Objects/Specific/Hydroponics/carrot.rsi
     state: produce
   tags:
   - Vegetable
@@ -542,7 +542,7 @@
   id: CabbageBurger
   name: food-sequence-burger-content-cabbage
   sprites:
-  - sprite: Objects/Specific/Hydroponics/cabbage.rsi
+  - sprite: /Objects/Specific/Hydroponics/cabbage.rsi
     state: produce
   tags:
   - Vegetable
@@ -553,7 +553,7 @@
   id: Garlic
   name: food-sequence-content-garlic
   sprites:
-  - sprite: Objects/Specific/Hydroponics/garlic.rsi
+  - sprite: /Objects/Specific/Hydroponics/garlic.rsi
     state: produce
   tags:
   - Vegetable
@@ -562,7 +562,7 @@
   id: GarlicBurger
   name: food-sequence-burger-content-garlic
   sprites:
-  - sprite: Objects/Specific/Hydroponics/garlic.rsi
+  - sprite: /Objects/Specific/Hydroponics/garlic.rsi
     state: produce
   tags:
   - Vegetable
@@ -573,7 +573,7 @@
   id: Lemon
   name: food-sequence-content-lemon
   sprites:
-  - sprite: Objects/Specific/Hydroponics/lemon.rsi
+  - sprite: /Objects/Specific/Hydroponics/lemon.rsi
     state: produce
   tags:
     - Fruit
@@ -584,7 +584,7 @@
   id: Lemoon
   name: food-sequence-content-lemoon
   sprites:
-  - sprite: Objects/Specific/Hydroponics/lemoon.rsi
+  - sprite: /Objects/Specific/Hydroponics/lemoon.rsi
     state: produce
   tags:
     - Fruit
@@ -595,7 +595,7 @@
   id: Lime
   name: food-sequence-content-lime
   sprites:
-  - sprite: Objects/Specific/Hydroponics/lime.rsi
+  - sprite: /Objects/Specific/Hydroponics/lime.rsi
     state: produce
   tags:
     - Fruit
@@ -606,7 +606,7 @@
   id: Orange
   name: food-sequence-content-orange
   sprites:
-  - sprite: Objects/Specific/Hydroponics/orange.rsi
+  - sprite: /Objects/Specific/Hydroponics/orange.rsi
     state: produce
   tags:
     - Fruit
@@ -617,7 +617,7 @@
   id: ExtradimensionalOrange
   name: food-sequence-content-orange
   sprites:
-  - sprite: Objects/Specific/Hydroponics/extradimensional_orange.rsi
+  - sprite: /Objects/Specific/Hydroponics/extradimensional_orange.rsi
     state: produce
   scale: 0.5,0.5
   tags:
@@ -627,7 +627,7 @@
   id: ExtradimensionalOrangeBurger
   name: food-sequence-burger-content-extradimensional-orange
   sprites:
-  - sprite: Objects/Specific/Hydroponics/extradimensional_orange.rsi
+  - sprite: /Objects/Specific/Hydroponics/extradimensional_orange.rsi
     state: produce
   scale: 0.5,0.5
   tags:
@@ -639,7 +639,7 @@
   id: Potato
   name: food-sequence-content-potato
   sprites:
-  - sprite: Objects/Specific/Hydroponics/potato.rsi
+  - sprite: /Objects/Specific/Hydroponics/potato.rsi
     state: produce
   tags:
     - Vegetable
@@ -650,7 +650,7 @@
   id: Tomato
   name: food-sequence-content-tomato
   sprites:
-  - sprite: Objects/Specific/Hydroponics/tomato.rsi
+  - sprite: /Objects/Specific/Hydroponics/tomato.rsi
     state: produce
   tags:
   - Fruit
@@ -660,7 +660,7 @@
   id: TomatoSkewer
   name: food-sequence-content-tomato
   sprites:
-  - sprite: Objects/Consumable/Food/skewer.rsi
+  - sprite: /Objects/Consumable/Food/skewer.rsi
     state: skewer-tomato
   tags:
   - Fruit
@@ -672,7 +672,7 @@
   id: BlueTomato
   name: food-sequence-content-tomato
   sprites:
-  - sprite: Objects/Specific/Hydroponics/blue_tomato.rsi
+  - sprite: /Objects/Specific/Hydroponics/blue_tomato.rsi
     state: produce
   tags:
   - Fruit
@@ -684,7 +684,7 @@
   id: BloodTomato
   name: food-sequence-content-tomato
   sprites:
-  - sprite: Objects/Specific/Hydroponics/blood_tomato.rsi
+  - sprite: /Objects/Specific/Hydroponics/blood_tomato.rsi
     state: produce
   tags:
   - Fruit
@@ -696,7 +696,7 @@
   id: Apple
   name: food-sequence-content-apple
   sprites:
-  - sprite: Objects/Specific/Hydroponics/apple.rsi
+  - sprite: /Objects/Specific/Hydroponics/apple.rsi
     state: produce
   tags:
   - Fruit
@@ -707,7 +707,7 @@
   id: GoldenApple
   name: food-sequence-content-apple
   sprites:
-  - sprite: Objects/Specific/Hydroponics/golden_apple.rsi
+  - sprite: /Objects/Specific/Hydroponics/golden_apple.rsi
     state: produce
   tags:
   - Fruit
@@ -718,7 +718,7 @@
   id: PineappleSliceBurger
   name: food-sequence-burger-content-pineapple
   sprites:
-  - sprite: Objects/Specific/Hydroponics/pineapple.rsi
+  - sprite: /Objects/Specific/Hydroponics/pineapple.rsi
     state: slice
   tags:
   - Fruit
@@ -728,7 +728,7 @@
   id: PineappleSlice
   name: food-sequence-content-pineapple
   sprites:
-  - sprite: Objects/Specific/Hydroponics/pineapple.rsi
+  - sprite: /Objects/Specific/Hydroponics/pineapple.rsi
     state: slice
   tags:
   - Fruit
@@ -740,7 +740,7 @@
   id: OnionSliceBurger
   name: food-sequence-burger-content-onion
   sprites:
-  - sprite: Objects/Specific/Hydroponics/onion.rsi
+  - sprite: /Objects/Specific/Hydroponics/onion.rsi
     state: slice
   tags:
   - Vegetable
@@ -750,7 +750,7 @@
   id: OnionSlice
   name: food-sequence-content-onion
   sprites:
-  - sprite: Objects/Specific/Hydroponics/onion.rsi
+  - sprite: /Objects/Specific/Hydroponics/onion.rsi
     state: slice
   tags:
   - Vegetable
@@ -762,7 +762,7 @@
   id: OnionRedSliceBurger
   name: food-sequence-burger-content-onion
   sprites:
-  - sprite: Objects/Specific/Hydroponics/onion_red.rsi
+  - sprite: /Objects/Specific/Hydroponics/onion_red.rsi
     state: slice
   tags:
   - Vegetable
@@ -772,7 +772,7 @@
   id: OnionRedSlice
   name: food-sequence-content-onion
   sprites:
-  - sprite: Objects/Specific/Hydroponics/onion_red.rsi
+  - sprite: /Objects/Specific/Hydroponics/onion_red.rsi
     state: slice
   tags:
   - Vegetable
@@ -784,7 +784,7 @@
   id: WatermelonSliceBurger
   name: food-sequence-burger-content-watermelon
   sprites:
-  - sprite: Objects/Specific/Hydroponics/watermelon.rsi
+  - sprite: /Objects/Specific/Hydroponics/watermelon.rsi
     state: slice
   tags:
   - Fruit
@@ -794,7 +794,7 @@
   id: WatermelonSlice
   name: food-sequence-content-watermelon
   sprites:
-  - sprite: Objects/Specific/Hydroponics/watermelon.rsi
+  - sprite: /Objects/Specific/Hydroponics/watermelon.rsi
     state: slice
   tags:
   - Fruit
@@ -804,7 +804,7 @@
   id: WatermelonSliceSkewer
   name: food-sequence-content-watermelon
   sprites:
-  - sprite: Objects/Consumable/Food/skewer.rsi
+  - sprite: /Objects/Consumable/Food/skewer.rsi
     state: skewer-watermelon
   tags:
   - Fruit
@@ -816,7 +816,7 @@
   id: HolymelonSliceBurger
   name: food-sequence-burger-content-holymelon
   sprites:
-  - sprite: Objects/Specific/Hydroponics/holymelon.rsi
+  - sprite: /Objects/Specific/Hydroponics/holymelon.rsi
     state: slice
   tags:
   - Fruit
@@ -826,7 +826,7 @@
   id: HolymelonSlice
   name: food-sequence-content-holymelon
   sprites:
-  - sprite: Objects/Specific/Hydroponics/holymelon.rsi
+  - sprite: /Objects/Specific/Hydroponics/holymelon.rsi
     state: slice
   tags:
   - Fruit
@@ -836,7 +836,7 @@
   id: HolymelonSliceSkewer
   name: food-sequence-content-holymelon
   sprites:
-  - sprite: Objects/Consumable/Food/skewer.rsi
+  - sprite: /Objects/Consumable/Food/skewer.rsi
     state: skewer-holymelon
   tags:
   - Fruit
@@ -848,7 +848,7 @@
   id: ChiliPepper
   name: food-sequence-content-chili
   sprites:
-  - sprite: Objects/Specific/Hydroponics/chili.rsi
+  - sprite: /Objects/Specific/Hydroponics/chili.rsi
     state: produce
   tags:
   - Vegetable
@@ -857,7 +857,7 @@
   id: ChiliPepperSkewer
   name: food-sequence-content-chili
   sprites:
-  - sprite: Objects/Consumable/Food/skewer.rsi
+  - sprite: /Objects/Consumable/Food/skewer.rsi
     state: skewer-pepper
   tags:
   - Vegetable
@@ -868,7 +868,7 @@
   id: ChillyPepper
   name: food-sequence-content-chilly
   sprites:
-  - sprite: Objects/Specific/Hydroponics/chilly.rsi
+  - sprite: /Objects/Specific/Hydroponics/chilly.rsi
     state: produce
   tags:
   - Vegetable
@@ -877,7 +877,7 @@
   id: ChillyPepperSkewer
   name: food-sequence-content-chilly
   sprites:
-  - sprite: Objects/Consumable/Food/skewer.rsi
+  - sprite: /Objects/Consumable/Food/skewer.rsi
     state: skewer-bluepepper
   tags:
   - Vegetable
@@ -887,7 +887,7 @@
   id: Corn
   name: food-sequence-content-corn
   sprites:
-  - sprite: Objects/Specific/Hydroponics/corn.rsi
+  - sprite: /Objects/Specific/Hydroponics/corn.rsi
     state: produce
   tags:
   - Vegetable
@@ -896,7 +896,7 @@
   id: CornSkewer
   name: food-sequence-content-corn
   sprites:
-  - sprite: Objects/Consumable/Food/skewer.rsi
+  - sprite: /Objects/Consumable/Food/skewer.rsi
     state: skewer-corn
   tags:
   - Vegetable
@@ -907,7 +907,7 @@
   id: Aloe
   name: food-sequence-content-aloe
   sprites:
-  - sprite: Objects/Specific/Hydroponics/aloe.rsi
+  - sprite: /Objects/Specific/Hydroponics/aloe.rsi
     state: produce
   tags:
   - Vegetable
@@ -918,7 +918,7 @@
   id: Poppy
   name: food-sequence-content-poppy
   sprites:
-  - sprite: Objects/Specific/Hydroponics/poppy.rsi
+  - sprite: /Objects/Specific/Hydroponics/poppy.rsi
     state: produce
   tags:
   - Flower
@@ -929,7 +929,7 @@
   id: Lily
   name: food-sequence-content-lily
   sprites:
-  - sprite: Objects/Specific/Hydroponics/lily.rsi
+  - sprite: /Objects/Specific/Hydroponics/lily.rsi
     state: produce
   tags:
   - Flower
@@ -940,7 +940,7 @@
   id: Lingzhi
   name: food-sequence-content-mushroom
   sprites:
-  - sprite: Objects/Specific/Hydroponics/lingzhi.rsi
+  - sprite: /Objects/Specific/Hydroponics/lingzhi.rsi
     state: produce
 
 # AmbrosiaVulgaris
@@ -949,14 +949,14 @@
   id: AmbrosiaVulgaris
   name: food-sequence-content-ambrosia
   sprites:
-  - sprite: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
+  - sprite: /Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
     state: produce
 
 - type: foodSequenceElement
   id: AmbrosiaVulgarisBurger
   name: food-sequence-burger-content-ambrosia
   sprites:
-  - sprite: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
+  - sprite: /Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
     state: produce
 
 # AmbrosiaDeus
@@ -965,14 +965,14 @@
   id: AmbrosiaDeus
   name: food-sequence-content-ambrosia
   sprites:
-  - sprite: Objects/Specific/Hydroponics/ambrosia_deus.rsi
+  - sprite: /Objects/Specific/Hydroponics/ambrosia_deus.rsi
     state: produce
 
 - type: foodSequenceElement
   id: AmbrosiaDeusBurger
   name: food-sequence-burger-content-ambrosia
   sprites:
-  - sprite: Objects/Specific/Hydroponics/ambrosia_deus.rsi
+  - sprite: /Objects/Specific/Hydroponics/ambrosia_deus.rsi
     state: produce
 
 # Glasstle
@@ -981,7 +981,7 @@
   id: Glasstle
   name: food-sequence-content-glasstle
   sprites:
-  - sprite: Objects/Specific/Hydroponics/glasstle.rsi
+  - sprite: /Objects/Specific/Hydroponics/glasstle.rsi
     state: produce
   tags:
   - Fruit
@@ -990,7 +990,7 @@
   id: GlasstleBurger
   name: food-sequence-burger-content-glasstle
   sprites:
-  - sprite: Objects/Specific/Hydroponics/glasstle.rsi
+  - sprite: /Objects/Specific/Hydroponics/glasstle.rsi
     state: produce
   tags:
   - Fruit
@@ -1001,7 +1001,7 @@
   id: FlyAmanita
   name: food-sequence-content-mushroom
   sprites:
-  - sprite: Objects/Specific/Hydroponics/fly_amanita.rsi
+  - sprite: /Objects/Specific/Hydroponics/fly_amanita.rsi
     state: produce
 
 # Gatfruit
@@ -1010,7 +1010,7 @@
   id: Gatfruit
   name: food-sequence-content-gatfruit
   sprites:
-  - sprite: Objects/Specific/Hydroponics/gatfruit.rsi
+  - sprite: /Objects/Specific/Hydroponics/gatfruit.rsi
     state: produce
   tags:
   - Fruit
@@ -1019,7 +1019,7 @@
   id: GatfruitBurger
   name: food-sequence-burger-content-gatfruit
   sprites:
-  - sprite: Objects/Specific/Hydroponics/gatfruit.rsi
+  - sprite: /Objects/Specific/Hydroponics/gatfruit.rsi
     state: produce
   tags:
   - Fruit
@@ -1030,7 +1030,7 @@
   id: Capfruit
   name: food-sequence-content-capfruit
   sprites:
-  - sprite: Objects/Specific/Hydroponics/capfruit.rsi
+  - sprite: /Objects/Specific/Hydroponics/capfruit.rsi
     state: produce
   tags:
   - Fruit
@@ -1039,7 +1039,7 @@
   id: CapfruitBurger
   name: food-sequence-burger-content-capfruit
   sprites:
-  - sprite: Objects/Specific/Hydroponics/capfruit.rsi
+  - sprite: /Objects/Specific/Hydroponics/capfruit.rsi
     state: produce
   tags:
   - Fruit
@@ -1050,7 +1050,7 @@
   id: Soybeans
   name: food-sequence-content-soy
   sprites:
-  - sprite: Objects/Specific/Hydroponics/soybeans.rsi
+  - sprite: /Objects/Specific/Hydroponics/soybeans.rsi
     state: produce
   tags:
   - Vegetable
@@ -1059,7 +1059,7 @@
   id: SoybeansBurger
   name: food-sequence-burger-content-soy
   sprites:
-  - sprite: Objects/Specific/Hydroponics/soybeans.rsi
+  - sprite: /Objects/Specific/Hydroponics/soybeans.rsi
     state: produce
   tags:
   - Vegetable
@@ -1070,7 +1070,7 @@
   id: SpacemansTrumpet
   name: food-sequence-content-spacemans-trumpet
   sprites:
-  - sprite: Objects/Specific/Hydroponics/spacemans_trumpet.rsi
+  - sprite: /Objects/Specific/Hydroponics/spacemans_trumpet.rsi
     state: produce
   tags:
   - Flower
@@ -1079,7 +1079,7 @@
   id: SpacemansTrumpetBurger
   name: food-sequence-burger-content-spacemans-trumpet
   sprites:
-  - sprite: Objects/Specific/Hydroponics/spacemans_trumpet.rsi
+  - sprite: /Objects/Specific/Hydroponics/spacemans_trumpet.rsi
     state: produce
   tags:
   - Flower
@@ -1090,7 +1090,7 @@
   id: Koibean
   name: food-sequence-content-koibean
   sprites:
-  - sprite: Objects/Specific/Hydroponics/koibean.rsi
+  - sprite: /Objects/Specific/Hydroponics/koibean.rsi
     state: produce
   tags:
   - Fruit
@@ -1099,7 +1099,7 @@
   id: KoibeanBurger
   name: food-sequence-burger-content-koibean
   sprites:
-  - sprite: Objects/Specific/Hydroponics/koibean.rsi
+  - sprite: /Objects/Specific/Hydroponics/koibean.rsi
     state: produce
   tags:
   - Fruit
@@ -1110,7 +1110,7 @@
   id: Galaxythistle
   name: food-sequence-content-galaxy
   sprites:
-  - sprite: Objects/Specific/Hydroponics/galaxythistle.rsi
+  - sprite: /Objects/Specific/Hydroponics/galaxythistle.rsi
     state: produce
   tags:
   - Fruit
@@ -1119,7 +1119,7 @@
   id: GalaxythistleBurger
   name: food-sequence-burger-content-galaxy
   sprites:
-  - sprite: Objects/Specific/Hydroponics/galaxythistle.rsi
+  - sprite: /Objects/Specific/Hydroponics/galaxythistle.rsi
     state: produce
   tags:
   - Fruit
@@ -1130,7 +1130,7 @@
   id: Bungo
   name: food-sequence-content-bungo
   sprites:
-  - sprite: Objects/Specific/Hydroponics/bungo.rsi
+  - sprite: /Objects/Specific/Hydroponics/bungo.rsi
     state: produce
   tags:
   - Fruit
@@ -1141,7 +1141,7 @@
   id: Pea
   name: food-sequence-content-pea
   sprites:
-  - sprite: Objects/Specific/Hydroponics/pea.rsi
+  - sprite: /Objects/Specific/Hydroponics/pea.rsi
     state: produce
   tags:
   - Vegetable
@@ -1152,7 +1152,7 @@
   id: WorldPea
   name: food-sequence-content-world-pea
   sprites:
-  - sprite: Objects/Specific/Hydroponics/world_pea.rsi
+  - sprite: /Objects/Specific/Hydroponics/world_pea.rsi
     state: produce
   tags:
   - Vegetable
@@ -1161,7 +1161,7 @@
   id: WorldPeaBurger
   name: food-sequence-burger-content-world-pea
   sprites:
-  - sprite: Objects/Specific/Hydroponics/world_pea.rsi
+  - sprite: /Objects/Specific/Hydroponics/world_pea.rsi
     state: produce
   tags:
   - Vegetable
@@ -1172,7 +1172,7 @@
   id: Cherry
   name: food-sequence-content-cherry
   sprites:
-  - sprite: Objects/Specific/Hydroponics/cherry.rsi
+  - sprite: /Objects/Specific/Hydroponics/cherry.rsi
     state: produce
   tags:
   - Fruit
@@ -1183,7 +1183,7 @@
   id: Berries
   name: food-sequence-content-berries
   sprites:
-  - sprite: Objects/Specific/Hydroponics/berries.rsi
+  - sprite: /Objects/Specific/Hydroponics/berries.rsi
     state: produce
   tags:
   - Fruit
@@ -1192,7 +1192,7 @@
   id: BerriesBurger
   name: food-sequence-burger-content-berries
   sprites:
-  - sprite: Objects/Specific/Hydroponics/berries.rsi
+  - sprite: /Objects/Specific/Hydroponics/berries.rsi
     state: produce
   tags:
   - Fruit
@@ -1203,14 +1203,14 @@
   id: Suppermatter
   name: food-sequence-content-suppermatter
   sprites:
-  - sprite: Objects/Consumable/Food/Baked/cake.rsi
+  - sprite: /Objects/Consumable/Food/Baked/cake.rsi
     state: suppermatter-shard
 
 - type: foodSequenceElement
   id: SuppermatterBurger
   name: food-sequence-burger-content-suppermatter
   sprites:
-  - sprite: Objects/Consumable/Food/Baked/cake.rsi
+  - sprite: /Objects/Consumable/Food/Baked/cake.rsi
     state: suppermatter-shard
 
 
@@ -1220,14 +1220,14 @@
   id: AnomalyBerry
   name: food-sequence-content-anomaly-berry
   sprites:
-  - sprite: Objects/Specific/Hydroponics/anomaly_berry.rsi
+  - sprite: /Objects/Specific/Hydroponics/anomaly_berry.rsi
     state: produce
 
 - type: foodSequenceElement
   id: AnomalyBerryBurger
   name: food-sequence-burger-content-anomaly-berry
   sprites:
-  - sprite: Objects/Specific/Hydroponics/anomaly_berry.rsi
+  - sprite: /Objects/Specific/Hydroponics/anomaly_berry.rsi
     state: produce
 
 # Cotton Top Bun
@@ -1236,7 +1236,7 @@
   id: CottonBunTopBurger
   final: true
   sprites:
-  - sprite: Objects/Consumable/Food/cottonburger.rsi
+  - sprite: /Objects/Consumable/Food/cottonburger.rsi
     state: cottonbun_top
   tags:
   - Bun
@@ -1248,7 +1248,7 @@
   id: CottonBol
   name: food-sequence-cotton-burger-content-cotton-bol
   sprites:
-  - sprite: Objects/Specific/Hydroponics/cotton.rsi
+  - sprite: /Objects/Specific/Hydroponics/cotton.rsi
     state: produce
 
 # Pyrotton Bol
@@ -1257,7 +1257,7 @@
   id: PyrottonBol
   name: food-sequence-cotton-burger-content-pyrotton-bol
   sprites:
-  - sprite: Objects/Specific/Hydroponics/pyrotton.rsi
+  - sprite: /Objects/Specific/Hydroponics/pyrotton.rsi
     state: produce
 
 # Throngler Plushie
@@ -1267,7 +1267,7 @@
   scale: 0.75, 0.75
   name: food-sequence-cotton-burger-content-plushie-throngler
   sprites:
-  - sprite: Objects/Weapons/Melee/ThronglerPlushie.rsi
+  - sprite: /Objects/Weapons/Melee/ThronglerPlushie.rsi
     state: icon
 
 # Ghost Plushie
@@ -1277,7 +1277,7 @@
   name: food-sequence-cotton-burger-content-plushie-ghost
   scale: 0.8, 0.8
   sprites:
-  - sprite: Mobs/Ghosts/ghost_human.rsi
+  - sprite: /Mobs/Ghosts/ghost_human.rsi
     state: icon
     noRot: true
 
@@ -1288,7 +1288,7 @@
   name: food-sequence-cotton-burger-content-plushie-revenant
   scale: 0.75, 0.75
   sprites:
-  - sprite: Mobs/Ghosts/revenant.rsi
+  - sprite: /Mobs/Ghosts/revenant.rsi
     state: icon
     noRot: true
 
@@ -1299,7 +1299,7 @@
   name: food-sequence-cotton-burger-content-plushie-bee
   scale: 0.75, 0.75
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_h
 
 # Hamptr Plushie
@@ -1308,7 +1308,7 @@
   id: HamptrPlushie
   name: food-sequence-cotton-burger-content-plushie-hamptr
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_hampter
 
 # Nukie Plushie
@@ -1318,7 +1318,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-nukie
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_nuke
 
 # Rouny Plushie
@@ -1327,7 +1327,7 @@
   id: RounyPlushie
   name: food-sequence-cotton-burger-content-plushie-rouny
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_rouny
 
 # Lamp Plushie
@@ -1336,7 +1336,7 @@
   id: LampPlushie
   name: food-sequence-cotton-burger-content-plushie-lamp
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_lamp
 
 # Arachnid Plushie
@@ -1346,7 +1346,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-arachnid
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_arachnid
 
 # Lizard Plushies
@@ -1355,21 +1355,21 @@
   id: LizardPlushie
   name: food-sequence-cotton-burger-content-plushie-lizard #Weh!
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_lizard
 
 - type: foodSequenceElement
   id: SpaceLizardPlushie
   name: food-sequence-cotton-burger-content-plushie-spacelizard
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_spacelizard
 
 - type: foodSequenceElement
   id: InversedLizardPlushie
   name: food-sequence-cotton-burger-content-plushie-lizard-inversed #Hew!
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_lizard_inversed
 
 # Experiment Plushie
@@ -1379,7 +1379,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-experiment
   sprites:
-  - sprite: Objects/Fun/expiplush.rsi
+  - sprite: /Objects/Fun/expiplush.rsi
     state: expi
 
 #Diona Plushie
@@ -1389,7 +1389,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-diona
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_diona
 
 #Shark Plushies
@@ -1399,7 +1399,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-shark
   sprites:
-  - sprite: Objects/Fun/sharkplush.rsi
+  - sprite: /Objects/Fun/sharkplush.rsi
     state: blue
 
 - type: foodSequenceElement
@@ -1407,7 +1407,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-shark
   sprites:
-  - sprite: Objects/Fun/sharkplush.rsi
+  - sprite: /Objects/Fun/sharkplush.rsi
     state: pink
 
 - type: foodSequenceElement
@@ -1415,7 +1415,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-shark
   sprites:
-  - sprite: Objects/Fun/sharkplush.rsi
+  - sprite: /Objects/Fun/sharkplush.rsi
     state: grey
 
 #Ratvar Plushie
@@ -1425,7 +1425,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-ratvar
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_ratvar
 
 #Nar'sie Plushie
@@ -1435,7 +1435,7 @@
   scale: 0.75, 0.75
   name: food-sequence-cotton-burger-content-plushie-narsie
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: narplush
 
 #Carp Plushies
@@ -1444,21 +1444,21 @@
   id: CarpPlushie
   name: food-sequence-cotton-burger-content-plushie-carp
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: carpplush
 
 - type: foodSequenceElement
   id: MagicarpPlushie
   name: food-sequence-cotton-burger-content-plushie-magicarp
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: magicplush
 
 - type: foodSequenceElement
   id: HolocarpPlushie
   name: food-sequence-cotton-burger-content-plushie-holocarp
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: holoplush
 
 #Slime Plushie
@@ -1467,7 +1467,7 @@
   id: SlimePlushie
   name: food-sequence-cotton-burger-content-plushie-slime
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_slime
 
 #Snake Plushie
@@ -1476,7 +1476,7 @@
   id: SnakePlushie
   name: food-sequence-cotton-burger-content-plushie-snake
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_snake
 
 #Mouse Plushie
@@ -1485,7 +1485,7 @@
   id: MousePlushie
   name: food-sequence-cotton-burger-content-plushie-mouse
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: toy_mouse
 
 #Vox Plushie
@@ -1494,7 +1494,7 @@
   id: VoxPlushie
   name: food-sequence-cotton-burger-content-plushie-vox
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_vox
 
 #Atmosian Plushie
@@ -1504,7 +1504,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-atmosian
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_atmosian
 
 #Xeno Plushie
@@ -1514,7 +1514,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-xeno
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_xeno
 
 #Penguin Plushie
@@ -1524,7 +1524,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-penguin
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_penguin
 
 #Human Plushie
@@ -1534,7 +1534,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-human
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_human
 
 #Moth Plushie
@@ -1544,7 +1544,7 @@
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-moth
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: plushie_moth
 
 #Ian Plushie
@@ -1553,7 +1553,7 @@
   id: IanPlushie
   name: food-sequence-cotton-burger-content-plushie-ian
   sprites:
-  - sprite: Objects/Fun/toys.rsi
+  - sprite: /Objects/Fun/toys.rsi
     state: ian
 
 #Among pequeño - does not work with randomized sprites
@@ -1562,4 +1562,4 @@
 #  id: AmongPequeno
 #  name: food-sequence-cotton-burger-content-among-pequeno
 #  sprites:
-#  - sprite: Objects/Fun/pequeno.rsi
+#  - sprite: /Objects/Fun/pequeno.rsi

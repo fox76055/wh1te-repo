@@ -94,7 +94,7 @@
   - !type:PlantAdjustPests
     amount: 2
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/sugarglass.rsi
+    sprite: /Objects/Consumable/Drinks/sugarglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 7
   metamorphicFillBaseName: fill-

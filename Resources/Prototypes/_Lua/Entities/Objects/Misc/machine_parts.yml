@@ -9,7 +9,7 @@
   components:
     - type: LuaTech
     - type: Sprite
-      sprite: _Lua/Objects/Misc/stock_parts.rsi
+      sprite: /_Lua/Objects/Misc/stock_parts.rsi
       state: pur_capacitor
     - type: MachinePart
       part: Capacitor
@@ -29,7 +29,7 @@
   components:
     - type: LuaTech
     - type: Sprite
-      sprite: _Lua/Objects/Misc/stock_parts.rsi
+      sprite: /_Lua/Objects/Misc/stock_parts.rsi
       state: pur_mani
     - type: MachinePart
       part: Manipulator
@@ -49,7 +49,7 @@
   components:
     - type: LuaTech
     - type: Sprite
-      sprite: _Lua/Objects/Misc/stock_parts.rsi
+      sprite: /_Lua/Objects/Misc/stock_parts.rsi
       state: pur_matter_bin
     - type: MachinePart
       part: MatterBin
@@ -63,20 +63,20 @@
 - type: stack
   id: PurCapacitor
   name: stack-purspace-capacitor
-  icon: { sprite: _Lua/Objects/Misc/stock_parts.rsi, state: pur_capacitor }
+  icon: { sprite: /_Lua/Objects/Misc/stock_parts.rsi, state: pur_capacitor }
   spawn: PurCapacitorStockPart
   maxCount: 10
 
 - type: stack
   id: PurManipulator
   name: stack-purspace-manipulator
-  icon: { sprite: _Lua/Objects/Misc/stock_parts.rsi, state: pur_mani }
+  icon: { sprite: /_Lua/Objects/Misc/stock_parts.rsi, state: pur_mani }
   spawn: PurManipulatorStockPart
   maxCount: 10
 
 - type: stack
   id: PurMatterBin
   name: stack-purspace-matter-bin
-  icon: { sprite: _Lua/Objects/Misc/stock_parts.rsi, state: pur_matter_bin }
+  icon: { sprite: /_Lua/Objects/Misc/stock_parts.rsi, state: pur_matter_bin }
   spawn: PurMatterBinStockPart
   maxCount: 10

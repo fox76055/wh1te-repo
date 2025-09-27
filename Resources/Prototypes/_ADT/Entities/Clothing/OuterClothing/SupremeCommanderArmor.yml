@@ -5,9 +5,9 @@
   description: "This thing is impossible to create, but we could. Fully covered bluespace plates. When you wear it, you feel like the emperor of mankind"
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/supreme-commander-armor.rsi
   - type: Armor
     modifiers:
       coefficients:

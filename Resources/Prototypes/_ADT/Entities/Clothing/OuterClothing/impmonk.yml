@@ -5,9 +5,9 @@
   description: Crafted from the most technologically advanced fabric.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Armor/impmonk.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/impmonk.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Armor/impmonk.rsi
+    sprite: /ADT/Clothing/OuterClothing/Armor/impmonk.rsi
   - type: Armor
     modifiers:
       coefficients:

@@ -5,7 +5,7 @@
   description: Ain't gon' fit, won't fit.
   components:
   - type: Sprite
-    sprite: Objects/Decoration/lidsalami.rsi
+    sprite: /Objects/Decoration/lidsalami.rsi
     layers:
       - state: icon
   - type: Item

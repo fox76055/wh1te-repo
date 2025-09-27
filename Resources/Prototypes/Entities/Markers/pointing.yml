@@ -7,7 +7,7 @@
     tags:
     - HideContextMenu
   - type: Sprite
-    sprite: Interface/Misc/pointing.rsi
+    sprite: /Interface/Misc/pointing.rsi
     state: pointing
     drawdepth: Overlays # Wizden#37444
     noRot: true

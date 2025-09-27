@@ -3,7 +3,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-0
 
 - type: entity
@@ -11,7 +11,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-1
 
 - type: entity
@@ -19,7 +19,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-2
 
 - type: entity
@@ -27,7 +27,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-3
 
 - type: entity
@@ -35,7 +35,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-4
 
 - type: entity
@@ -43,7 +43,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-5
 
 - type: entity
@@ -51,7 +51,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-6
 
 - type: entity
@@ -59,7 +59,7 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-7
 
 - type: entity
@@ -67,5 +67,5 @@
   parent: PottedPlantBase
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Furniture/potted_plants.rsi
+    sprite: /Corvax/Structures/Furniture/potted_plants.rsi
     state: plant-8

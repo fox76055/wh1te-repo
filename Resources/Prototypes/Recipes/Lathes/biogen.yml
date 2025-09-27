@@ -22,7 +22,7 @@
   categories:
   - Materials
   icon:
-    sprite: Objects/Materials/materials.rsi
+    sprite: /Objects/Materials/materials.rsi
     state: cloth
   completetime: 1
   materials:
@@ -34,7 +34,7 @@
   categories:
   - Materials
   icon:
-    sprite: Objects/Materials/materials.rsi
+    sprite: /Objects/Materials/materials.rsi
     state: cardboard
   completetime: 1
   materials:
@@ -74,7 +74,7 @@
   categories:
   - Chemicals
   icon:
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: /Objects/Tools/Hydroponics/sprays.rsi
     state: plantbgone
   completetime: 1
   materials:
@@ -87,7 +87,7 @@
   categories:
   - Chemicals
   icon:
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: /Objects/Tools/Hydroponics/sprays.rsi
     state: weedspray
   completetime: 1
   materials:
@@ -100,7 +100,7 @@
   categories:
   - Chemicals
   icon:
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: /Objects/Tools/Hydroponics/sprays.rsi
     state: weedspray
   completetime: 1
   materials:
@@ -113,7 +113,7 @@
   categories:
   - Chemicals
   icon:
-    sprite: Objects/Specific/Chemistry/bottle.rsi
+    sprite: /Objects/Specific/Chemistry/bottle.rsi
     state: bottle-1
   completetime: 1
   materials:
@@ -126,7 +126,7 @@
   categories:
   - Chemicals
   icon:
-    sprite: Objects/Specific/Chemistry/bottle.rsi
+    sprite: /Objects/Specific/Chemistry/bottle.rsi
     state: bottle-1
   completetime: 1
   materials:
@@ -139,7 +139,7 @@
   categories:
   - Chemicals
   icon:
-    sprite: Objects/Specific/Chemistry/bottle.rsi
+    sprite: /Objects/Specific/Chemistry/bottle.rsi
     state: bottle-1
   completetime: 1
   materials:
@@ -152,7 +152,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Drinks/milk.rsi
+    sprite: /Objects/Consumable/Drinks/milk.rsi
     state: icon
   completetime: 1
   materials:
@@ -165,7 +165,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Drinks/soymilk.rsi
+    sprite: /Objects/Consumable/Drinks/soymilk.rsi
     state: icon
   completetime: 1
   materials:
@@ -178,7 +178,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Drinks/glass_clear.rsi
+    sprite: /Objects/Consumable/Drinks/glass_clear.rsi
     state: icon
   completetime: 1
   materials:
@@ -191,7 +191,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Drinks/cream.rsi
+    sprite: /Objects/Consumable/Drinks/cream.rsi
     state: icon
   completetime: 1
   materials:
@@ -204,7 +204,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: packet-pepper
   completetime: 1
   materials:
@@ -217,7 +217,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: /Objects/Consumable/Food/condiments.rsi
     state: bottle-empty
   completetime: 1
   materials:
@@ -230,7 +230,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: /Objects/Consumable/Food/ingredients.rsi
     state: flour-big
   completetime: 1
   materials:
@@ -243,7 +243,7 @@
   categories:
   - Food
   icon:
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: /Objects/Consumable/Food/ingredients.rsi
     state: sugar-big
   completetime: 1
   materials:

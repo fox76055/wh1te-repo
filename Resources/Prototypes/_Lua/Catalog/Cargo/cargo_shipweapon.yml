@@ -5,7 +5,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTargetingPadFlatpack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTargetingPadFlatpack
   cost: 25000
@@ -15,7 +15,7 @@
 - type: cargoProduct
   id: CargoCrateMachineFTLDrive600Flatpack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateMachineFTLDrive600Flatpack
   cost: 45000
@@ -25,7 +25,7 @@
 - type: cargoProduct
   id: CargoCratePlayerStationAiVesselFlatpack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CratePlayerStationAiVesselFlatpack
   cost: 105000
@@ -35,7 +35,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeaponImpulseLaser
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeaponImpulseLaser
   cost: 85000
@@ -45,7 +45,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeaponTeslaTurret
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeaponTeslaTurret
   cost: 110000
@@ -55,7 +55,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponMissileLauncherStarColosusFlatpack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponMissileLauncherStarColosusFlatpack
   cost: 1000000
@@ -65,7 +65,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponMissileStarColosus
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponMissileStarColosus
   cost: 20000000
@@ -75,7 +75,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeapon140mmBase
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeapon140mmBase
   cost: 85000
@@ -85,7 +85,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeapon120mmBase
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeapon120mmBase
   cost: 75000
@@ -95,7 +95,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeapon105mmBase
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeapon105mmBase
   cost: 65000
@@ -105,7 +105,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeapon80mmBase
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeapon80mmBase
   cost: 55000
@@ -115,7 +115,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeapon53mmBase
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeapon53mmBase
   cost: 45000
@@ -125,7 +125,7 @@
 - type: cargoProduct
   id: CargoCrateArmoryWeapon20mmBase
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateArmoryWeapon20mmBase
   cost: 35000
@@ -137,7 +137,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTurretVanykFlatPack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTurretVanykFlatPack
   cost: 125000
@@ -147,7 +147,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTurretVesperaFlatPack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTurretVesperaFlatPack
   cost: 160000
@@ -157,7 +157,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTurretType35FlatPack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTurretType35FlatPack
   cost: 75000
@@ -167,7 +167,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTurretAK570FlatPack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTurretAK570FlatPack
   cost: 75000
@@ -177,7 +177,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTurretDravonFlatPack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTurretDravonFlatPack
   cost: 75000
@@ -187,7 +187,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTurretL85AutocannonFlatPack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTurretL85AutocannonFlatPack
   cost: 45000
@@ -197,7 +197,7 @@
 - type: cargoProduct
   id: CargoCrateWeaponTurretCharonFlatPack
   icon:
-    sprite: _Lua/Structures/Storage/Crates/sweapon.rsi
+    sprite: /_Lua/Structures/Storage/Crates/sweapon.rsi
     state: icon
   product: CrateWeaponTurretCharonFlatPack
   cost: 750000

@@ -15,7 +15,7 @@
     radarColor: "#ca2477"
     scale: 1
   - type: Sprite
-    sprite: _Lua/Objects/ShuttleWeapons/50cal.rsi
+    sprite: /_Lua/Objects/ShuttleWeapons/50cal.rsi
     drawdepth: Mobs
     layers:
       - state: space_artillery

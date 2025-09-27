@@ -5,9 +5,9 @@
   description: Feels incredibly flimsy.
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/biodegradable.rsi
+    sprite: /_NF/Structures/Storage/Crates/biodegradable.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/biodegradable.rsi
+    sprite: /_NF/Structures/Storage/Crates/biodegradable.rsi
   - type: Construction
     graph: CratePlasticBiodegradable
     node: crateplasticbiodegradable
@@ -24,9 +24,9 @@
   name: uranium crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/radiation_secure.rsi
+    sprite: /_NF/Structures/Storage/Crates/radiation_secure.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/radiation_secure.rsi
+    sprite: /_NF/Structures/Storage/Crates/radiation_secure.rsi
 
 - type: entity
   parent: CrateSecgear
@@ -34,9 +34,9 @@
   name: brigmedic crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/nfsd_brigmed.rsi
+    sprite: /_NF/Structures/Storage/Crates/nfsd_brigmed.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/nfsd_brigmed.rsi
+    sprite: /_NF/Structures/Storage/Crates/nfsd_brigmed.rsi
   - type: AccessReader
     access: [["Security"]]
 
@@ -46,9 +46,9 @@
   name: NFSD crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/nfsd_secure1.rsi
+    sprite: /_NF/Structures/Storage/Crates/nfsd_secure1.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/nfsd_secure1.rsi
+    sprite: /_NF/Structures/Storage/Crates/nfsd_secure1.rsi
   - type: AccessReader
     access: [["Security"]]
 
@@ -58,9 +58,9 @@
   name: NFSD crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/nfsd_secure2.rsi
+    sprite: /_NF/Structures/Storage/Crates/nfsd_secure2.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/nfsd_secure2.rsi
+    sprite: /_NF/Structures/Storage/Crates/nfsd_secure2.rsi
   - type: AccessReader
     access: [["Security"]]
 
@@ -70,9 +70,9 @@
   name: ammo crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/ammo.rsi
+    sprite: /_NF/Structures/Storage/Crates/ammo.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/ammo.rsi
+    sprite: /_NF/Structures/Storage/Crates/ammo.rsi
 
 - type: entity
   parent: CratePirate
@@ -81,9 +81,9 @@
   description: A space pirate chest, not for station lubbers.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/piratechestgrey.rsi
+    sprite: /_NF/Structures/Storage/Crates/piratechestgrey.rsi
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/piratechestgrey.rsi
+    sprite: /_NF/Structures/Storage/Crates/piratechestgrey.rsi
 
 - type: entity
   parent: CratePirate
@@ -92,9 +92,9 @@
   description: A chest for storing looted goods. Huh, this one's blank.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/pirate_bounty.rsi
+    sprite: /_NF/Structures/Storage/Crates/pirate_bounty.rsi
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/pirate_bounty.rsi
+    sprite: /_NF/Structures/Storage/Crates/pirate_bounty.rsi
   - type: PirateBountyLabel # Needs to be filled out.
 
 - type: entity
@@ -103,9 +103,9 @@
   name: mccargo freezer
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/mccargo.rsi
+    sprite: /_NF/Structures/Storage/Crates/mccargo.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/mccargo.rsi
+    sprite: /_NF/Structures/Storage/Crates/mccargo.rsi
 
 # Mercenary
 - type: entity
@@ -114,9 +114,9 @@
   name: mercenary crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/secure_mercenary.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_mercenary.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/secure_mercenary.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_mercenary.rsi
   - type: AccessReader
     access: [["Mercenary"]]
 
@@ -126,9 +126,9 @@
   name: private security crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/secure_privatesec.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_privatesec.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/secure_privatesec.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_privatesec.rsi
   - type: AccessReader
     access: [["Mercenary"]]
 
@@ -138,9 +138,9 @@
   name: secure ammo crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/secure_ammo.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_ammo.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/secure_ammo.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_ammo.rsi
   - type: AccessReader
     access: [["Mercenary"]]
 
@@ -150,9 +150,9 @@
   name: secure firearms crate
   components:
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/secure_firearms.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_firearms.rsi
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/secure_firearms.rsi
+    sprite: /_NF/Structures/Storage/Crates/secure_firearms.rsi
 
 - type: entity
   parent: CrateLivestock
@@ -163,13 +163,13 @@
   - type: EntityStorage
     airtight: false # Keep this explicit in case the parent changes.
   - type: Sprite
-    sprite: _NF/Structures/Storage/Crates/woodcage.rsi
+    sprite: /_NF/Structures/Storage/Crates/woodcage.rsi
     layers:
     - state: base
     - state: closed
       map: ["enum.StorageVisualLayers.Door"]
   - type: Icon
-    sprite: _NF/Structures/Storage/Crates/woodcage.rsi
+    sprite: /_NF/Structures/Storage/Crates/woodcage.rsi
     state: base
 
 - type: entity

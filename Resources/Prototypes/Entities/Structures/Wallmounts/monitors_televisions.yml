@@ -41,7 +41,7 @@
     node: TelescreenFrame
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Machines/computers.rsi
+    sprite: /Structures/Machines/computers.rsi
     layers:
       - map: ["computerLayerBody"]
         state: telescreen_frame
@@ -143,7 +143,7 @@
     node: TelevisionFrame
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/flatscreentv.rsi
+    sprite: /Structures/Wallmounts/flatscreentv.rsi
     layers:
       - map: ["computerLayerBody"]
         state: television_wall

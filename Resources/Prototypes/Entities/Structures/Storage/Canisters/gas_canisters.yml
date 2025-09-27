@@ -10,7 +10,7 @@
     - type: Transform
       noRot: true
     - type: Sprite
-      sprite: _NF/Structures/Storage/canister.rsi # Frontier
+      sprite: /_NF/Structures/Storage/canister.rsi # Frontier
       noRot: true
       layers:
         - state: air # Frontier
@@ -768,7 +768,7 @@
       damageModifierSet: Metallic
     - type: InteractionOutline
     - type: Sprite
-      sprite: _NF/Structures/Storage/canister.rsi # Frontier
+      sprite: /_NF/Structures/Storage/canister.rsi # Frontier
       state: air-1 # Frontier
     - type: Physics
       bodyType: Dynamic

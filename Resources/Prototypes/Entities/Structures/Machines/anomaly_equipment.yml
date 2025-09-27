@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/Anomaly/anomaly_vessel.rsi
+    sprite: /Structures/Machines/Anomaly/anomaly_vessel.rsi
     layers:
     - state: base
     - state: powered-1
@@ -95,7 +95,7 @@
   description: An advanced anomaly vessel capable of greater research potential at the cost of increased volatility and low-level radioactive decay into the environment.
   components:
   - type: Sprite
-    sprite: Structures/Machines/Anomaly/adv_anomaly_vessel.rsi
+    sprite: /Structures/Machines/Anomaly/adv_anomaly_vessel.rsi
     offset: 0,0.5
     drawdepth: Mobs
   - type: SpriteFade
@@ -122,7 +122,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/Anomaly/ape.rsi
+    sprite: /Structures/Machines/Anomaly/ape.rsi
     layers:
     - state: base
     - state: unshaded
@@ -233,7 +233,7 @@
   - type: StationAiWhitelist
   - type: SpriteFade
   - type: Sprite
-    sprite: Structures/Machines/Anomaly/anomaly_generator.rsi
+    sprite: /Structures/Machines/Anomaly/anomaly_generator.rsi
     offset: 0,1
     drawdepth: Mobs
     layers:

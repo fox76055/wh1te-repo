@@ -5,5 +5,5 @@
 - type: humanoidBaseSprite
   id: MobAvaliEyes
   baseSprite:
-    sprite: _Lua/Races/Avali/eyes.rsi
+    sprite: /_Lua/Races/Avali/eyes.rsi
     state: aeyes

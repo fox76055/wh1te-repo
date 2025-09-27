@@ -16,7 +16,7 @@
     - type: CrateMachine
     - type: MarketItemSpawner
     - type: Sprite
-      sprite: _NF/Structures/Machines/crate_machine.rsi
+      sprite: /_NF/Structures/Machines/crate_machine.rsi
       snapCardinals: true
       drawdepth: HighFloorObjects
       layers:

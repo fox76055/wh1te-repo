@@ -5,7 +5,7 @@
   description: An electronics board containing the NT Default lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: NTDefault
@@ -17,7 +17,7 @@
   description: An electronics board containing the Crewsimov lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: Crewsimov
@@ -29,7 +29,7 @@
   description: An electronics board containing the Corporate lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: Corporate
@@ -41,7 +41,7 @@
   description: An electronics board containing the Ten Commandments lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: CommandmentsLawset
@@ -53,7 +53,7 @@
   description: An electronics board containing the Paladin lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: PaladinLawset
@@ -65,7 +65,7 @@
   description: An electronics board containing the Live and Let Live lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: LiveLetLiveLaws
@@ -77,7 +77,7 @@
   description: An electronics board containing the Station Efficiency lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: EfficiencyLawset
@@ -89,7 +89,7 @@
   description: An electronics board containing the Robocop lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: RobocopLawset
@@ -101,7 +101,7 @@
   description: An electronics board containing the Overlord lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: OverlordLawset
@@ -113,7 +113,7 @@
   description: An electronics board containing the Game Master lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: GameMasterLawset
@@ -125,7 +125,7 @@
   description: An electronics board containing the Artist lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: PainterLawset
@@ -137,7 +137,7 @@
   description: An electronics board containing the Antimov lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: AntimovLawset
@@ -150,7 +150,7 @@
   description: An electronics board containing the Nutimov lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: NutimovLawset
@@ -163,7 +163,7 @@
   description: An electronics board containing the Xenoborg lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: XenoborgLawset
@@ -176,7 +176,7 @@
   description: An electronics board containing the Mothership Core lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: MothershipCoreLawset

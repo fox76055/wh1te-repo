@@ -9,7 +9,7 @@
 #    - type: Item
 #      size: Normal
     - type: Sprite
-      sprite: Objects/Misc/modular_receiver.rsi
+      sprite: /Objects/Misc/modular_receiver.rsi
       state: icon
     - type: Tag
       tags:
@@ -25,7 +25,7 @@
 #    - type: Item
 #      size: Normal
     - type: Sprite
-      sprite: Objects/Misc/rifle_stock.rsi
+      sprite: /Objects/Misc/rifle_stock.rsi
       state: icon
     - type: Construction
       graph: RifleStockGraph

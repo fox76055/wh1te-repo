@@ -5,9 +5,9 @@
   description: Вот прелесть карпоративной жизни, стильные костюмы в тему!
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-official.rsi
+    sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-official.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-official.rsi
+    sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-official.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,9 +16,9 @@
   description: Носитель данного костюма обязан принести чащечку кофе.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-intern.rsi
+    sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-intern.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-intern.rsi
+    sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-intern.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -27,9 +27,9 @@
   description: Полевая униформа Приватного Офицера СБ ЦК
   components:
     - type: Sprite
-      sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-private_officer.rsi
+      sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-private_officer.rsi
     - type: Clothing
-      sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-private_officer.rsi
+      sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-private_officer.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -38,9 +38,9 @@
   description: Свободная и крепкая униформа спец сил ЦК.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-military.rsi
+    sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-military.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/centcom-military.rsi
+    sprite: /Backmen/Clothing/Uniforms/jumpsuit/centcom-military.rsi
   - type: Armor
     modifiers:
       coefficients:

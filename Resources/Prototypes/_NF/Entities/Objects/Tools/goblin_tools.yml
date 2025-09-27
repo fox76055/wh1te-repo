@@ -148,7 +148,7 @@
   components:
   - type: Sprite
     layers:
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: EntityTableSpawner
@@ -167,9 +167,9 @@
   description: "An improvised multitool pieced together from faulty circuit board, broken display, bent antennae and stuffed into a discarded wrapper for additional protection against elements."
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/multitool.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/multitool.rsi
     layers:
-    - sprite: Objects/Consumable/Food/snacks.rsi
+    - sprite: /Objects/Consumable/Food/snacks.rsi
       state: cheesiehonkers
       map: [ "iconMultitoolWrapper" ]
     - state: icon
@@ -177,24 +177,24 @@
       shader: unshaded
     - state: icon-text-unshaded
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/multitool.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/multitool.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/multitool.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/multitool.rsi
   - type: RandomSprite
     available:
       - iconMultitoolWrapper:
@@ -223,12 +223,12 @@
   description: A wire cutter made out of glass shards, metal bits, cloth, and some wires. What's up with all the sparking, though?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/wirecutters.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/wirecutters.rsi
     layers:
     - state: icon
     - state: icon-color
       map: [ "enum.DamageStateVisualLayers.Base" ]
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: RandomSprite
@@ -236,20 +236,20 @@
       - enum.DamageStateVisualLayers.Base:
           icon-color: Rainbow
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/wirecutters.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/wirecutters.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/wirecutters.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/wirecutters.rsi
     clothingVisuals:
       belt:
       - state: equipped-BELT
@@ -266,31 +266,31 @@
   description: An improvised electrical screwdriver, not much in terms of torque, but your wrists will be less sore.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/screwdriver.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/screwdriver.rsi
     layers:
     - state: screwdriver-base
     - state: screwdriver-wires
       map: [ "iconScrewdriverWires" ]
     - state: screwdriver-unshaded
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/screwdriver.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/screwdriver.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/screwdriver.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/screwdriver.rsi
   - type: RandomSprite
     available:
     - iconScrewdriverWires:
@@ -312,31 +312,31 @@
   description: The next step in crowbar evolution - jack. Enhanced with an improvised electrical winch.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/crowbar.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/crowbar.rsi
     layers:
     - state: icon
     - state: icon-unshaded
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/crowbar.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/crowbar.rsi
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/crowbar.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/crowbar.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
     storedSprite:
-      sprite: _NF/Objects/Tools/goblin_tools/crowbar.rsi
+      sprite: /_NF/Objects/Tools/goblin_tools/crowbar.rsi
       state: storage
   - type: Tool
     qualities:
@@ -355,34 +355,34 @@
   description: An improvised electrical wrench, not much in terms of torque, but your wrists will be less sore.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/wrench.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/wrench.rsi
     layers:
     - state: icon
     - state: icon-unshaded
       shader: unshaded
     - state: can1
       map: ["randomWrenchCan"]
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/wrench.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/wrench.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
     storedSprite:
-      sprite: _NF/Objects/Tools/goblin_tools/wrench.rsi
+      sprite: /_NF/Objects/Tools/goblin_tools/wrench.rsi
       state: icon
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/wrench.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/wrench.rsi
   - type: Tool
     qualities:
       - Anchoring
@@ -413,7 +413,7 @@
   description: An improvised welding tool made out of a plastic bottle, an empty soda can, a spray nozzle, and a leaking battery.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/welder.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/welder.rsi
     layers:
     - state: icon
     - state: icon-unshaded
@@ -424,7 +424,7 @@
       visible: false
       shader: unshaded
       map: ["enum.ToggleableVisuals.Layer"]
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: GenericVisualizer
@@ -434,20 +434,20 @@
           True: { visible: true }
           False: { visible: false }
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/welder.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/welder.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/welder.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/welder.rsi
   - type: RandomSprite
     available:
       - randomWelderCan:
@@ -489,32 +489,32 @@
     sound:
       path: /Audio/Items/wrench_drop.ogg
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/hoe.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/hoe.rsi
     layers:
     - state: hoe-base
     - state: hoe-wires
       map: [ "iconHoeWires" ]
     - state: hoe-unshaded
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/hoe.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/hoe.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
     storedRotation: -90
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/hoe.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/hoe.rsi
   - type: RandomSprite
     available:
     - iconHoeWires:
@@ -532,29 +532,29 @@
   description: The pickaxe is dead; hail the new king of manual mining - the improvised pneumatic hammer.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/handdrill.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/handdrill.rsi
     layers:
     - state: icon
     - state: icon-unshaded
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/handdrill.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/handdrill.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/handdrill.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/handdrill.rsi
   - type: MeleeWeapon
     wideAnimationRotation: -45
     soundHit:
@@ -578,9 +578,9 @@
   description: With this tool you no longer have to memorise where you've hid you stash.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/tray.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/tray.rsi
     layers:
-    - sprite: Objects/Consumable/Food/snacks.rsi
+    - sprite: /Objects/Consumable/Food/snacks.rsi
       state: cheesiehonkers
       map: [ "iconTrayWrapper" ]
     - state: icon
@@ -589,7 +589,7 @@
     - state: tray-off
       map: ["baseTRay"]
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: GenericVisualizer
@@ -599,20 +599,20 @@
           On: { state: tray-on }
           Off: { state: tray-off }
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/tray.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/tray.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/tray.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/tray.rsi
   - type: RandomSprite
     available:
       - iconTrayWrapper:
@@ -641,29 +641,29 @@
   description: An improvised remote signaller capable of sending signals to objects within a small radius of about 10 meters.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/signaller.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/signaller.rsi
     layers:
     - state: icon
     - state: icon-unshaded
       shader: unshaded
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/signaller.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/signaller.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/signaller.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/signaller.rsi
   - type: WirelessNetworkConnection
     range: 10
   - type: Construction
@@ -679,32 +679,32 @@
   description: An improvised lantern. How is it possible to put a power cell and a light bulb inside a glass bottle without breaking either of those items?
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/lantern.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/lantern.rsi
     layers:
     - state: lantern
     - state: lantern-overlay
       shader: unshaded
       visible: false
       map: [ "light" ]
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/lantern.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/lantern.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
     storedRotation: 0
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/lantern.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/lantern.rsi
   - type: PointLight
     enabled: false
     mask: null
@@ -731,31 +731,31 @@
   suffix: Goblin Made, Full
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/goblin_tools/power_cell.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/power_cell.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       state: o2
       color: "#0084ff"
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: icon
-    - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+    - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: Item
-    sprite: _NF/Objects/Tools/goblin_tools/power_cell.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/power_cell.rsi
     inhandVisuals:
       left:
       - state: inhand-left
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-left
         shader: unshaded
       right:
       - state: inhand-right
-      - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
+      - sprite: /_NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
         state: overlay-inhand-right
         shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Tools/goblin_tools/power_cell.rsi
+    sprite: /_NF/Objects/Tools/goblin_tools/power_cell.rsi
   - type: MachinePart
     part: PowerCell
     rating: 1 # Ideally 0

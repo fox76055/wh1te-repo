@@ -8,9 +8,9 @@
   name: стальной магнитный ящик
   components:
   - type: Icon
-    sprite: _Lua/Structures/Storage/Crates/steelmagneet.rsi
+    sprite: /_Lua/Structures/Storage/Crates/steelmagneet.rsi
   - type: Sprite
-    sprite: _Lua/Structures/Storage/Crates/steelmagneet.rsi
+    sprite: /_Lua/Structures/Storage/Crates/steelmagneet.rsi
   - type: Reflect
     reflects:
     - Energy
@@ -75,7 +75,7 @@
   parent: BaseBarrel
   components:
   - type: Sprite
-    sprite: _NF/Objects/Storage/Barrels/grey.rsi
+    sprite: /_NF/Objects/Storage/Barrels/grey.rsi
   - type: Construction #Lua_Tweak - крафт маленького вентилятора
     graph: MetalBarrelGreyCrafted
     node: MetalBarrelGreyCrafted

@@ -8,7 +8,7 @@
   components:
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/misc.rsi
+    sprite: /Objects/Consumable/Food/Baked/misc.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -31,7 +31,7 @@
     trash:
     - FoodPlateMuffinTin
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/misc.rsi
+    sprite: /Objects/Consumable/Food/Baked/misc.rsi
     state: muffin
   - type: SolutionContainerManager
     solutions:
@@ -263,7 +263,7 @@
       - Nugget
       - Meat
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/nuggets.rsi
+    sprite: /Objects/Consumable/Food/Baked/nuggets.rsi
     layers:
       - state: tendie
         map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -675,7 +675,7 @@
       - sweet
       - chocolate
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/brownie.rsi
+    sprite: /Objects/Consumable/Food/Baked/brownie.rsi
     state: brownie-batch
   - type: SolutionContainerManager
     solutions:
@@ -702,7 +702,7 @@
       - sweet
       - chocolate
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     state: mre-brownie-open
   - type: SolutionContainerManager
     solutions:
@@ -729,7 +729,7 @@
       - magical
       - chocolate
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/brownie.rsi
+    sprite: /Objects/Consumable/Food/Baked/brownie.rsi
     state: brownie-batch
   - type: SolutionContainerManager
     solutions:
@@ -758,7 +758,7 @@
       - magical
       - chocolate
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: /Objects/Consumable/Food/snacks.rsi
     state: mre-brownie-open
   - type: SolutionContainerManager
     solutions:
@@ -871,7 +871,7 @@
       - cheesy
       - bread
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/misc.rsi
+    sprite: /Objects/Consumable/Food/Baked/misc.rsi
     state: grilled-cheese
   - type: SolutionContainerManager
     solutions:
@@ -897,7 +897,7 @@
     - bread
     - cotton
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/misc.rsi
+    sprite: /Objects/Consumable/Food/Baked/misc.rsi
     state: grilled-cheese-cotton
   - type: Food
     requiresSpecialDigestion: true

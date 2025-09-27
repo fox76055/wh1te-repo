@@ -13,15 +13,15 @@
       radarColor: "#1a4a88"
       scale: 1
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Turrets/lasersyndie.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Turrets/lasersyndie.rsi
       drawdepth: Mobs
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
         - state: impulselaser
-          sprite: _Lua/Objects/Weapons/Guns/Turrets/lasersyndie.rsi
+          sprite: /_Lua/Objects/Weapons/Guns/Turrets/lasersyndie.rsi
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: impulselaser-unshaded
-          sprite: _Lua/Objects/Weapons/Guns/Turrets/lasersyndie.rsi
+          sprite: /_Lua/Objects/Weapons/Guns/Turrets/lasersyndie.rsi
           shader: unshaded
     - type: CombatMode
       toggleMouseRotator: false

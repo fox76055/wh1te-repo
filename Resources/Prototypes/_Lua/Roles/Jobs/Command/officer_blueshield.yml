@@ -107,7 +107,7 @@
   description: Рюкзак офицера "Синий Щит" с функцией РИГ.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Back/blueshield.rsi
+    sprite: /_Lua/Clothing/Back/blueshield.rsi
   - type: Storage
     grid:
     - 0,0,7,5

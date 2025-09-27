@@ -18,7 +18,7 @@
 #       proto: MechBulletWeakRocket
 #       deleteOnSpawn: true
 #     - type: Sprite
-#       sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi #тут косякина
+#       sprite: /Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi #тут косякина
 #       state: frag
 
 - type: entity
@@ -28,7 +28,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
       - state: lfrag
   - type: ExplodeOnTrigger

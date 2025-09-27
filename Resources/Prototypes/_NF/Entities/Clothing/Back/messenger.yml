@@ -6,7 +6,7 @@
   description: A trendy looking messenger bag in tasteful colors.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#777b83"
@@ -15,7 +15,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -44,7 +44,7 @@
   description: A trendy looking messenger bag.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/messenger.rsi
+    sprite: /_NF/Clothing/Back/Messenger/messenger.rsi
 
 # DEPARTMENTAL
 ## Command
@@ -55,7 +55,7 @@
   description: An exclusive messenger bag for Nanotrasen officers.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#3c6381"
@@ -64,7 +64,7 @@
     - state: icon-clasp
       color: "#f6d56a"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -93,7 +93,7 @@
   description: An exclusive messenger bag for Nanotrasen officers.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#2c6a30"
@@ -102,7 +102,7 @@
     - state: icon-clasp
       color: "#eca615"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -132,7 +132,7 @@
   description: A tough messenger bag made of fire resistant fibers. Smells like plasma.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/atmospherics.rsi
+    sprite: /_NF/Clothing/Back/Messenger/atmospherics.rsi
 
 - type: entity
   parent: ClothingBackpackMessengerContractor
@@ -141,7 +141,7 @@
   description: A tough messenger bag with extra pockets.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#c9a569"
@@ -154,7 +154,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -195,7 +195,7 @@
   description: A tough messenger bag with extra pockets.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#a48965"
@@ -204,7 +204,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -234,7 +234,7 @@
   description: A robust messenger bag for stealing cargo's loot.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#d9b744"
@@ -245,7 +245,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -280,7 +280,7 @@
   description: A robust messenger bag for stashing your loot.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#766245"
@@ -289,7 +289,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -319,7 +319,7 @@
   description: A sterile messenger bag used in medical departments.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/medical.rsi
+    sprite: /_NF/Clothing/Back/Messenger/medical.rsi
 
 - type: entity
   parent: ClothingBackpackMessenger
@@ -328,7 +328,7 @@
   description: A sterile messenger bag with chemist colours.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/chemistry.rsi
+    sprite: /_NF/Clothing/Back/Messenger/chemistry.rsi
 
 - type: entity
   parent: ClothingBackpackMessenger
@@ -337,7 +337,7 @@
   description: A messenger bag made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/virology.rsi
+    sprite: /_NF/Clothing/Back/Messenger/virology.rsi
 
 - type: entity
   parent: ClothingBackpackMessenger
@@ -346,7 +346,7 @@
   description: A sterile messenger bag with geneticist colours.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/genetics.rsi
+    sprite: /_NF/Clothing/Back/Messenger/genetics.rsi
 
 ## Science
 - type: entity
@@ -356,7 +356,7 @@
   description: Useful for holding research materials.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/science.rsi
+    sprite: /_NF/Clothing/Back/Messenger/science.rsi
 
 ## Civilian
 - type: entity
@@ -366,7 +366,7 @@
   description: For fast running from security.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/clown.rsi
+    sprite: /_NF/Clothing/Back/Messenger/clown.rsi
   - type: Storage
     storageOpenSound:
       collection: BikeHorn
@@ -378,7 +378,7 @@
   description: A robust messenger bag for waging war against clowns.
   components:
     - type: Sprite
-      sprite: _NF/Clothing/Back/Messenger/mime.rsi
+      sprite: /_NF/Clothing/Back/Messenger/mime.rsi
 
 - type: entity
   parent: ClothingBackpackMessengerContractor
@@ -387,7 +387,7 @@
   description: A messenger bag made of all natural fibers.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#548ddc"
@@ -398,7 +398,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -433,7 +433,7 @@
   description: A robust messenger bag for waging war against dirt.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#ebdc36"
@@ -442,7 +442,7 @@
     - state: icon-clasp
       color: "#8c347f"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -471,7 +471,7 @@
   description: A robust messenger bag for waging war against mail.
   components:
     - type: Sprite
-      sprite: _NF/Clothing/Back/Messenger/mailman.rsi
+      sprite: /_NF/Clothing/Back/Messenger/mailman.rsi
 
 - type: entity
   parent: ClothingBackpackMessengerContractor
@@ -479,7 +479,7 @@
   name: chaplain messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#535353"
@@ -488,7 +488,7 @@
     - state: icon-clasp
       color: "#f6d56a"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -518,7 +518,7 @@
   description: A robust messenger bag for shuttle parts.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#3e2516"
@@ -527,7 +527,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -556,7 +556,7 @@
   description:  A robust messenger bag for war crimes.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#6a6a36"
@@ -565,7 +565,7 @@
     - state: icon-clasp
       color: "#bbbb7a"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -594,7 +594,7 @@
   description:  A robust messenger bag for committing war crimes on a payroll.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#2286bd"
@@ -603,7 +603,7 @@
     - state: icon-clasp
       color: "#935c3f"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -633,14 +633,14 @@
   description: A messenger bag that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/holding.rsi
+    sprite: /_NF/Clothing/Back/Messenger/holding.rsi
     state: icon
     layers:
     - state: icon
     - state: icon-unlit
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/holding.rsi
+    sprite: /_NF/Clothing/Back/Messenger/holding.rsi
     clothingVisuals:
       back:
       - state: holding-equipped-BACKPACK
@@ -668,7 +668,7 @@
   description: A robust messenger bag for waging war against oppressors.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#424242"
@@ -677,7 +677,7 @@
     - state: icon-clasp
       color: "#7f0101"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -709,7 +709,7 @@
   description: A watertight messenger bag for loyal Nar'Sie followers.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#562f2f"
@@ -718,7 +718,7 @@
     - state: icon-clasp
       color: "#96907c"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -746,7 +746,7 @@
   parent: [ ClothingBackpackMessengerContractor, BaseC3ContrabandNoValue, ContrabandClothing ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#bab0b0"
@@ -759,7 +759,7 @@
     - state: icon-clasp
       color: "#1f1f1f"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -800,7 +800,7 @@
   name: NFSD messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#63492a"
@@ -811,7 +811,7 @@
     - state: icon-clasp
       color: "#e1af4e"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -845,7 +845,7 @@
   name: NFSD messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#c2ae98"
@@ -856,7 +856,7 @@
     - state: icon-clasp
       color: "#e1af4e"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -891,7 +891,7 @@
   name: security messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#6a6a6a"
@@ -902,7 +902,7 @@
     - state: icon-clasp
       color: "#cdcdcd"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -937,7 +937,7 @@
   name: black messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#535353"
@@ -946,7 +946,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -974,7 +974,7 @@
   name: blue messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#0089EF"
@@ -983,7 +983,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1011,7 +1011,7 @@
   name: green messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#5ABF2F"
@@ -1020,7 +1020,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1048,7 +1048,7 @@
   name: orange messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#EF8100"
@@ -1057,7 +1057,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1085,7 +1085,7 @@
   name: red messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#940000"
@@ -1094,7 +1094,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1122,7 +1122,7 @@
   name: purple messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#9C0DE1"
@@ -1131,7 +1131,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1159,7 +1159,7 @@
   name: light brown messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#C09F72"
@@ -1168,7 +1168,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1196,7 +1196,7 @@
   name: brown messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#723A02"
@@ -1205,7 +1205,7 @@
     - state: icon-clasp
       color: "#eeeeee"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1233,7 +1233,7 @@
   name: white messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       color: "#ffffff"
@@ -1242,7 +1242,7 @@
     - state: icon-clasp
       color: "#776756"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK
@@ -1271,7 +1271,7 @@
   name: punk messenger bag
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     layers:
     - state: icon-base
       map: [ "iconMessengerBase" ]
@@ -1281,7 +1281,7 @@
       map: [ "iconMessengerClasp" ]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    sprite: /_NF/Clothing/Back/Messenger/color.rsi
     clothingVisuals:
       back:
       - state: base-equipped-BACKPACK

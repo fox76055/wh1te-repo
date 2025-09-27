@@ -4,7 +4,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: africanpigtails
 
 - type: marking
@@ -13,7 +13,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: afropuffdouble
 
 - type: marking
@@ -22,7 +22,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: afropuffleft
 
 - type: marking
@@ -31,7 +31,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: afropuffright
 
 - type: marking
@@ -40,7 +40,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: amazon
 
 - type: marking
@@ -49,7 +49,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: astolfo
 
 - type: marking
@@ -58,7 +58,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: baum
 
 - type: marking
@@ -67,7 +67,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: beachwave
 
 - type: marking
@@ -76,7 +76,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: bluntbangs
 
 - type: marking
@@ -85,7 +85,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: bluntbangs_alt
 
 - type: marking
@@ -94,7 +94,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: bobcutalt
 
 - type: marking
@@ -103,7 +103,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: bunhead4
 
 - type: marking
@@ -112,7 +112,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: combed
 
 - type: marking
@@ -121,7 +121,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: combedbob
 
 - type: marking
@@ -131,7 +131,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: cotton
 
 - type: marking
@@ -140,7 +140,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: curly
 
 - type: marking
@@ -149,7 +149,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: dave
 
 - type: marking
@@ -158,7 +158,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: diagonal_bangs
 
 - type: marking
@@ -167,7 +167,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: emoshort
 
 - type: marking
@@ -177,7 +177,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: fingerwave
 
 - type: marking
@@ -186,7 +186,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: fluffy_short
 
 - type: marking
@@ -196,7 +196,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: fortuneteller
 
 - type: marking
@@ -206,7 +206,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: fortuneteller_alt
 
 - type: marking
@@ -215,7 +215,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: froofylong
 
 - type: marking
@@ -224,7 +224,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: geisha
 
 - type: marking
@@ -233,7 +233,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: gentle21
 
 - type: marking
@@ -242,7 +242,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: glammetal
 
 - type: marking
@@ -251,7 +251,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: gloomy_long
 
 - type: marking
@@ -260,7 +260,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: gloomy_medium
 
 - type: marking
@@ -269,7 +269,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: grande
 
 - type: marking
@@ -278,7 +278,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: halfshave
 
 - type: marking
@@ -287,7 +287,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: halfshave_glamorous
 
 - type: marking
@@ -296,7 +296,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: halfshave_long
 
 - type: marking
@@ -305,7 +305,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: halfshave_messy
 
 - type: marking
@@ -314,7 +314,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: halfshave_messylong
 
 - type: marking
@@ -323,7 +323,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: halfshave_snout
 
 - type: marking
@@ -332,7 +332,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: hightight
 
 - type: marking
@@ -341,7 +341,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: hyenamane
 
 - type: marking
@@ -350,7 +350,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: jessica
 
 - type: marking
@@ -359,7 +359,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: long4
 
 - type: marking
@@ -369,7 +369,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: longdtails
 
 - type: marking
@@ -378,7 +378,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: longeralt
 
 - type: marking
@@ -387,7 +387,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: longovereye_alt
 
 - type: marking
@@ -396,7 +396,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: longsidepartstraight
 
 - type: marking
@@ -406,7 +406,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: loose_slicked
 
 - type: marking
@@ -415,7 +415,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: mediumbraid
 
 - type: marking
@@ -424,7 +424,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: newyou
 
 - type: marking
@@ -433,7 +433,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: ponytailalt
 
 - type: marking
@@ -442,7 +442,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: ponytailf
 
 - type: marking
@@ -451,7 +451,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: poofy2
 
 - type: marking
@@ -461,7 +461,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: quadcurls
 
 - type: marking
@@ -470,7 +470,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: sabitsuki
 
 - type: marking
@@ -479,7 +479,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: scully
 
 - type: marking
@@ -488,7 +488,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: shorthair4
 
 - type: marking
@@ -498,7 +498,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: shy
 
 - type: marking
@@ -507,7 +507,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: simple_ponytail
 
 - type: marking
@@ -516,7 +516,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: sleaze
 
 - type: marking
@@ -525,7 +525,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: slightlymessy
 
 - type: marking
@@ -534,7 +534,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: slimedroplet
 
 - type: marking
@@ -543,7 +543,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: slimedroplet_alt
 
 - type: marking
@@ -552,7 +552,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: slimespikes
 
 - type: marking
@@ -561,7 +561,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: slimetendrils
 
 - type: marking
@@ -570,7 +570,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: slimetendrils_alt
 
 - type: marking
@@ -580,7 +580,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: spicy
 
 - type: marking
@@ -589,7 +589,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: twintail_floor
 
 - type: marking
@@ -598,7 +598,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: veryshortovereye
 
 - type: marking
@@ -607,7 +607,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: victory
 
 - type: marking
@@ -616,7 +616,7 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: viper
 
 - type: marking
@@ -626,7 +626,7 @@
   speciesBlacklist: [Avali]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: wife
 
 - type: marking
@@ -635,5 +635,5 @@
   markingCategory: Hair
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/human_hair.rsi
+    - sprite: /Corvax/Mobs/Customization/human_hair.rsi
       state: ziegler

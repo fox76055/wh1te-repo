@@ -6,9 +6,9 @@
   description: A hood that protects the head and face from biological contaminants.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Bio/general.rsi
+    sprite: /Clothing/Head/Hoods/Bio/general.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Bio/general.rsi
+    sprite: /Clothing/Head/Hoods/Bio/general.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: GroupExamine
@@ -35,9 +35,9 @@
   components:
   - type: IdentityBlocker
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Bio/cmo.rsi
+    sprite: /Clothing/Head/Hoods/Bio/cmo.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Bio/cmo.rsi
+    sprite: /Clothing/Head/Hoods/Bio/cmo.rsi
   - type: ZombificationResistance
     zombificationResistanceCoefficient: 0.8
 
@@ -50,9 +50,9 @@
   components:
   - type: IdentityBlocker
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Bio/janitor.rsi
+    sprite: /Clothing/Head/Hoods/Bio/janitor.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Bio/janitor.rsi
+    sprite: /Clothing/Head/Hoods/Bio/janitor.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
@@ -63,9 +63,9 @@
   components:
   - type: IdentityBlocker
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Bio/scientist.rsi
+    sprite: /Clothing/Head/Hoods/Bio/scientist.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Bio/scientist.rsi
+    sprite: /Clothing/Head/Hoods/Bio/scientist.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
@@ -76,9 +76,9 @@
   components:
   - type: IdentityBlocker
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Bio/security.rsi
+    sprite: /Clothing/Head/Hoods/Bio/security.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Bio/security.rsi
+    sprite: /Clothing/Head/Hoods/Bio/security.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
@@ -89,9 +89,9 @@
   components:
   - type: IdentityBlocker
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Bio/virology.rsi
+    sprite: /Clothing/Head/Hoods/Bio/virology.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Bio/virology.rsi
+    sprite: /Clothing/Head/Hoods/Bio/virology.rsi
   - type: ZombificationResistance
     zombificationResistanceCoefficient: 0.8
 
@@ -103,9 +103,9 @@
   description: Maximum piety in this star system.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/chaplain.rsi
+    sprite: /Clothing/Head/Hoods/chaplain.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/chaplain.rsi
+    sprite: /Clothing/Head/Hoods/chaplain.rsi
   - type: Tag
     tags:
     - HamsterWearable
@@ -121,9 +121,9 @@
   description: There's no cult without cult hoods.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/cult.rsi
+    sprite: /Clothing/Head/Hoods/cult.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/cult.rsi
+    sprite: /Clothing/Head/Hoods/cult.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -138,9 +138,9 @@
   description: Maximum piety in this star system.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/nun.rsi
+    sprite: /Clothing/Head/Hoods/nun.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/nun.rsi
+    sprite: /Clothing/Head/Hoods/nun.rsi
   - type: Tag
     tags:
     - HamsterWearable
@@ -156,9 +156,9 @@
   description: A hood of the hazmat suit, designed for protection from high radioactivity.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/rad.rsi
+    sprite: /Clothing/Head/Hoods/rad.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/rad.rsi
+    sprite: /Clothing/Head/Hoods/rad.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -181,9 +181,9 @@
   description: A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/goliathcloak.rsi
+    sprite: /Clothing/Head/Hoods/goliathcloak.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/goliathcloak.rsi
+    sprite: /Clothing/Head/Hoods/goliathcloak.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -199,9 +199,9 @@
   description: A hood to complete the 'Good boy' look.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/iansuit.rsi
+    sprite: /Clothing/Head/Hoods/iansuit.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/iansuit.rsi
+    sprite: /Clothing/Head/Hoods/iansuit.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -214,9 +214,9 @@
   description: A gnarly hood adorned with plastic space carp teeth.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/carpsuit.rsi
+    sprite: /Clothing/Head/Hoods/carpsuit.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/carpsuit.rsi
+    sprite: /Clothing/Head/Hoods/carpsuit.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -245,9 +245,9 @@
   description: A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooting movies and videos.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/moth.rsi
+    sprite: /Clothing/Head/Hoods/moth.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/moth.rsi
+    sprite: /Clothing/Head/Hoods/moth.rsi
   - type: IdentityBlocker
   - type: Tag
     tags:
@@ -267,9 +267,9 @@
   name: default winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -278,9 +278,9 @@
   name: bartender winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodbartender.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodbartender.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodbartender.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodbartender.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -290,9 +290,9 @@
   description: An expensive hood, to keep the captain's head warm.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodcaptain.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcaptain.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodcaptain.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcaptain.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -301,9 +301,9 @@
   name: cargo winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodcargo.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcargo.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodcargo.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcargo.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -312,9 +312,9 @@
   name: chief engineer's winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodce.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodce.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodce.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodce.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -324,9 +324,9 @@
   description: A hood for keeping the central comander's head warm.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodcentcom.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcentcom.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodcentcom.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcentcom.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -335,9 +335,9 @@
   name: chemist winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodchemist.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodchemist.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodchemist.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodchemist.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -346,9 +346,9 @@
   name: chief medical officer's winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcmo.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodcmo.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -357,9 +357,9 @@
   name: engineer winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodengi.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodengi.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodengi.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodengi.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -368,9 +368,9 @@
   name: head of personnel's winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodhop.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodhop.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodhop.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodhop.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -379,9 +379,9 @@
   name: sheriff's winter coat hood # Frontier: head of security<sheriff
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodhos.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodhos.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodhos.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodhos.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -390,9 +390,9 @@
   name: hydroponics coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodhydro.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodhydro.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodhydro.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodhydro.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -401,9 +401,9 @@
   name: janitor coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodjani.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodjani.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodjani.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodjani.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -412,9 +412,9 @@
   name: medic coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodmed.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodmed.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodmed.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodmed.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -423,9 +423,9 @@
   name: mime coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodmime.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodmime.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodmime.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodmime.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -434,9 +434,9 @@
   name: miner coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodminer.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodminer.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodminer.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodminer.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -445,9 +445,9 @@
   name: paramedic coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodpara.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodpara.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodpara.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodpara.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -456,9 +456,9 @@
   name: quartermaster's coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodqm.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodqm.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodqm.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodqm.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -467,9 +467,9 @@
   name: research director's coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodrd.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodrd.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodrd.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodrd.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -478,9 +478,9 @@
   name: robotics coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodrobo.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodrobo.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodrobo.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodrobo.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -489,9 +489,9 @@
   name: scientist coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodsci.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsci.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodsci.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsci.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -500,9 +500,9 @@
   name: security coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsec.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsec.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -511,9 +511,9 @@
   name: syndicate coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -522,9 +522,9 @@
   name: warden's coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsec.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodsec.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -533,9 +533,9 @@
   name: web coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hoodweb.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodweb.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hoodweb.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hoodweb.rsi
 
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
@@ -544,13 +544,13 @@
   name: black winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#3f3f3f"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -564,13 +564,13 @@
   name: purple winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#9C0DE1"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -584,13 +584,13 @@
   name: red winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#940000"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -604,13 +604,13 @@
   name: blue winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#0089EF"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -624,13 +624,13 @@
   name: brown winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#723A02"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -644,13 +644,13 @@
   name: gray winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#999999"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -664,13 +664,13 @@
   name: green winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#5ABF2F"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -684,13 +684,13 @@
   name: light brown winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#C09F72"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -704,13 +704,13 @@
   name: orange winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#EF8100"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -724,13 +724,13 @@
   name: white winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#EAE8E8"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -744,13 +744,13 @@
   name: yellow winter coat hood
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     layers:
     - state: coatybits-icon
       color: "#EBE216"
     - state: winterbits-icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
+    sprite: /Clothing/Head/Hoods/Coat/hooddefault.rsi
     clothingVisuals:
       head:
       - state: coatybits-equipped-HELMET
@@ -764,9 +764,9 @@
   description: The hood of a void cloak. For those who have gone to the dark side of the force.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/voidcloak.rsi
+    sprite: /Clothing/Head/Hoods/voidcloak.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/voidcloak.rsi
+    sprite: /Clothing/Head/Hoods/voidcloak.rsi
   - type: Tag
     tags:
     - WhitelistChameleon

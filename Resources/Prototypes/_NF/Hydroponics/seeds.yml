@@ -3,7 +3,7 @@
   name: seeds-spesos-name
   noun: seeds-noun-seeds
   displayName: seeds-spesos-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/spesostree.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/spesostree.rsi
   packetPrototype: SpesosTreeSeeds
   productPrototypes:
     - SpaceCash
@@ -21,7 +21,7 @@
   name: seeds-pear-name
   noun: seeds-noun-seeds
   displayName: seeds-pear-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/pear.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/pear.rsi
   packetPrototype: PearSeeds
   productPrototypes:
     - FoodPear
@@ -47,7 +47,7 @@
   name: seeds-coffee-name
   noun: seeds-noun-seeds
   displayName: seeds-coffee-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/coffee.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/coffee.rsi
   packetPrototype: CoffeeSeeds
   productPrototypes:
     - FoodCoffee
@@ -75,7 +75,7 @@
   name: seeds-avocado-name
   noun: seeds-noun-seeds
   displayName: seeds-avocado-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/avocado.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/avocado.rsi
   packetPrototype: AvocadoSeeds
   productPrototypes:
     - FoodAvocado
@@ -103,7 +103,7 @@
   name: seeds-cucumber-name
   noun: seeds-noun-seeds
   displayName: seeds-cucumber-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/cucumber.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/cucumber.rsi
   packetPrototype: CucumberSeeds
   productPrototypes:
     - FoodCucumber
@@ -129,7 +129,7 @@
   noun: seeds-noun-nothing
   packetName: botany-seed-jar-name
   displayName: seeds-bees-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/bees.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/bees.rsi
   packetPrototype: BeeSeeds
   productPrototypes:
     - FoodHoneyComb
@@ -156,7 +156,7 @@
   name: seeds-everyspice-name
   noun: seeds-noun-seeds
   displayName: seeds-everyspice-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/everyspice.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/everyspice.rsi
   packetPrototype: EveryspiceSeeds
   productPrototypes:
     - FoodEveryspice
@@ -179,7 +179,7 @@
   name: seeds-monkanana-name
   noun: seeds-noun-seeds
   displayName: seeds-monkanana-display-name
-  plantRsi: _NF/Objects/Specific/Hydroponics/monkanana.rsi
+  plantRsi: /_NF/Objects/Specific/Hydroponics/monkanana.rsi
   packetPrototype: MonkananaSeeds
   productPrototypes:
     - FoodMonkanana

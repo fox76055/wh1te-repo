@@ -5,17 +5,17 @@
   description: The M4SPR battle rifle is a designated marksman rifle in service with the Marine. Sporting a bullpup configuration, the M4SPR battle rifle is perfect for reconnaissance and fire support teams.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
-    - sprite: _RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
+    - sprite: /_RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
       state: d_m4spr_barrel
       offset: 0.65, 0
     - state: mag-0
       map: [ "enum.GunVisualLayers.Mag" ]
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
   - type: Gun
     fireRate: 2
     shotsPerBurst: 0
@@ -69,7 +69,7 @@
     proto: CMCartridgeRifle10x24mm
     capacity: 25
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m4spr.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m4spr.rsi
 
 - type: entity
   parent: CMMagazineRifleM4SPR
@@ -83,7 +83,7 @@
     - CMMagazineRifle
     - CMMagazineRifleM4SPRAP
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m4spr.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m4spr.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
@@ -105,7 +105,7 @@
   - type: BallisticAmmoProvider
     capacity: 35
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m4spre.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m4spre.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

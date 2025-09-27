@@ -4,7 +4,7 @@
   suffix: 50000
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: /Objects/Economy/cash.rsi
     state: cash_50000
   - type: Stack
     count: 50000
@@ -15,7 +15,7 @@
   suffix: 75000
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: /Objects/Economy/cash.rsi
     state: cash_50000
   - type: Stack
     count: 75000
@@ -25,7 +25,7 @@
   id: SpaceCash7500
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: /Objects/Economy/cash.rsi
     state: cash_5000
   - type: Stack
     count: 7500

@@ -20,7 +20,7 @@
         Blunt: 10000
         Heat: 500
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/mini_rocket.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/mini_rocket.rsi
     layers:
     - state: mini-rocket
     scale: 3, 3
@@ -102,7 +102,7 @@
     proto: ShipMissileASM220HE
     deleteOnSpawn: true
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Explosives/asm220.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Ammunition/Explosives/asm220.rsi
     layers:
     - state: standard
       map: ["enum.AmmoVisualLayers.Base"]
@@ -126,7 +126,7 @@
         Heat: 50
         Ion: 1000
   - type: Sprite
-    sprite: _Mono/Objects/SpaceArtillery/mini_rocket.rsi
+    sprite: /_Mono/Objects/SpaceArtillery/mini_rocket.rsi
     layers:
     - state: mini-rocket
     scale: 3, 3
@@ -212,7 +212,7 @@
     proto: ShipMissileASM220ECM
     deleteOnSpawn: true
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Explosives/asm220.rsi
+    sprite: /_Mono/Objects/Weapons/Guns/Ammunition/Explosives/asm220.rsi
     layers:
     - state: ecm
       map: ["enum.AmmoVisualLayers.Base"]

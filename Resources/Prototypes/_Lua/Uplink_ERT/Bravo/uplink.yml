@@ -6,11 +6,11 @@
   suffix: Пустое
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Devices/Uplink_ERT.rsi
+    sprite: /_Lua/Objects/Devices/Uplink_ERT.rsi
     layers:
     - state: icon
   - type: Item
-    sprite: _Lua/Objects/Devices/Uplink_ERT.rsi
+    sprite: /_Lua/Objects/Devices/Uplink_ERT.rsi
     heldPrefix: icon
   - type: UserInterface
     interfaces:

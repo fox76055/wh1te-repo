@@ -10,7 +10,7 @@
   flavor: absinthe
   color: "#33EE00"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/absintheglass.rsi
+    sprite: /Objects/Consumable/Drinks/absintheglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -56,7 +56,7 @@
   color: "#663100"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/aleglass.rsi
+    sprite: /Objects/Consumable/Drinks/aleglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -73,7 +73,7 @@
   color: "#e3e77b"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/beerglass.rsi
+    sprite: /Objects/Consumable/Drinks/beerglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -89,7 +89,7 @@
   flavor: bluecuracao
   color: "#0099FF"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/curacaoglass.rsi
+    sprite: /Objects/Consumable/Drinks/curacaoglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -113,7 +113,7 @@
   color: "#AB3C05"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/cognacglass.rsi
+    sprite: /Objects/Consumable/Drinks/cognacglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -136,7 +136,7 @@
   flavor: rum
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/rumglass.rsi
+    sprite: /Objects/Consumable/Drinks/rumglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -215,7 +215,7 @@
   color: "#664300"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/ginvodkaglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginvodkaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -238,7 +238,7 @@
   flavor: coffeeliquor
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/coffeeliqueurglass.rsi
+    sprite: /Objects/Consumable/Drinks/coffeeliqueurglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -253,7 +253,7 @@
   flavor: watermelon
   color: "#00FF33"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/emeraldglass.rsi
+    sprite: /Objects/Consumable/Drinks/emeraldglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -268,7 +268,7 @@
   flavor: bitter
   color: "#7E4043"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/wineglass.rsi
+    sprite: /Objects/Consumable/Drinks/wineglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -283,7 +283,7 @@
   flavor: bitter
   color: "#990066"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/pwineglass.rsi
+    sprite: /Objects/Consumable/Drinks/pwineglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -313,7 +313,7 @@
   color: "#f09f42"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/rumglass.rsi
+    sprite: /Objects/Consumable/Drinks/rumglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -336,7 +336,7 @@
   flavor: sake
   color: "#DDDDDD"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/sakeglass.rsi
+    sprite: /Objects/Consumable/Drinks/sakeglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -359,7 +359,7 @@
   flavor: tequila
   color: "#d7d1d155"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/tequillaglass.rsi
+    sprite: /Objects/Consumable/Drinks/tequillaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -382,7 +382,7 @@
   flavor: vermouth
   color: "#91FF91"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/vermouthglass.rsi
+    sprite: /Objects/Consumable/Drinks/vermouthglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -398,7 +398,7 @@
   color: "#d1d1d155"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/ginvodkaglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginvodkaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -422,7 +422,7 @@
   color: "#ee7732"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/whiskeyglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeyglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -446,7 +446,7 @@
   color: "#7E4043"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/wineglass.rsi
+    sprite: /Objects/Consumable/Drinks/wineglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -462,7 +462,7 @@
   color: "#FCFCEE"
   recognizable: true
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/champagneglass.rsi
+    sprite: /Objects/Consumable/Drinks/champagneglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -488,7 +488,7 @@
   flavor: acidspit
   color: "#365000"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/acidspitglass.rsi
+    sprite: /Objects/Consumable/Drinks/acidspitglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -503,7 +503,7 @@
   flavor: alienbrainhemorrhage
   color: "#FFFDD0"
   metamorphicSprite:
-      sprite: Objects/Consumable/Drinks/alienbrainhemorrhage.rsi
+      sprite: /Objects/Consumable/Drinks/alienbrainhemorrhage.rsi
       state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -518,7 +518,7 @@
   flavor: alliescocktail
   color: "#00664d"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/alliescocktail.rsi
+    sprite: /Objects/Consumable/Drinks/alliescocktail.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -533,7 +533,7 @@
   flavor: aloe
   color: "#192c00"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/aloe.rsi
+    sprite: /Objects/Consumable/Drinks/aloe.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -548,7 +548,7 @@
   flavor: amasec
   color: "#124da7"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/amasecglass.rsi
+    sprite: /Objects/Consumable/Drinks/amasecglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -563,7 +563,7 @@
   flavor: andalusia
   color: "#665700"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/andalusia.rsi
+    sprite: /Objects/Consumable/Drinks/andalusia.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -581,7 +581,7 @@
   flavor: antifreeze
   color: "#ff7d63"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/antifreeze.rsi
+    sprite: /Objects/Consumable/Drinks/antifreeze.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -604,7 +604,7 @@
   flavor: atomicbomb
   color: "#666300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/atomicbombglass.rsi
+    sprite: /Objects/Consumable/Drinks/atomicbombglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -630,7 +630,7 @@
   flavor: b52
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/b52glass.rsi
+    sprite: /Objects/Consumable/Drinks/b52glass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -653,7 +653,7 @@
   flavor: bahamamama
   color: "#FF7F3B"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bahama_mama.rsi
+    sprite: /Objects/Consumable/Drinks/bahama_mama.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -668,7 +668,7 @@
   flavor: bananahonk
   color: "#ffff91"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bananahonkglass.rsi
+    sprite: /Objects/Consumable/Drinks/bananahonkglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -683,7 +683,7 @@
   flavor: barefoot
   color: "#ff66cc"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/b&p.rsi
+    sprite: Objects/Consumable/Drinks/b&/p.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -698,7 +698,7 @@
   flavor: beepsky
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/beepskysmashglass.rsi
+    sprite: /Objects/Consumable/Drinks/beepskysmashglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -722,7 +722,7 @@
   flavor: blackrussian
   color: "#360000"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/blackrussianglass.rsi
+    sprite: /Objects/Consumable/Drinks/blackrussianglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -745,7 +745,7 @@
   flavor: bloodymary
   color: "#df6a50"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bloodymaryglass.rsi
+    sprite: /Objects/Consumable/Drinks/bloodymaryglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -760,7 +760,7 @@
   flavor: booger
   color: "#99ff00"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/booger.rsi
+    sprite: /Objects/Consumable/Drinks/booger.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -775,7 +775,7 @@
   flavor: bravebull
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bravebullglass.rsi
+    sprite: /Objects/Consumable/Drinks/bravebullglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -798,7 +798,7 @@
   flavor: bronx
   color: "#d68829"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bronx.rsi
+    sprite: /Objects/Consumable/Drinks/bronx.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -813,7 +813,7 @@
   flavor: coconutrum
   color: "#cccbc8"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/coconutrum.rsi
+    sprite: /Objects/Consumable/Drinks/coconutrum.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -836,7 +836,7 @@
   flavor: cosmopolitan
   color: "#f73030"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/cosmopolitan.rsi
+    sprite: /Objects/Consumable/Drinks/cosmopolitan.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -859,7 +859,7 @@
   flavor: crushdepth
   color: "#0a0a33"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/crushdepth.rsi
+    sprite: /Objects/Consumable/Drinks/crushdepth.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -874,7 +874,7 @@
   flavor: cubalibre
   color: "#3E1B00"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/cubalibreglass.rsi
+    sprite: /Objects/Consumable/Drinks/cubalibreglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -898,7 +898,7 @@
   flavor: darkandstormy
   color: "#cf7f17"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/dark&stormy.rsi
+    sprite: Objects/Consumable/Drinks/dark&/stormy.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -913,7 +913,7 @@
   flavor: demonsblood
   color: "#a70000"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/demonsblood.rsi
+    sprite: /Objects/Consumable/Drinks/demonsblood.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -929,7 +929,7 @@
   flavor: devilskiss
   color: "#ff0033"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/devilskiss.rsi
+    sprite: /Objects/Consumable/Drinks/devilskiss.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -944,7 +944,7 @@
   flavor: medicine
   color: "#FF8CFF"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/doctorsdelightglass.rsi
+    sprite: /Objects/Consumable/Drinks/doctorsdelightglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -976,7 +976,7 @@
   flavor: driestmartini
   color: "#2E6671"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/driestmartiniglass.rsi
+    sprite: /Objects/Consumable/Drinks/driestmartiniglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1001,7 +1001,7 @@
 #   flavor: eggnog
 #   color: "#e6d6bc"
 #   metamorphicSprite:
-#     sprite: Objects/Consumable/Drinks/eggnogglass.rsi
+#     sprite: /Objects/Consumable/Drinks/eggnogglass.rsi
 #     state: icon_empty
 #   metamorphicMaxFillLevels: 4
 #   metamorphicFillBaseName: fill-
@@ -1018,7 +1018,7 @@
   flavor: electricshark
   color: "#3097cf"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/electricshark.rsi
+    sprite: /Objects/Consumable/Drinks/electricshark.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1033,7 +1033,7 @@
   flavor: erikasurprise
   color: "#67bc50"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/beerstein.rsi
+    sprite: /Objects/Consumable/Drinks/beerstein.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1049,7 +1049,7 @@
   flavor: gargleblaster
   color: "#9cc8b4"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/gargleblasterglass.rsi
+    sprite: /Objects/Consumable/Drinks/gargleblasterglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1072,7 +1072,7 @@
   flavor: ginfizz
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/ginfizzglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginfizzglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1096,7 +1096,7 @@
   flavor: gintonic
   color: "#004166"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/gintonicglass.rsi
+    sprite: /Objects/Consumable/Drinks/gintonicglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1120,7 +1120,7 @@
   flavor: gildlager
   color: "#FFFF91"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/gildlagerglass.rsi
+    sprite: /Objects/Consumable/Drinks/gildlagerglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1143,7 +1143,7 @@
   flavor: grog
   color: "#e3e77b"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/beerstein.rsi
+    sprite: /Objects/Consumable/Drinks/beerstein.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1158,7 +1158,7 @@
   flavor: hippiesdelight
   color: "#6eaa0c"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/hippiesdelightglass.rsi
+    sprite: /Objects/Consumable/Drinks/hippiesdelightglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1182,7 +1182,7 @@
   flavor: icedbeer
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/iced_beerglass.rsi
+    sprite: /Objects/Consumable/Drinks/iced_beerglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1198,7 +1198,7 @@
   flavor: irishslammer
   color: "#2E6671"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/irishslammer.rsi
+    sprite: /Objects/Consumable/Drinks/irishslammer.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1221,7 +1221,7 @@
   flavor: creamy
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/irishcreamglass.rsi
+    sprite: /Objects/Consumable/Drinks/irishcreamglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1244,7 +1244,7 @@
   flavor: irishcoffee
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/irishcoffeeglass.rsi
+    sprite: /Objects/Consumable/Drinks/irishcoffeeglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1267,7 +1267,7 @@
   flavor: jackrose
   color: "#f53b3b"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/jackrose.rsi
+    sprite: /Objects/Consumable/Drinks/jackrose.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1282,7 +1282,7 @@
   flavor: junglebird
   color: "#f27c3d"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/junglebird.rsi
+    sprite: /Objects/Consumable/Drinks/junglebird.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1297,7 +1297,7 @@
   flavor: kalimotxo
   color: "#360606"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/kalimotxo.rsi
+    sprite: /Objects/Consumable/Drinks/kalimotxo.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1312,7 +1312,7 @@
   flavor: longisland
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/longislandicedteaglass.rsi
+    sprite: /Objects/Consumable/Drinks/longislandicedteaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1335,7 +1335,7 @@
   flavor: manhattan
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/manhattanglass.rsi
+    sprite: /Objects/Consumable/Drinks/manhattanglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1350,7 +1350,7 @@
   flavor: manhattanproject
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/proj_manhattanglass.rsi
+    sprite: /Objects/Consumable/Drinks/proj_manhattanglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1365,7 +1365,7 @@
   flavor: rocksandstones
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/manlydorfglass.rsi
+    sprite: /Objects/Consumable/Drinks/manlydorfglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 2
   metamorphicFillBaseName: fill-
@@ -1381,7 +1381,7 @@
   flavor: margarita
   color: "#8CFF8C"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/margaritaglass.rsi
+    sprite: /Objects/Consumable/Drinks/margaritaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1396,7 +1396,7 @@
   flavor: martini
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/martiniglass.rsi
+    sprite: /Objects/Consumable/Drinks/martiniglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1419,7 +1419,7 @@
   flavor: mead
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/beerstein.rsi
+    sprite: /Objects/Consumable/Drinks/beerstein.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1435,7 +1435,7 @@
   flavor: mojito
   color: "#3ea99888"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/mojito.rsi
+    sprite: /Objects/Consumable/Drinks/mojito.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1451,7 +1451,7 @@
   flavor: monkeybusiness
   color: "#d6b929"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/monkeybusiness.rsi
+    sprite: /Objects/Consumable/Drinks/monkeybusiness.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1466,7 +1466,7 @@
   flavor: moonshine
   color: "#d1d7d155"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/moonshineglass.rsi
+    sprite: /Objects/Consumable/Drinks/moonshineglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1489,7 +1489,7 @@
   flavor: neurotoxin
   color: "#2E2E61"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/neurotoxinglass.rsi
+    sprite: /Objects/Consumable/Drinks/neurotoxinglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1518,7 +1518,7 @@
   flavor: painkiller
   color: "#e6cb47"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/painkiller.rsi
+    sprite: /Objects/Consumable/Drinks/painkiller.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1541,7 +1541,7 @@
   flavor: patron
   color: "#585840"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/patronglass.rsi
+    sprite: /Objects/Consumable/Drinks/patronglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1564,7 +1564,7 @@
   flavor: redmead
   color: "#bc5550"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/red_meadglass.rsi
+    sprite: /Objects/Consumable/Drinks/red_meadglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1587,7 +1587,7 @@
   flavor: pinacolada
   color: "#e8dba4"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/pinacolada.rsi
+    sprite: /Objects/Consumable/Drinks/pinacolada.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1610,7 +1610,7 @@
   flavor: radler
   color: "#edff2b"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/radler.rsi
+    sprite: /Objects/Consumable/Drinks/radler.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1625,7 +1625,7 @@
   flavor: sbiten
   color: "#004166"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/sbitenglass.rsi
+    sprite: /Objects/Consumable/Drinks/sbitenglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1640,7 +1640,7 @@
   flavor: screwdriver
   color: "#A68310"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/screwdriverglass.rsi
+    sprite: /Objects/Consumable/Drinks/screwdriverglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1663,7 +1663,7 @@
   flavor: cogchamp
   color: "#B5A642"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/cogchamp.rsi
+    sprite: /Objects/Consumable/Drinks/cogchamp.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1689,7 +1689,7 @@
   flavor: nothing
   color: "#878787"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/silencerglass.rsi
+    sprite: /Objects/Consumable/Drinks/silencerglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1712,7 +1712,7 @@
   flavor: singulo
   color: "#3b0c0c"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/singulo.rsi
+    sprite: /Objects/Consumable/Drinks/singulo.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1727,7 +1727,7 @@
   flavor: snowwhite
   color: "#FFFFFF"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/snowwhite.rsi
+    sprite: /Objects/Consumable/Drinks/snowwhite.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1743,7 +1743,7 @@
   flavor: suidream
   color: "#00A86B"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/sdreamglass.rsi
+    sprite: /Objects/Consumable/Drinks/sdreamglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1759,7 +1759,7 @@
   flavor: syndiebomb
   color: "#e3e77b"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/syndicatebomb.rsi
+    sprite: /Objects/Consumable/Drinks/syndicatebomb.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -1775,7 +1775,7 @@
   flavor: tequilasunrise
   color: "#FFE48C"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/tequillasunriseglass.rsi
+    sprite: /Objects/Consumable/Drinks/tequillasunriseglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1798,7 +1798,7 @@
   flavor: themartinez
   color: "#75b1f0"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/the_martinez.rsi
+    sprite: /Objects/Consumable/Drinks/the_martinez.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1814,7 +1814,7 @@
   flavor: threemileisland
   color: "#666340"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/threemileislandglass.rsi
+    sprite: /Objects/Consumable/Drinks/threemileislandglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 2
   metamorphicFillBaseName: fill-
@@ -1840,7 +1840,7 @@
   flavor: toxinsspecial
   color: "#665c00"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/toxinsspecialglass.rsi
+    sprite: /Objects/Consumable/Drinks/toxinsspecialglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1855,7 +1855,7 @@
   flavor: vampiro
   color: "#b51b1b"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/vampiro.rsi
+    sprite: /Objects/Consumable/Drinks/vampiro.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1870,7 +1870,7 @@
   flavor: vodkamartini
   color: "#004666"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/martiniglass.rsi
+    sprite: /Objects/Consumable/Drinks/martiniglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -1893,7 +1893,7 @@
   flavor: vodkatonic
   color: "#0064C8"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/vodkatonicglass.rsi
+    sprite: /Objects/Consumable/Drinks/vodkatonicglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -1917,7 +1917,7 @@
   flavor: whiskeycola
   color: "#3E1B00"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/whiskeycolaglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeycolaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1941,7 +1941,7 @@
   flavor: whiskeycola
   color: "#533600"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/whiskeysodaglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeysodaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -1983,7 +1983,7 @@
   flavor: whiterussian
   color: "#A68340"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/whiterussianglass.rsi
+    sprite: /Objects/Consumable/Drinks/whiterussianglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2006,7 +2006,7 @@
   flavor: vodkaredbool
   color: "#c4c27655"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/ginvodkaglass.rsi
+    sprite: /Objects/Consumable/Drinks/ginvodkaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2037,7 +2037,7 @@
   flavor: xenobasher
   color: "#4d6600"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/xenobasher.rsi
+    sprite: /Objects/Consumable/Drinks/xenobasher.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 2
   metamorphicFillBaseName: fill-
@@ -2068,7 +2068,7 @@
   flavor: irishbool
   color: "#71672e99"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/beerglass.rsi
+    sprite: /Objects/Consumable/Drinks/beerglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -2099,7 +2099,7 @@
   flavor: budgetinsulsdrink
   color: "#dede73"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/budgetinsulsdrink.rsi
+    sprite: /Objects/Consumable/Drinks/budgetinsulsdrink.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -2130,7 +2130,7 @@
   flavor: watermelonwakeup
   color: "#d49dca"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/champagneglass.rsi
+    sprite: /Objects/Consumable/Drinks/champagneglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2161,7 +2161,7 @@
   flavor: rubberneck
   color: "#f0d74a"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/rubberneck.rsi
+    sprite: /Objects/Consumable/Drinks/rubberneck.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -2192,7 +2192,7 @@
   flavor: bluehawaiian
   color: "#47687b"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bluehawaiian.rsi
+    sprite: /Objects/Consumable/Drinks/bluehawaiian.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2215,7 +2215,7 @@
   flavor: caipirinha
   color: "#E6EE9C"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/caipirinha.rsi
+    sprite: /Objects/Consumable/Drinks/caipirinha.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -2238,7 +2238,7 @@
   flavor: moscowmule
   color: "#CECBAD"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/moscowmule.rsi
+    sprite: /Objects/Consumable/Drinks/moscowmule.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -2264,7 +2264,7 @@
   flavor: mimeosa
   color: "#939393"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/mimeosa.rsi
+    sprite: /Objects/Consumable/Drinks/mimeosa.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2290,7 +2290,7 @@
   flavor: mimosa
   color: "#FFCA48"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/mimosa.rsi
+    sprite: /Objects/Consumable/Drinks/mimosa.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2313,7 +2313,7 @@
   flavor: mayojito
   color: "#6FBE44"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/mayojito.rsi
+    sprite: /Objects/Consumable/Drinks/mayojito.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -2345,7 +2345,7 @@
   flavor: deathintheafternoon
   color: "#57A87D"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/deathintheafternoon.rsi
+    sprite: /Objects/Consumable/Drinks/deathintheafternoon.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2368,7 +2368,7 @@
   flavor: empress75
   color: "#900296"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/empress75.rsi
+    sprite: /Objects/Consumable/Drinks/empress75.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2391,7 +2391,7 @@
   flavor: espressomartini
   color: "#170a0c"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/espressomartini.rsi
+    sprite: /Objects/Consumable/Drinks/espressomartini.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -2414,7 +2414,7 @@
   flavor: daiquiri
   color: "#DAC865"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/daiquiri.rsi
+    sprite: /Objects/Consumable/Drinks/daiquiri.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -2437,7 +2437,7 @@
   flavor: thesunalsorises
   color: "#DCE2DE"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/thesunalsorises.rsi
+    sprite: /Objects/Consumable/Drinks/thesunalsorises.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2460,7 +2460,7 @@
   flavor: whiskeysour
   color: "#8B7941"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/whiskeysour.rsi
+    sprite: /Objects/Consumable/Drinks/whiskeysour.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -2483,7 +2483,7 @@
   flavor: zombiecocktail
   color: "#d17844"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/zombiecocktail.rsi
+    sprite: /Objects/Consumable/Drinks/zombiecocktail.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -2506,7 +2506,7 @@
   flavor: bacchusblessing
   color: "#331303"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/bacchusblessing.rsi
+    sprite: /Objects/Consumable/Drinks/bacchusblessing.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 2
   metamorphicFillBaseName: fill-

@@ -5,23 +5,23 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/blueprints.rsi
+    sprite: /_NF/Objects/Tools/blueprints.rsi
     layers:
       - state: icon-base
         color: "#7da0ba"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi # Need for PaperVisuals otherwise it wont stop complaining
+      - sprite: /Objects/Misc/bureaucracy.rsi # Need for PaperVisuals otherwise it wont stop complaining
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
   - type: Item
     size: Normal
-    sprite: _NF/Objects/Tools/blueprints.rsi
+    sprite: /_NF/Objects/Tools/blueprints.rsi
     inhandVisuals:
       left:
       - state: inhand-left-base
@@ -54,7 +54,7 @@
         Heat: 1
   - type: Appearance
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: /Effects/fire.rsi
     normalState: fire
   - type: Damageable
     damageModifierSet: Wood
@@ -105,12 +105,12 @@
       - state: icon-base
         color: "#636363"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -138,12 +138,12 @@
       - state: icon-base
         color: "#fff87c"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -176,12 +176,12 @@
       - state: icon-base
         color: "#e1ba8b"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -214,12 +214,12 @@
       - state: icon-base
         color: "#e18bd5"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -252,12 +252,12 @@
       - state: icon-base
         color: "#94e18b"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -290,12 +290,12 @@
       - state: icon-base
         color: "#97cae1"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -328,12 +328,12 @@
       - state: icon-base
         color: "#e18b8b"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -365,12 +365,12 @@
       - state: icon-base
         color: "#729769"
       - state: icon-text
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -417,12 +417,12 @@
         color: "#a6671a"
       - state: icon-text
         color: "#db7372"
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false
@@ -455,12 +455,12 @@
         color: "#d21a1a"
       - state: icon-text
         color: "#db7372"
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_stamp-generic
         offset: 0.15,-0.1
         map: ["enum.PaperVisualLayers.Stamp"]
         visible: false
-      - sprite: Objects/Misc/bureaucracy.rsi
+      - sprite: /Objects/Misc/bureaucracy.rsi
         state: paper_words
         map: ["enum.PaperVisualLayers.Writing"]
         visible: false

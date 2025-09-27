@@ -14,7 +14,7 @@
     tags:
     - Wooden
   - type: Sprite
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     drawdepth: WallTops
   - type: Physics
     bodyType: Static
@@ -99,7 +99,7 @@
   suffix: Straight
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: straight
   - type: Sprite
     layers:
@@ -128,7 +128,7 @@
   suffix: End
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: end
   - type: Sprite
     layers:
@@ -157,7 +157,7 @@
   suffix: Corner
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: corner
   - type: Sprite
     layers:
@@ -195,7 +195,7 @@
   suffix: T-Junction
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: tjunction
   - type: Sprite
     layers:
@@ -282,7 +282,7 @@
   suffix: Straight
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: straight_small
   - type: Sprite
     layers:
@@ -310,7 +310,7 @@
   suffix: End
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: end_small
   - type: Sprite
     layers:
@@ -338,7 +338,7 @@
   suffix: Corner
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: corner_small
   - type: Sprite
     layers:
@@ -375,7 +375,7 @@
   suffix: T-Junction
   components:
   - type: Icon
-    sprite: Structures/Walls/wooden_fence.rsi
+    sprite: /Structures/Walls/wooden_fence.rsi
     state: tjunction_small
   - type: Sprite
     layers:

@@ -48,10 +48,10 @@
   description: Looks pretty... Abductory.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: alien
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -65,10 +65,10 @@
   description: Scariest thing in existence, after bingles.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: angler
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -82,10 +82,10 @@
   description: Probably the most normal fish in existence. Unless you use it as bass guitar.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: bass
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -99,10 +99,10 @@
   description: bingle
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: bingle
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -116,10 +116,10 @@
   description: Unfortuantly, this is not a 5th level bio-hazard threat.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: blob
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -133,10 +133,10 @@
   description: It's looking straight to you...
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: blue_fintuna
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -150,10 +150,10 @@
 #   description: You like kissing fish, don't you?
 #   components:
 #   - type: Sprite
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
 #     state: boy_fisher
 #   - type: Item
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
 
 - type: entity
   id: FishCat
@@ -162,10 +162,10 @@
   description: Ironically this looks nothing like a cat. And it doesn't meow.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: catfish
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -179,10 +179,10 @@
   description: That is almost certanly some kind of joke.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: clown
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -196,10 +196,10 @@
 #   description: Erm, Actually, it's a bad idea trying to fit a fish inside a nuclear explosion device.
 #   components:
 #   - type: Sprite
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
 #     state: disk
 #   - type: Item
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
 
 - type: entity
   id: FishGib
@@ -208,10 +208,10 @@
   description: "My face when i open a present and get gibstick:"
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: gib
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -225,10 +225,10 @@
   description: Anomalous fish that looks like it ate some nuclear waste.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: mutant
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -242,10 +242,10 @@
 #   description: Predator of the nuke disk fish.
 #   components:
 #   - type: Sprite
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
 #     state: nuker
 #   - type: Item
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
 
 - type: entity
   id: FishPuffer
@@ -254,10 +254,10 @@
   description: It is poisonous... in many ways.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: pufferfish
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -271,10 +271,10 @@
   description: Actually contains silver.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: silverfish
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -288,10 +288,10 @@
   description: It probably looked at the sun for too long...?
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: sun_tropical
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -305,10 +305,10 @@
   description: "Looking at this fish, you understand how much it was a bad idea to allow nuclear waste to be dumped into rivers."
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: toxic
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -322,10 +322,10 @@
   description: This fish is always searching for something... Or maybe someone?
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
     state: tropical
   - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+    sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
   - type: Butcherable
     spawned:
     - id: FoodMeatFishGeneric
@@ -339,7 +339,7 @@
 #   description: Water-born ian from the sea.
 #   components:
 #   - type: Sprite
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi
 #     state: ian
 #   - type: Item
-#     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
+#     sprite: /_Goobstation/Objects/Specific/Fishing/fish.rsi

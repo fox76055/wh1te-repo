@@ -9,7 +9,7 @@
     heldPrefix: bag
   - type: Sprite
     drawdepth: SmallObjects # I guess body bags need appear above a pathologist's table?
-    sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
+    sprite: /Objects/Specific/Medical/Morgue/bodybags.rsi
     layers:
     - state: bag
       map: ["unfoldedLayer", "enum.StorageVisualLayers.Base"]
@@ -21,7 +21,7 @@
     - state: paper
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
+    sprite: /Objects/Specific/Medical/Morgue/bodybags.rsi
     state: bag
   - type: Tag
     tags:
@@ -119,7 +119,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: /Objects/Materials/materials.rsi
     state: ash
   - type: Tag
     tags:
@@ -149,7 +149,7 @@
   description: Much less deadly in this form.
   components:
     - type: Sprite
-      sprite: Mobs/Ghosts/revenant.rsi
+      sprite: /Mobs/Ghosts/revenant.rsi
       state: ectoplasm
     - type: Tag
       tags:

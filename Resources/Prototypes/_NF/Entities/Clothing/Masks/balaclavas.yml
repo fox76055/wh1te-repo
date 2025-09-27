@@ -24,7 +24,7 @@
     - HeadSide
     hideOnToggle: true
   - type: Sprite
-    sprite: _NF/Clothing/Mask/balaclava.rsi
+    sprite: /_NF/Clothing/Mask/balaclava.rsi
     layers:
     - state: icon_mask
       map: [ "unfoldedLayer" ]
@@ -34,7 +34,7 @@
       visible: false
       color: "#3e3e48"
   - type: Clothing
-    sprite: _NF/Clothing/Mask/balaclava.rsi
+    sprite: /_NF/Clothing/Mask/balaclava.rsi
     clothingVisuals:
       mask:
       - state: equipped-MASK
@@ -58,7 +58,7 @@
   description: A colorful balaclava to make somebody look at you.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Mask/balaclava.rsi
+    sprite: /_NF/Clothing/Mask/balaclava.rsi
     layers:
     - state: icon_mask
       map: [ "unfoldedLayer" ]
@@ -66,7 +66,7 @@
       map: ["foldedLayer"]
       visible: false
   - type: Clothing
-    sprite: _NF/Clothing/Mask/balaclava.rsi
+    sprite: /_NF/Clothing/Mask/balaclava.rsi
     clothingVisuals:
       mask:
       - state: equipped-MASK

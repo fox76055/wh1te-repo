@@ -9,7 +9,7 @@
             - tag: Potato
               name: construction-graph-tag-potato
               icon:
-                sprite: Objects/Specific/Hydroponics/potato.rsi
+                sprite: /Objects/Specific/Hydroponics/potato.rsi
                 state: produce
               doAfter: 1
             - material: MetalRod
@@ -32,13 +32,13 @@
             - tag: PotatoBattery
               name: construction-graph-tag-potato-battery
               icon:
-                sprite: Objects/Power/power_cells.rsi
+                sprite: /Objects/Power/power_cells.rsi
                 state: potato
               doAfter: 1
             - tag: SmallAIChip
               name: construction-graph-tag-super-compact-ai-chip
               icon:
-                sprite: Objects/Misc/potatoai_chip.rsi
+                sprite: /Objects/Misc/potatoai_chip.rsi
                 state: icon
     - node: potatoai
       entity: PotatoAI

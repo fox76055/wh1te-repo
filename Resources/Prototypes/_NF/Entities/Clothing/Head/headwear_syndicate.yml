@@ -8,9 +8,9 @@
   name: syndicate bombsuit helmet
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/syndicate_bombsuit.rsi
+    sprite: /_NF/Clothing/Head/Helmets/syndicate_bombsuit.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/syndicate_bombsuit.rsi
+    sprite: /_NF/Clothing/Head/Helmets/syndicate_bombsuit.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -28,9 +28,9 @@
   components:
   - type: IdentityBlocker
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/Bio/syndicate.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Bio/syndicate.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/Bio/syndicate.rsi
+    sprite: /_NF/Clothing/Head/Hoods/Bio/syndicate.rsi
   - type: HideLayerClothing
     slots:
     - Hair

@@ -13,7 +13,7 @@
     noRot: true
   - type: Sprite
     netsync: false
-    sprite: Nyanotrasen/Structures/mailbox.rsi
+    sprite: /Nyanotrasen/Structures/mailbox.rsi
     layers:
     - state: icon
     - state: unlit

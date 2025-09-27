@@ -9,7 +9,7 @@
       - Candle
     - type: Sprite
       noRot: true
-      sprite: Objects/Misc/candles.rsi
+      sprite: /Objects/Misc/candles.rsi
       layers:
         - state: candle-big
           color: "#decb8e"
@@ -39,7 +39,7 @@
         types:
           Heat: 0.1
     - type: FireVisuals
-      sprite: Objects/Misc/candles.rsi
+      sprite: /Objects/Misc/candles.rsi
       normalState: fire-big
     - type: ToggleableVisuals
       spriteLayer: null
@@ -278,7 +278,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Objects/Misc/candles.rsi
+    sprite: /Objects/Misc/candles.rsi
     layers:
       - state: candle-big
         color: "#decb8e"

@@ -9,9 +9,9 @@
   description: Этот год был тяжёлый... Но следующий будет лучше, не так ли?
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hats/xmas.rsi
+    sprite: /_Lua/Clothing/Head/Hats/xmas.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hats/xmas.rsi
+    sprite: /_Lua/Clothing/Head/Hats/xmas.rsi
   - type: Tag
     tags:
     - ClothMade

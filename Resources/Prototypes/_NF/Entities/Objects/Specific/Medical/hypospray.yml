@@ -5,7 +5,7 @@
   id: HypoMini
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/hypomini.rsi
+    sprite: /_NF/Objects/Specific/Medical/hypomini.rsi
     layers:
     - state: hypo
       map: ["enum.SolutionContainerLayers.Base"]
@@ -13,7 +13,7 @@
       map: ["enum.SolutionContainerLayers.Fill"]
       visible: false
   - type: Item
-    sprite: _NF/Objects/Specific/Medical/hypomini.rsi
+    sprite: /_NF/Objects/Specific/Medical/hypomini.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
@@ -43,7 +43,7 @@
   id: HypoBrigmedic
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/hypobrigmedic.rsi
+    sprite: /_NF/Objects/Specific/Medical/hypobrigmedic.rsi
     layers:
     - state: hypo
       map: ["enum.SolutionContainerLayers.Base"]
@@ -51,7 +51,7 @@
       map: ["enum.SolutionContainerLayers.Fill"]
       visible: false
   - type: Item
-    sprite: _NF/Objects/Specific/Medical/hypobrigmedic.rsi
+    sprite: /_NF/Objects/Specific/Medical/hypobrigmedic.rsi
 
 - type: entity
   name: NTCS-103 hypospray
@@ -60,7 +60,7 @@
   id: HypoMiniLimitedEdition
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/hypominilimitededition.rsi
+    sprite: /_NF/Objects/Specific/Medical/hypominilimitededition.rsi
     layers:
     - state: hypo
       map: ["enum.SolutionContainerLayers.Base"]
@@ -68,7 +68,7 @@
       map: ["enum.SolutionContainerLayers.Fill"]
       visible: false
   - type: Item
-    sprite: _NF/Objects/Specific/Medical/hypominilimitededition.rsi
+    sprite: /_NF/Objects/Specific/Medical/hypominilimitededition.rsi
 
 - type: entity
   name: empty medipen
@@ -77,10 +77,10 @@
   id: BlankMediPen
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     state: medipen
   - type: Item
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     inhandVisuals:
       left:
       - state: base-needle-inhand-left
@@ -99,9 +99,9 @@
   abstract: true
   components:
   - type: Item
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     changeColor: false
@@ -168,7 +168,7 @@
         color: "#fff400"
       - state: base-colorB-inhand-right
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: stimulantpen
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -205,7 +205,7 @@
         color: "#c60032"
       - state: base-colorB-inhand-right
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: crisispen
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -242,7 +242,7 @@
         color: "#558255"
       - state: base-colorB-inhand-right
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: lacerpen
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -277,7 +277,7 @@
         color: "#c60032"
       - state: base-colorB-inhand-right
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: bruizpen
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -312,7 +312,7 @@
         color: "#9423ff"
       - state: base-colorB-inhand-right
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: polypen
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -345,7 +345,7 @@
         color: "#2d5708"
       - state: base-colorB-inhand-right
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/medipen.rsi
+    sprite: /_NF/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: barkeepersfriend
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -371,7 +371,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/borghypo.rsi
+    sprite: /_NF/Objects/Specific/Medical/borghypo.rsi
     layers:
     - state: borghypo
       map: [ enum.SolutionContainerLayers.Base ]
@@ -379,7 +379,7 @@
       visible: false
       map: [ enum.SolutionContainerLayers.Fill ]
   - type: Item
-    sprite: Objects/Specific/Medical/hypospray.rsi
+    sprite: /Objects/Specific/Medical/hypospray.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
@@ -403,7 +403,7 @@
   name: tricordrazine hypo
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/borghypo.rsi
+    sprite: /_NF/Objects/Specific/Medical/borghypo.rsi
     layers:
     - state: hypocyan
       map: [ enum.SolutionContainerLayers.Base ]
@@ -425,7 +425,7 @@
   name: inaprovaline hypo
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/borghypo.rsi
+    sprite: /_NF/Objects/Specific/Medical/borghypo.rsi
     layers:
     - state: hypomaroon
       map: [ enum.SolutionContainerLayers.Base ]

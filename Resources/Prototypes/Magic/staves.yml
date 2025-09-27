@@ -12,7 +12,7 @@
   - type: AutoRecharge
     rechargeDuration: 30
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/staves.rsi
+    sprite: /Objects/Weapons/Guns/Basic/staves.rsi
     layers:
     - state: nothing
     - state: nothing-unshaded
@@ -48,7 +48,7 @@
   - type: AutoRecharge
     rechargeDuration: 30
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/staves.rsi
+    sprite: /Objects/Weapons/Guns/Basic/staves.rsi
     layers:
     - state: animation
   - type: ActionOnInteract

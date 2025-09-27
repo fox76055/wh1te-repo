@@ -17,7 +17,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Specific/carp_rift.rsi
+      sprite: /Structures/Specific/carp_rift.rsi
       state: icon_blue
   - type: NumberObjective
     # dragon can only spawn 3 rifts so keep objective the same
@@ -35,5 +35,5 @@
   components:
   - type: Objective
     icon:
-      sprite: Mobs/Aliens/Carps/dragon.rsi
+      sprite: /Mobs/Aliens/Carps/dragon.rsi
       state: alive

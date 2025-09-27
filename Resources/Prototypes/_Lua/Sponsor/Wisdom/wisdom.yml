@@ -15,7 +15,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/backpack.rsi
+    sprite: /_Lua/Sponsor/Wisdom/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -45,9 +45,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/belt.rsi
+    sprite: /_Lua/Sponsor/Wisdom/belt.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/belt.rsi
+    sprite: /_Lua/Sponsor/Wisdom/belt.rsi
   - type: Item
     size: Huge
   - type: Storage
@@ -77,9 +77,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/gloves.rsi
+    sprite: /_Lua/Sponsor/Wisdom/gloves.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/gloves.rsi
+    sprite: /_Lua/Sponsor/Wisdom/gloves.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-red
@@ -95,9 +95,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/hardsuit.rsi
+    sprite: /_Lua/Sponsor/Wisdom/hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/hardsuit.rsi
+    sprite: /_Lua/Sponsor/Wisdom/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitWisdom
   - type: ContainerContainer
@@ -136,9 +136,9 @@
   description: Шлем с встроенным медицинским визором, который обеспечивает защиту и освещение для работы в темных условиях.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/helmet.rsi
+    sprite: /_Lua/Sponsor/Wisdom/helmet.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/helmet.rsi
+    sprite: /_Lua/Sponsor/Wisdom/helmet.rsi
   - type: PointLight
     color: "#ebebeb"
   - type: PressureProtection
@@ -162,9 +162,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/jumpsuit.rsi
+    sprite: /_Lua/Sponsor/Wisdom/jumpsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/jumpsuit.rsi
+    sprite: /_Lua/Sponsor/Wisdom/jumpsuit.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -177,12 +177,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/magboots.rsi
+    sprite: /_Lua/Sponsor/Wisdom/magboots.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/magboots.rsi
+    sprite: /_Lua/Sponsor/Wisdom/magboots.rsi
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.9
@@ -198,9 +198,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/gasmask.rsi
+    sprite: /_Lua/Sponsor/Wisdom/gasmask.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/gasmask.rsi
+    sprite: /_Lua/Sponsor/Wisdom/gasmask.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -213,9 +213,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/headset.rsi
+    sprite: /_Lua/Sponsor/Wisdom/headset.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/headset.rsi
+    sprite: /_Lua/Sponsor/Wisdom/headset.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -228,9 +228,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: _Lua/Sponsor/Wisdom/pda.rsi
+    sprite: /_Lua/Sponsor/Wisdom/pda.rsi
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/pda.rsi
+    sprite: /_Lua/Sponsor/Wisdom/pda.rsi
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     preinstalled:
@@ -254,7 +254,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/jawsoflife.rsi
+    sprite: /_Lua/Sponsor/Wisdom/jawsoflife.rsi
     state: syn_jaws_pry
   - type: Item
     inhandVisuals:
@@ -267,13 +267,13 @@
     entries:
     - behavior: Prying
       sprite:
-        sprite: _Lua/Sponsor/Wisdom/jawsoflife.rsi
+        sprite: /_Lua/Sponsor/Wisdom/jawsoflife.rsi
         state: syn_jaws_pry
       useSound: /Audio/Items/jaws_pry.ogg
       changeSound: /Audio/Items/change_jaws.ogg
     - behavior: Cutting
       sprite:
-        sprite: _Lua/Sponsor/Wisdom/jawsoflife.rsi
+        sprite: /_Lua/Sponsor/Wisdom/jawsoflife.rsi
         state: syn_jaws_cutter
       useSound: /Audio/Items/jaws_cut.ogg
       changeSound: /Audio/Items/change_jaws.ogg
@@ -282,7 +282,7 @@
       types:
         Blunt: 14
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/jawsoflife.rsi
+    sprite: /_Lua/Sponsor/Wisdom/jawsoflife.rsi
     quickEquip: false
     slots:
     - Belt
@@ -296,9 +296,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/coat.rsi
+    sprite: /_Lua/Sponsor/Wisdom/coat.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/coat.rsi
+    sprite: /_Lua/Sponsor/Wisdom/coat.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -311,9 +311,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Wisdom/hipbag.rsi
+    sprite: /_Lua/Sponsor/Wisdom/hipbag.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Wisdom/hipbag.rsi
+    sprite: /_Lua/Sponsor/Wisdom/hipbag.rsi
     slots:
     - neck
   - type: Storage

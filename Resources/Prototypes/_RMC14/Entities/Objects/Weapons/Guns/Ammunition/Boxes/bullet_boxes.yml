@@ -56,7 +56,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 4
@@ -71,7 +71,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/shotgun_boxes.rsi
+      sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Boxes/shotgun_boxes.rsi
     - type: BallisticAmmoProvider
       mayTransfer: true
       whitelist:
@@ -90,7 +90,7 @@
         - RMCCartridgeLMGM60
     proto: RMCCartridgeLMGM60
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -111,7 +111,7 @@
     proto: N14CartridgePistol5
     capacity: 200
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -131,7 +131,7 @@
         - CMCartridgePistol9mm
     proto: CMCartridgePistol9mm
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -151,7 +151,7 @@
         - RMCCartridgePistol9mmSquashHead
     proto: RMCCartridgePistol9mmSquashHead
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -171,7 +171,7 @@
         - CMCartridgePistolM77AP
     proto: CMCartridgePistolM77AP
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -191,7 +191,7 @@
         - CMCartridgePistol.22mm
     proto: CMCartridgePistol.22mm
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -211,7 +211,7 @@
         - CMCartridgePistolMK45
     proto: CMCartridgePistolMK45
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -231,7 +231,7 @@
         - RMCCartridgePistol45ACP
     proto: RMCCartridgePistol45ACP
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -251,7 +251,7 @@
         - RMCCartridgeRevolverMateba
     proto: RMCCartridgeRevolverMateba
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -271,7 +271,7 @@
         - RMCCartridgeRevolver44
     proto: RMCCartridgeRevolver44
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -291,7 +291,7 @@
         - RMCCartridgeRevolver44Marksman
     proto: RMCCartridgeRevolver44Marksman
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -311,7 +311,7 @@
         - RMCCartridgeRifleAR10
     proto: RMCCartridgeRifleAR10
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -331,7 +331,7 @@
         - CMCartridgeRifle10x24mm
     proto: CMCartridgeRifle10x24mm
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -351,7 +351,7 @@
         - CMCartridgeRifle10x24mmAP
     proto: CMCartridgeRifle10x24mmAP
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -371,7 +371,7 @@
         - RMCCartridgeRifleM4SPRA19
     proto: RMCCartridgeRifleM4SPRA19
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -391,7 +391,7 @@
         - RMCCartridgeRifleM4SPRA19Impact
     proto: RMCCartridgeRifleM4SPRA19Impact
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -411,7 +411,7 @@
         - RMCCartridgeRifleM16
     proto: RMCCartridgeRifleM16
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -431,7 +431,7 @@
         - CMCartridgeSmartGun10x30mm
     proto: CMCartridgeSmartGun10x30mm
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -451,7 +451,7 @@
         - CMCartridge9mmSMG
     proto: CMCartridge9mmSMG
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -471,7 +471,7 @@
         - CMCartridge10x20mm
     proto: CMCartridge10x20mm
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -491,7 +491,7 @@
         - CMCartridge10x20mmAP
     proto: CMCartridge10x20mmAP
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -513,7 +513,7 @@
         - RMCCartridge7x45mm
     proto: RMCCartridge7x45mm
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -533,7 +533,7 @@
         - CMCartridgeSniper10x28mmIncendiary
     proto: CMCartridgeSniper10x28mmIncendiary
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -553,7 +553,7 @@
         - CMCartridgeSniper10x28mmFlak
     proto: CMCartridgeSniper10x28mmFlak
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -573,7 +573,7 @@
         - CMCartridgeSniper10x99mmAntiMateriel
     proto: CMCartridgeSniper10x99mmAntiMateriel
   - type: Icon
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     state: base
   - type: Sprite
     layers:
@@ -585,7 +585,7 @@
 # Дробовики
 
 - type: Tag
-  id: RMCBoxShotgunShells #Тег из shotgun_boxes.yml
+  id: RMCBoxShotgunShells #Тег из /shotgun_boxes.yml
 
 - type: entity
   name: раздатчик ружейных патронов (12 калибр) (дробь)

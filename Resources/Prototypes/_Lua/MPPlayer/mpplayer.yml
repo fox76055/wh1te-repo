@@ -13,7 +13,7 @@
     size: Small
   - type: Sprite
     scale: 0.45, 0.45
-    sprite: _Lua/MPPlayer/mpplayer.rsi
+    sprite: /_Lua/MPPlayer/mpplayer.rsi
     layers:
       - state: MP3player-base
       - state: MP3player-on-overlay

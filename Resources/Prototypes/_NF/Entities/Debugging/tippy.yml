@@ -5,13 +5,13 @@
   components:
   - type: Sprite
     layers:
-    - sprite: _NF/Tips/clippy.rsi
+    - sprite: /_NF/Tips/clippy.rsi
       state: left
       map: [ "revealing" ]
-    - sprite: _NF/Tips/clippy.rsi
+    - sprite: /_NF/Tips/clippy.rsi
       state: right
       map: [ "hiding" ]
-    - sprite: _NF/Tips/clippy.rsi
+    - sprite: /_NF/Tips/clippy.rsi
       state: down
       visible: false
       map: [ "speaking" ]

@@ -20,7 +20,7 @@
     pack: GenericVendGoodbyes
   - type: Speech
   - type: Sprite
-    sprite: _Lua/Structures/Machines/VendingMachines/FrontierComrades.rsi
+    sprite: /_Lua/Structures/Machines/VendingMachines/FrontierComrades.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]

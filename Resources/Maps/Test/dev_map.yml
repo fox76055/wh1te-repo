@@ -178,7 +178,7 @@ entities:
       fixtures: {}
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
-        path: Audio/Effects/alert.ogg
+        path: /Audio/Effects/alert.ogg
     - type: DecalGrid
       chunkCollection:
         version: 2

@@ -37,56 +37,56 @@
   id: sinner
   name: Beat Mekanik - Sinner
   path:
-    path: /Audio/_NF/Jukebox/Beat Mekanik - Sinner.ogg
+    path: /Audio/_NF/Jukebox/Beat Mekanik - /Sinner.ogg
   category: Default
 
 - type: jukebox
   id: sensless
   name: Beat Mekanik - Sensless
   path:
-    path: /Audio/_NF/Jukebox/Beat Mekanik - Senseless.ogg
+    path: /Audio/_NF/Jukebox/Beat Mekanik - /Senseless.ogg
   category: Default
 
 - type: jukebox
   id: lifeisgreat
   name: Ketsa - Life is Great
   path:
-    path: /Audio/_NF/Jukebox/Ketsa - Life is Great.ogg
+    path: /Audio/_NF/Jukebox/Ketsa - Life is /Great.ogg
   category: Default
 
 - type: jukebox
   id: dreadpirateroberts
   name: Xennial - Dread Pirate Roberts
   path:
-    path: /Audio/_NF/Jukebox/Xennial - Dread Pirate Roberts.ogg
+    path: /Audio/_NF/Jukebox/Xennial - Dread Pirate /Roberts.ogg
   category: Default
 
 - type: jukebox
   id: caffeinated
   name: Laughing Manny & The Swinging Dicks - Caffeinated
   path:
-    path: /Audio/_NF/Jukebox/Laughing Manny & The Swinging Dicks - Caffeinated.ogg
+    path: /Audio/_NF/Jukebox/Laughing Manny & The Swinging Dicks - /Caffeinated.ogg
   category: Default
 
 - type: jukebox
   id: bringinthehorns
   name: Laughing Manny & The Swinging Dicks - Bring In The Horns
   path:
-    path: /Audio/_NF/Jukebox/Laughing Manny & The Swinging Dicks - Bring In The Horns.ogg
+    path: /Audio/_NF/Jukebox/Laughing Manny & The Swinging Dicks - Bring In The /Horns.ogg
   category: Default
 
 - type: jukebox
   id: meanwhilebackatthesaloon
   name: Brett Van Donsel - Meanwhile Back At The Saloon
   path:
-    path: /Audio/_NF/Jukebox/Meanwhile Back at the Saloon.ogg
+    path: /Audio/_NF/Jukebox/Meanwhile Back at the /Saloon.ogg
   category: Default
 
 - type: jukebox
   id: murderonthebayou
   name: Bryan Teoh - Murder On The Bayou
   path:
-    path: /Audio/_NF/Jukebox/Murder On The Bayou.ogg
+    path: /Audio/_NF/Jukebox/Murder On The /Bayou.ogg
   category: Default
 
 - type: jukebox
@@ -114,5 +114,5 @@
   id: rattlesnakerailroad
   name: Brett Van Donsel - Rattlesnake Railroad
   path:
-    path: /Audio/_NF/Jukebox/rattlesnake railroad.ogg
+    path: /Audio/_NF/Jukebox/rattlesnake /railroad.ogg
   category: Default

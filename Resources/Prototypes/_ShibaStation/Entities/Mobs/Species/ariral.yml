@@ -10,7 +10,7 @@
     - id: FoodAriralEggLaid
   - type: Hunger
   - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
-    sprite: _ShibaStation/Mobs/Species/Ariral/parts.rsi
+    sprite: /_ShibaStation/Mobs/Species/Ariral/parts.rsi
     state: full
   - type: Thirst
   - type: Speech
@@ -90,33 +90,33 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: jumpsuit-female
       shoes:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes
     displacements:
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: jumpsuit
       shoes:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes
 
 - type: entity
@@ -137,31 +137,31 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: jumpsuit-female
       shoes:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes
     displacements:
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: jumpsuit
       shoes:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: _White/Mobs/Species/displacement.rsi
+            sprite: /_White/Mobs/Species/displacement.rsi
             state: shoes

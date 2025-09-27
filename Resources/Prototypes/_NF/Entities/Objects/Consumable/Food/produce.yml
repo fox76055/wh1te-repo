@@ -17,7 +17,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/pear.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/pear.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -57,7 +57,7 @@
         - ReagentId: Theobromine
           Quantity: 1
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/coffee.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/coffee.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -90,7 +90,7 @@
         - ReagentId: Vitamin
           Quantity: 6
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/avocado.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/avocado.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -127,7 +127,7 @@
         - ReagentId: Vitamin
           Quantity: 3
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/avocado.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/avocado.rsi
   - type: Extractable
     grindableSolutionName: food
     juiceSolution:
@@ -162,7 +162,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/cucumber.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/cucumber.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -199,7 +199,7 @@
         - ReagentId: Vitamin
           Quantity: 1
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/cucumber.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/cucumber.rsi
   - type: Extractable
     grindableSolutionName: food
     juiceSolution:
@@ -236,7 +236,7 @@
         - ReagentId: Saline
           Quantity: 10
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/cucumber.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/cucumber.rsi
     state: pickle
   - type: Item
     heldPrefix: pickle
@@ -274,7 +274,7 @@
         - ReagentId: Saline
           Quantity: 2.5
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/cucumber.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/cucumber.rsi
     state: pickleslice
   - type: Extractable
     grindableSolutionName: food
@@ -310,7 +310,7 @@
         - ReagentId: Vitamin
           Quantity: 5
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/bees.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/bees.rsi
   - type: Item
     heldPrefix: produce
   - type: Extractable
@@ -334,7 +334,7 @@
     flavors:
       - potatoes
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/potato.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/potato.rsi
   - type: Extractable
     juiceSolution:
       reagents:
@@ -365,7 +365,7 @@
         - ReagentId: Everyspice
           Quantity: 5
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/everyspice.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/everyspice.rsi
   - type: Item
     heldPrefix: produce
   - type: Tag
@@ -395,7 +395,7 @@
         - ReagentId: Blackpepper
           Quantity: 5
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/everyspice.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/everyspice.rsi
     state: produce-roasted
   - type: Item
     heldPrefix: produce-roasted
@@ -423,7 +423,7 @@
       - raw-egg
       - chalky
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/onion.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/onion.rsi
     state: onionrings-battered
   - type: SolutionContainerManager
     solutions:
@@ -469,7 +469,7 @@
         - ReagentId: Vitamin
           Quantity: 1
   - type: Sprite
-    sprite: _NF/Objects/Specific/Hydroponics/monkanana.rsi
+    sprite: /_NF/Objects/Specific/Hydroponics/monkanana.rsi
   - type: Produce
     seedId: monkanana
   - type: Extractable

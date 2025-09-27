@@ -6,5 +6,5 @@
   id: MedipenTechFabCircuitboard
   name: stealTargetGroup-medipen-techfab-circuitboard # медипен техфаб (машинная плата)
   sprite:
-    sprite: Objects/Misc/module.rsi
+    sprite: /Objects/Misc/module.rsi
     state: medical

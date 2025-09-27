@@ -7,9 +7,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/Clothing/OuterClothing/Coats/atmosian.rsi
+      sprite: /Corvax/Sponsor/Clothing/OuterClothing/Coats/atmosian.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/Clothing/OuterClothing/Coats/atmosian.rsi
+      sprite: /Corvax/Sponsor/Clothing/OuterClothing/Coats/atmosian.rsi
 
 - type: entity
   parent: ClothingMaskGas
@@ -19,9 +19,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/Clothing/Mask/atmosian.rsi
+      sprite: /Corvax/Sponsor/Clothing/Mask/atmosian.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/Clothing/Mask/atmosian.rsi
+      sprite: /Corvax/Sponsor/Clothing/Mask/atmosian.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -31,7 +31,7 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/Clothing/Neck/Cloaks/atmosian.rsi
+      sprite: /Corvax/Sponsor/Clothing/Neck/Cloaks/atmosian.rsi
 
 # Fezory
 - type: entity
@@ -42,9 +42,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/Clothing/Mask/death.rsi
+      sprite: /Corvax/Sponsor/Clothing/Mask/death.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/Clothing/Mask/death.rsi
+      sprite: /Corvax/Sponsor/Clothing/Mask/death.rsi
     - type: BreathMask
 
 - type: entity
@@ -55,7 +55,7 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/Clothing/Neck/Cloaks/gamer.rsi
+      sprite: /Corvax/Sponsor/Clothing/Neck/Cloaks/gamer.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -65,9 +65,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/Clothing/Uniforms/Jumpsuit/skeleton.rsi
+      sprite: /Corvax/Sponsor/Clothing/Uniforms/Jumpsuit/skeleton.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/Clothing/Uniforms/Jumpsuit/skeleton.rsi
+      sprite: /Corvax/Sponsor/Clothing/Uniforms/Jumpsuit/skeleton.rsi
 
 # NEKISH
 - type: entity
@@ -78,7 +78,7 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Back/Satchels/hos.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Back/Satchels/hos.rsi
 
 - type: entity
   parent: ClothingBeltStorageBase
@@ -88,9 +88,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Belt/hos.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Belt/hos.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Belt/hos.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Belt/hos.rsi
     - type: Storage
       whitelist:
         tags:
@@ -113,7 +113,7 @@
           whitelist:
             components:
               - Stunbaton
-      sprite: Clothing/Belt/belt_overlay.rsi
+      sprite: /Clothing/Belt/belt_overlay.rsi
     - type: Appearance
 
 - type: entity
@@ -124,9 +124,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Hands/Gloves/hos.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Hands/Gloves/hos.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Hands/Gloves/hos.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Hands/Gloves/hos.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -136,9 +136,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Head/Hats/hoscap.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Head/Hats/hoscap.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Head/Hats/hoscap.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Head/Hats/hoscap.rsi
 
 - type: entity
   parent: ClothingOuterCoatHoSTrench
@@ -148,9 +148,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/NEKISH/Clothing/OuterClothing/Coats/hos_overcoat.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/OuterClothing/Coats/hos_overcoat.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/NEKISH/Clothing/OuterClothing/Coats/hos_overcoat.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/OuterClothing/Coats/hos_overcoat.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -160,9 +160,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Uniforms/Jumpsuit/hos.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Uniforms/Jumpsuit/hos.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/NEKISH/Clothing/Uniforms/Jumpsuit/hos.rsi
+      sprite: /Corvax/Sponsor/NEKISH/Clothing/Uniforms/Jumpsuit/hos.rsi
 
 # ken41k
 - type: entity
@@ -172,9 +172,9 @@
   description: This watch can only be worn by a divine person
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Hands/Accessories/watch.rsi
+      sprite: /Corvax/Clothing/Hands/Accessories/watch.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Hands/Accessories/watch.rsi
+      sprite: /Corvax/Clothing/Hands/Accessories/watch.rsi
 
 - type: marking
   id: AugmentsRoboticRightArm
@@ -183,7 +183,7 @@
 #  sponsorOnly: true
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/augments.rsi
+    - sprite: /Corvax/Mobs/Customization/augments.rsi
       state: robotic_r_arm
 
 - type: marking
@@ -193,7 +193,7 @@
 #  sponsorOnly: true
   speciesBlacklist: [Avali]
   sprites:
-    - sprite: Corvax/Mobs/Customization/augments.rsi
+    - sprite: /Corvax/Mobs/Customization/augments.rsi
       state: robotic_r_hand
 
 # jesuisunfou
@@ -205,9 +205,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Hands/Gloves/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Hands/Gloves/ussp.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Hands/Gloves/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Hands/Gloves/ussp.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -217,9 +217,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Head/Hats/ussp.rsi
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -229,9 +229,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/OuterClothing/Coats/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/OuterClothing/Coats/ussp.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/OuterClothing/Coats/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/OuterClothing/Coats/ussp.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -241,9 +241,9 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Uniforms/Jumpsuit/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Uniforms/Jumpsuit/ussp.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Uniforms/Jumpsuit/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Uniforms/Jumpsuit/ussp.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -253,6 +253,6 @@
   suffix: Sponsor
   components:
     - type: Sprite
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Shoes/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Shoes/ussp.rsi
     - type: Clothing
-      sprite: Corvax/Sponsor/jesuisunfou/Clothing/Shoes/ussp.rsi
+      sprite: /Corvax/Sponsor/jesuisunfou/Clothing/Shoes/ussp.rsi

@@ -5,9 +5,9 @@
   description: Combat gloves produced by Arcadia Industries.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Hands/Gloves/arcadia.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/arcadia.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Hands/Gloves/arcadia.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/arcadia.rsi
   - type: Fiber
     fiberColor: fibers-white
 
@@ -18,9 +18,9 @@
   description: Driving gloves, but for spaceships!
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Hands/Gloves/pilot.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/pilot.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Hands/Gloves/pilot.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/pilot.rsi
   - type: Fiber
     fiberColor: fibers-brown
 
@@ -31,9 +31,9 @@
   description: Insulated gloves for a deputy sheriff.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Hands/Gloves/nfsd_brown.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/nfsd_brown.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Hands/Gloves/nfsd_brown.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/nfsd_brown.rsi
   - type: Fiber
     fiberColor: fibers-brown
 
@@ -44,9 +44,9 @@
   description: Insulated gloves for a deputy sheriff.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Hands/Gloves/nfsd_cream.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/nfsd_cream.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Hands/Gloves/nfsd_cream.rsi
+    sprite: /_NF/Clothing/Hands/Gloves/nfsd_cream.rsi
   - type: Fiber
     fiberColor: fibers-cream
 

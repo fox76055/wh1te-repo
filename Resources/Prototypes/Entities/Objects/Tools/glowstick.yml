@@ -17,7 +17,7 @@
       litSound:
         path: /Audio/Items/Handcuffs/rope_breakout.ogg
     - type: Sprite
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       layers:
       - map: [ enum.ExpendableLightVisualLayers.Base ]
         state: glowstick_base
@@ -28,7 +28,7 @@
       - map: [ enum.ExpendableLightVisualLayers.Overlay ]
         state: glowstick_unlit
     - type: Item
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       heldPrefix: unlit
     - type: Appearance
     - type: PointLight
@@ -117,14 +117,14 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       layers:
         - state: glowstick_base
         - state: glowstick_unlit
           shader: unshaded
           color: "#FF0000"
     - type: Item
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       heldPrefix: unlit
     - type: PointLight
       enabled: true
@@ -148,14 +148,14 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       layers:
         - state: glowstick_base
         - state: glowstick_unlit
           shader: unshaded
           color: "#FF0000"
     - type: Item
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       heldPrefix: unlit
     - type: PointLight
       enabled: true
@@ -180,14 +180,14 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       layers:
         - state: glowstick_base
         - state: glowstick_unlit
           shader: unshaded
           color: "#FF0000"
     - type: Item
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       heldPrefix: unlit
     - type: PointLight
       enabled: false
@@ -220,14 +220,14 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       layers:
         - state: glowstick_base
         - state: glowstick_unlit
           shader: unshaded
           color: "#FF0000"
     - type: Item
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       heldPrefix: unlit
     - type: PointLight
       enabled: false
@@ -251,14 +251,14 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       layers:
         - state: glowstick_base
         - state: glowstick_unlit
           shader: unshaded
           color: "#FF0000"
     - type: Item
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       heldPrefix: unlit
     - type: PointLight
       enabled: false
@@ -282,14 +282,14 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       layers:
         - state: glowstick_base
         - state: glowstick_unlit
           shader: unshaded
           color: "#FF0000"
     - type: Item
-      sprite: Objects/Misc/glowstick.rsi
+      sprite: /Objects/Misc/glowstick.rsi
       heldPrefix: unlit
     - type: PointLight
       enabled: false

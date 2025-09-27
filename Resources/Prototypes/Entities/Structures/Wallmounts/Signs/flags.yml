@@ -7,7 +7,7 @@
     arc: 360
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/flags.rsi
+    sprite: /Structures/Wallmounts/flags.rsi
     # Begin DeltaV additions - Craftable Pride Flags
   - type: StaticPrice
     price: 25

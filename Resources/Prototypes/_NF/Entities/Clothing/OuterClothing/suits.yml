@@ -8,6 +8,6 @@
   name: syndicate bomb suit
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Suits/syndicate_bombsuit.rsi
+    sprite: /_NF/Clothing/OuterClothing/Suits/syndicate_bombsuit.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Suits/syndicate_bombsuit.rsi
+    sprite: /_NF/Clothing/OuterClothing/Suits/syndicate_bombsuit.rsi

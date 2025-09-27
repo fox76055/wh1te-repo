@@ -5,9 +5,9 @@
   description: A hardsuit helmet with signature markings of the Viper Group. Has a built-in nightvision system.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/viper_group_standard.rsi
+    sprite: /_Mono/Clothing/Head/Hardsuits/viper_group_standard.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/viper_group_standard.rsi
+    sprite: /_Mono/Clothing/Head/Hardsuits/viper_group_standard.rsi
   - type: PointLight
     color: "#faa70f"
   - type: NightVision
@@ -38,9 +38,9 @@
   description: A hardsuit helmet with signature markings of the Viper Group. Has a built-in medical HUD complemented by thermal pulse systems.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/viper_group_medic.rsi
+    sprite: /_Mono/Clothing/Head/Hardsuits/viper_group_medic.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/viper_group_medic.rsi
+    sprite: /_Mono/Clothing/Head/Hardsuits/viper_group_medic.rsi
   - type: PointLight
     color: "#faa70f"
   - type: ThermalVision

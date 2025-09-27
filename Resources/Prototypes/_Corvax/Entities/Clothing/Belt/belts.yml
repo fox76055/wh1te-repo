@@ -5,6 +5,6 @@
   description: Universal unloading system for work in space.
   components:
   - type: Sprite
-    sprite: Corvax/Clothing/Belt/salvagewebbing.rsi
+    sprite: /Corvax/Clothing/Belt/salvagewebbing.rsi
   - type: Clothing
-    sprite: Corvax/Clothing/Belt/salvagewebbing.rsi
+    sprite: /Corvax/Clothing/Belt/salvagewebbing.rsi

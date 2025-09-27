@@ -6,7 +6,7 @@
   description: A ceremonial white cup for drinking sake.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/sakecup.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/sakecup.rsi
     state: icon
 
 - type: entity

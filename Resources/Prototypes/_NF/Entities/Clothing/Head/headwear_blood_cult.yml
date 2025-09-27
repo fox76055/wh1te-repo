@@ -8,9 +8,9 @@
   name: cult janitor helmet
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/cult_janitor.rsi
+    sprite: /_NF/Clothing/Head/Helmets/cult_janitor.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/cult_janitor.rsi
+    sprite: /_NF/Clothing/Head/Helmets/cult_janitor.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -26,9 +26,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hoods/cult.rsi
+    sprite: /_NF/Clothing/Head/Hoods/cult.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hoods/cult.rsi
+    sprite: /_NF/Clothing/Head/Hoods/cult.rsi
   - type: HideLayerClothing
     slots:
     - Hair

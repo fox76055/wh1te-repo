@@ -10,9 +10,9 @@
     A heavy duty, high powered laser sniper rifle. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_cannon.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_cannon.rsi
 
 - type: entity
   id: NFWeaponEnergyRifleSniperXrayCannon
@@ -23,6 +23,6 @@
     An illegal and experimental weapon that uses concentrated x-ray energy against its target.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: /Objects/Weapons/Guns/Battery/xray.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: /Objects/Weapons/Guns/Battery/xray.rsi

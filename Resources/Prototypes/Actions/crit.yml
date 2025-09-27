@@ -17,7 +17,7 @@
     startDelay: true
     useDelay: 10
     icon:
-      sprite: Mobs/Ghosts/ghost_human.rsi
+      sprite: /Mobs/Ghosts/ghost_human.rsi
       state: icon
   - type: InstantAction
     event: !type:CritSuccumbEvent
@@ -31,7 +31,7 @@
   - type: Action
     useDelay: 30
     icon:
-      sprite: Interface/Actions/actions_crit.rsi
+      sprite: /Interface/Actions/actions_crit.rsi
       state: fakedeath
   - type: InstantAction
     event: !type:CritFakeDeathEvent
@@ -44,7 +44,7 @@
   components:
   - type: Action
     icon:
-      sprite: Interface/Actions/actions_crit.rsi
+      sprite: /Interface/Actions/actions_crit.rsi
       state: lastwords
   - type: InstantAction
     event: !type:CritLastWordsEvent

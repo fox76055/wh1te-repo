@@ -15,7 +15,7 @@
       - tag: GlassShard
         name: construction-graph-tag-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: /Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 0.5
   - node: CraftCrossbowBoltGlassShard
@@ -38,7 +38,7 @@
       - tag: PlasmaGlassShard
         name: construction-graph-tag-plasma-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: /Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 0.5
   - node: CraftCrossbowBoltPlasmaGlassShard
@@ -61,7 +61,7 @@
       - tag: UraniumGlassShard
         name: construction-graph-tag-uranium-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: /Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 0.5
   - node: CraftCrossbowBoltUraniumGlassShard
@@ -84,7 +84,7 @@
       - tag: Syringe
         name: construction-graph-tag-syringe
         icon:
-          sprite: Objects/Specific/Chemistry/syringe.rsi
+          sprite: /Objects/Specific/Chemistry/syringe.rsi
           state: syringe_base0
         doAfter: 0.5
   - node: CraftCrossbowBoltSyringe
@@ -124,13 +124,13 @@
       - tag: ShellShotgun
         name: construction-graph-tag-shell-shotgun
         icon:
-          sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+          sprite: /Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
           state: base
         doAfter: 1
       - component: NFFireBomb
         name: construction-graph-component-nf-fire-bomb
         icon:
-          sprite: Objects/Weapons/Bombs/ied.rsi
+          sprite: /Objects/Weapons/Bombs/ied.rsi
           state: base
         doAfter: 1
   - node: CraftCrossbowBoltExplosive
@@ -156,13 +156,13 @@
       - component: PowerCell
         name: construction-graph-component-power-cell
         icon:
-          sprite: Objects/Power/power_cells.rsi
+          sprite: /Objects/Power/power_cells.rsi
           state: high
         doAfter: 0.4
       - component: LogicGate
         name: construction-graph-component-logic-gate
         icon:
-          sprite: Objects/Devices/gates.rsi
+          sprite: /Objects/Devices/gates.rsi
           state: base
         doAfter: 0.4
   - node: CraftCrossbowBoltEMP
@@ -185,7 +185,7 @@
       - tag: Flare
         name: construction-graph-tag-flare
         icon:
-          sprite: Objects/Misc/flare.rsi
+          sprite: /Objects/Misc/flare.rsi
           state: icon
         doAfter: 1
   - node: CraftCrossbowBoltIncendiary
@@ -208,7 +208,7 @@
       - tag: ShellShotgun
         name: construction-graph-tag-shell-shotgun
         icon:
-          sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+          sprite: /Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
           state: base
         doAfter: 1
   - node: CraftCrossbowBoltShrapnel

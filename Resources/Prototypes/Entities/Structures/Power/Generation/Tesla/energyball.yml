@@ -100,7 +100,7 @@
       - GhostOnlyWarp
   - type: Sprite
     drawdepth: Effects
-    sprite: Structures/Power/Generation/Tesla/energy_ball.rsi
+    sprite: /Structures/Power/Generation/Tesla/energy_ball.rsi
     layers:
     - state: energy_ball
       shader: unshaded # Wizden#37444
@@ -155,7 +155,7 @@
     lifetime: 120
   - type: Sprite
     drawdepth: Effects
-    sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
+    sprite: /Structures/Power/Generation/Tesla/energy_miniball.rsi
     layers:
     - state: tesla_projectile
       shader: unshaded # Wizden#37444

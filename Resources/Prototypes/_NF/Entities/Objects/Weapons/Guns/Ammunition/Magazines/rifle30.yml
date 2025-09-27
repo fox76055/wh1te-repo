@@ -17,7 +17,7 @@
     proto: NFCartridgeRifle30
     capacity: 30
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -28,7 +28,7 @@
     steps: 8
     zeroVisible: false
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -46,7 +46,7 @@
       - NFMagazineLowCapacityRifle30
   - type: Item
     size: Tiny
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_low_cap_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_low_cap_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -55,7 +55,7 @@
   - type: BallisticAmmoProvider
     capacity: 15
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_low_cap_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle30_low_cap_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

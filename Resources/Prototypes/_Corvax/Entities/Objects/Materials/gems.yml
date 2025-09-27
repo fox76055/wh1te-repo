@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Corvax/Objects/Materials/gems.rsi
+    sprite: /Corvax/Objects/Materials/gems.rsi
   - type: StaticPrice
   - type: Damageable
   - type: Destructible

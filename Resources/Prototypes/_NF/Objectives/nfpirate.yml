@@ -18,7 +18,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Storage/Crates/piratechest.rsi
+      sprite: /Structures/Storage/Crates/piratechest.rsi
       state: crate_icon
 
 - type: entity
@@ -29,5 +29,5 @@
   components:
   - type: Objective
     icon:
-      sprite: _NF/Objects/Specific/Pirate/pirate_doubloon.rsi
+      sprite: /_NF/Objects/Specific/Pirate/pirate_doubloon.rsi
       state: doubloon

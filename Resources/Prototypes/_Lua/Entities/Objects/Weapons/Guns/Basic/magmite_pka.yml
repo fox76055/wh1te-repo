@@ -5,14 +5,14 @@
   description: Очень тяжелый и горячий. Имеет низкую скорость стрельбы, но высокую убойность.
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Weapons/Guns/Basic/magmite_accelerator.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Basic/magmite_accelerator.rsi
     layers:
     - state: icon
     - state: animation-icon
       visible: false
       map: [ "empty-icon" ]
   - type: Item
-    sprite: _Lua/Objects/Weapons/Guns/Basic/magmite_accelerator.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Basic/magmite_accelerator.rsi
     size: Normal
   - type: Gun
     fireRate: 0.3
@@ -24,7 +24,7 @@
     walkModifier: 0.8
     sprintModifier: 0.8
   - type: Clothing
-    sprite: _Lua/Objects/Weapons/Guns/Basic/magmite_accelerator.rsi
+    sprite: /_Lua/Objects/Weapons/Guns/Basic/magmite_accelerator.rsi
 
 - type: entity
   name: Кинетическая пуля

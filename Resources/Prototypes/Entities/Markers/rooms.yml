@@ -7,5 +7,5 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Mobs/Aliens/elemental.rsi
+      - sprite: /Mobs/Aliens/elemental.rsi
         state: alive

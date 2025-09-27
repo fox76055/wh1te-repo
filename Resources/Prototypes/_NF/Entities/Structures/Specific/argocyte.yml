@@ -6,10 +6,10 @@
   description: Looks more like a fossil than egg.
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Argocyte/argocyte_common.rsi
+    sprite: /Mobs/Aliens/Argocyte/argocyte_common.rsi
     layers:
     - state: fossilegg
-    - sprite: _NF/Mobs/Aliens/argocyte.rsi
+    - sprite: /_NF/Mobs/Aliens/argocyte.rsi
       state: unshaded
       shader: unshaded
   - type: Destructible

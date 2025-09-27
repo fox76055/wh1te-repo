@@ -5,7 +5,7 @@
   description: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/centcomcloakformal.rsi
+    sprite: /Clothing/Neck/Cloaks/centcomcloakformal.rsi
   - type: StealTarget
     stealGroup: HeadCloak # leaving this here because I suppose it might be interesting?
 
@@ -16,7 +16,7 @@
   description: A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/cap.rsi
+    sprite: /Clothing/Neck/Cloaks/cap.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -27,7 +27,7 @@
   description: An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/hos.rsi
+    sprite: /Clothing/Neck/Cloaks/hos.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -38,7 +38,7 @@
   description: A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/ce.rsi
+    sprite: /Clothing/Neck/Cloaks/ce.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -49,7 +49,7 @@
   description: A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/cmo.rsi
+    sprite: /Clothing/Neck/Cloaks/cmo.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -60,7 +60,7 @@
   description: A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/rd.rsi
+    sprite: /Clothing/Neck/Cloaks/rd.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -71,7 +71,7 @@
   description: A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/qm.rsi
+    sprite: /Clothing/Neck/Cloaks/qm.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -82,7 +82,7 @@
   description: A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/hop.rsi
+    sprite: /Clothing/Neck/Cloaks/hop.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -93,7 +93,7 @@
   description: An evil-looking red cloak with spikes on its shoulders.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/herald.rsi
+    sprite: /Clothing/Neck/Cloaks/herald.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -102,7 +102,7 @@
   description: A stately blue cloak to represent NanoTrasen.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
+    sprite: /Clothing/Neck/Cloaks/nanotrasen.rsi
 
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
@@ -111,7 +111,7 @@
   description: A lavish and decorated cloak for special occasions.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/capcloakformal.rsi
+    sprite: /Clothing/Neck/Cloaks/capcloakformal.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -122,7 +122,7 @@
   description: Weh!
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/admin.rsi
+    sprite: /Clothing/Neck/Cloaks/admin.rsi
   - type: StealTarget
     stealGroup: HeadCloak
 
@@ -134,7 +134,7 @@
   categories: [HideSpawnMenu] # Frontier
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/miner.rsi
+    sprite: /Clothing/Neck/Cloaks/miner.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -143,7 +143,7 @@
   description: Worn by high ranking vampires of the transylvanian society of vampires.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/trans.rsi
+    sprite: /Clothing/Neck/Cloaks/trans.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -152,7 +152,7 @@
   description: A cloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/goliathcloak.rsi
+    sprite: /Clothing/Neck/Cloaks/goliathcloak.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodGoliathCloak
     requiredSlot:
@@ -169,7 +169,7 @@
   description: A rather fetching black pirate cloak, complete with skull motif.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/piratecap.rsi
+    sprite: /Clothing/Neck/Cloaks/piratecap.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -178,7 +178,7 @@
   description: A cloak in the form of moth wings is an unusual and original element of the wardrobe that can attract the attention of others. It is made of a thin fabric imitating moth wings, with soft and fluffy edges. The raincoat is fastened around the neck with Velcro, and has a hood in the shape of a moths head.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/moth.rsi
+    sprite: /Clothing/Neck/Cloaks/moth.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodMoth
     requiredSlot:
@@ -197,7 +197,7 @@
   description: A cloak of darkness. For those who have gone to the dark side of the force.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/void.rsi
+    sprite: /Clothing/Neck/Cloaks/void.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodVoidCloak
     requiredSlot:
@@ -216,7 +216,7 @@
   description: Cloak awarded to Nanotrasen's finest space aces.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/ace.rsi
+    sprite: /Clothing/Neck/Cloaks/ace.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -225,7 +225,7 @@
   description: This cloak lets others know you're a lone wolf.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/aro.rsi
+    sprite: /Clothing/Neck/Cloaks/aro.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -234,7 +234,7 @@
   description: Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/aroace.rsi
+    sprite: /Clothing/Neck/Cloaks/aroace.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -243,7 +243,7 @@
   description: The purple color is a clear indicator you are poisonous.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/bi.rsi
+    sprite: /Clothing/Neck/Cloaks/bi.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -252,7 +252,7 @@
   description: The circle on this cloak represents a cyclops' eye.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/intersex.rsi
+    sprite: /Clothing/Neck/Cloaks/intersex.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -261,7 +261,7 @@
   description: This cloak belonged to an ancient poet, you forgot which one.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/les.rsi
+    sprite: /Clothing/Neck/Cloaks/les.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -270,7 +270,7 @@
   description: This cloak is highly sought after in the Nanotrasen Marketing Offices.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/gay.rsi
+    sprite: /Clothing/Neck/Cloaks/gay.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -279,7 +279,7 @@
   description: This cloak belonged to a greedy treasure hunter.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/enby.rsi
+    sprite: /Clothing/Neck/Cloaks/enby.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -288,4 +288,4 @@
   description: Meant to be worn alongside a frying pan.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Cloaks/pan.rsi
+    sprite: /Clothing/Neck/Cloaks/pan.rsi

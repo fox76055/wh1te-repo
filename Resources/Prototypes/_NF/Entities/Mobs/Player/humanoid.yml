@@ -9,7 +9,7 @@
 #   suffix: ERTRole, Basic
 #   components:
 #     - type: Sprite
-#       sprite: _NF/Markers/jobs.rsi
+#       sprite: /_NF/Markers/jobs.rsi
 #       state: ertmailcarrier
 #     - type: RandomHumanoidSpawner
 #       settings: ERTMailCarrier
@@ -36,7 +36,7 @@
 #   suffix: ERTRole, Enviro EVA
 #   components:
 #     - type: Sprite
-#       sprite: _NF/Markers/jobs.rsi
+#       sprite: /_NF/Markers/jobs.rsi
 #       state: ertmailcarriereva
 #     - type: RandomHumanoidSpawner
 #       settings: ERTMailCarrierEVA

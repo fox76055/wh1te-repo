@@ -7,19 +7,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: alert-2
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: atmos_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -30,19 +30,19 @@
     drawdepth: SmallObjects
     layers: &NFTabletopShuttleConsoleVisuals
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: shuttle
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -53,19 +53,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: syndishuttle
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: syndie_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -76,19 +76,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Shuttles/iff.rsi
+      sprite: /Structures/Shuttles/iff.rsi
       state: helm
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -100,19 +100,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Shuttles/iff.rsi
+      sprite: /Structures/Shuttles/iff.rsi
       state: helm
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -123,19 +123,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: power_monitor
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: power_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -146,19 +146,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: medcomp
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: med_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -169,19 +169,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: explosive
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: security_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -192,19 +192,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -215,19 +215,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: crew
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: med_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -238,19 +238,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: rdcomp
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: rd_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -261,19 +261,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: artifact
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -284,19 +284,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: id
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: id_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -304,7 +304,7 @@
   id: ComputerTabletopBodyScanner
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computer_tabletop.rsi
+    sprite: /_NF/Structures/Machines/computer_tabletop.rsi
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
@@ -312,13 +312,13 @@
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -329,19 +329,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: comm
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -352,19 +352,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: comm
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -375,19 +375,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: comm_syndie
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: syndie_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -398,19 +398,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: solar_screen
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -421,19 +421,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: solar_screen
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -444,19 +444,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: eris_control
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -467,19 +467,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: request
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -490,19 +490,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: bounty
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -513,19 +513,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: dna
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -536,16 +536,16 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: mining
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
 
 - type: entity
@@ -556,19 +556,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: cameras
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -579,19 +579,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: cameras
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -602,19 +602,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: service
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: service_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 # Computers: Frontier
@@ -628,19 +628,19 @@
     drawdepth: SmallObjects
     layers: &cargoMarketSprite
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: cargo_market
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -670,19 +670,19 @@
     drawdepth: SmallObjects
     layers: &cargoPalletSprite
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: transfer
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: tech_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -722,19 +722,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: station_atm
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: id_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -781,19 +781,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: contraband
     - map: ["computerLayerKeys"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: telesci_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -805,19 +805,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: Structures/Shuttles/iff.rsi
+      sprite: /Structures/Shuttles/iff.rsi
       state: helm
     - map: ["computerLayerKeys"]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -829,19 +829,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: piratebounty
     - map: ["computerLayerKeys"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: blackmarket_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -853,19 +853,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: contraband # TODO: replace this
     - map: ["computerLayerKeys"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: blackmarket_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity
@@ -877,19 +877,19 @@
     drawdepth: SmallObjects
     layers:
     - map: ["computerLayerBody"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: computer_tabletop
     - map: ["computerLayerKeyboard"]
-      sprite: _NF/Structures/Machines/computer_tabletop.rsi
+      sprite: /_NF/Structures/Machines/computer_tabletop.rsi
       state: generic_keyboard_tabletop
     - map: ["computerLayerScreen"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: piratebounty_pad
     - map: ["computerLayerKeys"]
-      sprite: _NF/Structures/Machines/computers.rsi
+      sprite: /_NF/Structures/Machines/computers.rsi
       state: blackmarket_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-      sprite: Structures/Machines/computers.rsi
+      sprite: /Structures/Machines/computers.rsi
       state: generic_panel_open
 
 - type: entity

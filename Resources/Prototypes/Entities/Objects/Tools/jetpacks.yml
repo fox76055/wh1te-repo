@@ -10,7 +10,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Effects/atmospherics.rsi
+      sprite: /Effects/atmospherics.rsi
       state: frezon_old
   - type: EffectVisuals
   - type: Tag
@@ -26,12 +26,12 @@
   description: It's a jetpack. It can hold 5 L of gas.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
     layers:
     - state: icon
       map: ["enum.JetpackVisuals.Layer"]
   - type: Item
-    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
     size: Huge
   - type: UserInterface
     interfaces:
@@ -42,7 +42,7 @@
       gasTank:
         length: 1.0
   - type: Clothing
-    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
     quickEquip: false
     slots:
     - Back
@@ -72,10 +72,10 @@
   components:
   - type: Action
     icon:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: /Objects/Tanks/Jetpacks/blue.rsi
       state: icon
     iconOn:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: /Objects/Tanks/Jetpacks/blue.rsi
       state: icon-on
     useDelay: 1.0
   - type: InstantAction
@@ -89,9 +89,9 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
   - type: Clothing
-    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
     # DeltaV modifications - Covered by modifications on parent
     #slots:
     #  - Back
@@ -122,11 +122,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: _DV/Objects/Tanks/Jetpacks/black.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/black.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
   - type: Sprite
-    sprite: _DV/Objects/Tanks/Jetpacks/black.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/black.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
   - type: Clothing
-    sprite: _DV/Objects/Tanks/Jetpacks/black.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/black.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
     # DeltaV modifications - Covered by modifications on parent
     #slots:
     #  - Back
@@ -164,15 +164,15 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: /Objects/Tanks/Jetpacks/captain.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: /Objects/Tanks/Jetpacks/captain.rsi
     # DeltaV modifications - Covered by modifications on parent
     #slots:
     #  - Back
     # End DeltaV modifications
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: /Objects/Tanks/Jetpacks/captain.rsi
     size: Normal
   - type: Tag
     tags:
@@ -206,11 +206,11 @@
   suffix: Empty
   components:
     - type: Item
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: /Objects/Tanks/Jetpacks/mini.rsi
     - type: Sprite
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: /Objects/Tanks/Jetpacks/mini.rsi
     - type: Clothing
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: /Objects/Tanks/Jetpacks/mini.rsi
       slots:
         - Back
         - suitStorage
@@ -247,11 +247,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: _DV/Objects/Tanks/Jetpacks/security.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/security.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
   - type: Sprite
-    sprite: _DV/Objects/Tanks/Jetpacks/security.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/security.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
   - type: Clothing
-    sprite: _DV/Objects/Tanks/Jetpacks/security.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    sprite: /_DV/Objects/Tanks/Jetpacks/security.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
     # DeltaV modifications - Covered by modifications on parent
     #slots:
     #  - Back
@@ -282,11 +282,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: /Objects/Tanks/Jetpacks/void.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: /Objects/Tanks/Jetpacks/void.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: /Objects/Tanks/Jetpacks/void.rsi
     slots:
       - Back
       - suitStorage

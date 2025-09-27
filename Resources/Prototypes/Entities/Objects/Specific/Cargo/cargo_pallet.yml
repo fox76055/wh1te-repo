@@ -26,7 +26,7 @@
   - type: Sprite
     drawdepth: FloorTiles
     layers:
-    - sprite: Structures/catwalk.rsi
+    - sprite: /Structures/catwalk.rsi
       state: catwalk_preview
   # - type: GuideHelp # Frontier: removed from guidebook
   #   guides: # Frontier: removed from guidebook
@@ -68,9 +68,9 @@
   - type: CargoPallet
     palletType: sell
   - type: Sprite
-    sprite: Structures/cargo_pallets.rsi
+    sprite: /Structures/cargo_pallets.rsi
   - type: Icon
-    sprite: Structures/cargo_pallets.rsi
+    sprite: /Structures/cargo_pallets.rsi
     state: cargo_pallet_sell
   - type: IconSmooth
     key: cargo_pallet_sell
@@ -85,9 +85,9 @@
   - type: CargoPallet
     palletType: buy
   - type: Sprite
-    sprite: Structures/cargo_pallets.rsi
+    sprite: /Structures/cargo_pallets.rsi
   - type: Icon
-    sprite: Structures/cargo_pallets.rsi
+    sprite: /Structures/cargo_pallets.rsi
     state: cargo_pallet_buy
   - type: IconSmooth
     key: cargo_pallet_buy

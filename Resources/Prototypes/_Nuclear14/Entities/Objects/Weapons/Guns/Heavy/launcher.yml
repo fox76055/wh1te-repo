@@ -10,12 +10,12 @@
     minAngle: -23
     maxAngle: -104 
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/grenadelauncher.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/grenadelauncher.rsi
     layers:
       - state: icon
         map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/grenadelauncher.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/grenadelauncher.rsi
     slots:
     - Back
     - suitStorage
@@ -51,12 +51,12 @@
     minAngle: -23
     maxAngle: -104
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/grenaderifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/grenaderifle.rsi
     layers:
       - state: icon
         map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/grenaderifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Heavy/grenaderifle.rsi
     slots:
     - Back
     - suitStorage

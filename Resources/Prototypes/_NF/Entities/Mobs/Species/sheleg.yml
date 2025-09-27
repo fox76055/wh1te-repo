@@ -19,7 +19,7 @@
     baseDecayRate: 0.15
   - type: Carriable # Carrying system from nyanotrasen.
   - type: Icon
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    sprite: /_NF/Mobs/Species/Sheleg/parts.rsi
     state: full
   - type: Body
     prototype: Sheleg
@@ -77,10 +77,10 @@
     - "enum.HumanoidVisualLayers.RLeg"
     damageOverlayGroups:
       Brute:
-        sprite: Mobs/Effects/brute_damage.rsi
+        sprite: /Mobs/Effects/brute_damage.rsi
         color: "#16297e"
       Burn:
-        sprite: Mobs/Effects/burn_damage.rsi
+        sprite: /Mobs/Effects/burn_damage.rsi
   - type: SlowOnDamage # The pain resist is high but not gone
     speedModifierThresholds:
       60: 0.9

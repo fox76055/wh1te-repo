@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: ShuttleThruster
   icon:
-    sprite: _NF/Structures/Shuttles/thruster.rsi # Frontier: use _NF prefix
+    sprite: /_NF/Structures/Shuttles/thruster.rsi # Frontier: use _NF prefix
     state: base
   product: CrateEngineeringThruster
   cost: 1500
@@ -11,7 +11,7 @@
 - type: cargoProduct
   id: ShuttleGyroscope
   icon:
-    sprite: _NF/Structures/Shuttles/gyroscope.rsi # Frontier: use _NF prefix
+    sprite: /_NF/Structures/Shuttles/gyroscope.rsi # Frontier: use _NF prefix
     state: base
   product: CrateEngineeringGyroscope
   cost: 4000
@@ -21,7 +21,7 @@
 # - type: cargoProduct
   # id: ShuttlePowerKit
   # icon:
-    # sprite: Structures/Machines/computers.rsi
+    # sprite: /Structures/Machines/computers.rsi
     # state: avionics-systems
   # product: CrateEngineeringShuttle
   # cost: 3000

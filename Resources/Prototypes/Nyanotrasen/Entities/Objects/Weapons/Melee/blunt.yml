@@ -5,7 +5,7 @@
   description: The classic oni weapon, for those that forgo subtlety.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Weapons/Melee/kanabou.rsi
+    sprite: /Nyanotrasen/Objects/Weapons/Melee/kanabou.rsi
     state: icon
   - type: Item
     size: Normal
@@ -27,7 +27,7 @@
       types:
         Blunt: 14
   - type: Clothing
-    sprite: Nyanotrasen/Objects/Weapons/Melee/kanabou.rsi
+    sprite: /Nyanotrasen/Objects/Weapons/Melee/kanabou.rsi
     quickEquip: false
     slots:
     - back
@@ -39,7 +39,7 @@
   description: A bamboo sword, commonly used in kendo. Made some time after the realization that wooden swords hurt a lot.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Weapons/Melee/shinai.rsi
+    sprite: /Nyanotrasen/Objects/Weapons/Melee/shinai.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.25
@@ -56,5 +56,5 @@
     damage: 10
   - type: Item
     size: Normal
-    sprite: Nyanotrasen/Objects/Weapons/Melee/shinai.rsi
+    sprite: /Nyanotrasen/Objects/Weapons/Melee/shinai.rsi
   - type: DisarmMalus

@@ -1,4 +1,4 @@
-# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_meal.yml
+# When adding new food also add to random spawner located in /Resources/Prototypes/Entities/Markers/Spawners/Random/Food_Drinks/food_meal.yml
 # Base
 
 - type: entity
@@ -10,7 +10,7 @@
   - type: Item
     storedRotation: -90
   - type: Sprite
-    sprite: Objects/Consumable/Food/noodles.rsi
+    sprite: /Objects/Consumable/Food/noodles.rsi
   - type: SolutionContainerManager
     solutions:
       food:

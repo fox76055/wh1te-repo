@@ -15,7 +15,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Boxes/50anti-material.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Boxes/50anti-material.rsi
     netsync: false
   - type: MagazineVisuals
     magState: mag

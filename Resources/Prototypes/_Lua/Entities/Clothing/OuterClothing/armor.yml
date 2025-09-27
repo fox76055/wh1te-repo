@@ -9,9 +9,9 @@
   description: Пара кусков стали, которые скрепили стяжками.
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Armor/ArmorBasicSlim.rsi
   - type: Construction
     graph: ClothingCraftArmor
     node: clothingCraftArmor

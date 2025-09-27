@@ -5,14 +5,14 @@
   id: ServiceSelectiveDropper
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Chemistry/dropper.rsi
+    sprite: /_NF/Objects/Specific/Chemistry/dropper.rsi
     layers:
       - state: dropper
       - state: dropper1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: Item
-    sprite: _NF/Objects/Specific/Chemistry/dropper.rsi
+    sprite: /_NF/Objects/Specific/Chemistry/dropper.rsi
   - type: Injector
     transferAmount: 5
     toggleState: Draw
@@ -41,7 +41,7 @@
     tags:
     - CentrifugeCompatible  
   - type: Sprite
-    sprite: _NF/Objects/Specific/Chemistry/vial_bluespace.rsi
+    sprite: /_NF/Objects/Specific/Chemistry/vial_bluespace.rsi
     layers:
       - state: vialbluespace
       - state: vialbluespace-1
@@ -60,7 +60,7 @@
     maxTransferAmount: 300
   - type: Item
     size: Tiny
-    sprite: _NF/Objects/Specific/Chemistry/vial_bluespace.rsi  
+    sprite: /_NF/Objects/Specific/Chemistry/vial_bluespace.rsi  
   - type: StaticPrice
     price: 100
     vendPrice: 100  

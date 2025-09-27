@@ -8,19 +8,19 @@
   description: "A brown roll of tobacco and... well, you're not quite sure."
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigars/cigar.rsi
     state: unlit-icon
   - type: Tag
     tags:
       - Cigar
       - Trash
   - type: Clothing
-    sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigars/cigar.rsi
     slots: [ mask ]
     equippedPrefix: unlit
   - type: Item
     size: Tiny
-    sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigars/cigar.rsi
     heldPrefix: unlit
 
 - type: entity
@@ -49,10 +49,10 @@
   description: A cigar fit for only the best of the best.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi
     state: unlit-icon
   - type: Clothing
-    sprite: Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi
     slots: [ mask ]
     equippedPrefix: unlit
   - type: Item

@@ -11,20 +11,20 @@
     walkModifier: 0.6
     sprintModifier: 0.6
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/LMGs/m60.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/LMGs/m60.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
     - state: mag-0
       map: [ "enum.GunVisualLayers.Mag" ]
-    - sprite: _RMC14/Objects/Weapons/Guns/LMGs/m60.rsi
+    - sprite: /_RMC14/Objects/Weapons/Guns/LMGs/m60.rsi
       state: barrel
       offset: 0.525, 0.0925
-    - sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
+    - sprite: /_RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
       state: m60_stock
       offset: -0.6, 0
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/LMGs/m60.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/LMGs/m60.rsi
   - type: Tag
     tags:
     - RMCWeaponLMGM60
@@ -112,7 +112,7 @@
     proto: RMCCartridgeLMGM60
     capacity: 100
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m60.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m60.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

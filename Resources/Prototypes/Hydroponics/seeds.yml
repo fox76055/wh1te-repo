@@ -3,7 +3,7 @@
   name: seeds-wheat-name
   noun: seeds-noun-seeds
   displayName: seeds-wheat-display-name
-  plantRsi: Objects/Specific/Hydroponics/wheat.rsi
+  plantRsi: /Objects/Specific/Hydroponics/wheat.rsi
   packetPrototype: WheatSeeds
   productPrototypes:
     - WheatBushel
@@ -31,7 +31,7 @@
   name: seeds-meatwheat-name
   noun: seeds-noun-seeds
   displayName: seeds-meatwheat-display-name
-  plantRsi: Objects/Specific/Hydroponics/meatwheat.rsi
+  plantRsi: /Objects/Specific/Hydroponics/meatwheat.rsi
   packetPrototype: MeatwheatSeeds
   productPrototypes:
     - MeatwheatBushel
@@ -57,7 +57,7 @@
   name: seeds-oat-name
   noun: seeds-noun-seeds
   displayName: seeds-oat-display-name
-  plantRsi: Objects/Specific/Hydroponics/oat.rsi
+  plantRsi: /Objects/Specific/Hydroponics/oat.rsi
   packetPrototype: OatSeeds
   productPrototypes:
     - OatBushel
@@ -83,7 +83,7 @@
   name: seeds-banana-name
   noun: seeds-noun-seeds
   displayName: seeds-banana-display-name
-  plantRsi: Objects/Specific/Hydroponics/banana.rsi
+  plantRsi: /Objects/Specific/Hydroponics/banana.rsi
   packetPrototype: BananaSeeds
   productPrototypes:
     - FoodBanana
@@ -113,7 +113,7 @@
   name: seeds-mimana-name
   noun: seeds-noun-seeds
   displayName: seeds-mimana-display-name
-  plantRsi: Objects/Specific/Hydroponics/mimana.rsi
+  plantRsi: /Objects/Specific/Hydroponics/mimana.rsi
   packetPrototype: MimanaSeeds
   productPrototypes:
     - FoodMimana
@@ -140,7 +140,7 @@
   name: seeds-carrots-name
   noun: seeds-noun-seeds
   displayName: seeds-carrots-display-name
-  plantRsi: Objects/Specific/Hydroponics/carrot.rsi
+  plantRsi: /Objects/Specific/Hydroponics/carrot.rsi
   packetPrototype: CarrotSeeds
   productPrototypes:
     - FoodCarrot
@@ -170,7 +170,7 @@
   name: seeds-laughin-pea-name
   noun: seeds-noun-seeds
   displayName: seeds-laughin-pea-display-name
-  plantRsi: Objects/Specific/Hydroponics/laughin_pea.rsi
+  plantRsi: /Objects/Specific/Hydroponics/laughin_pea.rsi
   packetPrototype: LaughinPeaSeeds
   productPrototypes:
     - FoodLaughinPeaPod
@@ -205,7 +205,7 @@
   name: seeds-lemon-name
   noun: seeds-noun-seeds
   displayName: seeds-lemon-display-name
-  plantRsi: Objects/Specific/Hydroponics/lemon.rsi
+  plantRsi: /Objects/Specific/Hydroponics/lemon.rsi
   packetPrototype: LemonSeeds
   productPrototypes:
     - FoodLemon
@@ -235,7 +235,7 @@
   name: seeds-lemoon-name
   noun: seeds-noun-seeds
   displayName: seeds-lemoon-display-name
-  plantRsi: Objects/Specific/Hydroponics/lemoon.rsi
+  plantRsi: /Objects/Specific/Hydroponics/lemoon.rsi
   packetPrototype: LemoonSeeds
   productPrototypes:
     - FoodLemoon
@@ -261,7 +261,7 @@
   name: seeds-lime-name
   noun: seeds-noun-seeds
   displayName: seeds-lime-display-name
-  plantRsi: Objects/Specific/Hydroponics/lime.rsi
+  plantRsi: /Objects/Specific/Hydroponics/lime.rsi
   packetPrototype: LimeSeeds
   productPrototypes:
     - FoodLime
@@ -290,7 +290,7 @@
   name: seeds-orange-name
   noun: seeds-noun-seeds
   displayName: seeds-orange-display-name
-  plantRsi: Objects/Specific/Hydroponics/orange.rsi
+  plantRsi: /Objects/Specific/Hydroponics/orange.rsi
   packetPrototype: OrangeSeeds
   productPrototypes:
     - FoodOrange
@@ -320,7 +320,7 @@
   name: seeds-extradimensionalorange-name
   noun: seeds-noun-seeds
   displayName: seeds-extradimensionalorange-display-name
-  plantRsi: Objects/Specific/Hydroponics/extradimensional_orange.rsi
+  plantRsi: /Objects/Specific/Hydroponics/extradimensional_orange.rsi
   packetPrototype: ExtradimensionalOrangeSeeds
   productPrototypes:
     - FoodExtradimensionalOrange
@@ -350,7 +350,7 @@
   name: seeds-pineapple-name
   noun: seeds-noun-seeds
   displayName: seeds-pineapple-display-name
-  plantRsi: Objects/Specific/Hydroponics/pineapple.rsi
+  plantRsi: /Objects/Specific/Hydroponics/pineapple.rsi
   packetPrototype: PineappleSeeds
   productPrototypes:
     - FoodPineapple
@@ -381,7 +381,7 @@
   name: seeds-potato-name
   noun: seeds-noun-seeds
   displayName: seeds-potato-display-name
-  plantRsi: Objects/Specific/Hydroponics/potato.rsi
+  plantRsi: /Objects/Specific/Hydroponics/potato.rsi
   packetPrototype: PotatoSeeds
   productPrototypes:
     - FoodPotato
@@ -407,7 +407,7 @@
   name: seeds-sugarcane-name
   noun: seeds-noun-seeds
   displayName: seeds-sugarcane-display-name
-  plantRsi: Objects/Specific/Hydroponics/sugarcane.rsi
+  plantRsi: /Objects/Specific/Hydroponics/sugarcane.rsi
   packetPrototype: SugarcaneSeeds
   productPrototypes:
     - Sugarcane
@@ -432,7 +432,7 @@
   name: seeds-teaplant-name
   noun: seeds-noun-seeds
   displayName: seeds-teaplant-display-name
-  plantRsi: Objects/Specific/Hydroponics/tea_plant.rsi
+  plantRsi: /Objects/Specific/Hydroponics/tea_plant.rsi
   packetPrototype: TeaPlantSeeds
   productPrototypes:
     - LeavesTea
@@ -457,7 +457,7 @@
   name: seeds-papercane-name
   noun: seeds-noun-seeds
   displayName: seeds-papercane-display-name
-  plantRsi: Objects/Specific/Hydroponics/papercane.rsi
+  plantRsi: /Objects/Specific/Hydroponics/papercane.rsi
   packetPrototype: PapercaneSeeds
   productPrototypes:
     - Papercane
@@ -475,7 +475,7 @@
   name: seeds-towercap-name
   noun: seeds-noun-spores
   displayName: seeds-towercap-display-name
-  plantRsi: Objects/Specific/Hydroponics/towercap.rsi
+  plantRsi: /Objects/Specific/Hydroponics/towercap.rsi
   packetPrototype: TowercapSeeds
   productPrototypes:
     - Log
@@ -498,7 +498,7 @@
   name: seeds-steelcap-name
   noun: seeds-noun-spores
   displayName: seeds-steelcap-display-name
-  plantRsi: Objects/Specific/Hydroponics/steelcap.rsi
+  plantRsi: /Objects/Specific/Hydroponics/steelcap.rsi
   packetPrototype: SteelcapSeeds
   productPrototypes:
     - SteelLog
@@ -519,7 +519,7 @@
   name: seeds-tomato-name
   noun: seeds-noun-seeds
   displayName: seeds-tomato-display-name
-  plantRsi: Objects/Specific/Hydroponics/tomato.rsi
+  plantRsi: /Objects/Specific/Hydroponics/tomato.rsi
   packetPrototype: TomatoSeeds
   productPrototypes:
     - FoodTomato
@@ -556,7 +556,7 @@
   name: seeds-bluetomato-name
   noun: seeds-noun-seeds
   displayName: seeds-bluetomato-display-name
-  plantRsi: Objects/Specific/Hydroponics/blue_tomato.rsi
+  plantRsi: /Objects/Specific/Hydroponics/blue_tomato.rsi
   packetPrototype: BlueTomatoSeeds
   productPrototypes:
     - FoodBlueTomato
@@ -590,7 +590,7 @@
   name: seeds-bloodtomato-name
   noun: seeds-noun-seeds
   displayName: seeds-bloodtomato-display-name
-  plantRsi: Objects/Specific/Hydroponics/blood_tomato.rsi
+  plantRsi: /Objects/Specific/Hydroponics/blood_tomato.rsi
   packetPrototype: BloodTomatoSeeds
   productPrototypes:
     - FoodBloodTomato
@@ -622,7 +622,7 @@
   name: seeds-killertomato-name
   noun: seeds-noun-seeds
   displayName: seeds-killertomato-display-name
-  plantRsi: Objects/Specific/Hydroponics/tomatokiller.rsi
+  plantRsi: /Objects/Specific/Hydroponics/tomatokiller.rsi
   plantLogImpact: High
   harvestLogImpact: High
   packetPrototype: KillerTomatoSeeds
@@ -655,7 +655,7 @@
   name: seeds-eggplant-name
   noun: seeds-noun-seeds
   displayName: seeds-eggplant-display-name
-  plantRsi: Objects/Specific/Hydroponics/eggplant.rsi
+  plantRsi: /Objects/Specific/Hydroponics/eggplant.rsi
   packetPrototype: EggplantSeeds
   productPrototypes:
     - FoodEggplant
@@ -685,7 +685,7 @@
   name: seeds-cabbage-name
   noun: seeds-noun-seeds
   displayName: seeds-cabbage-display-name
-  plantRsi: Objects/Specific/Hydroponics/cabbage.rsi
+  plantRsi: /Objects/Specific/Hydroponics/cabbage.rsi
   packetPrototype: CabbageSeeds
   productPrototypes:
     - FoodCabbage
@@ -710,7 +710,7 @@
   name: seeds-garlic-name
   noun: seeds-noun-seeds
   displayName: seeds-garlic-display-name
-  plantRsi: Objects/Specific/Hydroponics/garlic.rsi
+  plantRsi: /Objects/Specific/Hydroponics/garlic.rsi
   packetPrototype: GarlicSeeds
   productPrototypes:
     - FoodGarlic
@@ -739,7 +739,7 @@
   name: seeds-apple-name
   noun: seeds-noun-seeds
   displayName: seeds-apple-display-name
-  plantRsi: Objects/Specific/Hydroponics/apple.rsi
+  plantRsi: /Objects/Specific/Hydroponics/apple.rsi
   packetPrototype: AppleSeeds
   productPrototypes:
     - FoodApple
@@ -767,7 +767,7 @@
   name: seeds-goldenapple-name
   noun: seeds-noun-seeds
   displayName: seeds-goldenapple-display-name
-  plantRsi: Objects/Specific/Hydroponics/golden_apple.rsi
+  plantRsi: /Objects/Specific/Hydroponics/golden_apple.rsi
   packetPrototype: GoldenAppleSeeds
   productPrototypes:
     - FoodGoldenApple
@@ -799,7 +799,7 @@
   name: seeds-corn-name
   noun: seeds-noun-seeds
   displayName: seeds-corn-display-name
-  plantRsi: Objects/Specific/Hydroponics/corn.rsi
+  plantRsi: /Objects/Specific/Hydroponics/corn.rsi
   packetPrototype: CornSeeds
   productPrototypes:
     - FoodCorn
@@ -827,7 +827,7 @@
   name: seeds-onion-name
   noun: seeds-noun-seeds
   displayName: seeds-onion-display-name
-  plantRsi: Objects/Specific/Hydroponics/onion.rsi
+  plantRsi: /Objects/Specific/Hydroponics/onion.rsi
   packetPrototype: OnionSeeds
   productPrototypes:
     - FoodOnion
@@ -861,7 +861,7 @@
   name: seeds-onionred-name
   noun: seeds-noun-seeds
   displayName: seeds-onionred-display-name
-  plantRsi: Objects/Specific/Hydroponics/onion_red.rsi
+  plantRsi: /Objects/Specific/Hydroponics/onion_red.rsi
   packetPrototype: OnionRedSeeds
   productPrototypes:
     - FoodOnionRed
@@ -893,7 +893,7 @@
   name: seeds-chanterelle-name
   noun: seeds-noun-spores
   displayName: seeds-chanterelle-display-name
-  plantRsi: Objects/Specific/Hydroponics/chanterelle.rsi
+  plantRsi: /Objects/Specific/Hydroponics/chanterelle.rsi
   packetPrototype: ChanterelleSeeds
   productPrototypes:
     - FoodMushroom
@@ -918,7 +918,7 @@
   name: seeds-eggy-name
   noun: seeds-noun-seeds
   displayName: seeds-eggy-display-name
-  plantRsi: Objects/Specific/Hydroponics/eggy.rsi
+  plantRsi: /Objects/Specific/Hydroponics/eggy.rsi
   packetPrototype: EggySeeds
   productPrototypes:
     - FoodEgg
@@ -942,7 +942,7 @@
   name: seeds-cannabis-name
   noun: seeds-noun-seeds
   displayName: seeds-cannabis-display-name
-  plantRsi: Objects/Specific/Hydroponics/cannabis.rsi
+  plantRsi: /Objects/Specific/Hydroponics/cannabis.rsi
   packetPrototype: CannabisSeeds
   productPrototypes:
     - LeavesCannabis
@@ -969,7 +969,7 @@
   name: seeds-rainbow-cannabis-name
   noun: seeds-noun-seeds
   displayName: seeds-rainbow-cannabis-display-name
-  plantRsi: Objects/Specific/Hydroponics/rainbow_cannabis.rsi
+  plantRsi: /Objects/Specific/Hydroponics/rainbow_cannabis.rsi
   packetPrototype: RainbowCannabisSeeds
   productPrototypes:
     - LeavesCannabisRainbow
@@ -1014,7 +1014,7 @@
   name: seeds-tobacco-name
   noun: seeds-noun-seeds
   displayName: seeds-tobacco-display-name
-  plantRsi: Objects/Specific/Hydroponics/tobacco.rsi
+  plantRsi: /Objects/Specific/Hydroponics/tobacco.rsi
   packetPrototype: TobaccoSeeds
   productPrototypes:
     - LeavesTobacco
@@ -1039,7 +1039,7 @@
   name: seeds-nettle-name
   noun: seeds-noun-seeds
   displayName: seeds-nettle-display-name
-  plantRsi: Objects/Specific/Hydroponics/nettle.rsi
+  plantRsi: /Objects/Specific/Hydroponics/nettle.rsi
   packetPrototype: NettleSeeds
   productPrototypes:
     - Nettle
@@ -1065,7 +1065,7 @@
   name: seeds-deathnettle-name
   noun: seeds-noun-seeds
   displayName: seeds-deathnettle-display-name
-  plantRsi: Objects/Specific/Hydroponics/death_nettle.rsi
+  plantRsi: /Objects/Specific/Hydroponics/death_nettle.rsi
   packetPrototype: DeathNettleSeeds
   plantLogImpact: High
   harvestLogImpact: High
@@ -1096,7 +1096,7 @@
   name: seeds-chili-name
   noun: seeds-noun-seeds
   displayName: seeds-chili-display-name
-  plantRsi: Objects/Specific/Hydroponics/chili.rsi
+  plantRsi: /Objects/Specific/Hydroponics/chili.rsi
   packetPrototype: ChiliSeeds
   productPrototypes:
     - FoodChiliPepper
@@ -1129,7 +1129,7 @@
   name: seeds-chilly-name
   noun: seeds-noun-seeds
   displayName: seeds-chilly-display-name
-  plantRsi: Objects/Specific/Hydroponics/chilly.rsi
+  plantRsi: /Objects/Specific/Hydroponics/chilly.rsi
   packetPrototype: ChillySeeds
   productPrototypes:
     - FoodChillyPepper
@@ -1160,7 +1160,7 @@
   name: seeds-poppy-name
   noun: seeds-noun-seeds
   displayName: seeds-poppy-display-name
-  plantRsi: Objects/Specific/Hydroponics/poppy.rsi
+  plantRsi: /Objects/Specific/Hydroponics/poppy.rsi
   packetPrototype: PoppySeeds
   productPrototypes:
     - FoodPoppy
@@ -1188,7 +1188,7 @@
   name: seeds-aloe-name
   noun: seeds-noun-seeds
   displayName: seeds-aloe-display-name
-  plantRsi: Objects/Specific/Hydroponics/aloe.rsi
+  plantRsi: /Objects/Specific/Hydroponics/aloe.rsi
   packetPrototype: AloeSeeds
   productPrototypes:
     - FoodAloe
@@ -1214,7 +1214,7 @@
   name: seeds-lily-name
   noun: seeds-noun-seeds
   displayName: seeds-lily-display-name
-  plantRsi: Objects/Specific/Hydroponics/lily.rsi
+  plantRsi: /Objects/Specific/Hydroponics/lily.rsi
   packetPrototype: LilySeeds
   productPrototypes:
     - FoodLily
@@ -1242,7 +1242,7 @@
   name: seeds-lingzhi-name
   noun: seeds-noun-spores
   displayName: seeds-lingzhi-display-name
-  plantRsi: Objects/Specific/Hydroponics/lingzhi.rsi
+  plantRsi: /Objects/Specific/Hydroponics/lingzhi.rsi
   packetPrototype: LingzhiSeeds
   productPrototypes:
     - FoodLingzhi
@@ -1268,7 +1268,7 @@
   name: seeds-ambrosiavulgaris-name
   noun: seeds-noun-seeds
   displayName: seeds-ambrosiavulgaris-display-name
-  plantRsi: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
+  plantRsi: /Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
   packetPrototype: AmbrosiaVulgarisSeeds
   productPrototypes:
     - FoodAmbrosiaVulgaris
@@ -1308,7 +1308,7 @@
   name: seeds-ambrosiadeus-name
   noun: seeds-noun-seeds
   displayName: seeds-ambrosiadeus-display-name
-  plantRsi: Objects/Specific/Hydroponics/ambrosia_deus.rsi
+  plantRsi: /Objects/Specific/Hydroponics/ambrosia_deus.rsi
   packetPrototype: AmbrosiaDeusSeeds
   productPrototypes:
     - FoodAmbrosiaDeus
@@ -1342,7 +1342,7 @@
   name: seeds-galaxythistle-name
   noun: seeds-noun-seeds
   displayName: seeds-galaxythistle-display-name
-  plantRsi: Objects/Specific/Hydroponics/galaxythistle.rsi
+  plantRsi: /Objects/Specific/Hydroponics/galaxythistle.rsi
   packetPrototype: GalaxythistleSeeds
   productPrototypes:
     - FoodGalaxythistle
@@ -1366,7 +1366,7 @@
   name: seeds-glasstle-name
   noun: seeds-noun-seeds
   displayName: seeds-glasstle-display-name
-  plantRsi: Objects/Specific/Hydroponics/glasstle.rsi
+  plantRsi: /Objects/Specific/Hydroponics/glasstle.rsi
   packetPrototype: GlasstleSeeds
   productPrototypes:
     - FoodGlasstle
@@ -1388,7 +1388,7 @@
   name: seeds-flyamanita-name
   noun: seeds-noun-spores
   displayName: seeds-flyamanita-display-name
-  plantRsi: Objects/Specific/Hydroponics/fly_amanita.rsi
+  plantRsi: /Objects/Specific/Hydroponics/fly_amanita.rsi
   packetPrototype: FlyAmanitaSeeds
   productPrototypes:
     - FoodFlyAmanita
@@ -1415,7 +1415,7 @@
   name: seeds-gatfruit-name
   noun: seeds-noun-seeds
   displayName: seeds-gatfruit-display-name
-  plantRsi: Objects/Specific/Hydroponics/gatfruit.rsi
+  plantRsi: /Objects/Specific/Hydroponics/gatfruit.rsi
   packetPrototype: GatfruitSeeds
   productPrototypes:
     - FoodGatfruit
@@ -1448,7 +1448,7 @@
   name: seeds-capfruit-name
   noun: seeds-noun-seeds
   displayName: seeds-capfruit-display-name
-  plantRsi: Objects/Specific/Hydroponics/capfruit.rsi
+  plantRsi: /Objects/Specific/Hydroponics/capfruit.rsi
   packetPrototype: FakeCapfruitSeeds
   productPrototypes:
     - FoodFakeCapfruit
@@ -1478,7 +1478,7 @@
   name: seeds-capfruit-name
   noun: seeds-noun-seeds
   displayName: seeds-capfruit-display-name
-  plantRsi: Objects/Specific/Hydroponics/capfruit.rsi
+  plantRsi: /Objects/Specific/Hydroponics/capfruit.rsi
   packetPrototype: RealCapfruitSeeds
   productPrototypes:
     - FoodRealCapfruit
@@ -1508,7 +1508,7 @@
   name: seeds-rice-name
   noun: seeds-noun-seeds
   displayName: seeds-rice-display-name
-  plantRsi: Objects/Specific/Hydroponics/rice.rsi
+  plantRsi: /Objects/Specific/Hydroponics/rice.rsi
   packetPrototype: RiceSeeds
   productPrototypes:
     - RiceBushel
@@ -1536,7 +1536,7 @@
   name: seeds-soybeans-name
   noun: seeds-noun-seeds
   displayName: seeds-soybeans-display-name
-  plantRsi: Objects/Specific/Hydroponics/soybeans.rsi
+  plantRsi: /Objects/Specific/Hydroponics/soybeans.rsi
   packetPrototype: SoybeanSeeds
   productPrototypes:
     - FoodSoybeans
@@ -1561,7 +1561,7 @@
   name: seeds-spacemans-trumpet-name
   noun: seeds-noun-seeds
   displayName: seeds-spacemans-trumpet-display-name
-  plantRsi: Objects/Specific/Hydroponics/spacemans_trumpet.rsi
+  plantRsi: /Objects/Specific/Hydroponics/spacemans_trumpet.rsi
   packetPrototype: SpacemansTrumpetSeeds
   productPrototypes:
     - FoodSpacemansTrumpet
@@ -1587,7 +1587,7 @@
   name: seeds-koibean-name
   noun: seeds-noun-seeds
   displayName: seeds-koibean-display-name
-  plantRsi: Objects/Specific/Hydroponics/koibean.rsi
+  plantRsi: /Objects/Specific/Hydroponics/koibean.rsi
   packetPrototype: KoibeanSeeds
   productPrototypes:
     - FoodKoibean
@@ -1614,7 +1614,7 @@
   name: seeds-grape-name
   noun: seeds-noun-seeds
   displayName: seeds-grape-display-name
-  plantRsi: Objects/Specific/Hydroponics/grape.rsi
+  plantRsi: /Objects/Specific/Hydroponics/grape.rsi
   packetPrototype: GrapeSeeds
   productPrototypes:
     - FoodGrape
@@ -1639,7 +1639,7 @@
   name: seeds-watermelon-name
   noun: seeds-noun-seeds
   displayName: seeds-watermelon-display-name
-  plantRsi: Objects/Specific/Hydroponics/watermelon.rsi
+  plantRsi: /Objects/Specific/Hydroponics/watermelon.rsi
   packetPrototype: WatermelonSeeds
   productPrototypes:
     - FoodWatermelon
@@ -1670,7 +1670,7 @@
   name: seeds-holymelon-name
   noun: seeds-noun-seeds
   displayName: seeds-holymelon-display-name
-  plantRsi: Objects/Specific/Hydroponics/holymelon.rsi
+  plantRsi: /Objects/Specific/Hydroponics/holymelon.rsi
   packetPrototype: HolymelonSeeds
   productPrototypes:
     - FoodHolymelon
@@ -1699,7 +1699,7 @@
   name: seeds-cocoa-name
   noun: seeds-noun-seeds
   displayName: seeds-cocoa-display-name
-  plantRsi: Objects/Specific/Hydroponics/cocoa.rsi
+  plantRsi: /Objects/Specific/Hydroponics/cocoa.rsi
   packetPrototype: CocoaSeeds
   productPrototypes:
     - FoodCocoaPod
@@ -1727,7 +1727,7 @@
   name: seeds-berries-name
   noun: seeds-noun-seeds
   displayName: seeds-berries-display-name
-  plantRsi: Objects/Specific/Hydroponics/berries.rsi
+  plantRsi: /Objects/Specific/Hydroponics/berries.rsi
   packetPrototype: BerrySeeds
   productPrototypes:
     - FoodBerries
@@ -1753,7 +1753,7 @@
   name: seeds-bungo-name
   noun: seeds-noun-seeds
   displayName: seeds-bungo-display-name
-  plantRsi: Objects/Specific/Hydroponics/bungo.rsi
+  plantRsi: /Objects/Specific/Hydroponics/bungo.rsi
   packetPrototype: BungoSeeds
   productPrototypes:
     - FoodBungo
@@ -1782,7 +1782,7 @@
   name: seeds-pea-name
   noun: seeds-noun-seeds
   displayName: seeds-pea-display-name
-  plantRsi: Objects/Specific/Hydroponics/pea.rsi
+  plantRsi: /Objects/Specific/Hydroponics/pea.rsi
   packetPrototype: PeaSeeds
   productPrototypes:
     - FoodPeaPod
@@ -1813,7 +1813,7 @@
   name: seeds-worldpea-name
   noun: seeds-noun-seeds
   displayName: seeds-worldpea-display-name
-  plantRsi: Objects/Specific/Hydroponics/world_pea.rsi
+  plantRsi: /Objects/Specific/Hydroponics/world_pea.rsi
   packetPrototype: PeaSeeds
   productPrototypes:
     - FoodWorldPeas
@@ -1846,7 +1846,7 @@
   name: seeds-pumpkin-name
   noun: seeds-noun-seeds
   displayName: seeds-pumpkin-display-name
-  plantRsi: Objects/Specific/Hydroponics/pumpkin.rsi
+  plantRsi: /Objects/Specific/Hydroponics/pumpkin.rsi
   packetPrototype: PumpkinSeeds
   productPrototypes:
     - FoodPumpkin
@@ -1874,7 +1874,7 @@
   name: seeds-blue-pumpkin-name
   noun: seeds-noun-seeds
   displayName: seeds-blue-pumpkin-display-name
-  plantRsi: Objects/Specific/Hydroponics/blue_pumpkin.rsi
+  plantRsi: /Objects/Specific/Hydroponics/blue_pumpkin.rsi
   packetPrototype: BluePumpkinSeeds
   productPrototypes:
     - FoodBluePumpkin
@@ -1904,7 +1904,7 @@
   name: seeds-cotton-name
   noun: seeds-noun-seeds
   displayName: seeds-cotton-display-name
-  plantRsi: Objects/Specific/Hydroponics/cotton.rsi
+  plantRsi: /Objects/Specific/Hydroponics/cotton.rsi
   packetPrototype: CottonSeeds
   productPrototypes:
     - CottonBol
@@ -1929,7 +1929,7 @@
   name: seeds-pyrotton-name
   noun: seeds-noun-seeds
   displayName: seeds-pyrotton-display-name
-  plantRsi: Objects/Specific/Hydroponics/pyrotton.rsi
+  plantRsi: /Objects/Specific/Hydroponics/pyrotton.rsi
   packetPrototype: PyrottonSeeds
   productPrototypes:
     - PyrottonBol
@@ -1956,7 +1956,7 @@
   name: seeds-cherry-name
   noun: seeds-noun-seeds
   displayName: seeds-cherry-display-name
-  plantRsi: Objects/Specific/Hydroponics/cherry.rsi
+  plantRsi: /Objects/Specific/Hydroponics/cherry.rsi
   packetPrototype: CherrySeeds
   productPrototypes:
     - FoodCherry
@@ -1982,7 +1982,7 @@
   name: seeds-anomaly-berry-name
   noun: seeds-noun-seeds
   displayName: seeds-anomaly-berry-display-name
-  plantRsi: Objects/Specific/Hydroponics/anomaly_berry.rsi
+  plantRsi: /Objects/Specific/Hydroponics/anomaly_berry.rsi
   packetPrototype: AnomalyBerrySeeds
   productPrototypes:
     - FoodAnomalyBerry

@@ -5,15 +5,15 @@
   description: An immortal classic, uses 12 gauge shells.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
   - type: Wieldable
   - type: GunRequiresWield
   - type: Gun
@@ -41,15 +41,15 @@
       collection: N14ShotgunGunshot
   - type: GunRequiresWield
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/pump.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/pump.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/pump.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/pump.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: BallisticAmmoProvider
     whitelist:
       tags:
@@ -67,7 +67,7 @@
   description: It's a magazine-fed automatic shotgun designed for close quarters combat, uses 12 gauge shells.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
     netsync: false
     layers:
     - state: base
@@ -75,13 +75,13 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
     size: Large
   - type: Wieldable
   - type: GunRequiresWield
@@ -127,15 +127,15 @@
   description: The perfect shotgun for a long jorney. works well for hunting brahmins, geckos and fiends, uses 20 gauge shells.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
   - type: Wieldable
   - type: Gun
     fireRate: 6
@@ -158,15 +158,15 @@
   description: The perfect gun for a cowboy, it uses 20 gauge shells.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
   - type: BallisticAmmoProvider
     whitelist:
       tags:
@@ -193,13 +193,13 @@
   description: A compact semi automatic shotgun used by the police forces of the pre war, chambered in 20 gauge shells.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
     netsync: false
     layers:
     - state: base
@@ -208,7 +208,7 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     size: Large
-    sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
   - type: Wieldable
   - type: GunRequiresWield
   - type: Gun

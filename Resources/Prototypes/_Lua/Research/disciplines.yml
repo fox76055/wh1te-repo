@@ -7,7 +7,7 @@
   name: research-discipline-shiparmory
   color: "#223e52"
   icon:
-    sprite: _Lua/Interface/Misc/research_disciplines.rsi
+    sprite: /_Lua/Interface/Misc/research_disciplines.rsi
     state: shiparmory
   tierPrerequisites:
     1: 0

@@ -5,9 +5,9 @@
 #   abstract: true
 #   components:
 #   - type: Sprite
-#     sprite: _NF/Markers/pacifiedzone.rsi
+#     sprite: /_NF/Markers/pacifiedzone.rsi
 #     layers:
-#       - sprite: Markers/cross.rsi
+#       - sprite: /Markers/cross.rsi
 #         state: pink
 #       - state: pacified_zone
 #   - type: PacifiedZoneGenerator

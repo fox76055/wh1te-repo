@@ -51,7 +51,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Pets/cat.rsi
+    sprite: /_NF/Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: piratecat
@@ -104,7 +104,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Pets/cat.rsi
+    sprite: /_NF/Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: nfsdcat
@@ -169,7 +169,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Pets/cat.rsi
+    sprite: /_NF/Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: crimecat
@@ -199,7 +199,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Pets/cat.rsi
+    sprite: /_NF/Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: slimecat
@@ -247,7 +247,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Pets/cat.rsi
+    sprite: /_NF/Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cavecat
@@ -278,7 +278,7 @@
   description: "???"
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Pets/cat.rsi
+    sprite: /_NF/Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: mistakecat
@@ -338,7 +338,7 @@
         Bloodloss: 1
   - type: Sprite
     drawdepth: Mobs
-    sprite: _NF/Mobs/Pets/cat.rsi
+    sprite: /_NF/Mobs/Pets/cat.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cultcat
@@ -407,7 +407,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
-    icon: { sprite : _NF/Effects/bloodcultprojectiles.rsi, state: hand }
+    icon: { sprite : /_NF/Effects/bloodcultprojectiles.rsi, state: hand }
     priority: 2
     itemIconStyle: BigAction
     useDelay: 300

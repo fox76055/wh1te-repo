@@ -182,7 +182,7 @@
     layers:
     - state: green
     - state: icon-0
-      sprite: Mobs/Animals/hamster.rsi
+      sprite: /Mobs/Animals/hamster.rsi
     - state: ai
   - type: ConditionalSpawner
     prototypes:
@@ -198,7 +198,7 @@
     layers:
     - state: green
     - state: kangaroo
-      sprite: Mobs/Animals/kangaroo.rsi
+      sprite: /Mobs/Animals/kangaroo.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobKangarooWillow
@@ -213,7 +213,7 @@
     layers:
     - state: green
     - state: monkey
-      sprite: Mobs/Animals/monkey.rsi
+      sprite: /Mobs/Animals/monkey.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobMonkeyPunpun
@@ -256,7 +256,7 @@
     layers:
     - state: green
     - state: shiva
-      sprite: Mobs/Pets/shiva.rsi
+      sprite: /Mobs/Pets/shiva.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobSpiderShiva

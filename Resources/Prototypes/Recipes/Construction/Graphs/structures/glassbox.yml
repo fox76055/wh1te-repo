@@ -44,7 +44,7 @@
             - tag: SignalTrigger
               name: construction-graph-tag-signal-trigger
               icon:
-                sprite: Objects/Devices/signaltrigger.rsi
+                sprite: /Objects/Devices/signaltrigger.rsi
                 state: signaltrigger
               doAfter: 0.5
 

@@ -5,7 +5,7 @@
   description: Receives and relays the status of all active suit sensors on the station.
   components:
     - type: Sprite
-      sprite: Structures/Machines/server.rsi
+      sprite: /Structures/Machines/server.rsi
       snapCardinals: true
       layers:
         - state: server-off

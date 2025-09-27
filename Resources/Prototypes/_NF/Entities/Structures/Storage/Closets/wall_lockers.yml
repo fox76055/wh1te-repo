@@ -6,7 +6,7 @@
   suffix: Frontier
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/wall_locker_color.rsi
+    sprite: /_NF/Structures/Storage/wall_locker_color.rsi
   - type: Lock
   - type: LockVisuals
   - type: Appearance
@@ -36,7 +36,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/wall_locker_color.rsi
+    sprite: /_NF/Structures/Storage/wall_locker_color.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -375,7 +375,7 @@
   description: It's a storage unit for emergency breath masks and N2 tanks.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/wall_locker.rsi
+    sprite: /_NF/Structures/Storage/wall_locker.rsi
   - type: Appearance
   - type: EntityStorageVisuals
     stateBaseClosed: n2
@@ -389,7 +389,7 @@
   description: It's a storage unit for emergency breathing equipment for all species.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Storage/wall_locker.rsi
+    sprite: /_NF/Structures/Storage/wall_locker.rsi
   - type: Appearance
   - type: EntityStorageVisuals
     stateBaseClosed: o2n2

@@ -22,7 +22,7 @@
       "Tenor": {66: 0}
       "Baritone": {67: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/saxophone.rsi
+    sprite: /Objects/Fun/Instruments/saxophone.rsi
   - type: Extractable
     grindableSolutionName: sax
   - type: SolutionContainerManager
@@ -40,7 +40,7 @@
   - type: Instrument
     program: 22
   - type: Sprite
-    sprite: Objects/Fun/Instruments/harmonica.rsi
+    sprite: /Objects/Fun/Instruments/harmonica.rsi
   - type: Item
     size: Small
     storedRotation: -90
@@ -60,7 +60,7 @@
   - type: Instrument
     program: 71
   - type: Sprite
-    sprite: Objects/Fun/Instruments/clarinet.rsi
+    sprite: /Objects/Fun/Instruments/clarinet.rsi
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -71,7 +71,7 @@
   - type: Instrument
     program: 73
   - type: Sprite
-    sprite: Objects/Fun/Instruments/flute.rsi
+    sprite: /Objects/Fun/Instruments/flute.rsi
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -82,7 +82,7 @@
   - type: Instrument
     program: 74
   - type: Sprite
-    sprite: Objects/Fun/Instruments/recorder.rsi
+    sprite: /Objects/Fun/Instruments/recorder.rsi
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -93,7 +93,7 @@
   - type: Instrument
     program: 75
   - type: Sprite
-    sprite: Objects/Fun/Instruments/panflute.rsi
+    sprite: /Objects/Fun/Instruments/panflute.rsi
 
 #if you change this to some cringe-ass zelda reference so help me god i will shoot you dead.
 - type: entity
@@ -105,7 +105,7 @@
   - type: Instrument
     program: 79
   - type: Sprite
-    sprite: Objects/Fun/Instruments/ocarina.rsi
+    sprite: /Objects/Fun/Instruments/ocarina.rsi
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -116,6 +116,6 @@
   - type: Instrument
     program: 109
   - type: Sprite
-    sprite: Objects/Fun/Instruments/bagpipes.rsi
+    sprite: /Objects/Fun/Instruments/bagpipes.rsi
   - type: Item
     size: Large

@@ -35,7 +35,7 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
     - type: Sprite
-      sprite: Structures/Doors/Airlocks/Standard/firelock.rsi
+      sprite: /Structures/Doors/Airlocks/Standard/firelock.rsi
       snapCardinals: true
       layers:
         - state: closed
@@ -168,7 +168,7 @@
   components:
     - type: StationAiWhitelist
     - type: Sprite
-      sprite: Structures/Doors/Airlocks/Glass/firelock.rsi
+      sprite: /Structures/Doors/Airlocks/Glass/firelock.rsi
     - type: Occluder
       enabled: false
     - type: Fixtures
@@ -194,7 +194,7 @@
   components:
     - type: StationAiWhitelist
     - type: Sprite
-      sprite: Structures/Doors/edge_door_hazard.rsi
+      sprite: /Structures/Doors/edge_door_hazard.rsi
       snapCardinals: false
     - type: Airtight
       airBlocked: false

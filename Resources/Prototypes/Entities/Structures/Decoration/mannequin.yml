@@ -6,12 +6,12 @@
   components:
   - type: Appearance
   - type: Sprite
-    sprite: Structures/Decoration/mannequin.rsi
+    sprite: /Structures/Decoration/mannequin.rsi
     state: mannequin
     noRot: true
     layers:
     - map: [ "mannequin" ]
-      sprite: Structures/Decoration/mannequin.rsi
+      sprite: /Structures/Decoration/mannequin.rsi
       state: mannequin
     - map: [ "jumpsuit" ]
     - map: [ "outerClothing" ]

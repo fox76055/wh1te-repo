@@ -9,7 +9,7 @@
   - type: StationAiWhitelist
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/highsec/highsec.rsi
+    sprite: /Structures/Doors/Airlocks/highsec/highsec.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -28,12 +28,12 @@
     - state: panel_open
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - state: electrified_ai
-      sprite: Interface/Misc/ai_hud.rsi
+      sprite: /Interface/Misc/ai_hud.rsi
       shader: unshaded
       visible: false
       map: ["enum.ElectrifiedLayers.HUD"]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: /Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: ["enum.ElectrifiedLayers.Sparks"]

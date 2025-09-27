@@ -6,7 +6,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: /Objects/Specific/Mech/mecha.rsi
         state: ripley
   - type: ConditionalSpawner
     prototypes:
@@ -20,7 +20,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: /Objects/Specific/Mech/mecha.rsi
         state: honker
   - type: ConditionalSpawner
     prototypes:

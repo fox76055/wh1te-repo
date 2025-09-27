@@ -10,7 +10,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: captain
     - type: RandomHumanoidSpawner
       settings: VisitorCaptain
@@ -24,7 +24,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ce
     - type: RandomHumanoidSpawner
       settings: VisitorCE
@@ -38,7 +38,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: cmo
     - type: RandomHumanoidSpawner
       settings: VisitorCMO
@@ -52,7 +52,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: hop
     - type: RandomHumanoidSpawner
       settings: VisitorHOP
@@ -66,7 +66,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: hos
     - type: RandomHumanoidSpawner
       settings: VisitorHOS
@@ -80,7 +80,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: rd
     - type: RandomHumanoidSpawner
       settings: VisitorResearchDirector
@@ -94,7 +94,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: qm
     - type: RandomHumanoidSpawner
       settings: VisitorQM
@@ -110,7 +110,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: security_cadet
     - type: RandomHumanoidSpawner
       settings: VisitorSecurityCadet
@@ -124,7 +124,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: security_officer
     - type: RandomHumanoidSpawner
       settings: VisitorSecurityOfficer
@@ -138,7 +138,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: detective
     - type: RandomHumanoidSpawner
       settings: VisitorDetective
@@ -152,7 +152,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: warden
     - type: RandomHumanoidSpawner
       settings: VisitorWarden
@@ -168,7 +168,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: cargo_tech
     - type: RandomHumanoidSpawner
       settings: VisitorCargoTechnician
@@ -179,7 +179,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: salvagespecialist
     - type: RandomHumanoidSpawner
       settings: VisitorSalvageSpecialist
@@ -192,7 +192,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: atmospherics
     - type: RandomHumanoidSpawner
       settings: VisitorAtmosTech
@@ -203,7 +203,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: technicalassistant
     - type: RandomHumanoidSpawner
       settings: VisitorTechnicalAssistant
@@ -214,7 +214,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: engineer
     - type: RandomHumanoidSpawner
       settings: VisitorEngineer
@@ -227,7 +227,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: medicalintern
     - type: RandomHumanoidSpawner
       settings: VisitorMedicalIntern
@@ -238,7 +238,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: doctor
     - type: RandomHumanoidSpawner
       settings: VisitorMedicalDoctor
@@ -249,7 +249,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: paramedic
     - type: RandomHumanoidSpawner
       settings: VisitorParamedic
@@ -260,7 +260,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: psychologist
     - type: RandomHumanoidSpawner
       settings: VisitorPsychologist
@@ -271,7 +271,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: chemist
     - type: RandomHumanoidSpawner
       settings: VisitorChemist
@@ -282,7 +282,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: virologist
     - type: RandomHumanoidSpawner
       settings: VisitorVirologist
@@ -293,7 +293,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: geneticist
     - type: RandomHumanoidSpawner
       settings: VisitorGeneticist
@@ -304,7 +304,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: seniorphysician
     - type: RandomHumanoidSpawner
       settings: VisitorDentist
@@ -317,7 +317,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: researchassistant
     - type: RandomHumanoidSpawner
       settings: VisitorResearchAssistant
@@ -328,7 +328,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: scientist
     - type: RandomHumanoidSpawner
       settings: VisitorScientist
@@ -341,7 +341,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: bartender
     - type: RandomHumanoidSpawner
       settings: VisitorBartender
@@ -352,7 +352,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: botanist
     - type: RandomHumanoidSpawner
       settings: VisitorBotanist
@@ -363,7 +363,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: boxer
     - type: RandomHumanoidSpawner
       settings: VisitorBoxer
@@ -374,7 +374,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: chaplain
     - type: RandomHumanoidSpawner
       settings: VisitorChaplain
@@ -385,7 +385,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: chef
     - type: RandomHumanoidSpawner
       settings: VisitorChef
@@ -396,7 +396,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: clown
     - type: RandomHumanoidSpawner
       settings: VisitorClown
@@ -407,7 +407,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: janitor
     - type: RandomHumanoidSpawner
       settings: VisitorJanitor
@@ -418,7 +418,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: lawyer
     - type: RandomHumanoidSpawner
       settings: VisitorLawyer
@@ -429,7 +429,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: lawyer
     - type: RandomHumanoidSpawner
       settings: VisitorLawyerCentcom
@@ -440,7 +440,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: librarian
     - type: RandomHumanoidSpawner
       settings: VisitorLibrarian
@@ -451,7 +451,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: musician
     - type: RandomHumanoidSpawner
       settings: VisitorMusician
@@ -462,7 +462,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: musician
     - type: RandomHumanoidSpawner
       settings: VisitorMusicianFancy
@@ -473,7 +473,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: musician
     - type: RandomHumanoidSpawner
       settings: VisitorMusicianRelaxed
@@ -484,7 +484,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: mime
     - type: RandomHumanoidSpawner
       settings: VisitorMime
@@ -495,7 +495,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: reporter
     - type: RandomHumanoidSpawner
       settings: VisitorReporter
@@ -506,7 +506,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: serviceworker
     - type: RandomHumanoidSpawner
       settings: VisitorServiceWorker
@@ -517,7 +517,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: zookeeper
     - type: RandomHumanoidSpawner
       settings: VisitorZookeeper
@@ -545,7 +545,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Mobs/Species/Skeleton/parts.rsi
+      sprite: /Mobs/Species/Skeleton/parts.rsi
       state: skull_icon
     - type: RandomHumanoidSpawner
       settings: ChallengeVictimCaptain
@@ -670,7 +670,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: /Structures/Decoration/banner.rsi
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieSoldierTeamLeader
@@ -681,7 +681,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: /Structures/Decoration/banner.rsi
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieSoldier
@@ -692,7 +692,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: /Structures/Decoration/banner.rsi
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieVisitor
@@ -704,7 +704,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: /Structures/Decoration/banner.rsi
       state: banner-red
     - type: RandomHumanoidSpawner
       settings: PirateScooner
@@ -716,7 +716,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: /Structures/Decoration/banner.rsi
       state: banner-red
     - type: RandomHumanoidSpawner
       settings: PirateCaptainScooner
@@ -729,7 +729,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: /Structures/Decoration/banner.rsi
       state: banner-yellow
     - type: RandomHumanoidSpawner
       settings: VisitorBlackmarketeer
@@ -741,7 +741,7 @@
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: /Structures/Decoration/banner.rsi
       state: banner-yellow
     - type: RandomHumanoidSpawner
       settings: Cossack

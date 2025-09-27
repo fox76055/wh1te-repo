@@ -5,7 +5,7 @@
   parent: SinkEmpty
   components:
   - type: Sprite
-    sprite: _NF/Structures/Furniture/icebox.rsi
+    sprite: /_NF/Structures/Furniture/icebox.rsi
     layers:
       - state: icebox
       - map: [ "enum.SolutionContainerLayers.Fill" ]

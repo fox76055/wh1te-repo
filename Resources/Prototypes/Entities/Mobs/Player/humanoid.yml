@@ -138,7 +138,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
+    - sprite: /Clothing/OuterClothing/Hardsuits/deathsquad.rsi
       state: icon
   - type: ConditionalSpawner
     prototypes:
@@ -184,7 +184,7 @@
   name: ERT leader amber
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ertleadereva
     - type: RandomMetadata
       nameSegments:
@@ -233,7 +233,7 @@
   name: ERT leader red
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ertleadereva
     - type: RandomHumanoidSpawner
       settings: ERTLeaderRedPreset
@@ -279,7 +279,7 @@
   name: ERT leader gamma
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ertleadereva
     - type: RandomHumanoidSpawner
       settings: ERTLeaderGammaPreset
@@ -325,7 +325,7 @@
   name: CBURN leader
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: cburn
     - type: RandomHumanoidSpawner
       settings: CBURNLeaderPreset
@@ -371,7 +371,7 @@
   name: CBURN Sierra leader
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: cburn
     - type: RandomHumanoidSpawner
       settings: CBURNSierraLeaderPreset
@@ -418,7 +418,7 @@
   name: ERT security amber
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ertsecurity
     - type: RandomMetadata
       nameSegments:
@@ -538,7 +538,7 @@
   name: ERT medic amber
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ertmedical
     - type: RandomMetadata
       nameSegments:
@@ -658,7 +658,7 @@
   name: ERT janitor amber
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ertjanitor
     - type: RandomMetadata
       nameSegments:
@@ -769,7 +769,7 @@
   name: ERT engineer amber
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: ertengineer
     - type: RandomMetadata
       nameSegments:
@@ -888,7 +888,7 @@
   name: CBURN Agent
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: cburn
     - type: RandomMetadata
       nameSegments:
@@ -935,7 +935,7 @@
   name: CBURN Agent
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: cburn
     - type: RandomMetadata
       nameSegments:
@@ -980,7 +980,7 @@
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: centcom
     - type: RandomHumanoidSpawner
       settings: CentcomOfficial
@@ -1008,7 +1008,7 @@
   id: RandomHumanoidSpawnerCentcomAdministrator
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: centcom
     - type: RandomHumanoidSpawner
       settings: CentcomAdministrator
@@ -1024,7 +1024,7 @@
   id: RandomHumanoidSpawnerCentcomOperator
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: centcom
     - type: RandomHumanoidSpawner
       settings: CentcomOperator
@@ -1040,7 +1040,7 @@
   id: RandomHumanoidSpawnerCentcomSpecialOperationsOfficer
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: centcom
     - type: RandomHumanoidSpawner
       settings: CentcomSpecialOperationsOfficer
@@ -1059,7 +1059,7 @@
   id: RandomHumanoidSpawnerCentcomOfficer
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: centcom
     - type: RandomHumanoidSpawner
       settings: CentcomOfficer
@@ -1078,7 +1078,7 @@
   name: syndicate agent
   components:
     - type: Sprite
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: /Mobs/Species/Human/parts.rsi
       state: full
     - type: RandomMetadata
       nameSegments:
@@ -1098,7 +1098,7 @@
   name: Nuclear Operative
   components:
     - type: Sprite
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: /Mobs/Species/Human/parts.rsi
       state: full
     - type: RandomHumanoidSpawner
       settings: NukeOp
@@ -1114,7 +1114,7 @@
   suffix: spawns a cluwne
   components:
     - type: Sprite
-      sprite: Markers/jobs.rsi
+      sprite: /Markers/jobs.rsi
       state: cluwne
     - type: RandomHumanoidSpawner
       settings: Cluwne

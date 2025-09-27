@@ -14,7 +14,7 @@
     - 3,0,6,3
     - 8,0,9,3
   - type: Sprite
-    sprite: _Lua/Clothing/Back/bag.rsi
+    sprite: /_Lua/Clothing/Back/bag.rsi
 
 - type: entity
   name: сумка для растений синдиката
@@ -25,7 +25,7 @@
   - type: Item
     storedRotation: -90
   - type: Sprite
-    sprite: _Lua/Clothing/Back/plant_bag.rsi
+    sprite: /_Lua/Clothing/Back/plant_bag.rsi
     state: icon
   - type: Clothing
     quickEquip: false
@@ -51,6 +51,6 @@
   description: Толстый фартук, идеально подходящий для защиты вашей нежной плоти от пятен, грязи и крови.
   components:
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/apron_botanist.rsi 
+    sprite: /_Lua/Clothing/OuterClothing/apron_botanist.rsi 
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/apron_botanist.rsi 
+    sprite: /_Lua/Clothing/OuterClothing/apron_botanist.rsi 

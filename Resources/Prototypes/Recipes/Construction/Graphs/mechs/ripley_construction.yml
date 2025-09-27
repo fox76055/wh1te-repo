@@ -36,7 +36,7 @@
       - tag: RipleyCentralControlModule
         name: construction-graph-tag-ripley-central-control-module
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "/Objects/Misc/module.rsi"
           state: "mainboard"
         completed:
         - !type:VisualizerDataInt
@@ -53,7 +53,7 @@
       - tag: RipleyPeripheralsControlModule
         name: construction-graph-tag-ripley-peripherals-control-module
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "/Objects/Misc/module.rsi"
           state: id_mod
         completed:
         - !type:VisualizerDataInt
@@ -74,7 +74,7 @@
         name: construction-graph-component-power-cell
         store: battery-container
         icon:
-          sprite: Objects/Power/power_cells.rsi
+          sprite: /Objects/Power/power_cells.rsi
           state: small
         completed:
         - !type:VisualizerDataInt

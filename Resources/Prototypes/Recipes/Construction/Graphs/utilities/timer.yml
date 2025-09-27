@@ -39,7 +39,7 @@
           store: board
           name: construction-graph-tag-signal-timer-electronics
           icon:
-            sprite: "Objects/Misc/module.rsi"
+            sprite: "/Objects/Misc/module.rsi"
             state: "charger_APC"
           doAfter: 1
       - to: screenElectronics
@@ -48,7 +48,7 @@
           store: board
           name: construction-graph-tag-screen-timer-electronics
           icon:
-            sprite: "Objects/Misc/module.rsi"
+            sprite: "/Objects/Misc/module.rsi"
             state: "charger_APC"
           doAfter: 1
       - to: brigElectronics
@@ -57,7 +57,7 @@
           store: board
           name: construction-graph-tag-brig-timer-electronics
           icon:
-            sprite: "Objects/Misc/module.rsi"
+            sprite: "/Objects/Misc/module.rsi"
             state: "charger_APC"
           doAfter: 1
       - to: frame

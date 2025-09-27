@@ -10,7 +10,7 @@
   - type: Sprite
     netsync: false
     noRot: true
-    sprite: _Lua/Structures/Machines/atm/typan_atm.rsi
+    sprite: /_Lua/Structures/Machines/atm/typan_atm.rsi
     layers:
     - map: ["computerLayerBody"]
       state: icon
@@ -27,7 +27,7 @@
   - type: Sprite
     netsync: false
     noRot: true
-    sprite: _Lua/Structures/Machines/computers.rsi
+    sprite: /_Lua/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer

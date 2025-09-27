@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: EngineAmeShielding
   icon:
-    sprite: Objects/Power/AME/ame_jar.rsi
+    sprite: /Objects/Power/AME/ame_jar.rsi
     state: jar
   product: CrateEngineeringAMEShielding
   cost: 15000 # Frontier - Up the price
@@ -12,7 +12,7 @@
   id: EngineAmeJar
   abstract: true # Frontier
   icon:
-    sprite: Objects/Power/AME/ame_jar.rsi
+    sprite: /Objects/Power/AME/ame_jar.rsi
     state: jar
   product: CrateEngineeringAMEJar
   cost: 10000 # Frontier - Up the price
@@ -22,7 +22,7 @@
 - type: cargoProduct
   id: EngineAmeControl
   icon:
-    sprite: Structures/Power/Generation/ame.rsi
+    sprite: /Structures/Power/Generation/ame.rsi
     state: control
   product: CrateEngineeringAMEControl
   cost: 6000 # Frontier - Up the price
@@ -33,7 +33,7 @@
   id: EngineSingularityGenerator
   abstract: true # Frontier
   icon:
-    sprite: Structures/Power/Generation/Singularity/generator.rsi
+    sprite: /Structures/Power/Generation/Singularity/generator.rsi
     state: icon
   product: CrateEngineeringSingularityGenerator
   cost: 4000
@@ -44,7 +44,7 @@
   id: EngineSingularityContainment
   abstract: true # Frontier
   icon:
-    sprite: Structures/Power/Generation/Singularity/containment.rsi
+    sprite: /Structures/Power/Generation/Singularity/containment.rsi
     state: icon
   product: CrateEngineeringSingularityContainment
   cost: 1000
@@ -55,7 +55,7 @@
   id: EngineSingularityEmitter
   abstract: true # Frontier
   icon:
-    sprite: Structures/Power/Generation/Singularity/emitter.rsi
+    sprite: /Structures/Power/Generation/Singularity/emitter.rsi
     state: emitter2
   product: CrateEngineeringSingularityEmitter
   cost: 1500
@@ -66,7 +66,7 @@
   id: EngineSingularityCollector
   abstract: true # Frontier
   icon:
-    sprite: Structures/Power/Generation/Singularity/collector.rsi
+    sprite: /Structures/Power/Generation/Singularity/collector.rsi
     state: ca_on
   product: CrateEngineeringSingularityCollector
   cost: 1000
@@ -77,7 +77,7 @@
   id: EngineParticleAccelerator
   abstract: true # Frontier
   icon:
-    sprite: Structures/Power/Generation/PA/control_box.rsi
+    sprite: /Structures/Power/Generation/PA/control_box.rsi
     state: completed
   product: CrateEngineeringParticleAccelerator
   cost: 2000
@@ -87,7 +87,7 @@
 - type: cargoProduct
   id: EngineSolar
   icon:
-    sprite: Objects/Devices/flatpack.rsi
+    sprite: /Objects/Devices/flatpack.rsi
     state: solar-assembly-part
   product: CrateEngineeringSolar
   cost: 1500 # Frontier: 525<1500
@@ -98,7 +98,7 @@
   id: EngineTeslaGenerator
   abstract: true # Frontier
   icon:
-    sprite: Structures/Power/Generation/Tesla/generator.rsi
+    sprite: /Structures/Power/Generation/Tesla/generator.rsi
     state: icon
   product: CrateEngineeringTeslaGenerator
   cost: 4000
@@ -109,7 +109,7 @@
   id: EngineTeslaCoil
   abstract: true # Frontier
   icon:
-    sprite: Structures/Power/Generation/Tesla/coil.rsi
+    sprite: /Structures/Power/Generation/Tesla/coil.rsi
     state: coil
   product: CrateEngineeringTeslaCoil
   cost: 1200
@@ -119,7 +119,7 @@
 - type: cargoProduct
   id: EngineTeslaGroundingRod
   icon:
-    sprite: Structures/Power/Generation/Tesla/coil.rsi
+    sprite: /Structures/Power/Generation/Tesla/coil.rsi
     state: grounding_rod
   product: CrateEngineeringTeslaGroundingRod
   cost: 1000 # Frontier - set to 1000, original price 400

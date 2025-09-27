@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Structures/Wallmounts/paintings_directional.rsi
+    sprite: /_NF/Structures/Wallmounts/paintings_directional.rsi
 
 - type: entity
   parent: PaintingDirectionalBase

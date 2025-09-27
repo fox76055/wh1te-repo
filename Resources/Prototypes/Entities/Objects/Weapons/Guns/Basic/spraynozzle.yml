@@ -8,10 +8,10 @@
     tags:
     - SprayNozzle
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/spraynozzle.rsi
+    sprite: /Objects/Weapons/Guns/Basic/spraynozzle.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Guns/Basic/spraynozzle.rsi
+    sprite: /Objects/Weapons/Guns/Basic/spraynozzle.rsi
     size: Normal
   - type: Gun
     cameraRecoilScalar: 0 #no recoil

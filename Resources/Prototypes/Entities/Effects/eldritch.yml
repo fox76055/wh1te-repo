@@ -13,7 +13,7 @@
   - type: Transform
     noRot: true
   - type: Sprite
-    sprite: Objects/Magic/Eldritch/eldritch_actions.rsi
+    sprite: /Objects/Magic/Eldritch/eldritch_actions.rsi
     drawdepth: Effects
     noRot: true
     layers:

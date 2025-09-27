@@ -6,13 +6,13 @@
   components:
     - type: WeaponCaseInsertable # Frontier
     - type: Sprite
-      sprite: Objects/Weapons/Bombs/hot_potato.rsi
+      sprite: /Objects/Weapons/Bombs/hot_potato.rsi
       state: icon
       layers:
       - state: icon
         map: ["base"]
     - type: Item
-      sprite: Objects/Specific/Hydroponics/potato.rsi
+      sprite: /Objects/Specific/Hydroponics/potato.rsi
       heldPrefix: produce
       size: Small
     - type: AmbientSound
@@ -61,7 +61,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Effects
-    sprite: Effects/chemsmoke.rsi
+    sprite: /Effects/chemsmoke.rsi
     state: chemsmoke
     scale: "0.15, 0.15"
   - type: EffectVisuals
@@ -78,7 +78,7 @@
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: /Objects/Specific/Hydroponics/banana.rsi
     layers:
     - state: peel
     - state: primed
@@ -114,7 +114,7 @@
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: /Objects/Specific/Hydroponics/banana.rsi
     state: produce
   - type: SpawnItemsOnUse
     items:

@@ -5,7 +5,7 @@
   speciesRestriction: [Avali]
   forcedColoring: true
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: tail
 
 - type: marking
@@ -14,7 +14,7 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: tail_feathers
 
 - type: marking
@@ -23,7 +23,7 @@
   markingCategory: Arms
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: l_hand_feathers
 
 - type: marking
@@ -32,7 +32,7 @@
   markingCategory: Legs
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: l_foot_feathers
 
 - type: marking
@@ -41,7 +41,7 @@
   markingCategory: Arms
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: r_hand_feathers
 
 - type: marking
@@ -50,7 +50,7 @@
   markingCategory: Legs
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: r_foot_feathers
 
 - type: marking
@@ -59,7 +59,7 @@
   markingCategory: Chest
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: fluff
 
 - type: marking
@@ -68,7 +68,7 @@
   markingCategory: Head
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: fluff_head
 
 - type: marking
@@ -77,5 +77,5 @@
   markingCategory: Head
   speciesRestriction: [Avali]
   sprites:
-  - sprite: _Lua/Races/CustomAvali/Avali/resomi_parts.rsi
+  - sprite: /_Lua/Races/CustomAvali/Avali/resomi_parts.rsi
     state: fluff_head_up

@@ -5,9 +5,9 @@
   description: A jumpsuit produced by Arcadia Industries. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/arcadia.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/arcadia.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/arcadia.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/arcadia.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,9 +16,9 @@
   description: A nice and tidy uniform.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
+    sprite: /Clothing/Uniforms/Jumpsuit/bartender.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
+    sprite: /Clothing/Uniforms/Jumpsuit/bartender.rsi
 
 - type: entity
   parent: ClothingUniformJumpsuitDetective
@@ -39,9 +39,9 @@
   description: Knock-knock. Would you care to have a word about our Lord-n-Savior Nar-Sss.. Err.. Space Jeebus?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -50,9 +50,9 @@
   description: A specialized uniform for Frontier Outpost's station guard. Crisp and official to let dock loiterers know you mean business.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/security_guard.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/security_guard.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/security_guard.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/security_guard.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -61,9 +61,9 @@
   description: You too think there should be a pocket for your fav smokes?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/pilot.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/pilot.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/pilot.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/pilot.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -72,9 +72,9 @@
   description: A special suit made for the elite mail carriers under CentCom.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/ert_mailcarrier.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/ert_mailcarrier.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/ert_mailcarrier.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/ert_mailcarrier.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -83,9 +83,9 @@
   description: A long sleeved jumpsuit produced for deputy sheriffs. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_jump.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_jump.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -94,9 +94,9 @@
   description: A short sleeved jumpsuit produced for deputy sheriffs. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump_short.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_jump_short.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump_short.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_jump_short.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -105,9 +105,9 @@
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_black.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_black.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_black.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_black.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -116,9 +116,9 @@
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_gray.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_gray.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_gray.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_gray.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -127,9 +127,9 @@
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_camo.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_camo.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_camo.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_camo.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -138,9 +138,9 @@
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_cream.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_cream.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_cream.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_cream.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -149,9 +149,9 @@
   description: A starched and pressed suit for the public affairs liaison.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/public_affairs.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/public_affairs.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/public_affairs.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/public_affairs.rsi
 
 # Syndicate Jupsuits with sensors off
 - type: entity
@@ -211,9 +211,9 @@
   description: A specialized uniform for a private security guard. For the discerning private contractor in need of a professional look.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/private_security.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/private_security.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/private_security.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/private_security.rsi
 
 - type: entity
   parent: ClothingUniformJumpsuitHoP
@@ -222,9 +222,9 @@
   description: A top of the line outfit for Frontier Outpost's station representative. No expense was spared in the tailoring, every stitch is a masterpiece. The fact this suit was even issued shows the trust Central Command is placing in their representative on this outpost.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/sr.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/sr.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/sr.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/sr.rsi
 
 # Upstream Removed
 - type: entity
@@ -234,9 +234,9 @@
   description: Red lawsuit for those that conduct business on a galactic scale.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyred.rsi
+    sprite: /Clothing/Uniforms/Jumpsuit/lawyergalaxyred.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyred.rsi
+    sprite: /Clothing/Uniforms/Jumpsuit/lawyergalaxyred.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -245,9 +245,9 @@
   description: Blue lawsuit or those that conduct business on a galactic scale.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyblue.rsi
+    sprite: /Clothing/Uniforms/Jumpsuit/lawyergalaxyblue.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyblue.rsi
+    sprite: /Clothing/Uniforms/Jumpsuit/lawyergalaxyblue.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -256,9 +256,9 @@
   description: A raggedy but comfortable uniform to plunder the sector.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/pirate_slops.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/pirate_slops.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/pirate_slops.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/pirate_slops.rsi
   - type: SuitSensor
     randomMode: false
     mode: SensorOff
@@ -271,9 +271,9 @@
   description: A rather suspicious looking set of pirate clothes.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/pirate_luffy.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/pirate_luffy.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Uniforms/Jumpsuit/pirate_luffy.rsi
+    sprite: /_NF/Clothing/Uniforms/Jumpsuit/pirate_luffy.rsi
   - type: SuitSensor
     randomMode: false
     mode: SensorOff

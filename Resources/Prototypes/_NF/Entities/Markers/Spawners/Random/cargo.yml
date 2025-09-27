@@ -6,7 +6,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Structures/Storage/Crates/generic.rsi
+        - sprite: /Structures/Storage/Crates/generic.rsi
           state: icon
     - type: RandomSpawner
       prototypes:
@@ -26,7 +26,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Structures/Storage/Crates/generic.rsi
+        - sprite: /Structures/Storage/Crates/generic.rsi
           state: icon
     - type: RandomSpawner
       prototypes:
@@ -122,7 +122,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Structures/Storage/Crates/generic.rsi
+        - sprite: /Structures/Storage/Crates/generic.rsi
           state: icon
     - type: RandomSpawner
       prototypes:

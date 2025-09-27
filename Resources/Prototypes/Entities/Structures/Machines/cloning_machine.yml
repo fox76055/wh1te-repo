@@ -15,7 +15,7 @@
     ports:
       - CloningPodReceiver
   - type: Sprite
-    sprite: Structures/Machines/cloning.rsi
+    sprite: /Structures/Machines/cloning.rsi
     snapCardinals: true
     layers:
       - state: pod_0

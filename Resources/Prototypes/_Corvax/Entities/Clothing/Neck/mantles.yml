@@ -5,6 +5,6 @@
   description: Extraordinary decorative drape over the shoulders.
   components:
     - type: Sprite
-      sprite: Corvax/Clothing/Neck/Mantles/ERTmantle.rsi
+      sprite: /Corvax/Clothing/Neck/Mantles/ERTmantle.rsi
     - type: Clothing
-      sprite: Corvax/Clothing/Neck/Mantles/ERTmantle.rsi
+      sprite: /Corvax/Clothing/Neck/Mantles/ERTmantle.rsi

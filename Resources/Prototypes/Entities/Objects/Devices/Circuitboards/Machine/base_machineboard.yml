@@ -7,7 +7,7 @@
   components:
     - type: MachineBoard
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: /Objects/Misc/module.rsi
       state: generic
     - type: Item
       storedRotation: -90

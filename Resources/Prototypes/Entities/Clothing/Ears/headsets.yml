@@ -22,7 +22,7 @@
   - type: Clothing
     slots:
     - ears
-    sprite: Clothing/Ears/Headsets/base.rsi
+    sprite: /Clothing/Ears/Headsets/base.rsi
   - type: GuideHelp
     guides:
     - Radio
@@ -33,7 +33,7 @@
   name: passenger headset
   components:
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/base.rsi
+    sprite: /Clothing/Ears/Headsets/base.rsi
 
 - type: entity
   parent: ClothingHeadset
@@ -47,9 +47,9 @@
       - EncryptionKeyCargo
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/cargo.rsi
+    sprite: /Clothing/Ears/Headsets/cargo.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/cargo.rsi
+    sprite: /Clothing/Ears/Headsets/cargo.rsi
   - type: Headset
     color: "#a46106"
 
@@ -60,9 +60,9 @@
   description: Headset used by shaft miners.
   components:
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/mining.rsi
+    sprite: /Clothing/Ears/Headsets/mining.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/mining.rsi
+    sprite: /Clothing/Ears/Headsets/mining.rsi
 
 - type: entity
   parent: ClothingHeadsetCargo # Frontier: remove BaseCommandContraband
@@ -91,9 +91,9 @@
       - EncryptionKeyCentCom
       - EncryptionKeyStationMaster
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: /Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: /Clothing/Ears/Headsets/centcom.rsi
   - type: Headset
     color: "#2681a5"
 
@@ -108,9 +108,9 @@
       key_slots:
       - EncryptionKeyStationMaster
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/command.rsi
+    sprite: /Clothing/Ears/Headsets/command.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/command.rsi
+    sprite: /Clothing/Ears/Headsets/command.rsi
   - type: Headset
     color: "#fcdf03"
 
@@ -126,9 +126,9 @@
       - EncryptionKeyEngineering
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: /Clothing/Ears/Headsets/engineering.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: /Clothing/Ears/Headsets/engineering.rsi
   - type: Headset
     color: "#f2ac26"
 
@@ -157,9 +157,9 @@
       - EncryptionKeyMedical
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/medical.rsi
+    sprite: /Clothing/Ears/Headsets/medical.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/medical.rsi
+    sprite: /Clothing/Ears/Headsets/medical.rsi
   - type: Headset
     color: "#57b8f0"
 
@@ -188,9 +188,9 @@
       - EncryptionKeyScience
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/science.rsi
+    sprite: /Clothing/Ears/Headsets/science.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/science.rsi
+    sprite: /Clothing/Ears/Headsets/science.rsi
   - type: Headset
     color: "#c68cfa"
 
@@ -206,9 +206,9 @@
       - EncryptionKeyMedicalScience
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/medicalscience.rsi
+    sprite: /Clothing/Ears/Headsets/medicalscience.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/medicalscience.rsi
+    sprite: /Clothing/Ears/Headsets/medicalscience.rsi
 
 - type: entity
   parent: ClothingHeadsetScience
@@ -222,9 +222,9 @@
       - EncryptionKeyRobo
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/robotics.rsi
+    sprite: /Clothing/Ears/Headsets/robotics.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/robotics.rsi
+    sprite: /Clothing/Ears/Headsets/robotics.rsi
 
 - type: entity
   parent: ClothingHeadsetScience # Frontier: removed BaseCommandContraband
@@ -251,9 +251,9 @@
       - EncryptionKeySecurity
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/security.rsi
+    sprite: /Clothing/Ears/Headsets/security.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/security.rsi
+    sprite: /Clothing/Ears/Headsets/security.rsi
   - type: Headset
     color: "#1563bd"
 
@@ -270,9 +270,9 @@
       - EncryptionKeySecurity
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/brigmedic.rsi
+    sprite: /Clothing/Ears/Headsets/brigmedic.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/brigmedic.rsi
+    sprite: /Clothing/Ears/Headsets/brigmedic.rsi
   - type: Headset
     color: "#1563bd"
 
@@ -288,9 +288,9 @@
       - EncryptionKeyService
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/service.rsi
+    sprite: /Clothing/Ears/Headsets/service.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/service.rsi
+    sprite: /Clothing/Ears/Headsets/service.rsi
   - type: Headset
     color: "#6ca729"
 
@@ -305,9 +305,9 @@
         key_slots:
         - EncryptionKeyFreelance
     - type: Sprite
-      sprite: Clothing/Ears/Headsets/freelance.rsi
+      sprite: /Clothing/Ears/Headsets/freelance.rsi
     - type: Clothing
-      sprite: Clothing/Ears/Headsets/freelance.rsi
+      sprite: /Clothing/Ears/Headsets/freelance.rsi
     - type: Headset
       color: "#f6ce64"
 
@@ -323,8 +323,8 @@
         # - EncryptionKeyStationMaster # Frontier
         - EncryptionKeyCommon # Frontier
     - type: Sprite
-      sprite: Clothing/Ears/Headsets/wizard.rsi
+      sprite: /Clothing/Ears/Headsets/wizard.rsi
     - type: Clothing
-      sprite: Clothing/Ears/Headsets/wizard.rsi
+      sprite: /Clothing/Ears/Headsets/wizard.rsi
     - type: Headset
       color: "#ae21bb"

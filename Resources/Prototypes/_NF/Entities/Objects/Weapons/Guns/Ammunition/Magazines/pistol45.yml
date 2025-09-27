@@ -16,7 +16,7 @@
         - NFCartridgePistol45
     capacity: 8
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
     layers:
     - state: base
       color: "#666666"
@@ -24,7 +24,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag
@@ -49,7 +49,7 @@
         - NFCartridgePistol45
     capacity: 25
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol45/smg_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol45/smg_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -60,7 +60,7 @@
     steps: 6
     zeroVisible: false
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol45/smg_mag.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol45/smg_mag.rsi
     inhandVisuals:
       left:
       - state: inhand-left-mag

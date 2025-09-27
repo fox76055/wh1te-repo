@@ -7,7 +7,7 @@
     layers:
       - state: green
       - state: icon
-        sprite: _NF/Mobs/ArcadiaIndustries/arcind_shredder.rsi
+        sprite: /_NF/Mobs/ArcadiaIndustries/arcind_shredder.rsi
   - type: ConditionalSpawner
     prototypes:
       - MobArcIndShredder
@@ -21,7 +21,7 @@
     layers:
       - state: green
       - state: icon
-        sprite: _NF/Mobs/ArcadiaIndustries/arcind_guardians.rsi
+        sprite: /_NF/Mobs/ArcadiaIndustries/arcind_guardians.rsi
   - type: ConditionalSpawner
     prototypes:
       - MobArcIndHoloparasiteGuardian
@@ -35,7 +35,7 @@
     layers:
       - state: green
       - state: icon
-        sprite: _NF/Mobs/ArcadiaIndustries/arcind_blasters.rsi
+        sprite: /_NF/Mobs/ArcadiaIndustries/arcind_blasters.rsi
   - type: ConditionalSpawner
     prototypes:
       - MobArcIndBlaster

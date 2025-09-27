@@ -4,7 +4,7 @@
   name: palm tree
   components:
   - type: Sprite
-    sprite: ADT/Objects/Decoration/palm_tree.rsi
+    sprite: /ADT/Objects/Decoration/palm_tree.rsi
     state: palm1
 
 - type: entity
@@ -13,5 +13,5 @@
   name: palm tree
   components:
   - type: Sprite
-    sprite: ADT/Objects/Decoration/palm_tree.rsi
+    sprite: /ADT/Objects/Decoration/palm_tree.rsi
     state: palm2

@@ -7,10 +7,10 @@
   id: ClothingShoesBootsMagFSF
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Shoes/Boots/magboots_fsf.rsi
+    sprite: /_Lua/Clothing/Shoes/Boots/magboots_fsf.rsi
     state: icon
   - type: Clothing
-    sprite: _Lua/Clothing/Shoes/Boots/magboots_fsf.rsi
+    sprite: /_Lua/Clothing/Shoes/Boots/magboots_fsf.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -25,10 +25,10 @@
   id: ADTClothingShoesBootsMagERT
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Shoes/Boots/magboots-ert.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/magboots-ert.rsi
     state: icon
   - type: Clothing
-    sprite: ADT/Clothing/Shoes/Boots/magboots-ert.rsi
+    sprite: /ADT/Clothing/Shoes/Boots/magboots-ert.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1

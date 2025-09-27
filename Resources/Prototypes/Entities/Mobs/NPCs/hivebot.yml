@@ -7,7 +7,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Aliens/hivebot.rsi
+    sprite: /Mobs/Aliens/hivebot.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: basic_attack

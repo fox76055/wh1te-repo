@@ -5,7 +5,7 @@
   description: An unusual variation of the PDA that draws energy from redspace crystals inside.
   components:
     - type: Sprite
-      sprite: Backmen/Objects/Devices/pda.rsi
+      sprite: /Backmen/Objects/Devices/pda.rsi
       layers:
       - map: [ "enum.PdaVisualLayers.Base" ]
         state: "pda-orden"
@@ -33,5 +33,5 @@
     - type: PdaBorderColor
       borderColor: "#8b0000"
     - type: Icon
-      sprite: Backmen/Objects/Devices/pda.rsi
+      sprite: /Backmen/Objects/Devices/pda.rsi
       state: pda-orden

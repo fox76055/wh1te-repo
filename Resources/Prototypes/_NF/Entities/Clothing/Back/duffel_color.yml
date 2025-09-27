@@ -6,7 +6,7 @@
   description: This bad boy can fit so many cleaning implements!
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#ebdc36"
@@ -18,7 +18,7 @@
       color: "#8c347f"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -59,7 +59,7 @@
   description: Don't forget to extinguish the censer before putting it inside.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#6a6a6a"
@@ -73,7 +73,7 @@
       color: "#d6a033"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -121,7 +121,7 @@
   description: A duffel that has been in many dangerous places, a reliable combat duffel.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#6e6e38"
@@ -134,7 +134,7 @@
     - state: icon-zipper
       color: "#bbbb7a"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -177,7 +177,7 @@
   description: A duffelbag produced for a True Ace.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#3e2516"
@@ -189,7 +189,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -230,7 +230,7 @@
   description: A robust duffelbag produced for a rugged operator on a salary.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#2286bd"
@@ -242,7 +242,7 @@
       color: "#935c3f"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -283,7 +283,7 @@
   description: A robust duffelbag produced for a rugged mail carrier.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#4d9be6"
@@ -296,7 +296,7 @@
     - state: icon-zipper
     - state: icon-decal-mail
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -342,7 +342,7 @@
   description: No expense was spared in crafting of this premium duffelbag.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#2c6a30"
@@ -354,7 +354,7 @@
       color: "#fbe6b8"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -395,7 +395,7 @@
   description: A duffelbag produced for an ERT specialist.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#ca4545"
@@ -409,7 +409,7 @@
       color: "#ede984"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -456,7 +456,7 @@
   name: black duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#535353"
@@ -469,7 +469,7 @@
     - state: icon-zipper
       color: "#ffffff"
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -511,7 +511,7 @@
   name: blue duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#0089EF"
@@ -523,7 +523,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -563,7 +563,7 @@
   name: green duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#5ABF2F"
@@ -575,7 +575,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -615,7 +615,7 @@
   name: orange duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#EF8100"
@@ -627,7 +627,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -667,7 +667,7 @@
   name: red duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#940000"
@@ -679,7 +679,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -719,7 +719,7 @@
   name: purple duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#9C0DE1"
@@ -731,7 +731,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -771,7 +771,7 @@
   name: light brown duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#C09F72"
@@ -783,7 +783,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -823,7 +823,7 @@
   name: brown duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#723A02"
@@ -835,7 +835,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -875,7 +875,7 @@
   name: white duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       color: "#ffffff"
@@ -887,7 +887,7 @@
       color: "#776756"
     - state: icon-zipper
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base
@@ -928,7 +928,7 @@
   name: punk duffel
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     layers:
     - state: icon-base
       map: [ "iconDuffelMain" ]
@@ -942,7 +942,7 @@
       map: [ "iconDuffelZipper" ]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    sprite: /_NF/Clothing/Back/Duffels/color.rsi
     clothingVisuals:
       back:
       - state: equipped-BACKPACK-base

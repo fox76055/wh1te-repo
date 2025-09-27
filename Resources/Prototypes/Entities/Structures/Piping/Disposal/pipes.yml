@@ -10,7 +10,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     visible: false
   - type: Appearance
   - type: Visibility
@@ -83,7 +83,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: pipe-b
@@ -101,7 +101,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-s
@@ -131,7 +131,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-tagger
@@ -204,7 +204,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-t
@@ -242,7 +242,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-j1s
@@ -292,7 +292,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-j2s
@@ -335,7 +335,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-j1
@@ -380,7 +380,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-j2
@@ -424,7 +424,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-y
@@ -508,7 +508,7 @@
   components:
   - type: Sprite
     drawdepth: ThickPipe
-    sprite: Structures/Piping/disposal.rsi
+    sprite: /Structures/Piping/disposal.rsi
     layers:
     - map: [ "pipe" ]
       state: conpipe-c

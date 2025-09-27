@@ -36,9 +36,9 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+        - sprite: /Clothing/OuterClothing/Hardsuits/syndicate.rsi
           state: icon
-        - sprite: Markers/cross.rsi
+        - sprite: /Markers/cross.rsi
           state: blue
     - type: RandomMetadata
       nameSegments:
@@ -80,9 +80,9 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+        - sprite: /Clothing/OuterClothing/Hardsuits/syndieelite.rsi
           state: icon
-        - sprite: Markers/cross.rsi
+        - sprite: /Markers/cross.rsi
           state: blue
     - type: RandomMetadata
       nameSegments:
@@ -127,9 +127,9 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+        - sprite: /Clothing/OuterClothing/Hardsuits/syndieelite.rsi
           state: icon
-        - sprite: Markers/cross.rsi
+        - sprite: /Markers/cross.rsi
           state: blue
     - type: RandomMetadata
       nameSegments:
@@ -171,9 +171,9 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+        - sprite: /Clothing/OuterClothing/Hardsuits/syndicate.rsi
           state: icon
-        - sprite: Markers/cross.rsi
+        - sprite: /Markers/cross.rsi
           state: blue
     - type: RandomMetadata
       nameSegments:
@@ -217,11 +217,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -247,11 +247,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -277,11 +277,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -307,11 +307,11 @@
       orGroup: body
       prob: 1
   - type: Icon
-    sprite:  _Lua/Structures/Storage/emergency_pod.rsi
+    sprite:  /_Lua/Structures/Storage/emergency_pod.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: _Lua/Structures/Storage/emergency_pod.rsi
+    sprite: /_Lua/Structures/Storage/emergency_pod.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]

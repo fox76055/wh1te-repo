@@ -11,6 +11,6 @@
   description: Shootouts with nukies are just another Tuesday for this HoS. This mantle is a symbol of commitment to the station.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/mantles/hosmantle_shoulder.rsi
+    sprite: /Clothing/Neck/mantles/hosmantle_shoulder.rsi
   - type: Clothing
-    sprite: Clothing/Neck/mantles/hosmantle_shoulder.rsi
+    sprite: /Clothing/Neck/mantles/hosmantle_shoulder.rsi

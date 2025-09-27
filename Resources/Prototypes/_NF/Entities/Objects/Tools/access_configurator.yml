@@ -6,9 +6,9 @@
   description: A modified access configurator sold on the black market.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Tools/antag_access_configurator.rsi
+    sprite: /_NF/Objects/Tools/antag_access_configurator.rsi
   - type: Clothing
-    sprite: _NF/Objects/Tools/antag_access_configurator.rsi
+    sprite: /_NF/Objects/Tools/antag_access_configurator.rsi
   - type: AccessOverrider
     accessLevels:
     - Maintenance

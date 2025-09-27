@@ -6,7 +6,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Fun/toys.rsi
+        - sprite: /Objects/Fun/toys.rsi
           state: plushie_h
     - type: RandomSpawner
       rarePrototypes:
@@ -45,7 +45,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Fun/mech_figurines.rsi
+        - sprite: /Objects/Fun/mech_figurines.rsi
           state: ripley
     - type: RandomSpawner
       prototypes:
@@ -80,7 +80,7 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Objects/Fun/figurines.rsi
+        - sprite: /Objects/Fun/figurines.rsi
           state: figurine_spawner
     - type: RandomSpawner
       rarePrototypes:

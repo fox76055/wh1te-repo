@@ -15,7 +15,7 @@
   - type: Action
     useDelay: 0.5
     icon:
-      sprite: Interface/Actions/actions_mecha.rsi
+      sprite: /Interface/Actions/actions_mecha.rsi
       state: mech_cycle_equip_on
   - type: InstantAction
     event: !type:MechToggleEquipmentEvent
@@ -29,7 +29,7 @@
   - type: Action
     useDelay: 1
     icon:
-      sprite: Interface/Actions/actions_mecha.rsi
+      sprite: /Interface/Actions/actions_mecha.rsi
       state: mech_view_stats
   - type: InstantAction
     event: !type:MechOpenUiEvent
@@ -42,7 +42,7 @@
   components:
   - type: Action
     icon:
-      sprite: Interface/Actions/actions_mecha.rsi
+      sprite: /Interface/Actions/actions_mecha.rsi
       state: mech_eject
   - type: InstantAction
     event: !type:MechEjectPilotEvent

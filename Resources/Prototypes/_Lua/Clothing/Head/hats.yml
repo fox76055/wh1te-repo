@@ -10,9 +10,9 @@
   suffix: Оранжевые
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hats/foxyears_orange.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_orange.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hats/foxyears_orange.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_orange.rsi
   # - type: InteractionPopup
     # successChance: 1
     # interactSuccessSpawn: EffectHearts
@@ -25,9 +25,9 @@
   suffix: Белые
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hats/foxyears_white.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_white.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hats/foxyears_white.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_white.rsi
 
 - type: entity
   parent: LWClothingHeadHatFoxyO
@@ -35,9 +35,9 @@
   suffix: Чёрные
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hats/foxyears_black.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_black.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hats/foxyears_black.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_black.rsi
 
 - type: entity
   parent: LWClothingHeadHatFoxyO
@@ -45,6 +45,6 @@
   suffix: Синие
   components:
   - type: Sprite
-    sprite: _Lua/Clothing/Head/Hats/foxyears_blue.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_blue.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/Head/Hats/foxyears_blue.rsi
+    sprite: /_Lua/Clothing/Head/Hats/foxyears_blue.rsi

@@ -6,7 +6,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Misc/books.rsi
+        - sprite: /Objects/Misc/books.rsi
           state: book_icon
     - type: RandomSpawner
       prototypes:
@@ -27,7 +27,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Misc/books.rsi
+        - sprite: /Objects/Misc/books.rsi
           state: book_icon
     - type: RandomSpawner
       prototypes:

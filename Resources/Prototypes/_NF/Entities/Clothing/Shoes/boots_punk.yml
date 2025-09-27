@@ -7,14 +7,14 @@
   suffix: Random visuals
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/punk.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/punk.rsi
     layers:
     - state: icon_base_boots_01
       map: [ "boots_main" ]
     - state: icon_decor_base_boots_01
       map: [ "boots_decor" ]
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/punk.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/punk.rsi
     clothingVisuals:
       shoes:
       - state: base_boots_01

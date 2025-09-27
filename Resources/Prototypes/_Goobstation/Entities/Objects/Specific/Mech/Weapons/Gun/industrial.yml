@@ -6,7 +6,7 @@
   parent: [ BaseMechWeaponRange, IndustrialMechEquipment ]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: /Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_kineticgun
   - type: Gun
     fireRate: 1

@@ -5,10 +5,10 @@
   description: Questionably silent, questionably deadly.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Melee/crassknuckles.rsi
+    sprite: /_NF/Objects/Weapons/Melee/crassknuckles.rsi
     state: icon
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Melee/crassknuckles.rsi
+    sprite: /_NF/Objects/Weapons/Melee/crassknuckles.rsi
   - type: MeleeWeapon
     autoAttack: true
     attackRate: 2

@@ -9,7 +9,7 @@
 #   description: Cтандартное нижнее бельё вип.
 #   components:
 #   - type: Sprite
-#     sprite: _Lua/Underwear/vip/man.rsi
+#     sprite: /_Lua/Underwear/vip/man.rsi
 
 # - type: entity
 #   parent: ClothingUnderwearBottomBase
@@ -18,4 +18,4 @@
 #   description: Cтандартное нижнее бельё вип.
 #   components:
 #   - type: Sprite
-#     sprite: _Lua/Underwear/vip/women/pants.rsi
+#     sprite: /_Lua/Underwear/vip/women/pants.rsi

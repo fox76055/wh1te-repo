@@ -22,7 +22,7 @@
         layer:
         - MachineLayer
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/Portable/portable_scrubber.rsi
+    sprite: /Structures/Piping/Atmospherics/Portable/portable_scrubber.rsi
     noRot: true
     layers:
     - state: icon
@@ -129,7 +129,7 @@
   - type: ApcPowerReceiver
     powerDisabled: true #starts off
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/Portable/portable_sheater.rsi
+    sprite: /Structures/Piping/Atmospherics/Portable/portable_sheater.rsi
     noRot: true
     layers:
     - state: sheaterOff

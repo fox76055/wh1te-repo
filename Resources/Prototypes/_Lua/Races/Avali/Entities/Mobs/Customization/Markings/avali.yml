@@ -11,7 +11,7 @@
   markingCategory: Arms
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_wings.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_wings.rsi
       state: avali
 
 - type: marking
@@ -20,7 +20,7 @@
   markingCategory: HeadTop
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_ears.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_ears.rsi
       state: avali_ears_default
 
 - type: marking
@@ -29,9 +29,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_ears.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_ears.rsi
       state: avali_ears_default
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_ears.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_ears.rsi
       state: avali_ears_inner
 
 - type: marking
@@ -40,9 +40,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_ears.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_ears.rsi
       state: avali_ears_low
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_ears.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_ears.rsi
       state: avali_ears_low_inner
 
 - type: marking
@@ -51,7 +51,7 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_tails.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_tails.rsi
       state: phoenix_tail
 
 - type: marking
@@ -60,7 +60,7 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_tails.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_tails.rsi
       state: avali_default
 
 - type: marking
@@ -69,11 +69,11 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_tails.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_tails.rsi
       state: avali_default
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_tails.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_tails.rsi
       state: avali_default_inner
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_tails.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_tails.rsi
       state: avali_default_inner_second
 
 - type: marking
@@ -82,9 +82,9 @@
   markingCategory: Tail
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_tails.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_tails.rsi
       state: avali_default
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_tails.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_tails.rsi
       state: avali_default_inner
 
 - type: marking
@@ -93,7 +93,7 @@
   markingCategory: Snout
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_lines.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_lines.rsi
       state: lines1
 
 - type: marking
@@ -102,5 +102,5 @@
   markingCategory: Snout
   speciesRestriction: [Avali]
   sprites:
-    - sprite: _Lua/Races/CustomAvali/Avali/avali_lines.rsi
+    - sprite: /_Lua/Races/CustomAvali/Avali/avali_lines.rsi
       state: lines2

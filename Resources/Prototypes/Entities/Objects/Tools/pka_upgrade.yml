@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Tools/upgrade.rsi
+    sprite: /Objects/Tools/upgrade.rsi
   - type: Item
     size: Small
   - type: GunUpgrade

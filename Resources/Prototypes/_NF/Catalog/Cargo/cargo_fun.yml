@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: FloorsFun
   icon:
-    sprite: Objects/Tiles/tile.rsi
+    sprite: /Objects/Tiles/tile.rsi
     state: arcadeblue
   product: CrateFloorsFun
   cost: 500
@@ -11,7 +11,7 @@
 - type: cargoProduct
   id: FunPartyNF
   icon:
-    sprite: Clothing/Head/Hats/party_red.rsi
+    sprite: /Clothing/Head/Hats/party_red.rsi
     state: icon
   product: CrateFunPartyNF
   cost: 3000

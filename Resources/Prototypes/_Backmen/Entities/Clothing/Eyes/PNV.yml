@@ -6,10 +6,10 @@
   components:
   - type: Item
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+    sprite: /Clothing/Eyes/Glasses/ninjavisor.rsi
     state: icon
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+    sprite: /Clothing/Eyes/Glasses/ninjavisor.rsi
     quickEquip: true
     slots: [ Eyes ]
   - type: UseDelay
@@ -34,7 +34,7 @@
   - type: Action
     useDelay: 2.5
     icon:
-      sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+      sprite: /Clothing/Eyes/Glasses/ninjavisor.rsi
       state: icon
   - type: InstantAction
     event: !type:ToggleNightVisionEvent
@@ -48,7 +48,7 @@
   - type: Action
     useDelay: 2.5
     icon:
-      sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+      sprite: /Clothing/Eyes/Glasses/ninjavisor.rsi
       state: icon
   - type: InstantAction
     event: !type:ToggleNightVisionEvent

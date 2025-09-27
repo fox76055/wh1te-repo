@@ -8,7 +8,7 @@
   description: A windoor with murky glass, it's hard to see what's on the other side.
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/windoor.rsi
+    sprite: /Structures/Doors/Windoors/windoor.rsi
     color: "#ffd38c"
   - type: Fixtures
     fixtures:

@@ -9,10 +9,10 @@
     tags:
       - Debug
   - type: Sprite
-    sprite: Objects/Tools/debug.rsi
+    sprite: /Objects/Tools/debug.rsi
     state: icon
   - type: Clothing
-    sprite: Objects/Tools/debug.rsi
+    sprite: /Objects/Tools/debug.rsi
     quickEquip: false
     slots:
       - Belt

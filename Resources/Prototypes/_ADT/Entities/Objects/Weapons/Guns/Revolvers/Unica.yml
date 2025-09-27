@@ -10,7 +10,7 @@
   - type: Item
     size: Small
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/deckard.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -48,9 +48,9 @@
   description: A robust revolver favoured by Syndicate agents. Uses .357 magnum ammo.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/python.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/python.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/python.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/python.rsi
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 2
@@ -68,9 +68,9 @@
   description: Legendary weapon of death squad and angry HoS
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Revolvers/Unica.rsi
+    sprite: /ADT/Objects/Weapons/Guns/Revolvers/Unica.rsi
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
+    sprite: /Objects/Weapons/Guns/Revolvers/mateba.rsi
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 2.0

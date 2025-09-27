@@ -114,7 +114,7 @@
     Plasma: 150
     Uranium: 150
 
-# Migrated from Recipes/Lathes/tools.yml
+# Migrated from /Recipes/Lathes/tools.yml
 - type: latheRecipe
   id: RPED
   parent: NFBaseToolsRecipe

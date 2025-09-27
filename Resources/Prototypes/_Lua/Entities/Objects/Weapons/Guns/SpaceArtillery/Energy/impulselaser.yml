@@ -19,15 +19,15 @@
         machine_board: !type:Container
         machine_parts: !type:Container
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Turrets/impulselaser.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Turrets/impulselaser.rsi
       drawdepth: Mobs
       layers:
         - map: ["enum.DamageStateVisualLayers.Base"]
         - state: impulselaser
-          sprite: _Lua/Objects/Weapons/Guns/Turrets/impulselaser.rsi
+          sprite: /_Lua/Objects/Weapons/Guns/Turrets/impulselaser.rsi
         - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           state: impulselaser-unshaded
-          sprite: _Lua/Objects/Weapons/Guns/Turrets/impulselaser.rsi
+          sprite: /_Lua/Objects/Weapons/Guns/Turrets/impulselaser.rsi
           shader: unshaded
     - type: DamageStateVisuals
       states:
@@ -101,6 +101,6 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon

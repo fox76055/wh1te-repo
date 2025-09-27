@@ -5,7 +5,7 @@
   id: MobHumanCombine
   components:
   - type: Icon
-    sprite: Markers/jobs.rsi
+    sprite: /Markers/jobs.rsi
     state: cyborg
   - type: Speech
     speechSounds: Combine

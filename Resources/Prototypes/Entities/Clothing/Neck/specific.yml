@@ -8,9 +8,9 @@
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
-      sprite: Clothing/Neck/Scarfs/red.rsi
+      sprite: /Clothing/Neck/Scarfs/red.rsi
     - type: Clothing
-      sprite: Clothing/Neck/Scarfs/red.rsi
+      sprite: /Clothing/Neck/Scarfs/red.rsi
     - type: ChameleonClothing
       slot: [NECK]
       default: ClothingNeckScarfStripedRed

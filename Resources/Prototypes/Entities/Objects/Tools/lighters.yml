@@ -20,7 +20,7 @@
     activatedSize: Small
   - type: ItemToggleHot
   - type: Sprite
-    sprite: Objects/Tools/lighters.rsi
+    sprite: /Objects/Tools/lighters.rsi
     layers:
     - state: icon_map
     - state: cheap_icon_base
@@ -62,7 +62,7 @@
         shader: unshaded
   - type: Item
     size: Tiny
-    sprite: Objects/Tools/lighters.rsi
+    sprite: /Objects/Tools/lighters.rsi
   - type: UseDelay
   - type: RefillableSolution
     solution: Welder
@@ -100,7 +100,7 @@
   description: "A dangerously inexpensive plastic lighter, don't burn your thumb!"
   components:
   - type: Sprite
-    sprite: Objects/Tools/lighters.rsi
+    sprite: /Objects/Tools/lighters.rsi
     layers:
     - state: icon_map
     - state: cheap_icon_base
@@ -129,7 +129,7 @@
   description: "A rugged metal lighter, lasts quite a while."
   components:
   - type: Sprite
-    sprite: Objects/Tools/lighters.rsi
+    sprite: /Objects/Tools/lighters.rsi
     layers:
     - state: zippo_icon_base
       map: ["base"]
@@ -162,7 +162,7 @@
   - type: ItemToggleHot
   - type: Item
     size: Tiny
-    sprite: Objects/Tools/lighters.rsi
+    sprite: /Objects/Tools/lighters.rsi
     heldPrefix: zippo
   - type: Appearance
   - type: GenericVisualizer
@@ -223,7 +223,7 @@
   description: "A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever."
   components:
   - type: Sprite
-    sprite: Objects/Tools/lighters.rsi
+    sprite: /Objects/Tools/lighters.rsi
     layers:
     - state: zippo_engraved_icon_base
       map: ["base"]
@@ -247,7 +247,7 @@
   description: "A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever."
   components:
   - type: Sprite
-    sprite: Objects/Tools/lighters.rsi
+    sprite: /Objects/Tools/lighters.rsi
     layers:
     - state: zippo_syndicate_icon_base
       map: ["base"]

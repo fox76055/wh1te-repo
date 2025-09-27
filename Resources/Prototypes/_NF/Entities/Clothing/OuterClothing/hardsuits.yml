@@ -6,9 +6,9 @@
   description: A special suit that protects from the danger of space, employed by mercenary forces. Not certified to be blunderbuss-proof.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -37,9 +37,9 @@
   description: A special suit that protects from the danger of space, employed by private security forces.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitPrivateSecurity
 
@@ -51,9 +51,9 @@
   description: A hardsuit tailored for someone who spends the majority of their time buckled to a chair.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/pilot.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/pilot.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/pilot.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/pilot.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -80,9 +80,9 @@
   description: A protective hardsuit worn by the mail carriers of an emergency response team.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/ERTSuits/ertmailcarrier.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/ERTSuits/ertmailcarrier.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/ERTSuits/ertmailcarrier.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/ERTSuits/ertmailcarrier.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTMailCarrier
 
@@ -94,9 +94,9 @@
   description: Fire. Heat. These things forge great weapons, they also forge great salvagers.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/maxim_prototype.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/maxim_prototype.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/maxim_prototype.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/maxim_prototype.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: Armor
@@ -126,9 +126,9 @@
   components:
   - type: Unremoveable
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: /Clothing/OuterClothing/Hardsuits/syndieelite.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: /Clothing/OuterClothing/Hardsuits/syndieelite.rsi
 
 - type: entity
   parent:
@@ -140,9 +140,9 @@
   components:
   - type: Unremoveable
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: /Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: /Clothing/OuterClothing/Hardsuits/syndicate.rsi
 
 # Security
 - type: entity
@@ -152,9 +152,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This bronze variant has cadet rank markings.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdBronze
   - type: ExplosionResistance
@@ -179,9 +179,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This silver variant has officer rank markings.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdSilver
 
@@ -192,9 +192,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This gold variant has supervisor rank markings.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdGold
 
@@ -205,9 +205,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This gold variant has sheriff rank markings.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdSheriff
 
@@ -218,9 +218,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This brighter variant has brigmedic rank markings.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdBrigmedic
 
@@ -231,9 +231,9 @@
   description: A very heavily armored NFSD suit. This space proof marvel of engineering uses state of the art alloys to provide immense protection while sacrificing little mobility.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdExperimental
   - type: PressureProtection
@@ -264,9 +264,9 @@
   description: A heavily armored NFSD suit. Space proof, with thick armor plating at the expense of mobility.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdCombat
   - type: ExplosionResistance
@@ -292,9 +292,9 @@
   description: A heavily armored NFSD suit. Space proof, with thick armor plating at the expense of mobility. This variant has supervisor rank markings.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdCommand
   - type: ExplosionResistance
@@ -320,9 +320,9 @@
   description: A green and brown combat hardsuit. Old yet sturdy nonetheless.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
   - type: Armor # Kept original scaf stats
     modifiers:
       coefficients:
@@ -354,9 +354,9 @@
   description: Layers of stain resistant alloys built into a single suit. It even comes with a reinforced apron!
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/tactical_hardsuit.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/tactical_hardsuit.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/tactical_hardsuit.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/tactical_hardsuit.rsi
   - type: Armor # Remains perfectly clean of stains
     modifiers:
       coefficients:
@@ -386,9 +386,9 @@
   description: An ancient elite armored hardsuit, designed by an unknown bearded man and built like a brick house.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/pirate_elite.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/pirate_elite.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/pirate_elite.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/pirate_elite.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitPirateElite
   - type: ExplosionResistance
@@ -414,9 +414,9 @@
   description: A weird hardsuit with ornaments made of baked clay and magical gemstones.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/brickwizard.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/brickwizard.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/brickwizard.rsi
+    sprite: /_NF/Clothing/OuterClothing/Hardsuits/brickwizard.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000

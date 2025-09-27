@@ -14,7 +14,7 @@
   - type: Fixtures
   - type: Sprite
     layers:
-    - sprite: Structures/Specific/carp_rift.rsi
+    - sprite: /Structures/Specific/carp_rift.rsi
       state: icon
       color: "#569fff"
       shader: unshaded

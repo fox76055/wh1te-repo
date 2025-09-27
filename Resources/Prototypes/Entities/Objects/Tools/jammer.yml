@@ -5,7 +5,7 @@
   description: This device will disrupt any nearby outgoing radio communication as well as suit sensors when activated.
   components:
   - type: Sprite
-    sprite: Objects/Devices/jammer.rsi
+    sprite: /Objects/Devices/jammer.rsi
     layers:
         - state: jammer
         - state: jammer_high_charge

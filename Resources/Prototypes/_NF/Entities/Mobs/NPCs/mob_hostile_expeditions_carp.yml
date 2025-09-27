@@ -43,7 +43,7 @@
       24: 0.7
       32: 0.5
   - type: Sprite
-    sprite: _NF/Mobs/Aliens/Carps/magic.rsi
+    sprite: /_NF/Mobs/Aliens/Carps/magic.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
@@ -68,7 +68,7 @@
       24: 0.7
       32: 0.5
   - type: Sprite
-    sprite: _NF/Mobs/Aliens/Carps/holo.rsi
+    sprite: /_NF/Mobs/Aliens/Carps/holo.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
@@ -149,7 +149,7 @@
         - SmallMobLayer # Allows small snakes to pass under the tables
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: _NF/Mobs/Aliens/snake.rsi
+    sprite: /_NF/Mobs/Aliens/snake.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
@@ -209,7 +209,7 @@
         - FlyingMobLayer
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: _NF/Mobs/Aliens/Carps/wyvern.rsi
+    sprite: /_NF/Mobs/Aliens/Carps/wyvern.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
@@ -268,7 +268,7 @@
   components:
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: _NF/Mobs/Aliens/Carps/wyvern.rsi
+    sprite: /_NF/Mobs/Aliens/Carps/wyvern.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
@@ -304,7 +304,7 @@
   components:
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: _NF/Mobs/Aliens/Carps/wyvern.rsi
+    sprite: /_NF/Mobs/Aliens/Carps/wyvern.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive

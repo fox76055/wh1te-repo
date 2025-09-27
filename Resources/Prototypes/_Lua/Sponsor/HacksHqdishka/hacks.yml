@@ -16,7 +16,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Clothing/Back/Backpacks/lua_back.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Clothing/Back/Backpacks/lua_back.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -94,7 +94,7 @@
   description: Скафандр шлем с ушами под расу "Вульпканинов" сделанный на заказ LuaTech.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Clothing/Head/Hardsuits/lua_helm.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Clothing/Head/Hardsuits/lua_helm.rsi
     layers:
     - state: on-equipped-HELMET
   - type: ToggleableVisuals
@@ -132,9 +132,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Sponsor/Lua/Lua_White/Clothing/OuterClothing/Hardsuits/lua_hardsuit.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Clothing/OuterClothing/Hardsuits/lua_hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Lua/Lua_White/Clothing/OuterClothing/Hardsuits/lua_hardsuit.rsi
+    sprite: /_Lua/Sponsor/Lua/Lua_White/Clothing/OuterClothing/Hardsuits/lua_hardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000

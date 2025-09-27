@@ -9,7 +9,7 @@
   description: Ручной сканер аутопсии, способный определить причину смерти и напечатать подробный отчёт.
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Specific/Medical/autopsyscanner.rsi
+    sprite: /_Lua/Objects/Specific/Medical/autopsyscanner.rsi
     state: icon
     layers:
       - state: icon

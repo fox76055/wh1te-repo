@@ -6,12 +6,12 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _NF/Objects/Fun/spaceblade.rsi
+    sprite: /_NF/Objects/Fun/spaceblade.rsi
     state: redorange
     scale: 0.5, 0.5
   - type: Item
     size: Small
-    sprite: _NF/Objects/Fun/spaceblade.rsi
+    sprite: /_NF/Objects/Fun/spaceblade.rsi
   - type: ActivatableUI
     key: enum.SharedGasTankUiKey.Key
   - type: UserInterface

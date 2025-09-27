@@ -114,7 +114,7 @@
       size: Ginormous
     - type: MultiHandedItem
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
       state: sdm
     - type: Tag
       tags:

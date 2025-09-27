@@ -7,9 +7,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/crucifix.rsi
+    sprite: /_NF/Clothing/Neck/Misc/crucifix.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/crucifix.rsi
+    sprite: /_NF/Clothing/Neck/Misc/crucifix.rsi
   - type: ReactionMixer # I'm assuming that this is used to make holy water
     mixMessage: "bible-mixing-success"
     reactionTypes:
@@ -26,9 +26,9 @@
   description: A way to inform others about your presence, or just to annoy everyone around you!
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/bellcollar.rsi
+    sprite: /_NF/Clothing/Neck/bellcollar.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/bellcollar.rsi
+    sprite: /_NF/Clothing/Neck/bellcollar.rsi
   - type: EmitsSoundOnMove
     soundCollection:
       collection: FootstepJester
@@ -45,9 +45,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/ascended_cultist_amulet.rsi
+    sprite: /_NF/Clothing/Neck/Misc/ascended_cultist_amulet.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/ascended_cultist_amulet.rsi
+    sprite: /_NF/Clothing/Neck/Misc/ascended_cultist_amulet.rsi
   - type: BasicEntityAmmoProvider
     proto: MobBloodCultDrainedOneNanoTrasen
     capacity: 1
@@ -75,14 +75,14 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     layers:
     - state: icon-off
     - state: icon-on
       color: "#a9b6bd"
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK-off
@@ -96,14 +96,14 @@
   name: IFF green strobe
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     layers:
     - state: icon-off
     - state: icon-on
       color: "#33cc00"
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK-off
@@ -117,14 +117,14 @@
   name: IFF red strobe
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     layers:
     - state: icon-off
     - state: icon-on
       color: "#990000"
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK-off
@@ -138,14 +138,14 @@
   name: IFF blue strobe
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     layers:
     - state: icon-off
     - state: icon-on
       color: "#0055cc"
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK-off
@@ -159,14 +159,14 @@
   name: IFF cyan strobe
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     layers:
     - state: icon-off
     - state: icon-on
       color: "#47f8ff"
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK-off
@@ -180,14 +180,14 @@
   name: IFF orange strobe
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     layers:
     - state: icon-off
     - state: icon-on
       color: "#ff8227"
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK-off
@@ -201,14 +201,14 @@
   name: IFF purple strobe
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     layers:
     - state: icon-off
     - state: icon-on
       color: "#9c0de1"
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
+    sprite: /_NF/Clothing/Neck/Misc/mercenary_iff.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK-off

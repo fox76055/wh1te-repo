@@ -5,7 +5,7 @@
     mode: SnapgridCenter
   components:
     - type: Sprite
-      sprite: Tiles/Misc/floortrap.rsi
+      sprite: /Tiles/Misc/floortrap.rsi
       state: floortrap
     - type: Fixtures
       fixtures:
@@ -30,7 +30,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: Tiles/Misc/floortrap.rsi
+      sprite: /Tiles/Misc/floortrap.rsi
       state: floortrapspawn
 
 - type: entity

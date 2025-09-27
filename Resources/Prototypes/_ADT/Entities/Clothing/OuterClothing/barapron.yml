@@ -5,6 +5,6 @@
   description: An apron-jacket used by a bartender.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Misc/apronbar.rsi
+    sprite: /ADT/Clothing/OuterClothing/Misc/apronbar.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Misc/apronbar.rsi
+    sprite: /ADT/Clothing/OuterClothing/Misc/apronbar.rsi

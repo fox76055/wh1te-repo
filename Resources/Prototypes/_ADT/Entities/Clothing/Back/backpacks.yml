@@ -5,7 +5,7 @@
   description: A large duffel bag for holding extra things.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/ussp_attaked_backpack.rsi
+    sprite: /ADT/Clothing/Back/ussp_attaked_backpack.rsi
     state: icon
   - type: Item
     size: Huge
@@ -37,7 +37,7 @@
   description: Satchel for storage. Wow, whats there? A stolen hearts?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/heart_satchel.rsi
+    sprite: /ADT/Clothing/Back/heart_satchel.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -46,4 +46,4 @@
   description: Backpack for storage. Wow, whats there? A stolen hearts?
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Back/heart_backpack.rsi
+    sprite: /ADT/Clothing/Back/heart_backpack.rsi

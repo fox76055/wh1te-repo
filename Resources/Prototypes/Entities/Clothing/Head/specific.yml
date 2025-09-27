@@ -8,9 +8,9 @@
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
-      sprite: Clothing/Head/Hats/beret.rsi
+      sprite: /Clothing/Head/Hats/beret.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/beret.rsi
+      sprite: /Clothing/Head/Hats/beret.rsi
     - type: ChameleonClothing
       slot: [HEAD]
       default: ClothingHeadHatBeret

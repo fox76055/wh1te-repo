@@ -19,7 +19,7 @@
       ballistic-ammo: !type:Container
   - type: Sprite
     netsync: false
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/5mm/mag.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/5mm/mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -12,7 +12,7 @@
         - ReagentId: Sake
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/saketokkuri.rsi
+    sprite: /Objects/Consumable/Drinks/saketokkuri.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -28,7 +28,7 @@
         - ReagentId: OrangeCreamice
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/orangecreamcicle.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/orangecreamcicle.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -44,7 +44,7 @@
         - ReagentId: Silverjack
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/silverjack.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/silverjack.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -60,7 +60,7 @@
         - ReagentId: Brainbomb
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/brainbomb.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/brainbomb.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -76,7 +76,7 @@
         - ReagentId: ClownBlood
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/clownblood.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/clownblood.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -92,7 +92,7 @@
         - ReagentId: CircusJuice
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/circusjuice.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/circusjuice.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -108,7 +108,7 @@
         - ReagentId: SapoPicante
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/sapopicante.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/sapopicante.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -124,7 +124,7 @@
         - ReagentId: Graveyard
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/graveyard.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/graveyard.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -140,7 +140,7 @@
         - ReagentId: AtomicPunch
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/atomicpunch.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/atomicpunch.rsi
     
 - type: entity
   parent: DrinkGlassBase
@@ -156,7 +156,7 @@
         - ReagentId: PinkDrink
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/pinkdrink.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/pinkdrink.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -172,4 +172,4 @@
         - ReagentId: BubbleTea
           Quantity: 30
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/bubbletea.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Drinks/bubbletea.rsi

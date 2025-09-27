@@ -32,7 +32,7 @@
       "Jazz": {26: 0}
       "Muted": {28: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/eguitar.rsi
+    sprite: /Objects/Fun/Instruments/eguitar.rsi
 
 - type: entity
   parent: BaseStringInstrumentClothing
@@ -49,7 +49,7 @@
       "Slap": {36: 0}
       "Slap (XTra Funky)": {37: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/bassguitar.rsi
+    sprite: /Objects/Fun/Instruments/bassguitar.rsi
 
 - type: entity
   parent: BaseStringInstrumentClothing
@@ -65,7 +65,7 @@
       "Distortion": {30: 0}
       "Harmonics": {31: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/rockguitar.rsi
+    sprite: /Objects/Fun/Instruments/rockguitar.rsi
   - type: MeleeWeapon
     wideAnimationRotation: 45
     damage:
@@ -92,7 +92,7 @@
       "Nylon": {24: 0}
       "Steel": {25: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/guitar.rsi
+    sprite: /Objects/Fun/Instruments/guitar.rsi
   - type: Wieldable
   - type: Damageable # Smash it! Does 20 damage a hit, but breaks after 1 hit.
     damageContainer: Inorganic
@@ -136,7 +136,7 @@
   - type: Instrument
     program: 120
   - type: Sprite
-    sprite: Objects/Fun/Instruments/guitarlessfrets.rsi
+    sprite: /Objects/Fun/Instruments/guitarlessfrets.rsi
 
 - type: entity
   parent: BaseStringInstrumentClothing
@@ -146,7 +146,7 @@
   - type: Instrument
     program: 105
   - type: Sprite
-    sprite: Objects/Fun/Instruments/banjo.rsi
+    sprite: /Objects/Fun/Instruments/banjo.rsi
 
 - type: entity
   parent: BaseStringInstrument
@@ -161,7 +161,7 @@
       "Classical": {40: 0}
       "Bluegrass": {110: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/violin.rsi
+    sprite: /Objects/Fun/Instruments/violin.rsi
 
 - type: entity
   parent: BaseStringInstrument
@@ -172,7 +172,7 @@
   - type: Instrument
     program: 41
   - type: Sprite
-    sprite: Objects/Fun/Instruments/viola.rsi
+    sprite: /Objects/Fun/Instruments/viola.rsi
 
 - type: entity
   parent: BaseStringInstrument
@@ -183,7 +183,7 @@
   - type: Instrument
     program: 42
   - type: Sprite
-    sprite: Objects/Fun/Instruments/cello.rsi
+    sprite: /Objects/Fun/Instruments/cello.rsi
   - type: Item
     size: Large
     shape:

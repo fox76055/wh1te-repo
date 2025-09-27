@@ -56,10 +56,10 @@
             - !type:EntityAnchored
             - !type:MachineFrameComplete
               guideIconBoard:
-                sprite: Objects/Misc/module.rsi
+                sprite: /Objects/Misc/module.rsi
                 state: id_mod
               guideIconParts:
-                sprite: _NF/Objects/Misc/stock_parts.rsi # Frontier
+                sprite: /_NF/Objects/Misc/stock_parts.rsi # Frontier
                 state: scan_module
           steps:
             - tool: Screwing

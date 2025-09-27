@@ -6,10 +6,10 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Markers/atmos.rsi # {
+        - sprite: /Markers/atmos.rsi # {
           state: base
           shader: unshaded
-        - sprite: Markers/atmos.rsi
+        - sprite: /Markers/atmos.rsi
           shader: unshaded # }
           state: vacuum
     - type: AtmosFixMarker
@@ -23,10 +23,10 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Markers/atmos.rsi # {
+        - sprite: /Markers/atmos.rsi # {
           state: base
           shader: unshaded
-        - sprite: Markers/atmos.rsi
+        - sprite: /Markers/atmos.rsi
           shader: unshaded # }
           state: oxygen
     - type: AtmosFixMarker
@@ -40,10 +40,10 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Markers/atmos.rsi # {
+        - sprite: /Markers/atmos.rsi # {
           state: base
           shader: unshaded
-        - sprite: Markers/atmos.rsi
+        - sprite: /Markers/atmos.rsi
           shader: unshaded # }
           state: nitrogen
     - type: AtmosFixMarker
@@ -57,10 +57,10 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Markers/atmos.rsi # {
+        - sprite: /Markers/atmos.rsi # {
           state: base
           shader: unshaded
-        - sprite: Markers/atmos.rsi
+        - sprite: /Markers/atmos.rsi
           shader: unshaded # }
           state: plasma
     - type: AtmosFixMarker
@@ -74,10 +74,10 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Markers/atmos.rsi # {
+        - sprite: /Markers/atmos.rsi # {
           state: base-hot
           shader: unshaded
-        - sprite: Markers/atmos.rsi
+        - sprite: /Markers/atmos.rsi
           shader: unshaded # }
           state: fire
     - type: AtmosFixMarker
@@ -91,10 +91,10 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Markers/atmos.rsi # {
+        - sprite: /Markers/atmos.rsi # {
           state: base
           shader: unshaded
-        - sprite: Markers/atmos.rsi
+        - sprite: /Markers/atmos.rsi
           shader: unshaded # }
           state: freeze
     - type: AtmosFixMarker
@@ -117,10 +117,10 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Markers/atmos.rsi # {
+    - sprite: /Markers/atmos.rsi # {
       state: base
       shader: unshaded
-    - sprite: Markers/atmos.rsi
+    - sprite: /Markers/atmos.rsi
       shader: unshaded # }
       state: air
   - type: AtmosFixMarker

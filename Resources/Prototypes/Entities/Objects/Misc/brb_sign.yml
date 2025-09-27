@@ -5,10 +5,10 @@
   description: Lets others know you are away.
   components:
   - type: Sprite
-    sprite: Objects/Misc/brbsign.rsi
+    sprite: /Objects/Misc/brbsign.rsi
     state: icon
   - type: Clothing
-    sprite: Objects/Misc/brbsign.rsi
+    sprite: /Objects/Misc/brbsign.rsi
     quickEquip: false
     slots:
     - Neck

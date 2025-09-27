@@ -14,13 +14,13 @@
     - state: paper_stamp-nf-pirate
       map: ["enum.PaperVisualLayers.Stamp"]
   - type: PaperVisuals # TODO: fix this up
-    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
-    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg.96dpi.png"
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg./96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg./96dpi.png"
     backgroundModulate: "#f7e574"
     contentImageModulate: "#f7e574"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
     contentMargin: 16.0, 16.0, 16.0, 16.0
-    headerImagePath: "/Textures/Interface/Paper/paper_heading_cargo_invoice.svg.96dpi.png"
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_cargo_invoice.svg./96dpi.png"
     headerMargin: 0.0, 12.0, 0.0, 0.0
   - type: StaticPrice
     price: 0
@@ -35,11 +35,11 @@
   description: The tool of choice for the master of bureaucracy.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/pal_clipboard.rsi
+    sprite: /_NF/Objects/Misc/pal_clipboard.rsi
   - type: Item
-    sprite: _NF/Objects/Misc/pal_clipboard.rsi
+    sprite: /_NF/Objects/Misc/pal_clipboard.rsi
   - type: Clothing
-    sprite: _NF/Objects/Misc/pal_clipboard.rsi
+    sprite: /_NF/Objects/Misc/pal_clipboard.rsi
 
 - type: entity
   id: BoxFolderPalGreen
@@ -49,7 +49,7 @@
   description: A folder to contain important NFSD forms.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/bureaucracy.rsi
+    sprite: /_NF/Objects/Misc/bureaucracy.rsi
     layers:
     - state: folder-pal-green
     - state: folder-base
@@ -74,7 +74,7 @@
   description: A folder to contain important NFSD forms.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/bureaucracy.rsi
+    sprite: /_NF/Objects/Misc/bureaucracy.rsi
     layers:
     - state: folder-pal-brown
     - state: folder-base

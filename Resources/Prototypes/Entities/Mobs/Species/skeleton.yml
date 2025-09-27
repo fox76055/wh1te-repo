@@ -11,7 +11,7 @@
     species: Skeleton
   - type: Carriable # Carrying system from nyanotrasen.
   - type: Icon
-    sprite: Mobs/Species/Skeleton/parts.rsi
+    sprite: /Mobs/Species/Skeleton/parts.rsi
     state: full
   - type: Body
     prototype: Skeleton
@@ -23,10 +23,10 @@
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
-        sprite: Mobs/Effects/brute_damage.rsi
+        sprite: /Mobs/Effects/brute_damage.rsi
         color: "#555555AA"
       Burn:
-        sprite: Mobs/Effects/burn_damage.rsi
+        sprite: /Mobs/Effects/burn_damage.rsi
   - type: MobState
   - type: MobThresholds
     thresholds:
@@ -115,7 +115,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: /Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
 
 - type: entity
@@ -130,5 +130,5 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: /Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female

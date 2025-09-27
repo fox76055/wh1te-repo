@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     state: icon
-    sprite: _NF/Objects/Misc/mortuary_urn.rsi
+    sprite: /_NF/Objects/Misc/mortuary_urn.rsi
   - type: Item
     size: Small
   - type: Tag

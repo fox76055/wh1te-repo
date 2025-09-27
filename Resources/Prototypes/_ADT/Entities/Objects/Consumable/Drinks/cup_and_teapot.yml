@@ -12,7 +12,7 @@
       drink:
         maxVol: 20
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/teacup.rsi
+    sprite: /Objects/Consumable/Drinks/teacup.rsi
     layers:
       - state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]
@@ -33,4 +33,4 @@
       drink:
         maxVol: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/teapot.rsi
+    sprite: /Objects/Consumable/Drinks/teapot.rsi

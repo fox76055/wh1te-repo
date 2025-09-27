@@ -7,7 +7,7 @@
   components:
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/metal_door.rsi
+    sprite: /Structures/Doors/MineralDoors/metal_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -84,7 +84,7 @@
   description: A door, where will it lead?
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/wood_door.rsi
+    sprite: /Structures/Doors/MineralDoors/wood_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -121,7 +121,7 @@
   description: A door, where will it lead?
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/paper_door.rsi
+    sprite: /Structures/Doors/MineralDoors/paper_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -149,7 +149,7 @@
   description: A door, where will it lead?
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/plasma_door.rsi
+    sprite: /Structures/Doors/MineralDoors/plasma_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -175,7 +175,7 @@
   description: A door, where will it lead?
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/gold_door.rsi
+    sprite: /Structures/Doors/MineralDoors/gold_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -190,7 +190,7 @@
   description: A door, where will it lead?
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/silver_door.rsi
+    sprite: /Structures/Doors/MineralDoors/silver_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -205,7 +205,7 @@
   description: A door, where will it lead?
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/bananium_door.rsi
+    sprite: /Structures/Doors/MineralDoors/bananium_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -225,7 +225,7 @@
   description: A door, leading to the lands of the spiders... or a spaced room.
   components:
   - type: Sprite
-    sprite: Structures/Doors/web_door.rsi
+    sprite: /Structures/Doors/web_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]

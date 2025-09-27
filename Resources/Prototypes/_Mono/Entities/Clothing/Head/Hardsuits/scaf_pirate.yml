@@ -5,9 +5,9 @@
   description: A (probably stolen) SCAF suit painted red with white stripes. The lighting systems have been replaced with a thermal pulse.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi
+    sprite: /_Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi
+    sprite: /_Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi
   - type: ThermalVision
     flashDurationMultiplier: 2
     pulseTime: 3

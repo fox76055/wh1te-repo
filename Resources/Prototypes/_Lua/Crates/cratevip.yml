@@ -9,9 +9,9 @@
   description: A dark steel crate.
   components:
   - type: Icon
-    sprite: _Lua/Crates/vipcrate.rsi
+    sprite: /_Lua/Crates/vipcrate.rsi
   - type: Sprite
-    sprite: _Lua/Crates/vipcrate.rsi
+    sprite: /_Lua/Crates/vipcrate.rsi
 
 
 - type: entity

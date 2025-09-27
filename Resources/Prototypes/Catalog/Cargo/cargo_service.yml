@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: ServiceJanitorial
   icon:
-    sprite: Objects/Specific/Janitorial/janitorial.rsi
+    sprite: /Objects/Specific/Janitorial/janitorial.rsi
     state: cleaner
   product: CrateServiceJanitorialSupplies
   cost: 2500 # Frontier: 560<2500
@@ -11,7 +11,7 @@
 - type: cargoProduct
   id: ServiceCleanerGrenades
   icon:
-    sprite: Objects/Weapons/Grenades/janitor.rsi
+    sprite: /Objects/Weapons/Grenades/janitor.rsi
     state: icon
   product: CrateServiceCleanerGrenades
   cost: 400
@@ -21,7 +21,7 @@
 - type: cargoProduct
   id: ServiceLightsReplacement
   icon:
-    sprite: Objects/Power/light_bulb.rsi
+    sprite: /Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceReplacementLights
   cost: 600
@@ -32,7 +32,7 @@
   id: ServiceLightsHoliday
   abstract: true # Frontier
   icon:
-    sprite: Objects/Power/light_bulb.rsi
+    sprite: /Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceHolidayLights
   cost: 800
@@ -43,7 +43,7 @@
   id: ServiceLightsColorful
   abstract: true # Frontier
   icon:
-    sprite: Objects/Power/light_bulb.rsi
+    sprite: /Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceColorfulLights
   cost: 800
@@ -53,7 +53,7 @@
 - type: cargoProduct
   id: MousetrapBoxes
   icon:
-    sprite: Objects/Devices/mousetrap.rsi
+    sprite: /Objects/Devices/mousetrap.rsi
     state: mousetrap
   product: CrateMousetrapBoxes
   cost: 500
@@ -64,7 +64,7 @@
   id: ServiceTheatre
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Mask/mime.rsi
+    sprite: /Clothing/Mask/mime.rsi
     state: icon
   product: CrateServiceTheatre
   cost: 1800
@@ -75,7 +75,7 @@
   id: ServiceSmokeables
   abstract: true # Frontier
   icon:
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
     state: icon
   product: CrateServiceSmokeables
   cost: 1500
@@ -85,7 +85,7 @@
 - type: cargoProduct
   id: ServiceCustomSmokable
   icon:
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
+    sprite: /Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
     state: icon
   product: CrateServiceCustomSmokable
   cost: 1000
@@ -95,7 +95,7 @@
 - type: cargoProduct
   id: ServiceBureaucracy
   icon:
-    sprite: Objects/Misc/pens.rsi
+    sprite: /Objects/Misc/pens.rsi
     state: pen
   product: CrateServiceBureaucracy
   cost: 1000
@@ -105,7 +105,7 @@
 - type: cargoProduct
   id: ServiceFaxMachine
   icon:
-    sprite: Structures/Machines/fax_machine.rsi
+    sprite: /Structures/Machines/fax_machine.rsi
     state: icon
   product: CrateServiceFaxMachine
   cost: 2000
@@ -116,7 +116,7 @@
   id: ServicePersonnel
   abstract: true # Frontier
   icon:
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: /Objects/Misc/id_cards.rsi
     state: default
   product: CrateServicePersonnel
   cost: 1000
@@ -126,7 +126,7 @@
 - type: cargoProduct
   id: ServiceBooks
   icon:
-    sprite: Objects/Misc/books.rsi
+    sprite: /Objects/Misc/books.rsi
     state: book_icon
   product: CrateServiceBooks
   cost: 1000
@@ -136,7 +136,7 @@
 - type: cargoProduct
   id: ServiceGuidebooks
   icon:
-    sprite: Objects/Misc/books.rsi
+    sprite: /Objects/Misc/books.rsi
     state: book_icon
   product: CrateServiceGuidebooks
   cost: 1300
@@ -146,7 +146,7 @@
 - type: cargoProduct
   id: ServiceSodaDispenser  
   icon:
-    sprite: Objects/Consumable/Drinks/generic_jug.rsi
+    sprite: /Objects/Consumable/Drinks/generic_jug.rsi
     state: icon
   product: CrateServiceSodaDispenser
   cost: 4000 # Frontier 750<4000
@@ -156,7 +156,7 @@
 - type: cargoProduct
   id: ServiceBoozeDispenser  
   icon:
-    sprite: Objects/Consumable/Drinks/generic_jug.rsi
+    sprite: /Objects/Consumable/Drinks/generic_jug.rsi
     state: icon
   product: CrateServiceBoozeDispenser
   cost: 4000 # Frontier 750<4000
@@ -166,7 +166,7 @@
 - type: cargoProduct
   id: ServiceBoxes
   icon:
-    sprite: Objects/Storage/boxes.rsi
+    sprite: /Objects/Storage/boxes.rsi
     state: box
   product: CrateServiceBox
   cost: 400
@@ -177,7 +177,7 @@
   id: ServiceJanitorBiosuit
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Head/Hoods/Bio/janitor.rsi
+    sprite: /Clothing/Head/Hoods/Bio/janitor.rsi
     state: icon
   product: CrateJanitorBiosuit
   cost: 800
@@ -187,7 +187,7 @@
 - type: cargoProduct
   id: ServiceFoodCartHot
   icon:
-    sprite: Objects/Specific/Kitchen/food_carts.rsi
+    sprite: /Objects/Specific/Kitchen/food_carts.rsi
     state: icon-hot
   product: FoodCartHot
   cost: 2000
@@ -197,7 +197,7 @@
 - type: cargoProduct
   id: ServiceFoodCartCold
   icon:
-    sprite: Objects/Specific/Kitchen/food_carts.rsi
+    sprite: /Objects/Specific/Kitchen/food_carts.rsi
     state: icon-cold
   product: FoodCartCold
   cost: 2000
@@ -207,7 +207,7 @@
 - type: cargoProduct
   id: ServiceAnimalCarrier
   icon:
-    sprite: Objects/Storage/petcarrier.rsi
+    sprite: /Objects/Storage/petcarrier.rsi
     state: icon
   product: PetCarrier
   cost: 500
@@ -218,7 +218,7 @@
   id: JanitorExplosive
   abstract: true # Frontier
   icon:
-    sprite: Clothing/Head/Helmets/janitor_bombsuit.rsi
+    sprite: /Clothing/Head/Helmets/janitor_bombsuit.rsi
     state: icon
   product: ClosetJanitorBombFilled
   cost: 1000
@@ -228,7 +228,7 @@
 - type: cargoProduct
   id: ServiceJanitorTrolley
   icon:
-    sprite: Objects/Specific/Janitorial/janitorial_cart.rsi
+    sprite: /Objects/Specific/Janitorial/janitorial_cart.rsi
     state: icon-cart
   product: JanitorialTrolley
   cost: 1000
@@ -238,7 +238,7 @@
 - type: cargoProduct
   id: ServiceCandles
   icon:
-    sprite: Objects/Misc/candles.rsi
+    sprite: /Objects/Misc/candles.rsi
     state: candle-big
   product: CrateCandles
   cost: 500

@@ -8,7 +8,7 @@
       steps:    
       - tag: MaterialHideRosyMothroach
         icon:
-          sprite: _NF/Objects/Materials/rosymothroach.rsi
+          sprite: /_NF/Objects/Materials/rosymothroach.rsi
           state: hiderosymothroach
         name: construction-graph-tag-material-hide-rosy-mothroach
         doAfter: 10

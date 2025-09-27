@@ -21,7 +21,7 @@
         density: 190
   - type: Rotatable
   - type: Sprite
-    sprite: _NF/Structures/smalldispensers.rsi
+    sprite: /_NF/Structures/smalldispensers.rsi
     drawdepth: SmallObjects
     state: icon
   - type: StorageFill

@@ -15,9 +15,9 @@
       - EncryptionKeyStationMaster
       - EncryptionKeyKSO
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: /Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: /Clothing/Ears/Headsets/centcom.rsi
   - type: Headset
     color: "#00fa9a"
 
@@ -32,9 +32,9 @@
   - type: EncryptionKeyHolder
     keySlots: 5
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: /Clothing/Ears/Headsets/syndicate.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: /Clothing/Ears/Headsets/syndicate.rsi
   - type: ContainerFill
     containers:
       key_slots:

@@ -16,7 +16,7 @@
         - ReagentId: JuiceWatermelon
           Quantity: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pitcher.rsi
+    sprite: /Objects/Consumable/Drinks/pitcher.rsi
     layers:
       - state: icon
       - state: fill-6
@@ -44,7 +44,7 @@
         - ReagentId: JuiceWatermelon
           Quantity: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pitcher.rsi
+    sprite: /Objects/Consumable/Drinks/pitcher.rsi
     layers:
       - state: icon-6
         map: ["enum.SolutionContainerLayers.Fill"]

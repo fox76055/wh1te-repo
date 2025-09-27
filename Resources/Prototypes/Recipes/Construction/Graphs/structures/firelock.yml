@@ -52,7 +52,7 @@
               store: board
               name: construction-graph-tag-firelock-electronics-circuit-board
               icon:
-                sprite: "Objects/Misc/module.rsi"
+                sprite: "/Objects/Misc/module.rsi"
                 state: "mainboard"
 
         - to: frame1

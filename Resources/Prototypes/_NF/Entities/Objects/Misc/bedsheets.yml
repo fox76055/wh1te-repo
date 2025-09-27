@@ -4,10 +4,10 @@
   name: NFSD bedsheet
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/bedsheets.rsi
+    sprite: /_NF/Objects/Misc/bedsheets.rsi
     state: sheetnfsd
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Bedsheets/Nfsd/nfsd.rsi
+    sprite: /_NF/Clothing/Neck/Bedsheets/Nfsd/nfsd.rsi
 
 - type: entity
   id: BedsheetNfsdBrigmedic
@@ -15,10 +15,10 @@
   name: brigmedic bedsheet
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/bedsheets.rsi
+    sprite: /_NF/Objects/Misc/bedsheets.rsi
     state: sheetnfsdbrigmed
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Bedsheets/Nfsd/nfsd_brigmed.rsi
+    sprite: /_NF/Clothing/Neck/Bedsheets/Nfsd/nfsd_brigmed.rsi
 
 - type: entity
   id: BedsheetNfsdSheriff
@@ -26,7 +26,7 @@
   name: sheriff bedsheet
   components:
   - type: Sprite
-    sprite: _NF/Objects/Misc/bedsheets.rsi
+    sprite: /_NF/Objects/Misc/bedsheets.rsi
     state: sheetnfsdsheriff
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Bedsheets/Nfsd/nfsd_sheriff.rsi
+    sprite: /_NF/Clothing/Neck/Bedsheets/Nfsd/nfsd_sheriff.rsi

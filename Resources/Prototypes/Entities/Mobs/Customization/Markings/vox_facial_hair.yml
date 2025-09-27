@@ -5,7 +5,7 @@
   canBeDisplaced: false
   speciesRestriction: [Vox]
   sprites:
-    - sprite: Mobs/Customization/vox_facial_hair.rsi
+    - sprite: /Mobs/Customization/vox_facial_hair.rsi
       state: beard_s
 
 - type: marking
@@ -15,7 +15,7 @@
   canBeDisplaced: false
   speciesRestriction: [Vox]
   sprites:
-    - sprite: Mobs/Customization/vox_facial_hair.rsi
+    - sprite: /Mobs/Customization/vox_facial_hair.rsi
       state: colonel_s
 
 - type: marking
@@ -25,7 +25,7 @@
   canBeDisplaced: false
   speciesRestriction: [Vox]
   sprites:
-    - sprite: Mobs/Customization/vox_facial_hair.rsi
+    - sprite: /Mobs/Customization/vox_facial_hair.rsi
       state: fu_s
 
 - type: marking
@@ -35,7 +35,7 @@
   canBeDisplaced: false
   speciesRestriction: [Vox]
   sprites:
-    - sprite: Mobs/Customization/vox_facial_hair.rsi
+    - sprite: /Mobs/Customization/vox_facial_hair.rsi
       state: mane_s
 
 - type: marking
@@ -45,7 +45,7 @@
   canBeDisplaced: false
   speciesRestriction: [Vox]
   sprites:
-    - sprite: Mobs/Customization/vox_facial_hair.rsi
+    - sprite: /Mobs/Customization/vox_facial_hair.rsi
       state: manesmall_s
 
 - type: marking
@@ -55,7 +55,7 @@
   canBeDisplaced: false
   speciesRestriction: [Vox]
   sprites:
-    - sprite: Mobs/Customization/vox_facial_hair.rsi
+    - sprite: /Mobs/Customization/vox_facial_hair.rsi
       state: neck_s
 
 - type: marking
@@ -65,6 +65,6 @@
   canBeDisplaced: false
   speciesRestriction: [Vox]
   sprites:
-    - sprite: Mobs/Customization/vox_facial_hair.rsi
+    - sprite: /Mobs/Customization/vox_facial_hair.rsi
       state: tuft_s
 

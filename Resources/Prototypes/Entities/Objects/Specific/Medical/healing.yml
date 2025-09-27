@@ -4,10 +4,10 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/medical.rsi
+    sprite: /Objects/Specific/Medical/medical.rsi
   - type: Item
     size: Small
-    sprite: Objects/Specific/Medical/medical.rsi
+    sprite: /Objects/Specific/Medical/medical.rsi
     heldPrefix: ointment
   # Inherited
   - type: StaticPrice
@@ -391,7 +391,7 @@
   id: AloeCream
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/aloe.rsi
+    sprite: /Objects/Specific/Hydroponics/aloe.rsi
     state: cream
   - type: Stack
     stackType: AloeCream
@@ -405,7 +405,7 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Specific/Medical/healing_toolbox.rsi # Frontier: _NF prefix
+    sprite: /_NF/Objects/Specific/Medical/healing_toolbox.rsi # Frontier: _NF prefix
     state: icon
   - type: Healing
     damageContainers:

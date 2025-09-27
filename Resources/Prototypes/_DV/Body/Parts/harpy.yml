@@ -35,10 +35,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "torso_m"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "torso_m"
   # - type: BodyPart # Frontier: inherited from BaseTorso
   #   partType: Torso # Frontier: inherited from BaseTorso
@@ -59,10 +59,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "head_m"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "head_m"
   # - type: BodyPart # Frontier: inherited from BaseHead
   #   partType: Head # Frontier: inherited from BaseHead
@@ -91,10 +91,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_arm"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_arm"
   # - type: BodyPart # Frontier: inherited from BaseLeftArm
   #   partType: Arm # Frontier: inherited from BaseLeftArm
@@ -107,10 +107,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_arm"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_arm"
   # - type: BodyPart # Frontier: inherited from BaseRightArm
   #   partType: Arm # Frontier: inherited from BaseRightArm
@@ -123,10 +123,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_hand"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_hand"
   # - type: BodyPart # Frontier: inherited from BaseLeftHand
   #   partType: Hand # Frontier: inherited from BaseLeftHand
@@ -139,10 +139,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_hand"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_hand"
   # - type: BodyPart # Frontier: inherited from BaseRightHand
   #   partType: Hand # Frontier: inherited from BaseRightHand
@@ -155,10 +155,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_leg"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_leg"
   # - type: BodyPart # Frontier: inherited from BaseLeftLeg
   #   partType: Leg # Frontier: inherited from BaseLeftLeg
@@ -172,10 +172,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_leg"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_leg"
   # - type: BodyPart # Frontier: inherited from BaseRightLeg
   #   partType: Leg # Frontier: inherited from BaseRightLeg
@@ -189,10 +189,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_foot"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "l_foot"
   # - type: BodyPart # Frontier: inherited from BaseLeftFoot
   #   partType: Foot # Frontier: inherited from BaseLeftFoot
@@ -205,10 +205,10 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_foot"
   - type: Icon
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    sprite: /_DV/Mobs/Species/Harpy/parts.rsi
     state: "r_foot"
   # - type: BodyPart # Frontier: inherited from BaseRightFoot
   #   partType: Foot # Frontier: inherited from BaseRightFoot

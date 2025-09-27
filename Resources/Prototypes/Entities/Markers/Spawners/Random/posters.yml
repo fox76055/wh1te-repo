@@ -6,7 +6,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Structures/Wallmounts/posters.rsi
+      - sprite: /Structures/Wallmounts/posters.rsi
         state: random_anything
   - type: RandomSpawner
     offset: 0
@@ -26,7 +26,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Structures/Wallmounts/posters.rsi
+      - sprite: /Structures/Wallmounts/posters.rsi
         state: random_contraband
   - type: RandomSpawner
     offset: 0
@@ -126,7 +126,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Structures/Wallmounts/posters.rsi
+      - sprite: /Structures/Wallmounts/posters.rsi
         state: random_legit
   - type: RandomSpawner
     offset: 0

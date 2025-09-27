@@ -14,10 +14,10 @@
     - SimpleHostile
   - type: Sprite
     drawdepth: Mobs
-    sprite: Structures/Machines/VendingMachines/cola.rsi
+    sprite: /Structures/Machines/VendingMachines/cola.rsi
     state: normal
   - type: Icon
-    sprite: Structures/Machines/VendingMachines/cola.rsi
+    sprite: /Structures/Machines/VendingMachines/cola.rsi
     state: normal
   - type: Fixtures
     fixtures:

@@ -5,9 +5,9 @@
 #  description: The oath of eternal love between ... and ....
 #  components:
 #    - type: Sprite
-#      sprite: ADT/Clothing/Hands/Gloves/wedding-ring.rsi
+#      sprite: /ADT/Clothing/Hands/Gloves/wedding-ring.rsi
 #    - type: Clothing
-#      sprite: ADT/Clothing/Hands/Gloves/wedding-ring.rsi
+#      sprite: /ADT/Clothing/Hands/Gloves/wedding-ring.rsi
 #    - type: Insulated
 
 #- type: entity

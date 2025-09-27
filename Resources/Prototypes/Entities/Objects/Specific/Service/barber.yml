@@ -5,7 +5,7 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: Objects/Tools/scissors.rsi
+    sprite: /Objects/Tools/scissors.rsi
     state: icon
   - type: MagicMirror
   - type: ActivatableUI

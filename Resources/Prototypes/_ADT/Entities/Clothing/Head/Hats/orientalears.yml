@@ -5,9 +5,9 @@
   description: "NYAH!"
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+    sprite: /ADT/Clothing/Head/Hats/orientalears.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+    sprite: /ADT/Clothing/Head/Hats/orientalears.rsi
   - type: AddAccentClothing
     accent: OwOAccent
 
@@ -18,6 +18,6 @@
   description: "On the inside is scrawled 'For the one whose hair is the color of lilac'. This smells like a joy and happy"
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+    sprite: /ADT/Clothing/Head/Hats/orientalears.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/orientalears.rsi
+    sprite: /ADT/Clothing/Head/Hats/orientalears.rsi

@@ -8,7 +8,7 @@
     tags:
     - PlantSampleTaker
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/haycutters.rsi
+    sprite: /Objects/Tools/Cowtools/haycutters.rsi
     state: haycutters
   - type: MeleeWeapon
     wideAnimationRotation: -90
@@ -23,7 +23,7 @@
       path: /Audio/Items/wirecutter.ogg
     speedModifier: 0.05
   - type: Item
-    sprite: Objects/Tools/Cowtools/haycutters.rsi
+    sprite: /Objects/Tools/Cowtools/haycutters.rsi
 
 - type: entity
   name: moodriver
@@ -32,10 +32,10 @@
   description: Turn to use. Moo!
   components:
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/moodriver.rsi
+    sprite: /Objects/Tools/Cowtools/moodriver.rsi
     state: moodriver
   - type: Item
-    sprite: Objects/Tools/Cowtools/moodriver.rsi
+    sprite: /Objects/Tools/Cowtools/moodriver.rsi
   - type: MeleeWeapon
     attackRate: 1.5
     damage:
@@ -55,10 +55,10 @@
   description: Wronch thing. Moo!
   components:
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/wronch.rsi
+    sprite: /Objects/Tools/Cowtools/wronch.rsi
     state: wronch
   - type: Item
-    sprite: Objects/Tools/Cowtools/wronch.rsi
+    sprite: /Objects/Tools/Cowtools/wronch.rsi
   - type: MeleeWeapon
     attackRate: 1.5
     damage:
@@ -78,10 +78,10 @@
   description: Cow your problems away. Moo!
   components:
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/cowbar.rsi
+    sprite: /Objects/Tools/Cowtools/cowbar.rsi
     state: cowbar
   - type: Item
-    sprite: Objects/Tools/Cowtools/cowbar.rsi
+    sprite: /Objects/Tools/Cowtools/cowbar.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -103,10 +103,10 @@
   description: An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
   components:
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/mooltitool.rsi
+    sprite: /Objects/Tools/Cowtools/mooltitool.rsi
     state: mooltitool
   - type: Item
-    sprite: Objects/Tools/Cowtools/mooltitool.rsi
+    sprite: /Objects/Tools/Cowtools/mooltitool.rsi
   - type: Tool
     qualities:
     - Pulsing
@@ -121,10 +121,10 @@
   description: "Melts anything as long as it's fueled, don't forget your eye protection! Moo!"
   components:
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/cowelder.rsi
+    sprite: /Objects/Tools/Cowtools/cowelder.rsi
   - type: Item
     size: Small
-    sprite: Objects/Tools/Cowtools/cowelder.rsi
+    sprite: /Objects/Tools/Cowtools/cowelder.rsi
   - type: Tool
     speedModifier: 0.05
 
@@ -135,7 +135,7 @@
   description: A hand-held environmental scanner which reports current gas levels. Moo!
   components:
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/milkalyzer.rsi
+    sprite: /Objects/Tools/Cowtools/milkalyzer.rsi
     layers:
     - state: milkalyzer
   - type: GasAnalyzer
@@ -152,10 +152,10 @@
   description: A weirdly shaped box, stocked with... tools?
   components:
   - type: Sprite
-    sprite: Objects/Tools/Cowtools/cow_toolbox.rsi
+    sprite: /Objects/Tools/Cowtools/cow_toolbox.rsi
     state: icon # cow_toolbox < icon
   - type: Item
-    sprite: Objects/Tools/Cowtools/cow_toolbox.rsi
+    sprite: /Objects/Tools/Cowtools/cow_toolbox.rsi
   - type: MeleeWeapon
     damage:
       types:

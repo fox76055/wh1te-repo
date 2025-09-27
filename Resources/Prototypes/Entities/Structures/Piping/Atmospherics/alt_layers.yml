@@ -25,7 +25,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt1
-    sprite: Structures/Piping/Atmospherics/pipe_alt1.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt1.rsi
   - type: Construction
     node: straightAlt1
 
@@ -36,7 +36,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt2
-    sprite: Structures/Piping/Atmospherics/pipe_alt2.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt2.rsi
   - type: Construction
     node: straightAlt2
 
@@ -48,7 +48,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt1
-    sprite: Structures/Piping/Atmospherics/pipe_alt1.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt1.rsi
   - type: Construction
     node: halfAlt1
 
@@ -59,7 +59,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt2
-    sprite: Structures/Piping/Atmospherics/pipe_alt2.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt2.rsi
   - type: Construction
     node: halfAlt2
 
@@ -71,7 +71,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt1
-    sprite: Structures/Piping/Atmospherics/pipe_alt1.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt1.rsi
   - type: Construction
     node: bendAlt1
 
@@ -82,7 +82,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt2
-    sprite: Structures/Piping/Atmospherics/pipe_alt2.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt2.rsi
   - type: Construction
     node: bendAlt2
 
@@ -94,7 +94,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt1
-    sprite: Structures/Piping/Atmospherics/pipe_alt1.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt1.rsi
   - type: Construction
     node: tjunctionAlt1
 
@@ -105,7 +105,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt2
-    sprite: Structures/Piping/Atmospherics/pipe_alt2.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt2.rsi
   - type: Construction
     node: tjunctionAlt2
 
@@ -117,7 +117,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt1
-    sprite: Structures/Piping/Atmospherics/pipe_alt1.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt1.rsi
   - type: Construction
     node: fourwayAlt1
 
@@ -128,6 +128,6 @@
   components:
   - type: Sprite
     drawdepth: ThinPipeAlt2
-    sprite: Structures/Piping/Atmospherics/pipe_alt2.rsi
+    sprite: /Structures/Piping/Atmospherics/pipe_alt2.rsi
   - type: Construction
     node: fourwayAlt2

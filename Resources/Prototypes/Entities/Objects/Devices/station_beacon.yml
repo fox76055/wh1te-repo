@@ -8,7 +8,7 @@
   suffix: General
   components:
   - type: Sprite
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: /Objects/Devices/station_beacon.rsi
     drawdepth: BelowFloor
     layers:
     - state: blink
@@ -86,7 +86,7 @@
     mode: PlaceFree
   components:
   - type: Sprite
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: /Objects/Devices/station_beacon.rsi
     layers:
     - state: icon
       map: ["base"]
@@ -104,9 +104,9 @@
   components:
   - type: Item
     size: Small
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: /Objects/Devices/station_beacon.rsi
   - type: Sprite
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: /Objects/Devices/station_beacon.rsi
     state: assembly
   - type: Construction
     graph: StationBeaconPart

@@ -4,7 +4,7 @@
   suffix: 15000
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: /Objects/Economy/cash.rsi
     state: cash_10000
   - type: Stack
     count: 15000
@@ -15,7 +15,7 @@
   suffix: 25000
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: /Objects/Economy/cash.rsi
     state: cash_25000
   - type: Stack
     count: 25000
@@ -26,7 +26,7 @@
   suffix: 100000
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: /Objects/Economy/cash.rsi
     state: cash_100000
   - type: Stack
     count: 100000
@@ -76,7 +76,7 @@
   - type: StackLayerThreshold
     thresholds: [10, 100, 500, 1000, 5000, 10000, 25000, 50000, 100000, 250000]
   - type: Sprite
-    sprite: _NF/Objects/Economy/counterfeit_cash.rsi
+    sprite: /_NF/Objects/Economy/counterfeit_cash.rsi
     state: cash
     layers:
     - state: cash
@@ -100,13 +100,13 @@
   name: stack-counterfeit-credit
   unit: materials-unit-bill
   stackEntity: SpaceCashCounterfeit
-  icon: { sprite: _NF/Objects/Economy/counterfeit_cash.rsi, state: cash }
+  icon: { sprite: /_NF/Objects/Economy/counterfeit_cash.rsi, state: cash }
   price: 0
 
 - type: stack
   id: CreditCounterfeit
   name: stack-counterfeit-credit
-  icon: { sprite: _NF/Objects/Economy/counterfeit_cash.rsi, state: cash }
+  icon: { sprite: /_NF/Objects/Economy/counterfeit_cash.rsi, state: cash }
   spawn: SpaceCashCounterfeit
 
 - type: currency
@@ -123,7 +123,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: _NF/Objects/Economy/counterfeit_cash.rsi
+    sprite: /_NF/Objects/Economy/counterfeit_cash.rsi
     state: cash_100000
   - type: Stack
     count: 200000

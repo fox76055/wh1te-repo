@@ -8,9 +8,9 @@
   components:
   - type: GoblinPreciousTrash # Frontier
   - type: Sprite
-    sprite: Objects/Materials/Scrap/generic.rsi
+    sprite: /Objects/Materials/Scrap/generic.rsi
   - type: Item
-    sprite: Objects/Materials/Scrap/generic.rsi
+    sprite: /Objects/Materials/Scrap/generic.rsi
     size: Normal
   - type: Damageable
     damageContainer: Inorganic
@@ -479,7 +479,7 @@
   description: An old looking P.A.C.M.A.N. generator whos plasma tanks started leaking.
   components:
   - type: Sprite
-    sprite: Objects/Materials/Scrap/generator.rsi
+    sprite: /Objects/Materials/Scrap/generator.rsi
     snapCardinals: true
     layers:
       - state: old_generator_plasma
@@ -499,7 +499,7 @@
   description: An old looking P.A.C.M.A.N. generator. It's in very poor condition and non functional.
   components:
   - type: Sprite
-    sprite: Objects/Materials/Scrap/generator.rsi
+    sprite: /Objects/Materials/Scrap/generator.rsi
     layers:
       - state: old_generator_plasma
   - type: PhysicalComposition
@@ -516,7 +516,7 @@
   description: A S.U.P.E.R.P.A.C.M.A.N. generator that appears to have had some kind of catastrophic failure. Its leaking uranium.
   components:
   - type: Sprite
-    sprite: Objects/Materials/Scrap/generator.rsi
+    sprite: /Objects/Materials/Scrap/generator.rsi
     layers:
       - state: uranium_generator
       - map: [ "extra" ]
@@ -547,7 +547,7 @@
   description: A S.U.P.E.R.P.A.C.M.A.N. generator that appears to have had some kind of catastrophic failure.
   components:
   - type: Sprite
-    sprite: Objects/Materials/Scrap/generator.rsi
+    sprite: /Objects/Materials/Scrap/generator.rsi
     layers:
       - state: uranium_generator
       - map: [ "extra" ]
@@ -573,7 +573,7 @@
   description: A frame of a P.A.C.M.A.N. or S.U.P.E.R.P.A.C.M.A.N. type generator. Where is the rest of it?
   components:
   - type: Sprite
-    sprite: Objects/Materials/Scrap/generator.rsi
+    sprite: /Objects/Materials/Scrap/generator.rsi
     layers:
       - state: generator_frame
   - type: PhysicalComposition
@@ -588,7 +588,7 @@
   description: A fuel tank from a S.U.P.E.R.P.A.C.M.A.N. type generator. The gauge indicates its got a little fuel left.
   components:
   - type: Sprite
-    sprite: Objects/Materials/Scrap/generator.rsi
+    sprite: /Objects/Materials/Scrap/generator.rsi
     layers:
       - state: uranium_generator_fuel_tank
   - type: PhysicalComposition

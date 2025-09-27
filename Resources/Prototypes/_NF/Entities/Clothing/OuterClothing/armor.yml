@@ -5,9 +5,9 @@
   description: "A premium armored chestpiece that provides above average protection for its size. It offers maximum mobility and flexibility thanks to the premium composite materials. Issued only to the station representative."
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/sr_carapace.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/sr_carapace.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/sr_carapace.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/sr_carapace.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -35,9 +35,9 @@
   description: Favorite protective gear of any syndicate chemical warfare enjoyers.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Bio/syndicate.rsi
+    sprite: /_NF/Clothing/OuterClothing/Bio/syndicate.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Bio/syndicate.rsi
+    sprite: /_NF/Clothing/OuterClothing/Bio/syndicate.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -58,9 +58,9 @@
   description: Get shot, maybe survive?
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/nfsd_armor.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/nfsd_armor.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/nfsd_armor.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/nfsd_armor.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -81,9 +81,9 @@
   id: ClothingOuterVestWebMercenaryBlack
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi
+    sprite: /_NF/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi
+    sprite: /_NF/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi
 
 - type: entity
   parent: ClothingOuterArmorReflective
@@ -92,9 +92,9 @@
   description: A vest with moderate protection against energy weapons.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Armor/basic_reflective_vest.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/basic_reflective_vest.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Armor/basic_reflective_vest.rsi
+    sprite: /_NF/Clothing/OuterClothing/Armor/basic_reflective_vest.rsi
   - type: Armor
     modifiers:
       coefficients:

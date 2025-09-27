@@ -9,7 +9,7 @@
     noRot: True
   - type: Sprite
     noRot: True
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: /Objects/Devices/pinpointer.rsi
     layers:
     - state: pinpointer
       map: ["enum.PinpointerLayers.Base"]
@@ -18,10 +18,10 @@
       shader: unshaded
       visible: false
   - type: Icon
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: /Objects/Devices/pinpointer.rsi
     state: pinpointer
   - type: Item
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: /Objects/Devices/pinpointer.rsi
   - type: Pinpointer
   - type: Appearance
   - type: GenericVisualizer
@@ -82,7 +82,7 @@
     setsTarget: true # Frontier: detectable, clearable pinpointers
   - type: Sprite
     noRot: True
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: /Objects/Devices/pinpointer.rsi
     layers:
     - state: pinpointer-crew
       map: ["enum.PinpointerLayers.Base"]

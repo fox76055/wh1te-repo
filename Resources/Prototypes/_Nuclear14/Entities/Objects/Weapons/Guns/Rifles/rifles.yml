@@ -5,20 +5,20 @@
   description: An old fashioned assault rifle chambered in 5.56. # TODO: Need to create projectiles, magazines and boxes for 5.56.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
   - type: Wieldable
   - type: GunWieldBonus
     minAngle: -21
@@ -65,20 +65,20 @@
   description: A old foreing assault rifle with strange simbols on it, the chamber has enough space to hold a 7,62 bullet.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
   - type: Wieldable
   - type: GunWieldBonus
     minAngle: -21
@@ -122,20 +122,20 @@
   description: A black compact assault rifle, uses 5.56 ammo.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
   - type: Wieldable
   - type: GunWieldBonus
     minAngle: -20
@@ -182,13 +182,13 @@
   description: A heavy semiautomatic rifle with a scope, uses 7.62 ammo.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/marksman.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/marksman.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/marksman.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/marksman.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -241,13 +241,13 @@
   description: A cheap mass produced post war rifle made by the NCR, chambered in 5.56.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/servicerifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/servicerifle.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/servicerifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/servicerifle.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -299,13 +299,13 @@
   description: A modified version of the service rifle made by rangers in the field. It is capable of using larger 5.56 magazines.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/scoutrifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/scoutrifle.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/scoutrifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/scoutrifle.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -359,13 +359,13 @@
   description: A long semi automatic rifle feed by clips, chambered in the powerfull 308.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/battlerifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/battlerifle.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/battlerifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/battlerifle.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -419,13 +419,13 @@
   description: A short compact rifle of the pre-war, chambered in 5.56.
   components:
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/carbine.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/carbine.rsi
     quickEquip: false
     slots:
     - Back
     - suitStorage
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/carbine.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Rifles/carbine.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]

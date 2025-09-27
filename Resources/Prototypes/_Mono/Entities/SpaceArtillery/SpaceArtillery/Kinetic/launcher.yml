@@ -22,7 +22,7 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/50cal.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/50cal.rsi
     layers:
     - state: space_artillery
   - type: Battery
@@ -78,7 +78,7 @@
   - type: StaticPrice
     price: 650
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/dravon.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/dravon.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -126,7 +126,7 @@
   - type: StaticPrice
     price: 1250
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/artillery.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/artillery.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -179,7 +179,7 @@
   - type: StaticPrice
     price: 20000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/cyrexa.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/cyrexa.rsi
     layers:
     - state: space_artillery
     scale: 1, 1
@@ -255,7 +255,7 @@
   - type: StaticPrice
     price: 40000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/hades.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/hades.rsi
     layers:
     - state: space_artillery
     scale: 1.15, 1.15
@@ -331,7 +331,7 @@
   - type: StaticPrice
     price: 25000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/charonette.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/charonette.rsi
     layers:
     - state: space_artillery
   - type: Appearance
@@ -401,7 +401,7 @@
   - type: StaticPrice
     price: 20000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/bofors.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/bofors.rsi
     layers:
     - state: space_artillery
     scale: 1, 1
@@ -462,7 +462,7 @@
   - type: StaticPrice
     price: 20000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/kargil.rsi
+    sprite: /_Mono/Objects/ShuttleWeapons/kargil.rsi
     layers:
     - state: space_artillery
     scale: 1, 1

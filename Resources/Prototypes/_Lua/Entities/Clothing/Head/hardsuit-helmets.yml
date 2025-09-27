@@ -12,9 +12,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_commander_helmet.rsi
   - type: PointLight
     color: "#addbff"
   - type: Armor
@@ -35,9 +35,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_bravo_specialist_helmet.rsi
   - type: PointLight
     color: "#ffadc6"
   - type: Armor
@@ -62,9 +62,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_commander_helmet.rsi
   - type: PointLight
     color: "#addbff"
   - type: Armor
@@ -85,9 +85,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits/fsf_charlie_specialist_helmet.rsi
   - type: PointLight
     color: "#ffadc6"
   - type: Armor
@@ -110,9 +110,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_helmet.rsi
   - type: PointLight
     color: "#addbff"
   - type: Armor
@@ -132,9 +132,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_medium_helmet.rsi
   - type: PointLight
     color: "#ffadc6"
   - type: Armor
@@ -154,9 +154,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_helmet.rsi
   - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_helmet.rsi
+    sprite: /_Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_light_helmet.rsi
   - type: PointLight
     color: "#ffadc6"
   - type: Armor

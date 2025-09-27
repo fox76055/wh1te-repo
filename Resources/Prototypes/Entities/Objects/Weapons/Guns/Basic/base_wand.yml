@@ -4,7 +4,7 @@
   parent: [BaseItem, BaseC3WizardContraband] # Frontier: BaseMagicalContraband<BaseC3WizardContraband
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/wands.rsi
+    sprite: /Objects/Weapons/Guns/Basic/wands.rsi
   - type: Item
     heldPrefix: wand
     size: Normal

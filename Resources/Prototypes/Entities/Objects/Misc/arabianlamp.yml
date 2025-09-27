@@ -22,7 +22,7 @@
   - type: Item
     size: Normal
     heldPrefix: lamp
-    sprite: Objects/Misc/arabianlamp.rsi
+    sprite: /Objects/Misc/arabianlamp.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -61,7 +61,7 @@
         volume: 10
   - type: ItemToggleHot
   - type: Sprite
-    sprite: Objects/Misc/arabianlamp.rsi
+    sprite: /Objects/Misc/arabianlamp.rsi
     layers:
     - state: lamp
       map: [ "enum.StorageVisualLayers.Base" ]

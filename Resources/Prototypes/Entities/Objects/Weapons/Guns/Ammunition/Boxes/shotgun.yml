@@ -9,7 +9,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: Objects/Storage/boxes.rsi
+    sprite: /Objects/Storage/boxes.rsi
 
 - type: entity
   parent: [BaseAmmoProvider, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
@@ -17,7 +17,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
+      sprite: /Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
     - type: BallisticAmmoProvider
       mayTransfer: true
       whitelist:

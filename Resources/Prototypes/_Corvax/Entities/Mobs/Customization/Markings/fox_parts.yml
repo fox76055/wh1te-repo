@@ -5,7 +5,7 @@
   speciesRestriction: [Human]
 #  sponsorOnly: true # Corvax-Sponsors
   sprites:
-  - sprite: Corvax/Mobs/Customization/fox_parts.rsi
+  - sprite: /Corvax/Mobs/Customization/fox_parts.rsi
     state: ears_fox_outer
-  - sprite: Corvax/Mobs/Customization/fox_parts.rsi
+  - sprite: /Corvax/Mobs/Customization/fox_parts.rsi
     state: ears_fox_inner

@@ -9,19 +9,19 @@
             - tag: ClownShoes
               name: construction-graph-tag-clown-shoes
               icon:
-                sprite: Clothing/Shoes/Specific/clown.rsi
+                sprite: /Clothing/Shoes/Specific/clown.rsi
                 state: icon
               doAfter: 1
             - tag: WhoopieCushion
               name: construction-graph-tag-whoopie-cushion
               icon:
-                sprite: Objects/Fun/whoopie.rsi
+                sprite: /Objects/Fun/whoopie.rsi
                 state: icon
               doAfter: 1
             - tag: WhoopieCushion
               name: construction-graph-tag-whoopie-cushion
               icon:
-                sprite: Objects/Fun/whoopie.rsi
+                sprite: /Objects/Fun/whoopie.rsi
                 state: icon
               doAfter: 1
     - node: whoopiemod
@@ -38,13 +38,13 @@
             - tag: ClownShoes
               name: construction-graph-tag-clown-shoes
               icon:
-                sprite: Clothing/Shoes/Specific/clown.rsi
+                sprite: /Clothing/Shoes/Specific/clown.rsi
                 state: icon
               doAfter: 1
             - component: CondimentKetchup
               name: construction-graph-component-condiment-ketchup
               icon:
-                sprite: _NF/Objects/Consumable/Food/condiments.rsi
+                sprite: /_NF/Objects/Consumable/Food/condiments.rsi
                 state: squeeze-bottle-ketchup
               doAfter: 1
     - node: ketchupmod
@@ -61,19 +61,19 @@
             - tag: ClownShoes
               name: construction-graph-tag-clown-shoes
               icon:
-                sprite: Clothing/Shoes/Specific/clown.rsi
+                sprite: /Clothing/Shoes/Specific/clown.rsi
                 state: icon
               doAfter: 1
             - component: CondimentKetchup
               name: construction-graph-component-condiment-ketchup
               icon:
-                sprite: _NF/Objects/Consumable/Food/condiments.rsi
+                sprite: /_NF/Objects/Consumable/Food/condiments.rsi
                 state: squeeze-bottle-ketchup
               doAfter: 1
             - component: CondimentMustard
               name: construction-graph-component-condiment-mustard
               icon:
-                sprite: _NF/Objects/Consumable/Food/condiments.rsi
+                sprite: /_NF/Objects/Consumable/Food/condiments.rsi
                 state: squeeze-bottle-mustard
               doAfter: 1
     - node: mustarchupmod
@@ -90,19 +90,19 @@
             - tag: ClownShoes
               name: construction-graph-tag-clown-shoes
               icon:
-                sprite: Clothing/Shoes/Specific/clown.rsi
+                sprite: /Clothing/Shoes/Specific/clown.rsi
                 state: icon
               doAfter: 1
             - component: CondimentKetchup
               name: construction-graph-component-condiment-ketchup
               icon:
-                sprite: _NF/Objects/Consumable/Food/condiments.rsi
+                sprite: /_NF/Objects/Consumable/Food/condiments.rsi
                 state: squeeze-bottle-ketchup
               doAfter: 1
             - tag: WhoopieCushion
               name: construction-graph-tag-whoopie-cushion
               icon:
-                sprite: Objects/Fun/whoopie.rsi
+                sprite: /Objects/Fun/whoopie.rsi
                 state: icon
               doAfter: 1
     - node: ultimatemod

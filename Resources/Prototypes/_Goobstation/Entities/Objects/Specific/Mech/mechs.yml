@@ -48,12 +48,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: ripleymkii
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:
@@ -106,12 +106,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: clarke
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:
@@ -177,12 +177,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: gygax
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:
@@ -236,12 +236,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: durand
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:
@@ -303,12 +303,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: marauder
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:
@@ -376,12 +376,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: seraph
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:
@@ -452,12 +452,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: darkgygax
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:
@@ -525,12 +525,12 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     layers:
     - map: [ "enum.MechVisualLayers.Base" ]
       state: mauler
     - map: ["enum.PaperLabelVisuals.Layer"]
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: /Structures/Storage/Crates/labels.rsi
       state: paper
   - type: FootstepModifier
     footstepSoundCollection:

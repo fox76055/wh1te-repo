@@ -7,12 +7,12 @@
   name: cult runic belt buckle
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/cult_force_field.rsi
+    sprite: /_NF/Clothing/Belt/cult_force_field.rsi
     layers:
     - state: icon
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Clothing/Belt/cult_force_field.rsi
+    sprite: /_NF/Clothing/Belt/cult_force_field.rsi
   - type: Reflect
     reflectProb: .1
     spread: 90
@@ -27,6 +27,6 @@
   description: A webbing with pockets lined with waterproof (water, huh?) material.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Belt/cult_webbing.rsi
+    sprite: /_NF/Clothing/Belt/cult_webbing.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Belt/cult_webbing.rsi
+    sprite: /_NF/Clothing/Belt/cult_webbing.rsi

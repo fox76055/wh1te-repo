@@ -15,7 +15,7 @@
       radarColor: "#229e51"
       scale: 0.8
     - type: Sprite
-      sprite: _Lua/Objects/Weapons/Guns/Turrets/turrets80mm.rsi
+      sprite: /_Lua/Objects/Weapons/Guns/Turrets/turrets80mm.rsi
       drawdepth: Mobs
       layers:
         - state: turrets80mm
@@ -80,6 +80,6 @@
   - type: StaticPrice
     price: 250
   - type: Sprite
-    sprite: _Lua/Flatpack/flatpack.rsi
+    sprite: /_Lua/Flatpack/flatpack.rsi
     layers:
     - state: ship_weapon

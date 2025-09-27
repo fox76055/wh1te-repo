@@ -9,10 +9,10 @@
   description: Прочная сумка для ботаников-миллиардеров, для переноски больших объёмов растений. Будучи закреплённой на поясе, она притягивает к себе находящуюся поблизости растения.
   components:
   - type: Sprite
-    sprite: _Lua/Objects/Specific/Botanist/plant_bag_bluespace.rsi
+    sprite: /_Lua/Objects/Specific/Botanist/plant_bag_bluespace.rsi
     state: icon
   - type: Clothing
-    sprite: _Lua/Objects/Specific/Botanist/plant_bag_bluespace.rsi
+    sprite: /_Lua/Objects/Specific/Botanist/plant_bag_bluespace.rsi
   - type: Storage
     grid:
     - 0,0,19,9

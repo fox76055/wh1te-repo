@@ -9,4 +9,4 @@
   description: Стандартные носки вип.
   components:
   - type: Sprite
-    sprite: _Lua/Underwear/vip/socks.rsi
+    sprite: /_Lua/Underwear/vip/socks.rsi

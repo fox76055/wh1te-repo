@@ -6,7 +6,7 @@
   suffix: Always Powered
   components:
   - type: Sprite
-    sprite: Objects/Fun/spectrallocator.rsi
+    sprite: /Objects/Fun/spectrallocator.rsi
     layers:
       - state: icon
       - state: screen

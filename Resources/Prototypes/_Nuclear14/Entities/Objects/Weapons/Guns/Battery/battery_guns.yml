@@ -43,7 +43,7 @@
   abstract: true
   components:
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: /Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt
@@ -59,7 +59,7 @@
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: /Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt
@@ -71,7 +71,7 @@
   description: A basic energy-based laser gun that fires concentrated beams of light.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -79,7 +79,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_pistol.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -106,7 +106,7 @@
   description: A highly advanced plasma pistol.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -114,7 +114,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -141,7 +141,7 @@
   description: A highly advanced plasma pistol with a upgraded rate of fire.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -149,7 +149,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -178,7 +178,7 @@
   description: The first model for a self charging laser rifle, its low energy consume and advance internal battery makes this gun last for centuries without recharging.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -186,7 +186,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 25
@@ -207,7 +207,7 @@
   description: The upgraded version of the recharger rifle, compact but maintaining the same power, its low energy consume and advance internal battery makes this gun last for centuries without recharging.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -215,7 +215,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi
   - type: Gun
     soundGunshot:
       collection: N14RechargerPistolGunshot
@@ -247,7 +247,7 @@
     minAngle: -30
     maxAngle: -58
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_autorifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_autorifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -255,7 +255,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_autorifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_autorifle.rsi
     quickEquip: false
     slots:
     - Back
@@ -293,7 +293,7 @@
     minAngle: -30
     maxAngle: -58
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_autorifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_autorifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -301,7 +301,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_autorifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_autorifle.rsi
     quickEquip: false
     slots:
     - Back
@@ -339,7 +339,7 @@
     minAngle: -34
     maxAngle: -63
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle_proto.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle_proto.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -347,7 +347,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle_proto.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle_proto.rsi
     quickEquip: false
     slots:
     - Back
@@ -387,7 +387,7 @@
     minAngle: -34
     maxAngle: -63
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -395,7 +395,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle.rsi
     quickEquip: false
     slots:
     - Back
@@ -433,7 +433,7 @@
     minAngle: -34
     maxAngle: -63
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -441,7 +441,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
     quickEquip: false
     slots:
     - Back
@@ -479,7 +479,7 @@
     minAngle: -34
     maxAngle: -63
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_urban.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_urban.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -487,7 +487,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_urban.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_urban.rsi
     quickEquip: false
     slots:
     - Back
@@ -527,7 +527,7 @@
     minAngle: -34
     maxAngle: -63
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/multiplas.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/multiplas.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -535,7 +535,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/multiplas.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/multiplas.rsi
     quickEquip: false
     slots:
     - Back
@@ -573,7 +573,7 @@
     minAngle: -34
     maxAngle: -63
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/wattz3000.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/wattz3000.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -581,7 +581,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/wattz3000.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/wattz3000.rsi
     quickEquip: false
     slots:
     - Back
@@ -619,7 +619,7 @@
     minAngle: -34
     maxAngle: -63
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/wattz2000.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/wattz2000.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -627,7 +627,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/wattz2000.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/wattz2000.rsi
     quickEquip: false
     slots:
     - Back
@@ -663,7 +663,7 @@
   description: A massive plasma gun with a pretty sharp cannon, this gun is feed with plasma shells.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_caster.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_caster.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -671,7 +671,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_caster.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/plasma_caster.rsi
     quickEquip: false
     slots:
     - Back
@@ -715,7 +715,7 @@
   description: A minigun, but laser for those who really needed an upscaling.
   components:
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_gatling.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_gatling.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -723,7 +723,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_gatling.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Battery/laser_gatling.rsi
     quickEquip: false
     slots:
     - Back

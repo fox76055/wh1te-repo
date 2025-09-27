@@ -8,5 +8,5 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Fun/toys.rsi
+    - sprite: /Objects/Fun/toys.rsi
       state: synb

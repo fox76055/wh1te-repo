@@ -9,7 +9,7 @@
   - type: Food
     requiresSpecialDigestion: true
   - type: Sprite
-    sprite: Objects/Consumable/Food/cottonburger.rsi
+    sprite: /Objects/Consumable/Food/cottonburger.rsi
     layers:
     - state: cottonbun
   - type: SolutionContainerManager
@@ -48,7 +48,7 @@
   - type: Sprite
     drawdepth: Mobs
     noRot: true
-    sprite: Objects/Consumable/Food/cottonburger.rsi
+    sprite: /Objects/Consumable/Food/cottonburger.rsi
     layers:
     - state: cottonbun_bottom
     - map: ["foodSequenceLayers"]
@@ -88,7 +88,7 @@
   - type: Food
     requiresSpecialDigestion: true
   - type: Sprite
-    sprite: Objects/Consumable/Food/cottonburger.rsi
+    sprite: /Objects/Consumable/Food/cottonburger.rsi
     layers:
     - state: cottonbun_top
   - type: SolutionContainerManager

@@ -6,7 +6,7 @@
   description: "Out of every station in the NyanoTrasen jurisdiction, Saucer was rated #1 out of 5! Congratulations!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Vordenburg.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Vordenburg.rsi
     state: poster_saucer1
 
 - type: entity
@@ -16,7 +16,7 @@
   description: "You have been lied to. There is no \"Big Bread.\" It is not real. Please stop looking for it."
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: BreadLies
 
 - type: entity
@@ -26,7 +26,7 @@
   description: "Ayayayaya."
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/misc.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/misc.rsi
     state: poster_ayaya
 
 # Legit
@@ -37,7 +37,7 @@
   description: "This is your first time here. If this station feels familiar, immediately alert a NanoTrasen employee."
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Vordenburg.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Vordenburg.rsi
     state: poster_dejavu
 
 - type: entity
@@ -47,7 +47,7 @@
   description: "If there was ever something so soothing enough to keep me from panicking, it was a green blob floating through space with a pair of hands, a shiny red tongue, and big round teeth."
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Vordenburg.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Vordenburg.rsi
     state: poster_dontpanic
 
 - type: entity
@@ -57,7 +57,7 @@
   description: "The Bartender is always there to hear your woes and get you plastered all at the same time. Go have a visit!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: BAR
 
 - type: entity
@@ -67,7 +67,7 @@
   description: "Botany is always hard at work! Stop by and enjoy the best they can offer!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: BotanyFood
 
 - type: entity
@@ -77,7 +77,7 @@
   description: "Bite into a blast of flavour with any of our #1 rated fattening and unhealthy products for your enjoyment! DONK!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: DONK
 
 - type: entity
@@ -87,7 +87,7 @@
   description: "Who needs fruit or veggies? EAT MEAT! Build those muscles and go fight in the arena to show them gains!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: EATMEAT
 
 - type: entity
@@ -97,7 +97,7 @@
   description: "There is not enough bread! MAKE MORE!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: MoreBread
 
 - type: entity
@@ -107,7 +107,7 @@
   description: "Pies are healthy and delicious! Beg your chef to start making some."
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: PIE
 
 - type: entity
@@ -117,7 +117,7 @@
   description: "In the darkest of times there is only one hope, PIZZA! Harass your local Quartermaster to order an emergency crate of pizza now!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Huvy.rsi
     state: PIZZA
 
 - type: entity
@@ -127,7 +127,7 @@
   description: "Possible side effects may include: nausea, upset stomach, inflammation, swelling of the face/throat, rash, fever, headache, dizziness, vomiting and/or diarrhea, easy bruising, seizures, insuppressible yawning, general feeling of discomfort or illness, hives, loss of voice, bleeding gums and/or eyeballs, loss of appetite, increased appetite, sudden onset of explosive crying, x-ray vision, slurred speech, impromptu levitation, incontinence, abrupt uncontrollable outburst of yodeling, insomnia, narcolepsy, leprosy, spontaneous growth of new limbs/genitalia, unstoppable back hair growth, weight loss, weight gain, shrinkage, colorblindness, rectal numbness, acute ability to taste colors, unquenchable bloodlust, restless fingernails, light-sensitivity, compulsion to wear schoolgirl uniforms, scurvy, eagerness to pursue mercenary life, violent craving for goat's blood, insurgent desire to develop a gambling addiction, itchy bumhole. Call your doctor for medical advice about these or any other side effects you may experience." #credit Chris Zappa
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Velcroboy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Velcroboy.rsi
     state: poster_medicate
 
 - type: entity
@@ -137,7 +137,7 @@
   description: "No touching!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/Velcroboy.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/Velcroboy.rsi
     state: poster_notouching
 
 - type: entity
@@ -147,7 +147,7 @@
   description: "An advertisement for crispy fried chicken."
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/CerebralError.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/CerebralError.rsi
     state: poster_ChknDnnr
 
 - type: entity
@@ -157,12 +157,12 @@
   description: "NEW Cornzza! Corn pizza, with a corncob crust that'll make you say 'why does this exist?'."
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/rosysyntax.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/rosysyntax.rsi
     state: poster_corncobpizza
 
 # SAFETY MOTH
 # Actual original art credit to AspEv
-# Some posters are in the upstream posters.yml
+# Some posters are in the upstream /posters.yml
 
 - type: entity
   parent: PosterBase
@@ -171,7 +171,7 @@
   description: Syndie Moth™ tells the viewer to keep the nuclear authentication disk unsecured. "Peace was never an option!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
     state: safetymoth_0
 
 - type: entity
@@ -181,7 +181,7 @@
   description: Safety Moth™ tells the viewer not to poison the station donuts.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
     state: safetymoth_1
 
 - type: entity
@@ -191,7 +191,7 @@
   description: Safety Moth™ informs the viewer of the dangers of Bags of Holding. "Remember! Bags of Holding may be pretty, but they're also pretty dangerous! Never put one inside another!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
     state: safetymoth_2
 
 - type: entity
@@ -201,7 +201,7 @@
   description: Safety Moth™ promotes safe handling of plasma and to keep firefighting equipment within hand reach.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
     state: safetymoth_4
 
 - type: entity
@@ -211,5 +211,5 @@
   description: Safety Moth™ informs the viewer that leaving pills unsupervised on tables could lead to unforeseen consequences. "Hungry critters love to eat everything! Keep your pills safe in crates and pill bottles!"
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
+    sprite: /Nyanotrasen/Structures/Wallmounts/Posters/safetymoth.rsi
     state: safetymoth_9

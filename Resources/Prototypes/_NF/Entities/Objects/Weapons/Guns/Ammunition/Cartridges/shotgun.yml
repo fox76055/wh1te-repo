@@ -41,7 +41,7 @@
   components:
   - type: Sprite
     layers:
-      - sprite: _NF/Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
         state: overpressure
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: CartridgeAmmo

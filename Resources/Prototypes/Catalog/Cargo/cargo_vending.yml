@@ -10,7 +10,7 @@
   id: CrateVendingMachineRestockBooze
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockBoozeFilled
   cost: 400 # Frontier
@@ -21,7 +21,7 @@
   id: CrateVendingMachineRestockChefvend
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockChefvendFilled
   cost: 100 # Frontier
@@ -32,7 +32,7 @@
   id: CrateVendingMachineRestockClothes
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockClothesFilled
   cost: 2480
@@ -43,7 +43,7 @@
   id: CrateVendingMachineRestockAutoDrobe
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockAutoDrobeFilled
   cost: 100 # Frontier: 2500<100
@@ -54,7 +54,7 @@
   id: CrateVendingMachineRestockDinnerware
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockDinnerwareFilled
   cost: 100 # Frontier
@@ -65,7 +65,7 @@
   id: CrateVendingMachineRestockCondimentStation
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockCondimentStationFilled
   cost: 100 # Frontier
@@ -76,7 +76,7 @@
   id: CrateVendingMachineRestockEngineering
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockEngineeringFilled
   cost: 100 # Frontier
@@ -87,7 +87,7 @@
   id: CrateVendingMachineRestockGames
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockGamesFilled
   cost: 100 # Frontier
@@ -98,7 +98,7 @@
   id: CrateVendingMachineRestockHotDrinks
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockHotDrinksFilled
   cost: 400 # Frontier
@@ -109,7 +109,7 @@
   id: CrateVendingMachineRestockMedical
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockMedicalFilled
   cost: 100 # Frontier
@@ -120,7 +120,7 @@
   id: CrateVendingMachineRestockChemVend
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockChemVendFilled
   cost: 100 # Frontier
@@ -131,7 +131,7 @@
   id: CrateVendingMachineRestockNutriMax
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockNutriMaxFilled
   cost: 100 # Frontier
@@ -142,7 +142,7 @@
   id: CrateVendingMachineRestockPTech
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockPTechFilled
   cost: 100 # Frontier
@@ -153,7 +153,7 @@
   id: CrateVendingMachineRestockRobustSoftdrinks
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockRobustSoftdrinksFilled
   cost: 400 # Frontier
@@ -164,7 +164,7 @@
   id: CrateVendingMachineRestockSalvageEquipment
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSalvageEquipmentFilled
   cost: 100 # Frontier 1500<100
@@ -175,7 +175,7 @@
   id: CrateVendingMachineRestockSecTech
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSecTechFilled
   cost: 100 # Frontier
@@ -186,7 +186,7 @@
   id: CrateVendingMachineRestockSeeds
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSeedsFilled
   cost: 100 # Frontier: 3600<100
@@ -197,7 +197,7 @@
   id: CrateVendingMachineRestockSmokes
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSmokesFilled
   cost: 400 # Frontier
@@ -208,7 +208,7 @@
   id: CrateVendingMachineRestockVendomat
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockVendomatFilled
   cost: 100 # Frontier
@@ -219,7 +219,7 @@
   id: CrateVendingMachineRestockRobotics
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockRoboticsFilled
   cost: 100 # Frontier
@@ -230,7 +230,7 @@
   id: CrateVendingMachineRestockTankDispenser
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockTankDispenserFilled
   cost: 100 # Frontier
@@ -241,7 +241,7 @@
   id: CrateVendingMachineRestockHappyHonk
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockHappyHonkFilled
   cost: 400 # Frontier
@@ -252,7 +252,7 @@
   id: CrateVendingMachineRestockGetmoreChocolateCorp
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockGetmoreChocolateCorpFilled
   cost: 400 # Frontier
@@ -263,7 +263,7 @@
   id: CrateVendingMachineRestockChang
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockChangFilled
   cost: 400 # Frontier
@@ -274,7 +274,7 @@
   id: CrateVendingMachineRestockDiscountDans
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockDiscountDansFilled
   cost: 400 # Frontier
@@ -285,7 +285,7 @@
   id: CrateVendingMachineRestockDonut
   abstract: true # Frontier
   icon:
-    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    sprite: /Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockDonutFilled
   cost: 400 # Frontier

@@ -5,7 +5,7 @@
   id: SalvageWeapons
   name: research-technology-salvage-weapons
   icon:
-    sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+    sprite: /Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
     state: icon
   discipline: Arsenal
   tier: 1
@@ -20,7 +20,7 @@
   id: DraconicMunitions
   name: research-technology-draconic-munitions
   icon:
-    sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
     state: incendiarydisplay
   discipline: Arsenal
   tier: 1
@@ -42,7 +42,7 @@
   id: WeaponizedLaserManipulation
   name: research-technology-weaponized-laser-manipulation
   icon:
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi
     state: icon
   discipline: Arsenal
   tier: 1
@@ -55,7 +55,7 @@
   id: NonlethalAmmunition
   name: research-technology-nonlethal-ammunition
   icon:
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
     state: beanbag
   discipline: Arsenal
   tier: 1
@@ -70,7 +70,7 @@
   id: UraniumMunitions
   name: research-technology-uranium-munitions
   icon:
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: /Objects/Materials/Sheets/other.rsi
     state: uranium
   discipline: Arsenal
   tier: 1
@@ -92,7 +92,7 @@
   id: AdvancedRiotControl
   name: research-technology-advanced-riot-control
   icon:
-    sprite: Objects/Weapons/Melee/truncheon.rsi
+    sprite: /Objects/Weapons/Melee/truncheon.rsi
     state: icon
   discipline: Arsenal
   tier: 1
@@ -107,7 +107,7 @@
   id: ExplosiveTechnology
   name: research-technology-explosive-technology
   icon:
-    sprite: Objects/Devices/payload.rsi
+    sprite: /Objects/Devices/payload.rsi
     state: payload-explosive-armed
   discipline: Arsenal
   tier: 1
@@ -125,7 +125,7 @@
   id: SpecialMeans
   name: research-technology-special-means
   icon:
-    sprite: Clothing/Back/Backpacks/electropack.rsi
+    sprite: /Clothing/Back/Backpacks/electropack.rsi
     state: icon
   discipline: Arsenal
   tier: 1
@@ -139,7 +139,7 @@
   id: ConcentratedLaserWeaponry
   name: research-technology-concentrated-laser-weaponry
   icon:
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    sprite: /Objects/Weapons/Guns/Battery/laser_cannon.rsi
     state: icon
   discipline: Arsenal
   tier: 2
@@ -152,7 +152,7 @@
   id: WaveParticleHarnessing
   name: research-technology-wave-particle-harnessing
   icon:
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: /Objects/Weapons/Guns/Battery/xray.rsi
     state: icon
   discipline: Arsenal
   tier: 2
@@ -164,7 +164,7 @@
   id: KineticModifications
   name: research-technology-kinetic-modifications
   icon:
-    sprite: Objects/Tools/upgrade.rsi
+    sprite: /Objects/Tools/upgrade.rsi
     state: display
   discipline: Arsenal
   tier: 2
@@ -178,7 +178,7 @@
   id: BasicShuttleArmament
   name: research-technology-basic-shuttle-armament
   icon:
-    sprite: Structures/Power/cage_recharger.rsi
+    sprite: /Structures/Power/cage_recharger.rsi
     state: full
   discipline: Arsenal
   tier: 2
@@ -202,7 +202,7 @@
   id: PortableMicrofusionWeaponry
   name: research-technology-portable-microfusion-weaponry
   icon:
-    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/advancedlasergun.rsi
     state: icon
   discipline: Arsenal
   tier: 3
@@ -215,7 +215,7 @@
   id: ThermalWeaponry
   name: research-technology-thermal-weaponry
   icon:
-    sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
+    sprite: /Objects/Weapons/Guns/Battery/temp_gun.rsi
     state: icon
   discipline: Arsenal
   tier: 3
@@ -228,7 +228,7 @@
   id: AdvancedShuttleWeapon
   name: research-technology-advanced-shuttle-weapon
   icon:
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Grenade/grenade_cartridge.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Magazine/Grenade/grenade_cartridge.rsi
     state: icon
   discipline: Arsenal
   tier: 3

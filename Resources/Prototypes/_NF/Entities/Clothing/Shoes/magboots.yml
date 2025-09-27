@@ -5,10 +5,10 @@
   description: Security magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/magboots-security.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-security.rsi
     state: icon
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/magboots-security.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-security.rsi
   - type: Magboots
     magbootsAlert: MagbootsSecurity
 
@@ -19,10 +19,10 @@
   description: Mercenary magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/magboots-mercenary.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-mercenary.rsi
     state: icon
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/magboots-mercenary.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-mercenary.rsi
   - type: Magboots
     magbootsAlert: MagbootsMercenary
 
@@ -33,10 +33,10 @@
   description: Magnetic galoshes, often used during cleaning activity to ensure the user remains safely attached to the floor.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/magboots-galoshes.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-galoshes.rsi
     state: icon
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/magboots-galoshes.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-galoshes.rsi
   - type: Magboots
     magbootsAlert: MagbootsGaloshes
   - type: NoSlip
@@ -47,10 +47,10 @@
   name: NFSD magboots
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-nfsd.rsi
     state: icon
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-nfsd.rsi
   - type: Magboots
     magbootsAlert: MagbootsNfsd
   - type: ClothingSpeedModifier
@@ -64,9 +64,9 @@
   description: Pirate magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/magboots-pirate.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-pirate.rsi
     state: icon
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/magboots-pirate.rsi
+    sprite: /_NF/Clothing/Shoes/Boots/magboots-pirate.rsi
   - type: Magboots
     magbootsAlert: MagbootsPirate

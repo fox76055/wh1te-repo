@@ -47,9 +47,9 @@
   description: "It's a baseball hat in a tasteless blue colour."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/bluesoft.rsi
+    sprite: /Clothing/Head/Soft/bluesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/bluesoft.rsi
+    sprite: /Clothing/Head/Soft/bluesoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBluesoft]
@@ -63,9 +63,9 @@
   description: "It's a baseball hat painted in Cargo colours."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/cargosoft.rsi
+    sprite: /Clothing/Head/Soft/cargosoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/cargosoft.rsi
+    sprite: /Clothing/Head/Soft/cargosoft.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -92,9 +92,9 @@
   description: "It's a baseball hat painted in the Quartermaster's colors."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/qmsoft.rsi
+    sprite: /Clothing/Head/Soft/qmsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/qmsoft.rsi
+    sprite: /Clothing/Head/Soft/qmsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatQMsoft]
@@ -108,9 +108,9 @@
   description: It's a baseball hat painted in Command colours.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/commandsoft.rsi
+    sprite: /Clothing/Head/Soft/commandsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/commandsoft.rsi
+    sprite: /Clothing/Head/Soft/commandsoft.rsi
 
 - type: entity
   parent: [ ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCommandSoft ]
@@ -124,9 +124,9 @@
   description: A baseball bat in corporation colors.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/corpsoft.rsi
+    sprite: /Clothing/Head/Soft/corpsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/corpsoft.rsi
+    sprite: /Clothing/Head/Soft/corpsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCorpsoft]
@@ -140,9 +140,9 @@
   description: "It's a baseball hat in a tasteless green colour."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/greensoft.rsi
+    sprite: /Clothing/Head/Soft/greensoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/greensoft.rsi
+    sprite: /Clothing/Head/Soft/greensoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreensoft]
@@ -156,9 +156,9 @@
   description: "It's a baseball hat in a tasteless black colour."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/blacksoft.rsi
+    sprite: /Clothing/Head/Soft/blacksoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/blacksoft.rsi
+    sprite: /Clothing/Head/Soft/blacksoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBlacksoft]
@@ -172,9 +172,9 @@
   description: "It's a baseball hat in a tasteless grey colour."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/greysoft.rsi
+    sprite: /Clothing/Head/Soft/greysoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/greysoft.rsi
+    sprite: /Clothing/Head/Soft/greysoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreysoft]
@@ -188,9 +188,9 @@
   description: "It's a baseball hat in a tasteless white colour."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/mimesoft.rsi
+    sprite: /Clothing/Head/Soft/mimesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/mimesoft.rsi
+    sprite: /Clothing/Head/Soft/mimesoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMimesoft]
@@ -204,9 +204,9 @@
   description: It's a baseball hat in a good-looking orange colour.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/orangesoft.rsi
+    sprite: /Clothing/Head/Soft/orangesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/orangesoft.rsi
+    sprite: /Clothing/Head/Soft/orangesoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatOrangesoft]
@@ -220,9 +220,9 @@
   description: It's a baseball hat in a tasteless purple colour.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/purplesoft.rsi
+    sprite: /Clothing/Head/Soft/purplesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/purplesoft.rsi
+    sprite: /Clothing/Head/Soft/purplesoft.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -249,9 +249,9 @@
   description: It's a baseball hat in a tasteless red colour.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/redsoft.rsi
+    sprite: /Clothing/Head/Soft/redsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/redsoft.rsi
+    sprite: /Clothing/Head/Soft/redsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatRedsoft]
@@ -265,9 +265,9 @@
   description: It's a robust baseball hat in tasteful red colour.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/secsoft.rsi
+    sprite: /Clothing/Head/Soft/secsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/secsoft.rsi
+    sprite: /Clothing/Head/Soft/secsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSecsoft]
@@ -281,9 +281,9 @@
   description: A yellow baseball hat.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/yellowsoft.rsi
+    sprite: /Clothing/Head/Soft/yellowsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/yellowsoft.rsi
+    sprite: /Clothing/Head/Soft/yellowsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatYellowsoft]
@@ -297,9 +297,9 @@
   description: A truly.. bizarre accessory.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/bizarresoft.rsi
+    sprite: /Clothing/Head/Soft/bizarresoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/bizarresoft.rsi
+    sprite: /Clothing/Head/Soft/bizarresoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBizarreSoft]
@@ -313,9 +313,9 @@
   description: "It's a paramedic's baseball hat with a medical logo."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/paramedicsoft.rsi
+    sprite: /Clothing/Head/Soft/paramedicsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/paramedicsoft.rsi
+    sprite: /Clothing/Head/Soft/paramedicsoft.rsi
   - type: Tag
     tags:
     - ClothMade

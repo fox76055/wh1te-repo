@@ -5,7 +5,7 @@
   id: Hydroponics
   name: research-technology-basic-hydroponics
   icon:
-    sprite: Structures/Machines/seed_extractor.rsi
+    sprite: /Structures/Machines/seed_extractor.rsi
     state: seedextractor
   discipline: CivilianServices
   tier: 1
@@ -19,7 +19,7 @@
   id: CritterMechs
   name: research-technology-critter-mechs
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     state: hamtr
   discipline: CivilianServices
   tier: 1
@@ -39,7 +39,7 @@
   id: AudioVisualCommunication
   name: research-technology-audio-visual-communication
   icon:
-    sprite: Structures/Wallmounts/camera.rsi
+    sprite: /Structures/Wallmounts/camera.rsi
     state: cameracase
   discipline: CivilianServices
   tier: 1
@@ -58,7 +58,7 @@
   id: AdvancedEntertainment
   name: research-technology-advanced-entertainment
   icon:
-    sprite: Structures/Machines/computers.rsi
+    sprite: /Structures/Machines/computers.rsi
     state: television
   discipline: CivilianServices
   tier: 1
@@ -74,7 +74,7 @@
   id: MeatManipulation
   name: research-technology-meat-manipulation
   icon:
-    sprite: Structures/Machines/fat_sucker.rsi
+    sprite: /Structures/Machines/fat_sucker.rsi
     state: display
   discipline: CivilianServices
   tier: 1
@@ -91,7 +91,7 @@
   id: FauxAstroTiles
   name: research-technology-faux-astro-tiles
   icon:
-    sprite: Objects/Tiles/tile.rsi
+    sprite: /Objects/Tiles/tile.rsi
     state: astroice
   discipline: CivilianServices
   tier: 2
@@ -108,7 +108,7 @@
   id: BiochemicalStasis
   name: research-technology-biochemical-stasis
   icon:
-    sprite: Structures/Machines/stasis_bed.rsi
+    sprite: /Structures/Machines/stasis_bed.rsi
     state: icon
   discipline: CivilianServices
   tier: 2
@@ -123,7 +123,7 @@
   id: MechanizedTreatment
   name: research-technology-mechanized-treatment
   icon:
-    sprite: Mobs/Silicon/chassis.rsi
+    sprite: /Mobs/Silicon/chassis.rsi
     state: medical
   discipline: CivilianServices
   tier: 2
@@ -136,7 +136,7 @@
   id: AdvancedCleaning
   name: research-technology-advanced-cleaning
   icon:
-    sprite: Objects/Specific/Janitorial/advmop.rsi
+    sprite: /Objects/Specific/Janitorial/advmop.rsi
     state: advmop
   discipline: CivilianServices
   tier: 2
@@ -152,7 +152,7 @@
   id: HONKMech
   name: research-technology-honk-mech
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: /Objects/Specific/Mech/mecha.rsi
     state: honker
   discipline: CivilianServices
   tier: 2
@@ -172,7 +172,7 @@
   id: AdvancedSpray
   name: research-technology-advanced-spray
   icon:
-    sprite: Objects/Weapons/Guns/Basic/spraynozzle.rsi
+    sprite: /Objects/Weapons/Guns/Basic/spraynozzle.rsi
     state: icon
   discipline: CivilianServices
   tier: 2
@@ -188,7 +188,7 @@
 #   id: BluespaceCargoTransport
 #   name: research-technology-bluespace-cargo-transport
 #   icon:
-#     sprite: Structures/cargo_telepad.rsi
+#     sprite: /Structures/cargo_telepad.rsi
 #     state: display
 #   discipline: CivilianServices
 #   tier: 2
@@ -202,7 +202,7 @@
   id: PushHorn
   name: research-technology-clowning-utilities
   icon:
-    sprite: Objects/Fun/push_horn.rsi
+    sprite: /Objects/Fun/push_horn.rsi
     state: icon
   discipline: CivilianServices
   tier: 2
@@ -216,7 +216,7 @@
   id: QuantumFiberWeaving
   name: research-technology-quantum-fiber-weaving
   icon:
-    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    sprite: /Clothing/Shoes/Boots/speedboots.rsi
     state: icon
   discipline: CivilianServices
   tier: 3
@@ -228,7 +228,7 @@
   id: BluespaceChemistry
   name: research-technology-bluespace-chemistry
   icon:
-    sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
+    sprite: /Objects/Specific/Chemistry/beaker_bluespace.rsi
     state: beakerbluespace
   discipline: CivilianServices
   tier: 3
@@ -243,7 +243,7 @@
   id: LauncherSyringe
   name: research-technology-launcher-syringe
   icon:
-    sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
+    sprite: /Objects/Weapons/Guns/Cannons/syringe_gun.rsi
     state: syringe_gun
   discipline: CivilianServices
   tier: 3

@@ -7,7 +7,7 @@
   description: A battlemap for your epic dungeon exploring to begin, pieces not included!
   components:
     - type: Sprite
-      sprite: Objects/Fun/Tabletop/grassbm.rsi
+      sprite: /Objects/Fun/Tabletop/grassbm.rsi
       state: icon
     - type: TabletopGame
       boardName: tabletop-battlemap-board-name
@@ -22,7 +22,7 @@
   description: A battlemap for your epic dungeon exploring to begin, pieces not included!
   components:
     - type: Sprite
-      sprite: Objects/Fun/Tabletop/Battlemaps/grassbm.rsi
+      sprite: /Objects/Fun/Tabletop/Battlemaps/grassbm.rsi
     - type: TabletopGame
       setup:
         !type:TabletopEmptySetup
@@ -35,7 +35,7 @@
   description: A battlemap for your epic moon exploring to begin, pieces not included!
   components:
     - type: Sprite
-      sprite: Objects/Fun/Tabletop/Battlemaps/moonbm.rsi
+      sprite: /Objects/Fun/Tabletop/Battlemaps/moonbm.rsi
     - type: TabletopGame
       setup:
         !type:TabletopEmptySetup
@@ -48,7 +48,7 @@
   description: A battlemap for your epic beach episodes to begin, pieces not included!
   components:
     - type: Sprite
-      sprite: Objects/Fun/Tabletop/Battlemaps/sandbm.rsi
+      sprite: /Objects/Fun/Tabletop/Battlemaps/sandbm.rsi
     - type: TabletopGame
       setup:
         !type:TabletopEmptySetup
@@ -61,7 +61,7 @@
   description: A battlemap for your frigid exploring to begin, pieces not included! # if this isn't funny enough i can remove it
   components:
     - type: Sprite
-      sprite: Objects/Fun/Tabletop/Battlemaps/snowbm.rsi
+      sprite: /Objects/Fun/Tabletop/Battlemaps/snowbm.rsi
     - type: TabletopGame
       setup:
         !type:TabletopEmptySetup
@@ -74,7 +74,7 @@
   description: A battlemap for your epic space exploring to begin, pieces not included!
   components:
     - type: Sprite
-      sprite: Objects/Fun/Tabletop/Battlemaps/shipbm.rsi
+      sprite: /Objects/Fun/Tabletop/Battlemaps/shipbm.rsi
     - type: TabletopGame
       size: 543, 543
       setup:
@@ -89,7 +89,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/Battlemaps/grassbm_tabletop.rsi
+    sprite: /Objects/Fun/Tabletop/Battlemaps/grassbm_tabletop.rsi
     state: tabletop
     noRot: false
     drawdepth: FloorTiles
@@ -101,7 +101,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/Battlemaps/moonbm_tabletop.rsi
+    sprite: /Objects/Fun/Tabletop/Battlemaps/moonbm_tabletop.rsi
     state: tabletop
 
 - type: entity
@@ -111,7 +111,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/Battlemaps/sandbm_tabletop.rsi
+    sprite: /Objects/Fun/Tabletop/Battlemaps/sandbm_tabletop.rsi
     state: tabletop
 
 - type: entity
@@ -121,7 +121,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/Battlemaps/snowbm_tabletop.rsi
+    sprite: /Objects/Fun/Tabletop/Battlemaps/snowbm_tabletop.rsi
     state: tabletop
 
 - type: entity
@@ -131,5 +131,5 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/Battlemaps/shipbm_tabletop.rsi
+    sprite: /Objects/Fun/Tabletop/Battlemaps/shipbm_tabletop.rsi
     state: tabletop

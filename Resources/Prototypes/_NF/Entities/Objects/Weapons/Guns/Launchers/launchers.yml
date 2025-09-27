@@ -6,12 +6,12 @@
   description: PLOOP.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
+    sprite: /Objects/Weapons/Guns/Launchers/china_lake.rsi
     layers:
       - state: icon
         map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
+    sprite: /Objects/Weapons/Guns/Launchers/china_lake.rsi
     slots:
     - Back
     - suitStorage
@@ -27,14 +27,14 @@
   description: A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
+    sprite: /Objects/Weapons/Guns/Launchers/rocket.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
+    sprite: /Objects/Weapons/Guns/Launchers/rocket.rsi
 
 - type: entity
   id: NFWeaponLauncherMultipleRocket
@@ -52,12 +52,12 @@
   description: Kaboom!
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
+      sprite: /Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
       layers:
         - state: icon
           map: ["enum.GunVisualLayers.Base"]
     - type: Clothing
-      sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
+      sprite: /Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
     - type: BallisticAmmoProvider
       proto: NFCannonBall
 
@@ -85,9 +85,9 @@
   description: The Rapid Parcel Delivery System, a mail carrier's right hand. Launches mail capsules.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Launchers/mail.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Launchers/mail.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Launchers/mail.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Launchers/mail.rsi
     slots:
     - Back
     - Belt
@@ -109,12 +109,12 @@
   description: Single shot grenade launcher able to lob both grenades and darts!
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
   - type: StaticPrice
     price: 50
   - type: NFWeaponDetails

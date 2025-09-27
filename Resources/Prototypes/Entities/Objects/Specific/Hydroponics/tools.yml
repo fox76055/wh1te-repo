@@ -9,7 +9,7 @@
     - Hoe
     - BotanyHoe
   - type: Sprite
-    sprite: Objects/Tools/Hydroponics/hoe.rsi
+    sprite: /Objects/Tools/Hydroponics/hoe.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 135
@@ -18,7 +18,7 @@
       types:
         Slash: 6
   - type: Item
-    sprite: Objects/Tools/Hydroponics/hoe.rsi
+    sprite: /Objects/Tools/Hydroponics/hoe.rsi
   - type: PhysicalComposition
     materialComposition:
       Steel: 100
@@ -33,7 +33,7 @@
     tags:
     - PlantSampleTaker
   - type: Sprite
-    sprite: Objects/Tools/Hydroponics/clippers.rsi
+    sprite: /Objects/Tools/Hydroponics/clippers.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 90
@@ -41,7 +41,7 @@
       types:
         Slash: 7
   - type: Item
-    sprite: Objects/Tools/Hydroponics/clippers.rsi
+    sprite: /Objects/Tools/Hydroponics/clippers.rsi
     storedRotation: -90
   - type: PhysicalComposition
     materialComposition:
@@ -55,7 +55,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Tools/Hydroponics/scythe.rsi
+    sprite: /Objects/Tools/Hydroponics/scythe.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 135
@@ -65,7 +65,7 @@
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Tools/Hydroponics/scythe.rsi
+    sprite: /Objects/Tools/Hydroponics/scythe.rsi
     slots:
     - back
   - type: StaticPrice
@@ -86,7 +86,7 @@
     - BotanyHatchet
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Tools/Hydroponics/hatchet.rsi
+    sprite: /Objects/Tools/Hydroponics/hatchet.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 135
@@ -96,7 +96,7 @@
         Slash: 8
         Piercing: 2
   - type: Item
-    sprite: Objects/Tools/Hydroponics/hatchet.rsi
+    sprite: /Objects/Tools/Hydroponics/hatchet.rsi
   - type: PhysicalComposition
     materialComposition:
       Steel: 100
@@ -111,7 +111,7 @@
     tags:
     - BotanyShovel
   - type: Sprite
-    sprite: Objects/Tools/Hydroponics/spade.rsi
+    sprite: /Objects/Tools/Hydroponics/spade.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 45
@@ -122,7 +122,7 @@
     soundHit:
       collection: MetalThud
   - type: Item
-    sprite: Objects/Tools/Hydroponics/spade.rsi
+    sprite: /Objects/Tools/Hydroponics/spade.rsi
   - type: Shovel
     speedModifier: 0.75 # slower at digging than a full-sized shovel
   - type: PhysicalComposition
@@ -136,7 +136,7 @@
   description: A bag for botanists to easily move their huge harvests.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/Equipment/plant_bag.rsi
+    sprite: /Objects/Specific/Hydroponics/Equipment/plant_bag.rsi
     # Frontier: layered sprite
     layers:
     - state: icon

@@ -66,12 +66,12 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Wallmounts/posters.rsi
+    - sprite: /Structures/Wallmounts/posters.rsi
       state: random_anything
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: n
       offset: -0.2,0
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: f
       offset: 0.2,0
   - type: EntityTableSpawner
@@ -96,12 +96,12 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Wallmounts/posters.rsi
+    - sprite: /Structures/Wallmounts/posters.rsi
       state: random_anything
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: l
       offset: -0.2,0
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: v
       offset: 0.2,0
   - type: EntityTableSpawner
@@ -118,9 +118,9 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Wallmounts/posters.rsi
+    - sprite: /Structures/Wallmounts/posters.rsi
       state: random_anything
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: g
       color: "#00ff00"
   - type: EntityTableSpawner
@@ -137,12 +137,12 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Structures/Wallmounts/posters.rsi
+    - sprite: /Structures/Wallmounts/posters.rsi
       state: random_anything
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: f
       offset: -0.2,0
-    - sprite: Effects/crayondecals.rsi
+    - sprite: /Effects/crayondecals.rsi
       state: s
       offset: 0.2,0
   - type: EntityTableSpawner

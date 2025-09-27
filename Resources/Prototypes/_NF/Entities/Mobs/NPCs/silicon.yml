@@ -23,7 +23,7 @@
   description: Need a ride?
   components:
   - type: Sprite
-    sprite: Mobs/Silicon/Bots/taxibot.rsi
+    sprite: /Mobs/Silicon/Bots/taxibot.rsi
     layers:
     - state: taxibot
       map: ["enum.VehicleVisualLayers.AutoAnimate"]
@@ -47,7 +47,7 @@
   description: Need a ride? IN SPAAAAACE!
   components:
   - type: Sprite
-    sprite: _NF/Mobs/Silicons/Bots/hovertaxibot.rsi
+    sprite: /_NF/Mobs/Silicons/Bots/hovertaxibot.rsi
     layers:
     - state: hull
     - state: engines
@@ -98,7 +98,7 @@
     factions:
     - NFSyndicate
   - type: Sprite
-    sprite: _NF/Mobs/Silicons/Bots/syndicatecleanbot.rsi
+    sprite: /_NF/Mobs/Silicons/Bots/syndicatecleanbot.rsi
   - type: HTN
     rootTask:
       task: CleanbotCompound

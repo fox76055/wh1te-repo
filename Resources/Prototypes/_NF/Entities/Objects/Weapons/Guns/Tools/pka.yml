@@ -132,11 +132,11 @@
   description: Fires high-damage kinetic bolts at a short range, strong enough to destroy hard rocks.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_cannon.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_cannon.rsi
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_cannon.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_cannon.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_cannon.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_cannon.rsi
 
 #region Frontier
 - type: entity
@@ -144,14 +144,14 @@
   parent: [ NFBaseWeaponFramePkaNanotrasen, NFBaseWeaponPkaChamberKineticMedium ]
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
     storedSprite:
-      sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+      sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
       state: storage
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
   - type: Construction
     graph: PKASawn
     node: start
@@ -164,11 +164,11 @@
   description: Boundaries and rules are meant to be broken; otherwise, there will be no progress, but this thing here is a good argument against that statement.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_sawn.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_sawn.rsi
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_sawn.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_sawn.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_sawn.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Basic/kinetic_accelerator_sawn.rsi
   - type: Construction
     graph: PKASawn
     node: pkasawn

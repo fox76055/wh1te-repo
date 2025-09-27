@@ -9,10 +9,10 @@
     layers:
       - state: red
         scale: 0.7, 0.7
-      - sprite: _NF/Mobs/Aliens/Carps/wyvern.rsi
+      - sprite: /_NF/Mobs/Aliens/Carps/wyvern.rsi
         scale: 0.5, 0.5
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: /_NF/Markers/general.rsi
         state: questionmark
         color: red
   - type: EntityTableSpawner

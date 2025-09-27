@@ -27,7 +27,7 @@
   - type: BallisticAmmoProvider
     proto: N14Cartridge44Magnum
   - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/44loader.rsi
+    sprite: /_Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/44loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]

@@ -22,7 +22,7 @@
     stampedColor: "#CC6633"
     stampState: "paper_stamp-nf-stc"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-stc
 
 - type: entity
@@ -37,7 +37,7 @@
     stampState: "paper_stamp-nf-sheriff"
     protected: True
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-sheriff
 
 - type: entity
@@ -50,7 +50,7 @@
     stampedColor: "#2ea5e6"
     stampState: "paper_stamp-nf-doctor"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-doctor
 
 - type: entity
@@ -63,7 +63,7 @@
     stampedColor: "#db8727"
     stampState: "paper_stamp-nf-engineer"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-engineer
 
 - type: entity
@@ -77,7 +77,7 @@
     stampedColor: "#61943a"
     stampState: "paper_stamp-nf-pal"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-pal
 
 - type: entity
@@ -91,7 +91,7 @@
     stampedColor: "#5b97bc"
     stampState: "paper_stamp-cmo"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-doc
 
 - type: entity
@@ -105,7 +105,7 @@
     stampedColor: "#51703b"
     stampState: "paper_stamp-nf-bailiff"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-bailiff
 
 - type: entity
@@ -119,5 +119,5 @@
     stampedColor: "#d4760b"
     stampState: "paper_stamp-nf-plant-manager"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: /_NF/Objects/Misc/stamps.rsi
     state: stamp-plant-manager

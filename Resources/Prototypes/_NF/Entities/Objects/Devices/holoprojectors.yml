@@ -5,10 +5,10 @@
   description: Creates a solid but fragile holographic barrier.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi
+    sprite: /_NF/Objects/Devices/Holoprojectors/nfsd.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi
+    sprite: /_NF/Objects/Devices/Holoprojectors/nfsd.rsi
   - type: HolosignProjector
     signProto: HolosignNfsd
 
@@ -18,10 +18,10 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi
+    sprite: /_NF/Objects/Devices/Holoprojectors/nfsd.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi
+    sprite: /_NF/Objects/Devices/Holoprojectors/nfsd.rsi
   - type: HolosignProjector
     signProto: HolosignNfsd
   - type: ItemSlots
@@ -39,10 +39,10 @@
     signProto: SpawnerHoloGraffitiRandom
     chargeUse: 60
   - type: Sprite
-    sprite: _NF/Objects/Devices/Holoprojectors/graffiti.rsi
+    sprite: /_NF/Objects/Devices/Holoprojectors/graffiti.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Devices/Holoprojectors/graffiti.rsi
+    sprite: /_NF/Objects/Devices/Holoprojectors/graffiti.rsi
   - type: Tag
     tags:
     - HolofanProjector

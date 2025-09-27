@@ -11,7 +11,7 @@
       - cheesy
       - leafy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: herbycheese
   - type: SolutionContainerManager
     solutions:
@@ -38,7 +38,7 @@
       - onion
       - tomato
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: mothsaladbase
   - type: SolutionContainerManager
     solutions:
@@ -74,10 +74,10 @@
     maxTransferAmount: 15
   - type: Sprite
     netsync: false
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: condimentbowl
   - type: Icon
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: condimentbowl
 
 # Tomato Sauce
@@ -181,7 +181,7 @@
     trash:
       - FoodPlateSmall
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: squeakingstirfry
   - type: SolutionContainerManager
     solutions:
@@ -206,7 +206,7 @@
     flavors:
       - seeds
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: toastedseeds
   - type: SolutionContainerManager
     solutions:
@@ -231,7 +231,7 @@
       - sweet
       - spicy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: sweetchilicabbagewrap
   - type: SolutionContainerManager
     solutions:
@@ -267,7 +267,7 @@
         - ReagentId: Protein
           Quantity: 1
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: bakedcheese
 
 - type: entity
@@ -281,7 +281,7 @@
       - cheesy
       - bread
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: bakedcheeseplatter
   - type: SolutionContainerManager
     solutions:
@@ -310,7 +310,7 @@
     count: 6
     slice: FoodMothBakedRicePortion
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: bakedrice
   - type: SolutionContainerManager
     solutions:
@@ -336,7 +336,7 @@
       - cabbage
       - rice
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: bakedrice-portion
   - type: SolutionContainerManager
     solutions:
@@ -369,7 +369,7 @@
     trash:
       - FoodPlate
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: greenlasagne
   - type: SolutionContainerManager
     solutions:
@@ -396,7 +396,7 @@
       #- pesto
       - pasta
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: greenlasagne-slice
   - type: SolutionContainerManager
     solutions:
@@ -421,7 +421,7 @@
     flavors:
       - corn
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: bakedcorn
   - type: SolutionContainerManager
     solutions:
@@ -445,7 +445,7 @@
       - corn
       - butter
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: butteredbakedcorn
   - type: SolutionContainerManager
     solutions:
@@ -470,7 +470,7 @@
       - bread
       - oil
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: mozzarellasticks
   - type: SolutionContainerManager
     solutions:
@@ -496,7 +496,7 @@
       - bread
       - cheesy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: macballs
   - type: SolutionContainerManager
     solutions:
@@ -525,7 +525,7 @@
     flavors:
       - cotton
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: cottonsoup
   - type: SolutionContainerManager
     solutions:
@@ -555,7 +555,7 @@
       - creamy
       - potatoes
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: cheesesoup
   - type: SolutionContainerManager
     solutions:
@@ -583,7 +583,7 @@
       - sour
       - seeds
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: seedsoup
   - type: SolutionContainerManager
     solutions:
@@ -608,7 +608,7 @@
       - tomato
       - metallic
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: eyesoup
   - type: SolutionContainerManager
     solutions:
@@ -633,7 +633,7 @@
       - savory #cabbage
       - spicy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: beanstew
   - type: SolutionContainerManager
     solutions:
@@ -662,7 +662,7 @@
       - potatoes
       - carrot
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: oatstew
   - type: SolutionContainerManager
     solutions:
@@ -688,7 +688,7 @@
       - spicy
       - pink
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: heartburnsoup
   - type: SolutionContainerManager
     solutions:
@@ -717,7 +717,7 @@
       - bacon
       - rice
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: huamulancongee
   - type: SolutionContainerManager
     solutions:
@@ -739,7 +739,7 @@
     flavors:
       - corn
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: cornmealporridge
   - type: SolutionContainerManager
     solutions:
@@ -763,7 +763,7 @@
       - cheesy
       - corn
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: cheesyporridge
   - type: SolutionContainerManager
     solutions:
@@ -791,7 +791,7 @@
       - eggplant
       - tomato
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: eggplantpolenta
   - type: SolutionContainerManager
     solutions:
@@ -818,7 +818,7 @@
       - sour
       - tomato
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: /Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: chili-hot
@@ -850,7 +850,7 @@
       - tomato
       - leafy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: capresesalad
   - type: SolutionContainerManager
     solutions:
@@ -875,7 +875,7 @@
       - leafy
       - bread
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: fleetsalad
   - type: SolutionContainerManager
     solutions:
@@ -902,7 +902,7 @@
       - leafy
       - bread
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: cottonsalad
   - type: SolutionContainerManager
     solutions:
@@ -930,7 +930,7 @@
       - tomato
       - chili
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: kachumbarisalad
   - type: SolutionContainerManager
     solutions:
@@ -962,7 +962,7 @@
   - type: SliceableFood
     slice: FoodMothPizzaFirecrackerSlice
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-firecracker
   - type: SolutionContainerManager
     solutions:
@@ -991,7 +991,7 @@
       - corn
       - cheesy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-firecracker-slice
   - type: SolutionContainerManager
     solutions:
@@ -1022,7 +1022,7 @@
   - type: SliceableFood
     slice: FoodMothPizzaFiveCheeseSlice
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-fivecheese
 
 - type: entity
@@ -1037,7 +1037,7 @@
       - oily
       - cheesy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-fivecheese-slice
 # Tastes like crust, cheese, more cheese, excessive amount of cheese
 
@@ -1056,7 +1056,7 @@
   - type: SliceableFood
     slice: FoodMothPizzaPestoSlice
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-pesto
   - type: SolutionContainerManager
     solutions:
@@ -1083,7 +1083,7 @@
       - nutty
       - cheesy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-pesto-slice
   - type: SolutionContainerManager
     solutions:
@@ -1112,7 +1112,7 @@
   - type: SliceableFood
     slice: FoodMothPizzaCottonSlice
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-cotton
   - type: Food
     requiresSpecialDigestion: true
@@ -1130,7 +1130,7 @@
       - cotton
       - cheesy
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: pizza-cotton-slice
   - type: Food
     requiresSpecialDigestion: true
@@ -1151,7 +1151,7 @@
       - cheesy
       - honey
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: cheesecakes
   - type: SolutionContainerManager
     solutions:
@@ -1181,7 +1181,7 @@
     count: 5
     slice: FoodMothMothmallowSlice
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: mothmallow
   - type: SolutionContainerManager
     solutions:
@@ -1211,7 +1211,7 @@
       - sweet
       - sublime
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     state: mothmallow-slice
   - type: SolutionContainerManager
     solutions:
@@ -1236,7 +1236,7 @@
   description: A delicious, spongy and dusty little cake.
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Consumable/Food/moth.rsi
+    sprite: /Nyanotrasen/Objects/Consumable/Food/moth.rsi
     layers:
       - state: moffin
         map: [ "enum.DamageStateVisualLayers.Base" ]

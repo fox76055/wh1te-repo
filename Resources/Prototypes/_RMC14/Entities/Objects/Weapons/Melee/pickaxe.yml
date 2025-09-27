@@ -10,10 +10,10 @@
     slots:
     - Belt
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Melee/pickaxe.rsi
+    sprite: /_RMC14/Objects/Weapons/Melee/pickaxe.rsi
     state: icon
   - type: Item
-    sprite: _RMC14/Objects/Weapons/Melee/pickaxe.rsi
+    sprite: /_RMC14/Objects/Weapons/Melee/pickaxe.rsi
     size: Large
   - type: Sharp
   - type: MeleeWeapon

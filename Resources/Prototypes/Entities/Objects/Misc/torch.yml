@@ -16,7 +16,7 @@
       litSound:
         path: /Audio/Items/Flare/flare_on.ogg
     - type: Sprite
-      sprite: Objects/Misc/torch.rsi
+      sprite: /Objects/Misc/torch.rsi
       layers:
         - map: [ enum.ExpendableLightVisualLayers.Base ]
           state: torch_unlit
@@ -28,10 +28,10 @@
         - map: [ enum.ExpendableLightVisualLayers.Overlay ]
           state: torch_nocloth
     - type: Icon
-      sprite: Objects/Misc/torch.rsi
+      sprite: /Objects/Misc/torch.rsi
       state: icon
     - type: Item
-      sprite: Objects/Misc/torch.rsi
+      sprite: /Objects/Misc/torch.rsi
       heldPrefix: unlit
     - type: Construction
       graph: LightTorch

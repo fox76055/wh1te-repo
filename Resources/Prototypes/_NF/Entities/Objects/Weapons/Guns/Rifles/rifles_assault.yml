@@ -7,9 +7,9 @@
     An iconic weapon of war. An illegal firearm often used by Syndicate agents.
   components:
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 4
@@ -23,9 +23,9 @@
     An older bullpup carbine model, with an attached underbarrel grenade launcher. An illegal firearm often used by Syndicate agents.
   components:
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
+    sprite: /Objects/Weapons/Guns/Rifles/carbine.rsi
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
+    sprite: /Objects/Weapons/Guns/Rifles/carbine.rsi
 
 - type: entity
   id: NFWeaponRifleAssaultLecter
@@ -35,9 +35,9 @@
     A medium end military grade assault rifle. On the receiver is a label that says 'for authorized use only.'
   components: &lecterComponents
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Rifles/lecter.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/lecter.rsi
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Rifles/lecter.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/lecter.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 3
@@ -65,9 +65,9 @@
     One of the heaviest small arms to grace Security's armory, this rifle is a modern take on a classic, informally dubbed the "Right Arm of the Free World".
   components: &vulcanComponents
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Rifles/vulcan.rsi
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Rifles/vulcan.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 3
@@ -81,9 +81,9 @@
     The beginning of the end is heralded by the song of a Jackdaw.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
   - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
+    sprite: /_DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/jackdaw.ogg
@@ -107,11 +107,11 @@
     An old burst-fire rifle designed by Silver Industries that never left trials.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/gestio.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/gestio.rsi
   - type: Item
-    sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/gestio.rsi
   - type: Gun
     burstFireRate: 5
     shotsPerBurst: 2
@@ -130,9 +130,9 @@
     A civilian grade semi-automatic rifle with an internal magazine.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
+    sprite: /_NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:

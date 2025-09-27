@@ -4,7 +4,7 @@
   name: handful of buckshot shells
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
     layers:
     - state: buckshot_shell_1
       map: [ "base" ]
@@ -23,7 +23,7 @@
   name: handful of shotgun slugs
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
     layers:
     - state: slug_shell_1
       map: [ "base" ]
@@ -42,7 +42,7 @@
   name: handful of incendiary slugs
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
     layers:
     - state: incendiary_slug_1
       map: [ "base" ]
@@ -61,7 +61,7 @@
   name: handful of beanbag slugs
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
     layers:
     - state: beanbag_slug_1
       map: [ "base" ]
@@ -80,7 +80,7 @@
   name: handful of flechette shells
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
     layers:
     - state: flechette_shell_1
       map: [ "base" ]
@@ -99,7 +99,7 @@
   name: handful of incendiary buckshot shells
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
+    sprite: /_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
     layers:
     - state: incen_buckshot_1
       map: [ "base" ]

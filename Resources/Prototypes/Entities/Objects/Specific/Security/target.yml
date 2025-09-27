@@ -4,7 +4,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Specific/Security/target.rsi
+    sprite: /Objects/Specific/Security/target.rsi
     state: target_stake
     noRot: true
   - type: Repairable
@@ -56,7 +56,7 @@
   description: A shooting target. This one is a human.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Security/target.rsi
+    sprite: /Objects/Specific/Security/target.rsi
     state: target_h
 
 - type: entity
@@ -66,7 +66,7 @@
   description: A shooting target. This one is a syndicate agent.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Security/target.rsi
+    sprite: /Objects/Specific/Security/target.rsi
     state: target_s
 
 - type: entity
@@ -76,7 +76,7 @@
   description: A shooting target. This one is a clown.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Security/target.rsi
+    sprite: /Objects/Specific/Security/target.rsi
     state: target_c
 
 # put it on a salvage or something
@@ -87,7 +87,7 @@
   description: A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Security/target.rsi
+    sprite: /Objects/Specific/Security/target.rsi
     state: target_f
   - type: Destructible
     thresholds:

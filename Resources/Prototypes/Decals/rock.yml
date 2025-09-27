@@ -4,7 +4,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt1
 
 - type: decal
@@ -13,7 +13,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt2
 
 - type: decal
@@ -22,7 +22,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt3
 
 - type: decal
@@ -31,7 +31,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt4
 
 - type: decal
@@ -40,7 +40,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt5
 
 - type: decal
@@ -49,7 +49,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt6
 
 - type: decal
@@ -58,7 +58,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt7
 
 - type: decal
@@ -67,7 +67,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt8
 
 - type: decal
@@ -76,5 +76,5 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: Decals/basalt.rsi
+    sprite: /Decals/basalt.rsi
     state: basalt9

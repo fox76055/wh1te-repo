@@ -19,7 +19,7 @@
   - type: MobState
   - type: Sprite
     drawdepth: Mobs
-    sprite: Nyanotrasen/Mobs/Pets/pitbull.rsi
+    sprite: /Nyanotrasen/Mobs/Pets/pitbull.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: pibble

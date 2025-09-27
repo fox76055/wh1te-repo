@@ -7,7 +7,7 @@
   - type: Clickable
   - type: Sprite
     noRot: true
-    sprite: Objects/Decoration/Flora/flora_rockssolid.rsi
+    sprite: /Objects/Decoration/Flora/flora_rockssolid.rsi
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -42,7 +42,7 @@
   - type: Clickable
   - type: Sprite
     noRot: true
-    sprite: Objects/Decoration/Flora/flora_trees.rsi
+    sprite: /Objects/Decoration/Flora/flora_trees.rsi
     drawdepth: Overdoors
     offset: 0,0.9
   - type: Physics
@@ -97,7 +97,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Decoration/Flora/flora_treessnow.rsi
+    sprite: /Objects/Decoration/Flora/flora_treessnow.rsi
     offset: 0,0.7
   - type: Fixtures
     fixtures:
@@ -115,7 +115,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Decoration/Flora/flora_treeslarge.rsi
+    sprite: /Objects/Decoration/Flora/flora_treeslarge.rsi
     offset: 0,1.55
   - type: Fixtures
     fixtures:
@@ -133,7 +133,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Decoration/Flora/flora_treesconifer.rsi
+    sprite: /Objects/Decoration/Flora/flora_treesconifer.rsi
     offset: 0,1.15
   - type: Fixtures
     fixtures:
@@ -178,7 +178,7 @@
             sound:
               collection: GlassBreak
   - type: Sprite
-    sprite: Objects/Decoration/Flora/flora_stalagmite.rsi
+    sprite: /Objects/Decoration/Flora/flora_stalagmite.rsi
     layers:
     - state: stalagmite1
       map: ["random"]
@@ -197,7 +197,7 @@
   id: FloraGreyStalagmite
   components:
   - type: Sprite
-    sprite: Objects/Decoration/Flora/flora_stalagmite.rsi
+    sprite: /Objects/Decoration/Flora/flora_stalagmite.rsi
     layers:
     - state: grey_stalagmite1
       map: ["random"]
@@ -369,7 +369,7 @@
   description: The leaves are whispering about you.
   components:
   - type: Sprite
-    sprite: Objects/Decoration/Flora/flora_shadow_trees.rsi
+    sprite: /Objects/Decoration/Flora/flora_shadow_trees.rsi
 
 - type: entity
   parent: BaseTree
@@ -382,7 +382,7 @@
     energy: 4.5
     color: "#6270bb"
   - type: Sprite
-    sprite: Objects/Decoration/Flora/flora_treeslight.rsi
+    sprite: /Objects/Decoration/Flora/flora_treeslight.rsi
     layers:
     - state: tree01
       map: ["random"]

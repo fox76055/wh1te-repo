@@ -5,14 +5,14 @@
   description: Submachine gun Chekhov 45. Magnum Shortened. A shortened version of the PPC-45 was developed in the late 2550s and early 2560s to equip crews of combat vehicles, space marines. It is also used in the KGB SSSP and security structures due to its small size.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
+    sprite: /ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
+    sprite: /ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
   - type: Gun
     fireRate: 6
     selectedMode: FullAuto
@@ -56,14 +56,14 @@
   description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ump.rsi
+    sprite: /ADT/Objects/Weapons/Guns/SMGs/ump.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: ADT/Objects/Weapons/Guns/SMGs/ump.rsi
+    sprite: /ADT/Objects/Weapons/Guns/SMGs/ump.rsi
   - type: Gun
     fireRate: 3
     selectedMode: FullAuto

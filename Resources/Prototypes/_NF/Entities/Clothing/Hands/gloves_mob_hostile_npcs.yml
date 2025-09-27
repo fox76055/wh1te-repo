@@ -9,17 +9,17 @@
   components:
   - type: Unremoveable
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: /Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#535353"
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
+      - sprite: /Objects/Weapons/Guns/SMGs/atreides.rsi
         state: inhand-left
 
 - type: entity
@@ -32,10 +32,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/Rifles/ak.rsi
+      - sprite: /Objects/Weapons/Guns/Rifles/ak.rsi
         state: inhand-left
 
 - type: entity
@@ -48,10 +48,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
+      - sprite: /Objects/Weapons/Guns/Launchers/china_lake.rsi
         state: inhand-left
 
 - type: entity
@@ -64,10 +64,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+      - sprite: /Objects/Weapons/Guns/Pistols/viper.rsi
         state: inhand-left
 
 - type: entity
@@ -80,9 +80,9 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/mercbattle.rsi
+      - sprite: /Clothing/Hands/Gloves/mercbattle.rsi
         state: equipped-HAND
-      - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+      - sprite: /Objects/Weapons/Guns/Pistols/mk58.rsi
         state: inhand-right
 
 - type: entity
@@ -95,11 +95,11 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/fingerless.rsi
+      - sprite: /Clothing/Hands/Gloves/fingerless.rsi
         state: equipped-HAND
-      - sprite: _NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
         state: inhand-right
-      - sprite: _NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
         state: inhand-left
 
 - type: entity
@@ -112,9 +112,9 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/fingerless.rsi
+      - sprite: /Clothing/Hands/Gloves/fingerless.rsi
         state: equipped-HAND
-      - sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
+      - sprite: /Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -127,9 +127,9 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/mercbattle.rsi
+      - sprite: /Clothing/Hands/Gloves/mercbattle.rsi
         state: equipped-HAND
-      - sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
+      - sprite: /Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -142,9 +142,9 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/fingerless.rsi
+      - sprite: /Clothing/Hands/Gloves/fingerless.rsi
         state: equipped-HAND
-      - sprite: _NF/Objects/Weapons/Guns/Rifles/repeater.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Rifles/repeater.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -157,9 +157,9 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/mercbattle.rsi
+      - sprite: /Clothing/Hands/Gloves/mercbattle.rsi
         state: equipped-HAND
-      - sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Rifles/gestio.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -172,9 +172,9 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/mercbattle.rsi
+      - sprite: /Clothing/Hands/Gloves/mercbattle.rsi
         state: equipped-HAND
-      - sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -187,11 +187,11 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/mercbattle.rsi
+      - sprite: /Clothing/Hands/Gloves/mercbattle.rsi
         state: equipped-HAND
-      - sprite: Objects/Weapons/Melee/shields.rsi
+      - sprite: /Objects/Weapons/Melee/shields.rsi
         state: metal-inhand-left
-      - sprite: Objects/Tools/Hydroponics/hatchet.rsi
+      - sprite: /Objects/Tools/Hydroponics/hatchet.rsi
         state: inhand-right
 
 - type: entity
@@ -204,11 +204,11 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/fingerless.rsi
+      - sprite: /Clothing/Hands/Gloves/fingerless.rsi
         state: equipped-HAND
-      - sprite: Objects/Weapons/Melee/shields.rsi
+      - sprite: /Objects/Weapons/Melee/shields.rsi
         state: metal-inhand-left
-      - sprite: Objects/Weapons/Melee/machete.rsi
+      - sprite: /Objects/Weapons/Melee/machete.rsi
         state: inhand-right
 
 - type: entity
@@ -221,11 +221,11 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/fingerless.rsi
+      - sprite: /Clothing/Hands/Gloves/fingerless.rsi
         state: equipped-HAND
-      - sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+      - sprite: /Objects/Weapons/Guns/Battery/laser_retro.rsi
         state: inhand-left-3
-      - sprite: Objects/Specific/Medical/Surgery/saw.rsi
+      - sprite: /Objects/Specific/Medical/Surgery/saw.rsi
         state: electric-inhand-right
 
 - type: entity
@@ -238,10 +238,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/Revolvers/python.rsi
+      - sprite: /Objects/Weapons/Guns/Revolvers/python.rsi
         state: inhand-left
 
 - type: entity
@@ -254,10 +254,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
+      - sprite: /Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
         state: inhand-left
 
 - type: entity
@@ -270,10 +270,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/Basic/spraynozzle.rsi
+      - sprite: /Objects/Weapons/Guns/Basic/spraynozzle.rsi
         state: inhand-left
 
 - type: entity
@@ -286,10 +286,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: _NF/Objects/Weapons/Guns/Crossbow/cult.rsi
+      - sprite: /_NF/Objects/Weapons/Guns/Crossbow/cult.rsi
         state: inhand-left
 
 - type: entity
@@ -302,10 +302,10 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+      - sprite: /Objects/Weapons/Guns/Battery/advancedlasergun.rsi
         state: inhand-left
 
 # This is some proper cursed stuff: due to layering of clothes sprites, gloves displayed under outer clothes
@@ -319,7 +319,7 @@
   components:
   - type: Unremoveable
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: /Clothing/Hands/Gloves/Color/color.rsi
     layers:
       - state: icon
         map: [ "gloves_decor" ]
@@ -327,11 +327,11 @@
     clothingVisuals:
       neck:
       # Gloves
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         map: [ "gloves_decor" ]
       # Weapon
-      - sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      - sprite: /Objects/Weapons/Melee/baseball_bat.rsi
         state: wielded-inhand-right
   - type: RandomSprite
     available:
@@ -347,11 +347,11 @@
     clothingVisuals:
       neck:
       # Gloves
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         map: [ "gloves_decor" ]
       # Weapon
-      - sprite: Objects/Weapons/Melee/fireaxe.rsi
+      - sprite: /Objects/Weapons/Melee/fireaxe.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -363,11 +363,11 @@
     clothingVisuals:
       neck:
       # Gloves
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         map: [ "gloves_decor" ]
       # Weapon
-      - sprite: Objects/Weapons/Melee/sledgehammer.rsi
+      - sprite: /Objects/Weapons/Melee/sledgehammer.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -379,11 +379,11 @@
     clothingVisuals:
       neck:
       # Gloves
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         map: [ "gloves_decor" ]
       # Weapon
-      - sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
+      - sprite: /Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -395,11 +395,11 @@
     clothingVisuals:
       neck:
       # Gloves
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         map: [ "gloves_decor" ]
       # Weapon
-      - sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
+      - sprite: /Objects/Weapons/Guns/SMGs/drozd.rsi
         state: wielded-inhand-right
 
 - type: entity
@@ -411,9 +411,9 @@
     clothingVisuals:
       neck:
       # Gloves
-      - sprite: Clothing/Hands/Gloves/Color/color.rsi
+      - sprite: /Clothing/Hands/Gloves/Color/color.rsi
         state: equipped-HAND
         map: [ "gloves_decor" ]
       # Weapon
-      - sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+      - sprite: /Objects/Weapons/Guns/Battery/laser_gun.rsi
         state: wielded-inhand-right

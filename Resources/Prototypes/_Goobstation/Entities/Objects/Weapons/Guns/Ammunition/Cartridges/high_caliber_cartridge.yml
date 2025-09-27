@@ -10,7 +10,7 @@
   - type: CartridgeAmmo
     proto: BulletHighCaliber
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
@@ -31,7 +31,7 @@
   - type: CartridgeAmmo
     proto: BulletHighCaliberExplosive
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    sprite: /Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]

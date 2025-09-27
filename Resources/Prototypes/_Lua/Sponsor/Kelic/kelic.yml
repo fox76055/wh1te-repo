@@ -13,9 +13,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/backpack.rsi
+    sprite: /_Lua/Sponsor/Kelic/backpack.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/backpack.rsi
+    sprite: /_Lua/Sponsor/Kelic/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -57,9 +57,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/belt.rsi
+    sprite: /_Lua/Sponsor/Kelic/belt.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/belt.rsi
+    sprite: /_Lua/Sponsor/Kelic/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -78,7 +78,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/cloak.rsi
+    sprite: /_Lua/Sponsor/Kelic/cloak.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -91,9 +91,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/hardsuit.rsi
+    sprite: /_Lua/Sponsor/Kelic/hardsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/hardsuit.rsi
+    sprite: /_Lua/Sponsor/Kelic/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitKelic
   - type: Item
@@ -132,9 +132,9 @@
   description: Старая разработка не вышедшая в массовое производство. Теперь личная вещь, скорее всего выданная пользователю за какие-то заслуги перед командованием.
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/helmet.rsi
+    sprite: /_Lua/Sponsor/Kelic/helmet.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/helmet.rsi
+    sprite: /_Lua/Sponsor/Kelic/helmet.rsi
   - type: PointLight
     color: "#d46f11"
     radius: 7
@@ -154,9 +154,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/gloves.rsi
+    sprite: /_Lua/Sponsor/Kelic/gloves.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/gloves.rsi
+    sprite: /_Lua/Sponsor/Kelic/gloves.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -169,9 +169,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/magboots.rsi
+    sprite: /_Lua/Sponsor/Kelic/magboots.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/magboots.rsi
+    sprite: /_Lua/Sponsor/Kelic/magboots.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: ClothingSpeedModifier
@@ -195,9 +195,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/hud.rsi
+    sprite: /_Lua/Sponsor/Kelic/hud.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/hud.rsi
+    sprite: /_Lua/Sponsor/Kelic/hud.rsi
   - type: FlashImmunity
   - type: ShowHealthBars
     damageContainers:
@@ -215,9 +215,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/jumpsuit.rsi
+    sprite: /_Lua/Sponsor/Kelic/jumpsuit.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/jumpsuit.rsi
+    sprite: /_Lua/Sponsor/Kelic/jumpsuit.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -230,9 +230,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/gasmask.rsi
+    sprite: /_Lua/Sponsor/Kelic/gasmask.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/gasmask.rsi
+    sprite: /_Lua/Sponsor/Kelic/gasmask.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -245,10 +245,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/hypo.rsi
+    sprite: /_Lua/Sponsor/Kelic/hypo.rsi
     state: hypo
   - type: Item
-    sprite: _Lua/Sponsor/Kelic/hypo.rsi
+    sprite: /_Lua/Sponsor/Kelic/hypo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
@@ -271,14 +271,14 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/crusher.rsi
+    sprite: /_Lua/Sponsor/Kelic/crusher.rsi
     layers:
     - state: icon
   - type: Item
-    sprite: _Lua/Sponsor/Kelic/crusher.rsi
+    sprite: /_Lua/Sponsor/Kelic/crusher.rsi
     size: Normal
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/crusher.rsi
+    sprite: /_Lua/Sponsor/Kelic/crusher.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -292,9 +292,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: _Lua/Sponsor/Kelic/pda.rsi
+    sprite: /_Lua/Sponsor/Kelic/pda.rsi
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/pda.rsi
+    sprite: /_Lua/Sponsor/Kelic/pda.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: CartridgeLoader
@@ -316,9 +316,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/ring_eirin.rsi
+    sprite: /_Lua/Sponsor/Kelic/ring_eirin.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/ring_eirin.rsi
+    sprite: /_Lua/Sponsor/Kelic/ring_eirin.rsi
   - type: Item
     size: Tiny
   - type: StaticPrice
@@ -332,9 +332,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _Lua/Sponsor/Kelic/ring_kelik.rsi
+    sprite: /_Lua/Sponsor/Kelic/ring_kelik.rsi
   - type: Clothing
-    sprite: _Lua/Sponsor/Kelic/ring_kelik.rsi
+    sprite: /_Lua/Sponsor/Kelic/ring_kelik.rsi
   - type: Item
     size: Tiny
   - type: StaticPrice
